@@ -46,15 +46,18 @@ JOB_PORTALS = {
     ],
     # Private Job Portals
     'private': [
-        'https://www.naukri.com',
-        'https://www.indeed.co.in',
-        'https://www.monster.com',
-        'https://www.shine.com',
-        'https://www.timesjobs.com',
-        'https://www.glassdoor.co.in',
-        'https://www.foundit.in',
-        'https://www.freshersworld.com',
-        'https://www.internshala.com'
+    "https://www.sarkarinaukridaily.in/",
+    "https://www.fresherslive.com/govt-jobs",
+    "https://www.jobsarkari.com/",
+    "https://www.naukrigulf.com/government-jobs",
+    "https://rojgarresult.com/",
+    "https://www.employmentnews.gov.in/",
+    "https://www.latestgovtjobs.in/",
+    "https://www.indiagovtjobs.in/",
+    "https://www.kirannewsagency.com/",
+    "https://www.mysarkarinaukri.com/",
+    "https://sarkariprep.in/",
+    "https://linkingsky.com/ '
     ]
 }
 
