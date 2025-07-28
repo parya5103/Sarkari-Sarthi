@@ -57,7 +57,7 @@ JOB_PORTALS = {
     "https://www.kirannewsagency.com/",
     "https://www.mysarkarinaukri.com/",
     "https://sarkariprep.in/",
-    "https://linkingsky.com/ '
+    "https://linkingsky.com/ "
     ]
 }
 
