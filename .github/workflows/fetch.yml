@@ -4,25 +4,25 @@ on:
   schedule:
     # Runs daily at 5 AM IST (11:30 PM UTC previous day)
     - cron: '30 23 * * *'
-  workflow_dispatch: # Allow manual triggering
+  workflow_dispatch:
   push:
     branches: [ main ]
 
 jobs:
   fetch-and-deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-    
+
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
-    
+
     - name: Cache pip dependencies
       uses: actions/cache@v3
       with:
@@ -30,30 +30,28 @@ jobs:
         key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
         restore-keys: |
           ${{ runner.os }}-pip-
-    
+
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-    
+
     - name: Create logs directory
       run: mkdir -p logs
-    
+
     - name: Run job fetcher
       run: |
         python fetch_jobs.py 2>&1 | tee logs/fetch_$(date +%Y%m%d_%H%M%S).log
       env:
         PYTHONUNBUFFERED: 1
-    
+
     - name: Check for new jobs
       id: check_jobs
       run: |
-        # Count jobs in manifest
         if [ -f "jobs/job_manifest.json" ]; then
           JOB_COUNT=$(python -c "import json; data=json.load(open('jobs/job_manifest.json')); print(data.get('total_jobs', 0))")
           echo "job_count=$JOB_COUNT" >> $GITHUB_OUTPUT
-          
-          # Check if there are new jobs (simple check based on file modification time)
+
           if [ -n "$(find jobs -name '*.json' -newer .git/FETCH_HEAD 2>/dev/null)" ]; then
             echo "new_jobs=true" >> $GITHUB_OUTPUT
           else
@@ -63,36 +61,36 @@ jobs:
           echo "job_count=0" >> $GITHUB_OUTPUT
           echo "new_jobs=false" >> $GITHUB_OUTPUT
         fi
-    
+
     - name: Send Telegram notification for new jobs
       if: steps.check_jobs.outputs.new_jobs == 'true'
       run: |
         python telegram_notifier.py
       env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_GROUP_CHAT_ID: ${{ secrets.TELEGRAM_GROUP_CHAT_ID }}
         PYTHONUNBUFFERED: 1
-    
+
     - name: Upload scraper logs
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: scraper-logs-${{ github.run_number }}
         path: logs/
         retention-days: 30
-    
+
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add jobs/
         git add logs/
-        
-        # Only commit if there are changes
+
         if ! git diff --staged --quiet; then
           git commit -m "🤖 Auto-update jobs data - $(date '+%Y-%m-%d %H:%M:%S')"
           git push
         else
           echo "No changes to commit"
-        fi
-    
+
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       if: github.ref == 'refs/heads/main'
@@ -105,56 +103,40 @@ jobs:
           *.py
           requirements.txt
           README.md
-    
+
     - name: Send deployment notification
       if: success()
       run: |
         curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
           -d chat_id="${{ secrets.TELEGRAM_GROUP_CHAT_ID }}" \
           -d text="✅ SarkariSarthi 2.0 successfully updated and deployed!%0A📊 Total Jobs: ${{ steps.check_jobs.outputs.job_count }}%0A🔗 Visit: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}"
-      env:
-        TELEGRAM_BOT_TOKEN: "8124593711:AAFeVuf_x7ok_8PJx97e92SaDpcdTwafYlg"
-        TELEGRAM_GROUP_CHAT_ID: "-1002642236931"
-    
+
     - name: Send failure notification
       if: failure()
       run: |
         curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
           -d chat_id="${{ secrets.TELEGRAM_GROUP_CHAT_ID }}" \
           -d text="❌ SarkariSarthi 2.0 job fetch failed!%0A🔍 Check the logs for details.%0A📅 Time: $(date '+%Y-%m-%d %H:%M:%S UTC')"
-      env:
-        TELEGRAM_BOT_TOKEN: "8124593711:AAFeVuf_x7ok_8PJx97e92SaDpcdTwafYlg"
-        TELEGRAM_GROUP_CHAT_ID: "-1002642236931"
 
-  # Separate job for health check
   health-check:
     runs-on: ubuntu-latest
     needs: fetch-and-deploy
     if: always()
-    
+
     steps:
     - name: Website Health Check
       run: |
-        # Wait a bit for deployment to complete
         sleep 30
-        
-        # Check if the website is accessible
         RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}")
-        
         if [ "$RESPONSE" = "200" ]; then
           echo "✅ Website is accessible"
         else
           echo "❌ Website returned HTTP $RESPONSE"
           exit 1
-        fi
-    
+
     - name: Send health check notification
       if: failure()
       run: |
         curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
           -d chat_id="${{ secrets.TELEGRAM_GROUP_CHAT_ID }}" \
           -d text="⚠️ SarkariSarthi 2.0 website health check failed!%0A🌐 URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}%0A📅 Time: $(date '+%Y-%m-%d %H:%M:%S UTC')"
-      env:
-        TELEGRAM_BOT_TOKEN: "8124593711:AAFeVuf_x7ok_8PJx97e92SaDpcdTwafYlg"
-        TELEGRAM_GROUP_CHAT_ID: "-1002642236931"
-
