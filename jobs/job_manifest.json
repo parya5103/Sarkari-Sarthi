@@ -1,8 +1,8 @@
 {
-  "last_updated": "2025-08-02T23:49:39.481055",
-  "total_jobs": 138,
-  "active_jobs": 138,
-  "expired_jobs": 2,
+  "last_updated": "2025-08-03T23:46:46.259729",
+  "total_jobs": 139,
+  "active_jobs": 139,
+  "expired_jobs": 0,
   "jobs": [
     {
       "id": "70cdfc32ffea4d3ef253c798c6b48494",
@@ -2175,6 +2175,23 @@
       "skills": [],
       "scraped_at": "2025-08-02T23:47:21.386705",
       "links": []
+    },
+    {
+      "id": "a4caa3404623ad6ce67ce9e3898ea405",
+      "title": "IB SA Executive 2025 Application Form 4987 Posts Notification",
+      "url": "https://www.jobriya.in/ib-sa-executive-recruitment-2025/",
+      "source": "www.jobriya.com",
+      "description": "IB Security Assistant Recruitment 2025 OUT! Intelligence Bureau Has Announced Recruitment for 4987 Security Assistant (Executive) Posts. MHA IB Security Assitant Online Application Form 2025, Ministry of Home Affairs Security Assistant Vacancy 2025 Intelligence Bureau IB Security Assistant Notification Apply Online IB Security Assistant Recruitment 2025 Last Updated on 27.07.2025 Intelligence Bureau, Ministry of Home Affairs Has Released IB Secuity Assistant Recruitment 2025 for a Total of 49...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "15/1/76"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-08-03T23:45:33.987708",
+      "links": [
+        "https://mha.gov.in"
+      ]
     }
   ]
 }
