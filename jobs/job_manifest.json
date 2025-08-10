@@ -1,8 +1,8 @@
 {
   "last_updated": "2025-08-09T23:44:50.075235",
-  "total_jobs": 211,
-  "active_jobs": 211,
-  "expired_jobs": 5,
+  "total_jobs": 210,
+  "active_jobs": 210,
+  "expired_jobs": 1,
   "jobs": [
     {
       "id": "70cdfc32ffea4d3ef253c798c6b48494",
@@ -245,24 +245,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2025-07-28T19:02:41.923656",
-      "links": []
-    },
-    {
-      "id": "00d447bc786841371861906ae80f480a",
-      "title": "DHS Erode Recruitment 2025 - Apply Offline for 120 Laboratory Technician and Other Posts",
-      "url": "https://allgovernmentjobs.in/dhs-erode-recruitment-2025-apply-offline-for-120-laboratory-technician-and-other-posts/33707",
-      "source": "allgovernmentjobs.in",
-      "description": "The District Health Society, Erode (DHS Erode) has officially released the notification to fill the vacancies of 120 Staff Nurses, Lab Technicians, and Pharmacists Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their GNM, B.Sc Nursing, B. Pharm, D. Pharm, 12th, and DMLT can apply for the DHS Erode Recruitment 2025 . The interested applicants can apply in offline mode. Here we have m...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "09-08-2025",
-        "found_date": "26-07-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2025-07-28T19:02:41.923685",
       "links": []
     },
     {
