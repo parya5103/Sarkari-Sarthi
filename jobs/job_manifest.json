@@ -1,8 +1,8 @@
 {
-  "last_updated": "2025-08-13T23:45:41.887079",
-  "total_jobs": 251,
-  "active_jobs": 251,
-  "expired_jobs": 1,
+  "last_updated": "2025-08-14T23:45:13.491755",
+  "total_jobs": 264,
+  "active_jobs": 264,
+  "expired_jobs": 3,
   "jobs": [
     {
       "id": "70cdfc32ffea4d3ef253c798c6b48494",
@@ -279,24 +279,6 @@
         "Word"
       ],
       "scraped_at": "2025-07-28T19:02:41.923749",
-      "links": []
-    },
-    {
-      "id": "eb3d567c2f88fb5dc0a9d3169663077e",
-      "title": "LHMC Recruitment 2025 - Walk-in interview for 123 Senior Resident Posts",
-      "url": "https://allgovernmentjobs.in/lhmc-recruitment-2025-walk-in-interview-for-123-senior-resident-posts/33703",
-      "source": "allgovernmentjobs.in",
-      "description": "The Lady Hardinge Medical College (LHMC) has officially released the notification to fill 123 Senior Resident Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their BDS, Diploma, Post-graduation, MBBS, MDS, DNB, and Post-graduation can apply for the LHMC Recruitment 2025 . The interested applicants can attend the walk-in interview. Here we have mentioned the education details, age lim...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "13-08-2025",
-        "found_date": "28-07-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2025-07-28T19:02:41.923768",
       "links": []
     },
     {
@@ -1329,22 +1311,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2025-07-31T23:44:41.631963",
-      "links": []
-    },
-    {
-      "id": "6d4c55db5685c0090b74f5dc9e53da19",
-      "title": "ECHS Recruitment 2025 - Walk-in interview for Medical Officer Posts",
-      "url": "https://allgovernmentjobs.in/echs-recruitment-2025-walk-in-interview-for-medical-officer-posts/33800",
-      "source": "allgovernmentjobs.in",
-      "description": "The Ex-Servicemen Contributory Health Scheme (ECHS) has officially released the notification to fill the vacancies of 01 Medical Officer Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their 10th pass can apply for the ECHS Recruitment 2025 . The interested applicants can attend the interview. Here we have mentioned the education details, age limit, selection process, application fee...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "13-08-2025",
-        "found_date": "30-07-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-07-31T23:44:41.632003",
       "links": []
     },
     {
@@ -3380,22 +3346,6 @@
       ]
     },
     {
-      "id": "90edb986d78b1fb0e0629ccbee9a80be",
-      "title": "MPEDA Recruitment 2025 - Walk- in interview for 02 Lab Trainee Posts",
-      "url": "https://allgovernmentjobs.in/mpeda-recruitment-2025-walk-in-interview-for-02-lab-trainee-posts/34067",
-      "source": "allgovernmentjobs.in",
-      "description": "The Marine Products Exports Development Authority (MPEDA) has officially released the notification to fill the vacancies of 02 Lab Trainee Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed Any Degree and post-graduation can apply for the MPEDA Recruitment 2025 . The interested applicants can attend the walk-in interview. Here we have mentioned the education details, age limit, selectio...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "13-08-2025",
-        "found_date": "26-1-1766"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-08-12T23:42:31.091709",
-      "links": []
-    },
-    {
       "id": "1ceb9f63d8b37758dca5436f2aa2cde4",
       "title": "UCO Bank Recruitment 2025 - Apply Online for Chief Risk Officer Post",
       "url": "https://allgovernmentjobs.in/uco-bank-recruitment-2025-apply-online-for-chief-risk-officer-post/34066",
@@ -3956,6 +3906,263 @@
       "scraped_at": "2025-08-13T23:42:54.016443",
       "links": [
         "https://rpsc.rajasthan.gov.in/"
+      ]
+    },
+    {
+      "id": "e65787146fceae6f570ea3c810992207",
+      "title": "MGU Kerala Recruitment 2025 - Apply Offline for Security Staff Post",
+      "url": "https://allgovernmentjobs.in/mgu-kerala-recruitment-2025-apply-offline-for-security-staff-post/34137",
+      "source": "allgovernmentjobs.in",
+      "description": "Mahatma Gandhi University, Kerala (MGU Kerala) has declared the official notification for 2025. To fill up the vacancies for Security Staff Jobs. Those candidates who have qualified in the 10th Pass can grab this chance and apply for the MGU Kerala Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply on or before the last date of application. For...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "14-08-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-08-14T23:42:24.309326",
+      "links": []
+    },
+    {
+      "id": "6dd48c42b03ebc8581f0dd61f72dc6bf",
+      "title": "Puducherry Police Recruitment 2025 - Apply Online for 218 Sub Inspector and Other Posts",
+      "url": "https://allgovernmentjobs.in/puducherry-police-recruitment-2025-apply-online-for-218-sub-inspector-and-other-posts/34136",
+      "source": "allgovernmentjobs.in",
+      "description": "The Puducherry Police Department (Puducherry Police) has officially released the notification to fill the vacancies of 218 Sub Inspector, Police Constable Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree, and 12th can apply for the Puducherry Police Recruitment 2025 . The interested applicants can apply in online mode. Here we have mentioned the education details, age...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "12-09-2025",
+        "found_date": "13-08-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Analyst"
+      ],
+      "scraped_at": "2025-08-14T23:42:24.309353",
+      "links": []
+    },
+    {
+      "id": "13ad13e1fca87bfccf0078daf42d260d",
+      "title": "RRB Recruitment 2025 - Apply Online for 272 Nursing Superintendent Posts",
+      "url": "https://allgovernmentjobs.in/rrb-recruitment-2025-apply-online-for-272-nursing-superintendent-posts/34135",
+      "source": "allgovernmentjobs.in",
+      "description": "The Railway Recruitment Board (RRB) has officially released the notification to fill the vacancies of 272 Nursing Superintendent Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their GNM, B.Sc Nursing can apply for the RRB Recruitment 2025 . The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, application fee,...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "08-09-2025",
+        "found_date": "09-08-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2025-08-14T23:42:24.309376",
+      "links": []
+    },
+    {
+      "id": "1507f0e704fd38a24265ad1e11f5b0aa",
+      "title": "CGCRI Recruitment 2025 - Apply Offline for Project Associate Post",
+      "url": "https://allgovernmentjobs.in/cgcri-recruitment-2025-apply-offline-for-project-associate-post/34134",
+      "source": "allgovernmentjobs.in",
+      "description": "Central Glass and Ceramic Research Institute (CGCRI) has announced the official notification for 2025. To fill up the vacancies for Project Associate Jobs. Those candidates who have qualified in the M.Sc., B.E/ B.Tech can grab this chance and apply for the CGCRI Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and apply for these posts. Interested and eligible candidates can apply on or before the last date of applicati...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "04-08-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Analyst"
+      ],
+      "scraped_at": "2025-08-14T23:42:24.309395",
+      "links": []
+    },
+    {
+      "id": "78295873ce97753ebf4554a0fe3c1f23",
+      "title": "MITRA Recruitment 2025 - Apply Online for Environment and Forestry Specialist Posts",
+      "url": "https://allgovernmentjobs.in/mitra-recruitment-2025-apply-online-for-environment-and-forestry-specialist-posts/34133",
+      "source": "allgovernmentjobs.in",
+      "description": "The Maharashtra Institution for Transformation (MITRA) has officially released the notification to fill the vacancies of 01 Environment and Forestry Specialist Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Post-graduation or diploma can apply for the MITRA Recruitment 2025 . The interested applicants can apply in online mode. Here we have mentioned the education details, age ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "25-08-2025",
+        "found_date": "13-08-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-08-14T23:42:24.309415",
+      "links": []
+    },
+    {
+      "id": "d02e9c9c76889b85707d1b0f6f7c65b7",
+      "title": "NABARD Recruitment 2025 - Apply Online for 05 Legal Officer and Other posts",
+      "url": "https://allgovernmentjobs.in/nabard-recruitment-2025-apply-online-for-05-legal-officer-and-other-posts/34132",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Bank for Agriculture and Rural Development (NABARD) has announced the official notification for 2025. To fill up the vacancies for 05 Legal Officers, GIS Analyst, and Software Developers Jobs. Those candidates who have qualified in Any Degree, LLB, B.E/ B.Tech, M.E/ M.Tech can grab this chance and apply for these posts. Interested and eligible candidates can apply online through the website on or before the last date of application. Here, we mentioned the age limit, selection pro...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "14-08-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Analyst"
+      ],
+      "scraped_at": "2025-08-14T23:42:24.309433",
+      "links": []
+    },
+    {
+      "id": "3e8bb49e8066d74c21f5d849e3f47cd8",
+      "title": "ECHS Recruitment 2025 - Apply Offline for 13 Driver, Pharmacist and Other Posts",
+      "url": "https://allgovernmentjobs.in/echs-recruitment-2025-apply-offline-for-13-driver-pharmacist-and-other-posts/34131",
+      "source": "allgovernmentjobs.in",
+      "description": "The Ex-Service Contributory Health Scheme (ECHS) has officially released the notification to fill the vacancies of 13 Gynecologists, Radiologists, Medical Specialists, Medical Officers, Nursing Assistants, Pharmacists, Lab Technicians, Drivers, and  Dental Technicians. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their BDS, B. Pharm, MD/MS, DNB, 10th, 12th, 8th, DMLT, PGDM, GNM, B.Sc Nur...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "20-08-2025",
+        "found_date": "14-08-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-08-14T23:42:24.309451",
+      "links": []
+    },
+    {
+      "id": "5db0295bd09e993761b4e99178f2df90",
+      "title": "THSTI Recruitment 2025 - Apply Online for Consultant Post",
+      "url": "https://allgovernmentjobs.in/thsti-recruitment-2025-apply-online-for-consultant-post/34130",
+      "source": "allgovernmentjobs.in",
+      "description": "The Translational Health Science and Technology Institute (THSTI) has announced the latest job notification for 2025. To fill up the vacancies for a Consultant - Quality Assurance Position. Those candidates who have qualified in the MBBS, BDS, BHMS, BAMS, BVSc, and M.Sc can grab this chance and apply for the THSTI Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "12-08-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-08-14T23:42:24.309470",
+      "links": []
+    },
+    {
+      "id": "1a5c1fe18011be2d3bd55d52ec0367a3",
+      "title": "RVNL Recruitment 2025 - Apply Offline for Chief Project Manager Posts",
+      "url": "https://allgovernmentjobs.in/rvnl-recruitment-2025-apply-offline-for-chief-project-manager-posts/34129",
+      "source": "allgovernmentjobs.in",
+      "description": "The Rail Vikas Nigam Limited (RVNL) has officially released the notification to fill the vacancies of 01 Chief Project Manager Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech in Civil Engineering can apply for the RVNL Recruitment 2025 . The interested applicants can apply in offline mode. Here we have mentioned the education details, age limit, selection process, ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "12-09-2025",
+        "found_date": "13-08-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Analyst"
+      ],
+      "scraped_at": "2025-08-14T23:42:24.309487",
+      "links": []
+    },
+    {
+      "id": "774a950b988ccff08936830d21ccce0c",
+      "title": "ANGRAU Recruitment 2025 - Walk-in-Interview for Research Associate Post",
+      "url": "https://allgovernmentjobs.in/angrau-recruitment-2025-walk-in-interview-for-research-associate-post/34128",
+      "source": "allgovernmentjobs.in",
+      "description": "Acharya NG Ranga Agricultural University (ANGRAU) has announced the official notification for 2025. To fill up the vacancies for Research Associate Jobs. Those candidates who have qualified in the M.Sc., Ph.D can grab this chance and apply for the ANGRAU Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can attend the interview at the address given belo...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "22-08-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-08-14T23:42:24.309506",
+      "links": []
+    },
+    {
+      "id": "b7d4ffc74b6ba552028ed885740192c9",
+      "title": "Kerala PSC",
+      "url": "https://allgovernmentjobs.in/kerala-psc-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Mahatma Gandhi University, Kerala (MGU Kerala) has declared the official notification for 2025. To fill up the vaca .... The Kerala Veterinary and Animal Sciences University (KVASU) has released the notification for 2025. To fill up the vaca .... The Kerala Veterinary and Animal Science University (KVASU) has announced the official Notification for 2025. Allotted 0 .... The Kerala Veterinary and Animal Science University (KVASU) has announced the official Notification for 2025. Allotted 0 ......",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-08-14T23:42:24.309533",
+      "links": []
+    },
+    {
+      "id": "f57d62b5f801d77b91a82a76f5ff2703",
+      "title": "PWD Puducherry",
+      "url": "https://allgovernmentjobs.in/pwd-puducherry-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Puducherry Police Department (Puducherry Police) has officially released the notification to fill the vacancies of 2 .... The Puducherry Department of  Revenue and Disaster Management (DRDM) has recently published the Notification for 20 ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-08-14T23:42:24.309558",
+      "links": []
+    },
+    {
+      "id": "19ccf688b487df63ff2b823dc1df1c08",
+      "title": "THSTI",
+      "url": "https://allgovernmentjobs.in/thsti-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Translational Health Science and Technology Institute (THSTI) has announced the latest job notification for 202 .... The Translational Health Science and Technology Institute (THSTI) has announced the official notification for 2025. To f .... The Translational Health Science and Technology Institute (THSTI) has officially released the notification to fill the v .... The Translational Health Science and Technology (THSTI) has officially released the notification for 2025. To fill up th ......",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Medical",
+      "skills": [],
+      "scraped_at": "2025-08-14T23:42:24.309609",
+      "links": []
+    },
+    {
+      "id": "b4d2d42d7baa7b13dce774da276e4a93",
+      "title": "DSSSB Delhi High Court Court Attendant Online Form 2025 for 334 Post",
+      "url": "https://www.rojgarresult.com/dsssb-delhi-high-court-03-2025/",
+      "source": "www.rojgarresult.com",
+      "description": "DSSSB Delhi High Court DHC Various Post Advt No 03/2025 Various Post Recruitment 2025: Apply Online for 334 Post Post Update Date: 14-08-2025 Short Description: DSSSB Various Post Online Form 2025 | Advt No 03/2025 : Delhi Subordinate Service Selection Board (DSSSB) Delhi High Court DHC Official Notification is released and Online Form Now Started on 26 August 2025 to 24 September 2025 is Last Date for Upcoming DSSSB Advt No 03/2025 Examination, Vacancy 2025 Full Notification available at the...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "24/09/2025",
+        "found_date": "14-08-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-08-14T23:42:49.210199",
+      "links": []
+    },
+    {
+      "id": "57f43d22799a34964f30417d6a2ec9f6",
+      "title": "Bihar SHS ANM Online Form 2025 for 5006 Post",
+      "url": "https://www.rojgarresult.com/bihar-shs-anm-2025/",
+      "source": "www.rojgarresult.com",
+      "description": "Bihar Swastha Vibhag ANM Recruitment 2025: Apply for 5006 Post Post Date: 14-08-2025 Short Description: Bihar SHS ANM Recruitment 2025 Apply Online Form : Bihar Swastha Vibhag SHS ANM Online Form 2025, Notification has been released on the website @https://shs.bihar.gov.in/ & Application Form now started on 14 August 2025 to 28 August 2025 for Total 5006 Post Bihar State Health Society Jobs 2025. Get the direct link to download notification link available on Bihar SHS ANM Vacancy 2025 Officia...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "14-08-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-08-14T23:42:49.210222",
+      "links": [
+        "https://shs.bihar.gov.in/"
+      ]
+    },
+    {
+      "id": "be93735a03a9d5ac5a284f10a1617ad0",
+      "title": "Central Railway RRC CR Apprentices Online Form 2025",
+      "url": "https://www.rojgarresult.com/rrc-cr-apprentices-august-2025/",
+      "source": "www.rojgarresult.com",
+      "description": "RRC Railway Central Railway Apprentice Recruitment 2025: Apply for 2379 Post Post Date: 14-08-2025 Short Description: Railway RRC CR Apprentice Recruitment 2025 Apply Online Form : Railway Recruitment Cell Railway RRC CR Apprentice Online Form 2025, Notification has been released on the website @https://cr.indianrailways.gov.in/ & Application Form now started on 12 August 2025 to 11 September 2025 for Total 2379 Post Railway Recruitment Cell Jobs 2025. Get the direct link to download notifica...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "14-08-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "English",
+        "Hindi"
+      ],
+      "scraped_at": "2025-08-14T23:42:49.210242",
+      "links": [
+        "https://cr.indianrailways.gov.in/"
       ]
     }
   ]
