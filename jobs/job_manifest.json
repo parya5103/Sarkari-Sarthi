@@ -1,8 +1,8 @@
 {
   "last_updated": "2025-08-16T23:43:26.710209",
-  "total_jobs": 271,
-  "active_jobs": 271,
-  "expired_jobs": 0,
+  "total_jobs": 270,
+  "active_jobs": 270,
+  "expired_jobs": 1,
   "jobs": [
     {
       "id": "70cdfc32ffea4d3ef253c798c6b48494",
@@ -3409,24 +3409,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2025-08-12T23:42:31.091885",
-      "links": []
-    },
-    {
-      "id": "b46cf6e289609438f46b49c4df96768b",
-      "title": "NMC Bank Recruitment 2025 - Apply Offline for Officer Posts",
-      "url": "https://allgovernmentjobs.in/nmc-bank-recruitment-2025-apply-offline-for-officer-posts/34058",
-      "source": "allgovernmentjobs.in",
-      "description": "The Nanded Merchants Co-operative Bank (NMC Bank) has officially released the notification to fill the vacancies of 01 Officer Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree, B.Sc can apply for the NMC Recruitment 2025 . The interested applicants can apply in offline mode. Here we have mentioned the education details, age limit, selection process, application fee, s...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "16-08-2025",
-        "found_date": "12-08-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2025-08-12T23:42:31.091904",
       "links": []
     },
     {
