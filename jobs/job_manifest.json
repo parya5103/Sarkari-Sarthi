@@ -1,143 +1,9 @@
 {
-  "last_updated": "2025-09-05T23:41:27.180970",
-  "total_jobs": 277,
-  "active_jobs": 277,
-  "expired_jobs": 13,
+  "last_updated": "2025-09-08T23:41:53.050588",
+  "total_jobs": 275,
+  "active_jobs": 275,
+  "expired_jobs": 11,
   "jobs": [
-    {
-      "id": "bdd750fec93d91a9742fb1dbb68b598b",
-      "title": "RSSB Recruitment 2025 - Apply Online for 1535 Ayush Medical Officer Posts",
-      "url": "https://allgovernmentjobs.in/rssb-recruitment-2025-apply-online-for-1535-ayush-medical-officer-posts/33964",
-      "source": "allgovernmentjobs.in",
-      "description": "The Rajasthan Staff Selection Board (RSSB) has declared the official notification for 2025. To fill up the vacancies for 1535 Ayush Medical Office Jobs. Those candidates who have qualified in the BAMS, BHMS, and BUMS can grab this chance and apply for the RSSB Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible aspirants can apply online through the website on or be...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "07-08-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry",
-        "Word"
-      ],
-      "scraped_at": "2025-08-07T23:45:40.741828",
-      "links": []
-    },
-    {
-      "id": "9a33f2430a3ae2470de7f02781a54cec",
-      "title": "BJRMH Recruitment 2025 - Walk-in-Interview for 14 Senior Resident Posts",
-      "url": "https://allgovernmentjobs.in/bjrmh-recruitment-2025-walk-in-interview-for-14-senior-resident-posts/33962",
-      "source": "allgovernmentjobs.in",
-      "description": "Babu Jagjivan Ram Memorial Hospital (BJMRH) has declared the latest job notification for 2025. To fill up the 14 vacancies for Senior Resident Positions. Those candidates who have qualified in the MD/ MS, DNB, and MBBS can grab this chance and apply for the BJRMH Recruitment 2025 . If you are looking for more information, like the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts are see below. Interested and eligible candidat...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "12-08-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2025-08-07T23:45:40.741898",
-      "links": []
-    },
-    {
-      "id": "1b1c9cdbdb60815cc367b93e58ffc6b4",
-      "title": "BMH Delhi Recruitment 2025 - Walk-in-Interview for Junior Resident Post",
-      "url": "https://allgovernmentjobs.in/bmh-delhi-recruitment-2025-walk-in-interview-for-junior-resident-post/33960",
-      "source": "allgovernmentjobs.in",
-      "description": "Bhagawan Mahavir Hospital Delhi ( BHH ) has announced the official notification for 2025. To fill up the vacancies for Junior Resident Jobs. Those candidates who have qualified in the MBBS can grab this chance and apply for the BMH Delhi Recruitment 2025 . For more details, like the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts, check below If you are looking for more, here is a list of Government Jobs in 2025 that you can...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "18-07-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-08-07T23:45:40.741947",
-      "links": []
-    },
-    {
-      "id": "ef4477756a78423217211a1d86832fa8",
-      "title": "CCRAS Recruitment 2025 - Walk-in-Interview for Senior Research Fellow Post",
-      "url": "https://allgovernmentjobs.in/ccras-recruitment-2025-walk-in-interview-for-senior-research-fellow-post/33958",
-      "source": "allgovernmentjobs.in",
-      "description": "The Central Council for Research in Ayurvedic Sciences (CCRAS) has announced the official notification for 2025. To fill up the vacancies for Senior Research Fellow Jobs. Those candidates who have qualified in the BAMS can grab this chance and apply for these posts. Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for the CCRAS Recruitment 2025 . Interested and eligible candidates can apply and attend the walk-in at the g...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "11-08-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2025-08-07T23:45:40.741985",
-      "links": []
-    },
-    {
-      "id": "25693f6b27cdded228ac2a7f5b8f6c88",
-      "title": "PGIMER Recruitment 2025 - Walk-in-Interview for Project Technical Support Post",
-      "url": "https://allgovernmentjobs.in/pgimer-recruitment-2025-walk-in-interview-for-project-technical-support-post/33956",
-      "source": "allgovernmentjobs.in",
-      "description": "The Postgraduate Institute of Medical Education and Research (PGIMER) has announced the official notification for 2025. To fill up the vacancies for Project Technical Support Jobs. Those candidates who have qualified in the 10th Pass, Diploma can apply for the PGIMER Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can attend the interview at the given...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "19-08-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-08-07T23:45:40.742022",
-      "links": []
-    },
-    {
-      "id": "14b043d0624d1a13f8cc132245bfb8f1",
-      "title": "WBHRB",
-      "url": "https://allgovernmentjobs.in/wbhrb-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The West Bengal Health Recruitment Board (WBHRB) has officially released the notification to fill the vacancies of 5018 ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Medical",
-      "skills": [],
-      "scraped_at": "2025-08-07T23:45:40.742083",
-      "links": []
-    },
-    {
-      "id": "325a058cef7332f2c7249d62db8bb583",
-      "title": "BJRMH",
-      "url": "https://allgovernmentjobs.in/bjrmh-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Babu Jagjivan Ram Memorial Hospital (BJMRH) has declared the latest job notification for 2025. To fill up the 14 vacanci ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Medical",
-      "skills": [],
-      "scraped_at": "2025-08-07T23:45:40.742102",
-      "links": []
-    },
-    {
-      "id": "c409ba57a5c5da6ab33f2e974d5d1b1c",
-      "title": "NIMHANS",
-      "url": "https://allgovernmentjobs.in/nimhans-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute of Mental Health and Neurosciences (NIMHANS) has officially released the notification to fill the .... The National Institute of Mental Health and Neurosciences (NIMHANS) has announced the official notification for 2025. To .... The National Institute of Mental Health and Neurosciences (NIMHANS) has officially released the notification to fill up .... The National Institute of Mental Health and Neurosciences (NIMHANS) has declared the official notification for 2025. To ...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Medical",
-      "skills": [],
-      "scraped_at": "2025-08-07T23:45:40.742125",
-      "links": []
-    },
-    {
-      "id": "e9490cce7fbdb4e501ff290d5c37510e",
-      "title": "CCRAS",
-      "url": "https://allgovernmentjobs.in/ccras-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Central Council for Research in Ayurvedic Sciences (CCRAS) has announced the official notification for 2025. To fill .... The Central Council for Research in Ayurvedic Sciences (CCRAS) has declared the official notification for 2025. To fill .... The Central Council for Research in Ayurvedic Sciences (CCRAS) has officially released the Notification for 2025. Allott .... The Central Council for Research in Ayurvedic Sciences (CCRAS) has officially released the notification for 394 Res .......",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "General",
-      "skills": [],
-      "scraped_at": "2025-08-07T23:45:40.742143",
-      "links": []
-    },
     {
       "id": "9a952e651580bf9cd357c3cba3aaec6e",
       "title": "SCTIMST Recruitment 2025 - Walk-in-Interview for Staff Physician Post",
@@ -3290,24 +3156,6 @@
       "links": []
     },
     {
-      "id": "fc6a9fabfb8f7757a079dfdad9a1d7bc",
-      "title": "GACL Recruitment 2025 - Apply Online for Management Trainee Posts",
-      "url": "https://allgovernmentjobs.in/gacl-recruitment-2025-apply-online-for-management-trainee-posts/34449",
-      "source": "allgovernmentjobs.in",
-      "description": "The Gujarat Alkalies and Chemicals Limited (GACL) has officially released the notification to fill the vacancies of 01 Management Trainee Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their M.E./M. Tech and MBA candidates can apply for the GACL Recruitment 2025. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection pr...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "07-09-2025",
-        "found_date": "27-08-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Analyst"
-      ],
-      "scraped_at": "2025-08-30T23:38:56.294611",
-      "links": []
-    },
-    {
       "id": "d72555f02ad830d63fa5621524b26c33",
       "title": "CUSAT Recruitment 2025 - Apply Online for 15 Security Guard Posts",
       "url": "https://allgovernmentjobs.in/cusat-recruitment-2025-apply-online-for-15-security-guard-posts/34448",
@@ -3758,22 +3606,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2025-09-03T23:38:46.597059",
-      "links": []
-    },
-    {
-      "id": "20da192ce5f2be67522e8a6ee82e8526",
-      "title": "JIPMER Recruitment 2025 - Apply Offline for Project Technical Support Posts",
-      "url": "https://allgovernmentjobs.in/jipmer-recruitment-2025-apply-offline-for-project-technical-support-posts/34580",
-      "source": "allgovernmentjobs.in",
-      "description": "The Jawaharlal Institute of Post-Graduation Medical Education and Research (JIPMER) has officially released the notification to fill the vacancies of 01 Project Technical Support Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.Sc. and M.Sc. can apply for the JIPMER Recruitment 2025. The interested applicants can apply in offline mode. Here we have mentioned the education deta...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "07-09-2025",
-        "found_date": "26-08-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-09-03T23:38:46.597077",
       "links": []
     },
     {
@@ -4282,6 +4114,145 @@
       "links": [
         "https://uppsc.up.nic.in/"
       ]
+    },
+    {
+      "id": "5faf0be8153e8b43e6818db848050657",
+      "title": "AMU Recruitment 2025 - Apply Offline for Guest Teacher Posts",
+      "url": "https://allgovernmentjobs.in/amu-recruitment-2025-apply-offline-for-guest-teacher-posts/34661",
+      "source": "allgovernmentjobs.in",
+      "description": "The Aligarh Muslim University (AMU) has officially released the notification to fill the vacancies of 01 Guest Teacher Jobs. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their M.E./M. Tech in Civil Engineering can apply for the AMU Recruitment 2025 . The applicants can apply in offline mode. Here we have mentioned the education details, age limit, selection process, application fee, sala...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "15-09-2025",
+        "found_date": "06-09-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-09-08T23:39:17.547686",
+      "links": []
+    },
+    {
+      "id": "ea45f1c7d1423514488c7e27a51e2995",
+      "title": "ONGC Recruitment 2025 - Apply Offline for 04 Consultant Posts",
+      "url": "https://allgovernmentjobs.in/ongc-recruitment-2025-apply-offline-for-04-consultant-posts/34664",
+      "source": "allgovernmentjobs.in",
+      "description": "Oil and Natural Gas Corporation (ONGC) has declared the official notification for 2025. To fill up the vacancies for 04 Consultant Jobs. These candidates who have qualified in Any Degree can grab this chance and apply for the ONGC Recruitment 2025 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can attend the walk-in at the address given below. If you are looking for more, here i...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "16-09-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-09-08T23:39:17.547712",
+      "links": []
+    },
+    {
+      "id": "19d9d8bf0b10bc5c04fb2ddc46270ac4",
+      "title": "SISCO Bank Recruitment 2025 - Apply Offline for Cooperative Intern Posts",
+      "url": "https://allgovernmentjobs.in/sisco-bank-recruitment-2025-apply-offline-for-cooperative-intern-posts/34663",
+      "source": "allgovernmentjobs.in",
+      "description": "The Sikkim State Co-operative Bank Limited (SISCO Bank) has officially released the notification to fill the vacancies of 01 Co-operative Posts. Interested and eligible candidates can also apply for these posts before the last date of application. Candidates who have completed their Any Degree and MBA can apply for the SISCO Bank Recruitment 2025 . The interested applicants can apply in offline mode. Here we have mentioned the education details, age limit, selection process, application fee, ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "20-09-2025",
+        "found_date": "06-09-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-09-08T23:39:17.547736",
+      "links": []
+    },
+    {
+      "id": "72ee84834f97a2d4ab148b06fa462817",
+      "title": "CIRG Recruitment 2025 - Walk-in-Interview for 07 Young Professional Posts",
+      "url": "https://allgovernmentjobs.in/cirg-recruitment-2025-walk-in-interview-for-07-young-professional-posts/34662",
+      "source": "allgovernmentjobs.in",
+      "description": "The Central Institute for Research on Goats (CIRG Mathura), has declared the official notification for 2025. To fill up the vacancies for 07 Young Professional Jobs. Those candidates who have qualified in the B.Sc, M.Sc, B.Pharm., D.Pharm., BVS.c, MVSc, and Post Graduation can grab this chance and apply for the CIRG Recruitment 2025 . Here we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligi...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "15-09-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-09-08T23:39:17.547760",
+      "links": []
+    },
+    {
+      "id": "0dc3bf5f1050014a969e1511bbf7eb89",
+      "title": "IIT Jammu Recruitment 2025 - Apply Online for Technical Assistant Post",
+      "url": "https://allgovernmentjobs.in/iit-jammu-recruitment-2025-apply-online-for-technical-assistant-post/34660",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology Jammu (IIT Jammu) has announced the official notification for 2025. To fill up the vacancies for Technical Assistant Jobs. Those candidates who have qualified in the IIT Jammu Recruitment 2025 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply on or before the last date of application. For more details, visit the official website...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "08-09-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-09-08T23:39:17.547799",
+      "links": []
+    },
+    {
+      "id": "300216275d26b238f8641ff743adb970",
+      "title": "IIT Jammu Recruitment 2025 - Apply Online for Junior Research Fellow Posts",
+      "url": "https://allgovernmentjobs.in/iit-jammu-recruitment-2025-apply-online-for-junior-research-fellow-posts/34659",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Institute of Technology Jammu (IIT Jammu) has officially released the notification to fill the vacancies of 01 Junior Research Fellow Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech in Civil Engineering can apply for the IIT Jammu Recruitment 2025 . The interested applicants can apply in online mode. Here we have mentioned the education det...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "14-09-2025",
+        "found_date": "08-09-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-09-08T23:39:17.547817",
+      "links": []
+    },
+    {
+      "id": "3313c56d46af4eeeb262e8462e56d88c",
+      "title": "IISER Kolkata Recruitment 2025 - Apply for Lab Assistant Post",
+      "url": "https://allgovernmentjobs.in/iiser-kolkata-recruitment-2025-apply-for-lab-assistant-post/34658",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Science Education and Research (IISER) Kolkata has declared the official notification for 2025. To fill up the vacancies for Lab Assistant Jobs. Those candidates who have qualified in Any Degree can grab this chance and apply for the IISER Kolkata Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply on or before the last date ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "08-09-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-09-08T23:39:17.547834",
+      "links": []
+    },
+    {
+      "id": "83716f9b9122483599c68f3683f0a9fc",
+      "title": "AIIMS Delhi Recruitment 2025 - Apply Online for Scientist D Post",
+      "url": "https://allgovernmentjobs.in/aiims-delhi-recruitment-2025-apply-online-for-scientist-d-post/34657",
+      "source": "allgovernmentjobs.in",
+      "description": "The All India Institute of Medical Sciences, Delhi (AIIMS Delhi) has declared the official notification for 2025. To fill up the vacancies for Project Scientist - D. Those candidates who have qualified in the MBBS, BDS, BVSc, Post Graduation, MDS, MVSc, and MPH can grab this chance and apply for the AIIMS Delhi Recruitment 2025. Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible can...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "06-09-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-09-08T23:39:17.547852",
+      "links": []
+    },
+    {
+      "id": "7e0f790aa1e9906f49e89d86cffe214e",
+      "title": "ESIC Karnataka Recruitment 2025 - Apply Offline for 07 Assistant, Junior Engineer Posts",
+      "url": "https://allgovernmentjobs.in/esic-karnataka-recruitment-2025-apply-offline-for-07-assistant-junior-engineer-posts/34656",
+      "source": "allgovernmentjobs.in",
+      "description": "The Employees' State Insurance Corporation, Karnataka (ESIC) has officially released the notification to fill the vacancies of 07 Assistant Engineer and Junior Engineer Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, Diploma in Civil, Electrical Engineering, can apply for the ESIC Karnataka Recruitment 2025 . The interested applicants can apply in offline mode. He...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "15-09-2025",
+        "found_date": "29-08-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-09-08T23:39:17.547870",
+      "links": []
     }
   ]
 }
