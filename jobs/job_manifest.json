@@ -1,99 +1,9 @@
 {
-  "last_updated": "2025-09-22T23:42:38.683141",
-  "total_jobs": 261,
-  "active_jobs": 261,
-  "expired_jobs": 14,
+  "last_updated": "2025-09-23T23:42:49.289458",
+  "total_jobs": 267,
+  "active_jobs": 267,
+  "expired_jobs": 9,
   "jobs": [
-    {
-      "id": "b43cce6042d2434b548c5bb7f482c876",
-      "title": "CBIC Recruitment 2025 - Apply Offline for 11 Tax Assistant and Havaldar Posts",
-      "url": "https://allgovernmentjobs.in/cbic-recruitment-2025-apply-offline-for-11-tax-assistant-and-havaldar-posts/34285",
-      "source": "allgovernmentjobs.in",
-      "description": "The Central Board of Indirect Taxes and Customs (CBIC) has announced the official notification for 2025. To fill up the vacancies for 11 Tax Assistant and Havaldar Jobs. Those candidates who have qualified in the 10th Pass, Any Degree can grab this chance and apply for these posts. Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for the CBIC Recruitment 2025 . Interested and eligible candidates can apply on or before th...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "23-08-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-08-23T23:40:10.150757",
-      "links": []
-    },
-    {
-      "id": "85a694a21575f60bc6bb4ad10a4a9421",
-      "title": "TMC Recruitment 2025 - Walk-in-Interview for 02 Assistant Cook Posts",
-      "url": "https://allgovernmentjobs.in/tmc-recruitment-2025-walk-in-interview-for-02-assistant-cook-posts/34283",
-      "source": "allgovernmentjobs.in",
-      "description": "The Tata Memorial Centre (TMC) has announced the official notification for 2025. To fill up the vacancies for 02 Assistant Cook Jobs. Those candidates who have qualified in the 10th Pass can grab this chance and apply for the TMC Recruitment 2025 . Here we mentioned the age limit, selection process, and salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can attend the interview at the given address. If you are looking for...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "03-09-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-08-23T23:40:10.150805",
-      "links": []
-    },
-    {
-      "id": "211ae54df3dec3d11f72b2181fc90bd5",
-      "title": "SVNIRTAR Recruitment 2025 - Apply Offline for 02 Assistant Professor Posts",
-      "url": "https://allgovernmentjobs.in/svnirtar-recruitment-2025-apply-offline-for-02-assistant-professor-posts/34281",
-      "source": "allgovernmentjobs.in",
-      "description": "Swami Vivekanand National Institute of Rehabilitation Training and Research (SVNIRTAR Cuttack) has introduced the latest job notification for 2025. To fill up the vacancies for 02 Assistant Professor Jobs. Those candidates who have qualified in the M.Phil/ Ph.D can grab this chance and apply for the SVNIRTAR Recruitment 2025 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for the SVNIRTAR Recruitment 2025. Interested ...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "04-08-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-08-23T23:40:10.150857",
-      "links": []
-    },
-    {
-      "id": "09a83363b511fd9343852f5fd566df16",
-      "title": "HKRN Recruitment 2025 - Apply Online for 1000 Ground Coordinator Posts",
-      "url": "https://allgovernmentjobs.in/hkrn-recruitment-2025-apply-online-for-1000-ground-coordinator-posts/34279",
-      "source": "allgovernmentjobs.in",
-      "description": "Haryana Kaushal Rozgar Nigam (HKRN) has announced the official notification for 2025. To fill up the vacancies for Ground Coordinator Jobs. Those candidates who have qualified in the 10th Pass, 12th can grab this chance and apply for these posts. Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for the HKRN Recruitment 2025 . Interested and eligible candidates can apply online through the website on or before the last dat...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "22-08-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Word"
-      ],
-      "scraped_at": "2025-08-23T23:40:10.150902",
-      "links": []
-    },
-    {
-      "id": "bc9496ae6a7a2ea489fc2b65c930f874",
-      "title": "Arogyakeralam Recruitment 2025 - Apply Online for 02 Lead Consultant and Other Posts",
-      "url": "https://allgovernmentjobs.in/arogyakeralam-recruitment-2025-apply-online-for-02-lead-consultant-and-other-posts/34277",
-      "source": "allgovernmentjobs.in",
-      "description": "The Arogyakeralam has announced the official notification for 2025. To fill up the vacancies for 02 Lead Consultant and Young Professional Jobs. Those candidates who have qualified in the MBBS, Post Graduation, or Any Degree can grab this chance and apply for the Arogyakeralam Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply online through th...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "19-08-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-08-23T23:40:10.150938",
-      "links": []
-    },
-    {
-      "id": "85eb56bc9eab6310d675531aa2f81ff6",
-      "title": "SVNIRTAR",
-      "url": "https://allgovernmentjobs.in/svnirtar-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Swami Vivekanand National Institute of Rehabilitation Training and Research (SVNIRTAR Cuttack) has introduced ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2025-08-23T23:40:10.150989",
-      "links": []
-    },
     {
       "id": "df09f2aec153ce367da1fdeca82e8021",
       "title": "CMD Kerala Recruitment 2025 - Apply Online for 02 Technical Officer Posts",
@@ -2082,22 +1992,6 @@
       "links": []
     },
     {
-      "id": "dca49e43be8737e18a34c7a3363370cf",
-      "title": "MCGM Recruitment 2025 - Apply Online for 123 Pharmacist and Other Posts",
-      "url": "https://allgovernmentjobs.in/mcgm-recruitment-2025-apply-online-for-123-pharmacist-and-other-posts/34793",
-      "source": "allgovernmentjobs.in",
-      "description": "The Municipal Corporation of Greater Mumbai (MCGM) has released the official Notification for 2025. To fill up the vacancies for 123 Pharmacists, CDO,  Pest Control Officers, Assistant Jobs, and Other Positions. Candidates who have qualified in B.Pharm, D.Pharm, Any Degree, 10th Pass, B.Tech can apply for these Posts. Here we include the Age Limit, Selection Process, Education details, Salary Structure, Application fee, and how to apply for MCGM Recruitment 2025 . Interested and eligible cand...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "22-09-2025",
-        "found_date": "11-09-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-09-12T23:39:48.643419",
-      "links": []
-    },
-    {
       "id": "b7a9fad5ebe21a11905a35fb56227e62",
       "title": "SCTMIST Recruitment 2025 - Apply Online for Senior Project Engineer Post",
       "url": "https://allgovernmentjobs.in/sctmist-recruitment-2025-apply-online-for-senior-project-engineer-post/34790",
@@ -2329,22 +2223,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2025-09-13T23:39:13.827431",
-      "links": []
-    },
-    {
-      "id": "cd9a3faf919bcba9ab8973d472530293",
-      "title": "ACTREC Recruitment 2025 - Walk-in interview for Senior Research Fellow Posts",
-      "url": "https://allgovernmentjobs.in/actrec-recruitment-2025-walk-in-interview-for-senior-research-fellow-posts/34818",
-      "source": "allgovernmentjobs.in",
-      "description": "The Advanced Centre for Treatment Research and Education in Cancer (ACTREC) has officially released the notification to fill the vacancies of 01 Senior Research Fellow Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their M.E./M. Tech, and M. Sc can apply for the ACTREC Recruitment 2025. The interested applicants can attend the walk-in interview. Here we have mentioned the education ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "22-09-2025",
-        "found_date": "12-09-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-09-13T23:39:13.827465",
       "links": []
     },
     {
@@ -3340,22 +3218,6 @@
       "links": []
     },
     {
-      "id": "11259c91f7ed65297c1e5d393ec94b65",
-      "title": "Mizoram University Recruitment 2025 - Apply Online for 02 Guest Faculty Posts",
-      "url": "https://allgovernmentjobs.in/mizoram-university-recruitment-2025-apply-online-for-02-guest-faculty-posts/35035",
-      "source": "allgovernmentjobs.in",
-      "description": "The Mizoram University has officially released the notification to fill the vacancies of 02 Guest Faculty Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their M.E./M. Tech and MCA students can apply for the Mizoram University Recruitment 2025 . The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, application ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "22-09-2025",
-        "found_date": "11-09-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-09-19T23:39:24.134144",
-      "links": []
-    },
-    {
       "id": "ab31115429d0a8dcb3f2969aace67a43",
       "title": "AIIMS Jodhpur Recruitment 2025 - Walk-in-Interview for 06 Research Scientist and Other Posts",
       "url": "https://allgovernmentjobs.in/aiims-jodhpur-recruitment-2025-walk-in-interview-for-06-research-scientist-and-other-posts/35034",
@@ -3989,6 +3851,244 @@
       "skills": [],
       "scraped_at": "2025-09-22T23:39:01.364627",
       "links": []
+    },
+    {
+      "id": "84672686ffc7a043e08ed5a508b6e3a2",
+      "title": "Zilla Parishad Ratnagiri Recruitment 2025 - Apply Offline for 02 Data Entry Operator Posts",
+      "url": "https://allgovernmentjobs.in/zilla-parishad-ratnagiri-recruitment-2025-apply-offline-for-02-data-entry-operator-posts/35143",
+      "source": "allgovernmentjobs.in",
+      "description": "Zilla Parishad Ratnagiri has announced the official notification for 2025. To fill up the vacancies for 02 Data Entry Operator Jobs. Those candidates who have qualified in the Intermediate (10+2) can grab this chance and apply for the Zilla Parishad Ratnagiri Recruitment 2025 . Here we include the age limit, selection Process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply on or before the last date of appli...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "30-09-2025",
+        "found_date": "22-09-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2025-09-23T23:39:14.080541",
+      "links": []
+    },
+    {
+      "id": "c4a855596c2a823c5544b35614fe034c",
+      "title": "OFB Recruitment 2025 - Walk-in interview for 02 Medical Practitioner Posts",
+      "url": "https://allgovernmentjobs.in/ofb-recruitment-2025-walk-in-interview-for-02-medical-practitioner-posts/35142",
+      "source": "allgovernmentjobs.in",
+      "description": "The Ordnance Factory Board (OFB) has officially released the notification to fill the vacancies of 02 Medical Practitioner Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS can apply for the OFB Recruitment 2025. The interested applicants can attend the walk-in interview. Here we have mentioned the education details, age limit, selection process, application fee, salary, and...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "06-10-2025",
+        "found_date": "22-09-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-09-23T23:39:14.080564",
+      "links": []
+    },
+    {
+      "id": "9e1e0281995b7a4bd54b41d8865c6ac9",
+      "title": "BEL Recruitment 2025 - Apply Online for 610 Trainee Engineer-I Posts",
+      "url": "https://allgovernmentjobs.in/bel-recruitment-2025-apply-online-for-610-trainee-engineer-i-posts/35141",
+      "source": "allgovernmentjobs.in",
+      "description": "The Bharat Electronics Limited (BEL) has officially released the notification to fill the vacancies of 610 Trainee Engineer-I Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, B.Sc. in Electrical, Electronics, and Mechanical Engineering, can apply for the BEL Recruitment 2025. The interested applicants can apply in online mode. Here we have mentioned the education d...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "07-10-2025",
+        "found_date": "24-09-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-09-23T23:39:14.080583",
+      "links": []
+    },
+    {
+      "id": "69fe1a12b19f77f4ba11aad68708383a",
+      "title": "IIT Gandhinagar Recruitment 2025 - Apply Online for 02 Senior Research Fellow and Other Posts",
+      "url": "https://allgovernmentjobs.in/iit-gandhinagar-recruitment-2025-apply-online-for-02-senior-research-fellow-and-other-posts/35140",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Institute of Technology Gandhinagar (IIT Gandhinagar) has declared the official notification for 2025. To fill up the vacancies for 02 Senior Research Fellow and Research Associate Jobs. Those candidates who have qualified in the B.E/ B.Tech, M.E/ M.Tech, B.Sc, M.Sc, and MCA can apply for these posts. Here, we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for the IIT Gandhinagar Recruitment 2025. Interested and el...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "22-09-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-09-23T23:39:14.080600",
+      "links": []
+    },
+    {
+      "id": "b830e0b2c1dcf5b48af573e7d56fbe5e",
+      "title": "GSSSB Recruitment 2025 - Apply Online for 04 Searcher Posts",
+      "url": "https://allgovernmentjobs.in/gsssb-recruitment-2025-apply-online-for-04-searcher-posts/35139",
+      "source": "allgovernmentjobs.in",
+      "description": "The Gujarat Subordinate Service Selection Board (GSSSB) has officially released the notification to fill the vacancies of 04 Searcher Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree and B.Sc can apply for the GSSSB Recruitment 2025 . The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, applica...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "06-10-2025",
+        "found_date": "22-09-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2025-09-23T23:39:14.080617",
+      "links": []
+    },
+    {
+      "id": "178c39c6449616147d69e2b482e4aa76",
+      "title": "DMHO Kadapa Recruitment 2025 - Apply Offline for Data Entry Operator Post",
+      "url": "https://allgovernmentjobs.in/dmho-kadapa-recruitment-2025-apply-offline-for-data-entry-operator-post/35138",
+      "source": "allgovernmentjobs.in",
+      "description": "District Medical & Health Office Rajanna Sircilla has announced the official notification for 2025. To fill up the vacancies for Data Entry Operator Jobs. Those candidates who have qualified in Any Degree can grab this chance and apply for the DMHO Kadapa Recruitment 2025. Here we include the age limit, selection process, salary structure, education details, and application fee. and how to apply for these posts. Interested and eligible candidates can apply on or before the last date of applic...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "29-09-2025",
+        "found_date": "23-09-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2025-09-23T23:39:14.080634",
+      "links": []
+    },
+    {
+      "id": "afdaafed677d63345c31eaa1e6990ebc",
+      "title": "AIIMS Rajkot Recruitment 2025 - Apply Online for Project Officer Posts",
+      "url": "https://allgovernmentjobs.in/aiims-rajkot-recruitment-2025-apply-online-for-project-officer-posts/35137",
+      "source": "allgovernmentjobs.in",
+      "description": "All Indian Institute of Medical Sciences, Rajkot (AIIMS Rajkot) has officially released the notification to fill the vacancies of 01 Project Officer Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBA, M.E./M. Tech and Ph.D. candidates can apply for the AIIMS Rajkot Recruitment 2025 . The interested applicants can apply in online mode. Here we have mentioned the education detai...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "30-9-2025",
+        "found_date": "18-09-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-09-23T23:39:14.080651",
+      "links": []
+    },
+    {
+      "id": "33b4e76a88a594d25ac45885728e7270",
+      "title": "SCTIMST Recruitment 2025 - Walk-in-Interview for Project Associate Post",
+      "url": "https://allgovernmentjobs.in/sctimst-recruitment-2025-walk-in-interview-for-project-associate-post/35136",
+      "source": "allgovernmentjobs.in",
+      "description": "Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST) has officially released the notification for 2025. To fill up the vacancies for Project Associate Jobs. Those candidates who have qualified in M.E/ M.Tech. in Mechanical Engineering can grab this chance and apply for these posts. Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for the SCTIMST Recruitment 2025 . Interested and eligible candidates...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "30-09-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-09-23T23:39:14.080667",
+      "links": []
+    },
+    {
+      "id": "2ee124fdab3cc5d3e4f8ab68369be27b",
+      "title": "AIIMS Jodhpur Recruitment 2025 - Walk-in interview for 06 Research Scientist, Lab Technician and Other Posts",
+      "url": "https://allgovernmentjobs.in/aiims-jodhpur-recruitment-2025-walk-in-interview-for-06-research-scientist-lab-technician-and-other-posts/35135",
+      "source": "allgovernmentjobs.in",
+      "description": "The All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur) has officially released the notification to fill the vacancies of 06 Research Scientist-I, Lab Technician, Multi-Tasking staff, Research Scientist, and Research Assistant Jobs. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS, BDS, DMLT, 12th, MD/MS, DNB, B.Sc, 10th, and M.Sc can apply for the AIIMS Jodhpur Recrui...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "01-10-2025",
+        "found_date": "19-09-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-09-23T23:39:14.080683",
+      "links": []
+    },
+    {
+      "id": "43893daf13c86d04cc6c5cffb3d66a0b",
+      "title": "PGIMER Recruitment 2025 - Apply Offline for Research Associate Post",
+      "url": "https://allgovernmentjobs.in/pgimer-recruitment-2025-apply-offline-for-research-associate-post/35134",
+      "source": "allgovernmentjobs.in",
+      "description": "Post Graduate Institute of Medical Education and Research, Chandigarh (PGIMER Chandigarh) has declared the official notification for 2025. To fill up the vacancies for Research Associate Jobs. Those candidates who have qualified in the M.Pharm, MVSc, M.E/ M.Tech can grab this chance and apply for the PGIMER Recruitment 2025 . Here, we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible cand...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "19-09-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-09-23T23:39:14.080699",
+      "links": []
+    },
+    {
+      "id": "23e532ddbc9fd1acdb83c447304a0f87",
+      "title": "Panchayati Raj",
+      "url": "https://allgovernmentjobs.in/panchayati-raj-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Zilla Parishad Ratnagiri has announced the official notification for 2025. To fill up the vacancies for 02 Data Ent .... Swachh Bharat Mission Gramin (SBMG) Kalimpong has announced the official notification for 2025. To fill up the vacancies .... The Mysuru Zilla Panchayat has officially released the notification to fill the vacancies of 01 Assistant District Proje ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-09-23T23:39:14.080719",
+      "links": []
+    },
+    {
+      "id": "4b6824cfdd13eac6c7cf7771ee6a1ba9",
+      "title": "GSSSB",
+      "url": "https://allgovernmentjobs.in/gsssb-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Gujarat Subordinate Service Selection Board (GSSSB) has officially released the notification to fill the vacancies o .... The Gujarat Subordinate Service Selection Board (GSSSB) has officially released the notification to fill the vacancies o .... The Gujarat Secondary Service Selection Board (GSSSB) has officially released the notification to fill the vacancies of .... The Gujarat Secondary Service Selection Board (GSSSB) has released the notification for 2025. To fill up the vacancies f...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2025-09-23T23:39:14.080757",
+      "links": []
+    },
+    {
+      "id": "672fece73e826a357965373dfbd67627",
+      "title": "Canara Bank Apprentice Online Form 2025 for 3500 Post",
+      "url": "https://www.rojgarresult.com/canara-bank-apprentice-2025/",
+      "source": "www.rojgarresult.com",
+      "description": "Canara Bank Apprentice Recruitment 2025: Apply for 3500 Post Post Date: 23-09-2025 Short Description: Canara Bank Apprentice Recruitment 2025 Apply Online Form : Canara Bank Apprentice Online Form 2025, Notification has been released on the website @https://canarabank.com/ & Application Form now started on 23 September 2025 to 12 October 2025. Canara Bank Jobs 2025. Get the direct link to download notification link available on Canara Bank Apprentice Vacancy 2025 Official Website and More Oth...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "23-09-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-09-23T23:39:37.003408",
+      "links": [
+        "https://canarabank.com/"
+      ]
+    },
+    {
+      "id": "28edc0e23b2d6041d70a1add8ae7b412",
+      "title": "BPSSC Bihar Police Sub Inspector SI Online Form 2025 for 1799 Post",
+      "url": "https://www.rojgarresult.com/bpssc-bihar-police-sub-inspector-si-online-form-2025-for-1799-post/",
+      "source": "www.rojgarresult.com",
+      "description": "Bihar Police Sub Inspector SI Daroga Recruitment 2025: Exam Admit Card for 1799 Post Post Update Date: 23-09-2025 Short Description: Bihar Police SI Recruitment 2025 : BPSSC Bihar Police Sub Inspector Recruitment 2025 has been issued by Bihar Police Subordinate Services Commission for all candidates. This recruitment has been issued on a total of 1799 Posts, Candidate apply through online mode within 26 September 2025 to 26 October 2025. For more Information visit official website. Candidate ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "23-09-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-09-23T23:39:37.003428",
+      "links": []
+    },
+    {
+      "id": "8e8508c1fdc00500c08f96bc51e338e9",
+      "title": "SSC Delhi Police Constable Executive Online Form 2025 for 7565 Post",
+      "url": "https://www.rojgarresult.com/ssc-delhi-police-constable-executive-2025/",
+      "source": "www.rojgarresult.com",
+      "description": "SSC Delhi Police Constable Executive Recruitment 2025: Apply for 7565 Post Post Update Date: 23-09-2025 Short Description: SSC Delhi Police Constable Executive Recruitment 2025 Apply Online Form : SSC Delhi Police Constable Executive Online Form 2025, Notification has been released on the website @https://ssc.gov.in/ & Application Form now started on 22 September 2025 to 21 October 2025. Staff Selection Commission Jobs 2025. Get the direct link to download notification link available on SSC D...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "23-09-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-09-23T23:39:37.003446",
+      "links": [
+        "https://ssc.gov.in/"
+      ]
     }
   ]
 }
