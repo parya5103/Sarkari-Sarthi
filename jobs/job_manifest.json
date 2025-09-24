@@ -1,8 +1,8 @@
 {
-  "last_updated": "2025-09-23T23:42:49.289458",
-  "total_jobs": 267,
-  "active_jobs": 267,
-  "expired_jobs": 9,
+  "last_updated": "2025-09-24T23:42:42.154894",
+  "total_jobs": 276,
+  "active_jobs": 276,
+  "expired_jobs": 4,
   "jobs": [
     {
       "id": "df09f2aec153ce367da1fdeca82e8021",
@@ -656,24 +656,6 @@
         "Data Entry"
       ],
       "scraped_at": "2025-08-29T23:39:37.341205",
-      "links": []
-    },
-    {
-      "id": "648d92881a28c227154c0328a6f41df0",
-      "title": "Spices Board Recruitment 2025 - Apply Online for Consultant Assistant Posts",
-      "url": "https://allgovernmentjobs.in/spices-board-recruitment-2025-apply-online-for-consultant-assistant-posts/34409",
-      "source": "allgovernmentjobs.in",
-      "description": "The Spices Board of India (Spices Board) has officially released the notification to fill the vacancies of 01 Consultant Assistant Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Diploma can apply for the Spices Board Recruitment 2025. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, application fee,...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "23-09-2025",
-        "found_date": "26-08-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2025-08-29T23:39:37.341224",
       "links": []
     },
     {
@@ -2641,24 +2623,6 @@
       "links": []
     },
     {
-      "id": "3b9dd8c0357eee12073d2c8de10578f4",
-      "title": "IIT Jammu Recruitment 2025 - Apply Online for 02 Project officer Posts",
-      "url": "https://allgovernmentjobs.in/iit-jammu-recruitment-2025-apply-online-for-02-project-officer-posts/34907",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Institute of Technology Jammu (IIT Jammu) has declared the official notification for 2025. To fill up the vacancies for 02 Project Officer Jobs. Those candidates who have qualified in the B.E/ B.Tech in Mechanical Engineering, Electrical Engineering can grab this chance and apply for the IIT Jammu Recruitment 2025 . Here, we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible can...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "23-09-2025",
-        "found_date": "09-09-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Word"
-      ],
-      "scraped_at": "2025-09-16T23:40:00.872756",
-      "links": []
-    },
-    {
       "id": "fc8bfade54831b77d61bf4ca7a494409",
       "title": "HSCC Recruitment 2025 - Apply Online for 09 Manager & Deputy Manager Posts",
       "url": "https://allgovernmentjobs.in/hscc-recruitment-2025-apply-online-for-09-manager-deputy-manager-posts/34904",
@@ -2672,22 +2636,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2025-09-16T23:40:00.872794",
-      "links": []
-    },
-    {
-      "id": "c5e29ba2d4dc14bd6ba200c150f6a6c5",
-      "title": "NIT Warangal Recruitment 2025 - Apply for Junior Research Fellow Post",
-      "url": "https://allgovernmentjobs.in/nit-warangal-recruitment-2025-apply-for-junior-research-fellow-post/34903",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute of Technology Warangal (NIT Warangal) has declared the official notification for 2025. To fill up the vacancies for Junior Research Fellow Jobs. Those candidates who have qualified in the B.E/ B.Tech., M.E/ M.Tech. in Civil Engineering can grab this chance and apply for the NIT Warangal Recruitment 2025 . Here, we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible ca...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "23-09-2025",
-        "found_date": "12-09-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-09-16T23:40:00.872812",
       "links": []
     },
     {
@@ -3549,24 +3497,6 @@
       "links": []
     },
     {
-      "id": "3da0ba8a9e3ebb7c1f863853574ef2d0",
-      "title": "BSF Head Constable RO / RM 2025 Apply Online",
-      "url": "https://www.rojgarresult.com/bsf-hc-ro-rm-august25/",
-      "source": "www.rojgarresult.com",
-      "description": "Border Security Force BSF Head Constable Radio Operator RO / Radio Mechanic RM Recruitment 2025: Apply Online for 1121 Post Post Update Date: 25-08-2025 Short Description: Border Security Force BSF HC RO / RM (Male & Female) Recruitment 2025  : BSF Head Constable Radio Exam Notification is released and Online Form Now Started on 24 August 2025 to 23 September 2025 is Last Date for BSF Head  Constable Recruitment 2025 Examination, Vacancy 2025 Full Notification available at the official websit...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "23/09/2025",
-        "found_date": "25-08-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2025-09-21T23:39:30.711541",
-      "links": []
-    },
-    {
       "id": "2739e0a27229b4ebd5e0d0e3541f3272",
       "title": "MPESB MP Police Subedar Stenographer, ASI Ministerial Online Form 2025",
       "url": "https://www.rojgarresult.com/mpesb-mp-police-subedar-asi-form-2025/",
@@ -4089,6 +4019,215 @@
       "links": [
         "https://ssc.gov.in/"
       ]
+    },
+    {
+      "id": "29ed550429a3f0981db8bc6d49c77980",
+      "title": "CMO Moradabad Recruitment 2025 - Apply Offline for 114 Asha Worker Posts",
+      "url": "https://allgovernmentjobs.in/cmo-moradabad-recruitment-2025-apply-offline-for-114-asha-worker-posts/35174",
+      "source": "allgovernmentjobs.in",
+      "description": "The Chief Medical Officer (CMO) of Moradabad has announced the official notification for 2025. To fill up the vacancies for 114 Asha Worker Jobs. Those candidates who have completed their 8th, 10th Pass can grab this chance and apply for the CMO Moradabad Recruitment 2025 . Here we include the age limit, selection process, salary structure, and education details, application fee, and how to apply for these posts are mentioned below. Interested and eligible aspirants can fill out the applicati...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "22-09-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2025-09-24T23:38:54.740069",
+      "links": []
+    },
+    {
+      "id": "3c873498ecb3208906abb9cdd39a956e",
+      "title": "NIT Calicut Recruitment 2025 - Apply for Junior Research Fellow Post",
+      "url": "https://allgovernmentjobs.in/nit-calicut-recruitment-2025-apply-for-junior-research-fellow-post/35173",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Institute of Technology Calicut (NIT Calicut) has announced the official notification for 2025. To fill up the vacancies for Junior Research Fellow Jobs. Those candidates who have qualified in the M.E/ M.Tech in Civil Engineering can grab this chance and apply for the NIT Calicut Recruitment 2025 . Here, we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can appl...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "24-09-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-09-24T23:38:54.740095",
+      "links": []
+    },
+    {
+      "id": "5de1bad70dc87d772042690b954cb9d4",
+      "title": "Surat Municipal Corporation Recruitment 2025 - Apply Online for 42 Officer Posts",
+      "url": "https://allgovernmentjobs.in/surat-municipal-corporation-recruitment-2025-apply-online-for-42-officer-posts/35172",
+      "source": "allgovernmentjobs.in",
+      "description": "The Surat Municipal Corporation, Gujarat, has released the official notification for 2025. Allotted 42 vacancies for Officer Jobs. Those candidates who have qualified in Any Degree, B.Sc, B.E/ B.Tech can grab this chance for the application. Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for the Surat Municipal Corporation Recruitment 2025 . Interested and eligible candidates can apply online through the website on or ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "25-09-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2025-09-24T23:38:54.740119",
+      "links": []
+    },
+    {
+      "id": "867eeece085e8b71abf878d4501e16b5",
+      "title": "Nagapattinam RDM Recruitment 2025 - Apply Offline for 05 Village Assistant Posts",
+      "url": "https://allgovernmentjobs.in/nagapattinam-rdm-recruitment-2025-apply-offline-for-05-village-assistant-posts/35171",
+      "source": "allgovernmentjobs.in",
+      "description": "Nagapattinam Revenue and Disaster Management Department (Nagapattinam RDM) has announced the official notification for 2025. To fill up the vacancies for 05 Village Assistant Jobs. Those candidates who have qualified in the 10th pass can apply for the Nagapattinam RDM Recruitment 2025 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates fill out the application forms befo...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "24-09-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2025-09-24T23:38:54.740139",
+      "links": []
+    },
+    {
+      "id": "9d9a131964617cde198b707dfc4887ca",
+      "title": "ESIC Kerala Recruitment 2025 - Walk-in-Interview for 29 Senior Resident, Specialist and Other Posts",
+      "url": "https://allgovernmentjobs.in/esic-kerala-recruitment-2025-walk-in-interview-for-29-senior-resident-specialist-and-other-posts/35170",
+      "source": "allgovernmentjobs.in",
+      "description": "Employees' State Insurance Corporation (ESIC) has declared the latest job notification for 2025. To fill up the vacancies for 29 Senior Resident and Specialist Jobs. Those candidates who have qualified in the MBBS, MD, DNB, Any Degree, Post Graduation, Diploma can grab this chance and apply for these posts. Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for the ESIC Recruitment 2025 . Interested and eligible candidates...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "09-10-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2025-09-24T23:38:54.740158",
+      "links": []
+    },
+    {
+      "id": "8a551041151eed24516d679fa12910ae",
+      "title": "DHFWS Mallappuram Recruitment 2025 - Apply Online for 02 Staff Nurse, Specialist Doctor Posts",
+      "url": "https://allgovernmentjobs.in/dhfws-mallappuram-recruitment-2025-apply-online-for-02-staff-nurse-specialist-doctor-posts/34972",
+      "source": "allgovernmentjobs.in",
+      "description": "The District Health and Family Welfare Society Malappuram (DHFWS Malappuram) has officially released the notification to fill the vacancies of 02 Staff Nurse, Specialist Doctor Jobs. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.Sc Nursing, GNM,  Post-graduation, MBBS, DNB, and MD/MS can apply for the DHFWS Malappuram Recruitment 2025 . The interested applicants can apply in onlin...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "30-09-2025",
+        "found_date": "26-09-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2025-09-24T23:38:54.740177",
+      "links": []
+    },
+    {
+      "id": "3bfa351efb7b03ad52e381bf56b060f9",
+      "title": "Karnataka Grameena Bank Recruitment 2025 - Apply Online for 1425 Office Assistant, Officer and Other Posts",
+      "url": "https://allgovernmentjobs.in/karnataka-grameena-bank-recruitment-2025-apply-online-for-1425-office-assistant-officer-and-other-posts/35169",
+      "source": "allgovernmentjobs.in",
+      "description": "Karnataka Grameena Bank has declared the official notification for 2025. To fill up the vacancies for 1425 Office Assistant and Officer Jobs. Those candidates who have qualified in Any Degree, CA, or LLB can grab this chance and apply for the Karnataka Grameena Bank Recruitment 2025 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply online through the website ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "28-09-2025",
+        "found_date": "01-09-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry",
+        "Word"
+      ],
+      "scraped_at": "2025-09-24T23:38:54.740196",
+      "links": []
+    },
+    {
+      "id": "446cab7e4b5385c60aed3beba54989b2",
+      "title": "AIIMS Delhi Recruitment 2025 - Apply for Project Technical Support Post",
+      "url": "https://allgovernmentjobs.in/aiims-delhi-recruitment-2025-apply-for-project-technical-support-post/35168",
+      "source": "allgovernmentjobs.in",
+      "description": "All India Institute of Medical Sciences, Delhi (AIIMS Delhi) has declared the official notification for 2025. To fill up the vacancies for Project Technical Support Jobs. Those candidates who have qualified in Any Degree Post post-graduation can grab this chance and apply for the AIIMS Delhi Recruitment 2025 . Here, we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "06-10-2025",
+        "found_date": "24-09-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2025-09-24T23:38:54.740214",
+      "links": []
+    },
+    {
+      "id": "a8408b3702cc9ea48fe2169a24aef9fc",
+      "title": "GGH Srikakulam Recruitment 2025 - Apply Offline for 41 Driver, Nursing Orderly and Other Posts",
+      "url": "https://allgovernmentjobs.in/ggh-srikakulam-recruitment-2025-apply-offline-for-41-driver-nursing-orderly-and-other-posts/35167",
+      "source": "allgovernmentjobs.in",
+      "description": "Government General Hospital Srikakulam (GGH Srikakulam) has declared the official notification for 2025. To fill up the vacancies for 41 Attenders, Book Bearer, Lab Attendants, Assistant Librarians, ECG Technicians, Data Entry Operators, Carpenters, Nursing Orderlies, and Other Jobs. Those candidates who have qualified in the 10th Pass, Any Degree, Post Graduation, 12th, Diploma, ITI can grab this chance and apply for the GGH Srikakulam Recruitment 2025 . Here, we include the age limit, selec...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "23-09-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2025-09-24T23:38:54.740238",
+      "links": []
+    },
+    {
+      "id": "55e0974646b897e0149c8951f7571a4f",
+      "title": "IIT Kanpur Recruitment 2025 - Apply Offline for Senior Project Engineer Post",
+      "url": "https://allgovernmentjobs.in/iit-kanpur-recruitment-2025-apply-offline-for-senior-project-engineer-post/35166",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology Kanpur (IIT Kanpur) has declared the official notification for 2025. To fill up the vacancies for Senior Project Engineer Jobs. Those candidates who have qualified in the M.Tech. Ph.D can grab this chance and apply for the IIT Kanpur Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interestd and eligible candidates can apply on or before the last date of a...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "22-09-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-09-24T23:38:54.740261",
+      "links": []
+    },
+    {
+      "id": "21a9160ba8c847080e3d3930c2e1bc95",
+      "title": "NIT Calicut",
+      "url": "https://allgovernmentjobs.in/nit-calicut-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Institute of Technology Calicut (NIT Calicut) has announced the official notification for 2025. To fil .... The National Institute of Technology Calicut (NIT Calicut) has officially released the notification to fill the vacancie .... The National Institute of Technology Calicut (NIT Calicut) has officially released the notification to fill the vacancie .... The National Institute of Technology Calicut (NIT Calicut) has announced the official notification for 2025. To fil .... The...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Engineering",
+      "skills": [],
+      "scraped_at": "2025-09-24T23:38:54.740289",
+      "links": []
+    },
+    {
+      "id": "2430f01c922f9da2458b651759887a0e",
+      "title": "Surat Municipal Corporation",
+      "url": "https://allgovernmentjobs.in/surat-municipal-corporation-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Surat Municipal Corporation, Gujarat, has released the official notification for 2025. Allotted 42 vacancies for Off .... The Surat Municipal Corporation, Gujarat, has released the official notification for 2025. Allotted 03 vacancies Barber .... The Surat Municipal Corporation (SMC) has invited the online applicants to fill up the 72 Medical Officer, Pharmacist, F ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-09-24T23:38:54.740311",
+      "links": []
+    },
+    {
+      "id": "949910432190f60e82f2170e33f0ed95",
+      "title": "IIT Kanpur",
+      "url": "https://allgovernmentjobs.in/iit-kanpur-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology Kanpur (IIT Kanpur) has declared the official notification for 2025. To fill up the vacan .... The Indian Institute of Technology Kanpur (IIT Kanpur) has officially released the notification to fill the vacancies of .... Indian Institute of Technology Kanpur (IIT Kanpur) has declared the official notification for 2025. To fill up the vacan .... Insian Institute of Technology has officially released the notification for 2025. To fill up the vacancies for the Juni...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2025-09-24T23:38:54.740373",
+      "links": []
     }
   ]
 }
