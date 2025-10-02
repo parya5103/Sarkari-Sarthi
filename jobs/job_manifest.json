@@ -1,128 +1,9 @@
 {
   "last_updated": "2025-10-01T23:42:13.830124",
-  "total_jobs": 263,
-  "active_jobs": 263,
-  "expired_jobs": 13,
+  "total_jobs": 253,
+  "active_jobs": 253,
+  "expired_jobs": 10,
   "jobs": [
-    {
-      "id": "f570adeefc63639eae425bc4c32cde5c",
-      "title": "ACTREC Recruitment 2025 - Apply for Senior Project Associate Post",
-      "url": "https://allgovernmentjobs.in/actrec-recruitment-2025-apply-for-senior-project-associate-post/34499",
-      "source": "allgovernmentjobs.in",
-      "description": "Advanced Centre for Treatment Research and Education in Cancer (ACTREC) has declared he official notification for 2025. TO fill up the vacancies for Senior Project Associate Jobs. Those candidates who have qualified in the B.E/ B.Tech, M.E/ M.Tech, Ph.D, M.Sc, and M.Pharm can grab this chance and apply for the ACTREC Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligib...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "30-08-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-09-01T23:39:57.823393",
-      "links": []
-    },
-    {
-      "id": "3e26f722565f462f5919b5c49aeca833",
-      "title": "AIIMS Deoghar Recruitment 2025 - Apply for Lab Technician Post",
-      "url": "https://allgovernmentjobs.in/aiims-deoghar-recruitment-2025-apply-for-lab-technician-post/34496",
-      "source": "allgovernmentjobs.in",
-      "description": "All India Institutes of Medical Sciences (AIIMS) Deoghar has declared the official notification for 2025. To fill up the vacancies for Lab Technician Jobs. Those candidates who have qualified in the DMLT, B.Sc can grab this chance and apply for the AIIMS Deoghar Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply on or before the last date of ap...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "31-08-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-09-01T23:39:57.823466",
-      "links": []
-    },
-    {
-      "id": "273d8baaf3d3dfeae057a45baf841cfc",
-      "title": "AIIMS Delhi Recruitment 2025 - Apply for 02 Junior Research Fellow Posts",
-      "url": "https://allgovernmentjobs.in/aiims-delhi-recruitment-2025-apply-for-02-junior-research-fellow-posts/34494",
-      "source": "allgovernmentjobs.in",
-      "description": "The All India Institute of Medical Sciences, Delhi (AIIMS Delhi) has declared the official notification for 2025. To fill up the vacancies for 02 Junior Research Fellow Jobs. Those candidates who have qualified in the Post-Graduation can grab this chance and apply for the AIIMS Delhi Recruitment 2025. Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply on or befor...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "01-09-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-09-01T23:39:57.823509",
-      "links": []
-    },
-    {
-      "id": "a69dc2491b8c646c651330b93fbc5e72",
-      "title": "IBPS Recruitment 2025 - Apply Online for 13217 Office Assistant and Officer Posts",
-      "url": "https://allgovernmentjobs.in/ibps-recruitment-2025-apply-online-for-13217-office-assistant-and-officer-posts/34492",
-      "source": "allgovernmentjobs.in",
-      "description": "Institute of Banking Personnel Selection (IBPS) has declared the latest job notification for 2025. To fill up the vacancies for 13217 Office Assistant, Office Scale Jobs. Those candidates who have qualified in Any Degree, CA, LLB, and MBA can grab this chance and apply for the IBPS Recruitment 2025 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible aspirants can apply online thro...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "01-09-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Word",
-        "Data Entry"
-      ],
-      "scraped_at": "2025-09-01T23:39:57.823548",
-      "links": []
-    },
-    {
-      "id": "181c9413c1dfc5481d905b9487eec18a",
-      "title": "KUFOS Recruitment 2025 - Apply Offline for Driver/ Office Attendant Posts",
-      "url": "https://allgovernmentjobs.in/kufos-recruitment-2025-apply-offline-for-drver-office-attendent-posts/33082",
-      "source": "allgovernmentjobs.in",
-      "description": "The Kerala University of Fisheries and Ocean Studies (KUFOS) has declared the official notification for the posts of Driver/ Office attendant Vacancies for those candidates who are qualified with a 10th Pass. Interested candidates should fill out the application and send it along with the relevant documents to the address below on or before the last date of the application. Here we mentioned everything about the Age Limit, Selection Process, Salary Structure, Education details, Application fe...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "01-07-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2025-09-01T23:39:57.823586",
-      "links": []
-    },
-    {
-      "id": "d161bc0c67594cf587e563fe854ba278",
-      "title": "MHSRB",
-      "url": "https://allgovernmentjobs.in/mhsrb-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Andhra Pradesh Medical Services Recruitment Board (APMSRB) has officially released the notification to fill the vaca .... The Andhra Pradesh Medical Services Recruitment Board (APMSRB) has officially released the notification to fill the vaca .... The Andhra Pradesh Medical Services Recruitment Board (APMSRB) has declared the official notification for 2025. To .... The Medical & Health Services Recruitment Board (MHSRB Telangana) has officially released the notification to fill u .... The...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-09-01T23:39:57.823654",
-      "links": []
-    },
-    {
-      "id": "80c4cbee089a7d5d120656fc79d9e5e7",
-      "title": "IIM Visakhapatnam",
-      "url": "https://allgovernmentjobs.in/iim-visakhapatnam-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Institute of Management Visakhapatnam (IIM Visakhapatnam) has officially released the notification .... The Indian Institute of Management Vishakapatnam (IIMV) has officially released the notification to fill the vacancies o ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2025-09-01T23:39:57.823674",
-      "links": []
-    },
-    {
-      "id": "20a20e01a9a0f0ca7399b115d4ae3c81",
-      "title": "AIIMS Delhi",
-      "url": "https://allgovernmentjobs.in/aiims-delhi-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The All India Institute of Medical Sciences, Delhi (AIIMS Delhi) has declared the official notification for 2025. To fil .... The All India Institute of Medical Sciences, Delhi (AIIMS Delhi) has declared the official notification for 2025. To fil .... All India Institute of Medical Sciences (AIIMS) Delhi has declared the latest job notification for 2025. Allotted Vacanc .... All India Institute of Medical Sciences (AIIMS) Delhi has declared the latest job notification for 2025. Allotted Vacan...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Medical",
-      "skills": [],
-      "scraped_at": "2025-09-01T23:39:57.823694",
-      "links": []
-    },
     {
       "id": "83811a2555c84a4ce762885d2bd0cdf8",
       "title": "Gauhati High Court Recruitment 2025 - Apply Online for 02 Multi Tasking Staff Posts",
@@ -912,22 +793,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2025-09-12T23:39:48.643550",
-      "links": []
-    },
-    {
-      "id": "a6741fd56bc5c288372f132981a9f2d0",
-      "title": "Ordnance Factory Recruitment 2025 - Apply Offline for 14 Graduate & Diploma Project Engineer Posts",
-      "url": "https://allgovernmentjobs.in/ordnance-factory-recruitment-2025-apply-offline-for-14-graduate-diploma-project-engineer-posts/34786",
-      "source": "allgovernmentjobs.in",
-      "description": "The Ordnance Factory Dehu Road has officially released the notification to fill the vacancies of 14 Graduate & Diploma Project Engineer Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Diploma, B.E./B. Tech in Civil Engineering can apply for the Ordnance Factory Recruitment 2025 . The interested applicants can apply in offline mode. Here we have mentioned the education details, ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "01-10-2025",
-        "found_date": "11-09-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-09-12T23:39:48.643569",
       "links": []
     },
     {
@@ -2386,22 +2251,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2025-09-23T23:39:14.080667",
-      "links": []
-    },
-    {
-      "id": "2ee124fdab3cc5d3e4f8ab68369be27b",
-      "title": "AIIMS Jodhpur Recruitment 2025 - Walk-in interview for 06 Research Scientist, Lab Technician and Other Posts",
-      "url": "https://allgovernmentjobs.in/aiims-jodhpur-recruitment-2025-walk-in-interview-for-06-research-scientist-lab-technician-and-other-posts/35135",
-      "source": "allgovernmentjobs.in",
-      "description": "The All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur) has officially released the notification to fill the vacancies of 06 Research Scientist-I, Lab Technician, Multi-Tasking staff, Research Scientist, and Research Assistant Jobs. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS, BDS, DMLT, 12th, MD/MS, DNB, B.Sc, 10th, and M.Sc can apply for the AIIMS Jodhpur Recrui...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "01-10-2025",
-        "found_date": "19-09-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-09-23T23:39:14.080683",
       "links": []
     },
     {
