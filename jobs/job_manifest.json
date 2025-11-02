@@ -1,8 +1,8 @@
 {
-  "last_updated": "2025-11-01T23:43:26.488096",
-  "total_jobs": 260,
-  "active_jobs": 260,
-  "expired_jobs": 23,
+  "last_updated": "2025-11-02T23:42:10.516779",
+  "total_jobs": 261,
+  "active_jobs": 261,
+  "expired_jobs": 0,
   "jobs": [
     {
       "id": "5461fc951ab06ca4c9684926fb021b0b",
@@ -3866,6 +3866,19 @@
       "category": "IT",
       "skills": [],
       "scraped_at": "2025-11-01T23:39:40.366116",
+      "links": []
+    },
+    {
+      "id": "e59bf68ed06238db8bb3c589d41136ba",
+      "title": "AIIMS Nagpur",
+      "url": "https://allgovernmentjobs.in/aiims-nagpur-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "All India Institute of Medical Sciences Nagpur (AIIMS Nagpur) has declared the official notification for 2025. To fill u .... All India Institute of Medical Sciences Nagpur (AIIMS Nagpur) has announced the latest job notification for 2025. To fil .... The All India Institute of Medical Sciences, Nagpur (AIIMS Nagpur) has officially released the notification to fill the .... The All India Institute of Medical Sciences, Nagpur (AIIMS Nagpur) has declared the official notification for 2025. .......",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Medical",
+      "skills": [],
+      "scraped_at": "2025-11-02T23:40:20.034140",
       "links": []
     }
   ]
