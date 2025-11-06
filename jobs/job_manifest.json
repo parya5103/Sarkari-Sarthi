@@ -1,138 +1,9 @@
 {
-  "last_updated": "2025-11-05T23:44:38.299424",
-  "total_jobs": 278,
-  "active_jobs": 278,
-  "expired_jobs": 10,
+  "last_updated": "2025-11-06T23:43:18.391058",
+  "total_jobs": 283,
+  "active_jobs": 283,
+  "expired_jobs": 14,
   "jobs": [
-    {
-      "id": "7c1a4da5d5c8807337968be1682ada57",
-      "title": "IIT Kanpur Recruitment 2025 - Apply for 03 Senior Project Associate Posts",
-      "url": "https://allgovernmentjobs.in/iit-kanpur-recruitment-2025-apply-for-03-senior-project-associate-posts/35485",
-      "source": "allgovernmentjobs.in",
-      "description": "Insian Institute of Technology has officially released the notification for 2025. To fill up the vacancies for the 03 Senior Project Associate Jobs. Those candidates who have completed their M.E/ M.Tech, M.Sc. Desirable candidates can send their resume along with the relevant documents to the address provided below. Candidates are advised to check the official notification for eligibility criteria and to send the application form before the last date. Here we include the age limit, selection ...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "03-10-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-06T23:39:26.219926",
-      "links": []
-    },
-    {
-      "id": "c35e2cc78bfac337fc16a12e5bae4879",
-      "title": "Vizag Port Trust Recruitment 2025 - Apply Offline for 02 Fire Officer, Executive Engineer Posts",
-      "url": "https://allgovernmentjobs.in/vizag-port-trust-recruitment-2025-apply-offline-for-02-fire-officer-executive-engineer-posts/35483",
-      "source": "allgovernmentjobs.in",
-      "description": "The Visakhapatnam Port Trust (Vizag Port Trust) has officially released the notification to fill the vacancies of 02 Fire Officers and Executive Engineer Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree, and B.E./B. Tech in Civil Engineering can apply for the Vizag Port Trust Recruitment 2025 . The interested applicants can apply in offline mode. Here we have mentione...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "01-12-2025",
-        "found_date": "01-10-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-06T23:39:26.219970",
-      "links": []
-    },
-    {
-      "id": "5ac8fc20878b9c890a60b1dbab0ae691",
-      "title": "ECHS Recruitment 2025 - Apply Offline for Driver Post",
-      "url": "https://allgovernmentjobs.in/echs-recruitment-2025-apply-offline-for-driver-post/35482",
-      "source": "allgovernmentjobs.in",
-      "description": "Ex-Servicemen Contributory Health Scheme (ECHS) has announced the official notification for 2025. To fill up the vacancies for Driver Jobs. Those candidates who have qualified in the 8th, 10th can grab this chance and apply for these posts. Here, we include the age limit, selection process, salary structure, educational details, application fee, and how to apply for the ECHS Recruitment 2025 . Interested and eligible candidates can fill out the application form before the last date of applica...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "30-09-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-06T23:39:26.219988",
-      "links": []
-    },
-    {
-      "id": "be2a2c8e4ba522c21c3f053ea84fe311",
-      "title": "Tripura PSC Recruitment 2025 - Apply Online for 06 Medical Officer Posts",
-      "url": "https://allgovernmentjobs.in/tripura-psc-recruitment-2025-apply-online-for-06-medical-officer-posts/35480",
-      "source": "allgovernmentjobs.in",
-      "description": "The Tripura Public Service Commission (TPSC) has announced the latest job notification for 2025. To fill up the vacancies for 06 Medical Officer (Dental) Jobs. Those candidates who have qualified in the MDS can grab this chance and apply for the TPSC Recruitment 2025 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply online through the website on or before the...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "15-09-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Analyst",
-        "Word"
-      ],
-      "scraped_at": "2025-10-06T23:39:26.220043",
-      "links": []
-    },
-    {
-      "id": "fbe8a2bf1996d3ab2b43bd4eafe20ce2",
-      "title": "RITES",
-      "url": "https://allgovernmentjobs.in/rites-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Rites Limited has officially released the notification to fill the vacancies of 11 Section Engineers, Planning .... The Rail India Technical and Economic Services (RITES) has officially released the notification to fill the vacancies of .... The Rail India Technical and Economic Services (RITES) has officially released the notification to fill the vacanci .... The Rail India Technical and Economic Services (RITES) has officially released the notification to fill the vacanci .... Rail Indi...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-06T23:39:26.220110",
-      "links": []
-    },
-    {
-      "id": "2fa89e754d8574cb439b82532c24c26c",
-      "title": "Visakhapatnam Port Trust",
-      "url": "https://allgovernmentjobs.in/visakhapatnam-port-trust-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Visakhapatnam Port Trust (Vizag Port Trust) has officially released the notification to fill the vacancies of 02 Fir ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-06T23:39:26.220151",
-      "links": []
-    },
-    {
-      "id": "b888c2df0d98dd8a08ea110957809ad9",
-      "title": "IIT Kharagpur",
-      "url": "https://allgovernmentjobs.in/iit-kharagpur-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Institute of Technology Kharagpur (IIT Kharagpur) has declared the official notification for 2025. To fi .... The Indian Institute of Technology Kharagpur (IIT Kharagpur) has declared the official notification for 2025. To fi .... The Indian Institute of Technology Kharagpur (IIT Kharagpur) has officially released the notification to fill the vacanc .... The Indian Institute of Technology Kharagpur (IIT Kharagpur) has declared the latest job notification for 2025. To fill .... The ...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2025-10-06T23:39:26.220170",
-      "links": []
-    },
-    {
-      "id": "20a20e01a9a0f0ca7399b115d4ae3c81",
-      "title": "AIIMS Delhi",
-      "url": "https://allgovernmentjobs.in/aiims-delhi-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The All India Institute of Medical Sciences, Delhi (AIIMS Delhi) has declared the official notification for 2025. To fil .... The All India Institute of Medical Sciences, Delhi (AIIMS Delhi) has officially released the notification to fill the va .... All India Institute of Medical Sciences, Delhi (AIIMS Delhi) has declared the official notification for 2025. To fi .... All India Institute of Medical Sciences, Delhi (AIIMS Delhi) has declared the official notification for 2025. To fi .... The...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Medical",
-      "skills": [],
-      "scraped_at": "2025-10-06T23:39:26.220191",
-      "links": []
-    },
-    {
-      "id": "b0bcc44141115ec3a1da38a5766fd00f",
-      "title": "Central Railway",
-      "url": "https://allgovernmentjobs.in/central-railway-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The North Central Railway (NCR)  has officially released the notification to fill the vacancies of 46 Sports Person .... The Central Railway has officially released the notification to fill the vacancies of 1763 Apprentice Posts. Interested .... The Central Railway has officially released the notification to fill the vacancies of 2418 Apprentice Posts. Interested .... The Central Railway has officially released the notification to fill up 02 Ayurvedic Consultant  Posts. I .... The Central Rai...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-06T23:39:26.220214",
-      "links": []
-    },
     {
       "id": "7f466dcbeb30518b6a83a27ae9c8394e",
       "title": "IIT Mandi Recruitment 2025 - Apply Online for 07 Senior Project Scientist and Other Posts",
@@ -786,22 +657,6 @@
       "links": []
     },
     {
-      "id": "47b08594f9460b22c13c4ded19f354c2",
-      "title": "DFCCIL Recruitment 2025 - Apply Offline for Additional General Manager Posts",
-      "url": "https://allgovernmentjobs.in/dfccil-recruitment-2025-apply-offline-for-additional-general-manager-posts/35735",
-      "source": "allgovernmentjobs.in",
-      "description": "The Dedicated Freight Corridor Corporation of India Limited (DFCCIL) has officially released the notification to fill the vacancies of 01 Additional General Manager Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech in Computer Science, Electrical, Electronics Engineering, MBA, and MCA can apply for the DFCCIL Recruitment 2025 . The interested applicants...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "05-11-2025",
-        "found_date": "06-10-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-13T23:39:09.726942",
-      "links": []
-    },
-    {
       "id": "f4320ca3f06879933fd5f54ffcf03b37",
       "title": "RAILTEL",
       "url": "https://allgovernmentjobs.in/railtel-recruitment",
@@ -1362,22 +1217,6 @@
       "links": []
     },
     {
-      "id": "801e27e1ffb83ea631f46f4dca72ab5a",
-      "title": "BECIL Recruitment 2025 - Apply Offline for 03 Content Writer and Other Posts",
-      "url": "https://allgovernmentjobs.in/becil-recruitment-2025-apply-offline-for-03-content-writer-and-other-posts/35922",
-      "source": "allgovernmentjobs.in",
-      "description": "Broadcast Engineering Consultants India (BECIL) has declared the official notification for 2025. To fill up the vacancies for Content Writer, Graphic Designer, and Video Editor Jobs. Those candidates who have qualified in the B.E/ B.Tech, Diploma, and Post Graduation can grab this chance and apply for the BECIL Recruitment 2025 . Here, we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates ca...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "05-11-2025",
-        "found_date": "17-10-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-18T23:39:33.462549",
-      "links": []
-    },
-    {
       "id": "63b4036541d66410df95c2ae03179de6",
       "title": "WCD Kodagu Recruitment 2025 - Apply Online for 215 Anganwadi Worker & Helper Posts",
       "url": "https://allgovernmentjobs.in/wcd-kodagu-recruitment-2025-apply-online-for-215-anganwadi-worker-helper-posts/35921",
@@ -1681,22 +1520,6 @@
       "category": "Engineering",
       "skills": [],
       "scraped_at": "2025-10-22T23:39:27.504889",
-      "links": []
-    },
-    {
-      "id": "670facf8c08d26f66f9fceed5a8613e8",
-      "title": "IIITDM Kurnool Jobs 2025 - Apply Online for 02 Project Associate Posts",
-      "url": "https://allgovernmentjobs.in/iiitdm-kurnool-jobs-2025-apply-online-for-02-project-associate-posts/35962",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Institute of Information Technology Design and Manufacturing Kurnool (IIITDM Kurnool) has officially released the notification to fill the vacancies of 02 Project Associate Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech in Electronics and Mechanical Engineering can apply for the IIITDM Kurnool Jobs 2025 . The interested applicants can apply in online m...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "05-11-2025",
-        "found_date": "22-10-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-22T23:39:27.510581",
       "links": []
     },
     {
@@ -2008,22 +1831,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2025-10-25T23:39:29.009302",
-      "links": []
-    },
-    {
-      "id": "83fcf875c7094783ff35096354f8420f",
-      "title": "IISER Thiruvananthapuram Notification 2025 - Apply Online for Project Scientist Post",
-      "url": "https://allgovernmentjobs.in/iiser-thiruvananthapuram-notification-2025-apply-online-for-project-scientist-post/36094",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Science Education and Research Thiruvananthapuram (IISER Thiruvananthapuram) has announced the official notification for 2025. To fill up the vacancies for Project Scientist Jobs. Those candidates who have qualified in the M.E/ M.Tech., Ph.D can grab this chance and apply for the IISER Thiruvananthapuram Notification 2025 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested a...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "05-11-2025",
-        "found_date": "22-10-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-25T23:39:29.009330",
       "links": []
     },
     {
@@ -3365,22 +3172,6 @@
       "links": []
     },
     {
-      "id": "0ea5629007d76d3cef06e3172c8bfc9b",
-      "title": "IIT Jammu Recruitment 2025 - Apply Online for Assistant Engineer Post",
-      "url": "https://allgovernmentjobs.in/iit-jammu-recruitment-2025-apply-online-for-assistant-engineer-post/36344",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Institute of Technology Jammu (IIT Jammu) has declared the official notification for 2025. To fill up the vacancies for Assistant Engineer Jobs. Those candidates who have qualified in the B.E/ B.Tech, M.E/ M.Tech, Diploma in Civil Engineering can grab this chance and apply for the IIT Jammu Recruitment 2025 . Here, we provided more information about the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested c...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "05-11-2025",
-        "found_date": "28-10-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-03T23:40:16.229729",
-      "links": []
-    },
-    {
       "id": "d1fefcd4225e5eb2e3b0c1078e5a9189",
       "title": "PRL Recruitment 2025 - Apply Online for 20 Technical Assistant, Technician B Posts",
       "url": "https://allgovernmentjobs.in/prl-recruitment-2025-apply-online-for-20-technical-assistant-technician-b-posts/36340",
@@ -4156,6 +3947,304 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2025-11-05T23:41:54.089603",
+      "links": []
+    },
+    {
+      "id": "d2adf1a27322614c52049f72eb5275df",
+      "title": "SECR Notification 2025 - Apply Offline for 02 Honorary Visiting Specialist Posts",
+      "url": "https://allgovernmentjobs.in/secr-notification-2025-apply-offline-for-02-honorary-visiting-specialist-posts/36475",
+      "source": "allgovernmentjobs.in",
+      "description": "The South East Central Railway (SECR) has officially released the notification to fill the vacancies of 02 Honorary Visiting Specialist Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Post-graduation and PGDM can apply for the SECR Notification 2025 . The interested applicants can apply in offline mode. Here we have mentioned the education details, age limit, selection process...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "20-11-2025",
+        "found_date": "03-11-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-11-06T23:40:14.439817",
+      "links": []
+    },
+    {
+      "id": "1cc4b76ed96dbd5a62a9fb37ae558e23",
+      "title": "Kerala University Recruitment 2025 - Apply Offline for Resident Cook Post",
+      "url": "https://allgovernmentjobs.in/kerala-university-recruitment-2025-apply-offline-for-resident-cook-post/36474",
+      "source": "allgovernmentjobs.in",
+      "description": "University of Kerala has declared the official notification for 2025. To fill up the vacancies for Resident Cook Jobs. Those candidates who have qualified in the 10th Pass can utilize this chance and apply for the Kerala University Recruitment 2025 . Here we provide more information about the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply before the last date. If you are looking...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "07-11-2025",
+        "found_date": "01-11-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-11-06T23:40:14.448123",
+      "links": []
+    },
+    {
+      "id": "64ea7502ffdf488b6d1dac3652fcd749",
+      "title": "TMC Recruitment 2025 - Walk-in-Interview for 07 Security Guard Posts",
+      "url": "https://allgovernmentjobs.in/tmc-recruitment-2025-walk-in-interview-for-07-security-guard-posts/36473",
+      "source": "allgovernmentjobs.in",
+      "description": "The Tata Memorial Centre (TMC)has declared the official notification for 2025. To fill up the vacancies for 07 Security Guard Jobs. Those candidates who have qualified in the 10th Pass can grab this chance and apply for the TMC Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can attend the walk-in at the address given below. If you are looking for mor...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "07-11-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-11-06T23:40:14.448159",
+      "links": []
+    },
+    {
+      "id": "865e7d3d87869065a4bcd2d21a104c85",
+      "title": "IUCAA Recruitment 2025 - Apply Online for Project Assistant Posts",
+      "url": "https://allgovernmentjobs.in/iucaa-recruitment-2025-apply-online-for-project-assistant-posts/36472",
+      "source": "allgovernmentjobs.in",
+      "description": "The Inter University Centre for Astronomy and Astrophysics (IUCAA) has officially released the notification to fill the vacancies of 01 Project Assistant Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, and B.Sc can apply for the IUCAA Recruitment 2025 . The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, se...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "17-11-2025",
+        "found_date": "06-11-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-11-06T23:40:14.448188",
+      "links": []
+    },
+    {
+      "id": "c75ca60040ff020669c0842b51595f4f",
+      "title": "HNBGU Recruitment 2025 - Apply Offline for 03 Junior Research Fellow and Other Posts",
+      "url": "https://allgovernmentjobs.in/hnbgu-recruitment-2025-apply-offline-for-03-junior-research-fellow-and-other-posts/36471",
+      "source": "allgovernmentjobs.in",
+      "description": "Hemvati Nandan Bahuguna Garhwal University (HNBGU) has announced the official notification for 2025. To fill up the vacancies for 03 Junior Research Fellow and Project Assistant Jobs. Those candidates who have qualified in the B.Pharm, M.Pharm, and M.Sc can grab this chance and apply for the HNBGU Recruitment 2025 . Here we include the age limit, selection process, salary Structure, education details, application fee, and how to apply for these posts. Interested candidates can apply before th...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "10-11-2025",
+        "found_date": "05-11-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-11-06T23:40:14.448231",
+      "links": []
+    },
+    {
+      "id": "d1dc5a59ecd9f6ca2cb2031d1c22a28d",
+      "title": "DIC Recruitment 2025 - Apply Online for Full Stack Developer Posts",
+      "url": "https://allgovernmentjobs.in/dic-recruitment-2025-apply-online-for-full-stack-developer-posts/36470",
+      "source": "allgovernmentjobs.in",
+      "description": "The Digital India Corporation has officially released the notification to fill the vacancies of 01 Full Stack Developer Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree, and B.E./B. Tech can apply for the DIC Recruitment 2025 . The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, application f...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "19-11-2025",
+        "found_date": "04-11-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-11-06T23:40:14.448255",
+      "links": []
+    },
+    {
+      "id": "199bcc162a4d928f32d0a60dd21bf0c2",
+      "title": "IIT Patna Recruitment 2025 - Apply Offline for Junior Research Fellow Post",
+      "url": "https://allgovernmentjobs.in/iit-patna-recruitment-2025-apply-offline-for-junior-research-fellow-post/36468",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology Patna (IIT Patna) has declared the latest job notification for 2025. To fill up the vacancies for Junior Research Fellow Jobs. Those candidates who have qualified in the M.E/ M.Tech can grab this chance and apply for the IIT Patna Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, application fee, and how to apply for these posts. Interested and eligible candidates can apply before the last ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "21-11-2025",
+        "found_date": "04-11-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-11-06T23:40:14.448288",
+      "links": []
+    },
+    {
+      "id": "9660fce20987eb91d6c7c2c02486227f",
+      "title": "IIT Delhi Recruitment 2025 - Apply Offline for 02 Project Associate Post",
+      "url": "https://allgovernmentjobs.in/iit-delhi-recruitment-2025-apply-offline-for-02-project-associate-post/36466",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology Delhi (IIT Delhi) has declared the official notification for 2025. To fill up the vacancies for 02 Project Associate Jobs. Those candidates who have qualified in the B.E/B. Tech in Electronics and Communication Engineering can grab this chance and apply for these posts. Here we mention the age limit, selection process, salary structure, education details, application fee, and how to apply for the IIT Delhi Recruitment 2025 . Interested candidates can apply befor...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "20-11-2025",
+        "found_date": "06-11-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-11-06T23:40:14.448315",
+      "links": []
+    },
+    {
+      "id": "b7d4ffc74b6ba552028ed885740192c9",
+      "title": "Kerala PSC",
+      "url": "https://allgovernmentjobs.in/kerala-psc-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "University of Kerala has declared the official notification for 2025. To fill up the vacancies for Resident Cook Jo .... The Kerala University has officially released the notification to fill the vacancies of 01 Pharmacist Posts. Interested .... The Kerala Rubber Limited has officially released the notification to fill the vacancies of 01 Senior Project Engineer P .... Kerala University has declared the official notification for 2025. To fill up the vacancies for Technical Officer J .... Amri...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-11-06T23:40:14.448357",
+      "links": []
+    },
+    {
+      "id": "c79d3156211fc8384201bac731e7e1a6",
+      "title": "HNBGU",
+      "url": "https://allgovernmentjobs.in/hnbgu-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Hemvati Nandan Bahuguna Garhwal University (HNBGU) has announced the official notification for 2025. To fill up the vaca .... The Hemwati Nandan Bahuguna Garhwal University (HNBGU) has officially released the notiifcation to fill the vacanci ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2025-11-06T23:40:14.448400",
+      "links": []
+    },
+    {
+      "id": "cb4f646c2fe8aae82a7c2fc2d2f77578",
+      "title": "IIT Patna",
+      "url": "https://allgovernmentjobs.in/iit-patna-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology Patna (IIT Patna) has declared the latest job notification for 2025. To fill up the vacan .... The Indian Institute of Technology (IIT) Patna has announced the official notification for 2025. To fill up the vacancie .... The Indian Institute of Technology (IIT) Patna has announced the official notification for 2025. To fill up the vacancie ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2025-11-06T23:40:14.448465",
+      "links": []
+    },
+    {
+      "id": "99c501e4184340d1c73a28502f9387b3",
+      "title": "IIT Delhi",
+      "url": "https://allgovernmentjobs.in/iit-delhi-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology Delhi (IIT Delhi) has declared the official notification for 2025. To fill up the vacanci .... Indian Institute of Technology Delhi (IIT Delhi) has declared the official notification for 2025. To fill up the vacanci .... Indian Institute of Technology Delhi (IIT Delhi) has declared the latest job notification for 2025. To fill up the vacan .... The Indian Institute of Technology Delhi (IIT Delhi) has recently released the official notification for 2025. To fill ...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2025-11-06T23:40:14.448493",
+      "links": []
+    },
+    {
+      "id": "19ccf688b487df63ff2b823dc1df1c08",
+      "title": "THSTI",
+      "url": "https://allgovernmentjobs.in/thsti-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Translational Health Science and Technology Institute (THSTI) has declared the official notification for 205. .... Translational Health Science and Technology Institute (THSTI) has declared the latest job notification for 2025. To fill .... The Translation Health Science and Technology Institute (THSTI) has officially released the notification to fill the vac .... The Translation Health Science and Technology Institute (THSTI) has officially released the notification to fill the vac .... The ...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Medical",
+      "skills": [],
+      "scraped_at": "2025-11-06T23:40:14.448559",
+      "links": []
+    },
+    {
+      "id": "b647e00252bf7c7144448313b7c28dfb",
+      "title": "NHM Maharashtra Jobs 2025 - Apply Online for 1440 Medical Officer Posts",
+      "url": "https://allgovernmentjobs.in/nhm-maharashtra-jobs-2025-apply-online-for-1440-medical-officer-posts/36469",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Health Mission Maharashtra (NHM Maharashtra) has officially released the notification to fill the vacancies of 1440 Medical Officer Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS, Post-graduation, and PGDM can apply for the NHM Maharashtra Jobs 2025. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "30-11-2025",
+        "found_date": "04-11-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-11-06T23:40:14.455412",
+      "links": []
+    },
+    {
+      "id": "67ba08403db20084a6f05f878f6c88cb",
+      "title": "IIT Kharagpur Jobs 2025 - Apply Online for Junior Research Fellow Posts",
+      "url": "https://allgovernmentjobs.in/iit-kharagpur-jobs-2025-apply-online-for-junior-research-fellow-posts/36467",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Institute of Technology Kharagpur (IIT Kharagpur) has officially released the notification to fill the vacancies of 01 Junior Research Fellow Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, and M.E./M. Tech can apply for the IIT Kharagpur Jobs 2025 . The interested applicants can apply in online mode. Here we have mentioned the education details, age l...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "19-11-2025",
+        "found_date": "06-11-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-11-06T23:40:14.455435",
+      "links": []
+    },
+    {
+      "id": "dba188ff7417422331b29223adf459cc",
+      "title": "RSSB Primary / Upper Primary Teacher REET Mains Online Form 2025",
+      "url": "https://www.rojgarresult.com/rajasthan-rssb-primary-upper-primary-sanskrit-08-09-2025/",
+      "source": "www.rojgarresult.com",
+      "description": "Rajasthan RSSB Primary School Teacher & Upper Primary School Teacher REET Mains Recruitment 2025  : Apply Online Form for 7759 Post Post Date: 06-11-2025 Short Description: RSSB Primary School Teacher & Upper Primary School Teacher Recruitment 2025 Online Form 2025 for 72 Post: Rajasthan Staff Selection Board (RSSB) Official Notification is released Online Form Now Started on 07 November 2025 to 06 December 2025 is Last Date for RSSB Primary School Teacher & Upper Primary School Teacher Exami...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "06/12/2025",
+        "found_date": "06-11-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "English",
+        "Hindi"
+      ],
+      "scraped_at": "2025-11-06T23:40:37.669724",
+      "links": []
+    },
+    {
+      "id": "53b7a616a0e95c99bef052722dd06e31",
+      "title": "PNB LBO Local Bank Officer Online Form 2025 for 750 Post",
+      "url": "https://www.rojgarresult.com/pnb-lbo-2025/",
+      "source": "www.rojgarresult.com",
+      "description": "Punjab National Bank LBO Recruitment 2025: Apply for 750 Post Post Date: 05-11-2025 Short Description: PNB LBO Recruitment 2025 Apply Online Form : Punjab National Bank PNB LBO Local Bank Officer Online Form 2025, Notification has been released on the website @https://pnb.bank.in/ & Application Form now started on 03 November 2025 to 23 November 2025 for Total 750 Post Punjab National Bank Jobs 2025. Get the direct link to download notification link available on PNB LBO Vacancy 2025 Official ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "05-11-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-11-06T23:40:37.669742",
+      "links": [
+        "https://pnb.bank.in/"
+      ]
+    },
+    {
+      "id": "85d56820353467d3abda3992789772db",
+      "title": "MP High Court Data Processing Assistant Online Form 2025",
+      "url": "https://www.rojgarresult.com/mp-high-court-data-processing-assistant-2025/",
+      "source": "www.rojgarresult.com",
+      "description": "MPHC Data Processing Assistant Recruitment 2025: Apply for 41 Post Post Date: 04-11-2025 Short Description: MP High Court Data Processing Assistant Recruitment 2025 Apply Online Form : MPHC Data Processing Assistant Online Form 2025, Notification has been released on the website @https://mphc.gov.in/ & Application Form now started on 29 October 2025 to 19 November 2025. Madhya Pradesh High Court MPHC Jobs 2025. Get the direct link to download notification link available on MP High Court Data ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "04-11-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2025-11-06T23:40:37.669760",
+      "links": [
+        "https://mphc.gov.in/"
+      ]
+    },
+    {
+      "id": "423a451b1ccc57d51cbb2fa8d01f4f82",
+      "title": "UPPSC Assistant Town Planner Online Form 2025",
+      "url": "https://www.rojgarresult.com/uppsc-assistant-town-planner-nov-2025/",
+      "source": "www.rojgarresult.com",
+      "description": "UPPSC Assistant Town Planner ATP Recruitment 2025: Apply Online for 08 Post Post Update : 04-11-2025 Short Description: UPPSC Assistant Town Planner Online Form 2025 for 08 Post : Uttar Pradesh Public Service Commission UPPSC Advt No A-10/E-1/2025 Official Notification is released and Online Form Now Started on 03 November 2025 to 03 December 2025 is Last Date for  UPPSC Assistant Town Planner Vacancy 2025 Full Notification available at the official website. All the candidates can now check t...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "03/12/2025",
+        "found_date": "04-11-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "English",
+        "Hindi"
+      ],
+      "scraped_at": "2025-11-06T23:40:37.669786",
       "links": []
     }
   ]
