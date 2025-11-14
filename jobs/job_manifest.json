@@ -1,93 +1,9 @@
 {
-  "last_updated": "2025-11-13T23:43:59.817419",
-  "total_jobs": 267,
-  "active_jobs": 267,
+  "last_updated": "2025-11-14T23:44:05.123774",
+  "total_jobs": 269,
+  "active_jobs": 269,
   "expired_jobs": 12,
   "jobs": [
-    {
-      "id": "d065e286e569f323bde5d9a4a8d8c6f8",
-      "title": "AIIMS Bhubaneswar Recruitment 2025 - Apply Offline for Project Coordinator Post",
-      "url": "https://allgovernmentjobs.in/aiims-bhubaneswar-recruitment-2025-apply-offline-for-project-coordinator-post/35786",
-      "source": "allgovernmentjobs.in",
-      "description": "All India Institute of Medical Sciences (AIIMS) Bhubaneswar has declared the latest job notification for 2025. To fill up the vacancies for Project Coordinator Jobs. Those candidates who have qualified in the MBBS, MD/ MS can grab this chance and apply for the AIIMS Bhubaneswar Recruitment 2025 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply on or before t...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "14-10-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-14T23:39:08.510702",
-      "links": []
-    },
-    {
-      "id": "0c3648a8d3279459b7791cdeb599ca5a",
-      "title": "MANIT Bhopal Recruitment 2025 - Apply Offline for Technical Assistance Post",
-      "url": "https://allgovernmentjobs.in/manit-bhopal-recruitment-2025-apply-offline-for-technical-assistance-post/35782",
-      "source": "allgovernmentjobs.in",
-      "description": "The Maulana Azad National Institute of Technology (MANIT Bhopal) has announced the official notification for 2025. To fill up the vacancies for Technical Assistance Jobs. Those candidates who have qualified in the B.E/ B.Tech., B.Sc can grab this chance and apply for the MANIT Bhopal Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts are mentioned below. Interested and eligible candidates ...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "29-10-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-14T23:39:08.510779",
-      "links": []
-    },
-    {
-      "id": "c054155ec420a7d30440ae7b6a3951e7",
-      "title": "GIPMER Recruitment 2025 - Walk-in-Interview 04 Senior Resident Posts",
-      "url": "https://allgovernmentjobs.in/gipmer-recruitment-2025-walk-in-interview-04-senior-resident-posts/35781",
-      "source": "allgovernmentjobs.in",
-      "description": "Govind Ballabh Pant Institute of Postgraduate Medical Education and Research (GIPMER) has declared the official notification for 2025. To fill up the vacancies for 04 Senior Resident Jobs. Those candidates who have qualified in the MBBS, Post-Graduation, and Diploma can grab this chance and apply for the GIPEMER Recruitment 2025 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible c...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "24-10-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-14T23:39:08.510797",
-      "links": []
-    },
-    {
-      "id": "7c3f4a5026ae14169474c5b1f0dc2024",
-      "title": "SGPGIMS",
-      "url": "https://allgovernmentjobs.in/sgpgims-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Sanjay Gandhi Postgraduate Institute of Medical Sciences (SGPGIMS), Lucknow, has released a recruitment notification for .... The Sanjay Gandhi Post Graduate Institute of Medical Sciences (SGPGIMS) has declared the official notification for 2025. .... The Sanjay Gandhi Post Graduate Institute of Medical Sciences (SGPGIMS Lucknow) has officially released the no ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-14T23:39:08.510845",
-      "links": []
-    },
-    {
-      "id": "afa2b2b0c97e3bbf1404ad5493e443ef",
-      "title": "AIIMS Bhubaneswar",
-      "url": "https://allgovernmentjobs.in/aiims-bhubaneswar-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "All India Institute of Medical Sciences (AIIMS) Bhubaneswar has declared the latest job notification for 2025. To fill u .... All India Institute of Medical Sciences (AIIMS) Bhubaneswar has declared the latest job notification for 2025. To fill u .... All India Institute of Medical Sciences Bhubaneswar (AIIMS Bhubaneswar) has announced the official notification for .... The All India Institute of Medical Sciences Bhubaneswar (AIIMS Bhubaneswar) has officially released the notification to .......",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Medical",
-      "skills": [],
-      "scraped_at": "2025-10-14T23:39:08.510869",
-      "links": []
-    },
-    {
-      "id": "9f9bf58aa79ac7b8139b36046762069b",
-      "title": "ACTREC",
-      "url": "https://allgovernmentjobs.in/actrec-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Advanced Centre for Treatment Research and Education in Cancer (ACTREC) has declared the official notification for 2 .... The Advanced Centre for Treatment Research and Education in Cancer (ACTREC) has officially released the notification to .... The Advanced Centre for Treatment Research and Education in Cancer (ACTREC) has declared the official notifica .... The Advanced Centre for Treatment Research and Education in Cancer (ACTREC) has declared the official notifica .... The Advanced C...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Teaching",
-      "skills": [],
-      "scraped_at": "2025-10-14T23:39:08.510906",
-      "links": []
-    },
     {
       "id": "e824465f7639abb161ba40a15c40fd44",
       "title": "BOB Recruitment 2025 - Apply Offline for 03 Business Corresponding Coordinator Posts",
@@ -258,24 +174,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2025-10-16T23:39:38.553171",
-      "links": []
-    },
-    {
-      "id": "2c21af07535c4c71990959c7a00707d1",
-      "title": "RVNL Recruitment 2025 - Apply Offline for 03 Additional General Manager/ Joint General Manager Posts",
-      "url": "https://allgovernmentjobs.in/rvnl-recruitment-2025-apply-offline-for-03-additional-general-manager-joint-general-manager-posts/35847",
-      "source": "allgovernmentjobs.in",
-      "description": "The Rail Vikas Nigam Limited (RVNL) has officially released the notification to fill the vacancies of 03 Additional General Manager/ Joint General Manager Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech in Civil Engineering can apply for the RVNL Recruitment 2025 . The interested applicants can apply in offline mode. Here we have mentioned the education details, a...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "13-11-2025",
-        "found_date": "15-10-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Analyst"
-      ],
-      "scraped_at": "2025-10-16T23:39:38.553213",
       "links": []
     },
     {
@@ -468,40 +366,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2025-10-18T23:39:33.462512",
-      "links": []
-    },
-    {
-      "id": "46e8352d0ec4c6aad643c6da1086d207",
-      "title": "MPBDC Recruitment 2025 - Apply Online for Various Engineer-in-Chief Post",
-      "url": "https://allgovernmentjobs.in/mpbdc-recruitment-2025-apply-online-for-various-engineer-in-chief-post/35924",
-      "source": "allgovernmentjobs.in",
-      "description": "Madhya Pradesh Building Development Corporation Limited (MPBDC) has announced the official notification for 2025. To fill up the various vacancies for the Engineer-in-Chief Jobs. Those candidates who have qualified in the B.E/ B.Tech in Civil Engineering, Any Degree, Post Graduation can grab this chance and apply for the MPBDC Recruitment 2025 . Here, we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. If you a...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "13-11-2025",
-        "found_date": "14-10-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Word"
-      ],
-      "scraped_at": "2025-10-18T23:39:33.462531",
-      "links": []
-    },
-    {
-      "id": "63b4036541d66410df95c2ae03179de6",
-      "title": "WCD Kodagu Recruitment 2025 - Apply Online for 215 Anganwadi Worker & Helper Posts",
-      "url": "https://allgovernmentjobs.in/wcd-kodagu-recruitment-2025-apply-online-for-215-anganwadi-worker-helper-posts/35921",
-      "source": "allgovernmentjobs.in",
-      "description": "The Women and Child Development Department, Kodagu (WCD Kodagu) has officially released the notification to fill the vacancies of 215 Anganwadi Worker and Helper Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their 10th and 12th can apply for the WCD Kodagu Recruitment 2025. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit,...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "13-11-2025",
-        "found_date": "15-10-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-18T23:39:33.462568",
       "links": []
     },
     {
@@ -1620,22 +1484,6 @@
       "links": []
     },
     {
-      "id": "901cc0d915f220b36633aa22c2c510bf",
-      "title": "HLL Notification 2025 - Apply Online for Project Technical Support Post",
-      "url": "https://allgovernmentjobs.in/hll-notification-2025-apply-online-for-project-technical-support-post/36258",
-      "source": "allgovernmentjobs.in",
-      "description": "HLL Lifecare (HLL)  has declared the official notification for 2025. To fill up the vacancies for Project Technical Support Jobs. Those candidates who have qualified in the B.E/ B.Tech., M.Sc. can grab this chance and apply for the HLL Notification 2025 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested aspirants can apply on or before the last date of application. If you are looking for more...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "13-11-2025",
-        "found_date": "29-10-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-31T23:38:15.804535",
-      "links": []
-    },
-    {
       "id": "c27cf373b0704e968013f02e6ff811c3",
       "title": "ESIC Notification 2025 - Apply Offline for 12 Junior Engineer Posts",
       "url": "https://allgovernmentjobs.in/esic-notification-2025-apply-offline-for-12-junior-engineer-posts/36255",
@@ -1697,22 +1545,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2025-10-31T23:38:15.810247",
-      "links": []
-    },
-    {
-      "id": "ddd8c9ffb012c5722feab498ece01675",
-      "title": "SVNIT Recruitment 2025 - Apply Offline for 02 Junior Research Fellow, Project Associate Posts",
-      "url": "https://allgovernmentjobs.in/svnit-recruitment-2025-apply-offline-for-02-junior-research-fellow-project-associate-posts/36253",
-      "source": "allgovernmentjobs.in",
-      "description": "The Saradar Vallabhbhai Institute of Technology (SVNIT) has officially released the notification to fill the vacancies of 02 Junior Research Fellow, Project Assistant Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech and M.Sc. can apply for the SVNIT Recruitment 2025 . The interested applicants can apply in offline mode. Here we have mentioned the educ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "13-11-2025",
-        "found_date": "30-10-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-31T23:38:15.810303",
       "links": []
     },
     {
@@ -3266,22 +3098,6 @@
       "links": []
     },
     {
-      "id": "b8a3ee24204ca05618411143ef0b9159",
-      "title": "HKRN Notification 2025 - Apply Online for 04 Quality Engineer Posts",
-      "url": "https://allgovernmentjobs.in/hkrn-notification-2025-apply-online-for-04-quality-engineer-posts/36552",
-      "source": "allgovernmentjobs.in",
-      "description": "The Haryana Kaushal Rojgar Nigam (HKRN) has officially released the notification to fill the vacancies of 04 Quick Engineer Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Diploma, B.E./B. Tech in Electronics and Mechanical Engineering can apply for the HKRN Notification 2025 . The interested applicants can apply in online mode. Here we have mentioned the education details, ag...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "13-11-2025",
-        "found_date": "07-11-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-08T23:39:43.488893",
-      "links": []
-    },
-    {
       "id": "ae709e7ca49aff6ab512a54d34d9a595",
       "title": "DMC Notification 2025 - Walk-in-Interview for 02 Junior Resident Posts",
       "url": "https://allgovernmentjobs.in/dmc-notification-2025-walk-in-interview-for-02-junior-resident-posts/36551",
@@ -3984,6 +3800,217 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2025-11-13T23:41:26.899116",
+      "links": []
+    },
+    {
+      "id": "5df5a33e92f1e2e7481300e368ca7732",
+      "title": "ICMR Notification 2025 - Apply Online for 28 Scientist B Posts",
+      "url": "https://allgovernmentjobs.in/icmr-notification-2025-apply-online-for-28-scientist-b-posts/36722",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Council of Medical Research (ICMR) has officially released the notification to fill the vacancies of 28 Scientist B Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS can apply for the ICMR Notification 2025 . The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, application fee, salary, and...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "20-12-2025",
+        "found_date": "04-11-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-11-14T23:41:04.766728",
+      "links": []
+    },
+    {
+      "id": "faf4f7e970dede7e8e31b9ee58c446e5",
+      "title": "IISc Notification 2025 - Apply Online for 03 System Engineer, Senior System Engineer Posts",
+      "url": "https://allgovernmentjobs.in/iisc-notification-2025-apply-online-for-03-system-engineer-senior-system-engineer-posts/36720",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Institute of Science, Bangalore (IISc Bangalore) has officially released the notification to fill the vacancies of 03 System Engineers, Senior System Engineers. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech in Electrical, Mechanical Engineering can apply for the IISc Notification 2025 . The interested applicants can apply in online mode. Here we have mention...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "27-11-2025",
+        "found_date": "06-11-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-11-14T23:41:04.766761",
+      "links": []
+    },
+    {
+      "id": "93f9f1e42d5dd3b1a133c340195d379d",
+      "title": "TANUVAS Notification 2025 - Walk-in interview for Project Assistant Posts",
+      "url": "https://allgovernmentjobs.in/tanuvas-notification-2025-walk-in-interview-for-project-assistant-posts/36718",
+      "source": "allgovernmentjobs.in",
+      "description": "The Tamil Nadu Veterinary and Animal Sciences University (TANUVAS) has officially released the notification to fill the vacancies of 01 Project Assistant Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their M.E./M. Tech and M.Sc. can apply for the TANUVAS Notification 2025 . The interested applicants can attend the walk-in interview. Here we have mentioned the education details, ag...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "17-11-2025",
+        "found_date": "13-11-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-11-14T23:41:04.766786",
+      "links": []
+    },
+    {
+      "id": "652ea604d25a90ca5b39214337759175",
+      "title": "BEE Notification 2025 - Apply Offline for 03 Senior Sector Expert Posts",
+      "url": "https://allgovernmentjobs.in/bee-notification-2025-apply-offline-for-03-senior-sector-expert-posts/36715",
+      "source": "allgovernmentjobs.in",
+      "description": "The Bureau of Energy Efficiency (BEE) has officially released the notification to fill the vacancies of 03 National Project Manager, Senior Sector Expert Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech and Ph.D. students can apply for the BEE Notification 2025 . The interested applicants can apply in offline mode. Here we have mentioned the education ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "24-11-2025",
+        "found_date": "25-10-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-11-14T23:41:04.766807",
+      "links": []
+    },
+    {
+      "id": "d3a07bcc87abe9ff6d2c8fb24e23ec86",
+      "title": "GGSGH Notification 2025 - Walk-in-Interview for 08 Senior Resident Posts",
+      "url": "https://allgovernmentjobs.in/ggsgh-notification-2025-walk-in-interview-for-08-senior-resident-posts/36714",
+      "source": "allgovernmentjobs.in",
+      "description": "Guru Gobind Singh Govt Hospital (GGSGH) has announced the official notification for 2025. To fill up the 08 vacancies for Senior Resident Jobs. Those candidates who have completed their MBBS, MD/ MS, DNB can grab this chance and apply for the GGSGH Notification 2025 . Here we include the age limit, selection process, salary structure, education details, application fe, and how to apply for these posts. Interestd candidates can attend the walk-in at the address given below. If you are looking ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "17-11-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-11-14T23:41:04.766840",
+      "links": []
+    },
+    {
+      "id": "9d3dc488a9cec7776bb23c0e4649bd4e",
+      "title": "ACTREC Notification 2025 - Walk-in interview for Research Lab Assistant Posts",
+      "url": "https://allgovernmentjobs.in/actrec-notification-2025-walk-in-interview-for-research-lab-assistant-posts/36713",
+      "source": "allgovernmentjobs.in",
+      "description": "The Advanced Centre for Treatment Research and Education in Cancer (ACTREC) has officially released the notification to fill the vacancies of 01 Research Lab Assistant Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.Sc., M.Sc., and M.E./M. Tech can apply for the ACTREC Notification 2025. The interested applicants can attend the walk-in interview. Here we have mentioned the e...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "20-11-2025",
+        "found_date": "13-11-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-11-14T23:41:04.766861",
+      "links": []
+    },
+    {
+      "id": "7d5972e6e9cb703a17af6a6eea4b8f21",
+      "title": "PGIMER Recruitment 2025 - Apply Online for Research Associate Post",
+      "url": "https://allgovernmentjobs.in/pgimer-recruitment-2025-apply-online-for-research-associate-post/36721",
+      "source": "allgovernmentjobs.in",
+      "description": "Postgraduate Institute of Medical Education and Research (PGIMER) has declared the official notification for 2025. To fill up the vacancies for Research Associate Jobs. Those candidates who have qualified in the M.Pharm, Ph.D, and Post Graduation can grab this chance and apply for the PGIMER Recruitment 2025 . Here we mentioned the information about the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates c...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "24-11-2025",
+        "found_date": "14-11-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-11-14T23:41:04.773594",
+      "links": []
+    },
+    {
+      "id": "aea0aec83a53a3a7de27eea3e2600403",
+      "title": "NIAB Recruitment 2025 - Apply Online for Project Research Scientist Post",
+      "url": "https://allgovernmentjobs.in/niab-recruitment-2025-apply-online-for-project-research-scientist-post/36719",
+      "source": "allgovernmentjobs.in",
+      "description": "National Institute of Animal Biotechnology (NIAB) has declared the latest job notification for 2025. To fill up the vacancies for Project Research Scientist Jobs. Those candidates who have qualified in the Post-Graduation, M.Sc., can grab this chance and apply for the NIAB Recruitment 2025 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply online before the la...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "20-11-2025",
+        "found_date": "13-11-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-11-14T23:41:04.773627",
+      "links": []
+    },
+    {
+      "id": "54337814d59589b953c917d074d5b3fe",
+      "title": "NIELIT Recruitment 2025 - Walk-in-Interview for 02 Data Entry Operator Post",
+      "url": "https://allgovernmentjobs.in/nielit-recruitment-2025-walk-in-interview-for-02-data-entry-operator-post/36717",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Institute of Electronics and Information Technology (NIELIT) has declared the official notification for 2025. To fill up the vacancies for 02 Data Entry Operator Jobs. Those candidates who have qualified in Any Degree can utilize this chance and apply for these posts. Here, we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for the NIELIT Recruitment 2025 . For more details, visit the official notification. If you...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "20-11-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2025-11-14T23:41:04.773648",
+      "links": []
+    },
+    {
+      "id": "787339796520cb11192fa741becae457",
+      "title": "IIM Lucknow Recruitment 2025 - Apply for Senior Research Assistant Post",
+      "url": "https://allgovernmentjobs.in/iim-lucknow-recruitment-2025-apply-for-senior-research-assistant-post/36716",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Management Lucknow (IIM Lucknow) has declared the official notification for 2025. To fill up the vacancies for Senior Research Assistant Jobs. Those candidates who have qualified in the Post-Graduation can grab this chance and apply for the IIM Lucknow Recruitment 2025 . Here we provided information about the age limit, selection process, salary structure, Education details, application fee, and how to apply for these posts. If you are looking for more, here is a list of G...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "14-11-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-11-14T23:41:04.773680",
+      "links": []
+    },
+    {
+      "id": "ea6c3e62931d3d5b20697fddeab94337",
+      "title": "PGIMER",
+      "url": "https://allgovernmentjobs.in/pgimer-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Postgraduate Institute of Medical Education and Research (PGIMER) has declared the official notification for 2025. To fi .... Postgraduate Institute of Medical Education and Research (PGIMER) has declared the official notification for 2025. To fi .... Postgraduate Institute of Medical Education and Research (PGIMER) has declared the official notification for 2025. To fi .... Post Graduate Institute of Medical Education and Research (PGIMER) has declared the official notification for 2025. To ...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-11-14T23:41:04.773713",
+      "links": []
+    },
+    {
+      "id": "5c02b918c600a09609d8fc58a8ef9905",
+      "title": "TANUVAS",
+      "url": "https://allgovernmentjobs.in/tanuvas-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Tamil Nadu Veterinary and Animal Sciences University (TANUVAS) has officially released the notification to fill the .... The Tamil Nadu Veterinary and Animal Sciences University (TANUVAS) has officially released the notification to fill the .... The Tamil Nadu Veterinary and Animal Sciences University (TANUVAS) has officially released the notification to fill the .... Tamil Nadu Veterinary and Animal Sciences University (TANUVAS) has announced the official notification for 2025. To .... T...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2025-11-14T23:41:04.773763",
+      "links": []
+    },
+    {
+      "id": "28af39f0be1c2307bff53b480370d366",
+      "title": "IIM Lucknow",
+      "url": "https://allgovernmentjobs.in/iim-lucknow-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Management Lucknow (IIM Lucknow) has declared the official notification for 2025. To fill up the vac .... Indian Institute of Management Lucknow (IIM Lucknow) has officially released the notification to fill the vacancies of 0 .... The Indian Institute of Management (IIM) Lucknow has released the latest job notification for 2025. To fill up the vacan ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2025-11-14T23:41:04.773801",
+      "links": []
+    },
+    {
+      "id": "54a8f681b15cd9c2746631fce43774bc",
+      "title": "GGSGH",
+      "url": "https://allgovernmentjobs.in/ggsgh-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Guru Gobind Singh Govt Hospital (GGSGH) has announced the official notification for 2025. To fill up the 08 vacancies fo .... The Guru Gobind Singh Medical College, Faridkot (GGSMC) has released the official notification for 2025. To fill up the ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Teaching",
+      "skills": [],
+      "scraped_at": "2025-11-14T23:41:04.773822",
       "links": []
     }
   ]
