@@ -1,105 +1,9 @@
 {
-  "last_updated": "2025-11-15T23:42:50.939202",
-  "total_jobs": 268,
-  "active_jobs": 268,
-  "expired_jobs": 12,
+  "last_updated": "2025-11-16T23:42:20.779646",
+  "total_jobs": 259,
+  "active_jobs": 259,
+  "expired_jobs": 13,
   "jobs": [
-    {
-      "id": "eb50fc5a96e63c622cfed7e235664c09",
-      "title": "MAHAGENCO Recruitment 2025 - Apply Offline for 03 Junior Fire Officer Posts",
-      "url": "https://allgovernmentjobs.in/mahagenco-recruitment-2025-apply-offline-for-03-junior-fire-officer-posts/35855",
-      "source": "allgovernmentjobs.in",
-      "description": "The Maharashtra State Power Generation Company (MAHAGENCO) has officially released the notification to fill the vacancies of 03 Junior Fire Officers, Pharmacist, and Fireman Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their 10th, 12th, Any Degree, B.E./B. Tech, Diploma, and D. Pharm can apply for the MAHAGENCO Recruitment 2025 . The interested applicants can apply in offline mod...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "16-10-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-16T23:39:38.553051",
-      "links": []
-    },
-    {
-      "id": "eb5fdda4f13d7efcedc6b3ee40a36f3a",
-      "title": "MPPGCL Recruitment 2025 - Apply Online for 131 Junior Engineer, Office Assistant and Other Posts",
-      "url": "https://allgovernmentjobs.in/mppgcl-recruitment-2025-apply-online-for-131-junior-engineer-office-assistant-and-other-posts/35849",
-      "source": "allgovernmentjobs.in",
-      "description": "The Madhya Pradesh Power Generating Company (MPPGCL) has officially released the notification to fill the vacancies of 131 Assistant Engineer, Junior Engineer, Poly Chemist, and Office Assistant Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, Diploma in Electrical, Mechanical Engineering, M.Sc., and 12th can apply for the MPPGCL Recruitment 2025 . The interested a...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "15-11-2025",
-        "found_date": "17-10-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-16T23:39:38.553171",
-      "links": []
-    },
-    {
-      "id": "dfef2c7ed0b3f1d606a8c8e026ef20d4",
-      "title": "MAHAGENCO",
-      "url": "https://allgovernmentjobs.in/mahagenco-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Maharashtra State Power Generation Company (MAHAGENCO) has officially released the notification to fill the vacancie .... Maharashtra State Power Generation Company has announced the latest job notification for 2025. To fill up the vacancies ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-16T23:39:38.553255",
-      "links": []
-    },
-    {
-      "id": "e4ef9dae8f9f69ccb7c4fb9ecd3382d3",
-      "title": "Maha Metro",
-      "url": "https://allgovernmentjobs.in/maha-metro-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Maharashtra Metro Rail Corporation Limited (MAHA Metro) has officially released the notification to fill the vacanci .... The Maharashtra Metro Rail (MAHA Metro) has officially released the notification for 151 Manager, Assistant Manager, Chi ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-16T23:39:38.553280",
-      "links": []
-    },
-    {
-      "id": "d4b8855ab0061733c1319ba94b85478b",
-      "title": "NIAB Hyderabad",
-      "url": "https://allgovernmentjobs.in/niab-hyderabad-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute of Animal Biotechnology (NIAB) has officially released the notification to fill the vacancies of .... The National Institute of Animal Biotechnology (NIAB) has officially released the notification to fill the vacancies of .... The National Institute of Animal Biotechnology (NIAB) has announced the official notification for 2025. To fill the Proj .... The National Institute of Animal Biotechnology (NIAB) has announced the official notification for 2025. To fill up the 1 ...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2025-10-16T23:39:38.553301",
-      "links": []
-    },
-    {
-      "id": "ac8056695ac9c7f71e3d48ddbcd7bcc2",
-      "title": "Bank Jobs",
-      "url": "https://allgovernmentjobs.in/bank-jobs-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Rajkot Nagarik Sahakari Bank Limited (RNSB) has officially released the notification to fill the vacancies of 01 Jun .... The Bank of Baroda (BOB) has announced the official notification for 2025. To fill up the vacancies for 03 Business Corr .... The Canara Bank Securities Limited (Canara Bank Securities) has officially released the notification to fill the vacanci .... The Bank of Baroda (BOB) has officially released the notification to fill the vacancies of 50 Manager, Senior Manag ......",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-16T23:39:38.553317",
-      "links": []
-    },
-    {
-      "id": "a4f933519dff5e397d78dd794f4958ab",
-      "title": "MPPGCL",
-      "url": "https://allgovernmentjobs.in/mppgcl-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Madhya Pradesh Power Generating Company (MPPGCL) has officially released the notification to fill the vacancies of 1 .... The Madhya Pradesh Power Generation Company Limited (MPPGCL) has officially released the notification to fill ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-16T23:39:38.553341",
-      "links": []
-    },
     {
       "id": "eaa24d9916453810673d181a505e7c86",
       "title": "TMC Notification 2025 - Walk-in-Interview for Research coordinator Post",
@@ -627,22 +531,6 @@
       "links": []
     },
     {
-      "id": "4be6bd97ee1593042ec35a9519028a4a",
-      "title": "IIT Gandhinagar Notification 2025 - Apply Online for Program Associate Post",
-      "url": "https://allgovernmentjobs.in/iit-gandhinagar-notification-2025-apply-online-for-program-associate-post/36059",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Technology Gandhinagar (IIT Gandhinagar) has declared the latest job notification for 2025. To fill up the vacancies for Program Associate Jobs. Those candidates who have qualified in the M.E/ M.Tech., M.Sc. can grab this chance and apply for the IIT Gandhinagar Notification 2025 . Here, we include the age limit, selection process, and salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply on or ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "15-11-2025",
-        "found_date": "23-10-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-24T23:39:15.864242",
-      "links": []
-    },
-    {
       "id": "cc50b721e731d5755e30f331eba22705",
       "title": "Satavahana University Recruitment 2025 - Apply Offline for Various Guest Faculty Posts",
       "url": "https://allgovernmentjobs.in/satavahana-university-recruitment-2025-apply-offline-for-various-guest-faculty-posts/36050",
@@ -797,22 +685,6 @@
       "links": []
     },
     {
-      "id": "3aa605515729d0078115d36377c0db77",
-      "title": "IIM Udaipur Notification 2025 - Apply Online for Various Research Assistant Posts",
-      "url": "https://allgovernmentjobs.in/iim-udaipur-notification-2025-apply-online-for-various-research-assistant-posts/36088",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Management (IIM) Udaipur has declared the official notification for 2025. To fill up the vacancies for Research Assistant Jobs. Those candidates who have qualified in Any Degree, MBA, can grab this chance and apply for the IIM Udaipur Notification 2025 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply on or before the last date of applicat...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "15-11-2025",
-        "found_date": "23-10-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-25T23:39:29.009414",
-      "links": []
-    },
-    {
       "id": "c1f43b4293a7d7632f1a83facb26d72c",
       "title": "ESIC Recruitment 2025 - Walk-in-Interview for 95 Senior Resident Posts",
       "url": "https://allgovernmentjobs.in/esic-recruitment-2025-walk-in-interview-for-95-senior-resident-posts/36096",
@@ -825,22 +697,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2025-10-25T23:39:29.015045",
-      "links": []
-    },
-    {
-      "id": "de8c2dc7a0e3e464a2433a2a05c24a05",
-      "title": "IIT ISM Dhanbad Recruitment 2025 - Apply offline for Junior Research Fellow Post",
-      "url": "https://allgovernmentjobs.in/iit-ism-dhanbad-recruitment-2025-apply-offline-for-junior-research-fellow-post/36092",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Technology Dhanbad (IIT Dhanbad) has declared the latest job notification 2025. To fill up the vacancies for Junior Research Fellow Jobs. Those candidates who have qualified in the IIT ISM Dhanbad Recruitment 2025 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply on or before the last date of application. If you are looking for more, here ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "15-11-2025",
-        "found_date": "18-10-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-10-25T23:39:29.015091",
       "links": []
     },
     {
@@ -2025,25 +1881,6 @@
       ]
     },
     {
-      "id": "b40548fa7ff31824bf364bf4d4847559",
-      "title": "Rajasthan RSSB Jamadar 2025 Apply Online Form",
-      "url": "https://www.rojgarresult.com/rajasthan-rssb-jamadar-2025/",
-      "source": "www.rojgarresult.com",
-      "description": "Rajasthan RSSB Jamadar Grade II Recruitment 2025  : Apply Online Form for 72 Post Post Date: 27-10-2025 Short Description: RSSB Jamadar Grade II Recruitment 2025 Online Form 2025 for 72 Post: Rajasthan Staff Selection Board (RSSB) Official Notification is released Online Form Now Started on 17 October 2025 to 15 November 2025 is Last Date for RSSB Jamadar Grade II 2025 Examination, Vacancy 2025 Full Notification available at the official website. All the candidates can now check the detailed ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "15/11/2025",
-        "found_date": "27-10-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Computer Knowledge",
-        "Hindi"
-      ],
-      "scraped_at": "2025-11-03T23:40:40.896481",
-      "links": []
-    },
-    {
       "id": "485d51e1777ee344e8b5e0fc7b6ef63c",
       "title": "Railway RRB NTPC 10+2 2025 Apply Online",
       "url": "https://www.rojgarresult.com/railway-rrb-ntpc-inter-level-cen-07-2025/",
@@ -2234,22 +2071,6 @@
         "Analyst"
       ],
       "scraped_at": "2025-11-04T23:41:16.673509",
-      "links": []
-    },
-    {
-      "id": "00a0ff3025c6e433f31263e2077a14d6",
-      "title": "NIT Karnataka Recruitment 2025 - Apply for 03 Project Assistant Posts",
-      "url": "https://allgovernmentjobs.in/nit-karnataka-recruitment-2025-apply-for-03-project-assistant-posts/36390",
-      "source": "allgovernmentjobs.in",
-      "description": "National Institute of Technology (NIT) Karnataka has declared the official notification for 2025. To fill up the vacancies for 03 Project Assistant Jobs. Those candidates who have qualified in the Diploma in Civil Engineering can grab this chance and apply for the NIT Karnataka Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligble candidates can apply on or before the ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "15-11-2025",
-        "found_date": "07-10-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-04T23:41:16.678652",
       "links": []
     },
     {
@@ -3429,22 +3250,6 @@
       "links": []
     },
     {
-      "id": "252bf6620d476d0376a44d47251c402b",
-      "title": "DLSA Kurnool Recruitment 2025 - Apply Offline for 03 Typist Cum Assistant and Other Posts",
-      "url": "https://allgovernmentjobs.in/dlsa-kurnool-recruitment-2025-apply-offline-for-03-typist-cum-assistant-and-other-posts/36631",
-      "source": "allgovernmentjobs.in",
-      "description": "The District Legal Service Authority (DLSA) has declared the official notification for 2025. To fill up the vacancies for 03 L.D. Steno, Typist Cum Assistant, Record Assistant Jobs. Those candidates who have qualified in any Degree and 10th Pass can grab this chance and apply for the DLSA Kurnool Recruitment 2025 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply before th...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "15-11-2025",
-        "found_date": "11-11-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-12T23:41:18.041414",
-      "links": []
-    },
-    {
       "id": "c44c2213c4581b51110f75a04244bf03",
       "title": "Andhra University",
       "url": "https://allgovernmentjobs.in/andhra-unviersity-recruitment",
@@ -3987,6 +3792,75 @@
       "skills": [],
       "scraped_at": "2025-11-15T23:40:19.455221",
       "links": []
+    },
+    {
+      "id": "b86b0fc20520777305b467592ace5619",
+      "title": "CBSE KVS / NVS Various Post Apply Online",
+      "url": "https://www.rojgarresult.com/cbse-kvs-nvs-various-post-2025/",
+      "source": "www.rojgarresult.com",
+      "description": "CBSE Kendriya Vidyalaya Sangathan KVS and Navodaya Vidyalaya Samiti NVS Teaching & Non Teaching Various Post Recruitment 2025 : Apply Online Form Post Update Date: 14-11-2025 Short Description: Central Board of Secondary Education CBSE: Kendriya Vidyalaya Sangathan KVS & Navodaya Vidyalaya Samiti NVS Teaching & Non Teaching Recruitment 2025 Notification is released and Online Form Now Started on 14 November 2025 to 04 December 2025 is Last Date for NVS / KVS Examination, Vacancy 2025 Full Not...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "04/12/2025",
+        "found_date": "14-11-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Hindi",
+        "English",
+        "Mathematics"
+      ],
+      "scraped_at": "2025-11-16T23:40:54.658887",
+      "links": []
+    },
+    {
+      "id": "54d79cec76d8fd948a088717b49897a3",
+      "title": "UP Aganwadi Helper 2025 Apply Online Form",
+      "url": "https://www.rojgarresult.com/up-anganwadi-helper-online-form-2025/",
+      "source": "www.rojgarresult.com",
+      "description": "Uttar Pradesh UP ICDS Anganwadi Bharti Helper Recruitment 2025: Apply Online Form Post Date: 12-11-2025 Short Description: Uttar Pradesh Government UP Anganwadi Bharti (District Wise) : Recruitment Official Notification is released and Online Form Now Started on District Wise to District Wise is Last Date for District Wise Post. UP Anganwadi Recruitment , 2025 Vacancy 2025 Full Notification available at the official website. All the candidates can now check the detailed notification of UP Ang...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "12-11-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-11-16T23:40:54.658961",
+      "links": []
+    },
+    {
+      "id": "e7936b756820e90aacf5ec75f01584a9",
+      "title": "ISRO NRSC Various Post Online Form 2025",
+      "url": "https://www.rojgarresult.com/isro-nrsc-2025/",
+      "source": "www.rojgarresult.com",
+      "description": "ISRO NRSC Recruitment 2025: Apply Online for 13 Post Post Date: 13-11-2025 Short Description: ISRO NRSC Various Post Recruitment 2025 Apply Online Form : ISRO-National Remote Sensing Centre Online Form 2025, Notification has been released on the website @https://www.nrsc.gov.in/nrscnew/ & Application Form now started on 10 November 2025 to 30 November 2025 for Total 13 Post ISRO-National Remote Sensing Centre Jobs 2025. Get the direct link to download notification link available on ISRO NRSC ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "13-11-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-11-16T23:40:54.659146",
+      "links": [
+        "https://www.nrsc.gov.in/nrscnew/"
+      ]
+    },
+    {
+      "id": "b8542b378af8b5c18184841fdece201a",
+      "title": "ECGC PO Probationary Officer Online Form 2025",
+      "url": "https://www.rojgarresult.com/ecgc-po-2025/",
+      "source": "www.rojgarresult.com",
+      "description": "ECGC Probationary Officer Recruitment 2025: Apply for 30 Post Post Date: 12-11-2025 Short Description: ECGC PO Recruitment 2025 Apply Online Form : ECGC Probationary Officer Online Form 2025, Notification has been released on the website @https://www.ecgc.in/ & Application Form now started on 11 November 2025 to 02 December 2025. ECGC Probationary Officer Jobs 2025. Get the direct link to download notification link available on ECGC PO Vacancy 2025 Official Website and More Other Details Age ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "12-11-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-11-16T23:40:54.659172",
+      "links": [
+        "https://www.ecgc.in/"
+      ]
     }
   ]
 }
