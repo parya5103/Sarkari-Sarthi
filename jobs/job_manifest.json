@@ -1,110 +1,9 @@
 {
-  "last_updated": "2025-12-04T23:44:33.902467",
-  "total_jobs": 259,
-  "active_jobs": 259,
-  "expired_jobs": 23,
+  "last_updated": "2025-12-05T23:43:40.190562",
+  "total_jobs": 260,
+  "active_jobs": 260,
+  "expired_jobs": 11,
   "jobs": [
-    {
-      "id": "7b92beaf9667b941467cc763792d5c9a",
-      "title": "TMC Notification 2025 - Walk-in-Interview for 03 Nurse and Other Posts",
-      "url": "https://allgovernmentjobs.in/tmc-notification-2025-walk-in-interview-for-03-nurse-and-other-posts/36384",
-      "source": "allgovernmentjobs.in",
-      "description": "The Tata Memorial Centre (TMC) has declared the official notification for 2025. To fill up the vacancies for 03 Research Assistant and Nurse Jobs. Those candidates who have qualified in the B.Sc Nursing, GNM, or Any Degree can grab this chance and apply for the TMC Notification 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can attend the walk-in at the address ...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "07-11-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Analyst"
-      ],
-      "scraped_at": "2025-11-04T23:41:16.673509",
-      "links": []
-    },
-    {
-      "id": "237356080af1989dde30caf5d6106235",
-      "title": "GIPMER Recruitment 2025 - Walk-in-Interview for 05 Senior Resident Posts",
-      "url": "https://allgovernmentjobs.in/gipmer-recruitment-2025-walk-in-interview-for-05-senior-resident-posts/36388",
-      "source": "allgovernmentjobs.in",
-      "description": "Govind Ballabh Pant Institute of Postgraduate Medical Education and Research (GIPMER) has announced the official notification for 2025. To fill up the vacancies for 05 Senior Resident Jobs. Those candidates who have qualified in the MBBS can grab this chance and apply for the GIPMER Recruitment 2025 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can attend the walk-...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "14-11-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-04T23:41:16.678674",
-      "links": []
-    },
-    {
-      "id": "ae3b83a0f4a32ddd5e74fc0e0606f89d",
-      "title": "Zilla Parishad Palghar Recruitment 2025 - Walk-in-Interview for 04 Medical Officer Posts",
-      "url": "https://allgovernmentjobs.in/zilla-parishad-palghar-recruitment-2025-walk-in-interview-for-04-medical-officer-posts/36387",
-      "source": "allgovernmentjobs.in",
-      "description": "Zilla Parishad Palghar has declared the official notification for 2025. To fill up the vacancies for 04 Medical Officer Jobs. Those candidates who have qualified in the BAMS can grab this chance and apply for the Zilla Parishad Palghar Recruitment 2025 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can attend a walk-in at the address given below. If you are looking ...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "06-11-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-04T23:41:16.678698",
-      "links": []
-    },
-    {
-      "id": "fa5ac389e9b505f8f0627e3c67bce3f9",
-      "title": "ACTREC Recruitment 2025 - Walk-in-Interview for Research Lab Assistant",
-      "url": "https://allgovernmentjobs.in/actrec-recruitment-2025-walk-in-interview-for-research-lab-assistant/36383",
-      "source": "allgovernmentjobs.in",
-      "description": "The Advanced Centre for Treatment Research and Education in Cancer (ACTREC) has declared the official notification for 2025. To fill up the vacancies for Research Lab Assistant Jobs. Those candidates who have qualified in the M.Sc, M.E/ M.Tech., and B.Sc can grab this chance and apply for the ACTREC Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can ...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "20-11-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-04T23:41:16.678716",
-      "links": []
-    },
-    {
-      "id": "33f9b4abebed77d3a147ee7393b7d2fb",
-      "title": "NIT Karnataka",
-      "url": "https://allgovernmentjobs.in/nit-karnataka-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "National Institute of Technology (NIT) Karnataka has declared the official notification for 2025. To fill up the vacanci .... The National Institute of Technology Karnataka (NIT Karnataka) has officially released the notification to fill the vaca .... The National Institute of Technology (NIT Karnataka) has released the official Notification for 2025. To fill up the Vac .... The National Institute of Technology (NIT Karnataka) has released the official Notification for 2025. To fill up the Va...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2025-11-04T23:41:16.678736",
-      "links": []
-    },
-    {
-      "id": "23e532ddbc9fd1acdb83c447304a0f87",
-      "title": "Panchayati Raj",
-      "url": "https://allgovernmentjobs.in/panchayati-raj-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Zilla Parishad Palghar has declared the official notification for 2025. To fill up the vacancies for 04 Medical Off .... The Rural Development and Panchayat Raj Department, Karnataka (RDPR Karnataka) has officially released the notifica .... Mandhya Zilla Panchayat has declared the latest job notification for 2025. To fill up the vacancies for Assistant D .... The Tamil Nadu Rural Development and Panchayat Raj Department (TNRD) has officially released the notification to fill th .... Zilla Pa...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-04T23:41:16.678789",
-      "links": []
-    },
-    {
-      "id": "339d7c88ae6728574c02222aca0c4225",
-      "title": "CMD Kerala",
-      "url": "https://allgovernmentjobs.in/cmd-kerala-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Kerala Development and Innovation Strategic Council (KDISC) has officially released the notification to fill the vac .... The Kerala Development and Innovation Strategic Council (KDISC) has officially released the notification to fill the vac .... Centre for Management Development Kerala (CMD Kerala) has declared the official notification for 2025. To fill up the va .... Centre for Management Development Kerala (CMD Kerala) has declared the official notification for 2025. To fill up the v...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-04T23:41:16.678865",
-      "links": []
-    },
     {
       "id": "c8f73ea177c71b342164e45bae6ddcbe",
       "title": "NIMHANS Recruitment 2025 - Walk-in-Interview for 03 Project Nurse Posts",
@@ -460,22 +359,6 @@
       "category": "General",
       "skills": [],
       "scraped_at": "2025-11-07T23:39:48.492304",
-      "links": []
-    },
-    {
-      "id": "030b94b4dbc5c9623503e2ce3899ec68",
-      "title": "TSECL Notification 2025 - Apply Offline for 100 Manager Posts",
-      "url": "https://allgovernmentjobs.in/tsecl-notification-2025-apply-offline-for-100-manager-posts/36553",
-      "source": "allgovernmentjobs.in",
-      "description": "The Tripura State Electricity Corporation (TSECL) has officially released the notification to fill the vacancies of 100 Manager Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. candidates who have completed their Diploma, B.E./B. Tech in Civil, Electrical, and Mechanical Engineering can apply for the TSECL Notification 2025 . The interested applicants can apply in online mode. Here we have mentioned the education...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "04-12-2025",
-        "found_date": "10-11-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-08T23:39:43.488867",
       "links": []
     },
     {
@@ -875,22 +758,6 @@
       "links": []
     },
     {
-      "id": "82d95cffb087cab073bc412f7fbd6296",
-      "title": "KVS & NVS Notification 2025 - Apply Online for 14967 Teaching and Non Teaching Posts",
-      "url": "https://allgovernmentjobs.in/kvs-nvs-notification-2025-apply-online-for-14967-teaching-and-non-teaching-posts/36760",
-      "source": "allgovernmentjobs.in",
-      "description": "The Kendriya Vidyalaya Sangathan Navodaya Vidyalaya Samiti (KVS and NVS) has officially released the notification to fill the vacancies of 14967 Principal, Vice Principal, Assistant Commissioner, Post Graduate Teacher, Trained Graduate Teacher, Librarian, and Non-Teaching Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application.  candidates who have completed their Any Degree, Post-graduation, B.Ed., B.E./B. Tech, MCA, and...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "04-12-2025",
-        "found_date": "14-11-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-15T23:40:19.443767",
-      "links": []
-    },
-    {
       "id": "5324a3001be8b7e83d7a6262dd61b4d7",
       "title": "IMD Notification 2025 - Apply Online for 134 Scientific Assistant Posts",
       "url": "https://allgovernmentjobs.in/imd-notification-2025-apply-online-for-134-scientific-assistant-posts/36755",
@@ -988,26 +855,6 @@
       "category": "IT",
       "skills": [],
       "scraped_at": "2025-11-15T23:40:19.449646",
-      "links": []
-    },
-    {
-      "id": "b86b0fc20520777305b467592ace5619",
-      "title": "CBSE KVS / NVS Various Post Apply Online",
-      "url": "https://www.rojgarresult.com/cbse-kvs-nvs-various-post-2025/",
-      "source": "www.rojgarresult.com",
-      "description": "CBSE Kendriya Vidyalaya Sangathan KVS and Navodaya Vidyalaya Samiti NVS Teaching & Non Teaching Various Post Recruitment 2025 : Apply Online Form Post Update Date: 14-11-2025 Short Description: Central Board of Secondary Education CBSE: Kendriya Vidyalaya Sangathan KVS & Navodaya Vidyalaya Samiti NVS Teaching & Non Teaching Recruitment 2025 Notification is released and Online Form Now Started on 14 November 2025 to 04 December 2025 is Last Date for NVS / KVS Examination, Vacancy 2025 Full Not...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "04/12/2025",
-        "found_date": "14-11-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Hindi",
-        "English",
-        "Mathematics"
-      ],
-      "scraped_at": "2025-11-16T23:40:54.658887",
       "links": []
     },
     {
@@ -2912,24 +2759,6 @@
       "links": []
     },
     {
-      "id": "c55ccc834520c54ae044ae426b817b99",
-      "title": "NSSCDCL Recruitment 2025 - Apply Online for Accountant Post",
-      "url": "https://allgovernmentjobs.in/nsscdcl-recruitment-2025-apply-online-for-accountant-post/37157",
-      "source": "allgovernmentjobs.in",
-      "description": "Nagpur Smart and Sustainable City Development Corporation Limited (NSSCDCL) has declared the latest job notification for 2025. To fill up the vacancies for Accountant Jobs. Those candidates who have qualified in Any Degree can grab this chance and apply for the NSSCDCL Recruitment 2025 . Here we include the age limit, Selection Process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply online before the last da...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "04-12-2025",
-        "found_date": "28-11-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2025-12-01T23:42:23.464287",
-      "links": []
-    },
-    {
       "id": "4c2906d4e2fe72908e7ef812ca069727",
       "title": "GADVASU Recruitment 2025 - Walk-in-Interview for Junior Research Fellow Posts",
       "url": "https://allgovernmentjobs.in/gadvasu-recruitment-2025-walk-in-interview-for-junior-research-fellow-posts/37156",
@@ -3844,6 +3673,190 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2025-12-04T23:41:44.835612",
+      "links": []
+    },
+    {
+      "id": "d8b0cb2322690c4ae606136ba1f4eae9",
+      "title": "SGPGIMS Notification 2025 - Apply Offline for Student Internship Posts",
+      "url": "https://allgovernmentjobs.in/sgpgims-notification-2025-apply-offline-for-student-internship-posts/37331",
+      "source": "allgovernmentjobs.in",
+      "description": "The Sanjay Gandhi Postgraduate Institute of Medical Sciences (SGPGI Lucknow) has officially released the notification to fill the vacancies of 01 Student Internship Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their M.E./M. Tech, M.Sc., can apply for the SGPGIMS Notification 2025 . The interested applicants can apply in offline mode. Here we have mentioned the education details, ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "15-12-2025",
+        "found_date": "29-11-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-05T23:40:43.474570",
+      "links": []
+    },
+    {
+      "id": "960ae5d5622fdf22b7940750835fc5a1",
+      "title": "Oil India Notification 2025 - Apply Offline for 02 Consultant Field Officer Posts",
+      "url": "https://allgovernmentjobs.in/oil-india-notification-2025-apply-offline-for-02-consultant-field-officer-posts/37326",
+      "source": "allgovernmentjobs.in",
+      "description": "Oil India Limited (Oil India) has officially released the notification to fill the vacancies of 02 Consultant Field Officer Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed any degree or post-graduation can apply for the Oil India Notification 2025 . The interested applicants can apply in offline mode. Here we have mentioned the education details, age limit, selection process, applic...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "16-12-2025",
+        "found_date": "28-11-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-05T23:40:43.474598",
+      "links": []
+    },
+    {
+      "id": "ef689a3c243cbb1ecc2780e9e60378cf",
+      "title": "KMRL Notification 2025 - Apply Offline for Homeopathic Consultant Posts",
+      "url": "https://allgovernmentjobs.in/kmrl-notification-2025-apply-offline-for-homeopathic-consultant-posts/37324",
+      "source": "allgovernmentjobs.in",
+      "description": "The Kolkata Metro Railway Limited (KMRL) has officially released the notification to fill the vacancies of 01 Homeopathic Consultant Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree, BHMS can apply for the KMRL Notification 2025 . The interested applicants can apply in offline mode. Here we have mentioned the education details, age limit, selection process, applicati...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "29-12-2025",
+        "found_date": "03-12-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-05T23:40:43.474621",
+      "links": []
+    },
+    {
+      "id": "168415fd64cd9d69b4a3096c4e576bfa",
+      "title": "TISS Notification 2025 - Apply Offline for 02 Field Work Supervisor Posts",
+      "url": "https://allgovernmentjobs.in/tiss-notification-2025-apply-offline-for-02-field-work-supervisor-posts/37322",
+      "source": "allgovernmentjobs.in",
+      "description": "The Tata Institute of Social Sciences (TISS) has officially released the notification to fill the vacancies of 02 Field Work Supervisor Posts. Interseted and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their M.E./M. Tech, Post-graduation, can apply for the TISS Notification 2025 . The interested applicants can apply in offline mode. Here we have mentioned the education details, age limit, selection p...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "10-12-2025",
+        "found_date": "04-12-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-05T23:40:43.474640",
+      "links": []
+    },
+    {
+      "id": "439e1127e798369c7c3df715e53784bd",
+      "title": "GIPE Recruitment 2025 - Apply Online for Accounts Assistant Posts",
+      "url": "https://allgovernmentjobs.in/gipe-recruitment-2025-apply-online-for-accounts-assistant-posts/37330",
+      "source": "allgovernmentjobs.in",
+      "description": "Gokhale Institute of Politics and Economics (GIPE) has declared the official notification for 2025. To fill up the vacancies for Accounts Assistant Jobs. Those candidates who have qualified in Any Degree, MBA, or CA can grab this chance and apply for the GIPE Recruitment 2025 . Here, we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply online before the last date of a...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "14-12-2025",
+        "found_date": "02-12-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-05T23:40:43.480523",
+      "links": []
+    },
+    {
+      "id": "53a9df5f66dc1681582a5b26c492942b",
+      "title": "NIMHANS Recruitment 2025 - Walk-in-Interview for Project Technical Support Post",
+      "url": "https://allgovernmentjobs.in/nimhans-recruitment-2025-walk-in-interview-for-project-technical-support-post/37329",
+      "source": "allgovernmentjobs.in",
+      "description": "National Institute of Mental Health and Neuro Sciences (NIMHANS) has declared the official notification for 2025. To fill up the vacancies for Project Technical Support Jobs. Those candidates who have qualified in the Post Graduation, M.Sc., can grab this chance and apply for these posts. Here, we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for the NIMHANS Recruitment 2025 . Interested candidates can attend the walk-in at ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "18-12-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-05T23:40:43.480560",
+      "links": []
+    },
+    {
+      "id": "f7b75dff00a3445964f915254d0da1c0",
+      "title": "ACTREC Recruitment 2025 - Walk-in-Interview for Assistant Manager and Nursing Service Posts",
+      "url": "https://allgovernmentjobs.in/actrec-recruitment-2025-walk-in-interview-for-assistant-manager-and-nursing-service-posts/37327",
+      "source": "allgovernmentjobs.in",
+      "description": "The Advanced Centre for Treatment Research and Education in Cancer (ACTREC) has declared the official notification for 2025. To fill up the vacancies for Assistant Manager and Nursing Service Jobs. Those candidates who have qualified for the ACTREC Recruitment 2025 . Here, we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can attend the walk-in at the address given below. If you are look...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "19-12-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-05T23:40:43.480581",
+      "links": []
+    },
+    {
+      "id": "bf71e9bf94ac922380680eb8def98ffc",
+      "title": "NITTTR Recruitment 2025 - Apply Online for Technician Post",
+      "url": "https://allgovernmentjobs.in/nitttr-recruitment-2025-apply-online-for-technician-post/37325",
+      "source": "allgovernmentjobs.in",
+      "description": "National Institute of Technical Teachers Training and Research (NITTTR) has declared the offcial notification for 2025. To fill up the vacancies for Technician Jobs. Those candidates who have qualified for the Diploma can grab this chance and apply for the NITTTR Recruitment 2025 . Here we include the age limit, selection process, salarystructure, education details, application fee, and how to apply for these posts. Interested candidates can apply online before the last date of application. I...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "17-12-2025",
+        "found_date": "05-12-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-05T23:40:43.480601",
+      "links": []
+    },
+    {
+      "id": "2e5f5e981877718d7fd417c0869f5098",
+      "title": "CSIR CSMCRI Recruitment 2025 - Apply Offline for 43 Apprentice Trainee Posts",
+      "url": "https://allgovernmentjobs.in/csir-csmcri-recruitment-2025-apply-offline-for-43-apprentice-trainee-posts/37323",
+      "source": "allgovernmentjobs.in",
+      "description": "CSIR Central Salt and Marine Chemicals Research Institute (CSIR CSMCRI) has declared he official notification for 2025. To fill up the 43 vacancies for Apprentice Jobs. Those candidates who have qualified in the ITI, B.E/ B.Tech in Electrical Engineering, Mechanical Engineering, Civil Engineering, can grab this chance and apply for the CSIR CSMCRI Recruitment 2025 . Here, we mentioned the age limit, selection process, salary structure, educational details, application fee, and how to apply fo...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "09-12-2025",
+        "found_date": "05-12-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-05T23:40:43.480622",
+      "links": []
+    },
+    {
+      "id": "7c3f4a5026ae14169474c5b1f0dc2024",
+      "title": "SGPGIMS",
+      "url": "https://allgovernmentjobs.in/sgpgims-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Sanjay Gandhi Postgraduate Institute of Medical Sciences (SGPGI Lucknow) has officially released the notification to .... The Sanjay Gandhi Postgraduate Institute of Medical Sciences (SGPGI Lucknow) has officially released the notification to .... Sanjay Gandhi Postgraduate Institute of Medical Sciences (SGPGI Lucknow) has announced the official notification for 202 .... Sanjay Gandhi Postgraduate Institute of Medical Sciences (SGPGI Lucknow) has announced the official notification for 20...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-05T23:40:43.480644",
+      "links": []
+    },
+    {
+      "id": "c41cd0658ea9fa5b985b36c9caa92da0",
+      "title": "NITTTR",
+      "url": "https://allgovernmentjobs.in/nitttr-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "National Institute of Technical Teachers Training and Research (NITTTR) has declared the offcial notification for 2025. .... The National Institute of Technical Teachers Training and Research, Kolkata (NITTTR Kolkata) has officially release .... The National Institute of Technical Teachers Training and Research (NITTTR) Kolkata has declared the official notificati .... The National Institute of Technical Teachers Training and Research (NITTTR) Chandigarh has declared the official notific ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Teaching",
+      "skills": [],
+      "scraped_at": "2025-12-05T23:40:43.480742",
+      "links": []
+    },
+    {
+      "id": "a6ef87a26e55e1f249412e2870eef268",
+      "title": "MAHADISCOM Jobs 2025 - Apply Online for 136 Apprentice Posts",
+      "url": "https://allgovernmentjobs.in/mahadiscom-jobs-2025-apply-online-for-136-apprentice-posts/37328",
+      "source": "allgovernmentjobs.in",
+      "description": "The Maharashtra State Electricity Distribution Company Limited (MAHADISCOM) has officially released the notification to fill the vacancies of 136 Apprentice Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their 10th, ITI can apply for the MAHADISCOM Jobs 2025 . The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection proc...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "15-12-2025",
+        "found_date": "05-12-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-05T23:40:43.486553",
       "links": []
     }
   ]
