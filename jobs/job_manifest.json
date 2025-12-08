@@ -1,117 +1,9 @@
 {
-  "last_updated": "2025-12-06T23:43:41.360440",
-  "total_jobs": 251,
-  "active_jobs": 251,
+  "last_updated": "2025-12-08T23:44:32.744656",
+  "total_jobs": 255,
+  "active_jobs": 255,
   "expired_jobs": 9,
   "jobs": [
-    {
-      "id": "331c17201992f4cfcbee49bd24ed1822",
-      "title": "IISER Pune Notification 2025 - Walk-in-Interview for Project Assistant Post",
-      "url": "https://allgovernmentjobs.in/iiser-pune-notification-2025-walk-in-interview-for-project-assistant-post/36517",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Science Education and Research (IISER Pune) has declared the official notification for 2025. To fill up the vacancies for Project Assistant Jobs. Those candidates who have qualified in the  B.E/ B.Tech. in Mechanical Engineering can grab this chance and apply for the IISER Pune Notification 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can a...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "18-11-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-07T23:39:48.486313",
-      "links": []
-    },
-    {
-      "id": "791ec33b139a0563bb981967acb41e56",
-      "title": "LBSH Recruitment 2025 - Walk-in-Interview 02 Senior Resident Post",
-      "url": "https://allgovernmentjobs.in/lbsh-recruitment-2025-walk-in-interview-02-senior-resident-post/36514",
-      "source": "allgovernmentjobs.in",
-      "description": "Lal Bahadur Shastri Hospital (LBSH) has declared the official notification for 2025. To fill up the vacancies for 02 Senior Resident Jobs. Those candidates who have qualified in the MBBS, Post-Graduation, and Diploma courses can grab this chance and apply for the LBSH Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can attend the walk-in at the addres...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "10-11-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-07T23:39:48.492018",
-      "links": []
-    },
-    {
-      "id": "2c40a6582c61be85d9104f7ae3530916",
-      "title": "Deep Chand Bandhu Hospital",
-      "url": "https://allgovernmentjobs.in/deep-chand-bandhu-hospital-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Deep Chand Bandhu Hospital (DCBH) has officially released the notification to fill the vacancies of 07 Junior Reside ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Medical",
-      "skills": [],
-      "scraped_at": "2025-11-07T23:39:48.492160",
-      "links": []
-    },
-    {
-      "id": "efa8efdacb6004c018ef65050cab70db",
-      "title": "SKUAST",
-      "url": "https://allgovernmentjobs.in/skuast-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Shere Kashmir University of Agricultural Sciences and Technology Jammu (SKUAST Jammu) has announced the latest noti .... Shere Kashmir University of Agricultural Sciences and Technology Jammu (SKUAST Jammu) has declared the official not .... Shere Kashmir University of Agricultural Sciences and Technology Jammu (SKUAST Jammu) has declared the official not ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2025-11-07T23:39:48.492205",
-      "links": []
-    },
-    {
-      "id": "870cd83d64c9128cc6747c56de264a86",
-      "title": "CSPGCL",
-      "url": "https://allgovernmentjobs.in/cspgcl-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Chhattisgarh State Power Distribution Company (CSPDCL) has officially released the notification to fill the vacancie .... The Chhattisgarh State Power Distribution Company (CSPDCL) has declared the latest job notification for 2025. To fi ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-07T23:39:48.492247",
-      "links": []
-    },
-    {
-      "id": "f120c98ae3d2e4e4b4f80edc884dbd25",
-      "title": "Department of Animal Husbandry and Dairying",
-      "url": "https://allgovernmentjobs.in/department-of-animal-husbandry-and-dairying-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Guru Angad Dev Veterinary and Animal Sciences University (GADVASU) has declared the official notification for 2025. .... Animal Welfare Board of India (AWBI) has declared the official notification for 2025. To fill up the vacancies for  .... The National Dairy Development Board (NDDB) has declared the official notification for 2025. To fill up the vacancies fo .... The Guru Angad Dev Veterinary and Animal Sciences University (GADVASU) has released the official Notification for 2025. .... The ...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2025-11-07T23:39:48.492268",
-      "links": []
-    },
-    {
-      "id": "5bc94e67da00fa1866d0cc3d6a24023b",
-      "title": "WBPSC",
-      "url": "https://allgovernmentjobs.in/wbpsc-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Syama Prasad Mookerjee Port (SMP) has officially released the notification to fill the vacancies of 03 Assistant Man .... The Syama Prasad Mookerjee Port (SMP) has officially released the notification to fill the vacancies of 04 Trainee Dock .... The Syama Prasad Mookerjee Port (SMP) has officially released the notification to fill the vacancies of 03 Surveyors, Fe .... The Syama Prasad Mookerjee Port has officially released the notification to fill the vacancies of 08 Assistant Mana .......",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-07T23:39:48.492287",
-      "links": []
-    },
-    {
-      "id": "07ccbb4efb82909cc29027b4175962cc",
-      "title": "RSMSSB",
-      "url": "https://allgovernmentjobs.in/rsmssb-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Rajasthan Staff Selection Board (RSSB) has officially released the notification to fill the vacancies of 7759 P .... The Rajasthan Staff Selection Board (RSSB) has officially released the notification to fill the vacancies of 72 Jamadar .... The Rajasthan Staff Selection Board (RSSB) has officially released the notification to fill the vacancies of 1535 Ayush .... The Rajasthan Staff Selection Board (RSSB) has declared the official notification for 2025. To fill up the vacancies for ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "General",
-      "skills": [],
-      "scraped_at": "2025-11-07T23:39:48.492304",
-      "links": []
-    },
     {
       "id": "ae709e7ca49aff6ab512a54d34d9a595",
       "title": "DMC Notification 2025 - Walk-in-Interview for 02 Junior Resident Posts",
@@ -3694,22 +3586,6 @@
       "links": []
     },
     {
-      "id": "8e6880f7b37b083336e8b423ced38ca8",
-      "title": "NHM Gujarat Jobs 2025 - Apply Online for 24 Programme Assistant, Pharmacist and Other Posts",
-      "url": "https://allgovernmentjobs.in/nhm-gujarat-jobs-2025-apply-online-for-24-programme-assistant-pharmacist-and-other-posts/37369",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Health Mission Gujarat (NHM Gujarat) has officially released the notification to fill the vacancies of 24 Programme Assistants, RBSK Pharmacist, and Ayush Medical Officer Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree, BAMS, and D. Pharm can apply for the NHM Gujarat Jobs 2025 . The interested applicants can apply in online mode. Here we have mentioned ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "07-12-2025",
-        "found_date": "05-12-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-12-06T23:40:37.416290",
-      "links": []
-    },
-    {
       "id": "554cfe7590e5eaee74fe2c7c35ba00e3",
       "title": "NIT Rourkela Jobs 2025 - Apply Online for 02 Junior Research Fellow Posts",
       "url": "https://allgovernmentjobs.in/nit-rourkela-jobs-2025-apply-online-for-02-junior-research-fellow-posts/37367",
@@ -3726,6 +3602,207 @@
         "Analyst"
       ],
       "scraped_at": "2025-12-06T23:40:37.416355",
+      "links": []
+    },
+    {
+      "id": "082db0cfe8160c704015782c88c80428",
+      "title": "GSSSB Notification 2025 - Apply Online for 138 Physiotherapist Posts",
+      "url": "https://allgovernmentjobs.in/gsssb-notification-2025-apply-online-for-138-physiotherapist-posts/37409",
+      "source": "allgovernmentjobs.in",
+      "description": "The Gujarat Secondary Service Selection Board (GSSSB) has officially released the notification to fill the vacancies of 138 Physiotherapist Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree, BPT can apply for the GSSSB Notification 2025 . The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, app...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "23-12-2025",
+        "found_date": "09-12-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2025-12-08T23:41:41.711095",
+      "links": []
+    },
+    {
+      "id": "33bd6d89b269589b3a5fd161b0b28525",
+      "title": "MMRCL Notification 2025 - Apply Online for Additional General Manager, Senior Deputy General Manager Posts",
+      "url": "https://allgovernmentjobs.in/mmrcl-notification-2025-apply-online-for-additional-general-manager-senior-deputy-general-manager-posts/37407",
+      "source": "allgovernmentjobs.in",
+      "description": "The Mumbai Metro Rail Corporation Limited (MMRCL) has officially released the notification to fill the vacancies of 01 Additional General Manager, Senior Deputy General Manager Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBA, PGDM, and Post-graduation can apply for the MMRCL Notification 2025 . The interested applicants can apply in online mode. Here we have mentioned the e...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "25-12-2025",
+        "found_date": "26-11-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2025-12-08T23:41:41.711123",
+      "links": []
+    },
+    {
+      "id": "0c163dd29dbe478a631d4c82021cc872",
+      "title": "Delhi Cantonment Board Recruitment 2025 - Apply Online for 25 Medical Officer, Paedodontist and Other Posts",
+      "url": "https://allgovernmentjobs.in/delhi-cantonment-board-recruitment-2025-apply-online-for-25-medical-officer-paedodontist-and-other-posts/37415",
+      "source": "allgovernmentjobs.in",
+      "description": "Delhi Cantonment Board has announced the official notification for 2025. To fill up the vacancies for 25 Intensivists, Ophthalmologists, Medical Officers, Senior Residents, Nephrologists, Paedodontists, and Other Jobs. Those candidates who have qualified in the MBBS, MD/ MS, MDS, Diploma, Post Graduation, 10th Pass, 12th, and DNB can grab this chance and apply for the Delhi Cantonment Board Recruitment 2025 . Here, we include the age limit, selection process, salary structure, education detai...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "22-12-2025",
+        "found_date": "06-12-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2025-12-08T23:41:41.716754",
+      "links": []
+    },
+    {
+      "id": "f53e2e23b2c5973ec7e6eaba72191280",
+      "title": "IIT Delhi Recruitment 2025 - Apply Online for 05 Project Scientist and Other Posts",
+      "url": "https://allgovernmentjobs.in/iit-delhi-recruitment-2025-apply-online-for-05-project-scientist-and-other-posts/37413",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology Delhi (IIT Delhi) has declared the latest job notification for 2025. To fill up the vacancies for 05 Principal Project Scientists and Project Scientists Jobs. Those candidates who have qualified in the B.E/ B.Tech, M.E/ M.Tech, PhD, and M.Sc can grab this chance and apply for the IIT Delhi Recruitment 2025 . Here we include the age limit, selection process, salarystructure, education details, application fee, and how to apply for these posts. Interested aspirant...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "19-12-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-08T23:41:41.716779",
+      "links": []
+    },
+    {
+      "id": "738d046018b9780d361bab9d8678e696",
+      "title": "DDUH Recruitment 2025 - Walk-in-Interview for 15 Junior Resident Posts",
+      "url": "https://allgovernmentjobs.in/dduh-recruitment-2025-walk-in-interview-for-15-junior-resident-posts/37411",
+      "source": "allgovernmentjobs.in",
+      "description": "Deen Dayal Upadhyay Hospital has recently released the official notification for 2025. To fill up the vacancies for 15 Junior Resident Jobs. Those candidates who have qualified in the MBBS can grab this chance and apply for the DDUH Recruitment 2025 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligibe candidates can attend the walk-in at the address given below. If you are looking fo...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "16-12-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-08T23:41:41.716800",
+      "links": []
+    },
+    {
+      "id": "41a27e678def09fa22ebe7462f305b16",
+      "title": "TMC Recruitment 2025 - Walk-in-Interview for Research Fellow Post",
+      "url": "https://allgovernmentjobs.in/tmc-recruitment-2025-walk-in-interview-for-research-fellow-post/37410",
+      "source": "allgovernmentjobs.in",
+      "description": "The Tata Memorial Centre (TMC) has declared the official notification for 2025. To fill up the vacancies for Research Fellow Jobs. Those candidates who have qualified in the MBBS, BDS, BUMS, BAMS, Pharm. D can grab this chance and apply for the TMC Recruitment 2025 . Here we provided more about the age limit, selection process, salary structure, education details, application fee, and hw to apply for these posts. Interested and eligible candidates can attend the walk-in at the address given b...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "22-12-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2025-12-08T23:41:41.716823",
+      "links": []
+    },
+    {
+      "id": "91ff93be1ebde8e6f5005e164a54d392",
+      "title": "Ministry of Heavy Industries Recruitment 2025 - Apply Offline for Consultant Posts",
+      "url": "https://allgovernmentjobs.in/ministry-of-heavy-industries-recruitment-2025-apply-offline-for-consultant-posts/37408",
+      "source": "allgovernmentjobs.in",
+      "description": "The Ministry of Heavy Industries has declared the official notification for 2025. To fill up the vacancies for Consultant Jobs. Those candidates who have qualified in the B.E/ B.Tech., Post Graduation can grab this chance, and learn how to apply for the Ministry of Heavy Industries Recruitment 2025 . Here, we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. If you are looking for more, here is a list of Governm...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "20-12-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2025-12-08T23:41:41.716842",
+      "links": []
+    },
+    {
+      "id": "5052fc3b0bdb433696095dc248faffb1",
+      "title": "DCPU Virudhnagar Recruitment 2025 - Apply Offline for Outreach Worker Post",
+      "url": "https://allgovernmentjobs.in/dcpu-virudhnagar-recruitment-2025-apply-offline-for-outreach-worker-post/37406",
+      "source": "allgovernmentjobs.in",
+      "description": "District Child Protection Unit Virudhunagar (DCPU Virudhunagar) has declared the official notification for 2025. To fill up the vacancies for Outreach Worker Jobs. Those candidates who have qualified in the 12th can grab this chance and apply for the DCPU Virudhnagar Recruitment 2025 . Jere, we included more information about the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply before the last...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "19-12-2025",
+        "found_date": "03-12-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2025-12-08T23:41:41.716861",
+      "links": []
+    },
+    {
+      "id": "c136981007a85760c1b9bd6933e113ed",
+      "title": "Cantonment Board",
+      "url": "https://allgovernmentjobs.in/cantonment-board-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Delhi Cantonment Board has announced the official notification for 2025. To fill up the vacancies for 25 Intensivis .... Cantonment Board has declared the official notification for 2025. To fill up the vacancies for 05 Assistant Medical ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Medical",
+      "skills": [],
+      "scraped_at": "2025-12-08T23:41:41.716882",
+      "links": []
+    },
+    {
+      "id": "99c501e4184340d1c73a28502f9387b3",
+      "title": "IIT Delhi",
+      "url": "https://allgovernmentjobs.in/iit-delhi-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology Delhi (IIT Delhi) has declared the latest job notification for 2025. To fill up the vacan .... Indian Institute of Technology Delhi (IIT Delhi) has declared the official notification for 2025. To fill up the vacanci .... Indian Institute of Technology Delhi (IIT Delhi) has declared the latest job notification for 2025. To fill up the vacan .... The Indian Institute of Technology Delhi (IIT Delhi) has officially released the notification to fill the vacancies of ...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2025-12-08T23:41:41.716904",
+      "links": []
+    },
+    {
+      "id": "7d9e5e0be0e6c66c527c6697bc858e9b",
+      "title": "Ministry of Defence",
+      "url": "https://allgovernmentjobs.in/ministry-of-defence-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Ministry of Heavy Industries has declared the official notification for 2025. To fill up the vacancies for Cons .... The Aryabhatta Research Institute of Observational Sciences (ARIES) has officially released the notification to fill the .... The Ammunition Factory Khadki has officially released the notification to fill the vacancies of 50 Graduate Apprent .... Heavy Vehicles Factory (HVF) has declared the official notification for 2025. To fill up the various vacancies for  .... The Defe...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-08T23:41:41.716948",
+      "links": []
+    },
+    {
+      "id": "5cb4618542d4295ac8e8628482af0453",
+      "title": "OPTCL",
+      "url": "https://allgovernmentjobs.in/optcl-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Odisha Power Transmission Corporation Limited (OPTCL) has declared the official notification for 2025. To fill up the va .... Odisha Power Transmission Corporation Limited (OPTCL) has declared the official notification for 2025. To fill up the va .... The Odisha Power Transmission Corporation Limited (OTPCL) has officially released the notification to fill the vaca ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-08T23:41:41.717028",
+      "links": []
+    },
+    {
+      "id": "88428b1a90811fc54740718ee5439950",
+      "title": "IPRCL",
+      "url": "https://allgovernmentjobs.in/iprcl-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Port Rail and Ropeway Corporation Limited (IPRCL) has declared the official notification for 2025. To fill up the ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-08T23:41:41.717048",
       "links": []
     }
   ]
