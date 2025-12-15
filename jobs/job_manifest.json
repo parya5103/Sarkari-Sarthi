@@ -1,140 +1,9 @@
 {
-  "last_updated": "2025-12-13T23:44:47.194663",
-  "total_jobs": 293,
-  "active_jobs": 293,
-  "expired_jobs": 3,
+  "last_updated": "2025-12-15T23:46:40.731588",
+  "total_jobs": 295,
+  "active_jobs": 295,
+  "expired_jobs": 14,
   "jobs": [
-    {
-      "id": "5df5a33e92f1e2e7481300e368ca7732",
-      "title": "ICMR Notification 2025 - Apply Online for 28 Scientist B Posts",
-      "url": "https://allgovernmentjobs.in/icmr-notification-2025-apply-online-for-28-scientist-b-posts/36722",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Council of Medical Research (ICMR) has officially released the notification to fill the vacancies of 28 Scientist B Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS can apply for the ICMR Notification 2025 . The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, application fee, salary, and...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "20-12-2025",
-        "found_date": "04-11-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-14T23:41:04.766728",
-      "links": []
-    },
-    {
-      "id": "d3a07bcc87abe9ff6d2c8fb24e23ec86",
-      "title": "GGSGH Notification 2025 - Walk-in-Interview for 08 Senior Resident Posts",
-      "url": "https://allgovernmentjobs.in/ggsgh-notification-2025-walk-in-interview-for-08-senior-resident-posts/36714",
-      "source": "allgovernmentjobs.in",
-      "description": "Guru Gobind Singh Govt Hospital (GGSGH) has announced the official notification for 2025. To fill up the 08 vacancies for Senior Resident Jobs. Those candidates who have completed their MBBS, MD/ MS, DNB can grab this chance and apply for the GGSGH Notification 2025 . Here we include the age limit, selection process, salary structure, education details, application fe, and how to apply for these posts. Interestd candidates can attend the walk-in at the address given below. If you are looking ...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "17-11-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-14T23:41:04.766840",
-      "links": []
-    },
-    {
-      "id": "54337814d59589b953c917d074d5b3fe",
-      "title": "NIELIT Recruitment 2025 - Walk-in-Interview for 02 Data Entry Operator Post",
-      "url": "https://allgovernmentjobs.in/nielit-recruitment-2025-walk-in-interview-for-02-data-entry-operator-post/36717",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute of Electronics and Information Technology (NIELIT) has declared the official notification for 2025. To fill up the vacancies for 02 Data Entry Operator Jobs. Those candidates who have qualified in Any Degree can utilize this chance and apply for these posts. Here, we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for the NIELIT Recruitment 2025 . For more details, visit the official notification. If you...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "20-11-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2025-11-14T23:41:04.773648",
-      "links": []
-    },
-    {
-      "id": "787339796520cb11192fa741becae457",
-      "title": "IIM Lucknow Recruitment 2025 - Apply for Senior Research Assistant Post",
-      "url": "https://allgovernmentjobs.in/iim-lucknow-recruitment-2025-apply-for-senior-research-assistant-post/36716",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Management Lucknow (IIM Lucknow) has declared the official notification for 2025. To fill up the vacancies for Senior Research Assistant Jobs. Those candidates who have qualified in the Post-Graduation can grab this chance and apply for the IIM Lucknow Recruitment 2025 . Here we provided information about the age limit, selection process, salary structure, Education details, application fee, and how to apply for these posts. If you are looking for more, here is a list of G...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "14-11-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-14T23:41:04.773680",
-      "links": []
-    },
-    {
-      "id": "ea6c3e62931d3d5b20697fddeab94337",
-      "title": "PGIMER",
-      "url": "https://allgovernmentjobs.in/pgimer-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Postgraduate Institute of Medical Education and Research (PGIMER) has declared the official notification for 2025. To fi .... Postgraduate Institute of Medical Education and Research (PGIMER) has declared the official notification for 2025. To fi .... Postgraduate Institute of Medical Education and Research (PGIMER) has declared the official notification for 2025. To fi .... Post Graduate Institute of Medical Education and Research (PGIMER) has declared the official notification for 2025. To ...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-14T23:41:04.773713",
-      "links": []
-    },
-    {
-      "id": "5c02b918c600a09609d8fc58a8ef9905",
-      "title": "TANUVAS",
-      "url": "https://allgovernmentjobs.in/tanuvas-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Tamil Nadu Veterinary and Animal Sciences University (TANUVAS) has officially released the notification to fill the .... The Tamil Nadu Veterinary and Animal Sciences University (TANUVAS) has officially released the notification to fill the .... The Tamil Nadu Veterinary and Animal Sciences University (TANUVAS) has officially released the notification to fill the .... Tamil Nadu Veterinary and Animal Sciences University (TANUVAS) has announced the official notification for 2025. To .... T...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2025-11-14T23:41:04.773763",
-      "links": []
-    },
-    {
-      "id": "28af39f0be1c2307bff53b480370d366",
-      "title": "IIM Lucknow",
-      "url": "https://allgovernmentjobs.in/iim-lucknow-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Management Lucknow (IIM Lucknow) has declared the official notification for 2025. To fill up the vac .... Indian Institute of Management Lucknow (IIM Lucknow) has officially released the notification to fill the vacancies of 0 .... The Indian Institute of Management (IIM) Lucknow has released the latest job notification for 2025. To fill up the vacan ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2025-11-14T23:41:04.773801",
-      "links": []
-    },
-    {
-      "id": "54a8f681b15cd9c2746631fce43774bc",
-      "title": "GGSGH",
-      "url": "https://allgovernmentjobs.in/ggsgh-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Guru Gobind Singh Govt Hospital (GGSGH) has announced the official notification for 2025. To fill up the 08 vacancies fo .... The Guru Gobind Singh Medical College, Faridkot (GGSMC) has released the official notification for 2025. To fill up the ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Teaching",
-      "skills": [],
-      "scraped_at": "2025-11-14T23:41:04.773822",
-      "links": []
-    },
-    {
-      "id": "5324a3001be8b7e83d7a6262dd61b4d7",
-      "title": "IMD Notification 2025 - Apply Online for 134 Scientific Assistant Posts",
-      "url": "https://allgovernmentjobs.in/imd-notification-2025-apply-online-for-134-scientific-assistant-posts/36755",
-      "source": "allgovernmentjobs.in",
-      "description": "The India Meteorological Department (IMD) has officially released the notification to fill the vacancies of 134 Project Scientist I, II, III, E, Scientific Assistant, and Admin Assistant Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree, B.E./B. Tech, M.Sc., and M.E./M. Tech can apply for the IMD Notification 2025 . The interested applicants can apply in online mode. H...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "14-12-2025",
-        "found_date": "24-11-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-15T23:40:19.443793",
-      "links": []
-    },
     {
       "id": "bcdc30b9c6a18223831eb9135d6325c5",
       "title": "OAV Balangir Recruitment 2025 - Walk-in-Interview for Various PGT Post",
@@ -369,22 +238,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2025-11-18T23:38:37.753394",
-      "links": []
-    },
-    {
-      "id": "936461fabee7973cc99ff4cead75566b",
-      "title": "Intelligence Bureau Recruitment 2025 - Apply Online for 362 Multi Tasking Staff Posts",
-      "url": "https://allgovernmentjobs.in/intelligence-bureau-recruitment-2025-apply-online-for-362-multi-tasking-staff-posts/36833",
-      "source": "allgovernmentjobs.in",
-      "description": "The Intelligence Bureau has declared the official notification for 2025. To fill up the 362 vacancies for Multi-Tasking Staff Jobs. Those candidates who have qualified in the 10th Pass can grab this chance and apply for the Intelligence Bureau Recruitment 2025 . Here, we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply online before the last date of application. If you are lookin...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "14-12-2025",
-        "found_date": "12-11-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-18T23:38:37.759267",
       "links": []
     },
     {
@@ -927,23 +780,6 @@
       "links": []
     },
     {
-      "id": "61d57971f1e6ae129075e8133fd69a57",
-      "title": "Indian Airforce AFCAT 01/2026 Batch Online Form 2025",
-      "url": "https://www.rojgarresult.com/indian-airforce-afcat-01-2026-batch/",
-      "source": "www.rojgarresult.com",
-      "description": "Indian Airforce AFCAT 01/2026 Recruitment 2025 Post Update Date: 22-11-2025 Short Description: Indian Airforce AFCAT 01/2026 Online Form 2025 : Join Indian Airforce AFCAT 01/2026 Exam Official Notification is released and Online Form Now Started on 17 November 2025 to 14 December 2025 is Last Date for Join Indian Airforce AFCAT 01/2026 Examination, Vacancy 2025 Full Notification available at the official website. All the candidates can now check the detailed notification of Airforce AFCAT 01/...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "14/12/2025",
-        "exam_date": "31/01/2026",
-        "found_date": "22-11-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-22T23:41:27.637604",
-      "links": []
-    },
-    {
       "id": "6ad02791a4ad18b4ff235e6409063321",
       "title": "NIT Warangal",
       "url": "https://allgovernmentjobs.in/nit-warangal-recruitment",
@@ -1218,24 +1054,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2025-11-26T23:40:33.650208",
-      "links": []
-    },
-    {
-      "id": "e94a10d38148a24118f9f21d33095c92",
-      "title": "TN MRB Recruitment 2025 - Apply Online for 2147 Auxiliary Nurse Midwife and Village Assistant Posts",
-      "url": "https://allgovernmentjobs.in/tn-mrb-recruitment-2025-apply-online-for-2147-auxiliary-nurse-midwife-and-village-assistant-posts/37016",
-      "source": "allgovernmentjobs.in",
-      "description": "Tamil Nadu Medical Services Recruitment Board (TN MRB) has declared the official notification for 2025. To fill up the vacancies for 2147 Auxiliary Nurse Midwife and Village Assistant Jobs. Those candidates who have qualified in the ANM can grab this chance and apply for the TN MRB Recruitment 2025 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply online befo...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "14-12-2025",
-        "found_date": "24-11-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2025-11-26T23:40:33.650228",
       "links": []
     },
     {
@@ -2643,22 +2461,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2025-12-05T23:40:43.474621",
-      "links": []
-    },
-    {
-      "id": "439e1127e798369c7c3df715e53784bd",
-      "title": "GIPE Recruitment 2025 - Apply Online for Accounts Assistant Posts",
-      "url": "https://allgovernmentjobs.in/gipe-recruitment-2025-apply-online-for-accounts-assistant-posts/37330",
-      "source": "allgovernmentjobs.in",
-      "description": "Gokhale Institute of Politics and Economics (GIPE) has declared the official notification for 2025. To fill up the vacancies for Accounts Assistant Jobs. Those candidates who have qualified in Any Degree, MBA, or CA can grab this chance and apply for the GIPE Recruitment 2025 . Here, we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply online before the last date of a...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "14-12-2025",
-        "found_date": "02-12-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-12-05T23:40:43.480523",
       "links": []
     },
     {
@@ -4387,6 +4189,226 @@
       "links": [
         "https://vyapamcg.cgstate.gov.in/"
       ]
+    },
+    {
+      "id": "5b5c04da99f7bbf49690b155a4d4f2c7",
+      "title": "LIC HFL Notification 2025 - Apply Online for Full Stack Developer Posts",
+      "url": "https://allgovernmentjobs.in/lic-hfl-notification-2025-apply-online-for-full-stack-developer-posts/37638",
+      "source": "allgovernmentjobs.in",
+      "description": "The LIC Housing Finance Limited (LIC HFL) has officially released the notification to fill the vacancies of 01 Full Stack Developer Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech in Computer Science Engineering, MCA can apply for the LIC HFL Notification 2025. The interested applicants can apply in online mode. Here we have mentioned the education d...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "28-12-2025",
+        "found_date": "12-12-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-15T23:43:28.014633",
+      "links": []
+    },
+    {
+      "id": "8cf14f0ed0db64843996feee2fe3a03e",
+      "title": "TGCAB Notification 2025 - Apply Offline for 07 Cooperative Intern Posts",
+      "url": "https://allgovernmentjobs.in/tgcab-notification-2025-apply-offline-for-07-cooperative-intern-posts/37631",
+      "source": "allgovernmentjobs.in",
+      "description": "The Telangana State Co-Operative Apex Bank Limited (TGCAB) has officially released the notification to fill the vacancies of 07 Cooperative Intern Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Post-graduation, MBA, and PGDM can apply for the TGCAB Notification 2025. The interested applicants can apply in offline mode. Here we have mentioned the education details, age limit, ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "23-12-2025",
+        "found_date": "4-1-441"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-15T23:43:28.014676",
+      "links": []
+    },
+    {
+      "id": "862f86d253537b999f5c943d0dfe03f2",
+      "title": "TMC Recruitment 2025 - Walk-in-Interview for 02 Multi Tasking Staff Posts",
+      "url": "https://allgovernmentjobs.in/tmc-recruitment-2025-walk-in-interview-for-02-multi-tasking-staff-posts/37639",
+      "source": "allgovernmentjobs.in",
+      "description": "The Tata Memorial Center (TMC) has declared the official notification for 2025. To fill up the vacancies for Multi-Tasking Staff Jobs. Those candidates who have qualified in the 10th Pass can grab this chance and apply for the TMC Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can attend the walk-in at the address given below. If you are looking for ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "22-12-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-15T23:43:28.019718",
+      "links": []
+    },
+    {
+      "id": "8001a0ffcf4777bbdeaa7e801bac0e25",
+      "title": "KIIFB Recruitment 2025 - Apply Online for Junior Engineering Consultant Post",
+      "url": "https://allgovernmentjobs.in/kiifb-recruitment-2025-apply-online-for-junior-engineering-consultant-post/37637",
+      "source": "allgovernmentjobs.in",
+      "description": "Kerala Infrastructure Investment Fund Board (KIIFB) has declared the official notification for 2025. To fill up the vacancies for Junior Engineering Consultant Jobs. Those candidates who have qualified in the B.E/ B.Tech in Mechanical Engineering can grab this chance and apply for these posts. Here, we provided more about the age limit, selection process, salary structure, education details, application fee, and how to apply for the KIIFB Recruitment 2025 . Interested and eligible candidates ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "29-12-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-15T23:43:28.019739",
+      "links": []
+    },
+    {
+      "id": "146a2ccd243fddd64747de0b1976dd1b",
+      "title": "MDL Recruitment 2025 - Apply Online for 200 Apprentice Posts",
+      "url": "https://allgovernmentjobs.in/mdl-recruitment-2025-apply-online-for-200-apprentice-posts/37635",
+      "source": "allgovernmentjobs.in",
+      "description": "Mazagon Dock (MDL) has declared the official notification for 2025. To fill up the vacancies for 200 Apprentice Jobs. Those candidates who have qualified in the B.E/ B.Tech. in Civil Engineering, Electrical Engineering, and Mechanical Engineering can grab this chance and apply for the MDL Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply onlin...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "05-01-2026",
+        "found_date": "16-12-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-15T23:43:28.019756",
+      "links": []
+    },
+    {
+      "id": "be7c2d09521f6dea71a37dd87049db53",
+      "title": "Hindustan Salts Recruitment 2025 - Apply Online for Consultant Post",
+      "url": "https://allgovernmentjobs.in/hindustan-salts-recruitment-2025-apply-online-for-consultant-post/37634",
+      "source": "allgovernmentjobs.in",
+      "description": "Hindustan Salts Limited has declared the official notification for 2025. To fill up the vacancies for Consultant Jobs. Those candidates who have qualified in Any Degree, LLB, can grab this chance and apply for the Hindustan Salts Recruitment 2025 . Here, we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply before the last date of application. If you are looking for mo...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "27-12-2025",
+        "found_date": "13-12-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-15T23:43:28.019772",
+      "links": []
+    },
+    {
+      "id": "f6d93d8e7df46ce7eeb26c971a098d21",
+      "title": "Kolhapur Urban Bank Recruitment 2025 - Apply Online for 50 Clerk Posts",
+      "url": "https://allgovernmentjobs.in/kolhapur-urban-bank-recruitment-2025-apply-online-for-50-clerk-posts/37632",
+      "source": "allgovernmentjobs.in",
+      "description": "Kolhapur Urban Bank has declared the official notification for 2025. To fill up the 50 vacancies for Clerk Jobs. Those candidates who have qualified in Any Degree or diploma can grab this chance and apply for the Kolhapur Urban Bank Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply before the last date of application. If you are looking for more, here is a...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "29-12-2025",
+        "found_date": "15-12-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-15T23:43:28.019791",
+      "links": []
+    },
+    {
+      "id": "90c7a7b99b66d90978fb9ffe74893f36",
+      "title": "KIIFB",
+      "url": "https://allgovernmentjobs.in/kiifb-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Kerala Infrastructure Investment Fund Board (KIIFB) has declared the official notification for 2025. To fill up the .... The Kerala Infrastructure Investment Fund Board (KIIFB) has officially released the notification to fill the vacancies o .... Kerala Infrastructure Investment Fund Board (KIIFB) has declared the official notification for 2025. To fill up the vaca ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "General",
+      "skills": [],
+      "scraped_at": "2025-12-15T23:43:28.019814",
+      "links": []
+    },
+    {
+      "id": "f258b377e0fe4585b34c8433f5605c19",
+      "title": "NIELIT",
+      "url": "https://allgovernmentjobs.in/nielit-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Institute of Electronics and Information Technology (NIELIT) has officially released the notification to fi .... The National Institute of Electronics & Information Technology, Pali (NIELIT Pali) has officially released the notif .... The National Institute of Electronics and Information Technology (NIELIT) has officially released the notification to fi .... The National Institute of Electronics and Information Technology (NIELIT) has declared the official notification for 202 .....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2025-12-15T23:43:28.019833",
+      "links": []
+    },
+    {
+      "id": "3902271cf186a3943db6fa75fb0d348a",
+      "title": "IIT Bhubaneswar",
+      "url": "https://allgovernmentjobs.in/iit-bhubaneswar-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Institute of Technology Bhubaneswar (IIT Bhubaneshwar) has officially released the notification to fill the 1 ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2025-12-15T23:43:28.019855",
+      "links": []
+    },
+    {
+      "id": "bf686059635a9a3502785d199622ae19",
+      "title": "IIIT Bhubaneswar",
+      "url": "https://allgovernmentjobs.in/iiit-bhubaneswar-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Institute of Technology (IIT) BHU has released the official Notification for 2025. Allotted vacancies for Jun .... Indian Institute of Technology (IIT) BHU has released the latest job notification for the 05 JRF, Project Assistant and .... Indian Institute of Information Technology, Bhubaneswar (IIT) has released the latest job notification for the 02 J .... Indian Institute of Technology, Bhubaneswar (IIT) has released the latest job notification for the 01 Junior Research Fe .......",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-15T23:43:28.019873",
+      "links": []
+    },
+    {
+      "id": "8583af57ec1fb0e3651ded8ad89cf8c2",
+      "title": "TSCAB",
+      "url": "https://allgovernmentjobs.in/tscab-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Telangana State Co-Operative Apex Bank Limited (TGCAB) has officially released the notification to fill the vacancie .... Telangana State Cooperative Apex Bank (TSCAB) has declared the latest job notification for 2025. To fill up the vacancie ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-15T23:43:28.019905",
+      "links": []
+    },
+    {
+      "id": "48e450474aa9f499104e313ae9c54160",
+      "title": "MNNIT Allahabad",
+      "url": "https://allgovernmentjobs.in/mnnit-allahabad-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Motilal Nehru National Institute of Technology Allahabad (MNNIT Allahabad) has declared the official notification for 20 .... The Motilal Nehru National Institute of Technology, Allahabad (MNNIT Allahabad) has officially released the notificaton .... Motilal Nehru National Institute of Technology (MNNIT), Allahabad, has announced the official notification for 2025. To .... Motilal Nehru National Institute of Technology (MNNIT), Allahabad, has announced the official notification for 2025. To ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2025-12-15T23:43:28.019923",
+      "links": []
+    },
+    {
+      "id": "e8a6fde1be0a30ab2289ca9b12400014",
+      "title": "IIT Bhubaneshwar Jobs 2025 - Apply Online for 101 Non-Teaching Staff Posts",
+      "url": "https://allgovernmentjobs.in/iit-bhubaneshwar-jobs-2025-apply-online-for-101-non-teaching-staff-posts/37633",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Institute of Technology Bhubaneswar (IIT Bhubaneshwar) has officially released the notification to fill the 101 Medical Officer, Staff Nurse, Junior Engineer, Software Engineer, Junior Assistant, and Multi-Tasking Staff Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their M.E./M. Tech, Diploma, B.E./B. Tech in Mechanical, Electrical, Electronics, Civil Engineering, Any De...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "08-01-2026",
+        "found_date": "09-12-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-15T23:43:28.024969",
+      "links": []
+    },
+    {
+      "id": "ea1e65a0860d640e42819812867b6425",
+      "title": "CMCH Vellore Jobs 2025 - Apply Online for 02 Technical Assistant, Junior Engineer Posts",
+      "url": "https://allgovernmentjobs.in/cmch-vellore-jobs-2025-apply-online-for-02-technical-assistant-junior-engineer-posts/37630",
+      "source": "allgovernmentjobs.in",
+      "description": "The Christian Medical College and Hospital Vellore (CMCH Vellore) has officially released the notification to fill the vacancies of 02 Technical Assistant, Junior Engineer Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Diploma in Civil Engineering or any degree can apply for the CMCH Vellore Jobs 2025. The interested applicants can apply in online mode. Here we have mentioned...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "17-12-2025",
+        "found_date": "14-12-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-15T23:43:28.025001",
+      "links": []
     }
   ]
 }
