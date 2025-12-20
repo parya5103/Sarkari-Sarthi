@@ -1,112 +1,9 @@
 {
-  "last_updated": "2025-12-19T23:45:08.639363",
-  "total_jobs": 313,
-  "active_jobs": 313,
-  "expired_jobs": 6,
+  "last_updated": "2025-12-20T23:44:30.750693",
+  "total_jobs": 311,
+  "active_jobs": 311,
+  "expired_jobs": 17,
   "jobs": [
-    {
-      "id": "7aa0cf1a8e4a40e587a74a343db71455",
-      "title": "TMC Recruitment 2025 - Walk-in-Interview for 02 Technician Radio Diagnosis Post",
-      "url": "https://allgovernmentjobs.in/tmc-recruitment-2025-walk-in-interview-for-02-technician-radio-diagnosis-post/36876",
-      "source": "allgovernmentjobs.in",
-      "description": "The Tata Memorial Centre (TMC) has declared the official notification for 2025. To fill up the vacancies for 02 Technician Radio Diagnosis Jobs. Those candidates who have qualified in the B.Sc, B.Pharm can grab this chance and apply for the TMC Recruitment 2025 . Here we include the age limit, selection process, salary structure, educational details, application fee, and how to apply for these posts. Interested candidates can attend the walk-in at the address given below. If you are looking f...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "25-11-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-19T23:40:30.361449",
-      "links": []
-    },
-    {
-      "id": "2f2caeb98f1ef1535d78a6bf72f63903",
-      "title": "ANGRAU Recruitment 2025 - Walk-in-Interview for Teaching Associate Post",
-      "url": "https://allgovernmentjobs.in/angrau-recruitment-2025-walk-in-interview-for-teaching-associate-post/36874",
-      "source": "allgovernmentjobs.in",
-      "description": "Acharya NG Ranga Agricultural University (ANGRAU) has declared the official notification for 2025. To fill up the vacancies for Teaching Associate Jobs. Those candidates who have qualified in the Post-Graduation can grab this chance and apply for the ANGRAU Recruitment 2025 . Here, we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can attend the walk-in at the address given ...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "26-11-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-19T23:40:30.361470",
-      "links": []
-    },
-    {
-      "id": "68937a1d66f4856cc7aef769395ce39b",
-      "title": "AAI Recruitment 2025 - Apply Online for Senior Assistant Posts",
-      "url": "https://allgovernmentjobs.in/aai-recruitment-2025-apply-online-for-senior-assistant-posts/36872",
-      "source": "allgovernmentjobs.in",
-      "description": "Airports Authority of India (AAI) has declared the official notification for 2025. To fill up the various vacancies for Senior Assistant Jobs. Those candidates who have qualified in Any Degree, post-graduation, or Diploma can grab this chance and apply for the AAI Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply before the last date of application. If you...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "20-12-2025",
-        "found_date": "21-11-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2025-11-19T23:40:30.361489",
-      "links": []
-    },
-    {
-      "id": "d4b8855ab0061733c1319ba94b85478b",
-      "title": "NIAB Hyderabad",
-      "url": "https://allgovernmentjobs.in/niab-hyderabad-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute of Animal Biotechnology (NIAB) has declared the official notification for 2025. To fill up the va .... National Institute of Animal Biotechnology (NIAB) has declared the latest job notification for 2025. To fill up the vaca .... The National Institute of Animal Biotechnology (NIAB) has officially released the notification to fill the vacancies of .... The National Institute of Animal Biotechnology (NIAB) has officially released the notification to fill the vacancies of ...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2025-11-19T23:40:30.361542",
-      "links": []
-    },
-    {
-      "id": "1b9baafa7dfafacd840e2fafc21ba498",
-      "title": "Northern Railway",
-      "url": "https://allgovernmentjobs.in/northern-railway-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Northern Railway has officially released the notification to fill the vacancies of 4116 Apprentice Posts. Interested .... The Northern Railway has officially released the notification to fill the vacancies of 09 Junior Resident Posts. Interes .... The Northern Railway has officially released the notification to fill the vacancies of 03 General Duty Medical Officer/ .... The Northern Railway has officially released the notification to fill the vacancies of 25 Senior Resident posts. Interes...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-19T23:40:30.361589",
-      "links": []
-    },
-    {
-      "id": "f1cacc39a1e9da8b147a0cf79f1df8f1",
-      "title": "NIIST",
-      "url": "https://allgovernmentjobs.in/niist-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute for Interdisciplinary Science and Technology (NIIST) has officially released the notification to .... The National Institute for Interdisciplinary Science and Technology (NIIST) has announced the official notification .... The National Institute for Interdisciplinary Science and Technology (NIIST) has announced the official notification ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2025-11-19T23:40:30.361657",
-      "links": []
-    },
-    {
-      "id": "c3e90651028490928773dbad872528c9",
-      "title": "Northern Railway Jobs 2025 - Apply Online for 4116 Apprentice Posts",
-      "url": "https://allgovernmentjobs.in/northern-railway-jobs-2025-apply-online-for-4116-apprentice-posts/36875",
-      "source": "allgovernmentjobs.in",
-      "description": "The Northern Railway has officially released the notification to fill the vacancies of 4116 Apprentice Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their 10th, ITI can apply for the Northern Railway Jobs 2025 . The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, application fee, salary, and how to apply f...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "24-12-2025",
-        "found_date": "25-11-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-19T23:40:30.367302",
-      "links": []
-    },
     {
       "id": "0ec58cb9da402ca41877d6957e345aff",
       "title": "ECHS Notification 2025 - Walk-in interview for Medical Officer Posts",
@@ -631,24 +528,6 @@
       "category": "Medical",
       "skills": [],
       "scraped_at": "2025-11-25T23:41:28.691370",
-      "links": []
-    },
-    {
-      "id": "a9a8e17507824a05fc7c6bd3c4ffeb7c",
-      "title": "Balmer Lawrie Jobs 2025 - Apply Online for 15 Manager, Junior Officer Posts",
-      "url": "https://allgovernmentjobs.in/balmer-lawrie-jobs-2025-apply-online-for-15-manager-junior-officer-posts/37014",
-      "source": "allgovernmentjobs.in",
-      "description": "The Balmer Lawrie & Co. Limited (Balmer Lawrie) has officially released the notification to fill the vacancies of 15 Assistant Manager, Deputy Manager, Unit Head, and Junior Officer Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree, Post-graduation, Diploma, MBA, and B.E./B. Tech can apply for the Balmer Lawrie Jobs 2025 . The interested applicants can apply in online ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "19-12-2025",
-        "found_date": "25-11-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2025-11-25T23:41:28.697108",
       "links": []
     },
     {
@@ -1765,22 +1644,6 @@
       "links": []
     },
     {
-      "id": "c9db1ee6658e55aa46c31b5dc118cfe0",
-      "title": "NIT Silchar Recruitment 2025 - Apply for Project Associate Posts",
-      "url": "https://allgovernmentjobs.in/nit-silchar-recruitment-2025-apply-for-project-associate-posts/37240",
-      "source": "allgovernmentjobs.in",
-      "description": "National Institute of Technology Silchar (NIT Silchar) has announced the official notification for 2025. To fill up the vacancies for Project Associate Jobs. Those candidates who have qualified in the B.E/ B.Tech., M.E/ M.Tech. in Mechanical Engineering can grab this chance and apply for the NIT Silchar Recruitment 2025 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply on...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "19-12-2025",
-        "found_date": "02-12-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-12-03T23:41:03.039456",
-      "links": []
-    },
-    {
       "id": "a790d98f57711d1fe601b378bb9128b7",
       "title": "CRIS Recruitment 2025 - Apply for Project Assistant Posts",
       "url": "https://allgovernmentjobs.in/cris-recruitment-2025-apply-for-project-assistant-posts/37238",
@@ -1882,22 +1745,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2025-12-04T23:41:44.829637",
-      "links": []
-    },
-    {
-      "id": "65aeb6426f273a4fc256782969a0e0d1",
-      "title": "WBPHIDCL Notification 2025 - Apply Online for 04 Assistant Engineer Posts",
-      "url": "https://allgovernmentjobs.in/wbphidcl-notification-2025-apply-online-for-04-assistant-engineer-posts/37281",
-      "source": "allgovernmentjobs.in",
-      "description": "The West Bengal Police Housing and Infrastructure Development Corporation Limited (WBPHIDCL) has officially released the notification to fill the vacancies of 04 Assistant Engineer, Sub-Assistant Engineer Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Diploma, B.E./B. Tech in Electrical, Civil Engineering can apply for the WBPHIDCL Notification 2025 . The interested applicant...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "19-12-2025",
-        "found_date": "04-12-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-12-04T23:41:44.829690",
       "links": []
     },
     {
@@ -2142,40 +1989,6 @@
       "links": []
     },
     {
-      "id": "03199e71986fe443129cdb1cea04e8bb",
-      "title": "HAL Recruitment 2025 - Apply Offline for Visiting Consultant Posts",
-      "url": "https://allgovernmentjobs.in/hal-recruitment-2025-apply-offline-for-visiting-consultant-posts/37366",
-      "source": "allgovernmentjobs.in",
-      "description": "Hindustan Aeronautics Limited (HAL) has declared the official notification for 2025. To fill up the vacancies for Visiting Consultant Jobs. Those candidates who have qualified in the MBBS, MD/ MS can grab this chance and apply for the HAL Recruitment 2025 . Here we include the eligibility, selection process, salary structure, educational details, application fee, and how to apply for these posts. Interested and eligible candidates can apply on or before the last date of application. If you ar...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "19-12-2025",
-        "found_date": "05-12-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-12-06T23:40:37.407970",
-      "links": []
-    },
-    {
-      "id": "6b1390f96656823f32abd0bdcd205b26",
-      "title": "EIL Recruitment 2025 - Apply Online for Chief General Manager Posts",
-      "url": "https://allgovernmentjobs.in/eil-recruitment-2025-apply-online-for-chief-general-manager-posts/37364",
-      "source": "allgovernmentjobs.in",
-      "description": "Engineers India Limited (EIL)has declared the official notification for 2025. To fill up the vacancies for Chief General Manager Jobs. Those candidates who have qualified in the LLB can grab this chance and apply for the EIL Recruitment 2025 . Here we provided more about the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested aspirants can apply before the last date of application. If you are looking for more, here i...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "19-12-2025",
-        "found_date": "05-12-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2025-12-06T23:40:37.407987",
-      "links": []
-    },
-    {
       "id": "64995a64fbda6e2506e053125343d38c",
       "title": "Bihar BPSC",
       "url": "https://allgovernmentjobs.in/bihar-bpsc-recruitment",
@@ -2393,24 +2206,6 @@
       "links": []
     },
     {
-      "id": "5052fc3b0bdb433696095dc248faffb1",
-      "title": "DCPU Virudhnagar Recruitment 2025 - Apply Offline for Outreach Worker Post",
-      "url": "https://allgovernmentjobs.in/dcpu-virudhnagar-recruitment-2025-apply-offline-for-outreach-worker-post/37406",
-      "source": "allgovernmentjobs.in",
-      "description": "District Child Protection Unit Virudhunagar (DCPU Virudhunagar) has declared the official notification for 2025. To fill up the vacancies for Outreach Worker Jobs. Those candidates who have qualified in the 12th can grab this chance and apply for the DCPU Virudhnagar Recruitment 2025 . Jere, we included more information about the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply before the last...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "19-12-2025",
-        "found_date": "03-12-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2025-12-08T23:41:41.716861",
-      "links": []
-    },
-    {
       "id": "c136981007a85760c1b9bd6933e113ed",
       "title": "Cantonment Board",
       "url": "https://allgovernmentjobs.in/cantonment-board-recruitment",
@@ -2473,22 +2268,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2025-12-08T23:41:41.717048",
-      "links": []
-    },
-    {
-      "id": "be73874a01380f9f378e3a1362d4b5af",
-      "title": "SCTIMST Notification 2025 - Walk-in interview for Apprentice Posts",
-      "url": "https://allgovernmentjobs.in/sctimst-notification-2025-walk-in-interview-for-apprentice-posts/37457",
-      "source": "allgovernmentjobs.in",
-      "description": "The Sree Chitra Tirunal Institute of Medical Sciences and Technology (SCTIMST) has officially released the notification to fill the vacancies of 01 Apprentice Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their M.Sc., DMLT can apply for the SCTIMST Notification 2025 . The interested applicants can attend the walk-in interview. Here we have mentioned the education details, age limi...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "19-12-2025",
-        "found_date": "05-12-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-12-09T23:41:25.312670",
       "links": []
     },
     {
@@ -3076,22 +2855,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2025-12-11T23:42:49.785150",
-      "links": []
-    },
-    {
-      "id": "c8cb27e5f62c214e9e6b9c087bbe8c5e",
-      "title": "SCTIMST Recruitment 2025 - Apply Online for Senior project Engineer Posts",
-      "url": "https://allgovernmentjobs.in/sctimst-recruitment-2025-apply-online-for-senior-project-engineer-posts/37516",
-      "source": "allgovernmentjobs.in",
-      "description": "Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST) has recently declared the official notification for 2025. To fill up the vacancies for Senior Project Engineer Jobs. Those candidates who have qualified in the B.E/ B.Tech., M.E/ M.Tech in Mechanical Engineering can grab this chance and apply for the SCTIMST Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply online for these posts...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "19-12-2025",
-        "found_date": "06-12-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-12-11T23:42:49.785169",
       "links": []
     },
     {
@@ -4212,22 +3975,6 @@
       "links": []
     },
     {
-      "id": "6a7a79b1a254c868f5d84a1d91efde27",
-      "title": "NIT Silchar Jobs 2025 - Apply Online for Research Associate Posts",
-      "url": "https://allgovernmentjobs.in/nit-silchar-jobs-2025-apply-online-for-research-associate-posts/37713",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute of Technology Silchar (NIT Silchar) has officially released the notification to fill the vacancies of 01 Research Associate Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their M.E./M. Tech, Ph.D., can apply for the NIT Silchar Jobs 2025. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection pro...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "19-12-2025",
-        "found_date": "15-12-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-12-17T23:43:37.663676",
-      "links": []
-    },
-    {
       "id": "4a7b08f51299ad41e1cad4f41a4d91a8",
       "title": "AVNL Notification 2025 - Apply Offline for 06 Consultant, Manager Posts",
       "url": "https://allgovernmentjobs.in/avnl-notification-2025-apply-offline-for-06-consultant-manager-posts/37763",
@@ -4679,6 +4426,228 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2025-12-19T23:42:06.421758",
+      "links": []
+    },
+    {
+      "id": "acadbb916796b759ecf4467cb4861781",
+      "title": "BMRCL Notification 2025 - Apply Online for 07 Deputy General Manager, General Manager Posts",
+      "url": "https://allgovernmentjobs.in/bmrcl-notification-2025-apply-online-for-07-deputy-general-manager-general-manager-posts/37843",
+      "source": "allgovernmentjobs.in",
+      "description": "The Bangalore Metro Rail Corporation Limited (BMRCL) has officially released the notification to fill the vacancies of 07 Deputy General Manager, General Manager Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech in Mechanical, Electrical, Electronics, and Civil Engineering can apply for the BMRCL Notification 2025. The interested applicants can apply in online mode....",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "15-01-2026",
+        "found_date": "20-12-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-20T23:41:27.239126",
+      "links": []
+    },
+    {
+      "id": "3c4ffdb8f2f3c07ed70b587192b7491d",
+      "title": "WCD AP Notification 2025 - Apply Offline for 69 Anganwadi Worker & Helper Posts",
+      "url": "https://allgovernmentjobs.in/wcd-ap-notification-2025-apply-offline-for-69-anganwadi-worker-helper-posts/37831",
+      "source": "allgovernmentjobs.in",
+      "description": "The Women and Child Development, Andhra Pradesh (WCD Andhra Pradesh) has officially released the notification to fill the vacancies of 69 Anganwadi Worker & Helper Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their 10th can apply for the WCD AP Notification 2025 . The interested applicants can apply in offline mode. Here we have mentioned the education details, age limit, selecti...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "30-12-2025",
+        "found_date": "22-12-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2025-12-20T23:41:27.239152",
+      "links": []
+    },
+    {
+      "id": "338d01b8e9588c53135e07f90058b620",
+      "title": "ECIL Notification 2025 - Apply Offline for Chairman and Managing Director Posts",
+      "url": "https://allgovernmentjobs.in/ecil-notification-2025-apply-offline-for-chairman-and-managing-director-posts/37839",
+      "source": "allgovernmentjobs.in",
+      "description": "The Electronics Corporation of India Limited (ECIL) has officially released the notification to fill the vacancies of 01 Chairman and Managing Director Jobs. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree, B.E./B. Tech, MBA, PGDM, and CA can apply for the ECIL Notification 2025. The interested applicants can apply in offline mode. Here we have mentioned the education detai...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "20-01-2026",
+        "found_date": "20-12-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-20T23:41:27.239173",
+      "links": []
+    },
+    {
+      "id": "292cd277e4941fd78100c929e8dd2f68",
+      "title": "NIAB Notification 2025 - Apply Offline for 02 Senior Research Fellow, Senior Project Assistant Posts",
+      "url": "https://allgovernmentjobs.in/niab-notification-2025-apply-offline-for-02-senior-research-fellow-senior-project-assistant-posts/37837",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Institute of Animal Biotechnology(NIAB) has officially released the notification to fill the vacancies of 02 Senior Research Fellow, Senior Project Assistant Jobs. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their M.E./M. Tech, M.Sc., Any Degree, MBA can apply for the NIAB Notification 2025. The interested applicants can apply in offline mode. Here we have mentioned the edu...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "26-12-2025",
+        "found_date": "18-12-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-20T23:41:27.239192",
+      "links": []
+    },
+    {
+      "id": "a1ee650bd8a11cf2f9486502f30974df",
+      "title": "Kerala PSC Recruitment 2025 - Apply Online for Pharmacist Posts",
+      "url": "https://allgovernmentjobs.in/kerala-psc-recruitment-2025-apply-online-for-pharmacist-posts/37844",
+      "source": "allgovernmentjobs.in",
+      "description": "Kerala Public Service Commission has declared the official notification for 2025. To fill up the vacancies for Pharmacist Jobs. Those candidates who have qualified in the 10th Pass can grab this chance and apply for the Kerala PSC Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply online before the last date of application. If you are looking for more, here...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "14-01-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2025-12-20T23:41:27.244766",
+      "links": []
+    },
+    {
+      "id": "ba0abdc3edeb3b154cf0e4ae61e3d9ae",
+      "title": "ZSS Angul Recruitment 2025 - Apply Offline for 21 Medical Officer Posts",
+      "url": "https://allgovernmentjobs.in/zss-angul-recruitment-2025-apply-offline-for-21-medical-officer-posts/37842",
+      "source": "allgovernmentjobs.in",
+      "description": "Zilla Swasthya Samiti Angul (ZSS Angul) has declared the official notification for 2025. To fill up the vacancies for 21 Medical Officer Jobs. Those candidates who have qualified in the MBBS can grab this chance and apply for the ZSS Angul Recruitment 2025 . Here we include the age limit, selection process, salarystructure, education details, application fee, and how to apply for these posts. Interested can eligible candidates can apply before the last date of application. If you are looking ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "05-01-2026",
+        "found_date": "05-01-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-20T23:41:27.244790",
+      "links": []
+    },
+    {
+      "id": "8473ed35aa833f22946b63a78709ae74",
+      "title": "CRIS Recruitment 2025 - Apply for 02 Project Officer and Assistant Posts",
+      "url": "https://allgovernmentjobs.in/cris-recruitment-2025-apply-for-02-project-officer-and-assistant-posts/37840",
+      "source": "allgovernmentjobs.in",
+      "description": "Centre for Railway Information Systems (CRIS) has declared the official notification for 2025. To fill up the vacancies for 02 Project Officers and Assistant Jobs. Those candidates who have qualified in Any Degree can grab this chance and apply for the CRIS Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply before the last date of application. ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "08-01-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2025-12-20T23:41:27.244810",
+      "links": []
+    },
+    {
+      "id": "1048a207a0cc9e5c16651c6091b26f52",
+      "title": "DCPU Kanniyakumari Recruitment 2025 - Apply Offline for Protection Officer Posts",
+      "url": "https://allgovernmentjobs.in/dcpu-kanniyakumari-recruitment-2025-apply-offline-for-protection-officer-posts/37838",
+      "source": "allgovernmentjobs.in",
+      "description": "District Child Protection Unit Kanniyakumari (DCPU Kanniyakumari) has officially released the notification for 2025. To fill up the vacancies for Protection Officer Jobs. Those candidates who have qualified in Any Degree can grab this chance nd apply for the DCPU Kanniyakumari Recruitment 2025 . Here, we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply before the las...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "05-01-2026",
+        "found_date": "17-12-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2025-12-20T23:41:27.244834",
+      "links": []
+    },
+    {
+      "id": "db2b70e0c5624f60adfb74a75a2756b1",
+      "title": "CMOH Paschim Bardham Recruitment 2025 - Apply Online for Ophthalmic Assistant Posts",
+      "url": "https://allgovernmentjobs.in/cmoh-paschim-bardham-recruitment-2025-apply-online-for-ophthalmic-assistant-posts/37836",
+      "source": "allgovernmentjobs.in",
+      "description": "Chief Medical Officer of Health (CMOH) Paschim Bardhaman has declared the official notification for 2025. To fill up the vacancies for Ophthalmic Assistant Jobs. Those candidates who have qualified in the 12th Pass, Diploma can grab this chance and apply for the CMOH Paschim Bardham Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply before the ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "07-01-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2025-12-20T23:41:27.244854",
+      "links": []
+    },
+    {
+      "id": "b7d4ffc74b6ba552028ed885740192c9",
+      "title": "Kerala PSC",
+      "url": "https://allgovernmentjobs.in/kerala-psc-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Kerala Public Service Commission has declared the official notification for 2025. To fill up the vacancies for Phar .... The Kudumbashree Broiler Farmers Producers Company Limited (KBFPCL) has declared the official notification for 2025 .... The Central University of Kerala has announced the official notification for 2025. To fill up the vacancies for Pro .... University of Kerala has declared the official notification for 2025. To fill up the vacancies for Resident Cook Jo .... The Kerala Un...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-20T23:41:27.244874",
+      "links": []
+    },
+    {
+      "id": "79b91ffa0518a23115dba81f836157ac",
+      "title": "BMRCL",
+      "url": "https://allgovernmentjobs.in/bmrcl-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Bangalore Metro Rail Corporation Limited (BMRCL) has officially released the notification to fill the vacancies of 0 .... The Bangalore Metro Rail Corporation Limited (BMRCL) has officially released the notification to fill the vacancies of 2 .... Bangalore Metro Rail Corporation Limited (BMRCL) has declared the latest job notification for 2025. To fill up the vacan .... The Bangalore Metro Rail Corporation Limited (BMRCL) has officially released the notification to fill the vacancies of ...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2025-12-20T23:41:27.244898",
+      "links": []
+    },
+    {
+      "id": "3524b2ea2db573ad95ae2aa75a69e0bf",
+      "title": "TSPSC",
+      "url": "https://allgovernmentjobs.in/tspsc-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The International Crops Research Institute for the Semi-Arid Tropics (ICRISAT) has officially released the notification .... The Telangana Vaidya Vidhana Parishad Mancherial (TVVP Mancherial) has officially released the vacancies of 08&nbsp .... Professor Jayashankar Telangana Agricultural University (PJTSAU) has officially released the notification to fill the va .... The Satavahana University has declared the official notification for 2025. To fill up the vacancies for Guest Facul .... The ...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Teaching",
+      "skills": [],
+      "scraped_at": "2025-12-20T23:41:27.244986",
+      "links": []
+    },
+    {
+      "id": "ccb42fcea24dcd9e5c529a50d1652e3d",
+      "title": "NIT Puducherry",
+      "url": "https://allgovernmentjobs.in/nit-puducherry-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Institute of Technology Puducherry (NIT Puducherry) has officially released the notification to fill t ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2025-12-20T23:41:27.245012",
+      "links": []
+    },
+    {
+      "id": "fda463f10af22f493eb6f9cbdb2630c8",
+      "title": "UP Police SI Confidential, ASI Clerk and Accounts Online Form 2025",
+      "url": "https://www.rojgarresult.com/up-police-si-confidential-asi-clerk-accounts-2025/",
+      "source": "www.rojgarresult.com",
+      "description": "Uttar Pradesh Police Recruitment & Promotion Board UPPRPB SI Confidential, ASI Clerk & Accounts Recruitment 2025 Post Update Date: 20-12-2025 Short Description: Uttar Pradesh Police Recruitment & Promotion Board Uttar Pradesh Police Sub-Inspector (Confidential), Police Assistant Sub-Inspector (Clerk) and Police Assistant Sub-Inspector (Accounts) Online Form 2025 : Uttar Pradesh Police Recruitment & Promotion Board UPPRPB Applications for Uttar Pradesh Police Sub-Inspector (Confidential), Poli...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "20-12-2025"
+      },
+      "category": "Banking",
+      "skills": [
+        "Typing",
+        "Hindi",
+        "English"
+      ],
+      "scraped_at": "2025-12-20T23:41:50.787681",
       "links": []
     }
   ]
