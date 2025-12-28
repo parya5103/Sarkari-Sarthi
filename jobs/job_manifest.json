@@ -1,99 +1,9 @@
 {
   "last_updated": "2025-12-27T23:44:35.880117",
-  "total_jobs": 309,
-  "active_jobs": 309,
-  "expired_jobs": 10,
+  "total_jobs": 302,
+  "active_jobs": 302,
+  "expired_jobs": 7,
   "jobs": [
-    {
-      "id": "1fe77ca88e775bb50ed51ae350fe028a",
-      "title": "RGNAU Notification 2025 - Apply Offline for Consultant Posts",
-      "url": "https://allgovernmentjobs.in/rgnau-notification-2025-apply-offline-for-consultant-posts/37046",
-      "source": "allgovernmentjobs.in",
-      "description": "The Rajiv Gandhi National Aviation University (RGNAU) has officially released the notification to fill the vacancies of Consultant Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech in Mechanical, Electrical, and Civil Engineering can apply for the RGNAU Notification 2025 . The interested applicants can apply in offline mode. Here we have mentioned the education deta...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "31-12-2025",
-        "found_date": "20-11-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-27T23:41:02.529225",
-      "links": []
-    },
-    {
-      "id": "2ce76bc5b658291f1970e856f44d71f0",
-      "title": "WBSEDCL Notification 2025 - Apply Online for 447 Junior Engineer Posts",
-      "url": "https://allgovernmentjobs.in/wbsedcl-notification-2025-apply-online-for-447-junior-engineer-posts/37045",
-      "source": "allgovernmentjobs.in",
-      "description": "The West Bengal State Electricity Distribution Company Limited (WBSECL) has officially released the notification to fill the vacancies of 447 Assistant Manager, Junior Engineer Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree, Post-graduation, Diploma in Electrical Engineering, PGDM, and MBA can apply for the WBSEDCL Notification 2025. The interested applicants can ap...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "29-12-2025",
-        "found_date": "27-11-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2025-11-27T23:41:02.529253",
-      "links": []
-    },
-    {
-      "id": "5b723076e8b3c65cab6ca93642e9103f",
-      "title": "PGIMER Recruitment 2025 - Apply Offline for Project Nurse Post",
-      "url": "https://allgovernmentjobs.in/pgimer-recruitment-2025-apply-offline-for-project-nurse-post/37042",
-      "source": "allgovernmentjobs.in",
-      "description": "Postgraduate Institute of Medical Education and Research (PGIMER) has declared the official notification for 2025. To fill up the vacancies for Project Nurse Jobs. Those candidates who have qualified in the B.Sc Nursing, GNM can grab this chance and apply for these posts. Here, we include the age limit, selection process, salary structure, educational details, application fee, and how to apply for the PGIMER Recruitment 2025 . Interested candidates can apply before the last date of applicatio...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "03-12-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2025-11-27T23:41:02.535107",
-      "links": []
-    },
-    {
-      "id": "754099e2e3e530b794337aba3897ee57",
-      "title": "IIT Gandhinagar",
-      "url": "https://allgovernmentjobs.in/iit-gandhinagar-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Technology Gandhinagar (IIT Gandhinagar) has declared the latest job notification for 2025. To fill .... Indian Institute of Technology Gandhinagar (IIT Gandhinagar) has declared the official notification for 2025. To fill up .... Institute of Technology Gandhinagar (IIT Gandhinagar) has declared the official notification for 2025. To fill up the va .... Indian Institute of Technology Gandhinagar (IIT Gandhinagar) has declared the latest job notification for 2025. To fill ...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2025-11-27T23:41:02.535148",
-      "links": []
-    },
-    {
-      "id": "020a63a046010dd609db47bf71d839e2",
-      "title": "UPPSC",
-      "url": "https://allgovernmentjobs.in/uppsc-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Rajiv Gandhi National Aviation University (RGNAU) has officially released the notification to fill the vacancies of .... Uttar Pradesh Police Recruitment & Promotion Board (UPPRPB) has declared the latest job notification for 2025. .... The Uttar Pradesh Public Service Commission (UPPSC) has officially released the notification to fill the vacancies of 11 .... The Rajiv Gandhi National Aviation University (RGNAU) has officially released the notification to fill the vacancies of .... Dr.A....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-11-27T23:41:02.535169",
-      "links": []
-    },
-    {
-      "id": "c2729186d0a354f7a18f3d035c20f030",
-      "title": "WBSEDCL",
-      "url": "https://allgovernmentjobs.in/wbsedcl-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The West Bengal State Electricity Distribution Company Limited (WBSECL) has officially released the notification to fill ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2025-11-27T23:41:02.535213",
-      "links": []
-    },
     {
       "id": "88a61786fe4391f826d4041a4232be04",
       "title": "AIIMS Bilaspur Recruitment 2025 - Walk-in-Interview for 58 Senior Resident Posts",
@@ -2598,22 +2508,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2025-12-15T23:43:28.019756",
-      "links": []
-    },
-    {
-      "id": "be7c2d09521f6dea71a37dd87049db53",
-      "title": "Hindustan Salts Recruitment 2025 - Apply Online for Consultant Post",
-      "url": "https://allgovernmentjobs.in/hindustan-salts-recruitment-2025-apply-online-for-consultant-post/37634",
-      "source": "allgovernmentjobs.in",
-      "description": "Hindustan Salts Limited has declared the official notification for 2025. To fill up the vacancies for Consultant Jobs. Those candidates who have qualified in Any Degree, LLB, can grab this chance and apply for the Hindustan Salts Recruitment 2025 . Here, we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply before the last date of application. If you are looking for mo...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "27-12-2025",
-        "found_date": "13-12-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-12-15T23:43:28.019772",
       "links": []
     },
     {
