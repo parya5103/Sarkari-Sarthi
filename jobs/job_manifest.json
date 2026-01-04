@@ -1,97 +1,9 @@
 {
-  "last_updated": "2026-01-03T23:45:05.037011",
-  "total_jobs": 263,
-  "active_jobs": 263,
-  "expired_jobs": 28,
+  "last_updated": "2026-01-04T23:46:41.461855",
+  "total_jobs": 272,
+  "active_jobs": 272,
+  "expired_jobs": 8,
   "jobs": [
-    {
-      "id": "766a179284c6c8dc8f11a834dd92eec8",
-      "title": "DSWO Theni Recruitment 2025 - Apply Offline for 03 Case Worker Posts",
-      "url": "https://allgovernmentjobs.in/dswo-theni-recruitment-2025-apply-offline-for-03-case-worker-posts/37286",
-      "source": "allgovernmentjobs.in",
-      "description": "The District Social Welfare Officer (DSWO) Theni has declared the official notification for 2025. To fill up the vacancies for Case Worker Jobs. Those candidates who have qualified in Any Degree, post-graduation, or LLB can grab this chance and apply for the DSWO Theni Recruitment 2025 . Here, we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply on or before the last ...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "09-12-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-12-04T23:41:44.835439",
-      "links": []
-    },
-    {
-      "id": "13ca74b5ee8ff088ed7efd1efad68dad",
-      "title": "TMC Recruitment 2025 - Walk-in-Interview for Field Nurse Post",
-      "url": "https://allgovernmentjobs.in/tmc-recruitment-2025-walk-in-interview-for-field-nurse-post/37285",
-      "source": "allgovernmentjobs.in",
-      "description": "The Tata Memorial Centre (TMC) has declared the official notification for 2025. To fill up the vacancies for Field Nurse Jobs. Those candidates who have qualified for B.Sc Nursing can grab this chance and apply for the TMC Recruitment 2025 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can attend the walk-in at the address given below. If you are looking for more, h...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "11-12-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-12-04T23:41:44.835463",
-      "links": []
-    },
-    {
-      "id": "28d0aa022f574167700765dc4c7ec7ef",
-      "title": "SIDBI Recruitment 2025 - Apply for 02 Cluster Manager and Other Posts",
-      "url": "https://allgovernmentjobs.in/sidbi-recruitment-2025-apply-for-02-cluster-manager-and-other-posts/37282",
-      "source": "allgovernmentjobs.in",
-      "description": "Small Industries Development Bank of India (SIDBI) has declared the official notification for 2025. To fill up the vacancies for Cluster Manager and Senior Cluster Manager Jobs. Those candidates who have qualified in Any Degree, post-graduation, can grab this chance and apply for the SIDBI Recruitment 2025 . Here we include the age limit, selection process, salarystructure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply befor...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "24-12-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-12-04T23:41:44.835482",
-      "links": []
-    },
-    {
-      "id": "874582d7dd3af6e9c94efab0f31251e0",
-      "title": "Vizag Port Trust Recruitment 2025 - Walk-in-Interview for Marine Engineer Post",
-      "url": "https://allgovernmentjobs.in/vizag-port-trust-recruitment-2025-walk-in-interview-for-marine-engineer-post/37280",
-      "source": "allgovernmentjobs.in",
-      "description": "Visakhapatnam Port Trust has declared the official notification for 2025. To fill up the vacancies for Marine Engineer Jobs. Those candidates who have qualified in the B.E/ B.Tech can grab this chance and apply for the Vizag Port Trust Recruitment 2025 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can attend the walk-in at the address given below. If you are lookin...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "17-12-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-12-04T23:41:44.835501",
-      "links": []
-    },
-    {
-      "id": "67ea36d080619ef4a5f7c0997045a3e6",
-      "title": "IIT Madras Recruitment 2025 - Apply Online for Project manager Posts",
-      "url": "https://allgovernmentjobs.in/iit-madras-recruitment-2025-apply-online-for-project-manager-posts/37278",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Technology Madras (IIT Madras) has declared the latest job notification for 2025. To fill up the vacancies for Project Manager Jobs. Those candidates who have qualified in the B.E/ B.Tech, M.E/ M.Tech can grab this chance and apply for the IIT Madras Recruitment 2025 . Here we include the age limit, selection process, salarystructure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply online before the last da...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "10-12-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-12-04T23:41:44.835520",
-      "links": []
-    },
-    {
-      "id": "2fa89e754d8574cb439b82532c24c26c",
-      "title": "Visakhapatnam Port Trust",
-      "url": "https://allgovernmentjobs.in/visakhapatnam-port-trust-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Visakhapatnam Port Trust has declared the official notification for 2025. To fill up the vacancies for Marine Engin .... The Visakhapatnam Port Trust (Vizag Port Trust) has officially released the notification to fill the vacancies of 58 Gra .... The Visakhapatnam Port Trust (Vizag Port Trust) has officially released the notification to fill the vacancies of 02 Fir ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-12-04T23:41:44.835612",
-      "links": []
-    },
     {
       "id": "53a9df5f66dc1681582a5b26c492942b",
       "title": "NIMHANS Recruitment 2025 - Walk-in-Interview for Project Technical Support Post",
@@ -1258,24 +1170,6 @@
         "Analyst"
       ],
       "scraped_at": "2025-12-13T23:41:26.917708",
-      "links": []
-    },
-    {
-      "id": "372b19e5061364f34856734a5ae74d72",
-      "title": "DRDO CEPTAM 11 Apply Online",
-      "url": "https://www.rojgarresult.com/drdo-ceptam-11-2025/",
-      "source": "www.rojgarresult.com",
-      "description": "DRDO CEPTAM 11 STA-B & Tech A Recruitment 2025: Apply Online for 764 Post Post Update : 11-12-2025 Short Description: DRDO CEPTAM 11 Recruitment 2025 for 764 Post : Defence Research & Development Organisation (DRDO) Center for Personnel Talent Management CEPTAM 11 Recruitment Official Notification is released and Online Form Now Started on 09 December 2025 to Soon is Last Date for  DRDO CEPTAM 11 Vacancy 2025 Full Notification available at the official website. All the candidates can now chec...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "03/01/2026",
-        "found_date": "11-12-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Mathematics"
-      ],
-      "scraped_at": "2025-12-13T23:41:50.394877",
       "links": []
     },
     {
@@ -3158,24 +3052,6 @@
       "links": []
     },
     {
-      "id": "74eec2ac6aca93c16870b51d3dab02bb",
-      "title": "DHS Kancheepuram Recruitment 2025 - Apply Offline for Medical Officer Posts",
-      "url": "https://allgovernmentjobs.in/dhs-kancheepuram-recruitment-2025-apply-offline-for-medical-officer-posts/37895",
-      "source": "allgovernmentjobs.in",
-      "description": "The District Health Society (DHS) Kancheepuram has declared the official notification for 2025. To fill up the vacancies for Medical Officer Jobs. Those candidates who have qualified in the MBBS can grab this chance and apply for the DHS Kancheepuram Recruitment 2025 . For more details, like age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply before the last date of application. If y...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "03-01-2026",
-        "found_date": "20-12-2025"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2025-12-29T23:42:55.181328",
-      "links": []
-    },
-    {
       "id": "f48f83c3ddac30a27f97661d997f68f2",
       "title": "DRDO Recruitment 2025 - Apply Offline for 08 Internship Posts",
       "url": "https://allgovernmentjobs.in/drdo-recruitment-2025-apply-offline-for-08-internship-posts/38023",
@@ -3975,6 +3851,232 @@
         "Data Entry"
       ],
       "scraped_at": "2026-01-03T23:42:34.666527",
+      "links": []
+    },
+    {
+      "id": "70cdfc32ffea4d3ef253c798c6b48494",
+      "title": "All Government Jobs",
+      "url": "https://allgovernmentjobs.in/",
+      "source": "allgovernmentjobs.in",
+      "description": "Install All Government Jobs Home Latest Govt Jobs Results Qualifications Organizations Contact Us Login India's Best Portal for All Government Jobs Updates search 342 Notifications and 65,986 Jobs All Government Jobs - Sarkari Naukri India's Best Govt Job Site Get Your Latest Government Jobs Explore the world of All Government Jobs, which offer a wide range of career options. Our robust tool enables you to discover the perfect Govt job that aligns with your qualifications and interests. All G...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-04T23:43:29.520686",
+      "links": []
+    },
+    {
+      "id": "fe0401064c6850ee4a40cd1ad8e34043",
+      "title": "Latest Govt Jobs",
+      "url": "https://allgovernmentjobs.in/latest-government-jobs",
+      "source": "allgovernmentjobs.in",
+      "description": "Join on Telegram All Government Jobs Home Latest Govt Jobs Results Qualifications Organizations About Us Contact Us Register Login Home > Latest Government Jobs Government Jobs 2026 | 65,986 Latest Govt Jobs 342 Notifications All Government Jobs 2026: Here, you can apply for the latest job postings and recruitment notifications, we are expert in providing the government jobs that offer many employment opportunities for you. our job portal which provides the best recruitment information relate...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [
+        "Data Entry",
+        "Excel"
+      ],
+      "scraped_at": "2026-01-04T23:43:29.520726",
+      "links": []
+    },
+    {
+      "id": "df51fd822a4feaacdaf996e2d3c50661",
+      "title": "Qualifications",
+      "url": "https://allgovernmentjobs.in/jobs-by-qualification",
+      "source": "allgovernmentjobs.in",
+      "description": "Join on Telegram All Government Jobs Home Latest Govt Jobs Results Qualifications Organizations About Us Contact Us Register Login Jobs By Quaifications Education Total Post Notifications Apply Now B.E/ B.Tech 2,245 116 Apply / View M.E / M.Tech 271 46 Apply / View M.Sc 679 43 Apply / View M.Phil / Ph.D 967 29 Apply / View 8th 120 5 Apply / View MS/ MD 1,633 32 Apply / View B.sc Nursing 980 19 Apply / View GNM 996 17 Apply / View ANM 53 3 Apply / View Staff Nurse 1,066 23 Apply / View 1 2 3 N...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-04T23:43:29.520754",
+      "links": []
+    },
+    {
+      "id": "a14bae7bd9ce0589c8be86df885cf2ff",
+      "title": "Organizations",
+      "url": "https://allgovernmentjobs.in/jobs-by-organization",
+      "source": "allgovernmentjobs.in",
+      "description": "Join on Telegram All Government Jobs Home Latest Govt Jobs Results Qualifications Organizations About Us Contact Us Register Login Jobs By Organization Organization Total Post Notifications Apply Now NIT Raipur 1 1 Apply / View RGU 1 1 Apply / View NHM 854 23 Apply / View TMC 7 5 Apply / View AIIMS Raebareli 2 2 Apply / View AIIMS 179 7 Apply / View Department of Science & Technology 5 3 Apply / View Bank Jobs 21 4 Apply / View AIIMS Rishikesh 1 1 Apply / View IIT Tirupati 1 1 Apply / View 1 ...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-04T23:43:29.520782",
+      "links": []
+    },
+    {
+      "id": "3aebc6c7ddcf741178ffb334ccd84169",
+      "title": "Medical",
+      "url": "https://allgovernmentjobs.in/medical-jobs",
+      "source": "allgovernmentjobs.in",
+      "description": "Tata Memorial Centre (TMC) has declared the official notification for 2026. To fill up the vacancies for Fellow Job... All India Institute of Medical Sciences (AIIMS Rishikesh) has declared the official notification for 2026. To fill up th... Oil India Limited (Oil India) has officially released the notification to fill the vacancies of 02 Doctor Posts. Interes... Ordnance Factory Chanda (OFCH) has declared the official notification for 2026. To fill up the vacancies for Medica... The Tamil N...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-04T23:43:29.520807",
+      "links": []
+    },
+    {
+      "id": "d7cfa41aa25c524e2ccb0798d6b41c8f",
+      "title": "Engineering",
+      "url": "https://allgovernmentjobs.in/engineering-jobs",
+      "source": "allgovernmentjobs.in",
+      "description": "Join on Telegram All Government Jobs Home Latest Govt Jobs Results Qualifications Organizations About Us Contact Us Register Login Home > Engineering Jobs Engineering Govt Jobs 2024- [all vacancies] Posts B.E / B.Tech, M.E / M.Tech Engineering Jobs : For all the students in India who have a dream to become an engineer and work in the government sector, Government Jobs for Engineering is the best match. The Central Government of India has announced Total 8987 vacancies for people who like to g...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-04T23:43:29.520831",
+      "links": []
+    },
+    {
+      "id": "40739f76344ff63612b1eab1bd5e8bb6",
+      "title": "Finance",
+      "url": "https://allgovernmentjobs.in/mba-jobs",
+      "source": "allgovernmentjobs.in",
+      "description": "The Mumbai District Central Co-Operative Bank Limited (Mumbai DCCB) has officially released the notification to fill the... The State Bank of India (SBI) has officially released the notification to fill the vacancies of 1146 Specialist Cadre Of... The Haryana Public Service Commission (HPSC) has officially released the notification to fill the vacancies of 01 Manage... The Garden Reach Shipbuilders & Engineers (GRSE) has officially released the notification to fill the vacancies of 2... The A...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-04T23:43:29.520864",
+      "links": []
+    },
+    {
+      "id": "55ec3dbde87163e0b1955d0a26c8029e",
+      "title": "Nurse",
+      "url": "https://allgovernmentjobs.in/staff-nurse-jobs",
+      "source": "allgovernmentjobs.in",
+      "description": "Join on Telegram All Government Jobs Home Latest Govt Jobs Results Qualifications Organizations About Us Contact Us Register Login Home > Staff Nurse Jobs Staff Nurse Vacancy 2024, 202 Upcoming Nursing Job alert Staff Nurse Vacancy : Every year, lakhs of students apply for Government jobs as off now Total 12116 Nursing Govt Jobs were available, and try their best to secure a place in the tough government industry. This time, the Central Government of India has announced Staff Nurse Vacancy 20...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "26-01-05"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-04T23:43:29.520887",
+      "links": []
+    },
+    {
+      "id": "f8da4d1065d86319bcab0375f7a7ee5f",
+      "title": "Pharmacy",
+      "url": "https://allgovernmentjobs.in/pharmacy-jobs",
+      "source": "allgovernmentjobs.in",
+      "description": "The Institute of Nano Science and Technology (INST) has officially released the notification to fill the vacancies of 01... The District Health Society Sivaganga (DHS Sivaganga) has officially released the notification to fill the vacancies of ... The Indian Institute of Technology Delhi (IIT Delhi) has officially released the notification to fill the vacancies of 2... District Health Society Coimbatore (DHS Coimbatore) has declared the official notification for 2025. To fill up the 32 v... T...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-04T23:43:29.520908",
+      "links": []
+    },
+    {
+      "id": "ba7971b0ef03335f68b55c65d003d7a6",
+      "title": "Dental",
+      "url": "https://allgovernmentjobs.in/bds-jobs",
+      "source": "allgovernmentjobs.in",
+      "description": "All India Institute of Medical Sciences Bibinagar (AIIMS Bibinagar) has declared the official notification for 2026. To ... The All India Institute of Medical Sciences, Delhi (AIIMS Delhi) has officially released the notification to fill the va... District Health Society Coimbatore (DHS Coimbatore) has declared the official notification for 2025. To fill up the 32 v... All India Institute of Medical Sciences, Delhi (AIIMS Delhi) has announced the official notification for 2025. To fill u... G...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-04T23:43:29.520930",
+      "links": []
+    },
+    {
+      "id": "2a7aa9e0a17fc238afce7ef7eb24c2ae",
+      "title": "Aviation",
+      "url": "https://allgovernmentjobs.in/aeronautical-engineering-jobs",
+      "source": "allgovernmentjobs.in",
+      "description": "SJVN has invited online applications for Apprentice Jobs. There are 300 positions released in Himachal Pradesh Gove... CSIR-National Aerospace Laboratories (NAL) has introduced the latest job notification for the 74 Project Associate, Seni... DRDO-Advanced Centre for Energetic Material (ACEM) has issued a new job notification for the position of Apprentice... Pawan Hans Limited (PHL) has published the latest job notification for the 20 General Manager, Joint General Manage... Central Mechanic...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-04T23:43:29.520967",
+      "links": []
+    },
+    {
+      "id": "91f96aa87b17a2f9d92025c6155d4267",
+      "title": "Naval",
+      "url": "https://allgovernmentjobs.in/indian-navy-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Naval Dockyard has officially released the notification to fill the vacancies of 286 Apprenticeship Training Posts. .... The Indian Navy has issued the latest job notification for 2025. To fill up the vacancies for Tradesman Skilled App .... The Indian Navy has officially released the notification to fill the vacancies of 260 Executive Branch, Naval Air O .... The Indian Navy Recruitment has officially released the notiifcation to fill the vacancies of 15 SSC Executive Posts. In .... The ...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-04T23:43:29.520990",
+      "links": []
+    },
+    {
+      "id": "d7c0b557d3d17d5cc3a05ba010391419",
+      "title": "Hotel Management",
+      "url": "https://allgovernmentjobs.in/hotel-management-jobs",
+      "source": "allgovernmentjobs.in",
+      "description": "DU Jobs 2023 is now out on its official website. Candidates who are looking for the University of Delhi Jobs 2023 can ap... Institute of Hotel Management, Catering Technology & Applied Nutrition (IHMCTAN), Mumbai invites applicants to fill ... National Institute of Technical Teachers Training and Research (NITTTR) Chennai has announced the Latest Job Notificatio... Jharkhand Staff Selection Commission (JSSC) has announced the Latest Job Notification for the Post of Training Officer w... Natio...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-04T23:43:29.521011",
+      "links": []
+    },
+    {
+      "id": "cdf3a911adf444977ac2ed3413ace85c",
+      "title": "Sports Quota",
+      "url": "https://allgovernmentjobs.in/sports-quota-jobs",
+      "source": "allgovernmentjobs.in",
+      "description": "Railway Recruitment Cell - East Central Railway has officially declared the notification for the posts of Sportsperson i... Northern Railway has released the notification for the position of Sports Quota. There are 21 vacancies announced on its... North Western Railway If you're passionate about sports and looking for a job opportunity, North Western Railway may hav...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-04T23:43:29.521032",
+      "links": []
+    },
+    {
+      "id": "9652317edecb5d653907b3152758d8b1",
+      "title": "Architecture",
+      "url": "https://allgovernmentjobs.in/architectural-engineering-jobs",
+      "source": "allgovernmentjobs.in",
+      "description": "National Aluminium Company Limited (NALCO) has issued a new job notification for the positions of Executive Director, Gr... Bharat Earth Movers Limited (BEML) has introduced the latest job notification for the 26 Chief General Manager, Assistan... Rail India Technical and Economic Services Limited (RITES) has published the latest job notification for the 01 &nb... School of Planning and Architecture, Bhopal (SPA) has released the latest job notification for the 01 Junior Research Fe... The Na...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-04T23:43:29.521052",
+      "links": []
+    },
+    {
+      "id": "56ea27387e66431c8e7a34e7d791a0ac",
+      "title": "ITI / Diploma",
+      "url": "https://allgovernmentjobs.in/iti-jobs",
+      "source": "allgovernmentjobs.in",
+      "description": "DRDO Solid State Physics Laboratory (DRDO SSPL) has declared the latest job notification for 2026. To fill up the 33 vac... CSIR-National Metallurgical Laboratory (CSIR-NML) has announced the official notification for 2026. To fill up the vacan... The Garden Reach Shipbuilders & Engineers (GRSE) has officially released the notification to fill the vacancies of 2... The National Rice Research Institute (NRRI) has declared the official notification for 2026. To fill up the vacancies fo... Satlu...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-04T23:43:29.521073",
+      "links": []
+    },
+    {
+      "id": "3bac3da83cb5d4a1f4731fce8cf4521d",
+      "title": "Agriculture",
+      "url": "https://allgovernmentjobs.in/agricultural-engineering-jobs",
+      "source": "allgovernmentjobs.in",
+      "description": "The Assam Public Service Commission (Assam PSC) has released the official Notification for 2025. To fill up the Vacancie... Rajasthan Public Service Commission (RPSC) has introduced the latest job notification for the positions of Ass... Professor Jayashankar Telangana State Agricultural University (PJTSAU) has introduced the latest job notification f... Maharashtra Remote Sensing Application Centre (MRSAC) has released the latest job notification for the post of Resources... ICAR-Indian Inst...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-04T23:43:29.521096",
       "links": []
     }
   ]
