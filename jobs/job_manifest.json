@@ -1,149 +1,9 @@
 {
-  "last_updated": "2026-01-10T23:45:12.003840",
-  "total_jobs": 262,
-  "active_jobs": 262,
-  "expired_jobs": 13,
+  "last_updated": "2026-01-12T23:43:58.267117",
+  "total_jobs": 264,
+  "active_jobs": 264,
+  "expired_jobs": 10,
   "jobs": [
-    {
-      "id": "64bf2e417a544c436c64795abd0fd068",
-      "title": "Nilgiris District Recruitment 2025 - Apply Offline for Deputy Area Commander Posts",
-      "url": "https://allgovernmentjobs.in/nilgiris-district-recruitment-2025-apply-offline-for-deputy-area-commander-posts/37560",
-      "source": "allgovernmentjobs.in",
-      "description": "Nilgiris District has announced the official notification for 2025. To fill up the vacancies for Deputy Area Commander Jobs. Those candidates who have qualified in the 10th Pass can grab this chance and apply for the Nilgiris District Recruitment 2025 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply before the last date of application. If you are looking for...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "25-12-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-12-12T23:41:37.671171",
-      "links": []
-    },
-    {
-      "id": "57af0f149ee5e72eb8702d64905bf046",
-      "title": "IIT Kanpur Recruitment 2025 - Apply Offline for Senior Project Mechanic Post",
-      "url": "https://allgovernmentjobs.in/iit-kanpur-recruitment-2025-apply-offline-for-senior-project-mechanic-post/37558",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Technology Kanpur (IIT Kanpur) has declared the official notification for 2025. To fill up the vacancies for Senior Project Mechanic Jobs. Those candidates who have qualified in the ITI, Diploma in Electrical Engineering can grab this chance and apply for the IIT Kanpur Recruitment 2025 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply bef...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "17-12-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-12-12T23:41:37.671209",
-      "links": []
-    },
-    {
-      "id": "f022ed7a12c1b7af8b5d5ae071c60b4c",
-      "title": "ANGRAU Recruitment 2025 - Walk-in-Interview for Physical Director Post",
-      "url": "https://allgovernmentjobs.in/angrau-recruitment-2025-walk-in-interview-for-physical-director-post/37556",
-      "source": "allgovernmentjobs.in",
-      "description": "Acharya NG Ranga Agricultural University (ANGRAU) has declared the official notification for 2025. To fill up the vacancies for Physical Director Jobs. Those candidates who have qualified in Any Degree, post-graduation, can grab this chance and apply for the ANGRAU Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can attend the walk-in at the address g...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "19-12-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-12-12T23:41:37.671231",
-      "links": []
-    },
-    {
-      "id": "95136bb5a04cd699d0f6f5a5e904ad6c",
-      "title": "DHFWS Purba Recruitment 2025 - Apply Online for 04 Community Health Officer Posts",
-      "url": "https://allgovernmentjobs.in/dhfws-purba-recruitment-2025-apply-online-for-04-community-health-officer-posts/37555",
-      "source": "allgovernmentjobs.in",
-      "description": "District Health and Family Welfare Society (DHFWS) Purba Bardhaman has declared the official notification for 2025. To fill up the 04 vacancies for Community Health Officer Jobs. Those candidates who have qualified in the BAMS can grab this chance and apply for the DHFWS Purba Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply online before the...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "24-12-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-12-12T23:41:37.671254",
-      "links": []
-    },
-    {
-      "id": "ca043dafa8d6bdd0c56db47facc43204",
-      "title": "RGIPT Recruitment 2025 - Apply Online for Senior Public Relations Officer Posts",
-      "url": "https://allgovernmentjobs.in/rgipt-recruitment-2025-apply-online-for-senior-public-relations-officer-posts/37553",
-      "source": "allgovernmentjobs.in",
-      "description": "Rajiv Gandhi Institute of Petroleum Technology (RGIPT) has declared the official notification for 2025. To fill up the vacancies for Senior Public Relations Officer Jobs. Those candidates who have qualified in the Post-Graduation can grab this chance and apply for the RGIPT Recruitment 2025 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply online before the la...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "21-12-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-12-12T23:41:37.671274",
-      "links": []
-    },
-    {
-      "id": "4f07d719068908f7f104279519f2fb3e",
-      "title": "WAPCOS",
-      "url": "https://allgovernmentjobs.in/wapcos-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Water and Power Consultancy Services (WAPCOS) has officially released the notification to fill the vacancies of 02 G .... Water Resources, Power, and Infrastructure Sectors (WAPCOS) has declared the official notification for 2025. To fil .... Water and Power Consultancy Services Limited (WAPCOS) has officially released the notification to fill the vacancies of .... Water and Power Consultancy Services (WAPCOS) has announced the official notification for 2025. To fill up the vacancies .......",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-12-12T23:41:37.671298",
-      "links": []
-    },
-    {
-      "id": "ce56236b2adaa0e09f80f8b94deb2065",
-      "title": "BECIL",
-      "url": "https://allgovernmentjobs.in/becil-recruitment-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Broadcast Engineering Consultants India Limited (BECIL) has officially released the notification to fill the vacanci .... The Broadcast Engineering Consultants India Limited (BECIL)  has officially released the notification to fill the v .... Broadcast Engineering Consultants India (BECIL) has declared the official notification for 2025. To fill up the vacancie .... The Broadcast Engineering Consultants India Limited (BECIL) has officially released the notification to fill the vacanci ......",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Engineering",
-      "skills": [],
-      "scraped_at": "2025-12-12T23:41:37.671342",
-      "links": []
-    },
-    {
-      "id": "85dc4610ca29600549f30b3a4dcfcad1",
-      "title": "MECON Limited",
-      "url": "https://allgovernmentjobs.in/mecon-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Metallurgical and Engineering Consultants (MECON) has officially released the notification to fill the vacancie .... The MECON LIMITED (MECON) has officially released the notification to fill the vacancies of 44 Junior Engineer, Junior O .... Metallurgical and Engineering Consultants (MECON) has announced the official notification for 2025. To fill up the vacan .... The Metallurgical & Engineering Consultants Limited (MECON) has officially released the notification to fill the vac ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Engineering",
-      "skills": [],
-      "scraped_at": "2025-12-12T23:41:37.671381",
-      "links": []
-    },
-    {
-      "id": "ab2756c6c44c24042889b5a809a43046",
-      "title": "Goa PSC",
-      "url": "https://allgovernmentjobs.in/goa-psc-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Goa Public Service Commission (GPSC) has officially released the notification to fill the vacancies of 02 Assis .... Goa has declared the official notification for 2025. To fill up the vacancies for 12 Experts, Health Care Experts, .... The Goa Public Service Commission (Goa PSC) has officially released the notification to fill the vacancies of 08 Medical ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Medical",
-      "skills": [],
-      "scraped_at": "2025-12-12T23:41:37.671406",
-      "links": []
-    },
-    {
-      "id": "19f869230ab28e06576c0c966f74fdf0",
-      "title": "NHIDCL",
-      "url": "https://allgovernmentjobs.in/nhidcl-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Highways and Infrastructure Development Corporation Limited (NHIDCL) has officially released the notificati .... The National Highways & Infrastructure Development Corporation Limited (NHIDCL) has officially released the notifica .... The National Highways and Infrastructure Development Corporation (NHIDCL) has officially released the notification to fi ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-12-12T23:41:37.671451",
-      "links": []
-    },
     {
       "id": "ed79d1119c916fbcc01b564579504634",
       "title": "Intelligence Bureau Recruitment 2025 - Apply Online for 362 Multi Tasking Staff Posts",
@@ -3894,6 +3754,187 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-01-10T23:42:24.479745",
+      "links": []
+    },
+    {
+      "id": "16c8c00054bd34b78dc28368e981f016",
+      "title": "OMC Notification 2026 - Apply Offline for 02 Director Posts",
+      "url": "https://allgovernmentjobs.in/omc-notification-2026-apply-offline-for-02-director-posts/38391",
+      "source": "allgovernmentjobs.in",
+      "description": "The Odisha Mining Corporation Limited (OMC) has officially released the notification to fill the vacancies of 02 Director Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech, Diploma in Civil, Electrical, Mechanical Engineering, MBA, and Post-graduation can apply for the OMC Notification 2026. The interested applicants can apply in offline mode. Here we h...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "28-01-2026",
+        "found_date": "09-01-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-12T23:41:17.555015",
+      "links": []
+    },
+    {
+      "id": "51c920378989a54bebb18598f7ad46b3",
+      "title": "SBI Notification 2026 - Apply Online for 02 Assistant Vice President Posts",
+      "url": "https://allgovernmentjobs.in/sbi-notification-2026-apply-online-for-02-assistant-vice-president-posts/38389",
+      "source": "allgovernmentjobs.in",
+      "description": "The State Bank of India (SBI) has officially released the notification to fill the vacancies of 02 Assistant Vice President Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBA, PGDM can apply for the SBI Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, application fee, salary, and...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "02-02-2026",
+        "found_date": "12-01-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-12T23:41:17.555042",
+      "links": []
+    },
+    {
+      "id": "f48a7975c1a218f1b5ba671ea2a5e4e4",
+      "title": "IAF Notification 2026 - Apply Online for Agniveervayu Posts",
+      "url": "https://allgovernmentjobs.in/iaf-notification-2026-apply-online-for-agniveervayu-posts/38387",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Air Force (IAF) has officially released the notification to fill the vacancies of 01 Agniveervayu Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their 12th, Diploma can apply for the IAF Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, application fee, salary, and how to app...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "01-02-2026",
+        "found_date": "12-01-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-12T23:41:17.555063",
+      "links": []
+    },
+    {
+      "id": "6447bece9f43503ce4f6efbaf14220d3",
+      "title": "PGIMER Recruitment 2026 - Apply Offline for Clinical Research Coordinator Posts",
+      "url": "https://allgovernmentjobs.in/pgimer-recruitment-2026-apply-offline-for-clinical-research-coordinator-posts/38394",
+      "source": "allgovernmentjobs.in",
+      "description": "Postgraduate Institute of Medical Education and Research (PGIMER) has declared the latest job notification for 2026. To fill up the various vacancies for Clinical Research Coordinator Jobs. Those candidates who have qualified in the B.Sc can grab this chance and apply for the PGIMER Recruitment 2026 . Interested candidates can apply before the last date of application. Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "23-01-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-12T23:41:17.560829",
+      "links": []
+    },
+    {
+      "id": "3ad5be57f9432faef7ba3999dbcb1a3d",
+      "title": "NDDB Recruitment 2026 - Apply Online for Deputy Manager Posts",
+      "url": "https://allgovernmentjobs.in/nddb-recruitment-2026-apply-online-for-deputy-manager-posts/38392",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Dairy Development Board (NDDB) has announced the official notification for 2026. To fill up the vacancies for Deputy Manager Jobs. Those candidates who have qualified in the B.E/ B.Tech. in Mechanical Engineering can grab this chance and apply for the NDDB Recruitment 2026 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply before the last date of application. I...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "28-01-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-12T23:41:17.560853",
+      "links": []
+    },
+    {
+      "id": "475e888e5b3c09cc32cfaece13caa214",
+      "title": "CCRAS Recruitment 2026 - Walk-in-Interview for 03 Senor Research Fellow Posts",
+      "url": "https://allgovernmentjobs.in/ccras-recruitment-2026-walk-in-interview-for-03-senor-research-fellow-posts/38390",
+      "source": "allgovernmentjobs.in",
+      "description": "The Central Council for Research in Ayurvedic Sciences (CCRAS) has declared the official notification for 2026. To fill up the vacancies for 03 Senior Research Fellow Jobs. Those candidates who have qualified in the Any Degree, BAMS, can grab this chance and apply for the CCRAS Recruitment 2026 . Interested candidates can attend the walk-in at the addres below. Here, we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for these...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "15-01-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-12T23:41:17.560873",
+      "links": []
+    },
+    {
+      "id": "b6ea77d0b1ff203240f68e81aafa8b7a",
+      "title": "TMC Recruitment 2026 - Walk-in-Interview for Junior Engineer Posts",
+      "url": "https://allgovernmentjobs.in/tmc-recruitment-2026-walk-in-interview-for-junior-engineer-posts/38388",
+      "source": "allgovernmentjobs.in",
+      "description": "The Tata Memorial Centre (TMC) has declared the official notification for 2026. To fill up the vacancies for Junior Engineer Jobs. Those candidates who have completed their Any Degree, B.E/ B.Tech in Civil Engineering can grab this chance and apply for the TMC Recruitment 2026 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can attend the walk-in at the address given below. If you...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "16-01-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-12T23:41:17.560891",
+      "links": []
+    },
+    {
+      "id": "3236fe1308cb892726c99fa983e72348",
+      "title": "IIT Kanpur Recruitment 2026 - Apply Offline for Assistant Project Manager Posts",
+      "url": "https://allgovernmentjobs.in/iit-kanpur-recruitment-2026-apply-offline-for-assistant-project-manager-posts/38386",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology Kanpur (IIT Kanpur) has declared the official notification for 2026. To fill up the vacancies for Assistant Project Manager Jobs. Those candidates who have qualified in Any Degree, post-graduation, can grab this chance and apply for the IIT Kanpur Recruitment 2026 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for the posts. Interested candidates can apply before the last date of applica...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "20-01-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-12T23:41:17.560915",
+      "links": []
+    },
+    {
+      "id": "4dc11f0c911b332cf85394d603e8081c",
+      "title": "Indian Air Force",
+      "url": "https://allgovernmentjobs.in/indian-air-force-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Air Force (IAF) has officially released the notification to fill the vacancies of 01 Agniveervayu Posts. Inte .... The Indian Air Force (IAF) has officially released the notification to fill the vacancies of 144 Apprentice Posts. Inter .... The Indian Air Force (IAF) has officially released the notification to fill the vacancies of 340 Flying Officers and Gro ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-12T23:41:17.561007",
+      "links": []
+    },
+    {
+      "id": "43006eabc4c6e5b1ee7b258c97d92644",
+      "title": "IIT Guwahati",
+      "url": "https://allgovernmentjobs.in/iit-guwahati-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Institute of Technology Guwahati (IIT Guwahati) has officially released the notification to fill the vacancie .... Indian Institute of Technology (IIT Guwahati) has declared the official notification for 2025. To fill up the vacancies .... Indian Institute of Technology Guwahati (IIT Guwahati) has announced the official notification for 2026. To fill up the .... Indian Institute of Technology Guwahati (IIT Guwahati) has declared the official notification for 2025. To fill up .... T...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2026-01-12T23:41:17.561046",
+      "links": []
+    },
+    {
+      "id": "15d59312c990ffa7f5da44f84c69f040",
+      "title": "Zilla Parishad Jobs 2026 - Apply Online for 172 Medical Officer, Staff Nurse Posts",
+      "url": "https://allgovernmentjobs.in/zilla-parishad-jobs-2026-apply-online-for-172-medical-officer-staff-nurse-posts/38393",
+      "source": "allgovernmentjobs.in",
+      "description": "The Zilla Parishad Gadchiroli has officially released the notification to fill the vacancies of 172 Dentists, Medical Officers, Staff Nurses, Pharmacists, Lab Technicians, ENT Surgeons, Cardiologists, Nephrologists, Pediatricians, and Other Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS, MD/MS, MDS, BDS, B. Pharm, D. Pharm, GNM, B.Sc Nursing, MBA, 12th, DMLT, Any degree, ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "20-01-2026",
+        "found_date": "09-01-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-12T23:41:17.566814",
+      "links": []
+    },
+    {
+      "id": "a032d48e87385aa77f748ccf35df40c7",
+      "title": "IIT Guwahati Jobs 2026 - Apply Online for Assistant Professor Posts",
+      "url": "https://allgovernmentjobs.in/iit-guwahati-jobs-2026-apply-online-for-assistant-professor-posts/38385",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Institute of Technology Guwahati (IIT Guwahati) has officially released the notification to fill the vacancies of 01 Assistant Professor Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech in Electrical, Electronics, Mechanical, Civil Engineering, MBBS, and Ph.D. can apply for the IIT Guwahati Jobs 2026 . The interested applicants can apply in...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "31-01-2026",
+        "found_date": "12-01-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-12T23:41:17.566865",
       "links": []
     }
   ]
