@@ -1,125 +1,9 @@
 {
-  "last_updated": "2026-01-30T23:53:48.381163",
-  "total_jobs": 276,
-  "active_jobs": 276,
-  "expired_jobs": 12,
+  "last_updated": "2026-01-31T23:50:35.523141",
+  "total_jobs": 275,
+  "active_jobs": 275,
+  "expired_jobs": 15,
   "jobs": [
-    {
-      "id": "0bda832edf300add642a4e4c33467264",
-      "title": "SMIMER Recruitment 2025 - Walk-in-Interview for 03 Research Assistant and Other Posts",
-      "url": "https://allgovernmentjobs.in/smimer-recruitment-2025-walk-in-interview-for-03-research-assistant-and-other-posts/38015",
-      "source": "allgovernmentjobs.in",
-      "description": "Surat Municipal Institute of Medical Education & Research (SMIMER) has declared the official notification for 2025. To fill up the vacancies for 03 Research Assistant and Field Investigator Jobs. Those candidates who have qualified in the MBBS, BDS, BAMS, BHMS, M.Sc, B.Sc Nursing, B.Pharm, B.Sc, BPH, MSW can grab this chance and apply for the SMIMER Recruitment 2025 . Here we include the age limit, selection process, salarystructure, education details, application fee, and how to apply for th...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "09-01-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2025-12-31T23:42:54.127221",
-      "links": []
-    },
-    {
-      "id": "b86c66a477663bd4035ac004c03dda61",
-      "title": "University of Hyderabad Recruitment 2026 - Apply for 05 Guest Faculty Posts",
-      "url": "https://allgovernmentjobs.in/university-of-hyderabad-recruitment-2026-apply-for-05-guest-faculty-posts/38066",
-      "source": "allgovernmentjobs.in",
-      "description": "University of Hyderabad has declared the official notification for 2026. To fill up the vacancies for Guest Faculty Jobs. Those candidates who have qualified in the M.Sc., Ph.D can grab this chance and apply for the University of Hyderabad Recruitment 2026 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these Posts. Interested candidates can apply before the last date of application. If you are looking for more, he...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "02-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-12-31T23:42:54.127258",
-      "links": []
-    },
-    {
-      "id": "dd423ffd40912efc331cfc362b48718c",
-      "title": "NRRI Recruitment 2026 - Walk-in-Interview for Field Assistant Posts",
-      "url": "https://allgovernmentjobs.in/nrri-recruitment-2026-walk-in-interview-for-field-assistant-posts/38064",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Rice Research Institute (NRRI) has declared the official notification for 2026. To fill up the vacancies for Field Assistant Jobs. Those candidates who have qualified in the 10th Pass, ITI, and 12th can grab this chance and apply for the NRRI Recruitment 2026 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can attend the walk-in at the address given below. If you are ...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "12-01-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2025-12-31T23:42:54.127296",
-      "links": []
-    },
-    {
-      "id": "2c148e19395f74dfd3c2f21f8ff77e8d",
-      "title": "ICMR Recruitment 2026 - Apply Offline for Consultant Posts",
-      "url": "https://allgovernmentjobs.in/icmr-recruitment-2026-apply-offline-for-consultant-posts/38062",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Council of Medical Research (ICMR) has announced the latest job notification for 2026. To fill up the vacancies for Consultant Jobs. Those candidates who have qualified in the MBBS can grab this chance and apply for these posts. Here, we mentioned more information about the age limit, selection process, salary structure, education details, application fee, and how to apply for the ICMR Recruitment 2026 . Interested candidates can apply on or before the last date of application. If ...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "20-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-12-31T23:42:54.127312",
-      "links": []
-    },
-    {
-      "id": "6ad02791a4ad18b4ff235e6409063321",
-      "title": "NIT Warangal",
-      "url": "https://allgovernmentjobs.in/nit-warangal-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute of Technology (NIT Warangal) has announced the official notification for 2025. To fill up the vac .... The National Institute of Technology Warangal (NIT Warangal) has officially released the notification to fill the vacanc .... National Institute of Technology (NIT) Warangal has declared the official notification for 2025. To fill up the vacancie .... National Institute of Technology Warangal (NIT) has declared the official notification for 2025. To fill up the vacanci...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2025-12-31T23:42:54.127348",
-      "links": []
-    },
-    {
-      "id": "2430f01c922f9da2458b651759887a0e",
-      "title": "Surat Municipal Corporation",
-      "url": "https://allgovernmentjobs.in/surat-municipal-corporation-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Surat Municipal Institute of Medical Education & Research (SMIMER) has declared the official notification for 2025. .... The Surat Municipal Corporation has officially released the notification to fill the vacancies of 06 Technical Assistant ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2025-12-31T23:42:54.127373",
-      "links": []
-    },
-    {
-      "id": "89926a50c4b2eca4a09ba3d31e8c1fe7",
-      "title": "University of Hyderabad",
-      "url": "https://allgovernmentjobs.in/university-of-hyderabad-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "University of Hyderabad has declared the official notification for 2026. To fill up the vacancies for Guest Faculty .... University of Hyderabad has declared the official notification for 2025. To fill up the vacancies for 02 Guest Facu .... University of Hyderabad (UOHYD)  has declared the official notification for 2025. To fill up the vacancies for 02&n .... The University of Hyderabad (Hyderabad University) has officially released the notification to fill the vacancies of 05 .... The Unive...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Engineering",
-      "skills": [],
-      "scraped_at": "2025-12-31T23:42:54.127391",
-      "links": []
-    },
-    {
-      "id": "754099e2e3e530b794337aba3897ee57",
-      "title": "IIT Gandhinagar",
-      "url": "https://allgovernmentjobs.in/iit-gandhinagar-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Technology Gandhinagar (IIT Gandhinagar) has published the official notification for 2026. To fill u .... The Indian Institute of Technology Gandhinagar (IIT Gandhinagar) has officially released the notification to fill the va .... Indian Institute of Technology Gandhinagar (IIT Gandhinagar) has declared the official notification for 2025. To fill up .... Indian Institute of Technology Gandhinagar (IIT Gandhinagar) has declared the official notification for 2025. To fill u...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2025-12-31T23:42:54.127444",
-      "links": []
-    },
     {
       "id": "dbaa89a991d79c1ebdeea21d6f6f84f5",
       "title": "CSIR-NML Recruitment 2026 - Apply Online for 22 Multi Tasking Staff Posts",
@@ -1274,22 +1158,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-01-09T23:44:05.346632",
-      "links": []
-    },
-    {
-      "id": "d913ae52580683d7fc23448df916084a",
-      "title": "NIT Srinagar Jobs 2026 - Apply Online for Project Associate I Posts",
-      "url": "https://allgovernmentjobs.in/nit-srinagar-jobs-2026-apply-online-for-project-associate-i-posts/38330",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute of Technology Srinagar (NIT Srinagar) has officially released the notification to fill the vacancies of 01 Project Associate Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B.Tech in Civil Engineering, M.E./M. Tech, M.Sc can apply for the NIT Srinagar Jobs 2026. The interested applicants can apply in online mode. Here we have mentioned the education...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "30-01-2026",
-        "found_date": "09-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-09T23:44:05.352450",
       "links": []
     },
     {
@@ -2495,24 +2363,6 @@
       "links": []
     },
     {
-      "id": "9df8a8cf45a5c8271d75f1670a434054",
-      "title": "KVASU Notification 2026 - Walk-in interview for Pharmacist Posts",
-      "url": "https://allgovernmentjobs.in/kvasu-notification-2026-walk-in-interview-for-pharmacist-posts/38553",
-      "source": "allgovernmentjobs.in",
-      "description": "The Kerala Veterinary and Animal Sciences University (KVASU) has officially released the notification to fill the vacancies of 01 Pharmacist Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their D. Pharm can apply for the KVASU Notification 2026 . The interested applicants can attend the walk-in interview. Here we have mentioned the education details, age limit, selection process, a...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "30-01-2026",
-        "found_date": "19-01-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-01-20T23:46:52.667643",
-      "links": []
-    },
-    {
       "id": "133c343b46810970c9745de123711037",
       "title": "IIT Mandi",
       "url": "https://allgovernmentjobs.in/iit-mandi-recruitment",
@@ -2593,22 +2443,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-01-20T23:46:52.679255",
-      "links": []
-    },
-    {
-      "id": "abefcdeff5ada91c54bb04e09fa65a2f",
-      "title": "Beed District Jobs 2026 - Apply Online for 1178 Police Patil Posts",
-      "url": "https://allgovernmentjobs.in/beed-district-jobs-2026-apply-online-for-1178-police-patil-posts/38552",
-      "source": "allgovernmentjobs.in",
-      "description": "The Beed District has officially released the notification to fill the vacancies of 1178 Police Patil Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their 10th can apply for the Beed District Jobs 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, application fee, salary, and how to apply for these p...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "30-01-2026",
-        "found_date": "19-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-20T23:46:52.679298",
       "links": []
     },
     {
@@ -2695,22 +2529,6 @@
       "links": []
     },
     {
-      "id": "69d33bdae5bd5d55104eb6d8577f0a1a",
-      "title": "IIT Gandhinagar Jobs 2026 - Apply Online for 02 Project Assistant I Posts",
-      "url": "https://allgovernmentjobs.in/iit-gandhinagar-jobs-2026-apply-online-for-02-project-assistant-i-posts/38578",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Institute of Technology Gandhinagar (IIT Gandhinagar) has officially released the notification to fill the vacancies of 02 Project Assistant I Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech in Electrical, Electronics, and Mechanical Engineering can apply for the IIT Gandhinagar Jobs 2026. The interested applicants can apply in online mode. Here we have...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "30-01-2026",
-        "found_date": "21-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-21T23:49:49.997615",
-      "links": []
-    },
-    {
       "id": "897cd800c0072773c55a84f2ae10a0b1",
       "title": "AIIMS Jodhpur Jobs 2026 - Apply Online for 03 Nursing Officer, Technician, and DEO Posts",
       "url": "https://allgovernmentjobs.in/aiims-jodhpur-jobs-2026-apply-online-for-03-nursing-officer-technician-and-deo-posts/38573",
@@ -2758,22 +2576,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-01-22T23:45:22.464280",
-      "links": []
-    },
-    {
-      "id": "a5f985fc57ef267bdf142d1709bf9299",
-      "title": "UCIL Notification 2026 - Walk-in interview for 08 Medical Officer Posts",
-      "url": "https://allgovernmentjobs.in/ucil-notification-2026-walk-in-interview-for-08-medical-officer-posts/38599",
-      "source": "allgovernmentjobs.in",
-      "description": "The Uranium Corporation of India Limited (UCIL) has officially released the notification to fill the vacancies of 08 Medical Officer Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS and post-graduation can apply for the UCIL Notification 2026. The interested applicants can attend the walk-in interview. Here we have mentioned the education details, age limit, selection proc...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "30-01-2026",
-        "found_date": "17-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-22T23:45:22.464300",
       "links": []
     },
     {
@@ -3389,38 +3191,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-01-27T23:46:58.296458",
-      "links": []
-    },
-    {
-      "id": "3e78f38b9dede0dc6fd6555492ca38f4",
-      "title": "KGMU Notification 2026 - Walk-in interview for Project Technician/ Project Technical Support II Posts",
-      "url": "https://allgovernmentjobs.in/kgmu-notification-2026-walk-in-interview-for-project-technician-project-technical-support-ii-posts/38676",
-      "source": "allgovernmentjobs.in",
-      "description": "The King George's Medical University (KGMU) has officially released the notification to fill the vacancies of 01 Project Technician/ Project Technical Support II Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their 12th, DMLT, Diploma, or any degree can apply for the KGMU Notification 2026. The interested applicants can attend the walk-in interview. Here we have mentioned the educat...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "30-01-2026",
-        "found_date": "21-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-27T23:46:58.296491",
-      "links": []
-    },
-    {
-      "id": "90bf11fdc1284f81de70badf920c5293",
-      "title": "ESIC Notification 2026 - Walk-in interview for 45 Senior Resident and Specialist Posts",
-      "url": "https://allgovernmentjobs.in/esic-notification-2026-walk-in-interview-for-45-senior-resident-and-specialist-posts/38670",
-      "source": "allgovernmentjobs.in",
-      "description": "The Employees' State Insurance Corporation (ESIC) has officially released the notification to fill the vacancies of 45 Senior Resident and Specialist Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS, Post-graduation, or Diploma can apply for the ESIC Notification 2026. The interested applicants can attend the walk-in interview. Here we have mentioned the education details, ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "30-01-2026",
-        "found_date": "27-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-27T23:46:58.296514",
       "links": []
     },
     {
@@ -4085,6 +3855,207 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-01-30T23:51:11.541880",
+      "links": []
+    },
+    {
+      "id": "4ef59836aa9e887e5eba0181ddf82af2",
+      "title": "CUSAT Notification 2026 - Apply Online for 03 Technical Assistant Grade III Posts",
+      "url": "https://allgovernmentjobs.in/cusat-notification-2026-apply-online-for-03-technical-assistant-grade-iii-posts/38827",
+      "source": "allgovernmentjobs.in",
+      "description": "Cochin University of Science and Technology (CUSAT) has announced the official notification for 2026. Allotted 03 vacancies for Technical Assistant Grade III Jobs. Those candidates who have qualified in the Post-Graduation, M.Sc can grab this chance and apply for the CUSAT Notification 2026 . Here, we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply online before the last date of...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "13-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-31T23:47:48.211862",
+      "links": []
+    },
+    {
+      "id": "d165a9bc556d2eb9e3255ca08e1aa1fa",
+      "title": "OFBH Notification 2026 - Apply Offline for Safety Officer Posts",
+      "url": "https://allgovernmentjobs.in/ofbh-notification-2026-apply-offline-for-safety-officer-posts/38821",
+      "source": "allgovernmentjobs.in",
+      "description": "The Ordnance Factory Bhusawal (OFBH) has officially released the notification to fill the vacancies of 01 Safety Officer Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree or Diploma can apply for the OFBH Notification 2026. The interested applicants can apply in offline mode. Here we have mentioned the education details, age limit, selection process, application fee, ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "20-02-2026",
+        "found_date": "31-01-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-31T23:47:48.211888",
+      "links": []
+    },
+    {
+      "id": "0966d8000e7e879eea45fd63597af816",
+      "title": "ACTREC Recruitment 2026 - Walk-in-Interview for Lab Assistant Posts",
+      "url": "https://allgovernmentjobs.in/actrec-recruitment-2026-walk-in-interview-for-lab-assistant-posts/38829",
+      "source": "allgovernmentjobs.in",
+      "description": "The Advanced Centre for Treatment Research and Education in Cancer (ACTREC) has published the official notification for 2026. To fill up the various vacancies for Lab Assistant Jobs. Those candidates who have qualified in the 10th Pass can grab this chance and apply for the ACTREC Recruitment 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can attend the walk-in at the addr...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "09-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-31T23:47:48.217646",
+      "links": []
+    },
+    {
+      "id": "f0a8cbbbc4bbdb2430fe6c568d925bec",
+      "title": "DRDO CABS Recruitment 2026 - Apply Offline for 10 Junior Research Fellow Posts",
+      "url": "https://allgovernmentjobs.in/drdo-cabs-recruitment-2026-apply-offline-for-10-junior-research-fellow-posts/38826",
+      "source": "allgovernmentjobs.in",
+      "description": "The Centre for Airborne Systems Defence Research and Development Organisation (DRDO CABS) has declared the latest notification for 2026. To fill up the 10 vacancies for Junior Research Fellow Jobs. Those candidates who have qualified in the B.E/ B.Tech, M.E/ M.Tech in Mechanical Engineering can usethis chance and apply for these posts. Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for the DRDO CABS Recruitment 2026 ....",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "22-10-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-31T23:47:48.217683",
+      "links": []
+    },
+    {
+      "id": "376a457358a8b2255e8378ef7e63100b",
+      "title": "JIPMER Recruitment 2026 - Walk-in-Interview for Project Associate I Posts",
+      "url": "https://allgovernmentjobs.in/jipmer-recruitment-2026-walk-in-interview-for-project-associate-i-posts/38824",
+      "source": "allgovernmentjobs.in",
+      "description": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has declared the official notification for 2026. To fill up the various vacancies for Project Associate I Jobs. Those candidates who have completed their Any Degree, B.Pharm, B.Sc Nursing can grab this chance and apply for the JIPMER Recruitment 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. If you are looking for more...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "10-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-31T23:47:48.217704",
+      "links": []
+    },
+    {
+      "id": "d07477d9286a07806c59dc99978ab30b",
+      "title": "AIIMS Kalyani Recruitment 2026 - Apply Online for 133 Senior Resident Posts",
+      "url": "https://allgovernmentjobs.in/aiims-kalyani-recruitment-2026-apply-online-for-133-senior-resident-posts/38822",
+      "source": "allgovernmentjobs.in",
+      "description": "All India Institute of Medical Sciences (AIIMS Kalyani ) has declared the official notification for 2026. To fill up the vacancies for 133 Senior Resident Jobs. Those candidates who have qualified in the MBBS, MD/ MS, and DNB can grab this chance and apply for the AIIMS Kalyani Recruitment 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply on or before the last date ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "17-02-2026",
+        "found_date": "30-01-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-31T23:47:48.217728",
+      "links": []
+    },
+    {
+      "id": "86fd845244cc5346da799b9d97892c05",
+      "title": "PGIMER Recruitment 2026 - Walk-in-Interview for 02 Senior Resident Posts",
+      "url": "https://allgovernmentjobs.in/pgimer-recruitment-2026-walk-in-interview-for-02-senior-resident-posts/38820",
+      "source": "allgovernmentjobs.in",
+      "description": "Postgraduate Institute of Medical Education and Research (PGIMER) has declared the official notification for 2026. To fill up the 02 vacancies for Senior Resident Jobs. Those candidates who have qualified in the MD/ MS can grab this chance and apply for the PGIMER Recruitment 2026 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can attend the walk-in at the address below. If you a...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "09-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-31T23:47:48.217746",
+      "links": []
+    },
+    {
+      "id": "2f3a9e103a2c6c8b8d9eeabca9db8828",
+      "title": "CUSAT",
+      "url": "https://allgovernmentjobs.in/cusat-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Cochin University of Science and Technology (CUSAT) has announced the official notification for 2026. Allotted 03 vacanc .... The Cochin University of Science and Technology (CUSAT) has officially released the notification to fill the vacancies o .... Cochin University of Science and Technology (CUSAT) has declared he official notification for 2026. To fill up the vacan .... Cochin University of Science and Technology (CUSAT) has declared the official notification for 2025. To fill up the vac...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2026-01-31T23:47:48.217793",
+      "links": []
+    },
+    {
+      "id": "818522cb4bc2c252d5b6a9f389355e7c",
+      "title": "Mumbai Port Trust",
+      "url": "https://allgovernmentjobs.in/mumbai-port-trust-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Mumbai Port Trust has officially released the notification to fill the vacancies of 01 Chief Asset Monetisation Offi .... Mumbai Port Trust has declared he official notification for 2026. To fill up the 24 vacancies for Junior Associate .... Mumbai Port Authority has declared the official notification for 2025. To fill up the vacancies for 04 Chief Mechan .... Mumbai Port Authority has declared the official notification for 2025. To fill up the vacancies for Junior Director .... Mumbai Po...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-31T23:47:48.217817",
+      "links": []
+    },
+    {
+      "id": "fb9f1d796e91366f4fb21016a3ff430b",
+      "title": "JIPMER",
+      "url": "https://allgovernmentjobs.in/jipmer-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has declared the official notification for .... Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has declared the official notification for .... The Jawaharlal Institute of Postgraduate Medical Education & Research (JIPMER) has officially released the notificat .... Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has declared the official notification for .... ...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-31T23:47:48.217837",
+      "links": []
+    },
+    {
+      "id": "5ea0e2fa55894c438afb37484949aa68",
+      "title": "Paradip Port Trust",
+      "url": "https://allgovernmentjobs.in/paradip-port-trust-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Paradip Port Authority has officially released the notification to fill the vacancies of 02 Deputy Chief Medica .... The Paradip Port Authority (PPT) has officially released the notification to fill the vacancies of 02 Marine Engineers a ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-31T23:47:48.217858",
+      "links": []
+    },
+    {
+      "id": "84099683de7bb3102bfb6cb759235bc7",
+      "title": "Oil India Limited",
+      "url": "https://allgovernmentjobs.in/oil-india-limited-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Oil India Limited (Oil India) has officially released the notification to fill the vacancies of 02 Electrician and .... The North East Gas Distribution Company Limited (NEGDCL) has officially released the notification to fill the vacancies .... Oil India Limited (Oil India) has officially released the notification to fill the vacancies of 02 Doctor Posts. Interes .... Oil India Limited (Oil India) has officially released the notification to fill the vacancies of 09 Chemist, Geologist Po .... ...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-31T23:47:48.217922",
+      "links": []
+    },
+    {
+      "id": "6fb71261557e721cf6923a207ec53d89",
+      "title": "DMRCL",
+      "url": "https://allgovernmentjobs.in/dmrc-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Delhi Metro Rail Corporation (DMRC) has officially released the notification to fill the vacancies of 07 Joint .... The Delhi Metro Rail Corporation (DMRC) has officially released the notification to fill the vacancies of 01 Manager Pos .... The Delhi Metro Rail Corporation (DMRC) has officially released the notification to fill the vacancies of 01 Chief Engin .... The Delhi Metro Rail Corporation Limited (DMRC) has officially released the notification to fill the vacancies of 01 Sec .......",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-31T23:47:48.217944",
+      "links": []
+    },
+    {
+      "id": "a8addaef456105e3174b2bdda988e7a6",
+      "title": "DHFWS Dakshin Dinajpur Jobs 2026 - Apply Online for 11 Medical Officer, Specialist and Other Posts",
+      "url": "https://allgovernmentjobs.in/dhfws-dakshin-dinajpur-jobs-2026-apply-online-for-11-medical-officer-specialist-and-other-posts/38828",
+      "source": "allgovernmentjobs.in",
+      "description": "The District Health & Family Welfare Samiti, Dakshin Dinajpur (DHFWS Dakshin Dinajpur) has officially released the notification to fill the vacancies of 11 Medical Officers, Specialists, Obstetricians & Gynecologists, Pediatrician Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Diploma, MBBS, MD/MS, DNB, and Post-graduation can apply for the DHFWS Dakshin Dinajpur Jobs 2026. T...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "12-02-2026",
+        "found_date": "27-01-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-01-31T23:47:48.223651",
       "links": []
     }
   ]
