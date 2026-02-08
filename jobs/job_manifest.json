@@ -1,164 +1,9 @@
 {
-  "last_updated": "2026-02-06T23:55:15.574368",
-  "total_jobs": 284,
-  "active_jobs": 284,
-  "expired_jobs": 11,
+  "last_updated": "2026-02-08T00:02:17.174931",
+  "total_jobs": 282,
+  "active_jobs": 282,
+  "expired_jobs": 16,
   "jobs": [
-    {
-      "id": "123b0ee0900110288db3cb95a0018ad2",
-      "title": "VOC Port Trust Recruitment 2026 - Apply Offline for 02 Pilot Posts",
-      "url": "https://allgovernmentjobs.in/voc-port-trust-recruitment-2026-apply-offline-for-02-pilot-posts/38248",
-      "source": "allgovernmentjobs.in",
-      "description": "V. O. Chidambaranar Port Trust (VOC Port Trust) has declared the official notification for 2026. To fill up the vacancies for 02 Pilot Jobs. Those candidates who have qualified in the Intermediate (10+2) can grab this chance and apply for these posts. Here, we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for the VOC Port Trust Recruitment 2026 . Interested candidates can apply on or before the last date of application. If y...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "04-02-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-01-07T23:44:01.244118",
-      "links": []
-    },
-    {
-      "id": "4338c4964cbee5db3ec913aaeb1602a7",
-      "title": "GMCH Chandigarh Recruitment 2026 - Apply Offline for Lab Technician Posts",
-      "url": "https://allgovernmentjobs.in/gmch-chandigarh-recruitment-2026-apply-offline-for-lab-technician-posts/38245",
-      "source": "allgovernmentjobs.in",
-      "description": "Government Medical College and Hospital (GMCH Chandigarh) has declared the official notification for 2026. To fill up the vacancies for Lab Technician Jobs. Those candidates who have qualified in the B.Sc DMLT can grab this chance and apply for the GMCH Chandigarh Recruitment 2026 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply before the last date of application. If you...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "15-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-07T23:44:01.244143",
-      "links": []
-    },
-    {
-      "id": "612c0453bb9ab5520c8a814bf46932af",
-      "title": "KMC Recruitment 2026 - Walk-in-Interview for 03 Medical Officer Posts",
-      "url": "https://allgovernmentjobs.in/kmc-recruitment-2026-walk-in-interview-for-03-medical-officer-posts/38244",
-      "source": "allgovernmentjobs.in",
-      "description": "Kolkata Municipal Corporation (KMC) has declared the official notification for 2026. To fill up the vacancies for 03 Medical Officer Jobs. Those candidates who have qualified in the MBBS can grab this chance and apply for the KMC Recruitment 2026 . Here, we include the age limit, selection process, and salary structure, education details, application fee, and how to apply for these posts. Interested candidates can attend the walk-in at the address given below. If you are looking for more, her...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "20-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-07T23:44:01.244163",
-      "links": []
-    },
-    {
-      "id": "9adb6466ae0429d2e2e4448437db5ca3",
-      "title": "ESIC Karnataka Recruitment 2026 - Walk-in-Interview for 47 Senior Resident Posts",
-      "url": "https://allgovernmentjobs.in/esic-karnataka-recruitment-2026-walk-in-interview-for-47-senior-resident-posts/38241",
-      "source": "allgovernmentjobs.in",
-      "description": "Employees' State Insurance Corporation (ESIC Karnataka) has declared the official notification for 2026. To fill up the vacancies for 47 Senior Resident Jobs. Those candidates who have qualified in the MD/ MS, DNB, and Post-Graduation can grab this chance and apply for these posts. Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for the ESIC Karnataka Recruitment 2026 . Interested candidates can attend the walk-in at th...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "16-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-07T23:44:01.244186",
-      "links": []
-    },
-    {
-      "id": "a99515f0e821c49e377a613ef8bf7eac",
-      "title": "SPMCIL",
-      "url": "https://allgovernmentjobs.in/spmcil-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Currency Note Press Nashik (CNP Nashik) has officially released the notification to fill the vacancies of 04 Medical ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Medical",
-      "skills": [],
-      "scraped_at": "2026-01-07T23:44:01.244210",
-      "links": []
-    },
-    {
-      "id": "f70efb9926a399a9e1a5d671909045d7",
-      "title": "SPICES Board",
-      "url": "https://allgovernmentjobs.in/spices-board-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Spices Board of India has declared the official notification for 2026. To fill up the vacancies for Research Associ .... Spices Board of India has declared the official notification for 2025. To fill up the vacancies for Trainee Analyst .... The Spices Board of India (Spices Board) has officially released the notification to fill the vacancies of 01 Technical ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Engineering",
-      "skills": [
-        "Analyst"
-      ],
-      "scraped_at": "2026-01-07T23:44:01.244253",
-      "links": []
-    },
-    {
-      "id": "7136eb261b4d968896d14c0ada10566a",
-      "title": "CFTRI",
-      "url": "https://allgovernmentjobs.in/cftri-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Central Food Technological Research Institute (CFTRI) has declared the official notification for 2025. To fill up the va .... The Central Food Technological Research Institute (CFTRI) has officially released the notification to fill the vacancies .... The Central Food Technological Research Institute (CFTRI) has officially released the notification to fill the vacancies .... The Central Food Technological Research Institute (CFTRI) has officially released the notification to fill the vacancie...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2026-01-07T23:44:01.244336",
-      "links": []
-    },
-    {
-      "id": "520a49826652eef6fc3428e4842f7f8c",
-      "title": "NIREH",
-      "url": "https://allgovernmentjobs.in/nireh-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute for Research in Environmental Health (NIREH) has officially released the notification to fill the ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Medical",
-      "skills": [],
-      "scraped_at": "2026-01-07T23:44:01.244354",
-      "links": []
-    },
-    {
-      "id": "b82edb7236046fd5559748c114b6a5dc",
-      "title": "IISER",
-      "url": "https://allgovernmentjobs.in/iiser-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Institute of Science Education and Research Thiruvananthapuram (IISER Thiruvananthapuram) has officially rele .... Indian Institute of Science Education and Research Pune (IISER Pune) has declared the official notification for 2026. To .... Indian Institute of Science Education and Research Thiruvananthapuram (IISER Thiruvananthapuram) has announced the .... Indian Institute of Science Education and Research Tirupati (IISER Tirupati) has declared the official notification for .... ...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Teaching",
-      "skills": [],
-      "scraped_at": "2026-01-07T23:44:01.244390",
-      "links": []
-    },
-    {
-      "id": "8af84785671c1ad89415c97206bb7c08",
-      "title": "UP Postal Circle",
-      "url": "https://allgovernmentjobs.in/up-postal-circle-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "UP Postal Circle",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-07T23:44:01.244445",
-      "links": []
-    },
-    {
-      "id": "662f99dfdd7dd9247af98c7f4482683a",
-      "title": "NICPR",
-      "url": "https://allgovernmentjobs.in/nicpr-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute of Cancer Prevention and Research (NICPR) has issued a new job notification for the 01 Consultant .... The National Institute of Cancer Prevention and Research (NICPR) has issued a new job notification for the 01 Project Te .... The National Institute of Cancer Prevention and Research (NICPR) has issued a new job notification for the 02 Project Re .... The National Institute of Cancer Prevention and Research (NICPR) has issued a new job notification for the 01 Project T...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-07T23:44:01.244465",
-      "links": []
-    },
     {
       "id": "8fb97f019a93fdd56989e08339d8ad46",
       "title": "HPSC Notification 2026 - Apply Online for 50 Assistant Engineer Posts",
@@ -1782,22 +1627,6 @@
       "links": []
     },
     {
-      "id": "1715406b6219819bbacb71184c9fbc45",
-      "title": "CSL Notification 2026 - Apply Online for 260 Fabrication & Outfit Assistant Posts",
-      "url": "https://allgovernmentjobs.in/csl-notification-2026-apply-online-for-260-fabrication-outfit-assistant-posts/38594",
-      "source": "allgovernmentjobs.in",
-      "description": "The Cochin Shipyard Limited (CSL) has officially released the notification to fill the vacancies of 260 Fabrication & Outfit Assistant Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their 10th and ITI can apply for the CSL Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit selection process, application fee,...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "07-02-2026",
-        "found_date": "21-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-22T23:45:22.464352",
-      "links": []
-    },
-    {
       "id": "a693b3fc15cdb09df60bc676e035ebe0",
       "title": "HPPSC",
       "url": "https://allgovernmentjobs.in/hppsc-recruitment",
@@ -2758,22 +2587,6 @@
       "links": []
     },
     {
-      "id": "7c50e7eaff05ba2b83e24702505ac98f",
-      "title": "TCIL Notification 2026 - Apply Online for Malware Researcher Posts",
-      "url": "https://allgovernmentjobs.in/tcil-notification-2026-apply-online-for-malware-researcher-posts/38804",
-      "source": "allgovernmentjobs.in",
-      "description": "The Telecommunications Consultants India Limited (TCIL) has officially released the notification to fill the vacancies of 01 Malware Researcher Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech in Electrical, Computer Science Engineering, and MCA can apply for the TCIL Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "06-02-2026",
-        "found_date": "29-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-30T23:51:11.535760",
-      "links": []
-    },
-    {
       "id": "d2707229bccf8c9af373462ab3323077",
       "title": "DPSRU Notification 2026 - Walk-in interview for 12 Teaching Staff Posts",
       "url": "https://allgovernmentjobs.in/dpsru-notification-2026-walk-in-interview-for-12-teaching-staff-posts/38800",
@@ -3114,22 +2927,6 @@
       "links": []
     },
     {
-      "id": "bc0b1c13056516c54ab27e91956f6a9e",
-      "title": "BFUHS Notification 2026 - Walk-in interview for Project Nurse III Posts",
-      "url": "https://allgovernmentjobs.in/bfuhs-notification-2026-walk-in-interview-for-project-nurse-iii-posts/38849",
-      "source": "allgovernmentjobs.in",
-      "description": "The Baba Farid University of Health Science (BFUHS) has officially released the notification to fill the vacancies of 01 Project Nurse III Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.Sc Nursing can apply for the BFUHS Notification 2026. The interested applicants can attend the walk-in interview. Here we have mentioned the education details, age limit, selection process, ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "06-02-2026",
-        "found_date": "30-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-02-02T23:54:47.797633",
-      "links": []
-    },
-    {
       "id": "d767bc7536b7a1bdf7d0d5a833711893",
       "title": "ERNET Notification 2026 - Apply Offline for Project Engineer Posts",
       "url": "https://allgovernmentjobs.in/ernet-notification-2026-apply-offline-for-project-engineer-posts/38847",
@@ -3191,22 +2988,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-02-02T23:54:47.797729",
-      "links": []
-    },
-    {
-      "id": "b85a210bad284bead4f2bce3de104794",
-      "title": "SRHCH Notification 2026 - Walk-in interview for 07 Junior Resident Posts",
-      "url": "https://allgovernmentjobs.in/srhch-notification-2026-walk-in-interview-for-07-junior-resident-posts/38842",
-      "source": "allgovernmentjobs.in",
-      "description": "The Satyawadi Raja Harish Chandra Hospital (SRHCH) has officially released the notification to fill the vacancies of 07 Junior Resident Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS can apply for the SRHCH Notification 2026. The interested applicants can attend the walk-in interview. Here we have mentioned the education details, age limit, selection process, application...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "06-02-2026",
-        "found_date": "30-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-02-02T23:54:47.797748",
       "links": []
     },
     {
@@ -3582,22 +3363,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-02-04T23:53:31.129663",
-      "links": []
-    },
-    {
-      "id": "a39b5aaa16820aeb183b68db3358a932",
-      "title": "BFUHS Notification 2026 - Apply Offline for Junior Pharmacovigilance Associate Posts",
-      "url": "https://allgovernmentjobs.in/bfuhs-notification-2026-apply-offline-for-junior-pharmacovigilance-associate-posts/38906",
-      "source": "allgovernmentjobs.in",
-      "description": "The Baba Farid University of Health Science (BFUHS) has officially released the notification to fill the vacancies of 01 Junior Pharmacovigilance Associate Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS, BDS, and Pharm D can apply for the BFUHS Notification 2026. The interested applicants can apply in offline mode. Here we have mentioned the education details, age limit,...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "06-02-2026",
-        "found_date": "31-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-02-04T23:53:31.129685",
       "links": []
     },
     {
@@ -4151,6 +3916,219 @@
       "category": "Medical",
       "skills": [],
       "scraped_at": "2026-02-06T23:53:01.771593",
+      "links": []
+    },
+    {
+      "id": "e0aa75d44cea1d85045bffea8878534f",
+      "title": "Sainik School Chhingchhip Mizoram Notification 2026 - Apply Offline for Lower Division Clerk Posts",
+      "url": "https://allgovernmentjobs.in/sainik-school-chhingchhip-mizoram-notification-2026-apply-offline-for-lowe-division-clerk-posts/38993",
+      "source": "allgovernmentjobs.in",
+      "description": "The Sainik School Chhingchhip, Mizoram, has released the official notification for 2026. To fill up the vacacies for Lower Division Clerk Jobs. Those candidates who have qualified in the 10th Pass can use this chance and apply for the Sainik School Chhingchhip, Mizoram Notification 2026. Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply before the last date of...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "27-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-07T23:59:13.372136",
+      "links": []
+    },
+    {
+      "id": "5d2b5d029cbb10085314184a489a671a",
+      "title": "DSCI Notification 2026 - Walk-in-Interview for 15Junior Resident Posts",
+      "url": "https://allgovernmentjobs.in/dsci-notification-2026-walk-n-interview-for-15junior-resident-posts/38970",
+      "source": "allgovernmentjobs.in",
+      "description": "Delhi State Cancer Institute (DSC) has declared the latest job notification for 2026. To fill up the 15 vacancies for Junior Resident Jobs. Those candidates who have qualified in the MBBS can grab this chance and apply for the DSCI Notification 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested aspirants can attend the walk-in at the address below. If you are looking for more, here is a ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "13-02-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-02-07T23:59:13.372168",
+      "links": []
+    },
+    {
+      "id": "c72b3196f5892d8f2a739d344b3bf12f",
+      "title": "ASTEC Notification 2026 - Walk-in interview for Programme Officer Posts",
+      "url": "https://allgovernmentjobs.in/astec-notification-2026-walk-in-interview-for-programme-officer-posts/39008",
+      "source": "allgovernmentjobs.in",
+      "description": "The Assam Science and Technology and Environment Council (ASTEC) has officially released the notification to fill the vacancies of 01 Programme Officer Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Diploma or Post-graduation can apply for the ASTEC Notification 2026. The interested applicants can attend the walk-in interview. Here we have mentioned the education details, age...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "20-02-2026",
+        "found_date": "05-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-07T23:59:13.372191",
+      "links": []
+    },
+    {
+      "id": "ce0cb74faceaad0d98860c8d5a9481a9",
+      "title": "MRVC Notification 2026 - Apply Offline for Deputy General Manager Posts",
+      "url": "https://allgovernmentjobs.in/mrvc-notification-2026-apply-offline-for-deputy-general-manager-posts/39006",
+      "source": "allgovernmentjobs.in",
+      "description": "The Mumbai Railway Vikas Corporation (MRVC) has officially released the notification to fill the vacancies of 01 Deputy General Manager Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech in Civil Engineering can apply for the MRVC Notification 2026. The interested applicants can apply in offline mode. Here we have mentioned the education details, age limit, selection...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "05-03-2026",
+        "found_date": "06-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-07T23:59:13.372210",
+      "links": []
+    },
+    {
+      "id": "e3c465e9a9847c241395008723a303e2",
+      "title": "BSAMCH Notification 2026 - Apply Online for 20 Junior Resident Posts",
+      "url": "https://allgovernmentjobs.in/bsamch-notification-2026-apply-online-for-20-junior-resident-posts/39004",
+      "source": "allgovernmentjobs.in",
+      "description": "Dr Baba Saheb Ambedkar Hospital and Medical College (BSAMCH) has officially released the notification to fill the vacancies of 20 Junior Resident Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS can apply for the BSAMCH Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, applicat...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "13-02-2026",
+        "found_date": "01-02-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-02-07T23:59:13.372228",
+      "links": []
+    },
+    {
+      "id": "1c4bf6d1cf433d22346046b1d6f75c11",
+      "title": "NPCIL Notification 2026 - Apply Online for 30 Executive Trainee Posts",
+      "url": "https://allgovernmentjobs.in/npcil-notification-2026-apply-online-for-30-executive-trainee-posts/39002",
+      "source": "allgovernmentjobs.in",
+      "description": "The Nuclear Power Corporation of India Limited (NPCIL) has officially released the notification to fill the vacancies of 30 Executive Trainee posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech can apply for the NPCIL Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, appli...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "04-03-2026",
+        "found_date": "11-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-07T23:59:13.372250",
+      "links": []
+    },
+    {
+      "id": "806cb22e22dcd9bc2aa38a03ff077f0e",
+      "title": "Ambedkar University Recruitment 2026 - Apply Offline for Research Assistant Posts",
+      "url": "https://allgovernmentjobs.in/ambedkar-recruitment-2026-apply-offline-for-research-assistant-posts/38997",
+      "source": "allgovernmentjobs.in",
+      "description": "Ambedkar University University Delhi has declared the official notification for 2026. To fill up the various vacancies for Research Assistant Jobs. Those candidates who have qualified in the Post Graduation, M.Sc can grab this chance and apply for the Ambedkar University Recruitment 2026 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply before the last date. If you are loo...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "20-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-07T23:59:13.377957",
+      "links": []
+    },
+    {
+      "id": "97c0a44f4d37aaaaf2db61770fb2332d",
+      "title": "AERA Recruitment 2026 - Apply Offline for 03 Data Analyst Posts",
+      "url": "https://allgovernmentjobs.in/aera-recruitment-2026-apply-offline-for-03-data-analyst-posts/39007",
+      "source": "allgovernmentjobs.in",
+      "description": "The Airports Economic Regulatory Authority of India (AERA) has declared the official notification for 2026. To fill up the vacancies for 03 Data Analyst Jobs. Those candidates who have qualified in Any Degree can grab this chance and apply for the AERA Recruitment 2026 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply before the last date of application. If you are lookin...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "18-02-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Analyst",
+        "Data Entry"
+      ],
+      "scraped_at": "2026-02-07T23:59:13.377982",
+      "links": []
+    },
+    {
+      "id": "1db9398369d599c417dcecd736a78736",
+      "title": "NHAI Recruitment 2026 - Apply Online for 06 Chief General Manager Posts",
+      "url": "https://allgovernmentjobs.in/nhai-recruitment-2026-apply-online-for-06-chief-general-manager-posts/39005",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Highways Authority of India (NHAI) has declared the official notification for 2026. To fill up the vacancies for 06 Chief General Manager Jobs. Those candidates who have qualified in the B.E/ B.Tech in Civil Engineering can grab this chance and apply for the NHAI Recruitment 2026 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply online before the last date. If...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "06-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-07T23:59:13.378001",
+      "links": []
+    },
+    {
+      "id": "a79a7baf2a2e8ab579413430e919a3f6",
+      "title": "NEIST Recruitment 2026 - Walk-in-Interview for Project Associate I Posts",
+      "url": "https://allgovernmentjobs.in/neist-recruitment-2026-walk-in-interview-for-project-associate-i-posts/39003",
+      "source": "allgovernmentjobs.in",
+      "description": "North East Institute of Science and Technology (NEIST) has declared the latest jobs notifiction for various Project Associate I Jobs. Those candidates who have qualified in the M.E/ M.Tech, M.Sc can grab this chance and apply for the NEIST Recruitment 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can attend the walk-in at the address below. If you are looking for more, he...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "12-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-07T23:59:13.378021",
+      "links": []
+    },
+    {
+      "id": "01d9cf5f866e9cd395bd5547f92360f6",
+      "title": "Sainik School",
+      "url": "https://allgovernmentjobs.in/sainik-school-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Sainik School Chhingchhip, Mizoram, has released the official notification for 2026. To fill up the vacacies for&nbs .... Sainik School Kodagu has published the official notification for 2025. To fill up the vacancies for 04 Art Master a .... Sainik School has announced the official notification for 2025. To fill up the vacancies for 03 Librarian, Band Mas .... The Sainik School has announced the official notification for 2025. To fill up the vacancies for 02 General Employe ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Teaching",
+      "skills": [],
+      "scraped_at": "2026-02-07T23:59:13.378043",
+      "links": []
+    },
+    {
+      "id": "3a6717948d9527bdb6cc7ec9d498e532",
+      "title": "Ambedkar University Delhi",
+      "url": "https://allgovernmentjobs.in/ambedkar-university-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Ambedkar University University Delhi has declared the official notification for 2026. To fill up the various vacanc ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2026-02-07T23:59:13.378068",
+      "links": []
+    },
+    {
+      "id": "19e10a4892df852dc6a84935fc7b0f46",
+      "title": "BSAMCH",
+      "url": "https://allgovernmentjobs.in/bsamch-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Dr Baba Saheb Ambedkar Hospital and Medical College (BSAMCH) has officially released the notification to fill the vacanc .... The Dr Baba Saheb Ambedkar Hospital and Medical College (BSAMCH) has officially released the notification to fill the va .... Dr Baba Saheb Ambedkar Hospital and Medical College has declared the official notification for 2025. To fill up the vaca ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Teaching",
+      "skills": [],
+      "scraped_at": "2026-02-07T23:59:13.378142",
+      "links": []
+    },
+    {
+      "id": "ac8056695ac9c7f71e3d48ddbcd7bcc2",
+      "title": "Bank Jobs",
+      "url": "https://allgovernmentjobs.in/bank-jobs-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Rajkot Nagarik Sahakari Bank (RNSB) has declared the latest job notification for 2026. To fill up the vacancies for&nbsp .... The Reserve Bank of India (RBI) has declared the official notification for 2026. To fill up the vacancies for 21 Ma .... The Punjab National Bank (PNB Bank) has officially released the notification to fill the vacancies of 5138 Apprentice Po .... The Bank of Baroda (BOB) has officially released the notification to fill the vacancies of 418 Senior Manager, Mana .... The...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-07T23:59:13.378202",
       "links": []
     }
   ]
