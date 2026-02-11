@@ -1,149 +1,9 @@
 {
-  "last_updated": "2026-02-10T00:06:20.698383",
-  "total_jobs": 268,
-  "active_jobs": 268,
-  "expired_jobs": 19,
+  "last_updated": "2026-02-11T00:06:53.614358",
+  "total_jobs": 252,
+  "active_jobs": 252,
+  "expired_jobs": 21,
   "jobs": [
-    {
-      "id": "27b7ab5626fb0a49b43674a2250f34e9",
-      "title": "HARCO Recruitment 2026 - Apply Offline for 02 Resource Persons Posts",
-      "url": "https://allgovernmentjobs.in/harco-recruitment-2026-apply-offline-for-02-resource-persons-posts/38358",
-      "source": "allgovernmentjobs.in",
-      "description": "Haryana State Co-operative Apex Bank (HARCO Bank) has declared the official notification for 2026. To fill up the vacancies for 02 Resource Persons Jobs. Those candidates who have qualified in Any Degree, post-graduation, or Diploma can grab this chance and apply for the HARCO Recruitment 2026 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply before the last ...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "15-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-10T23:42:24.473923",
-      "links": []
-    },
-    {
-      "id": "6c8e82a2f1b21eb0fcd45b239e9e1e39",
-      "title": "TMC Recruitment 2026 - Walk-in-Interview for 02 Senior Resident Posts",
-      "url": "https://allgovernmentjobs.in/tmc-recruitment-2026-walk-in-interview-for-02-senior-resident-posts/38356",
-      "source": "allgovernmentjobs.in",
-      "description": "The Tata Memorial Centre (TMC) has declared the official notification for 2026. To fill up the vacancies for 02 Senior Resident Jobs. Those candidates who have qualified for Post Graduation, DNB, can grab this chance and apply for the TMC Recruitment 2026 . Here, we included more about the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can attend the walk-in at the address given below. If you are look...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "12-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-10T23:42:24.473960",
-      "links": []
-    },
-    {
-      "id": "7cd9b110ef7cd1f60f6e430c63f87e1e",
-      "title": "EDII Recruitment 2026 - Apply for Project Officer Posts",
-      "url": "https://allgovernmentjobs.in/edii-recruitment-2026-apply-for-project-officer-posts/38354",
-      "source": "allgovernmentjobs.in",
-      "description": "Entrepreneurship Development Institute of India (EDII) has declared the official notification for 2026. To fill up the vacancies for Project Officer Jobs. Those candidates who have qualified in Any Degree, post-graduation, or Diploma can use this chance and apply for these posts. Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for the EDII Recruitment 2026 . If you are looking for more, here is a list of Government Jobs ...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "18-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-10T23:42:24.473980",
-      "links": []
-    },
-    {
-      "id": "c05d45bf0c84e50e552ba3890edc2f9d",
-      "title": "ICAR CRRI Recruitment 2026 - Walk-in-Interview for Young Professional Posts",
-      "url": "https://allgovernmentjobs.in/icar-crri-recruitment-2026-walk-in-interview-for-young-professional-posts/38352",
-      "source": "allgovernmentjobs.in",
-      "description": "The Central Rice Research Institute (ICAR CRRI) has declared the official notification for 2026. To fill up the vacancies for Young Professional I Jobs. Those candidates who have qualified in the B.Sc can grab this chance and apply for the ICAR CRRI Recruitment 2026 . Here we mentioned the age limit, selection process, salary, structure, education details, application fee, and how to apply for these posts. Interested candidates can attend the walk-in at the address given below. If you are loo...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "16-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-10T23:42:24.474000",
-      "links": []
-    },
-    {
-      "id": "a47ccd865dc05acaf26ee931346c667e",
-      "title": "SCTIMST Recruitment 2026 - Apply Online for Project Assistant Posts",
-      "url": "https://allgovernmentjobs.in/sctimst-recruitment-2026-apply-online-for-project-assistant-posts/38350",
-      "source": "allgovernmentjobs.in",
-      "description": "Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST) has recently released the official notification for 2026. To fill up the vacancies for Project Assistant Jobs. Those candidates who have qualified in the Diploma in Mechanical Engineering, Electrical Engineering can use this chance and apply for these posts. Here, we provided more about the age limit, selection process, salary structure, education details, application fee, and how to apply for the SCTIMST Recruitment ...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "11-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-10T23:42:24.474018",
-      "links": []
-    },
-    {
-      "id": "93db96e75089d65a907c8753937cd05d",
-      "title": "HARCO",
-      "url": "https://allgovernmentjobs.in/harco-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Haryana State Co-operative Apex Bank (HARCO Bank) has declared the official notification for 2026. To fill up the vacanc ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-10T23:42:24.474041",
-      "links": []
-    },
-    {
-      "id": "6bb55eed4b2605753b31329a414251bc",
-      "title": "IIT Hyderabad",
-      "url": "https://allgovernmentjobs.in/iit-hyderabad-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indin Institute of Technology Hyderabad (IIT Hyderabad) has officially released the notification to fill the vacanci .... Indian Institute of Technology Hyderabad (IIT Hyderabad) has announced the official notification for 2026. To fill .... The Indian Institute of Technology Hyderabad (IIT Hyderabad) has officially released the notification to fill the vacanc .... Indian Institute of Technology Hyderabad (IIT Hyderabad) has announced the official notification for 2025. To fill up th .......",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2026-01-10T23:42:24.474086",
-      "links": []
-    },
-    {
-      "id": "c0e52afa9a539814985b791e7c01c420",
-      "title": "SCTIMST",
-      "url": "https://allgovernmentjobs.in/sctimst-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST) has recently released the official notificat .... The Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST) has officially released the notification .... Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST) has declared the official notification .... The Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST) has declared the official notification f .......",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Medical",
-      "skills": [],
-      "scraped_at": "2026-01-10T23:42:24.474111",
-      "links": []
-    },
-    {
-      "id": "949910432190f60e82f2170e33f0ed95",
-      "title": "IIT Kanpur",
-      "url": "https://allgovernmentjobs.in/iit-kanpur-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Technology Kanpur (IIT Kanpur) has declared the official notification for 2026. To fill up the .... Indian Institute of Technology Kanpur (IIT Kanpur) has declared the official notification for 2025. To fill up the vario .... Indian Institute of Technology Kanpur (IIT Kanpur) has declared the official notification for 2025. To fill up the .... Indian Institute of Technology Kanpur (IIT Kanpur) has declared the official notification for 2025. To fill up the vacan .... India...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Engineering",
-      "skills": [],
-      "scraped_at": "2026-01-10T23:42:24.474135",
-      "links": []
-    },
-    {
-      "id": "d58ad18cb0952c0914d73fcd521209f1",
-      "title": "IIT Dhanbad",
-      "url": "https://allgovernmentjobs.in/iit-dhanbad-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Institute of Technology Dhanbad (IIT Dhanbad) has officially released the notification to fill the vacancies .... Indian Institute of Technology Dhanbad (IIT Dhanbad) has declared the official notification for 2026. To fill up the var .... Indian Institute of Technology Dhanbad (IIT Dhanbad) has declared the job notification for 2026. To fill up the vacancie .... IIT Indian School of Mines Dhanbad (IIT ISM Dhanbad) has declared the official notification for 2025. To fill up the vac...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Teaching",
-      "skills": [],
-      "scraped_at": "2026-01-10T23:42:24.474165",
-      "links": []
-    },
     {
       "id": "6447bece9f43503ce4f6efbaf14220d3",
       "title": "PGIMER Recruitment 2026 - Apply Offline for Clinical Research Coordinator Posts",
@@ -866,22 +726,6 @@
       "links": []
     },
     {
-      "id": "c4f62b9b9e0284b11c3ab467981cf819",
-      "title": "MRVC Notification 2026 - Apply Offline for 25 Project Engineer Posts",
-      "url": "https://allgovernmentjobs.in/mrvc-notification-2026-apply-offline-for-25-project-engineer-posts/38535",
-      "source": "allgovernmentjobs.in",
-      "description": "The Mumbai Railway Vikas Corporation (MRVC) has officially released the notification to fill the vacancies of 25 Project Engineer Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech in Electrical and Civil Engineering can apply for the MRVC Notification 2026. The interested applicants can apply in offline mode. Here we have mentioned the education details, age limit, ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "10-02-2026",
-        "found_date": "16-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-19T23:44:17.419351",
-      "links": []
-    },
-    {
       "id": "339d7c88ae6728574c02222aca0c4225",
       "title": "CMD Kerala",
       "url": "https://allgovernmentjobs.in/cmd-kerala-recruitment",
@@ -1005,22 +849,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-01-20T23:46:52.667560",
-      "links": []
-    },
-    {
-      "id": "dd4291919d5d7bda8e4ec4c9df5590b9",
-      "title": "IIAP Notification 2026 - Walk-in interview for 03 Design & Analysis Engineer Posts",
-      "url": "https://allgovernmentjobs.in/iiap-notification-2026-walk-in-interview-for-03-design-analysis-engineer-posts/38557",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Institute of Astrophysics (IIAP) has officially released the notification to fill the vacancies of 03 Design & Analysis Engineer Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech in Electronics, Mechanical Engineering, M.Sc can apply for the IIAP Notification 2026. The interested applicants can attend the interview. Here we have mentioned th...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "10-02-2026",
-        "found_date": "19-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-20T23:46:52.667587",
       "links": []
     },
     {
@@ -1379,38 +1207,6 @@
         "Hindi"
       ],
       "scraped_at": "2026-01-22T23:45:46.156918",
-      "links": []
-    },
-    {
-      "id": "925584f0e7ce8ae55da8f7fc8456dc6b",
-      "title": "NHSRC Notification 2026 - Apply Online for Senior Consultant Posts",
-      "url": "https://allgovernmentjobs.in/nhsrc-notification-2026-apply-online-for-senior-consultant-posts/38614",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Health Systems Resource Centre (NHSRC) has officially released the notification to fill the vacancies of 01 Senior Consultant Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS, MBA, Post-graduation, PGDM can apply for the NHSRC Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selecti...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "10-02-2026",
-        "found_date": "21-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-23T23:45:00.562035",
-      "links": []
-    },
-    {
-      "id": "a32787b1b873241d61472fe95cacc699",
-      "title": "ECHS Notification 2026 - Apply Offline for 172 Clerk, Medical Officer and Other Posts",
-      "url": "https://allgovernmentjobs.in/echs-notification-2026-apply-offline-for-172-clerk-medical-officer-and-other-posts/38613",
-      "source": "allgovernmentjobs.in",
-      "description": "The Ex-Servicemen Contributory Health Scheme (ECHS) has officially released the notification to fill the vacancies of 172 Medical Officers, Dental Officers, Pharmacists, Lab Technicians, Nursing Assistants, Peons, and Chowkidars. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS, BDS, B. Pharm, D. Pharm, 12th, 08th, DMLT, B.Sc Nursing, Any Degree, MD/MS can apply for the ECHS Noti...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "10-02-2026",
-        "found_date": "23-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-23T23:45:00.562060",
       "links": []
     },
     {
@@ -1840,22 +1636,6 @@
       "links": []
     },
     {
-      "id": "e80085cef9ef46982c4ab7155f1a3d06",
-      "title": "JNU Notification 2026 - Apply Offline for Pathologist Posts",
-      "url": "https://allgovernmentjobs.in/jnu-notification-2026-apply-offline-for-pathologist-posts/38714",
-      "source": "allgovernmentjobs.in",
-      "description": "The Jawaharlal Nehru University (JNU) has officially released the notification to fill the vacancies of 01 Pathologist Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Post-graduation, MD/MS, DNB, or Diploma can apply for the JNU Notification 2026. The interested applicants can apply in offline mode. Here we have mentioned the education details, age limit, selection process, ap...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "10-02-2026",
-        "found_date": "28-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-28T23:52:10.988286",
-      "links": []
-    },
-    {
       "id": "60c5ed6e9032cc8c93a4298d7e317ecd",
       "title": "SDH Chandigarh Notification 2026 - Walk-in-Interview for Various Specialist Posts",
       "url": "https://allgovernmentjobs.in/sdh-chandigarh-notification-2026-walk-in-interview-for-various-specialist-posts/38711",
@@ -2038,22 +1818,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-01-29T23:51:24.550086",
-      "links": []
-    },
-    {
-      "id": "33900bcd0e3b48fa26ecdde89f85f4a1",
-      "title": "NHM Kerala Recruitment 2026 - Apply Online for 02 Technical Consultant and Other Posts",
-      "url": "https://allgovernmentjobs.in/nhm-kerala-recruitment-2026-apply-online-for-02-technical-consultant-and-other-posts/38761",
-      "source": "allgovernmentjobs.in",
-      "description": "National Health Mission Kerala (NHM Kerala) has declared the official notification for 2026. To fill up the vacancies for 02 Technical Consultant and Associate Technical Consultant Jobs. Those candidates who have qualified in the Any Degree, MBBS, or MD can grab this chance and apply for the NHM Kerala Recruitment 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply be...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "10-02-2026",
-        "found_date": "24-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-29T23:51:24.555651",
       "links": []
     },
     {
@@ -2947,22 +2711,6 @@
       "links": []
     },
     {
-      "id": "3b356d93a6192512e3a43d60eea2c275",
-      "title": "PMC Notification 2026 - Apply Online for 255 Intern, Gardener Posts",
-      "url": "https://allgovernmentjobs.in/pmc-notification-2026-apply-online-for-255-intern-gardener-posts/38904",
-      "source": "allgovernmentjobs.in",
-      "description": "The Pune Municipal Corporation (PMC) has officially released the notification to fill the vacancies of 255 Intern and Gardener Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application.  Candidates who have completed their B.E./B. Tech in Mechanical, Electrical, Civil Engineering, 10th can apply for the PMC Notification 2026 . The interested applicants can apply in online mode. Here we have mentioned the education details,...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "10-02-2026",
-        "found_date": "04-02-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-02-04T23:53:31.129728",
-      "links": []
-    },
-    {
       "id": "b735a68235f8b3c328c4f1e62de5100a",
       "title": "NBPGR Notification 2026 - Apply Offline for Senior Research Fellow Posts",
       "url": "https://allgovernmentjobs.in/nbpgr-notification-2026-apply-offline-for-senior-research-fellow-posts/38901",
@@ -3389,24 +3137,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-02-05T23:51:13.285443",
-      "links": []
-    },
-    {
-      "id": "d21a564eae2d0b535e39ce8be11bde22",
-      "title": "GTBH Notification 2026 - Apply Online for 35 Senior Resident Posts",
-      "url": "https://allgovernmentjobs.in/gtbh-notification-2026-apply-online-for-35-senior-resident-posts/38965",
-      "source": "allgovernmentjobs.in",
-      "description": "The Guru Teh Bahadur Hospital (GTBH) has officially released the notification to fill the vacancies of 35 Senior Resident Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS, MDS, Post-graduation, DNB, PGDM can apply for the GTBH Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, a...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "10-02-2026",
-        "found_date": "05-02-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-02-06T23:53:01.765747",
       "links": []
     },
     {
@@ -3940,6 +3670,40 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-02-10T00:03:38.976797",
+      "links": []
+    },
+    {
+      "id": "4ee7093aa426d7ff24fd0921c29dd3a3",
+      "title": "Chandigarh Police Tailor Group C Online Form 2026",
+      "url": "https://www.rojgarresult.com/chandigarh-police-tailor-2026/",
+      "source": "www.rojgarresult.com",
+      "description": "Chandigarh Police Tailor Group C Recruitment 2026: Apply Online for 02 Post Post Update Date: 10-02-2026 Short Description: The Chandigarh Police has released the Chandigarh Police Tailor Online Form 2026 for a total of 02 Posts . The online application process will begin on 10 February 2026 , and the last date to apply and complete the form is 02 March 2026 . Candidates can make corrections in the application form as per the official schedule. The Chandigarh Police Tailor Exam Date and Answe...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "02/03/2026",
+        "found_date": "10-02-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Hindi",
+        "English"
+      ],
+      "scraped_at": "2026-02-11T00:05:06.266993",
+      "links": []
+    },
+    {
+      "id": "5f18f7366742dbb510bba3daa786ef8e",
+      "title": "CCS University Meerut BED Examination Form 2026",
+      "url": "https://www.rojgarresult.com/ccs-university-meerut-examination-form/",
+      "source": "www.rojgarresult.com",
+      "description": "CCS University Meerut BED Examination Form 2026 Apply Online Post Update Date: 10-02-2026 Short Description: Chaudhary Charan Singh University, CCS Meerut has released the Admission Notice for CCS University Examination Form BED Course Examination 2026 Those Candidates are Interested to the Admsission in CCS Examination Form 2026 Exam Can Apply Online from 05/02/2026 to 28/02/2026.candidates should read the CCS 2026 information brochure for all the information related to the entrance exam lik...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "10-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-11T00:05:06.267012",
       "links": []
     }
   ]
