@@ -1,119 +1,9 @@
 {
-  "last_updated": "2026-02-18T23:58:11.802043",
-  "total_jobs": 227,
-  "active_jobs": 227,
-  "expired_jobs": 4,
+  "last_updated": "2026-02-19T23:59:25.583707",
+  "total_jobs": 228,
+  "active_jobs": 228,
+  "expired_jobs": 12,
   "jobs": [
-    {
-      "id": "339d7c88ae6728574c02222aca0c4225",
-      "title": "CMD Kerala",
-      "url": "https://allgovernmentjobs.in/cmd-kerala-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Centre for Management Development (CMD Kerala) has officially released the notification to fill the vacancies of 02& .... The Kerala Rubber (KRL) has officially released the notification to fill the vacancies of 02 Project Engineer and Manage .... The Kerala Development and Innovation Strategic Council (KDISC) has officially released the notification to fill the vac .... The Centre for Management Development Kerala (CMD Kerala) has officially released the notification to fill the vacancie...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Engineering",
-      "skills": [],
-      "scraped_at": "2026-01-19T23:44:17.425093",
-      "links": []
-    },
-    {
-      "id": "33f9b4abebed77d3a147ee7393b7d2fb",
-      "title": "NIT Karnataka",
-      "url": "https://allgovernmentjobs.in/nit-karnataka-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute of Technology Karnataka (NIT Karnataka) has officially released the notification to fill the vaca .... The National Institute of Technology Karnataka (NIT Karnataka) has declared the official notification for 2025. To fill .... The National Institute of Technology, Karnataka (NIT Karnataka) has officially released the notification to fill the vac .... National Institute of Technology Karnataka (NIT Karnataka) has declared the offcial notification for 2025. To fill up th...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2026-01-19T23:44:17.425120",
-      "links": []
-    },
-    {
-      "id": "6650ee5ba1297f3c732aae33894e8a7f",
-      "title": "TNPSC",
-      "url": "https://allgovernmentjobs.in/tnpsc-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Tamil Nadu Agricultural University (TNAU) has officially released the notification to fill the vacancies of 12  .... Chennai Corporation has declared the official notification for 2025. To fill up the vacancies for 84 Medical Office .... Tamil Nadu Power Distribution Corporation (TNPDCL) has declared the official notification for 2025. To fill up the vacan .... Tamil Nadu Open University (TNOU) has declared the official notification for 2025. To fill up 11 Assistant Professo .... Chennai ...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [
-        "Hindi"
-      ],
-      "scraped_at": "2026-01-19T23:44:17.425169",
-      "links": []
-    },
-    {
-      "id": "cb4f646c2fe8aae82a7c2fc2d2f77578",
-      "title": "IIT Patna",
-      "url": "https://allgovernmentjobs.in/iit-patna-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Institute of Technology Patna (IIT Patna) has officially released the notification to fill the vacancies of 0 .... Indian Institute of Technology Patna (IIT Patna) has declared the official notification for 2026. To fill up the various .... Indian Institute of Technology Patna (IIT Patna) has declared the official notification for 2026. To fill up the vacanci .... Indian Institute of Technology (IIT Patna) has announced the official notification for 2025. To fill up the vacancies f...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2026-01-19T23:44:17.425196",
-      "links": []
-    },
-    {
-      "id": "a6c8430a8f78fea3c328892fb29c5350",
-      "title": "MPPSC",
-      "url": "https://allgovernmentjobs.in/mppsc-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Madhya Pradesh Employees Selection Board (MPESB) has officially released the notification to fill the vacancies of 1 .... The Madhya Pradesh Public Service Commission (MPPSC) has officially released the notification to fill the vacancies of 3 .... Madhya Pradesh State Forest Research Institute (MPSFRI)has declared the official notification for 2025. To fill up the v .... Madhya Pradesh Building Development Corporation Limited (MPBDC) has announced the official notification for 2025. To fi...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-19T23:44:17.425217",
-      "links": []
-    },
-    {
-      "id": "cce880fe69125f35b7afd6a7a42ed468",
-      "title": "ICT Mumbai",
-      "url": "https://allgovernmentjobs.in/ict-mumbai-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Institute of Chemical Technology Mumbai (ICT Mumbai) has officially released the notification to fill the vacancies .... Institute of Chemical Technology Mumbai (ICT Mumbai) has declared the official notification for 2026. To fill up the var .... Institute of Chemical Technology Mumbai (ICT Mumbai) has announced an official notification for 2026. To fill up the Vac .... Institute of Chemical Technology Mumbai (ICT Mumbai) has declared the official notification for 2025. To fill up the vac...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Engineering",
-      "skills": [],
-      "scraped_at": "2026-01-19T23:44:17.425301",
-      "links": []
-    },
-    {
-      "id": "54d79cec76d8fd948a088717b49897a3",
-      "title": "UP Aganwadi Helper Apply Online",
-      "url": "https://www.rojgarresult.com/up-anganwadi-helper-online-form-2025/",
-      "source": "www.rojgarresult.com",
-      "description": "Uttar Pradesh UP ICDS Anganwadi Bharti Helper Recruitment 2025: Apply Online Form Post Date: 15-12-2025 Short Description: Uttar Pradesh Government UP Anganwadi Bharti (District Wise) : Recruitment Official Notification is released and Online Form Now Started on District Wise to District Wise is Last Date for District Wise Post. UP Anganwadi Recruitment , 2025 Vacancy 2025 Full Notification available at the official website. All the candidates can now check the detailed notification of UP Ang...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "15-12-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-19T23:44:40.447711",
-      "links": []
-    },
-    {
-      "id": "63d44fd13e7a170bc81aec4400f29b6c",
-      "title": "IFFCO Apprentice Online Form 2026",
-      "url": "https://www.rojgarresult.com/iffco-apprentice-2026/",
-      "source": "www.rojgarresult.com",
-      "description": "IFFCO Phulpur Apprentice Recruitment 2026: Apply Online Post Date: 19-01-2026 Short Description: INDIAN FARMERS FERTILISER COOPERATIVE LIMITED : Apprentice Recruitment Official Notification is released and Online Form Now Started on 15 January 2026 to 29 January 2026 is Last Date . IFFCO Apprentice Recruitment Examination, 2026 Vacancy 2026 Full Notification available at the official website. All the candidates can now check the detailed notification of IFFCO Recruitment 2026 Jobs. Age Limit ...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "19-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-19T23:44:40.447916",
-      "links": []
-    },
     {
       "id": "133c343b46810970c9745de123711037",
       "title": "IIT Mandi",
@@ -408,22 +298,6 @@
       "links": []
     },
     {
-      "id": "b05e3214724f8ab7a4858e6d01e0d34e",
-      "title": "Central Bank Specialist Officer Online Form 2026",
-      "url": "https://www.rojgarresult.com/central-bank-specialist-officer-2026/",
-      "source": "www.rojgarresult.com",
-      "description": "Central Bank Specialist Officer Recruitment 2026: Apply Online for 350 Post Post Update Date: 22 -01-2026 Short Description: Central Bank Specialist Officer Online form 2026 for 350 Post: Central Bank of India GO Official Notification is released and Online Form Now Started on 20 January to 03 February 2026 is Last Date for Central Bank Specialist Officer Online form 2026 , Vacancy 2026 Full Notification available at the official website. All the candidates can now check the detailed notifica...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "18/02/2026",
-        "found_date": "20/01/2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-22T23:45:46.156883",
-      "links": []
-    },
-    {
       "id": "671bd1a1c8382dbc7a4acf5c4c244eae",
       "title": "RRB Railway Group D Online Form 2026",
       "url": "https://www.rojgarresult.com/rrb-group-d-2026/",
@@ -538,22 +412,6 @@
       "links": [
         "https://hssc.gov.in/"
       ]
-    },
-    {
-      "id": "45640e8af742c6a4d368d4511a2d7f4b",
-      "title": "CSB Notification 2026 - Apply Online for 28 Scientist B Posts",
-      "url": "https://allgovernmentjobs.in/csb-notification-2026-apply-online-for-28-scientist-b-posts/38628",
-      "source": "allgovernmentjobs.in",
-      "description": "The Central Silk Board (CSB) has officially released the notification to fill the vacancies of 28 Scientist B Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech can apply for the CSB Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, application fee, salary, and how to appl...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "18-02-2026",
-        "found_date": "19-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-24T23:43:33.507235",
-      "links": []
     },
     {
       "id": "dde74b164437063db8eaece5f50dabca",
@@ -906,22 +764,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-01-29T23:51:24.550002",
-      "links": []
-    },
-    {
-      "id": "84e486251d280ac9a4dcfe16404f46f1",
-      "title": "JPSC Notification 2026 - Apply Online for 30 Drug Inspector Posts",
-      "url": "https://allgovernmentjobs.in/jpsc-notification-2026-apply-online-for-30-drug-inspector-posts/38756",
-      "source": "allgovernmentjobs.in",
-      "description": "The Jharkhand Public Service Commission (JPSC) has officially released the notification to fill the vacancies of 30 Drug Inspector Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B. Pharm, MBBS can apply for the JPSC Notification 2026 . The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, application fe...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "18-02-2026",
-        "found_date": "29-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-29T23:51:24.550061",
       "links": []
     },
     {
@@ -2631,24 +2473,6 @@
       "links": []
     },
     {
-      "id": "8e2c5788bf2ec0adf5a49518884cd5b4",
-      "title": "JIPMER Notification 2026 - Walk-in interview for Project Nurse III Posts",
-      "url": "https://allgovernmentjobs.in/jipmer-notification-2026-walk-in-interview-for-project-nurse-iii-posts/38875",
-      "source": "allgovernmentjobs.in",
-      "description": "The Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has officially released the notification to fill the vacancies of 01 Project Nurse III Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.Sc Nursing can apply for the JIPMER Notification 2026. The interested applicants can attend the walk-in interview. Here we have mentioned the education details, ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "18-02-2026",
-        "found_date": "28-01-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-02-13T23:55:04.148257",
-      "links": []
-    },
-    {
       "id": "fe9d6ff907ae8e81a10715e9ff20f439",
       "title": "ONGC Recruitment 2026 - Walk-in-Interview for 08 Junior Consultant and Other Posts",
       "url": "https://allgovernmentjobs.in/ongc-recruitment-2026-walk-in-interview-for-08-junior-consultant-and-other-posts/39067",
@@ -3335,6 +3159,200 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-02-18T23:55:20.673725",
+      "links": []
+    },
+    {
+      "id": "52f4e66a95662969c7741741059a6339",
+      "title": "RBI Notification 2026 - Apply Online for 650 Assistant Posts",
+      "url": "https://allgovernmentjobs.in/rbi-notification-2026-apply-online-for-650-assistant-posts/39208",
+      "source": "allgovernmentjobs.in",
+      "description": "The Reserve Bank of India (RBI) has announced the official notification for 2026. To fill up the 650 vacancies for Assistant Jobs. Those candidates who have qualified in the B.E/ B.Tech can grab this chance and apply for the RBI Notification 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply online on or before the last date of application. If you are lo...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "08-03-2026",
+        "found_date": "16-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-19T23:55:49.836351",
+      "links": []
+    },
+    {
+      "id": "28f12b48b8635d027858e3b17a98b0f1",
+      "title": "NCRPB Notification 2026 - Apply Offline for Various Consultant Posts",
+      "url": "https://allgovernmentjobs.in/ncrpb-notification-2026-apply-offline-for-various-consultant-posts/39207",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Capital Region Planning Board (NCRPB) has declared the official notification for 2026. To fill up the vacancies for Consultant Jobs. Those candidates who have qualified in the Post-Graduation Diploma can grab this chance and apply for the NCRPB Notification 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply before the last date. If you are looking for mo...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "26-02-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-02-19T23:55:49.836378",
+      "links": []
+    },
+    {
+      "id": "9f54b5a7b9d1aa0e1cfd836695ebfbe7",
+      "title": "IIT Patna Notification 2026 - Apply Offline for Junior Research Fellow Posts",
+      "url": "https://allgovernmentjobs.in/iit-patna-notification-2026-apply-offline-for-junior-research-fellow-posts/39205",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology Patna (IIT Patna)  has released an official notification for the recruitment of various Junior Research Fellow Posts. Those candidates who have qualified in the B.E/ B.Tech in Mechanical Engineering, Chemical Engineering, and Electrical Engineering can grab this chance and apply for the IIT Patna Notification 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. If you a...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "28-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-19T23:55:49.836399",
+      "links": []
+    },
+    {
+      "id": "b81e69db8d69d6cf101d108ca0cc4f6f",
+      "title": "IIT BHU Notification 2026 - Apply for Project Assistant Posts",
+      "url": "https://allgovernmentjobs.in/iit-bhu-notification-2026-apply-for-project-assistant-posts/39204",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology BHU (IIT BHU)  has released an official notification for the recruitment of various Project Assistant Posts. Those candidates who have qualified in the Diploma, ITI, B.E/B. Tech can grab this chance and apply for the IIT BHU Notification 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply before the last date. If you are loo...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "02-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-19T23:55:49.836419",
+      "links": []
+    },
+    {
+      "id": "75c91068ff7468b3871ad25337bef882",
+      "title": "CSIR NEERI Recruitment 2026 - Walk-in-Interview for Senior Project Associate Posts",
+      "url": "https://allgovernmentjobs.in/csir-neeri-recruitment-2026-walk-in-interview-for-senior-project-associate-posts/39213",
+      "source": "allgovernmentjobs.in",
+      "description": "National Environmental Engineering Research Institute (CSIR NEERI) Recruitment 2026 for various posts of Senior Project Associate. Those candidates who have qualified in the B.E/ B.Tech in Civil Engineering can apply for the CSIR NEERI Recruitment 2026 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can attend the walk-in at the address below. If you are looking for ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "02-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-19T23:55:49.842032",
+      "links": []
+    },
+    {
+      "id": "ba02ac771842166d8d8d41ab78b9d9da",
+      "title": "IIT Dhanbad Recruitment 2026 - Apply Online for Junior Research Fellow Posts",
+      "url": "https://allgovernmentjobs.in/iit-dhanbad-recruitment-2026-apply-online-for-junior-research-fellow-posts/39212",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology Dhanbad (IIT Dhanbad) has declared the official notification for 2026. Allotted various vacncies for Junior Research Fellow Jobs. Those candidates who have qualified in the B.E/ B.Tech, M.E/ M.Tech in Mechanical Engineering can grab this chance and apply for the IIT Dhanbad Recruitment 2026 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply b...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "23-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-19T23:55:49.842057",
+      "links": []
+    },
+    {
+      "id": "bddaef3289035f1066c6b8cc5a731a15",
+      "title": "NIT Raipur Recruitment 2026 - Apply Offline for Junior Research Fellow Posts",
+      "url": "https://allgovernmentjobs.in/nit-raipur-recruitment-2026-apply-offline-for-junior-research-fellow-posts/39211",
+      "source": "allgovernmentjobs.in",
+      "description": "National Institute of Technology Raipur (NIT Raipur) has declared the official notification for 2026. To fill up the various vacancies for Junior Research Fellow Jobs. Those candidates who have qualified in the B.E/ B.Tech, M.E/ M.Tech in Mechanical Engineering can grab this chance and apply for the NIT Raipur Recruitment 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "09-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-19T23:55:49.842076",
+      "links": []
+    },
+    {
+      "id": "14c7f3bc99fce71dc857daccc416f1f3",
+      "title": "DLSA Koraput Recruitment 2026 - Walk-in-Interview for 02 Para Legal Volunteer Posts",
+      "url": "https://allgovernmentjobs.in/dlsa-koraput-recruitment-2026-walk-in-interview-for-02-para-legal-volunteer-posts/39210",
+      "source": "allgovernmentjobs.in",
+      "description": "District Legal Services Authority (DLSA Koraput) has declared the official notification for 2026. To fill up the vacancies for 02 Para Legal Volunteer Jobs. Those candidates who have qualified in the Intermediate (10+2) can grab this chance and apply for the DLSA Koraput Recruitment 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply before the last date ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "26-02-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-02-19T23:55:49.842095",
+      "links": []
+    },
+    {
+      "id": "1c3771f6d267211187a1b8ed6986fe0b",
+      "title": "ECIL Recruitment 2026 - Walk-in-Interview for 200 Technical Officer Posts",
+      "url": "https://allgovernmentjobs.in/ecil-recruitment-2026-walk-in-interview-for-200-technical-officer-posts/39209",
+      "source": "allgovernmentjobs.in",
+      "description": "Electronics Corporation of India Limited (ECIL) has declared the official notification for 2026. To fill up the vacancies for 200 Technical Officer Jobs. Those candidates who have qualified in the B.E/ B.Tech in Electronics and Communication Engineering, Mechanical Engineering can grab this chance and apply for the ECIL Recruitment 2026 . Here we included the age limit, selection process, salarystructure, education details, application fee, and how to apply for these posts. Interested and eli...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "24-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-19T23:55:49.842113",
+      "links": []
+    },
+    {
+      "id": "a13bf62840e65a5264b612ed5a0aaddb",
+      "title": "NCBS Recruitment 2026 - Apply Online for Project Associate Posts",
+      "url": "https://allgovernmentjobs.in/ncbs-recruitment-2026-apply-online-for-project-associate-posts/39206",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Centre for Biological Sciences (NCBS) has declared the official notification for 2026. To fill up the vacancies for Project Associate Jobs. Those candidates who have qualified in the Post-Graduation can grab this chance and apply for the NCBS Recruitment 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply online before the last date of applic...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "10-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-19T23:55:49.842130",
+      "links": []
+    },
+    {
+      "id": "ce56236b2adaa0e09f80f8b94deb2065",
+      "title": "BECIL",
+      "url": "https://allgovernmentjobs.in/becil-recruitment-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Electronics Corporation of India Limited (ECIL) has declared the official notification for 2026. To fill up the vacancie .... The Broadcast Engineering Consultants India Limited (BECIL) has officially released the notification to fill the vacanci .... Broadcast Engineering Consultants India Limited (BECIL) has declared the official notification for 2025. To fill up .... The Broadcast Engineering Consultants India Limited (BECIL) has officially released the notification to fill the vacanci ......",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-19T23:55:49.842235",
+      "links": []
+    },
+    {
+      "id": "7159247e921a731234af58b3c0a62291",
+      "title": "NCRPB",
+      "url": "https://allgovernmentjobs.in/ncrpb-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Capital Region Planning Board (NCRPB) has declared the official notification for 2026. To fill up the vacan ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2026-02-19T23:55:49.842255",
+      "links": []
+    },
+    {
+      "id": "04c2f72befa97d2c879b0181707a72bf",
+      "title": "HPCLtd",
+      "url": "https://allgovernmentjobs.in/hpcltd-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Hindustan Petroleum Corporation Limited (HPCL) has declared the official notification for 2026. To fill up the vacancies .... The HPCL LNG Limited (HPLNG) has officially released the notification to fill the vacancies of 03 Assistant Vice Pr ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-19T23:55:49.842296",
       "links": []
     }
   ]
