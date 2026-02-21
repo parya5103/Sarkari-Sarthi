@@ -1,76 +1,9 @@
 {
-  "last_updated": "2026-02-19T23:59:25.583707",
-  "total_jobs": 228,
-  "active_jobs": 228,
-  "expired_jobs": 12,
+  "last_updated": "2026-02-20T23:59:24.230066",
+  "total_jobs": 250,
+  "active_jobs": 250,
+  "expired_jobs": 8,
   "jobs": [
-    {
-      "id": "133c343b46810970c9745de123711037",
-      "title": "IIT Mandi",
-      "url": "https://allgovernmentjobs.in/iit-mandi-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Institute of Technology, Mandi (IIT Mandi) has officially released the notification to fill the vacancies of .... The Indian Institute of Technology Mandi (IIT Mandi) has officially released the notification to fill the vacancies of 3 .... The Indian Institute of Technology Mandi (IIT Mandi) has officially released the notification to fill the vacancies .... Indian Institute of Technology Mandi (IIT Mandi) has declared the official notification for 2025. To fill up the vacanci .......",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2026-01-20T23:46:52.673373",
-      "links": []
-    },
-    {
-      "id": "1199d94c19aaeef90166d255ced7dc58",
-      "title": "Central Bank of India",
-      "url": "https://allgovernmentjobs.in/central-bank-of-india-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Central Bank of India has officially released the notification to fill the vacancies of 350 Marketing Officer a .... The Central Bank of India (CBI) has officially released the notification to fill the vacancies of 01 Attendant Posts. In ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-20T23:46:52.673465",
-      "links": []
-    },
-    {
-      "id": "485f4fe8d68e0abc6622c76707406f53",
-      "title": "E-courts",
-      "url": "https://allgovernmentjobs.in/e-courts-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The High Court of Telangana (Telangana High Court) has officially released the notification to fill the vacancies o .... Kamrup District Court has declared the official notification for 2025. To fill up the vacancies for various Driver .... District Legal Services Authority (DLSA) Darrang has declared the official notification for 2025. To fill up the vacanci .... The Karnataka High Court has declared the official notification for 2025. To fill up the vacancies for 02 Law Resea .... Faridabad...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "SSC",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-01-20T23:46:52.673488",
-      "links": []
-    },
-    {
-      "id": "e92d390b0437c55a190eccbd57f89457",
-      "title": "BCECEB",
-      "url": "https://allgovernmentjobs.in/bceceb-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Bihar Combined Entrance Competitive Examination Board (BCECEB) has officially released the notification to fill the ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2026-01-20T23:46:52.673510",
-      "links": []
-    },
-    {
-      "id": "3f99175db81f2d4bf8294da0b26f46bf",
-      "title": "Ministry of AYUSH",
-      "url": "https://allgovernmentjobs.in/ministry-of-ayush-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Ayush Mission, Dadra & Nagar Haveli, and Daman & Diu (NAM DNH & DD) has officially release .... National AYUSH Mission Kerala (NAM Kerala) has declared the official notification for 2026. To fill up the vacancies for .... National Ayush Mission Kerala (NAM Kerala) has declared the latest notification for 2026. To fill up the various vacanci .... National Ayush Mission (NAM Kerala) has declared the official notification for 2025. To fill up the vacancies for 04&nbs .... The Nation...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Teaching",
-      "skills": [],
-      "scraped_at": "2026-01-20T23:46:52.673542",
-      "links": []
-    },
     {
       "id": "8f87ada7c4f2c876ae05087664f701b2",
       "title": "CSPGCL Notification 2026 - Apply Offline for 245 Apprentice Posts",
@@ -2781,24 +2714,6 @@
       "links": []
     },
     {
-      "id": "c3862c772f1fc7a4f4039df450db7d4b",
-      "title": "GMC Handwara Jobs 2026 - Apply Online for 108 Junior Staff Nurse Posts",
-      "url": "https://allgovernmentjobs.in/gmc-handwara-jobs-2026-apply-online-for-108-junior-staff-nurse-posts/38916",
-      "source": "allgovernmentjobs.in",
-      "description": "The Government Medical College (GMC) Handwara has officially released the notification to fill the vacancies of 108 Junior Staff Nurse Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their GNM, B.Sc Nursing, and 12th can apply for the GMC Handwara Jobs 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "19-02-2026",
-        "found_date": "28-01-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-02-16T23:55:17.595343",
-      "links": []
-    },
-    {
       "id": "70c7434165956049446f69ab49b4aee4",
       "title": "NCL Notification 2026 - Apply Online for 270 Assistant Foreman Posts",
       "url": "https://allgovernmentjobs.in/ncl-notification-2026-apply-online-for-270-assistant-foreman-posts/39152",
@@ -3353,6 +3268,454 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-02-19T23:55:49.842296",
+      "links": []
+    },
+    {
+      "id": "199d7ac73930fee7c67166ee338a7b22",
+      "title": "IIT Madras Notification 2026 - Apply Online for Project Technical Support III Posts",
+      "url": "https://allgovernmentjobs.in/iit-madras-notification-2026-apply-online-for-project-technical-support-iii-posts/39253",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Institute of Technology Madras (IIT Madras) has officially released the notification to fill the vacancies of 01 Project Technical Support III Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech, B.Sc., M.Sc., can apply for the IIT Madras Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the educatio...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "08-03-2026",
+        "found_date": "17-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-20T23:54:35.395092",
+      "links": []
+    },
+    {
+      "id": "c2c0b66d872ebcf2ba3e8fba7b451c95",
+      "title": "AMU Notification 2026 - Apply Offline for Senior Project Associate Posts",
+      "url": "https://allgovernmentjobs.in/amu-notification-2026-apply-offline-for-senior-project-associate-posts/39252",
+      "source": "allgovernmentjobs.in",
+      "description": "The Aligarh Muslim University (AMU) has officially released the notification to fill the vacancies of 01 Senior Project Associate Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, MD/MS, Pharm D, and Post-graduation can apply for the AMU Notification 2026. The interested applicants can apply in offline mode. Here we have mentioned the education details, age limit, ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "27-02-2026",
+        "found_date": "19-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-20T23:54:35.395118",
+      "links": []
+    },
+    {
+      "id": "71ac9cce0f0978ecab183dbd23077be0",
+      "title": "GAIL Notification 2026 - Apply Online for 70 Executive Trainee Posts",
+      "url": "https://allgovernmentjobs.in/gail-notification-2026-apply-online-for-70-executive-trainee-posts/39250",
+      "source": "allgovernmentjobs.in",
+      "description": "The Gas Authority of India Limited (GAIL) has officially released the notification to fill the vacancies of 70 Executive Trainee Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech in Electrical, Electronics, and Mechanical Engineering can apply for the GAIL Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the education det...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "18-03-2026",
+        "found_date": "20-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-20T23:54:35.395140",
+      "links": []
+    },
+    {
+      "id": "b60530068310038f20aca43751e4298d",
+      "title": "PGIMER Recruitment 2026 - Apply Offline for Senior Resident Posts",
+      "url": "https://allgovernmentjobs.in/pgimer-recruitment-2026-apply-offline-for-senior-resident-posts/39254",
+      "source": "allgovernmentjobs.in",
+      "description": "Post Graduate Institute of Medical Education and Research (PGIMER) has declared the official notification for 2026. To fill up the vacancies for various Senior Resident Jobs. Those candidates who have qualified in the MD/ MS and DNB can grab this chance and apply for the PGIMER Recruitment 2026 . Here weincluded the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. If you are looking for more, here is a list of Government Job...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "05-03-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-02-20T23:54:35.400816",
+      "links": []
+    },
+    {
+      "id": "a5d4c008b4d11d924dda553948efbf77",
+      "title": "ACTREC Recruitment 2026 - Walk-in-Interview for 08 Clinical Research Coordinator and Other Posts",
+      "url": "https://allgovernmentjobs.in/actrec-recruitment-2026-walk-in-interview-for-08-clinical-research-coordinator-and-other-posts/39251",
+      "source": "allgovernmentjobs.in",
+      "description": "The Advanced Centre for Treatment Research and Education in Cancer (ACTREC) has published the official notification for 2026. To fill up the vacancies for 08 Clinical Research Coordinators and Research Project Managers. Those candidates who have qualified in the M.Sc, M.Pharm, and Post-Graduation can grab this chance and apply for the ACTREC Recruitment 2026 . Herewe included the age limit, selection process, salarystructure, educational details, application fee, and how to apply for these po...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "06-03-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Analyst"
+      ],
+      "scraped_at": "2026-02-20T23:54:35.400842",
+      "links": []
+    },
+    {
+      "id": "ee11d2dabca5e3b5c329ca4afb9d6927",
+      "title": "NIT Rourkela Recruitment 2026 - Apply Offline for Junior Research Fellow Posts",
+      "url": "https://allgovernmentjobs.in/nit-rourkela-recruitment-2026-apply-offline-for-junior-research-fellow-posts/39249",
+      "source": "allgovernmentjobs.in",
+      "description": "National Institute of Technology Rourkela (NIT Rourkela)  has released an official notification for the recruitment of 01 Junior Research Fellow Posts. Those candidates who have qualified in the M.E/ M.Tech, M.Sc can grab this chance and apply for the NIT Rourkela Recruitment 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. If you are looking for more, here is a list of Government Jobs in 2026 th...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "10-03-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-02-20T23:54:35.400862",
+      "links": []
+    },
+    {
+      "id": "d3bc20ac6e2a2bdff9f91c76852c3c46",
+      "title": "CIPET Recruitment 2026 - Apply Online for 11 Manager and Other Posts",
+      "url": "https://allgovernmentjobs.in/cipet-recruitment-2026-apply-online-for-11-manager-and-other-posts/39247",
+      "source": "allgovernmentjobs.in",
+      "description": "Central Institute of Plastics Engineering & Technology (CIPET) has declared the official notification for 2026. To fill up the vacancies for 11 Manager and Senior Technical Officer Jobs. Those candidates who have qualified in the M.E/ M.Tech, Ph.D, or any degree can grab this chance and apply for the CIPET Recruitment 2026 . Here we mentioned more details about the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "03-03-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry",
+        "Analyst"
+      ],
+      "scraped_at": "2026-02-20T23:54:35.400882",
+      "links": []
+    },
+    {
+      "id": "df848f4ca215d9d5f37c6e9e3c146479",
+      "title": "SDDMASC Recruitment 2026 - Walk-in-Interview for 16 Senior Resident Posts",
+      "url": "https://allgovernmentjobs.in/sddmasc-recruitment-2026-walk-in-interview-for-16-senior-resident-posts/39246",
+      "source": "allgovernmentjobs.in",
+      "description": "Shri Dada Dev Matri Avum Shishu Chikitsalaya (SDDMASC) has released an official notification for 2026. To fill up the 16 vacancies for Senior Resident Jobs. Those candidates who have qualified in the MBBS, MD/ MS, and DNB can grab this chance and apply for the SDDMASC Recruitment 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can attend the walk-in at theaddress below. If ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "25-02-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-02-20T23:54:35.400903",
+      "links": []
+    },
+    {
+      "id": "8025dae53c421ca07d36a5f4700fadf8",
+      "title": "CIPET",
+      "url": "https://allgovernmentjobs.in/cipet-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Central Institute of Plastics Engineering & Technology (CIPET) has declared the official notification for 2026. To f .... The Central Institute of Petrochemicals Engineering and Technology (CIPET) has officially released the notification .... The Central Institute of Plastics Engineering & Technology (CIPET) has officially released the notification to fill ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Engineering",
+      "skills": [],
+      "scraped_at": "2026-02-20T23:54:35.400999",
+      "links": []
+    },
+    {
+      "id": "b82edb7236046fd5559748c114b6a5dc",
+      "title": "IISER",
+      "url": "https://allgovernmentjobs.in/iiser-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Institute of Science Education and Research (IISER Kolkata) has officially released the notification to fill .... The Indian Institute of Science Education and Research Berhampur (IISER Berhampur) has officially released the notificat .... The Indian Institute of Science Education and Research Thiruvananthapuram (IISER Thiruvananthapuram) has officially rele .... Indian Institute of Science Education and Research (IISER Tirupati) has released the latest job notification for Re .......",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Teaching",
+      "skills": [],
+      "scraped_at": "2026-02-20T23:54:35.401018",
+      "links": []
+    },
+    {
+      "id": "e8042975e8d3d8f43abab9737fcf0ce0",
+      "title": "IISER Kolkata Jobs 2026 - Apply Online for 02 Project Computer Programmer Posts",
+      "url": "https://allgovernmentjobs.in/iiser-kolkata-jobs-2026-apply-online-for-02-project-computer-programmer-posts/39248",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Institute of Science Education and Research (IISER Kolkata) has officially released the notification to fill the vacancies of 02 Project Computer Programmer Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the deadline. Candidates who have completed their B.E./B. Tech, M.E./M. Tech, MCA, B.Sc., and M.Sc. can apply for the IISER Kolkata Jobs 2026. The interested applicants can apply in the online mode. Here we have mentioned the edu...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "11-03-2026",
+        "found_date": "20-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-20T23:54:35.406715",
+      "links": []
+    },
+    {
+      "id": "c244d038e6adfbcd9266b60927d29c50",
+      "title": "IIM Udaipur Jobs 2026 - Apply Online for Administrative Officer Posts",
+      "url": "https://allgovernmentjobs.in/iim-udaipur-jobs-2026-apply-online-for-administrative-officer-posts/39245",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Institute of Management Udaipur (IIM Udaipur) has officially released the notification to fill the vacancies of 01 Administrative Officer Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech in Computer Science Engineering, MCA can apply for the IIM Udaipur Jobs 2026 . The interested applicants can apply in online mode. Here we have mentioned the education d...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "04-03-2026",
+        "found_date": "19-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-20T23:54:35.406739",
+      "links": []
+    },
+    {
+      "id": "75a360d9722376368bff51333034d25f",
+      "title": "Defence Jobs",
+      "url": "https://www.rojgarresult.com/category/defence-jobs/",
+      "source": "www.rojgarresult.com",
+      "description": "Skip to content Rojgar Result | RojgarResult.Com Menu Home Latest Result 2025 Admit Card Answer Key Admission Latest Form 2025 About Us Contact Us Privacy Policy Rojgar Result RojgarResult.Com Rojgar Result | RojgarResult.Com Menu Home Latest Result 2025 Admit Card Answer Key Admission Latest Form 2025 About Us Contact Us Privacy Policy Rojgar Result RojgarResult.Com > Defence Jobs February 12, 2026 Indian Navy SSC Officers Entry Online Form 2026 for 260 Post February 5, 2026 UP Police Consta...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [
+        "Hindi"
+      ],
+      "scraped_at": "2026-02-20T23:55:02.879233",
+      "links": []
+    },
+    {
+      "id": "6d9519db9d0d547b9eee164f50fe352a",
+      "title": "Latest Form 2025",
+      "url": "https://www.rojgarresult.com/recruitments/",
+      "source": "www.rojgarresult.com",
+      "description": "Latest Form Online and Offline Form on Sarkari Naukri Result 2025, RojgarResults is a Latest Form  Recruitment Portal provides details of all Recruitment  , Sarkari Naukri 2025, rojgar result rojgarresult.com | Govt Jobs & Govt Jobs of Railway RRB NTPC,RRB Group D, 10 2 latest job. up police, bihar stet Latest Form UPSC CAPF CPF Assistant Commandant Online Form 2026 AFMS Medical Officer SSC Online Form 2026 Himanchal Pradesh English and Mathematics Teacher Online form 2026 MPPSC Assistant Tow...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [
+        "Mathematics",
+        "English",
+        "Hindi"
+      ],
+      "scraped_at": "2026-02-20T23:55:02.889240",
+      "links": []
+    },
+    {
+      "id": "ca8885df4df2b468e871d534915da5ec",
+      "title": "UP Anganwadi Worker AWW Online Form 2025 | District Wise Update",
+      "url": "https://www.rojgarresult.com/up-anganwadi-bharti-nov-2025/",
+      "source": "www.rojgarresult.com",
+      "description": "Uttar Pradesh UP ICDS Anganwadi Bharti Worker Recruitment 2025: Apply Online Form Post Date: 21-11-2025 Short Description: Uttar Pradesh Government UP Anganwadi Bharti (District Wise) : Recruitment Official Notification is released and Online Form Now Started on District Wise to District Wise is Last Date for District Wise Post. UP Anganwadi Recruitment , 2025 Vacancy 2025 Full Notification available at the official website. All the candidates can now check the detailed notification of UP Ang...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "21-11-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-20T23:55:02.892697",
+      "links": []
+    },
+    {
+      "id": "906124adc13a86e935f3d713abf346b1",
+      "title": "DSSSB JE, ASO, AE, Legal Assistant Online Form 2026",
+      "url": "https://www.rojgarresult.com/dsssb-je-aso-ae-legal-assistant-2026/",
+      "source": "www.rojgarresult.com",
+      "description": "DSSSB JE, ASO, AE, Legal Assistant Recruitment 2026: Apply for 911 Post Post Date: 20-02-2026 Short Description: DSSSB JE, ASO, AE, Legal Assistant Recruitment 2026 Apply Online Form : DSSSB Junior Engineer, Assistant Section Officer, Assistant Engineer, Legal Assistant Online Form 2026, Notification has been released on the website @https://dsssb.delhi.gov.in/ & Application Form now started on 24 February 2026 to 25 March 2026. Delhi Subordinate Services Selection Board Jobs 2026. Get the di...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "20-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-20T23:55:02.909953",
+      "links": [
+        "https://dsssb.delhi.gov.in/"
+      ]
+    },
+    {
+      "id": "292344b6c4b5744acd61acbc6128b41a",
+      "title": "NTA NEET Admission 2026 Online Form",
+      "url": "https://www.rojgarresult.com/nta-neet-ug-2026/",
+      "source": "www.rojgarresult.com",
+      "description": "NTA NEET UG Online Form 2026 | Syllabus Post Update Date: 08-02-2026 Short Description: NTA NEET UG 2026 Admissions : National Testing Agency (NTA) will release the notification for NEET UG 2026, which is conducted for admission to MBBS, BDS and other medical courses in government and private colleges across India. Eligible candidates can apply online once the application window is activated. Candidates are advised to read the complete notification before applying . Official Website and More ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "08-02-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "English"
+      ],
+      "scraped_at": "2026-02-20T23:55:02.909982",
+      "links": []
+    },
+    {
+      "id": "e9515c492ba87ab4d20aeb5d761eef18",
+      "title": "UP Anganwadi Bharti Online Form 2026",
+      "url": "https://www.rojgarresult.com/up-anganwadi-worker-2026/",
+      "source": "www.rojgarresult.com",
+      "description": "UP Uttar Pradesh Anganwadi Worker Bharti Recruitment 2026 Apply Online District Wise Vacancy Details Post Update Date: 18-02-2026 Short Description: UP Anganwadi Worker Recruitment 2026: Complete information about UP Anganwadi Bharti Recruitment 2026 in this video! New recruitment for Anganwadi Worker positions has been announced in Uttar Pradesh. If you are a 12th-grade female candidate seeking a government job, this is a golden opportunity for you. The Women and Child Development Department...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "18-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-20T23:55:02.910029",
+      "links": []
+    },
+    {
+      "id": "4539c228a90f36df1aac4e039006e11c",
+      "title": "UPSC IES / ISS Online Form 2026",
+      "url": "https://tinyurl.com/5n8k8zwf",
+      "source": "www.rojgarresult.com",
+      "description": "UPSC IES ISS Recruitment 2026: Apply for 44 Post Post Update Date: 16-02-2026 Short Description: UPSC IES ISS Recruitment 2026 Apply Online Form : UPSC IES ISS Online Form 2026, Notification has been released on the website @https://upsc.gov.in/ & Application Form now started on 11 February 2026 to 03 March 2026. Union Public Service Commission Jobs 2026. Get the direct link to download notification link available on UPSC IES ISS Vacancy 2026 Official Website and More Other Details Age Limit ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "16-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-20T23:55:02.910081",
+      "links": [
+        "https://upsc.gov.in/"
+      ]
+    },
+    {
+      "id": "d9c8f1847cdd80c9d100fb58f9da70d6",
+      "title": "Bihar Police BPSSSC ASI Online Form",
+      "url": "https://www.rojgarresult.com/bihar-police-bpssc-asi-operation-2026/",
+      "source": "www.rojgarresult.com",
+      "description": "BPSSC Assistant Sub Inspector ASI Operation Recruitment 2026 Apply Online for 462 Post Post Update Date: 04-02-2026 Short Description: Bihar Police Subordinate Services Commission BPSSC has released the advertisement Advt. No.-04/2026: For Selection of Assistant Sub-Inspector (Operation) in Bihar Police Radio (Wireless), Govt. of Bihar. Those Candidates Are Interested with BPSSC ASI Operation Can Apply Online from 04/02/2026 to 04/03/2026. For other information related to Bihar Police ASI Ope...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "04/03/2026",
+        "found_date": "04-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-20T23:55:02.910124",
+      "links": []
+    },
+    {
+      "id": "7f71515d547ae0a50bb44036c3505af9",
+      "title": "Sarkari Yojana",
+      "url": "https://www.rojgarresult.com/category/sarkari-yojna/",
+      "source": "www.rojgarresult.com",
+      "description": "Skip to content Rojgar Result | RojgarResult.Com Menu Home Latest Result 2025 Admit Card Answer Key Admission Latest Form 2025 About Us Contact Us Privacy Policy Rojgar Result RojgarResult.Com Rojgar Result | RojgarResult.Com Menu Home Latest Result 2025 Admit Card Answer Key Admission Latest Form 2025 About Us Contact Us Privacy Policy Rojgar Result RojgarResult.Com > Sarkari Yojna February 10, 2026 Mukhyamantri Kanya Sumangala Yojana Online Form 2026 December 15, 2025 UP Anganwadi Helper On...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [
+        "General Knowledge",
+        "Hindi"
+      ],
+      "scraped_at": "2026-02-20T23:55:02.910144",
+      "links": []
+    },
+    {
+      "id": "cd60997d3c96177f7c275afa6e376d47",
+      "title": "10th & 10+2 Jobs",
+      "url": "https://www.rojgarresult.com/category/10th-12th/",
+      "source": "www.rojgarresult.com",
+      "description": "Skip to content Rojgar Result | RojgarResult.Com Menu Home Latest Result 2025 Admit Card Answer Key Admission Latest Form 2025 About Us Contact Us Privacy Policy Rojgar Result RojgarResult.Com Rojgar Result | RojgarResult.Com Menu Home Latest Result 2025 Admit Card Answer Key Admission Latest Form 2025 About Us Contact Us Privacy Policy Rojgar Result RojgarResult.Com > 10th 12th Jobs February 18, 2026 India Post GDS Gramin Dak Sevak Online Correction Form 2026 for 28635 Post February 17, 2026...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-20T23:55:02.910166",
+      "links": []
+    },
+    {
+      "id": "9f785a4bdc0607a77af10f7dba6f9044",
+      "title": "B.Tech / MBA Jobs",
+      "url": "https://www.rojgarresult.com/category/btech-mba/",
+      "source": "www.rojgarresult.com",
+      "description": "Skip to content Rojgar Result | RojgarResult.Com Menu Home Latest Result 2025 Admit Card Answer Key Admission Latest Form 2025 About Us Contact Us Privacy Policy Rojgar Result RojgarResult.Com Rojgar Result | RojgarResult.Com Menu Home Latest Result 2025 Admit Card Answer Key Admission Latest Form 2025 About Us Contact Us Privacy Policy Rojgar Result RojgarResult.Com > B.Tech MBA Jobs February 18, 2026 Central Silk Board Scientist B Online Form 2026 February 12, 2026 Indian Navy SSC Officers ...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-20T23:55:02.910225",
+      "links": []
+    },
+    {
+      "id": "4cc548d055148bdde7d54354c8ee817a",
+      "title": "TI / Diploma / Apprentice Jobs",
+      "url": "https://www.rojgarresult.com/category/apprentices/",
+      "source": "www.rojgarresult.com",
+      "description": "Skip to content Rojgar Result | RojgarResult.Com Menu Home Latest Result 2025 Admit Card Answer Key Admission Latest Form 2025 About Us Contact Us Privacy Policy Rojgar Result RojgarResult.Com Rojgar Result | RojgarResult.Com Menu Home Latest Result 2025 Admit Card Answer Key Admission Latest Form 2025 About Us Contact Us Privacy Policy Rojgar Result RojgarResult.Com > Apprentice Jobs February 20, 2026 IOCL Engagement of Apprentices Online Form 2026 for 637 Post February 2, 2026 Bihar BTSC Pu...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-20T23:55:02.910245",
+      "links": []
+    },
+    {
+      "id": "2f0709d3f1c01d46a3fae0d8ac4651ce",
+      "title": "UPSC CAPF CPF Assistant Commandant Online Form 2026",
+      "url": "https://www.rojgarresult.com/upsc-capf-cpf-assistant-commandant-2026/",
+      "source": "www.rojgarresult.com",
+      "description": "UPSC CAPF Recruitment 2026: Apply for 349 Post Post Date: 21-02-2026 Short Description: UPSC CAPF CPF Assistant Commandant Recruitment 2026 Apply Online Form : UPSC CAPF CPF Assistant Commandant Online Form 2026, Notification has been released on the website @https://upsconline.nic.in/ & Application Form now started on 20 February 2026 to 12 March 2026. Union Public Service Commission Jobs 2026. Get the direct link to download notification link available on UPSC CAPF CPF Assistant Commandant ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "21-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-20T23:55:02.910264",
+      "links": [
+        "https://upsconline.nic.in/"
+      ]
+    },
+    {
+      "id": "991cd990b422e1e0c42d5e862670f4b3",
+      "title": "AFMS Medical Officer SSC Online Form 2026",
+      "url": "https://www.rojgarresult.com/afms-medical-officer-ssc-2026/",
+      "source": "www.rojgarresult.com",
+      "description": "AFMS Medical Officer Short Service Commission Recruitment 2026: Apply Online for 100 Post Post Update Date: 20-02-2026 Short Description: AFMS Armed Force Medical Services Recruitment 2026 Apply Online Form : AFMS Medical Officer SSC Online Form 2026, Notification has been released on the website @https://join.afms.gov.in/ & Application Form now started on 21 February 2026 to 04 March 2026. AFMS Short Service Commission Jobs 2026. Get the direct link to download notification link available on...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "20-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-20T23:55:02.910282",
+      "links": [
+        "https://join.afms.gov.in/"
+      ]
+    },
+    {
+      "id": "151378b8981a1e4fab6c51fde77feca5",
+      "title": "Himanchal Pradesh English and Mathematics Teacher Online form 2026",
+      "url": "https://www.rojgarresult.com/himanchal-pradesh-teacher-2026/",
+      "source": "www.rojgarresult.com",
+      "description": "Himanchal Pradesh English & Mathematics Teacher Recruitment 2026: Apply Online for 624 Post Post Update Date: 20-02-2026 Short Description: HPRCA Himanchal Pradesh Rajya Chayan Aayog: has released the notification for the recruitment of English and Mathematics Teacher Purely on Engagement Basic through the official website of Himanchal Pradesh Rajya Chyan Aayog  Hamirpur http://hprca.hp.gov.in. Those Candidates Are Enrolled to the Following HPRCA English and Mathematics Teacher Vacancy Can Ap...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "21/02/2026",
+        "found_date": "20-02-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Mathematics",
+        "English",
+        "Hindi"
+      ],
+      "scraped_at": "2026-02-20T23:55:02.910301",
+      "links": [
+        "http://hprca.hp.gov.in."
+      ]
+    },
+    {
+      "id": "596c37477fef2409076cec7802abac7c",
+      "title": "MPPSC Assistant Town Planner Online Form 2026",
+      "url": "https://www.rojgarresult.com/mppsc-assistant-town-planner-2026/",
+      "source": "www.rojgarresult.com",
+      "description": "MPPSC Assistant Town Planner 2026 : Apply Online for 39 Post Post Update Date: 20-02-2026 Short Description: MPPSC Assistant Town Planner 2026 : Madhya Pradesh Public Service Commission (MPPSC) has released the notification for Assistant Town Planner Examination 2026 . Online application process will start from 20 February 2026 and the last date for registration and fee payment is 19 March 2026 . Candidates can also apply with late fee in two phases. MPPSC Assistant Town Planner Examination w...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "26/08/2026",
+        "found_date": "20-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-20T23:55:02.910319",
       "links": []
     }
   ]
