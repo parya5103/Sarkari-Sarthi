@@ -1,185 +1,9 @@
 {
-  "last_updated": "2026-02-21T23:53:36.286826",
-  "total_jobs": 257,
-  "active_jobs": 257,
-  "expired_jobs": 12,
+  "last_updated": "2026-02-22T23:54:25.377400",
+  "total_jobs": 242,
+  "active_jobs": 242,
+  "expired_jobs": 18,
   "jobs": [
-    {
-      "id": "c9ed97cfcb936205e60a8df5fb59c4b2",
-      "title": "HPRCA Notification 2026 - Apply Online for 234 Junior Office Assistant Posts",
-      "url": "https://allgovernmentjobs.in/hprca-notification-2026-apply-online-for-234-junior-office-assistant-posts/38600",
-      "source": "allgovernmentjobs.in",
-      "description": "The Himachal Pradesh Rajya Chayan Aayog (HPRCA) has officially released the notification to fill the vacancies of 234 Junior Office Assistant Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their 10th pass, ITI, 12th, and Diploma can apply for the HPRCA Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, sel...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "27-02-2026",
-        "found_date": "27-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-22T23:45:22.464280",
-      "links": []
-    },
-    {
-      "id": "3464a0d1c7ededae2a7d64d529649ec4",
-      "title": "IRCTC Notification 2026 - Walk-in interview for 43 Hospitality Monitors Posts",
-      "url": "https://allgovernmentjobs.in/irctc-notification-2026-walk-in-interview-for-43-hospitality-monitors-posts/38598",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Railway Catering and Tourism Corporation (IRCTC) has officially released the notification to fill the vacancies of 43 Hospitality Monitors Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree, B.Sc., or MBA can apply for the IRCTC Notification 2026. The interested applicants can attend the walk-in interview. Here we have mentioned the education details, age li...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "05-03-2026",
-        "found_date": "21-01-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-01-22T23:45:22.464317",
-      "links": []
-    },
-    {
-      "id": "a693b3fc15cdb09df60bc676e035ebe0",
-      "title": "HPPSC",
-      "url": "https://allgovernmentjobs.in/hppsc-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Himachal Pradesh Rajya Chayan Aayog (HPRCA) has officially released the notification to fill the vacancies of 234 Ju .... The Himachal Pradesh Rajya Chayan Aayog (HPRCA) has officially released the notification to fill the vacancies of 312 St .... The District Red Cross Society, Kangra (DRCS Kangra) has officially released the notification to fill the vacancies of 0 .... Indian Red Cross Society (IRCS) Kullu has declared the official notification for 2025. To fill up the vacancies for 04&...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "General",
-      "skills": [],
-      "scraped_at": "2026-01-22T23:45:22.469576",
-      "links": []
-    },
-    {
-      "id": "4264983919f246ed85dd920d7fa30704",
-      "title": "IRCTC",
-      "url": "https://allgovernmentjobs.in/irctc-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Railway Catering and Tourism Corporation (IRCTC) has officially released the notification to fill the vacanci .... The Indian Railway Catering and Tourism Corporation (IRCTC) has officially released the notification to fill the vacanci .... The Indian Railway Catering and Tourism Corporation (IRCTC) has officially released the notification to fill the vacanci .... Indian Railway Catering and Tourism Corporation (IRCTC) has declared the official notification for 2025. To fill up the...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-22T23:45:22.469595",
-      "links": []
-    },
-    {
-      "id": "fbe8a2bf1996d3ab2b43bd4eafe20ce2",
-      "title": "RITES",
-      "url": "https://allgovernmentjobs.in/rites-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Rail India Technical and Economic Service (RITES) has officially released the notification to fill the vacancies of .... The Rail India Technical and Economic Service (RITES) has officially released the notification to fill the vacancie .... The Rail India Technical and Economic Services (RITES) has officially released the notification to fill the vacancies of .... Rail India Technical and Economic Service (RITES) has declared the latest job notification for 2025. To fill up the vaca .......",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Engineering",
-      "skills": [],
-      "scraped_at": "2026-01-22T23:45:22.469635",
-      "links": []
-    },
-    {
-      "id": "4b6824cfdd13eac6c7cf7771ee6a1ba9",
-      "title": "GSSSB",
-      "url": "https://allgovernmentjobs.in/gsssb-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Gujarat Secondary Service Selection Board (GSSSB) has officially released the notification to fill the vacancies of .... The Gujarat Secondary Service Selection Board (GSSSB) has officially released the notification to fill the vacancies of .... The Gujarat Secondary Service Selection Board (GSSSB) has officially released the notification to fill the vacancies of .... The Gujarat Secondary Service Selection Board (GSSSB) has officially released the notification to fill the vacancies of .....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "General",
-      "skills": [],
-      "scraped_at": "2026-01-22T23:45:22.469652",
-      "links": []
-    },
-    {
-      "id": "d161bc0c67594cf587e563fe854ba278",
-      "title": "MHSRB",
-      "url": "https://allgovernmentjobs.in/mhsrb-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Andhra Pradesh Medical Services Recruitment Board (APMSRB) has officially released the notification to fill the vaca .... The Andhra Pradesh Medical Services Recruitment Board (APMSRB) has officially released the notification to fill the vaca .... The Medical and Health Recruitment Board Assam (MHRB Assam) has officially released the notification to fill the vacanci .... The Medical Services Recruitment Board Tamilnadu (MRB Tamilnadu) has officially released the notification to fill the v...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Medical",
-      "skills": [],
-      "scraped_at": "2026-01-22T23:45:22.469668",
-      "links": []
-    },
-    {
-      "id": "e00e623fc1b31ef4eaa1ec6ba2bd4b23",
-      "title": "NIRDPR",
-      "url": "https://allgovernmentjobs.in/nirdpr-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute of Rural Development and Panchayati Raj (NIRDPR) has officially released the notification to fill .... National Institute of Rural Development and Panchayati Raj (NIRDPR) has declared the official notification for 2025. To .... National Institute of Rural Development and Panchayati Raj (NIRDPR) has announced the official notification for 2025. To .... The National Institute of Rural Development and Panchayati Raj (NIRDPR) has declared the official notification for 2025....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2026-01-22T23:45:22.469684",
-      "links": []
-    },
-    {
-      "id": "31b76ebfb3605a9155ac00a89565681b",
-      "title": "Bihar Police Sub Inspector Prohibition Online Form 2026",
-      "url": "https://www.rojgarresult.com/bihar-police-sub-inspector-prohibition-2026/",
-      "source": "www.rojgarresult.com",
-      "description": "BPSSC Sub Inspector SI Prohibition Recruitment 2026 Apply Online for 78 Post Post Update Date: 22-01-2026 Short Description: Bihar Police Subordinate Services Commission BPSSC has released the advertisement Advt. No.-03/2026: For Selection of Sub-Inspector Prohibition in Prohibition, Excise & Registration Dept., Govt. of Bihar . Those Candidates Are Interested with BPSSC SI Prohibition Can Apply Online from 27/01/2026 to 27/02/2026. For other information related to Bihar Police SI Prohibition...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "27/02/2026",
-        "found_date": "22-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-22T23:45:46.156851",
-      "links": []
-    },
-    {
-      "id": "784a254b7270362224b5c5c448a819c2",
-      "title": "Bihar BTSC JE Junior Engineer Online Form 2025 Date Extended",
-      "url": "https://www.rojgarresult.com/bihar-btsc-je-junior-engineer-2025/",
-      "source": "www.rojgarresult.com",
-      "description": "Bihar BTSC JE Junior Engineer Recruitment 2025: Apply for 2809 Post Post Date: 13-12-2025 Short Description: Bihar BTSC JE Junior Engineer Online Form 2025: Bihar Technical Service Commission has announced recruitment for 2809 Posts of BTSC Bihar JE Junior Engineer Vacancy 2025. Candidates who want to apply online can apply from the link given on Rojgar Result. Bihar Lab Technician Online Form 2025 can be filled from 05 December to 12 January 2026. . More Other Recruitment / Syllabus / Admit ...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "13-12-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-22T23:45:46.156867",
-      "links": []
-    },
-    {
-      "id": "671bd1a1c8382dbc7a4acf5c4c244eae",
-      "title": "RRB Railway Group D Online Form 2026",
-      "url": "https://www.rojgarresult.com/rrb-group-d-2026/",
-      "source": "www.rojgarresult.com",
-      "description": "RRB Railway Group D Various Posts of Level-1 CEN 09/2025 Recruitment 2026: Apply Online for 22000 Post Post Update Date: 22-01-2026 Short Description: RRB Railway Group D Various Post Level – 1 CEN 09/2025 Apply Online for 22000 Post : Railway Recruitment Board RRB Group D Level 1 CEN 09/2025 Official Notification is Released and Online Form Now Started on 31 January 2026 to 02 March 2026 is Last Date for RRB Group D Level 1 Examination, Vacancy 2025 Full Notification available at the officia...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "02/03/2026",
-        "found_date": "22-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-22T23:45:46.156902",
-      "links": []
-    },
-    {
-      "id": "518ffd2970c10a19aa902b0d901bdb2a",
-      "title": "HPSC Assistant Engineer Civil Group B Online Form 2026 for 50 Post",
-      "url": "https://www.rojgarresult.com/hpsc-assistant-engineer-2026/",
-      "source": "www.rojgarresult.com",
-      "description": "HPSC Assistant Engineer Recruitment 2026: Apply for Civil Group B 50 Post Post Update Date: 09-01-2026 Short Description: HPSC Assistant Engineer Group B Online Form 2026: Haryana Public Service Commission has announced recruitment for 50 Posts of Haryana PSC Assistant Engineer Group B. Candidates who want to apply online can apply from the link given on Rojgar Result. Haryana Assistant Engineer Online Form 2026 can be filled from 13 January 2026 to 12 Febuary2026. More Other Recruitment / Sy...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "09-01-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Hindi"
-      ],
-      "scraped_at": "2026-01-22T23:45:46.156918",
-      "links": []
-    },
     {
       "id": "cc345f7f89250593e6641c2afc49cf37",
       "title": "UCIL Notification 2026 - Apply Online for 364 Apprentice Posts",
@@ -1364,22 +1188,6 @@
       "category": "SSC",
       "skills": [],
       "scraped_at": "2026-02-04T23:53:31.135738",
-      "links": []
-    },
-    {
-      "id": "a95f8b7b40027ba5de3cf611b212b5c1",
-      "title": "NHM Murshidabad Jobs 2026 - Apply Online for 10 Block Programme Coordinators Posts",
-      "url": "https://allgovernmentjobs.in/nhm-murshidabad-jobs-2026-apply-online-for-10-block-programme-coordinators-posts/38902",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Health Mission Murshidabad (NHM Murshidabad) has officially released the notification to fill the vacancies of 10 Block Programme Coordinator Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their post-graduation and MBA can apply for the NHM Murshidabad Jobs 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "21-02-2026",
-        "found_date": "02-02-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-02-04T23:53:31.141760",
       "links": []
     },
     {
@@ -2730,24 +2538,6 @@
       "links": []
     },
     {
-      "id": "37a526bbb32f5c72a7e311e4292dfac7",
-      "title": "HLL Notification 2026 - Walk-in interview for 09 Lab Technician, Staff Nurse and Other Posts",
-      "url": "https://allgovernmentjobs.in/hll-notification-2026-walk-in-interview-for-09-lab-technician-staff-nurse-and-other-posts/39189",
-      "source": "allgovernmentjobs.in",
-      "description": "The HLL Lifecare (HLL) has officially released the notification to fill the vacancies of 09 Senior Lab Technicians, Lab Technicians, Radiographers, Staff Nurses, and Medical Microbiologists. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their DMLT, M.Sc., B.Sc., B.Sc Nursing, GNM, or any degree can apply for the HLL Notification 2026. The interested applicants can attend the walk-in inte...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "21-02-2026",
-        "found_date": "18-02-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-02-18T23:55:20.661900",
-      "links": []
-    },
-    {
       "id": "6cdaf792fe6ec2b81e83090917800383",
       "title": "IIT Roorkee Notification 2026 - Apply Online for Junior Research Fellow Posts",
       "url": "https://allgovernmentjobs.in/iit-roorkee-notification-2026-apply-online-for-junior-research-fellow-posts/39186",
@@ -2907,22 +2697,6 @@
       "category": "Engineering",
       "skills": [],
       "scraped_at": "2026-02-18T23:55:20.668011",
-      "links": []
-    },
-    {
-      "id": "abf41712138c0cb8275888dd4a94681c",
-      "title": "NIT Warangal Jobs 2026 - Apply Online for Junior Research Fellow/ Senior Research Fellow Posts",
-      "url": "https://allgovernmentjobs.in/nit-warangal-jobs-2026-apply-online-for-junior-research-fellow-senior-research-fellow-posts/39185",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute of Technology Warangal (NIT Warangal) has officially released the notification to fill the vacancies of 01 Junior Research Fellow/ Senior Research Fellow Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B.Tech in Civil Engineering, M.E./M. Tech can apply for the NIT Warangal Jobs 2026. The interested applicants can apply in online mode. Here we have ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "21-02-2026",
-        "found_date": "18-02-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-02-18T23:55:20.673725",
       "links": []
     },
     {
@@ -3530,28 +3304,6 @@
       ]
     },
     {
-      "id": "151378b8981a1e4fab6c51fde77feca5",
-      "title": "Himanchal Pradesh English and Mathematics Teacher Online form 2026",
-      "url": "https://www.rojgarresult.com/himanchal-pradesh-teacher-2026/",
-      "source": "www.rojgarresult.com",
-      "description": "Himanchal Pradesh English & Mathematics Teacher Recruitment 2026: Apply Online for 624 Post Post Update Date: 20-02-2026 Short Description: HPRCA Himanchal Pradesh Rajya Chayan Aayog: has released the notification for the recruitment of English and Mathematics Teacher Purely on Engagement Basic through the official website of Himanchal Pradesh Rajya Chyan Aayog  Hamirpur http://hprca.hp.gov.in. Those Candidates Are Enrolled to the Following HPRCA English and Mathematics Teacher Vacancy Can Ap...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "21/02/2026",
-        "found_date": "20-02-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Mathematics",
-        "English",
-        "Hindi"
-      ],
-      "scraped_at": "2026-02-20T23:55:02.910301",
-      "links": [
-        "http://hprca.hp.gov.in."
-      ]
-    },
-    {
       "id": "596c37477fef2409076cec7802abac7c",
       "title": "MPPSC Assistant Town Planner Online Form 2026",
       "url": "https://www.rojgarresult.com/mppsc-assistant-town-planner-2026/",
@@ -3819,6 +3571,27 @@
       "links": [
         "https://careers.bhel.in/"
       ]
+    },
+    {
+      "id": "3bb078f6cebe92289fcafa37d490baeb",
+      "title": "VNIT Nagpur Non Academic Post Online Form 2026",
+      "url": "https://www.rojgarresult.com/vnit-nagpur-non-academic-post-2026/",
+      "source": "www.rojgarresult.com",
+      "description": "VNIT Nagpur Non Academic Post Recruitment 2026 Apply Online for 45 Post Post Update Date: 22-02-2026 Short Description: Visvesvaraya National Institute of Technology (VNIT) Nagpur, is an Institution of National Importance governed by the provisions of the National Institutes of Technology, Science Education and Research (NITSER) Act, 2007, functioning under the aegis of the Ministry of Education, Government of India. The Institute offers UG, PG and Ph.D. Programmes in various branches of Engi...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "22-02-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Excel",
+        "Word",
+        "Networking",
+        "Typing",
+        "Automation"
+      ],
+      "scraped_at": "2026-02-22T23:52:10.319498",
+      "links": []
     }
   ]
 }
