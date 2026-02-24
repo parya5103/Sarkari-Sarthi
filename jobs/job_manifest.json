@@ -1,92 +1,9 @@
 {
-  "last_updated": "2026-02-22T23:54:25.377400",
-  "total_jobs": 242,
-  "active_jobs": 242,
-  "expired_jobs": 18,
+  "last_updated": "2026-02-23T23:57:51.529775",
+  "total_jobs": 247,
+  "active_jobs": 247,
+  "expired_jobs": 6,
   "jobs": [
-    {
-      "id": "cc345f7f89250593e6641c2afc49cf37",
-      "title": "UCIL Notification 2026 - Apply Online for 364 Apprentice Posts",
-      "url": "https://allgovernmentjobs.in/ucil-notification-2026-apply-online-for-364-apprentice-posts/38610",
-      "source": "allgovernmentjobs.in",
-      "description": "The Uranium Corporation of India Limited (UCIL) has officially released the notification to fill the vacancies of 364 Graduate Apprentices, Diploma Apprentices, and Trade Apprentices. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their 10th pass, ITI, Diploma, B.E./B. Tech in Electrical,  Mechanical, Civil Engineering, MBA, LLB, and any degree can apply for the UCIL Notification 2026. Th...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "28-02-2026",
-        "found_date": "01-02-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-23T23:45:00.562079",
-      "links": []
-    },
-    {
-      "id": "24adc874035b34655ddf714e8e96d995",
-      "title": "NHSRC",
-      "url": "https://allgovernmentjobs.in/nhsrc-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Health Systems Resource Centre (NHSRC) has officially released the notification to fill the vacancies of 01 .... The National Health System Resource Centre (NHSRC) has officially released the notification to fill the vacancies of 02 .... The National Health Systems Resource Centre (NHSRC) has declared the official notification for 2025. To fill up the vaca .... The National Health Systems Resource Centre (NHSRC) has declared the official notification for 2025. To fill up the ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Medical",
-      "skills": [],
-      "scraped_at": "2026-01-23T23:45:00.567141",
-      "links": []
-    },
-    {
-      "id": "0db9cb070f15fcf797a8ee33c7ac4332",
-      "title": "NIT Jalandhar Jobs 2026 - Apply Online for 101 Faculty Posts",
-      "url": "https://allgovernmentjobs.in/nit-jalandhar-jobs-2026-apply-online-for-101-faculty-posts/38608",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute of Technology Jalandhar (NIT Jalandhar) has officially released the notification to fill the vacancies of 101 Assistant Professor, Associate Professor, and Professor Jobs. Interested anbd eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech, Ph.D., can apply for the NIT Jalandhar Jobs 2026. The interested applicants can apply in online mode. Here we have...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "27-02-2026",
-        "found_date": "22-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-23T23:45:00.572411",
-      "links": []
-    },
-    {
-      "id": "ef58ab45d9801e4e6edc36135a285012",
-      "title": "Rajasthan RIICO Various Post Online Form 2026",
-      "url": "https://www.rojgarresult.com/riico-various-post-2026/",
-      "source": "www.rojgarresult.com",
-      "description": "Rajasthan RIICO Various Post Recruitment 2026 Apply Online for 98 Post Post Update Date: 23-01-2026 Short Description: RAJASTHAN STATE INDUSTRIAL DEVELOPMENT AND INVESTMENT CORPORATION LIMITED RIICO has released the advertisement Advt. No. A.1(8)378/02/2025: For Selection of RAJASTHAN STATE INDUSTRIAL DEVELOPMENT AND INVESTMENT CORPORATION LIMITED . Those Candidates Are Interested with RIICO Various Post for 98 Post Can Apply Online from 21/01/2026 to 20/02/2026. For other information related...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "07/03/2026",
-        "found_date": "23-01-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "English",
-        "Hindi"
-      ],
-      "scraped_at": "2026-01-23T23:45:23.618759",
-      "links": []
-    },
-    {
-      "id": "5f277ad184e16f5c67bde66e8c201fd2",
-      "title": "HSSC Haryana Police Constable Online Form 2026 for 5500 Post",
-      "url": "https://www.rojgarresult.com/hssc-advt-01-2026/",
-      "source": "www.rojgarresult.com",
-      "description": "HSSC Haryana Constable  (MALE, FEMALE & GRP) Recruitment 2026 : Apply Online Form Post Update Date: 06-01-2026 Short Description: Haryana Police Constable Recruitment 2026 Apply Online Form : Haryana Constable Online Form 2026, Notification has been released on the website https://hssc.gov.in/ & Application Form now started on 11/01/2026 to 25/01/2026. Haryana Staff Selection Commission Jobs 2026. Get the direct link to download notification link available on HSSC Haryana Police Constable Rec...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "06-01-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Hindi"
-      ],
-      "scraped_at": "2026-01-23T23:45:23.618776",
-      "links": [
-        "https://hssc.gov.in/"
-      ]
-    },
     {
       "id": "dde74b164437063db8eaece5f50dabca",
       "title": "NIPER",
@@ -960,22 +877,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-02-03T23:53:43.157274",
-      "links": []
-    },
-    {
-      "id": "f28a9c569b1e72ac6829a5aa0fd2b9d2",
-      "title": "NIMHANS Notification 2026 - Apply Offline for Project Research Scientist II Posts",
-      "url": "https://allgovernmentjobs.in/nimhans-notification-2026-apply-offline-for-project-research-scientist-ii-posts/38882",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute of Mental Health and Neuro Sciences (NIMHANS) has officially released the notification to fill the vacancies of 01 Project Research Scientist II Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech, M.Sc can apply for the NIMHANS Notification 2026. The interested applicants can apply in offline mode. Here we have mentioned the educat...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "22-02-2026",
-        "found_date": "02-02-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-02-03T23:53:43.157295",
       "links": []
     },
     {
@@ -3591,6 +3492,168 @@
         "Automation"
       ],
       "scraped_at": "2026-02-22T23:52:10.319498",
+      "links": []
+    },
+    {
+      "id": "f18c04421e56aa0f8a6c0b38bd9889d1",
+      "title": "TMC Notification 2026 - Walk-in-Interview for Clinical Psychologist Posts",
+      "url": "https://allgovernmentjobs.in/tmc-notification-2026-walk-in-interview-for-clinical-psychologist-posts/39334",
+      "source": "allgovernmentjobs.in",
+      "description": "The Tata Memorial Centre (TMC) has declared the official notification for 2026. To fill up the various vacancies for Clinical Psychologist Jobs. Those candidates who have qualified in the M.Sc can grab this chance and apply for the TMC Notification 2026 . Here we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible aspirants can attend the walk-in at the address below. If you are looking for ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "12-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-23T23:55:13.890607",
+      "links": []
+    },
+    {
+      "id": "72adf996fef5fca08790943e4072b851",
+      "title": "IIT Kanpur Notification 2026 - Apply for Project Engineer Posts",
+      "url": "https://allgovernmentjobs.in/iit-kanpur-notification-2026-apply-for-project-engineer-posts/39330",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology Kanpur (IIT Kanpur) has declared the latest job notification for 2026. To fill up the various vacancies for Project Engineer Jobs. Those candidates who have qualified in the B.E/ B.Tech, M.E/ M.Tech in Electrical Engineering can usethis chance and apply for the IIT Kanpur Notification 202 6. Here we mentioned moredetails about the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. If you are look...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "03-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-23T23:55:13.890630",
+      "links": []
+    },
+    {
+      "id": "d39e990ac6ed49a29ef1e3c82fdb034a",
+      "title": "NIEPMD Notification 2026 - Walk-in interview for Senior Consultant Posts",
+      "url": "https://allgovernmentjobs.in/niepmd-notification-2026-walk-in-interview-for-senior-consultant-posts/39327",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Institute for Empowerment of Persons with Multiple Disabilities (NIEPDM) has officially released the notification to fill the vacancies of 01 Senior Consultant Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Post-graduation can apply for the NIEPMD Notification 2026. The interested applicants can attend the walk-in interview. Here we have mentioned the education d...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "02-03-2026",
+        "found_date": "20-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-23T23:55:13.890649",
+      "links": []
+    },
+    {
+      "id": "fd579d032265cc556d3acae14b43f76e",
+      "title": "ANGRAU Notification 2026 - Walk-in-Interview for Teaching Assistant Posts",
+      "url": "https://allgovernmentjobs.in/angrau-notification-2026-walk-in-interview-for-teaching-assistant-posts/39326",
+      "source": "allgovernmentjobs.in",
+      "description": "Acharya NG Ranga Agricultural University (ANGRAU) has declared the official notification for 2026. To fill up the various vacancies for Teaching Assistant Jobs. Candidates who have qualified in Any Degree, post-graduation, and Ph.D can use this opportunity and apply for the ANGRAU Notification 2026 . Here we include the age limit, selection process, and salary structure, education aldetails, application fee, and how to apply for these posts. If you are looking for more, here is a list of Gove...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "02-03-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "English"
+      ],
+      "scraped_at": "2026-02-23T23:55:13.890665",
+      "links": []
+    },
+    {
+      "id": "669308a17295e61489760fde406919ec",
+      "title": "SBI Notification 2026 - Apply Online for 116 Specialist Cadre Officer Posts",
+      "url": "https://allgovernmentjobs.in/sbi-notification-2026-apply-online-for-116-specialist-cadre-officer-posts/39325",
+      "source": "allgovernmentjobs.in",
+      "description": "The State Bank of India (SBI) has officially released the notification to fill the vacancies of 116 Assistant Vice President and Deputy Manager Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech, B.Sc., M.Sc., CA can apply for the SBI Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "15-03-2026",
+        "found_date": "23-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-23T23:55:13.890681",
+      "links": []
+    },
+    {
+      "id": "19b5d5a524e73c341f4e3fffe2fba01c",
+      "title": "AAI Recruitment 2026 - Apply for 02 Medical Consultant Posts",
+      "url": "https://allgovernmentjobs.in/aai-recruitment-2026-apply-for-02-medical-consultant-posts/39332",
+      "source": "allgovernmentjobs.in",
+      "description": "Airports Authority of India (AAI) has released an official notification for the recruitment of 02 Medical Consultants posts. Candidates who have qualified in the MBBS can grab this chance and apply for the AAI Recruitment 2026 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply on or before the last date of application. If you are looking for more, here is a lis...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "15-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-23T23:55:13.895716",
+      "links": []
+    },
+    {
+      "id": "854fc1bcbcd586c02a30b4b66d555d93",
+      "title": "NIEPMD",
+      "url": "https://allgovernmentjobs.in/niepmd-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Institute for Empowerment of Persons with Multiple Disabilities (NIEPDM) has officially released the notifi .... The National Institute for Empowerment of Persons with Multiple Disabilities (NIEPMD) has announced the latest job notif ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-23T23:55:13.895790",
+      "links": []
+    },
+    {
+      "id": "a875e1d99faab55e4364ae27119cec4d",
+      "title": "Anna University",
+      "url": "https://allgovernmentjobs.in/anna-university-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Anna University has officially released the notification to fill the vacancies of 01 Project Associate II Posts. Interes .... Anna University has released 02 Project Assistant Positions. Those candidates who have qualified in the B.E/ B.Tech .... Anna University has released an official notification for the recruitment of Various Project Assistant Posts. Those cand .... Anna University has released an official notification for Project Assistant Jobs 2026. Those candidates who have qu .... Ann...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-23T23:55:13.895812",
+      "links": []
+    },
+    {
+      "id": "39fdc487f3bd910560430a79ed0b6aab",
+      "title": "Andhra Pradesh APPSC",
+      "url": "https://allgovernmentjobs.in/andhra-pradesh-appsc-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Tirumala Tirupati Devasthanams (TTD) has declared the official notification for 2026. To fill up the vacancies for 08 Ci ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "General",
+      "skills": [],
+      "scraped_at": "2026-02-23T23:55:13.895868",
+      "links": []
+    },
+    {
+      "id": "0eccec97898c83684ab9474d5192a3c5",
+      "title": "IASST",
+      "url": "https://allgovernmentjobs.in/iasst-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Institute of Advanced Study in Science and Technology (IASST) hasdeclared the official notification for 2026. To fill up .... Institute of Advanced Study in Science and Technology (IASST) has declared the official notification for 2026. To fill u ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "UPSC",
+      "skills": [],
+      "scraped_at": "2026-02-23T23:55:13.895885",
+      "links": []
+    },
+    {
+      "id": "11661545aa906612a67e1872c24538c1",
+      "title": "IIM Udaipur Jobs 2026 - Apply Online for Senior Associate Posts",
+      "url": "https://allgovernmentjobs.in/iim-udaipur-jobs-2026-apply-online-for-senior-associate-posts/39331",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Institute of Management Udaipur (IIMU) has officially released the notification to fill the vacancies of 01 Senior Associate Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree, Post-graduation can apply for the IIM Udaipur Jobs 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "03-03-2026",
+        "found_date": "23-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-23T23:55:13.900922",
       "links": []
     }
   ]
