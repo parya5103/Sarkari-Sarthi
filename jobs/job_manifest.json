@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-02-27T23:52:13.768335",
-  "total_jobs": 271,
-  "active_jobs": 271,
-  "expired_jobs": 8,
+  "last_updated": "2026-02-28T23:49:42.640065",
+  "total_jobs": 282,
+  "active_jobs": 282,
+  "expired_jobs": 7,
   "jobs": [
     {
       "id": "60c5ed6e9032cc8c93a4298d7e317ecd",
@@ -250,22 +250,6 @@
       "category": "IT",
       "skills": [],
       "scraped_at": "2026-01-29T23:51:24.555913",
-      "links": []
-    },
-    {
-      "id": "1bdf7f2003179771be4a1e0cc66d50e3",
-      "title": "CERC Notification 2026 - Apply Offline for Staff Consultant Posts",
-      "url": "https://allgovernmentjobs.in/cerc-notification-2026-apply-offline-for-staff-consultant-posts/38799",
-      "source": "allgovernmentjobs.in",
-      "description": "The Central Electricity Regulatory Commission (CERC) has officially released the notification to fill the vacancies of 01 Staff Consultant Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech and MBA students can apply for the CERC Notification 2026. The interested applicants can apply in offline mode. Here we have mentioned the education details, age lim...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "27-02-2026",
-        "found_date": "28-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-30T23:51:11.535813",
       "links": []
     },
     {
@@ -1478,22 +1462,6 @@
       "links": []
     },
     {
-      "id": "23a74982edaf7c98807b2fe0961f68fc",
-      "title": "UP Anganwadi Jobs 2026 - Apply Online for 13 Anganwadi Worker Posts",
-      "url": "https://allgovernmentjobs.in/up-anganwadi-jobs-2026-apply-online-for-13-anganwadi-worker-posts/39046",
-      "source": "allgovernmentjobs.in",
-      "description": "The Uttar Pradesh Anganwadi (UP Anganwadi) has officially released the notification to fill the vacancies of 13 Anganwadi Worker Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their 10th, Any Degree, or post-graduation can apply for the UP Anganwadi Jobs 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection proc...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "27-02-2026",
-        "found_date": "07-02-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-02-10T00:03:14.655391",
-      "links": []
-    },
-    {
       "id": "2ff3862529d546751099416a2815656c",
       "title": "India Post GDS Online Form 2026",
       "url": "https://www.rojgarresult.com/india-post-gds-2026/",
@@ -1598,24 +1566,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-02-11T00:05:06.267012",
-      "links": []
-    },
-    {
-      "id": "88987a5aebddb7db46df44eec41f2430",
-      "title": "BARC Notification 2026 - Apply Online for 21 Scientific Officer, Technical Officer Posts",
-      "url": "https://allgovernmentjobs.in/barc-notification-2026-apply-online-for-21-scientific-officer-technical-officer-posts/38725",
-      "source": "allgovernmentjobs.in",
-      "description": "The Bhabha Atomic Research Centre (BARC) has officially released the notification to fill the vacancies of 21 Scientific Officer and Technical Officer Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS, MD/MS, DNB, BDS, or post-graduation can apply for the BARC Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the education details,...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "27-02-2026",
-        "found_date": "30-01-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Automation"
-      ],
-      "scraped_at": "2026-02-12T23:55:48.788966",
       "links": []
     },
     {
@@ -2478,22 +2428,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-02-20T23:54:35.395092",
-      "links": []
-    },
-    {
-      "id": "c2c0b66d872ebcf2ba3e8fba7b451c95",
-      "title": "AMU Notification 2026 - Apply Offline for Senior Project Associate Posts",
-      "url": "https://allgovernmentjobs.in/amu-notification-2026-apply-offline-for-senior-project-associate-posts/39252",
-      "source": "allgovernmentjobs.in",
-      "description": "The Aligarh Muslim University (AMU) has officially released the notification to fill the vacancies of 01 Senior Project Associate Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, MD/MS, Pharm D, and Post-graduation can apply for the AMU Notification 2026. The interested applicants can apply in offline mode. Here we have mentioned the education details, age limit, ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "27-02-2026",
-        "found_date": "19-02-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-02-20T23:54:35.395118",
       "links": []
     },
     {
@@ -4047,6 +3981,240 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-02-27T23:49:43.913949",
+      "links": []
+    },
+    {
+      "id": "82e9ef88210c4771cc10d1d376cfe328",
+      "title": "UCSL Notification 2026 - Apply Online for 02 Assistant Manager Posts",
+      "url": "https://allgovernmentjobs.in/ucsl-notification-2026-apply-online-for-02-assistant-manager-posts/39512",
+      "source": "allgovernmentjobs.in",
+      "description": "The Udupi Cochin Shipyard (UCSL) has officially released the notification to fill the vacancies of 02 Assistant Manager Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech in Electrical Engineering, Post-graduation, can apply for the UCSL Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, sel...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "23-03-2026",
+        "found_date": "28-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-28T23:46:47.650616",
+      "links": []
+    },
+    {
+      "id": "b70320939186487b2fd9e702d872766f",
+      "title": "GPSC Notification 2026 - Apply Online for 07 Assistant Engineer, Executive Engineer Posts",
+      "url": "https://allgovernmentjobs.in/gpsc-notification-2026-apply-online-for-07-assistant-engineer-executive-engineer-posts/39510",
+      "source": "allgovernmentjobs.in",
+      "description": "The Gujarat Public Service Commission (GPSC) has officially released the notification to fill the vacancies of 07 Assistant Engineer, Executive Engineer, and Deputy Executive Engineer Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech in Mechanical, Electrical, and Civil Engineering can apply for the GPSC Notification 2026. The interested applicants can apply in onlin...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "05-03-2026",
+        "found_date": "18-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-28T23:46:47.650645",
+      "links": []
+    },
+    {
+      "id": "32acbd41b9e0ed1b6d3154f5a17b4021",
+      "title": "HPLNG Notification 2026 - Apply Online for 04 Senior Engineer, Senior Officer Posts",
+      "url": "https://allgovernmentjobs.in/hplng-notification-2026-apply-online-for-04-senior-engineer-senior-officer-posts/39508",
+      "source": "allgovernmentjobs.in",
+      "description": "The Hindustan Petroleum Corporation LNG (HPLNG) has officially released the notification to fill the vacancies of 04 Senior Officers, Senior Engineers, and Group Managers. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech in Electrical and Mechanical Engineering can apply for the HPLNG Notification 2026. The interested applicants can apply in online mode. Here we have ment...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "15-03-2026",
+        "found_date": "28-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-28T23:46:47.650667",
+      "links": []
+    },
+    {
+      "id": "a8346afb0cf3743b35466fd9813ccc70",
+      "title": "BHEL Notification 2026 - Apply Offline for Medical Consultant Posts",
+      "url": "https://allgovernmentjobs.in/bhel-notification-2026-apply-offline-for-medical-consultant-posts/39507",
+      "source": "allgovernmentjobs.in",
+      "description": "Bharat Heavy Electricals Limited (BHEL) has declared the official notification for 2026. To fill up the vacancies for various Medical Consultant Jobs. Candidates who have qualified in MBBS can apply for the BHEL Notification 2026 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply before the application deadline. If you are looking for more, here is a list of Government Jobs...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "14-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-28T23:46:47.650686",
+      "links": []
+    },
+    {
+      "id": "2ab3ea6bfc1713c2e8663f5d1d870144",
+      "title": "NIT Trichy Notification 2026 - Walk-in-Interview for 13 Visiting Consultant Posts",
+      "url": "https://allgovernmentjobs.in/nit-trichy-notification-2026-walk-in-interview-for-13-visiting-consultant-posts/39506",
+      "source": "allgovernmentjobs.in",
+      "description": "National Institute of Technology (NIT) Tiruchirappalli has announced the official notification for 2026. To fill up the vacancies for 13 Visiting Consultant Jobs. Candidates who have qualified in MBBS, BAMS, BHMS, and MDS can apply for the NIT Trichy Notification 2026 . Here we includedthe age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can attend the walk-in at the address below. If you are looking fo...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "06-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-28T23:46:47.650706",
+      "links": []
+    },
+    {
+      "id": "d1a719ca9ddf424d91f7fad5db2119c6",
+      "title": "VMC Notification 2026 - Apply Online for 200 Assistant Engineer, Work Assistant Posts",
+      "url": "https://allgovernmentjobs.in/vmc-notification-2026-apply-online-for-200-assistant-engineer-work-assistant-posts/39505",
+      "source": "allgovernmentjobs.in",
+      "description": "The Vadodara Municipal Corporation (VMC) has officially released the notification to fill the vacancies of 200 Assistant Engineer and Work Assistant Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Diploma, B.E./B. Tech in Mechanical, Electrical, and Civil Engineering can apply for the VMC Notification 2026. The interested applicants can apply in online mode. Here we have mentio...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "09-03-2026",
+        "found_date": "28-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-28T23:46:47.650725",
+      "links": []
+    },
+    {
+      "id": "c2ccda58abc674f09b96dd3db66edc8c",
+      "title": "IACS Recruitment 2026 - Apply Offline for Research Associate I Posts",
+      "url": "https://allgovernmentjobs.in/iacs-recruitment-2026-apply-offline-for-research-associate-i-posts/39513",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Association for the Cultivation of Science (IACS) has declared the official notification for 2026. To fill up the vacancies for various Research Associate I Jobs. Those candidates who have qualified in the Post Graduation, Ph.D can grab this chance and apply for the IACS Recruitment 2026 . Interested candidates can apply before the lastdate of application. If you are looking for more, here is a list of Government Jobs in 2026 that you can all apply for. Use this link for more jobs ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "10-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-28T23:46:47.656461",
+      "links": []
+    },
+    {
+      "id": "d84658f94ba5ebafbf7b608cb0bfe212",
+      "title": "TISS Recruitment 2026 - Apply Online for 02 Data Officer Posts",
+      "url": "https://allgovernmentjobs.in/tiss-recruitment-2026-apply-online-for-02-data-officer-posts/39511",
+      "source": "allgovernmentjobs.in",
+      "description": "Tata Institute of Social Sciences (TISS) has declared the official notification for 2026. To fill up the vacancies for 02 Data Officer Jobs. Candidates who have qualified in Any Degree, post-graduation, can grab this chance and apply for the TISS Recruitment 2026 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply online before the lastdate of application. If y...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "10-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-28T23:46:47.656487",
+      "links": []
+    },
+    {
+      "id": "0099242040e0c78268ac14c454e7a597",
+      "title": "ESIC Recruitment 2026 - Walk-in-Interview for 03 Medical Officer Posts",
+      "url": "https://allgovernmentjobs.in/esic-recruitment-2026-walk-in-interview-for-03-medical-officer-posts/39509",
+      "source": "allgovernmentjobs.in",
+      "description": "Employees' State Insurance Corporation (ESIC) has released an official notification for a Walk-in Interview for 03 Medical Officer Posts. Candidates who have qualified in the MBBS can apply for the ESIC Recruitment 2026 . Eligible candidates can attend the Walk-in Interview at the given venue. For more details, visit the official website. If you are looking for more, here is a list of Government Jobs in 2026 that you can all apply for. Use this link for more jobs in Chhattisgarh . ESIC Recrui...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "11-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-28T23:46:47.656507",
+      "links": []
+    },
+    {
+      "id": "2ca72338a158ca88c6e6689e477ce83e",
+      "title": "NIT Trichy",
+      "url": "https://allgovernmentjobs.in/nit-trichy-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "National Institute of Technology (NIT) Tiruchirappalli has announced the official notification for 2026. To fill up the .... The National Institute of Technology Tiruchirappalli (NIT Tiruchirappalli) has officially released the notification to f .... The National Institute of Technology Tiruchirappalli (NIT Trichy) has officially released the notification to fill the v .... The National Institute of Technology Tiruchirappalli (NIT Trichy) has officially released the notification to fill the v...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2026-02-28T23:46:47.656581",
+      "links": []
+    },
+    {
+      "id": "485f4fe8d68e0abc6622c76707406f53",
+      "title": "E-courts",
+      "url": "https://allgovernmentjobs.in/e-courts-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "District Collectorate Buxar has announced an official notification for 2026. To fill up the vacancies for Project O .... District Legal Services Authority (DLSA) Paschim Bardhaman has declared the official notification for 2026. To fill up t .... The Office of the District Legal Services Authority (DLSA), Samastipur, has invited applications for the selection of Pa .... District Legal Services Authority (DLSA Koraput) has declared the official notification for 2026. To fill up the vacanci ......",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-28T23:46:47.656627",
+      "links": []
+    },
+    {
+      "id": "671bd1a1c8382dbc7a4acf5c4c244eae",
+      "title": "RRB Railway Group D Online Form 2026",
+      "url": "https://www.rojgarresult.com/rrb-group-d-2026/",
+      "source": "www.rojgarresult.com",
+      "description": "RRB Railway Group D Various Posts of Level-1 CEN 09/2025 Recruitment 2026: Apply Online for 22195 Post Post Update Date: 28-02-2026 Short Description: RRB Railway Group D Various Post Level – 1 CEN 09/2025 Apply Online for 22195 Post : Railway Recruitment Board RRB Group D Level 1 CEN 09/2025 Official Notification is Released and Online Form Now Started on 31 January 2026 to 02 March 2026 is Last Date for RRB Group D Level 1 Examination, Vacancy 2025 Full Notification available at the officia...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "02/03/2026",
+        "found_date": "28-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-28T23:47:11.412022",
+      "links": []
+    },
+    {
+      "id": "eb8df7ad3723a407709b87f6998092ef",
+      "title": "MPESB Van Rakshak, Jal Prahari Online Form 2026 for 1679 Post",
+      "url": "https://www.rojgarresult.com/mpesb-van-rakshak-jal-prahari-2026/",
+      "source": "www.rojgarresult.com",
+      "description": "MP Van Rakshak, Jal Prahari Recruitment 2026: Apply for 1679 Post Post Date: 01-03-2026 Short Description: MPESB Van Rakshak, Jal Prahari Recruitment 2026 Apply Online Form : MP Van Rakshak, Jal Prahari Online Form 2026, Notification has been released on the website https://esb.mp.gov.in/  & Application Form now started on 28 February 2026 to 14 March 2026. Madhya Pradesh Employee Selection Board Jobs 2026. Get the direct link to download notification link available on MPESB Van Rakshak, Jal ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "19/03/2026",
+        "found_date": "01-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-28T23:47:11.412215",
+      "links": [
+        "https://esb.mp.gov.in/"
+      ]
+    },
+    {
+      "id": "0fa0ea112523ba765e9a5d31d0698e19",
+      "title": "UPSSSC Pharmacist Online Form 2026 for 560 Post",
+      "url": "https://www.rojgarresult.com/upsssc-pharmacist-2026/",
+      "source": "www.rojgarresult.com",
+      "description": "UPSSSC Pharmacist Recruitment 2026: Apply Online for 560 Post Post Date: 28-02-2026 Short Description: UPSSSC Pharmacist Recruitment 2026 Apply Online Form : UPSSSC Pharmacist Online Form 2026, Notification has been released on the website @https://upsssc.gov.in/ & Application Form now started on 09 March 2026 to 29 March 2026. Uttar Pradesh Subordinate Service Selection Commission Jobs 2026. Get the direct link to download notification link available on UPSSSC Pharmacist Vacancy 2026 Officia...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "28-02-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-02-28T23:47:11.412235",
+      "links": [
+        "https://upsssc.gov.in/"
+      ]
+    },
+    {
+      "id": "38da81d038c3042bbbea3ed06e34ac2a",
+      "title": "CSBC Bihar Police Constable Operator Online Form 2026",
+      "url": "https://www.rojgarresult.com/csbc-bihar-police-constable-operator-2026/",
+      "source": "www.rojgarresult.com",
+      "description": "Bihar Police CSBC Constable Operator Recruitment 2026 Apply Online for 993 Post Post Update Date: 28-02-2026 Short Description: Central Selection Board of Constable CSBC has released the advertisement Bihar Police Constable Operator in Bihar Police (Advt. No. 02/2026 ) . Those Candidates Are Interested with Bihar Police CSBC Constable Operator Vacancy Can Apply Online from 01/03/2026 to 31/03/2026. For other information related to Bihar Police Constable Operator 2026 recruitment like age limi...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "31/03/2026",
+        "found_date": "28-02-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Mathematics"
+      ],
+      "scraped_at": "2026-02-28T23:47:11.412270",
       "links": []
     }
   ]
