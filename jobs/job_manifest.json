@@ -1,178 +1,9 @@
 {
   "last_updated": "2026-03-02T23:55:05.844017",
-  "total_jobs": 268,
-  "active_jobs": 268,
-  "expired_jobs": 16,
+  "total_jobs": 251,
+  "active_jobs": 251,
+  "expired_jobs": 17,
   "jobs": [
-    {
-      "id": "4ef59836aa9e887e5eba0181ddf82af2",
-      "title": "CUSAT Notification 2026 - Apply Online for 03 Technical Assistant Grade III Posts",
-      "url": "https://allgovernmentjobs.in/cusat-notification-2026-apply-online-for-03-technical-assistant-grade-iii-posts/38827",
-      "source": "allgovernmentjobs.in",
-      "description": "Cochin University of Science and Technology (CUSAT) has announced the official notification for 2026. Allotted 03 vacancies for Technical Assistant Grade III Jobs. Those candidates who have qualified in the Post-Graduation, M.Sc can grab this chance and apply for the CUSAT Notification 2026 . Here, we mentioned the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply online before the last date of...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "13-02-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-31T23:47:48.211862",
-      "links": []
-    },
-    {
-      "id": "0966d8000e7e879eea45fd63597af816",
-      "title": "ACTREC Recruitment 2026 - Walk-in-Interview for Lab Assistant Posts",
-      "url": "https://allgovernmentjobs.in/actrec-recruitment-2026-walk-in-interview-for-lab-assistant-posts/38829",
-      "source": "allgovernmentjobs.in",
-      "description": "The Advanced Centre for Treatment Research and Education in Cancer (ACTREC) has published the official notification for 2026. To fill up the various vacancies for Lab Assistant Jobs. Those candidates who have qualified in the 10th Pass can grab this chance and apply for the ACTREC Recruitment 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can attend the walk-in at the addr...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "09-02-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-31T23:47:48.217646",
-      "links": []
-    },
-    {
-      "id": "f0a8cbbbc4bbdb2430fe6c568d925bec",
-      "title": "DRDO CABS Recruitment 2026 - Apply Offline for 10 Junior Research Fellow Posts",
-      "url": "https://allgovernmentjobs.in/drdo-cabs-recruitment-2026-apply-offline-for-10-junior-research-fellow-posts/38826",
-      "source": "allgovernmentjobs.in",
-      "description": "The Centre for Airborne Systems Defence Research and Development Organisation (DRDO CABS) has declared the latest notification for 2026. To fill up the 10 vacancies for Junior Research Fellow Jobs. Those candidates who have qualified in the B.E/ B.Tech, M.E/ M.Tech in Mechanical Engineering can usethis chance and apply for these posts. Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for the DRDO CABS Recruitment 2026 ....",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "22-10-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-31T23:47:48.217683",
-      "links": []
-    },
-    {
-      "id": "376a457358a8b2255e8378ef7e63100b",
-      "title": "JIPMER Recruitment 2026 - Walk-in-Interview for Project Associate I Posts",
-      "url": "https://allgovernmentjobs.in/jipmer-recruitment-2026-walk-in-interview-for-project-associate-i-posts/38824",
-      "source": "allgovernmentjobs.in",
-      "description": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has declared the official notification for 2026. To fill up the various vacancies for Project Associate I Jobs. Those candidates who have completed their Any Degree, B.Pharm, B.Sc Nursing can grab this chance and apply for the JIPMER Recruitment 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. If you are looking for more...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "10-02-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-31T23:47:48.217704",
-      "links": []
-    },
-    {
-      "id": "86fd845244cc5346da799b9d97892c05",
-      "title": "PGIMER Recruitment 2026 - Walk-in-Interview for 02 Senior Resident Posts",
-      "url": "https://allgovernmentjobs.in/pgimer-recruitment-2026-walk-in-interview-for-02-senior-resident-posts/38820",
-      "source": "allgovernmentjobs.in",
-      "description": "Postgraduate Institute of Medical Education and Research (PGIMER) has declared the official notification for 2026. To fill up the 02 vacancies for Senior Resident Jobs. Those candidates who have qualified in the MD/ MS can grab this chance and apply for the PGIMER Recruitment 2026 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can attend the walk-in at the address below. If you a...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "09-02-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-31T23:47:48.217746",
-      "links": []
-    },
-    {
-      "id": "2f3a9e103a2c6c8b8d9eeabca9db8828",
-      "title": "CUSAT",
-      "url": "https://allgovernmentjobs.in/cusat-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Cochin University of Science and Technology (CUSAT) has announced the official notification for 2026. Allotted 03 vacanc .... The Cochin University of Science and Technology (CUSAT) has officially released the notification to fill the vacancies o .... Cochin University of Science and Technology (CUSAT) has declared he official notification for 2026. To fill up the vacan .... Cochin University of Science and Technology (CUSAT) has declared the official notification for 2025. To fill up the vac...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2026-01-31T23:47:48.217793",
-      "links": []
-    },
-    {
-      "id": "818522cb4bc2c252d5b6a9f389355e7c",
-      "title": "Mumbai Port Trust",
-      "url": "https://allgovernmentjobs.in/mumbai-port-trust-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Mumbai Port Trust has officially released the notification to fill the vacancies of 01 Chief Asset Monetisation Offi .... Mumbai Port Trust has declared he official notification for 2026. To fill up the 24 vacancies for Junior Associate .... Mumbai Port Authority has declared the official notification for 2025. To fill up the vacancies for 04 Chief Mechan .... Mumbai Port Authority has declared the official notification for 2025. To fill up the vacancies for Junior Director .... Mumbai Po...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-31T23:47:48.217817",
-      "links": []
-    },
-    {
-      "id": "fb9f1d796e91366f4fb21016a3ff430b",
-      "title": "JIPMER",
-      "url": "https://allgovernmentjobs.in/jipmer-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has declared the official notification for .... Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has declared the official notification for .... The Jawaharlal Institute of Postgraduate Medical Education & Research (JIPMER) has officially released the notificat .... Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has declared the official notification for .... ...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-31T23:47:48.217837",
-      "links": []
-    },
-    {
-      "id": "5ea0e2fa55894c438afb37484949aa68",
-      "title": "Paradip Port Trust",
-      "url": "https://allgovernmentjobs.in/paradip-port-trust-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Paradip Port Authority has officially released the notification to fill the vacancies of 02 Deputy Chief Medica .... The Paradip Port Authority (PPT) has officially released the notification to fill the vacancies of 02 Marine Engineers a ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-31T23:47:48.217858",
-      "links": []
-    },
-    {
-      "id": "84099683de7bb3102bfb6cb759235bc7",
-      "title": "Oil India Limited",
-      "url": "https://allgovernmentjobs.in/oil-india-limited-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Oil India Limited (Oil India) has officially released the notification to fill the vacancies of 02 Electrician and .... The North East Gas Distribution Company Limited (NEGDCL) has officially released the notification to fill the vacancies .... Oil India Limited (Oil India) has officially released the notification to fill the vacancies of 02 Doctor Posts. Interes .... Oil India Limited (Oil India) has officially released the notification to fill the vacancies of 09 Chemist, Geologist Po .... ...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-31T23:47:48.217922",
-      "links": []
-    },
-    {
-      "id": "6fb71261557e721cf6923a207ec53d89",
-      "title": "DMRCL",
-      "url": "https://allgovernmentjobs.in/dmrc-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Delhi Metro Rail Corporation (DMRC) has officially released the notification to fill the vacancies of 07 Joint .... The Delhi Metro Rail Corporation (DMRC) has officially released the notification to fill the vacancies of 01 Manager Pos .... The Delhi Metro Rail Corporation (DMRC) has officially released the notification to fill the vacancies of 01 Chief Engin .... The Delhi Metro Rail Corporation Limited (DMRC) has officially released the notification to fill the vacancies of 01 Sec .......",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-01-31T23:47:48.217944",
-      "links": []
-    },
-    {
-      "id": "d19ffececee0fd039da00e61821037ce",
-      "title": "RRB Notification 2026 - Apply Online for 22195 Group D Posts",
-      "url": "https://allgovernmentjobs.in/rrb-notification-2026-apply-online-for-22195-group-d-posts/38845",
-      "source": "allgovernmentjobs.in",
-      "description": "The Railway Recruitment Board (RRB) has officially released the notification to fill the vacancies of 22195 Assistant, Track Maintainer, Assistant Operations, and Pointsman B Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their 10th or ITI can apply for the RRB Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age l...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "02-03-2026",
-        "found_date": "31-01-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-02-02T23:54:47.797688",
-      "links": []
-    },
     {
       "id": "52a3042918bfd391b48ac6f5328f4dbc",
       "title": "BFUHS",
@@ -1166,25 +997,6 @@
       ]
     },
     {
-      "id": "4ee7093aa426d7ff24fd0921c29dd3a3",
-      "title": "Chandigarh Police Tailor Group C Online Form 2026",
-      "url": "https://www.rojgarresult.com/chandigarh-police-tailor-2026/",
-      "source": "www.rojgarresult.com",
-      "description": "Chandigarh Police Tailor Group C Recruitment 2026: Apply Online for 02 Post Post Update Date: 10-02-2026 Short Description: The Chandigarh Police has released the Chandigarh Police Tailor Online Form 2026 for a total of 02 Posts . The online application process will begin on 10 February 2026 , and the last date to apply and complete the form is 02 March 2026 . Candidates can make corrections in the application form as per the official schedule. The Chandigarh Police Tailor Exam Date and Answe...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "02/03/2026",
-        "found_date": "10-02-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Hindi",
-        "English"
-      ],
-      "scraped_at": "2026-02-11T00:05:06.266993",
-      "links": []
-    },
-    {
       "id": "5f18f7366742dbb510bba3daa786ef8e",
       "title": "CCS University Meerut BED Examination Form 2026",
       "url": "https://www.rojgarresult.com/ccs-university-meerut-examination-form/",
@@ -1486,24 +1298,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-02-14T23:50:05.889361",
-      "links": []
-    },
-    {
-      "id": "d3f90db88c6a7033aae5d9672ba5944b",
-      "title": "NHSRC Notification 2026 - Apply Online for 03 Consultant Posts",
-      "url": "https://allgovernmentjobs.in/nhsrc-notification-2026-apply-online-for-03-consultant-posts/38969",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Health Systems Resource Centre (NHSRC) has officially released the notification to fill the vacancies of 03 Consultant Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS, BDS, and MD/MS can apply for the NHSRC Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process,  applic...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "02-03-2026",
-        "found_date": "06-02-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-02-16T23:55:17.583786",
       "links": []
     },
     {
@@ -2726,22 +2520,6 @@
       "links": []
     },
     {
-      "id": "d39e990ac6ed49a29ef1e3c82fdb034a",
-      "title": "NIEPMD Notification 2026 - Walk-in interview for Senior Consultant Posts",
-      "url": "https://allgovernmentjobs.in/niepmd-notification-2026-walk-in-interview-for-senior-consultant-posts/39327",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute for Empowerment of Persons with Multiple Disabilities (NIEPDM) has officially released the notification to fill the vacancies of 01 Senior Consultant Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Post-graduation can apply for the NIEPMD Notification 2026. The interested applicants can attend the walk-in interview. Here we have mentioned the education d...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "02-03-2026",
-        "found_date": "20-02-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-02-23T23:55:13.890649",
-      "links": []
-    },
-    {
       "id": "fd579d032265cc556d3acae14b43f76e",
       "title": "ANGRAU Notification 2026 - Walk-in-Interview for Teaching Assistant Posts",
       "url": "https://allgovernmentjobs.in/angrau-notification-2026-walk-in-interview-for-teaching-assistant-posts/39326",
@@ -3389,24 +3167,6 @@
       "links": []
     },
     {
-      "id": "19828ac1ee567136eb611611bf4c2557",
-      "title": "BARC Notification 2026 - Apply Online for 61 ITI Apprentice Posts",
-      "url": "https://allgovernmentjobs.in/barc-notification-2026-apply-online-for-61-iti-apprentice-posts/39470",
-      "source": "allgovernmentjobs.in",
-      "description": "The Bhabha Atomic Research Centre (BARC) has officially released the notification to fill the vacancies of 61 ITI Apprentice Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their 10th and ITI can apply for the BARC Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, application details, ag...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "02-03-2026",
-        "found_date": "25-02-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-02-27T23:49:43.902138",
-      "links": []
-    },
-    {
       "id": "c40e5a2c056ff6210108d4548120e88e",
       "title": "EIL Notification 2026 - Apply Online for 06 Junior Secretary Posts",
       "url": "https://allgovernmentjobs.in/eil-notification-2026-apply-online-for-06-junior-secretary-posts/39466",
@@ -3709,22 +3469,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-02-28T23:46:47.656627",
-      "links": []
-    },
-    {
-      "id": "671bd1a1c8382dbc7a4acf5c4c244eae",
-      "title": "RRB Railway Group D Online Form 2026",
-      "url": "https://www.rojgarresult.com/rrb-group-d-2026/",
-      "source": "www.rojgarresult.com",
-      "description": "RRB Railway Group D Various Posts of Level-1 CEN 09/2025 Recruitment 2026: Apply Online for 22195 Post Post Update Date: 28-02-2026 Short Description: RRB Railway Group D Various Post Level – 1 CEN 09/2025 Apply Online for 22195 Post : Railway Recruitment Board RRB Group D Level 1 CEN 09/2025 Official Notification is Released and Online Form Now Started on 31 January 2026 to 02 March 2026 is Last Date for RRB Group D Level 1 Examination, Vacancy 2025 Full Notification available at the officia...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "02/03/2026",
-        "found_date": "28-02-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-02-28T23:47:11.412022",
       "links": []
     },
     {
