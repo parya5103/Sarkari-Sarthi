@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-03-06T23:55:02.034756",
-  "total_jobs": 277,
-  "active_jobs": 277,
-  "expired_jobs": 10,
+  "last_updated": "2026-03-07T23:51:21.378326",
+  "total_jobs": 289,
+  "active_jobs": 289,
+  "expired_jobs": 1,
   "jobs": [
     {
       "id": "f1cacc39a1e9da8b147a0cf79f1df8f1",
@@ -2808,24 +2808,6 @@
       "links": []
     },
     {
-      "id": "b37eb4d7b41359fd37fb5d5f410e3038",
-      "title": "NAL Notification 2026 - Walk-in interview for 02 Medical Officer Posts",
-      "url": "https://allgovernmentjobs.in/nal-notification-2026-walk-in-interview-for-02-medical-officer-posts/39464",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Aerospace Laboratories (NAL) has officially released the notification to fill the vacancies of 02 Medical Officer Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS can apply for the NAL Notification 2026. The interested applicants can attend the walk-in interview. Here we have mentioned the education details, age limit, selection process, application fee, salar...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "06-03-2026",
-        "found_date": "25-02-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-02-27T23:49:43.902179",
-      "links": []
-    },
-    {
       "id": "cd38343984da5d810cd834aa174a0111",
       "title": "Oil India Notification 2026 - Apply Offline for 02 Consultant Posts",
       "url": "https://allgovernmentjobs.in/oil-india-notification-2026-apply-offline-for-02-consultant-posts/39462",
@@ -4202,6 +4184,203 @@
       "category": "Engineering",
       "skills": [],
       "scraped_at": "2026-03-06T23:52:14.199495",
+      "links": []
+    },
+    {
+      "id": "c3a8df0a1c4236c7136de926004b7a8b",
+      "title": "GSSSB Notification 2026 - Apply Online for 43 Junior Geologist Posts",
+      "url": "https://allgovernmentjobs.in/gsssb-notification-2026-apply-online-for-43-junior-geologist-posts/39724",
+      "source": "allgovernmentjobs.in",
+      "description": "The Gujarat Subordinate Service Selection Board (GSSSB) has officially released the notification to fill the vacancies of 43 Junior Geologist Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, Post-graduation, can apply for the GSSSB Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, select...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "20-03-2026",
+        "found_date": "06-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-07T23:48:38.762907",
+      "links": []
+    },
+    {
+      "id": "a9d09e63c40793949dd5dd51bc0c9340",
+      "title": "WAMUL Notification 2026 - Walk-in interview for Assistant I Posts",
+      "url": "https://allgovernmentjobs.in/wamul-notification-2026-walk-in-interview-for-assistant-i-posts/39722",
+      "source": "allgovernmentjobs.in",
+      "description": "The West Assam Milk Producers Cooperative Union Limited (WAMUL) has officially released the notification to fill the vacancies of 01 Assistant Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed any degree can apply for the WAMUL Notification 2026. The interested applicants can attend the walk-in interview. Here we have mentioned the education details, age limit, selection process, appl...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "09-03-2026",
+        "found_date": "01-03-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-03-07T23:48:38.762933",
+      "links": []
+    },
+    {
+      "id": "09ca252e54e0bcbf912cdf0458171e29",
+      "title": "NGRI Notification 2026 - Apply Online for 07 Senior Project Associate Posts",
+      "url": "https://allgovernmentjobs.in/ngri-notification-2026-apply-online-for-07-senior-project-associate-posts/39716",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Geophysical Research Institute (NGRI) has officially released the notiifcation to fill the vacancies of 07 Project Associate I, II, Senior Project Associate, and Research Associate I Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their M.E./M. Tech, M.Sc, Ph.D. can apply for the NGRI Notification 2026. The interested applicants can apply in online mode. Here we have men...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "09-03-2026",
+        "found_date": "04-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-07T23:48:38.762955",
+      "links": []
+    },
+    {
+      "id": "50a10ee779fa8168b198835449c1ec19",
+      "title": "NIMHANS Recruitment 2026 - Apply for Project Research Scientist I Posts",
+      "url": "https://allgovernmentjobs.in/nimhans-recruitment-2026-apply-for-project-research-scientist-i-posts/39723",
+      "source": "allgovernmentjobs.in",
+      "description": "National Institute of Mental Health and Neurosciences (NIMHANS) has declared the official notification for the recruitment of various Project Research Scientist I Jobs. Those candidates who have qualified in the Post Graduation, Ph.D can grab this chance and apply for the NIMHANS Recruitment 2026 . Herewe included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply on or before the last date ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "20-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-07T23:48:38.768729",
+      "links": []
+    },
+    {
+      "id": "879818727dab07925c4fb406316994d6",
+      "title": "AIIMS Bathinda Recruitment 2026 - Walk-in-Interview for 03 Pharmacist and Other Posts",
+      "url": "https://allgovernmentjobs.in/aiims-bathinda-recruitment-2026-walk-in-interview-for-pharmacist-and-other-posts/39516",
+      "source": "allgovernmentjobs.in",
+      "description": "All India Institute of Medical Sciences, Bathinda (AIIMS Bathinda) has declared the official notification for 2026. To fill up the vacancies for 03 Data Entry Operators, Pharmacist, and Nursing Officer, Technician Jobs. Those candidates who have qualified in the Any Degree, GNM, B.Sc Nursing, B.Pharm, and B.Sc can grab this chance and apply for the AIIMS Bathinda Recruitment 2026 . Herewe included the age limit, selection process, salary structure, application fee, and how to apply for these ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "16-03-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-03-07T23:48:38.768754",
+      "links": []
+    },
+    {
+      "id": "44a878c175a5544b1d394d60fb20f74c",
+      "title": "DMRC Recruitment 2026 - Apply Offline for Maintainer Posts",
+      "url": "https://allgovernmentjobs.in/dmrc-recruitment-2026-apply-offline-for-maintainer-posts/39719",
+      "source": "allgovernmentjobs.in",
+      "description": "Delhi Metro Rail Corporation (DMRC) has declared the official notification for 2026. To fill up the vacancies for various Maintenance Jobs. Those candidates who have qualified in the ITI can use this opportunity and apply for the DMRC Recruitment 2026 . Herewe included the age limit, selection process, salarystructure, education details, application fee, and how to apply for these posts. Interested candidates can apply before the last date of application. If you are looking for more, here is ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "09-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-07T23:48:38.768773",
+      "links": []
+    },
+    {
+      "id": "58e319292cb789cdc089598352f679e2",
+      "title": "WCD Balod Recruitment 2026 - Apply Offline for Sahayak Posts",
+      "url": "https://allgovernmentjobs.in/wcd-balod-recruitment-2026-apply-offline-for-sahayak-posts/39718",
+      "source": "allgovernmentjobs.in",
+      "description": "Women and Child Development Department, Balod (WCD Balod) has declared the official notification for 2026. To fill up the various vacancies for Sahayak Jobs. Those candidates who have qualified in the Intermediate (10+2) can grab this chance and apply for the WCD Balod Recruitment 2026 . Here we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply beforethe last date of application. I...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "20-03-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-03-07T23:48:38.768792",
+      "links": []
+    },
+    {
+      "id": "4b6824cfdd13eac6c7cf7771ee6a1ba9",
+      "title": "GSSSB",
+      "url": "https://allgovernmentjobs.in/gsssb-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Gujarat Subordinate Service Selection Board (GSSSB) has officially released the notification to fill the vacancies o .... The Gujarat Subordinate Service Selection Board (GSSSB) has officially released the notification to fill the vacancies o .... The Gujarat Subordinate Service Selection Board (GSSSB) has officially released the notification to fill the vacancies o .... The Gujarat Secondary Service Selection Board (GSSSB) has officially released the notification to fill the vacancies of...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "General",
+      "skills": [],
+      "scraped_at": "2026-03-07T23:48:38.768819",
+      "links": []
+    },
+    {
+      "id": "c409ba57a5c5da6ab33f2e974d5d1b1c",
+      "title": "NIMHANS",
+      "url": "https://allgovernmentjobs.in/nimhans-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "National Institute of Mental Health and Neurosciences (NIMHANS) has declared the official notification for the recruitme .... The National Institute of Mental Health and Neuro Sciences (NIMHANS) has officially released the notification to fill th .... National Institute of Mental Health and Neurosciences (NIMHANS) has declared the official notification for 2026. To .... National Institute of Mental Health and Neurosciences (NIMHANS) has declared the official notification for 2026. To fill ......",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Medical",
+      "skills": [],
+      "scraped_at": "2026-03-07T23:48:38.768840",
+      "links": []
+    },
+    {
+      "id": "6b94a488e0735138cd95ca79ac0dad8f",
+      "title": "Metro Railway",
+      "url": "https://allgovernmentjobs.in/metro-railway-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Delhi Metro Rail Corporation (DMRC) has declared the official notification for 2026. To fill up the vacancies for variou .... Uttar Pradesh Metro Rail Corporation (UPMRCL) has declared the official notification for 2026. To fill up the vacancies .... The Delhi Metro Rail Corporation (DMRC) has declared the official notification for 2025. To fill up the vacancies for&nb .... Delhi Metro Rail Corporation (DMRC) has declared the official notification for 2025. To fill up the vacancies for S .......",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-07T23:48:38.768908",
+      "links": []
+    },
+    {
+      "id": "814f9467215ed6c3767cb9f4b79d4e8b",
+      "title": "MSME - Technology Centre",
+      "url": "https://allgovernmentjobs.in/msme-technology-centre-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Coir Board has officially released the notification to fill the vacancies of 07 Fitter, Welder, Electrician, an .... The Ministry of Micro, Small, and Medium Enterprises (MSME) has officially released the notification to fill the vacanci ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2026-03-07T23:48:38.768979",
+      "links": []
+    },
+    {
+      "id": "a4f933519dff5e397d78dd794f4958ab",
+      "title": "MPPGCL",
+      "url": "https://allgovernmentjobs.in/mppgcl-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Madhya Pradesh Power Generation Company Limited (MPPGCL) has declared the official notification for the recruitment of 0 .... The Madhya Pradesh Power Generating Company Limited (MPPGCL) has officially released the notification to fill the vacanc .... The Madhya Pradesh Power Generation Company Limited (MPPGCL) has officially released the notification to fill the vacanc ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-07T23:48:38.769000",
+      "links": []
+    },
+    {
+      "id": "48ca35177ed52a2136ab260d3aec2bb9",
+      "title": "AIIMS Nagpur Jobs 2026 - Apply Online for Project Technical Support III Posts",
+      "url": "https://allgovernmentjobs.in/aiims-nagpur-jobs-2026-apply-online-for-project-technical-support-iii-posts/39717",
+      "source": "allgovernmentjobs.in",
+      "description": "The All India Institute of Medical Sciences, Nagpur (AIIMS Nagpur) has officially released the notification to fill the vacancies of 01 Project Technical Support III Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree, Post-graduation, B.E./B. Tech in Computer Science Engineering can apply for the AIIMS Nagpur Jobs 2026. The interested applicants can apply in online mod...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "25-03-2026",
+        "found_date": "07-03-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-03-07T23:48:38.774738",
       "links": []
     }
   ]
