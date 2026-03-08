@@ -1,48 +1,9 @@
 {
   "last_updated": "2026-03-07T23:51:21.378326",
-  "total_jobs": 289,
-  "active_jobs": 289,
-  "expired_jobs": 1,
+  "total_jobs": 286,
+  "active_jobs": 286,
+  "expired_jobs": 3,
   "jobs": [
-    {
-      "id": "f1cacc39a1e9da8b147a0cf79f1df8f1",
-      "title": "NIIST",
-      "url": "https://allgovernmentjobs.in/niist-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute for Interdisciplinary Science and Technology (NIIST) has officially released the notification to .... The National Institute for Interdisciplinary Science & Technology (NIIST)has declared the official notification for .... The National Institute for Interdisciplinary Science and Technology (NIIST) has officially released the notification to ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2026-02-04T23:53:31.135688",
-      "links": []
-    },
-    {
-      "id": "12a926ba7d5a59749b743144d9d70be6",
-      "title": "NIT Rourkela",
-      "url": "https://allgovernmentjobs.in/nit-rourkela-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Institute of Technology Rourkela (NIT Rourkela) has officially released the notification to fill the vacancie .... National Institute of Technology Rourkela (NIT Rourkela) has declared the official notification for 2026. To fill up the .... National Institute of Technology Rourkela (NIT Rourkela) has declared the official notification for 2025. To fill up the .... The National Institute of Technology Rourkela (NIT Rourkela) has officially released the notification to fill the v ......",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2026-02-04T23:53:31.135712",
-      "links": []
-    },
-    {
-      "id": "4d933077d85df186d8f3de491008f189",
-      "title": "Manipur PSC",
-      "url": "https://allgovernmentjobs.in/manipur-psc-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Manipur Public Service Commission (MPSC) has officially released the notification to fill the vacancies of 130  .... Manipur Staff Selection Commission (Manipur SSC) has declared the official notification for 2026. To fill up the vacanci .... The Manipur Public Service Commissioner (Manipur PSC) has officially released the notification to fill the vacancies of ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "SSC",
-      "skills": [],
-      "scraped_at": "2026-02-04T23:53:31.135738",
-      "links": []
-    },
     {
       "id": "70cdfc32ffea4d3ef253c798c6b48494",
       "title": "All Government Jobs",
