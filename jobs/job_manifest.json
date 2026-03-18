@@ -1,128 +1,9 @@
 {
-  "last_updated": "2026-03-16T23:58:04.109707",
-  "total_jobs": 318,
-  "active_jobs": 318,
-  "expired_jobs": 22,
+  "last_updated": "2026-03-17T23:59:22.861436",
+  "total_jobs": 321,
+  "active_jobs": 321,
+  "expired_jobs": 12,
   "jobs": [
-    {
-      "id": "17502be1b7d3a94b6be5c0dcadc0abe3",
-      "title": "TMC Notification 2026 - Walk-in-Interview for Engineer Posts",
-      "url": "https://allgovernmentjobs.in/tmc-notification-2026-walk-in-interview-for-engineer-posts/39109",
-      "source": "allgovernmentjobs.in",
-      "description": "The Tata Memorial Centre (TMC) has declared the official notification for 2026. To fill up the vacancies for Engineer Jobs. Those candidates who have qualified in the B.E/ B.Tech in Electrical Engineering can grab this chance and apply for the TMC Notification 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can attend the walk-in at the address below. If you are looking for...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "18-02-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-02-14T23:50:05.884112",
-      "links": []
-    },
-    {
-      "id": "384c133748b394b15a4b9a4133bb777f",
-      "title": "NLC Recruitment 2026 - Apply Online for Deputy Medical Officer Posts",
-      "url": "https://allgovernmentjobs.in/nlc-recruitment-2026-apply-online-for-deputy-medical-officer-posts/39111",
-      "source": "allgovernmentjobs.in",
-      "description": "NLC India Limited (NLC) has declared the official notification for 2026. To fill up the various vacancies for Deputy Medical Officer Jobs. Those candidates who have qualified in the MBBS can grab this chance and apply for the NLC Recruitment 2026 . Here we include the age limit, selection process, salarystructure, education details, application fee, and how to apply for these posts. Interested candidates can apply before the last date of application. If you are looking for more, here is a lis...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "10-03-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-02-14T23:50:05.889166",
-      "links": []
-    },
-    {
-      "id": "733b7e9dabdbf1a5aed4edaa48ecf042",
-      "title": "NIMHANS Recruitment 2026 - Walk-in-Interview for Senior Resident Posts",
-      "url": "https://allgovernmentjobs.in/nimhans-recruitment-2026-walk-in-interview-for-senior-resident-posts/39107",
-      "source": "allgovernmentjobs.in",
-      "description": "National Institute of Mental Health and Neurosciences (NIMHANS) has declared the official notification for 2026. To fill up the vacancies for Senior Resident Jobs. Those candidates who have qualified in the MD/ MS and DNB can grab this chance and apply for the NIMHANS Recruitment 2026 . Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can attend the walk-in at the address given below...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "24-02-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Analyst",
-        "Data Entry"
-      ],
-      "scraped_at": "2026-02-14T23:50:05.889187",
-      "links": []
-    },
-    {
-      "id": "e9f14d9433dbe994c61548629f563d29",
-      "title": "IIT Jammu Recruitment 2026 - Apply Online for Research Assistant Posts",
-      "url": "https://allgovernmentjobs.in/iit-jammu-recruitment-2026-apply-online-for-research-assistant-posts/39105",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Technology Jammu (IIT Jammu) has declared the official notification for 2026. To fill up the various vacancies for Research Assistant Jobs. Those candidates who have qualified in the B.E/ B.Tech, M.E/ M.Tech in Mechanical Engineering, Chemical Engineering can grab this chance and apply for the IIT Jammu Recruitment 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested ca...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "24-02-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-02-14T23:50:05.889210",
-      "links": []
-    },
-    {
-      "id": "2a498bdc465dfd8689498c2a888ddf55",
-      "title": "DLSA Warangal Recruitment 2026 - Apply Online for Various Peon and Attendant Posts",
-      "url": "https://allgovernmentjobs.in/dlsa-warangal-recruitment-2026-apply-online-for-various-peon-and-attendant-posts/39103",
-      "source": "allgovernmentjobs.in",
-      "description": "District Legal Services Authority Warangal (DLSA Warangal) has released an official notification for the recruitment of 01 Office Peon/ Attendant  Posts. Those candidates who have qualified in the 10th Pass can grab this chance and apply for the DLSA Warangal Recruitment 2026. Here we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply before the last date of application....",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "18-02-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-02-14T23:50:05.889228",
-      "links": []
-    },
-    {
-      "id": "b948a06a477e079a497b9d0e459bb42c",
-      "title": "Kashmir University",
-      "url": "https://allgovernmentjobs.in/kashmir-university-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "University of Kashmir (Kashmir University) has declared the official notification for 2026. To fill up the vacancies for .... The University of Kashmir (Kashmir University) has officially released the notification to fill the vacancies of 02 Phar ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2026-02-14T23:50:05.889322",
-      "links": []
-    },
-    {
-      "id": "33855ae847d73b4d3a3d7462fbbe4785",
-      "title": "India Post",
-      "url": "https://allgovernmentjobs.in/india-post-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "India Post Office has released an official notification for the recruitment of Gramin Dak Sevak (GDS) Posts. Those candi .... India Post Office has declared the official Notification for 2026. To fill up the vacancies for 28740 Gramin Dak Se .... The Oriental Insurance Company Limited (OICL) has officially released the notification to fill the vacancies of 300 Admi .... The Indian Post Payments Bank (IPPB) has officially released the notification to fill the vacancies of 309 Junior A ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-02-14T23:50:05.889341",
-      "links": []
-    },
-    {
-      "id": "8663169f3172b9695ff56c5673db56a2",
-      "title": "Ministry of Commerce",
-      "url": "https://allgovernmentjobs.in/ministry-of-commerce-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Digital India Corporation (DIC) has officially released the notification to fill the vacancies of 01 General Manager .... The Coffee Board of India has announced the official notification for 2026. To fill up the vacancies for the Chief Execu .... Digital India Corporation (DIC) has declared the official notification for 2025. To fill up the vacancies for Manag .... Agricultural & Processed Food Products Export Development Authority (APEDA) has declared the official notification f .... Fo...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-02-14T23:50:05.889361",
-      "links": []
-    },
     {
       "id": "d5a2cb6827a7246f9e1c59d63004e46a",
       "title": "NMPT Recruitment 2026 - Apply Online for Deputy Chief Engineer Posts",
@@ -1281,22 +1162,6 @@
       "links": []
     },
     {
-      "id": "b186a8336e64252a77a1d803a04cacf2",
-      "title": "THSTI Notification 2026 - Apply Online for Project Associate -I Posts",
-      "url": "https://allgovernmentjobs.in/thsti-notification-2026-apply-online-for-project-associate-i-posts/39369",
-      "source": "allgovernmentjobs.in",
-      "description": "The Translational Health Science and Technology Institute (THSTI) has officially released the notification to fill the vacancies of 01 Project Associate -I Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech in Computer Science Engineering, Post-graduation, can apply for the THSTI Notification 2026. The interested applicants can apply in online mode. Here we have ment...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "16-03-2026",
-        "found_date": "24-02-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-02-24T23:57:32.590878",
-      "links": []
-    },
-    {
       "id": "af1554f0c2ae58edbb9b3cccafa93efd",
       "title": "HPCL Notification 2026 - Apply Online for 250 Graduate Apprentice Trainee Posts",
       "url": "https://allgovernmentjobs.in/hpcl-notification-2026-apply-online-for-250-graduate-apprentice-trainee-posts/39363",
@@ -1448,24 +1313,6 @@
         "Data Entry"
       ],
       "scraped_at": "2026-02-25T23:54:41.657927",
-      "links": []
-    },
-    {
-      "id": "4a29d71197180b15ff4af47936b52230",
-      "title": "NIAB Notification 2026 - Apply Online for Technical Assistant Posts",
-      "url": "https://allgovernmentjobs.in/niab-notification-2026-apply-online-for-technical-assistant-posts/39411",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute of Animal Biotechnology (NIAB) has officially released the notification to fill the vacancies of 01 Technical Assistant Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree, Post-graduation can apply for the NIAB Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "16-03-2026",
-        "found_date": "25-02-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-02-25T23:54:41.657955",
       "links": []
     },
     {
@@ -2142,22 +1989,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-03-02T23:52:21.331665",
-      "links": []
-    },
-    {
-      "id": "7089413439138ba20023fb61e9aef785",
-      "title": "NIAB Notification 2026 - Apply Online for 03 Project Research Scientist & Project Technical Support II Posts",
-      "url": "https://allgovernmentjobs.in/niab-notification-2026-apply-online-for-03-project-research-scientist-project-technical-support-ii-posts/39597",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute of Animal Biotechnology, Hyderabad (NIAB Hyderabad) has officially released the notification to fill the vacancies of 03 Project Research Scientist I and Project Technical Support II Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their 12th, Diploma, DMLT, Post-graduation, and Ph.D. can apply for the NIAB Notification 2026. The interested applicants can apply...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "16-03-2026",
-        "found_date": "23-02-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-04T23:54:09.076749",
       "links": []
     },
     {
@@ -3036,24 +2867,6 @@
         "Data Entry"
       ],
       "scraped_at": "2026-03-07T23:48:38.774738",
-      "links": []
-    },
-    {
-      "id": "49560802a7f2b08b440aa1e5b39049ba",
-      "title": "NII Notification 2026 - Apply Offline for Junior Project Assistant Posts",
-      "url": "https://allgovernmentjobs.in/nii-notification-2026-apply-offline-for-junior-project-assistant-posts/39763",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute of Immunology (NII) has officially released the notification to fill the vacancies of 01 Junior Project Assistant Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree or Diploma can apply for the NII Notification 2026. The interested applicants can apply in offline mode. Here we have mentioned the education details, age limit, selection process, ap...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "16-03-2026",
-        "found_date": "09-03-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-03-09T23:53:39.102332",
       "links": []
     },
     {
@@ -4839,6 +4652,243 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-03-16T23:54:56.763324",
+      "links": []
+    },
+    {
+      "id": "cbc21af040f0e046d0a43228b605c382",
+      "title": "NIMHANS Notification 2026 - Walk-in interview for Senior Resident Posts",
+      "url": "https://allgovernmentjobs.in/nimhans-notification-2026-walk-in-interview-for-senior-resident-posts/40018",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Institute of Mental Health and Neuro Sciences (NIMHANS) has officially released the notification to fill the vacancies of 01 Senior Resident Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MD/MS and DNB can apply for the NIMHANS Notification 2026. The interested applicants can attend the walk-in interview. Here we have mentioned the education details, age limit, s...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "30-03-2026",
+        "found_date": "12-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-17T23:56:36.740719",
+      "links": []
+    },
+    {
+      "id": "341114587a84f35beae565033588684f",
+      "title": "ICSIL Notification 2026 - Apply Online for Data Entry Operator Posts",
+      "url": "https://allgovernmentjobs.in/icsil-notification-2026-apply-online-for-data-entry-operator-posts/40016",
+      "source": "allgovernmentjobs.in",
+      "description": "The Intelligent Communication Systems India Limited (ICSIL) has officially released the notification to fill the vacancies of 01 Data Entry Operator Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed any degree can apply for the ICSIL Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, applic...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "19-03-2026",
+        "found_date": "16-03-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-03-17T23:56:36.740745",
+      "links": []
+    },
+    {
+      "id": "c38b6eee2193fb38f1c6f1c330bd37c2",
+      "title": "ISRO VSSC Notification 2026 - Apply Offline for 03 Authorised Medical Officer Jobs",
+      "url": "https://allgovernmentjobs.in/isro-vssc-notification-2026-apply-offline-for-03-authorised-medical-officer-jobs/40015",
+      "source": "allgovernmentjobs.in",
+      "description": "The ISRO Vikram Sarabhai Space Centre (ISRO VSSC) has officially released the notification to fill the vacancies of 03 Authorised Medical Officers and Dermatologist Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS, BHMS, PGDM, MD/MS, DNB can apply for the ISRO VSSC Notification 2026. The interested applicants can apply in offline mode. Here we have mentioned the education ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "31-03-2026",
+        "found_date": "17-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-17T23:56:36.740767",
+      "links": []
+    },
+    {
+      "id": "722a0da08c35a41d11fd85824fca66c0",
+      "title": "TNPL Notification 2026 - Apply Offline for 07 General Manager, Assistant Manager Posts",
+      "url": "https://allgovernmentjobs.in/tnpl-notification-2026-apply-offline-for-07-general-manager-assistant-manager-posts/40014",
+      "source": "allgovernmentjobs.in",
+      "description": "The Tamilnadu Newsprint and Papers (TNPL) has officially released the notification to fill the vacancies of 07 General Manager, Deputy General Manager, Assistant General Manager, and Assistant Manager Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, Any Degree, Post-graduation, Diploma, MBA, and PGDM, can apply for the TNPL Notification 2026. The interested applica...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "29-03-2026",
+        "found_date": "15-03-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-03-17T23:56:36.740787",
+      "links": []
+    },
+    {
+      "id": "f66809e3588b58e311fcdf5257f9bb34",
+      "title": "CSIR NAL Notification 2026 - Walk-in interview for 04 Project Assistant, Project Associate Posts",
+      "url": "https://allgovernmentjobs.in/csir-nal-notification-2026-walk-in-interview-for-04-project-assistant-project-associate-posts/40013",
+      "source": "allgovernmentjobs.in",
+      "description": "The CSIR National Aerospace Laboratories (CSIR NAL) has officially released the notification to fill the vacancies of 04 Project Assistant I, Project Associate I, II Jobs. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their 10th pass, ITI, Any Degree, Post-graduation, B.E./B. Tech, M.E./M. Tech in Mechanical Engineering can apply for the CSIR NAL Notification 2026. The interested applican...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "23-03-2026",
+        "found_date": "16-03-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-03-17T23:56:36.740806",
+      "links": []
+    },
+    {
+      "id": "406d57569c466fd74b6ab6a8945c87ad",
+      "title": "PGIMER Notification 2026 - Apply Offline for 02 Technical Assistant, Project Lab Technician Posts",
+      "url": "https://allgovernmentjobs.in/pgimer-notification-2026-apply-offline-for-02-technical-assistant-project-lab-technician-posts/40012",
+      "source": "allgovernmentjobs.in",
+      "description": "The Postgraduate Institute of Medical Education and Research (PGIMER) has officially released the notification to fill the vacancies of 02 Project Associate I and Project Lab Technician Jobs. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree, B.Sc., DMLT can apply for the PGIMER Notification 2026. The interested applicants can apply in offline mode. Here we have mentioned the...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "27-03-2026",
+        "found_date": "17-03-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-03-17T23:56:36.740828",
+      "links": []
+    },
+    {
+      "id": "c0914aff89c9dae72bfbed0f903aa8ba",
+      "title": "HSL Notification 2026 - Apply Online for 02 Medical Officer, Senior Consultant Posts",
+      "url": "https://allgovernmentjobs.in/hsl-notification-2026-apply-online-for-02-medical-officer-senior-consultant-posts/40011",
+      "source": "allgovernmentjobs.in",
+      "description": "The Hindustan Shipyard Limited (HSL) has officially released the notification to fill the vacancies of 02 Medical Officers and Senior Consultant Jobs. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS, Post-graduation, Diploma, MBA, B.E./B. Tech can apply for the HSL Notification 2026. The interested applicants can apply in offline mode. Here we have mentioned the education details...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "26-03-2026",
+        "found_date": "17-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-17T23:56:36.740847",
+      "links": []
+    },
+    {
+      "id": "4d3ced4902127ccd77b7ce463c1505d0",
+      "title": "GGSGH Notification 2026 - Walk-in interview for 02 Junior Resident Posts",
+      "url": "https://allgovernmentjobs.in/ggsgh-notification-2026-walk-in-interview-for-02-junior-resident-posts/40010",
+      "source": "allgovernmentjobs.in",
+      "description": "The Guru Gobind Singh Government Hospital (GGSGH) has officially released the notification to fill the vacancies of 02 Junior Resident Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS can apply for the GGSGH Notification 2026. The interested applicants can attend the walk-in interview. Here we have mentioned the education details, age limit, selection process, application ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "18-03-2026",
+        "found_date": "16-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-17T23:56:36.740865",
+      "links": []
+    },
+    {
+      "id": "7a405c81235b8dc23355841418f5f2a1",
+      "title": "CARI Notification 2026 - Walk-in interview for 10 Senior Research Fellow Posts",
+      "url": "https://allgovernmentjobs.in/cari-notification-2026-walk-in-interview-for-10-senior-research-fellow-posts/40009",
+      "source": "allgovernmentjobs.in",
+      "description": "The Central Ayurveda Research Institute (CARI) has officially released the notification to fill the vacancies of 10 Senior Research Fellow Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree, BAMS, and MD/MS can apply for the CARI Notification 2026. The interested applicants can attend the walk-in interview. Here we have mentioned the education details, age limit, selec...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "27-03-2026",
+        "found_date": "17-03-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-03-17T23:56:36.740883",
+      "links": []
+    },
+    {
+      "id": "f475978582593d2972c04fcebd997043",
+      "title": "ICSIL",
+      "url": "https://allgovernmentjobs.in/icsil-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Intelligent Communication Systems India Limited (ICSIL) has officially released the notification to fill the vacanci .... The Intelligent Communication Systems India Limited (ICSIL) has officially released the notification to fill the vacanci .... Intelligent Communication Systems India Limited (ICSIL) has published the official notification for 2026. To fill up the .... Intelligent Communication Systems India Limited (ICSIL) has declared the official notification for 2025. To fill up the...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2026-03-17T23:56:36.746613",
+      "links": []
+    },
+    {
+      "id": "54a8f681b15cd9c2746631fce43774bc",
+      "title": "GGSGH",
+      "url": "https://allgovernmentjobs.in/ggsgh-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Guru Gobind Singh Government Hospital (GGSGH) has officially released the notification to fill the vacancies of 02 J .... The Guru Gobind Singh Government Hospital (GGSGH) has officially released the notification to fill the vacancies of 03 S .... Guru Gobind Singh Government Hospital (GGSGH) has declared the official notification for the recruitment of 09 Seni ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Medical",
+      "skills": [],
+      "scraped_at": "2026-03-17T23:56:36.746662",
+      "links": []
+    },
+    {
+      "id": "e9490cce7fbdb4e501ff290d5c37510e",
+      "title": "CCRAS",
+      "url": "https://allgovernmentjobs.in/ccras-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Central Ayurveda Research Institute (CARI) has officially released the notification to fill the vacancies of 10 Seni .... The Central Council for Research in Ayurvedic Sciences (CCRAS) has declared the official notification for 2026. To fill .... The Central Council for Research in Ayurvedic Sciences (CCRAS) has declared the official notification for 2026. To fill .... The Central Council for Research in Ayurvedic Sciences (CCRAS) has published the official notification for 2026. To fill ...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Medical",
+      "skills": [],
+      "scraped_at": "2026-03-17T23:56:36.746680",
+      "links": []
+    },
+    {
+      "id": "804b9f093fbc4529b3067334e647b061",
+      "title": "IIITDM",
+      "url": "https://allgovernmentjobs.in/iiitdm-kancheepuram-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Information Technology Design & Manufacturing Kancheepuram (IIITDM Kancheepuram) has announced t .... Indian Institute of Information Technology Design & Manufacturing Kancheepuram (IIITDM Kancheepuram) has declared th .... The Indian Institute of Information Technology Design & Manufacturing Kancheepuram (IIITDM Kancheepuram) has officia .... Indian Institute of Information Technology Design and Manufacturing Jabalpur (IIITDM Jabalpur) has declared the latest j .... The I...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Railway",
+      "skills": [],
+      "scraped_at": "2026-03-17T23:56:36.746769",
+      "links": []
+    },
+    {
+      "id": "754099e2e3e530b794337aba3897ee57",
+      "title": "IIT Gandhinagar",
+      "url": "https://allgovernmentjobs.in/iit-gandhinagar-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Institute of Technology, Gandhinagar (IIT Gandhinagar) has officially released the notification to fill the v .... Indian Institute of Technology Gandhinagar (IIT Gandhinagar) has declared the official notification for 2026. To fill up .... The Indian Institute of Technology Gandhinagar (IIT Gandhinagar) has officially released the notification to fill the va .... Indian Institute of Technology Gandhinagar (IIT Gandhinagar) has released an official notification for the recruitment ...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2026-03-17T23:56:36.747508",
+      "links": []
+    },
+    {
+      "id": "68d829b10d3313bfabee0a69d539583d",
+      "title": "DHFWS Dakshin Dinajpur Jobs 2026 - Apply Online for 08 Dental Surgeon, Lab Technician, and Other Posts",
+      "url": "https://allgovernmentjobs.in/dhfws-dakshin-dinajpur-jobs-2026-apply-online-for-08-dental-surgeon-lab-technician-and-other-posts/40017",
+      "source": "allgovernmentjobs.in",
+      "description": "The District Health & Family Welfare Samiti, Dakshin Dinajpur (DHFWS Dakshin Dinajpur) has officially released the notification to fill the vacancies of 08 Dental Surgeons, Dental Technicians, Audiologist, Lab Technician, Clinical Psychologist, and Block Epidemiologist Jobs. Candidates who have completed their BDS, Any Degree, 12th, DMLT, BAMS, BUMS, BHMS, M.Sc., or Post-graduation can apply for the DHFWS Dakshin Dinajpur Jobs 2026. The interested applicants can apply in online mode. Here we ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "06-04-2026",
+        "found_date": "16-03-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-03-17T23:56:36.753169",
       "links": []
     }
   ]
