@@ -1,140 +1,9 @@
 {
-  "last_updated": "2026-03-18T23:57:05.818420",
-  "total_jobs": 327,
-  "active_jobs": 327,
-  "expired_jobs": 4,
+  "last_updated": "2026-03-20T23:56:27.129757",
+  "total_jobs": 326,
+  "active_jobs": 326,
+  "expired_jobs": 14,
   "jobs": [
-    {
-      "id": "d5a2cb6827a7246f9e1c59d63004e46a",
-      "title": "NMPT Recruitment 2026 - Apply Online for Deputy Chief Engineer Posts",
-      "url": "https://allgovernmentjobs.in/nmpt-recruitment-2026-apply-online-for-deputy-chief-engineer-posts/39151",
-      "source": "allgovernmentjobs.in",
-      "description": "New Mangalore Port Trust (NMPT) has announced the official notification for 2026. To fill up the various vacancies for Deputy Chief Engineer Jobs. Those candidates who have qualified in the B.E/ B.Tech in Civil Engineering can grab this chance and apply for the NMPT Recruitment 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply online on or before the last date of ap...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "25-02-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-02-17T23:55:42.361700",
-      "links": []
-    },
-    {
-      "id": "e2639598422e6448dda4a3eff513d3b2",
-      "title": "CMFRI Recruitment 2026 - Apply for Junior Research Fellow Posts",
-      "url": "https://allgovernmentjobs.in/cmfri-recruitment-2026-apply-for-junior-research-fellow-posts/39149",
-      "source": "allgovernmentjobs.in",
-      "description": "The Central Marine Fisheries Research Institute (CMFRI) has declared the official notification for 2026. To fill up the vacancies for Junior Research Fellow Jobs. Those candidates who have qualified in the M.Sc, Post-Graduation can grab this chance and apply for the CMFRI Recruitment 2026 . Here we include the age limit, selection process, and salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply before the last date of applica...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "22-02-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-02-17T23:55:42.361725",
-      "links": []
-    },
-    {
-      "id": "dbfca7166a4307d8394d67aa4eac3417",
-      "title": "Mumbai Port Trust Recruitment 2026 - Apply Offline for Chief Engineer Posts",
-      "url": "https://allgovernmentjobs.in/mumbai-port-trust-recruitment-2026-apply-offline-for-chief-engineer-posts/39146",
-      "source": "allgovernmentjobs.in",
-      "description": "Mumbai Port Trust has declared the official notification for 2026. To fill up the Chief Engineer Jobs. Those candidates who have qualified in the B.E/ B.Tech in Civil Engineering can grab this chance and apply for the Mumbai Port Trust Recruitment 202 6. Here we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply before the last date of application. If you are looking for more, here ...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "11-03-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-02-17T23:55:42.361745",
-      "links": []
-    },
-    {
-      "id": "958734dd5e09cb8d3ecbc718a01abc01",
-      "title": "IIT Roorkee Recruitment 2026 - Walk-in-Interview for 05 Research Associate Posts",
-      "url": "https://allgovernmentjobs.in/iit-roorkee-recruitment-2026-walk-in-interview-for-05-research-associate-posts/39145",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Technology Roorkee (IIT Roorkee) has declared the official notification for 2026. To fill up the vacancies for 05 Research Associate Jobs. Those candidates who have qualified in the M.E/ M.Tech in Civil Engineering can grab this chance and apply for the IIT Roorkee Recruitment 2026 . Here we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these. Interested candidates can attend the walk-in at the address...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "23-02-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-02-17T23:55:42.361763",
-      "links": []
-    },
-    {
-      "id": "60e934e93223e7ad4b9bad2cffe86a5a",
-      "title": "PGIMER Recruitment 2026 - Apply Offline for Senior Research Fellow Posts",
-      "url": "https://allgovernmentjobs.in/pgimer-recruitment-2026-apply-offline-for-senior-research-fellow-posts/39143",
-      "source": "allgovernmentjobs.in",
-      "description": "Post Graduate Institute of Medical Education and Research (PGIMER) has released an official notification for 2026. To fill up the various vacancies for Senior Research Fellow Jobs. Those candidates who have qualified in the M.Sc can grab this chance and apply for the PGIMER Recruitment 2026 . Herewe included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. If you are looking for more, here is a list of Government Jobs in...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "23-02-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-02-17T23:55:42.361781",
-      "links": []
-    },
-    {
-      "id": "c72ec06d02730bcfa2840deaa5795df6",
-      "title": "NIT Meghalaya",
-      "url": "https://allgovernmentjobs.in/nit-meghalaya-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute of Technology Meghalaya (NIT Meghalaya) has officially released the notification to fill the vaca .... The National Institute of Technology Meghalaya (NIT Meghalaya) has officially released the notification to fill the vaca .... National Institute of Technology Meghalaya (NIT Meghalaya) has declared the official notification for 2025. To fill up t .... National Institute of Technology Meghalaya (NIT Meghalaya) has released the official notification for 2025. To fill up ...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2026-02-17T23:55:42.361806",
-      "links": []
-    },
-    {
-      "id": "d9658688be7d076b70931ad24e5813b7",
-      "title": "IIT Bombay",
-      "url": "https://allgovernmentjobs.in/iit-bombay-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Institute of Technology Bombay (IIT Bombay) has officially released the notification to fill the vacancies of .... The Indian Institute of Technology Bombay (IIT Bombay) has officially released the notification to fill the vacanci .... Indian Institute of Technology Bombay (IIT Bombay) has declared the official notification for 2025. To fill up the vacan ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2026-02-17T23:55:42.361850",
-      "links": []
-    },
-    {
-      "id": "d58ad18cb0952c0914d73fcd521209f1",
-      "title": "IIT Dhanbad",
-      "url": "https://allgovernmentjobs.in/iit-dhanbad-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Institute of Technology Dhanbad (IIT ISM Dhanbad) has officially released the notification to fill the vacanc .... IIT Indian School of Mines Dhanbad (IIT ISM Dhanbad) has announced the official notification for 2026. To fill up the va .... IIT Indian School of Mines Dhanbad (IIT ISM Dhanbad) has declared the latest notification for 2026. To fill up the vario .... The IIT Indian School of Mines Dhanbad (IIT ISM Dhanbad) has declared the official notification for 2026. To fill up th...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Teaching",
-      "skills": [],
-      "scraped_at": "2026-02-17T23:55:42.361889",
-      "links": []
-    },
-    {
-      "id": "18ce8704b08febf369e46fb034fc5073",
-      "title": "NHSRCL",
-      "url": "https://allgovernmentjobs.in/nhsrcl-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The National High Speed Rail Corporation (NHSRCL) has officially released the notification to fill the vacancies of 03 A .... The National High Speed Rail Corporation (NHSRCL) has officially released the notification to fill the vacancies of 05&n .... The National High Speed Rail Corporation Limited (NHSRCL) has officially released the notification to fill the vacancies ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-02-17T23:55:42.361956",
-      "links": []
-    },
     {
       "id": "749491c558323cc51c42004c29ce4a33",
       "title": "AIIMS Bathinda Recruitment 2026 - Walk-in-Interview for Project Technical Support I Posts",
@@ -1371,24 +1240,6 @@
       "links": []
     },
     {
-      "id": "4e65bd7df6eb6d0d7dd547ed3e0f53c3",
-      "title": "WBPSC Notification 2026 - Apply Online for Librarian Posts",
-      "url": "https://allgovernmentjobs.in/wbpsc-notification-2026-apply-online-for-librarian-posts/39449",
-      "source": "allgovernmentjobs.in",
-      "description": "The West Bengal Public Service Commission (WBPSC) has officially released the notification to fill the vacancies of 01 Librarian Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Diploma or Post-graduation can apply for the WBPSC Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, appl...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "19-03-2026",
-        "found_date": "26-02-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-02-26T23:54:52.221811",
-      "links": []
-    },
-    {
       "id": "870c674a11bb4ca9e3c6af5974a2ab70",
       "title": "PGIMER Notification 2026 - Apply Offline for Data Entry Operator Posts",
       "url": "https://allgovernmentjobs.in/pgimer-notification-2026-apply-offline-for-data-entry-operator-posts/39448",
@@ -1707,24 +1558,6 @@
       "skills": [],
       "scraped_at": "2026-02-28T23:46:47.656627",
       "links": []
-    },
-    {
-      "id": "eb8df7ad3723a407709b87f6998092ef",
-      "title": "MPESB Van Rakshak, Jal Prahari Online Form 2026 for 1679 Post",
-      "url": "https://www.rojgarresult.com/mpesb-van-rakshak-jal-prahari-2026/",
-      "source": "www.rojgarresult.com",
-      "description": "MP Van Rakshak, Jal Prahari Recruitment 2026: Apply for 1679 Post Post Date: 01-03-2026 Short Description: MPESB Van Rakshak, Jal Prahari Recruitment 2026 Apply Online Form : MP Van Rakshak, Jal Prahari Online Form 2026, Notification has been released on the website https://esb.mp.gov.in/  & Application Form now started on 28 February 2026 to 14 March 2026. Madhya Pradesh Employee Selection Board Jobs 2026. Get the direct link to download notification link available on MPESB Van Rakshak, Jal ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "19/03/2026",
-        "found_date": "01-03-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-02-28T23:47:11.412215",
-      "links": [
-        "https://esb.mp.gov.in/"
-      ]
     },
     {
       "id": "0fa0ea112523ba765e9a5d31d0698e19",
@@ -2957,24 +2790,6 @@
       "links": []
     },
     {
-      "id": "2d01f16114094a44e53241e62821241c",
-      "title": "IIT Madras Jobs 2026 - Apply Online for Senior Research Fellow Posts",
-      "url": "https://allgovernmentjobs.in/iit-madras-jobs-2026-apply-online-for-senior-research-fellow-posts/39758",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Institute of Technology Madras (IIT Madras) has officially released the notification to fill the vacancies of 01 Senior Research Fellow posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their M.E./M. Tech in Electronics, Electrical Engineering, Ph.D., can apply for the IIT Madras Jobs 2026. The interested applicants can apply in online mode. Here we have mentioned the educa...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "19-03-2026",
-        "found_date": "06-03-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Machine Learning"
-      ],
-      "scraped_at": "2026-03-09T23:53:39.114891",
-      "links": []
-    },
-    {
       "id": "70cdfc32ffea4d3ef253c798c6b48494",
       "title": "All Government Jobs",
       "url": "https://allgovernmentjobs.in/",
@@ -3731,24 +3546,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-03-12T23:52:38.615226",
-      "links": []
-    },
-    {
-      "id": "6ab849df2d6c561bfe71069829f33c5c",
-      "title": "ESIC Notification 2026 - Walk-in interview for 42 Senior Resident Posts",
-      "url": "https://allgovernmentjobs.in/esic-notification-2026-walk-in-interview-for-42-senior-resident-posts/39876",
-      "source": "allgovernmentjobs.in",
-      "description": "The Employees' State Insurance Corporation (ESIC) has officially released the notification to fill the vacancies of 42 Senior Resident and Specialist Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MD/MS, DNB, Post-graduation, or Diploma can apply for the ESIC Notification 2026. The interested applicants can attend the walk-in interview. Here we have mentioned the education det...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "19-03-2026",
-        "found_date": "12-03-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Ms Office"
-      ],
-      "scraped_at": "2026-03-12T23:52:38.615245",
       "links": []
     },
     {
@@ -4587,24 +4384,6 @@
       "links": []
     },
     {
-      "id": "341114587a84f35beae565033588684f",
-      "title": "ICSIL Notification 2026 - Apply Online for Data Entry Operator Posts",
-      "url": "https://allgovernmentjobs.in/icsil-notification-2026-apply-online-for-data-entry-operator-posts/40016",
-      "source": "allgovernmentjobs.in",
-      "description": "The Intelligent Communication Systems India Limited (ICSIL) has officially released the notification to fill the vacancies of 01 Data Entry Operator Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed any degree can apply for the ICSIL Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, applic...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "19-03-2026",
-        "found_date": "16-03-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-03-17T23:56:36.740745",
-      "links": []
-    },
-    {
       "id": "c38b6eee2193fb38f1c6f1c330bd37c2",
       "title": "ISRO VSSC Notification 2026 - Apply Offline for 03 Authorised Medical Officer Jobs",
       "url": "https://allgovernmentjobs.in/isro-vssc-notification-2026-apply-offline-for-03-authorised-medical-officer-jobs/40015",
@@ -4973,6 +4752,197 @@
         "Word"
       ],
       "scraped_at": "2026-03-18T23:54:19.586252",
+      "links": []
+    },
+    {
+      "id": "5125ebcf28015fab02586473c0928fe6",
+      "title": "JIPMER Notification 2026 - Apply Offline for Project Technical Support I Posts",
+      "url": "https://allgovernmentjobs.in/jipmer-notification-2026-apply-offline-for-project-technical-support-i-posts/40096",
+      "source": "allgovernmentjobs.in",
+      "description": "The Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has officially released the notification to fill the vacancies of 01 Project Technical Support I Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their 10th, Diploma, Any Degree, and DMLT can apply for the JIPMER Notification 2026. The interested applicants can apply in offline mode. Here we have mention...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "10-04-2026",
+        "found_date": "19-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-20T23:53:44.132160",
+      "links": []
+    },
+    {
+      "id": "12a3ceb0f02cbe159b4eb0b64d4e5c8b",
+      "title": "SVNIT Notification 2026 - Apply for Junior Research Fellow Posts",
+      "url": "https://allgovernmentjobs.in/svnit-notification-2026-apply-for-junior-research-fellow-posts/40093",
+      "source": "allgovernmentjobs.in",
+      "description": "Sardar Vallabhbhai National Institute of Technology, Surat (SVNIT) has released an official notification for the recruitment of 01 Junior Research Fellow (JRF) Posts. Interested and eligible candidates can apply by sending their CV to the email address mentioned below. Here, we provided more details about the age limit, selection process, salary structure, education details, application fee, and how to apply for the SVNIT Notification 2026 . If you are looking for more, here is a list of Gove...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "27-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-20T23:53:44.132186",
+      "links": []
+    },
+    {
+      "id": "2337c80f17bd3a9ac3ed731743eb3d2a",
+      "title": "NIMHANS Notification 2026 - Walk-in interview for Senior Research Fellow Posts",
+      "url": "https://allgovernmentjobs.in/nimhans-notification-2026-walk-in-interview-for-senior-research-fellow-posts/40090",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Institute of Mental Health and Neuro Sciences (NIMHANS) has officially released the notification to fill the vacancies of 01 Senior Research Fellow Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Post-graduation can apply for the NIMHANS Notification 2026. The interested applicants can attend the walk-in interview. Here we have mentioned the education details, age...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "02-04-2026",
+        "found_date": "17-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-20T23:53:44.132208",
+      "links": []
+    },
+    {
+      "id": "78b7dd8c35474f33f8ae5b56e926bd56",
+      "title": "WBPSC Notification 2026 - Apply Online for 02 Deputy Director Posts",
+      "url": "https://allgovernmentjobs.in/wbpsc-notification-2026-apply-online-for-02-deputy-director-posts/40089",
+      "source": "allgovernmentjobs.in",
+      "description": "The West Bengal Public Service Commission (WBPSC) has officially released the notification to fill the vacancies of 02 Deputy Director Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree or Diploma can apply for the WBPSC Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, app...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "09-04-2026",
+        "found_date": "20-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-20T23:53:44.132233",
+      "links": []
+    },
+    {
+      "id": "d39d016c3af51e9b418e89966eaf7649",
+      "title": "WCD Chhattisgarh Recruitment 2026 - Apply Offline for Assistant Posts",
+      "url": "https://allgovernmentjobs.in/wcd-chhattisgarh-recruitment-2026-apply-offline-for-assistant-posts/40097",
+      "source": "allgovernmentjobs.in",
+      "description": "The Women and Child (WCD) has declared the official notification for 2026. To fill up the vacancies for Assistant Jobs. Those candidates who have qualified in the 12th or Diploma can grab this chance and apply for the WCD Chhattisgarh Recruitment 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. If you are looking for more, here is a list of Government Jobs in 2026 that you can all apply for. Use ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "06-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-20T23:53:44.138147",
+      "links": []
+    },
+    {
+      "id": "82704ac8f7f3d9c5ddbb985f71f60579",
+      "title": "ACTREC Recruitment 2026 - Walk-in-Interview for Various Scientific Assistant Posts",
+      "url": "https://allgovernmentjobs.in/actrec-recruitment-2026-walk-in-interview-for-various-scientific-assistant-posts/40095",
+      "source": "allgovernmentjobs.in",
+      "description": "The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has officially announced a Walk-in Interview for the recruitment of Scientific Assistant Jobs. Those candidates who have qualified in the B.Sc can grab this chance and apply for the ACTREC Recruitment 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. If you are looking for more, here is a list of Government Jobs in 2026 t...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "10-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-20T23:53:44.138173",
+      "links": []
+    },
+    {
+      "id": "ab3b79d640e984ca18bcbd5bbb8c23db",
+      "title": "NHDC Recruitment 2026 - Apply Online for Senior Officer Posts",
+      "url": "https://allgovernmentjobs.in/nhdc-recruitment-2026-apply-online-for-senior-officer-posts/40091",
+      "source": "allgovernmentjobs.in",
+      "description": "National Handloom Development Corporation Ltd (NHDC) has declared the official notification for the recruitment of Senior Officer Jobs. Those candidates who have qualified in the Post Graduation, MBA can grab this chance and apply for the NHDC Recruitment 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply before the last date of application. If you are looking for mo...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "06-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-20T23:53:44.138193",
+      "links": []
+    },
+    {
+      "id": "63712c81d11c602574fdfa49cbe995a8",
+      "title": "IOCL Recruitment 2026 - Walk-in-Interview for 05 Dental Surgeon Posts",
+      "url": "https://allgovernmentjobs.in/iocl-recruitment-2026-walk-in-interview-for-05-dental-surgeon-posts/40088",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Oil Corporation Limited (IOCL) has declared the latest job notification for the recruitment of 05 Dental Surgeons. Those candidates who have qualified in the MDS, Post-Graduation, can grab this chance and apply for these posts. Interested candidates can attend the walk-in at the address below. Here we provided more details about the age limit, selection Process, salary structure, education details, application fee, and how to apply for the IOCL Recruitment 2026 . If you are looking for...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "21-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-20T23:53:44.138212",
+      "links": []
+    },
+    {
+      "id": "fb9f1d796e91366f4fb21016a3ff430b",
+      "title": "JIPMER",
+      "url": "https://allgovernmentjobs.in/jipmer-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has officially released the notificatio .... Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has declared an official notification for 2 .... Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has released an official notification for a .... The Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has officially released the notificati...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-20T23:53:44.138235",
+      "links": []
+    },
+    {
+      "id": "9f9bf58aa79ac7b8139b36046762069b",
+      "title": "ACTREC",
+      "url": "https://allgovernmentjobs.in/actrec-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has officially announced a Walk-in Intervie .... The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has officially announced a Walk-in Intervie .... The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has officially announced a Walk-in Intervie .... The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has officially announced a Walk-in Intervi...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Teaching",
+      "skills": [],
+      "scraped_at": "2026-03-20T23:53:44.138255",
+      "links": []
+    },
+    {
+      "id": "a99851d92e0559618c48a8ce00933660",
+      "title": "SVNIT",
+      "url": "https://allgovernmentjobs.in/svnit-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Sardar Vallabhbhai National Institute of Technology, Surat (SVNIT) has released an official notification for the recruit .... Sardar Vallabhbhai National Institute of Technology Surat (SVNIT Surat) has declared the official notification for 2026. .... The Sardar Vallabhbhai National Institute of Technology, Surat (SVNIT) has officially released the notification to fill .... The Sardar Vallabhbhai National Institute of Technology Surat (SVNIT) has officially released the notification to fill t...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2026-03-20T23:53:44.138297",
+      "links": []
+    },
+    {
+      "id": "2dbd0a1f1741c1b319aa2d362e9ad7ca",
+      "title": "SAMEER",
+      "url": "https://allgovernmentjobs.in/sameer-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Society for Applied Microwave Electronics Engineering & Research (SAMEER) has announced the official notification fo .... The Society for Applied Microwave Electronics Engineering & Research (SAMEER) has officially released the notificati .... The Society for Applied Microwave Electronics Engineering & Research (SAMEER) has officially released the notificati ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Engineering",
+      "skills": [],
+      "scraped_at": "2026-03-20T23:53:44.138399",
+      "links": []
+    },
+    {
+      "id": "5b572efa96edaada9e94d0e38902bd86",
+      "title": "IIT Dhanbad Jobs 2026 - Apply Online for Project Associate Posts",
+      "url": "https://allgovernmentjobs.in/iit-dhanbad-jobs-2026-apply-online-for-project-associate-posts/40092",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Institute of Technology Dhanbad (IIT Dhanbad)  has officially released the notification to fill the vacancies of 01 Project Associate Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their M.E./M. Tech, Post-graduation, can apply for the IIT Dhanbad Jobs 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selec...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "24-03-2026",
+        "found_date": "20-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-20T23:53:44.144989",
       "links": []
     }
   ]
