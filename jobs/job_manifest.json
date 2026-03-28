@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-03-27T00:02:51.074272",
-  "total_jobs": 306,
-  "active_jobs": 306,
-  "expired_jobs": 12,
+  "last_updated": "2026-03-27T23:56:44.102787",
+  "total_jobs": 309,
+  "active_jobs": 309,
+  "expired_jobs": 4,
   "jobs": [
     {
       "id": "af1554f0c2ae58edbb9b3cccafa93efd",
@@ -4653,6 +4653,60 @@
       "skills": [],
       "scraped_at": "2026-03-27T00:00:02.738813",
       "links": []
+    },
+    {
+      "id": "647b464c447bc8f8158b716056b52cde",
+      "title": "PNB Apprentice Result for 5138 Post Out >> Check Now",
+      "url": "https://rojgarresult.com/pnb-apprentice-2026/",
+      "source": "www.rojgarresult.com",
+      "description": "PNB Apprentice Result 2026 Declared – Direct Link to Check for 5138 Post Important Update : PNB Apprentice Result 2026 has been released. Candidates can now check their result using the direct link given below. 👉 Check Result Now (Direct Link) Post Update Date: 27-03-2026 Short Description: PNB Apprentice Result 2026 Released : Punjab National Bank Apprentice Online Form 2026, Notification has been released on the website @https://pnb.bank.in/ & Application Form now started on 08 February 202...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "27-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-27T23:54:57.110353",
+      "links": [
+        "https://pnb.bank.in/"
+      ]
+    },
+    {
+      "id": "a062bbcb7c4ae718e8c06e1dc78aee29",
+      "title": "UP Police SI Sub Inspector ASI 2023 Final Result for 921 Post",
+      "url": "https://rojgarresult.com/up-police-si-sub-inspector-2024/",
+      "source": "www.rojgarresult.com",
+      "description": "UP Police Sub Inspector Confidential, ASI Clerk, Accounts Recruitment 2023 : Typing Test Admit Card 2026 for SI 921 Post Post Update Date: 26-03-2026 Short Description: UP Police Sub Inspector SI / ASI Final Result  2026 : UP Police Result 2026 | Uttar Pradesh Police Recruitment and Promotion Board UPPBPB Official Notification is released and Online Form Now Started on 07 January 2024 to 31 January 2024 is Last Date for 921 Post. UP Police Sub Inspector SI Vacancy 2024 Full Notification avail...",
+      "pdf_link": null,
+      "important_dates": {
+        "exam_date": "05-01-2026",
+        "found_date": "26-03-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Typing"
+      ],
+      "scraped_at": "2026-03-27T23:54:57.110614",
+      "links": [
+        "https://uppbpb.gov.in/."
+      ]
+    },
+    {
+      "id": "863d2be3f16e0cc0c79d040b54402614",
+      "title": "Rajasthan Board 12th Result 2026",
+      "url": "https://rojgarresult.com/rajasthan-board-12th-result/",
+      "source": "www.rojgarresult.com",
+      "description": "RBSE Rajasthan Board Intermediate Result 2026 Post Update Date: 27-03-2026 Short Description : Rajasthan Board Class 12th Result 2026 | RBSE Intermediate Result 2026 | Rajasthan Board XII Result 2026 has been released on March 2026 (Tentative) on official website @https://rajeduboard.rajasthan.gov.in/ | Rajasthan Board Intermediatel Result 2026 candidates who appeared in this Examination can check / download their Result after Declared, so interested applicants should first check the short de...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "27-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-27T23:54:57.110673",
+      "links": [
+        "https://rajeduboard.rajasthan.gov.in/"
+      ]
     }
   ]
 }
