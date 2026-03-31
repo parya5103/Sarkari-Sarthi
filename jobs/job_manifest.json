@@ -1,61 +1,9 @@
 {
-  "last_updated": "2026-03-30T00:00:53.663792",
-  "total_jobs": 294,
-  "active_jobs": 294,
-  "expired_jobs": 16,
+  "last_updated": "2026-03-31T00:03:52.506912",
+  "total_jobs": 302,
+  "active_jobs": 302,
+  "expired_jobs": 5,
   "jobs": [
-    {
-      "id": "43006eabc4c6e5b1ee7b258c97d92644",
-      "title": "IIT Guwahati",
-      "url": "https://allgovernmentjobs.in/iit-guwahati-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Institute of Technology Guwahati (IIT Guwahati) has officially released the notification to fill the vacancie .... Indian Institute of Technology Guwahati (IIT Guwahati) has declared the official notification for 2026. To fill up the 0 .... The Indian Institute of Technology Guwahati (IIT Guwahati) has officially released the notification to fill the vacancie .... The Indian Institute of Technology Guwahati (IIT Guwahati) has officially released the notification to fill the vacanci...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2026-02-27T23:49:43.907936",
-      "links": []
-    },
-    {
-      "id": "e39f12fe18cc9916cd61ccf2f92c4abe",
-      "title": "Jadavpur University",
-      "url": "https://allgovernmentjobs.in/jadavpur-university-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Jadavpur University has officially released the notification to fill the vacancies of 01 Project Research Scientist Post .... Jadavpur University has officially released the notification to fill the vacancies of 01 Junior Research Fellow Posts. I .... Jadavpur University has officially released the notification to fill the vacancies of 09 Research Associate I, Proj ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-02-27T23:49:43.908001",
-      "links": []
-    },
-    {
-      "id": "00df73536815491fb81be993dbce42dc",
-      "title": "NCESS",
-      "url": "https://allgovernmentjobs.in/ncess-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Centre for Earth Science Studies (NCESS) has officially released the notification to fill the vacancies of .... The National Centre for Earth Science Studies (NCESS) has published the official notification for 2026. To fill up the v ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "General",
-      "skills": [],
-      "scraped_at": "2026-02-27T23:49:43.908031",
-      "links": []
-    },
-    {
-      "id": "7d822daffcaa19be1d2bfcb677bb81e8",
-      "title": "SVIMS",
-      "url": "https://allgovernmentjobs.in/svims-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Sri Venkateswara Institute of Medical Sciences (SVIMS) has officially released the notification to fill the vacancie .... Sri Venkateswara Institute of Medical Sciences (SVIMS) has announced the official notification for 2026. To fill up the .... The Sri Venkateswara Institute of Medical Sciences (SVIMS Tirupati) has officially released the notification to fill the .... The Sri Venkateswara Institute of Medical Sciences (SVIMS) has officially released the notification to fill the vacancie...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Medical",
-      "skills": [],
-      "scraped_at": "2026-02-27T23:49:43.908098",
-      "links": []
-    },
     {
       "id": "a8346afb0cf3743b35466fd9813ccc70",
       "title": "BHEL Notification 2026 - Apply Offline for Medical Consultant Posts",
@@ -2760,22 +2708,6 @@
       "links": []
     },
     {
-      "id": "cbc21af040f0e046d0a43228b605c382",
-      "title": "NIMHANS Notification 2026 - Walk-in interview for Senior Resident Posts",
-      "url": "https://allgovernmentjobs.in/nimhans-notification-2026-walk-in-interview-for-senior-resident-posts/40018",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute of Mental Health and Neuro Sciences (NIMHANS) has officially released the notification to fill the vacancies of 01 Senior Resident Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MD/MS and DNB can apply for the NIMHANS Notification 2026. The interested applicants can attend the walk-in interview. Here we have mentioned the education details, age limit, s...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "30-03-2026",
-        "found_date": "12-03-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-17T23:56:36.740719",
-      "links": []
-    },
-    {
       "id": "c38b6eee2193fb38f1c6f1c330bd37c2",
       "title": "ISRO VSSC Notification 2026 - Apply Offline for 03 Authorised Medical Officer Jobs",
       "url": "https://allgovernmentjobs.in/isro-vssc-notification-2026-apply-offline-for-03-authorised-medical-officer-jobs/40015",
@@ -4469,6 +4401,196 @@
         "Word"
       ],
       "scraped_at": "2026-03-29T23:59:13.206607",
+      "links": []
+    },
+    {
+      "id": "b201ca8c7d043118957e2f6e4ce2001e",
+      "title": "NII Notification 2026 - Apply Offline for Project Technical Support III Posts",
+      "url": "https://allgovernmentjobs.in/nii-notification-2026-apply-offline-for-project-technical-support-iii-posts/40320",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Institute of Immunology (NII) has officially released the notification to fill the vacancies of 01 Project Technical Support III Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree, B.E./B. Tech and post-graduation students can apply for the NII Notification 2026. The interested applicants can apply in offline mode. Here we have mentioned the education deta...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "08-04-2026",
+        "found_date": "30-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-31T00:01:16.932221",
+      "links": []
+    },
+    {
+      "id": "c0bc6e04461e35befb98cbb33ca20573",
+      "title": "IISER Pune Notification 2026 - Apply Online for Research Assistant Posts",
+      "url": "https://allgovernmentjobs.in/iiser-pune-notification-2026-apply-online-for-research-assistant-posts/40319",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Science Education and Research (IISER) Pune has declared the official notification for 2026. To fill up the various vacancies for Research Assistant Jobs. Those candidates who have qualified in the Post-Graduation can grab this chance and apply for the IISER Pune Notification 2026 . Here we included the age limit, selection process, salary structure, education details, applciation fee, and how to apply for these posts. If you are looking for more, here is a list of Governm...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "05-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-31T00:01:16.932248",
+      "links": []
+    },
+    {
+      "id": "4d1a5401e5cf6c0fb38e5ef02f626f3b",
+      "title": "UPSC Notification 2026 - Apply Online for Anthropologist Posts",
+      "url": "https://allgovernmentjobs.in/upsc-notification-2026-apply-online-for-anthropologist-posts/40318",
+      "source": "allgovernmentjobs.in",
+      "description": "The Union Public Service Commission (UPSC) has declared the official notification for 2026. To fill up the 02 vacancies for Anthropologist Jobs. Those candidates who have qualified in the Post-Graduation can grab this chance and apply for the UPSC Notification 2026 . Here we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply before the last date of application. If you are looking fo...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "17-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-31T00:01:16.932271",
+      "links": []
+    },
+    {
+      "id": "8708d1a526c0a4b09c5aa27fef969273",
+      "title": "CECRI Notification 2026 - Apply Online for 05 Junior Research Fellow Posts",
+      "url": "https://allgovernmentjobs.in/cecri-notification-2026-apply-online-for-05-junior-research-fellow-posts/40317",
+      "source": "allgovernmentjobs.in",
+      "description": "The Central Electrochemical Research Institute (CECRI) has officially released the notification to fill the vacancies of 05 Junior Research Fellow Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech can apply for the CECRI Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selec...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "07-04-2026",
+        "found_date": "22-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-31T00:01:16.932296",
+      "links": []
+    },
+    {
+      "id": "d8fdc16624570ff435365ecba0c930f1",
+      "title": "NARL Notification 2026 - Apply Online for 15 Junior Research Fellow, Scientist/ Engineer Posts",
+      "url": "https://allgovernmentjobs.in/narl-notification-2026-apply-online-for-15-junior-research-fellow-scientist-engineer-posts/40314",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Atmospheric Research Laboratory (NARL) has officially released the notification to fill the vacancies of 15 Junior Research Fellow, Scientist/ Engineer  Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech in Electronics Engineering, Ph.D., Post-graduation, can apply for the NARL Notification 2026 . The interested applicants can apply in onlin...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "27-04-2026",
+        "found_date": "28-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-31T00:01:16.932315",
+      "links": []
+    },
+    {
+      "id": "1fd31f7f7961afa6387a8cf6d44138e5",
+      "title": "Income Tax Department Recruitment 2026 - Apply Offline for 02 Consultant Posts",
+      "url": "https://allgovernmentjobs.in/income-tax-department-recruitment-2026-apply-offline-for-02-consultant-posts/40321",
+      "source": "allgovernmentjobs.in",
+      "description": "The Income Tax Department has declared the official notification for the recruitment of 02 Consultant Jobs. Those candidates who have qualified for any degree, post-graduation, can grab this chance and apply for the Income Tax Department Recruitment 2026 . Here we included the age limit, selection process, salarystructure, education details, applciation fee, and how to apply for these posts. Interested candidates can apply before the last date of application. If you are looking for more, here...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "13-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-31T00:01:16.938058",
+      "links": []
+    },
+    {
+      "id": "c2a468d2f80cd03a57abce1aa2890600",
+      "title": "RBI Recruitment 2026 - Apply Offline for 02 Medical Consultant Posts",
+      "url": "https://allgovernmentjobs.in/rbi-recruitment-2026-apply-offline-for-02-medical-consultant-posts/40316",
+      "source": "allgovernmentjobs.in",
+      "description": "Reserve Bank of India (RBI) has declared the official notification for the recruitment of various Medical Consultant Jobs. Those candidates who have qualified in the MBBS can grab this chance and apply for the RBI Recruitment 2026 . Here we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply on or before the last date of application. If you are looking for more, here is a list of Gov...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "20-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-31T00:01:16.938084",
+      "links": []
+    },
+    {
+      "id": "c55793a13036cfb6973c83dc7c882733",
+      "title": "GRI Dindigul Recruitment 2026 - Walk-in-Interview for Various Teacher Posts",
+      "url": "https://allgovernmentjobs.in/gri-dindigul-recruitment-2026-walk-in-interview-for-various-teacher-posts/40315",
+      "source": "allgovernmentjobs.in",
+      "description": "Gandhigram Rural Institute (GRI) has declared the official notification for the recruitment of various Teacher Jobs. Those candidates who have qualified in the Post Graduation, M.Sc, Ph.D can use this chance and apply for the GRI Dindigul Recruitment 2026 . Here we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. If you are looking for more, here is a list of Government Jobs in 2026 that you can all apply for. U...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "06-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-31T00:01:16.938105",
+      "links": []
+    },
+    {
+      "id": "9bf9fee1ec790048f642d08d7b7bfb4d",
+      "title": "TMC Recruitment 2026 - Walk-in-Interview for Medical Officer Posts",
+      "url": "https://allgovernmentjobs.in/tmc-recruitment-2026-walk-in-interview-for-medical-officer-posts/40312",
+      "source": "allgovernmentjobs.in",
+      "description": "The Tata Memorial Centre (TMC)has declared the official notification for 2026. To fill up the vacancies for various Medical Officer Jobs. Those candidates who have qualified in the MBBS can grab this chance and apply for the TMC Recruitment 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. If you are looking for more, here is a list of Government Jobs in 2026 that you can all apply for. Use this l...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "02-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-03-31T00:01:16.938124",
+      "links": []
+    },
+    {
+      "id": "77f805d3da3193cbed99bd1c1ceefa12",
+      "title": "Income Tax",
+      "url": "https://allgovernmentjobs.in/income-tax-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Income Tax Department has declared the official notification for the recruitment of 02 Consultant Jobs. Those c ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2026-03-31T00:01:16.938145",
+      "links": []
+    },
+    {
+      "id": "b82edb7236046fd5559748c114b6a5dc",
+      "title": "IISER",
+      "url": "https://allgovernmentjobs.in/iiser-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Science Education and Research (IISER) Pune has declared the official notification for 2026. To fill .... Indian Institute of Science Education and Research (IISER) Thiruvananthapuram has declared the official notification for .... The Indian Institute of Science Education & Research Mohali (IISER Mohali) has officially released the notification .... The Indian Institute of Science Education and Research Tirupati (IISER Tirupati) has officially released the notificatio ......",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Teaching",
+      "skills": [],
+      "scraped_at": "2026-03-31T00:01:16.938168",
+      "links": []
+    },
+    {
+      "id": "afa2b2b0c97e3bbf1404ad5493e443ef",
+      "title": "AIIMS Bhubaneswar",
+      "url": "https://allgovernmentjobs.in/aiims-bhubaneswar-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The All India Institute of Medical Sciences Bhubaneshwar (AIIMS Bhubaneshwar) has officially released the notification t .... The All India Institute of Medical Sciences, Bhubaneswar (AIIMS Bhubaneswar) has officially released the notification to .... The All India Institute of Medical Sciences, Bhubaneswar (AIIMS Bhubaneswar) has officially released the notification to .... All India Institute of Medical Sciences ( AIIMS Bhubaneswar) has released the official notification for 2026. To fill u...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Medical",
+      "skills": [],
+      "scraped_at": "2026-03-31T00:01:16.938202",
+      "links": []
+    },
+    {
+      "id": "3b6544eb8a175b1986f8e5ce831c06ae",
+      "title": "AIIMS Rishikesh",
+      "url": "https://allgovernmentjobs.in/aiims-rishikesh-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The All India Institute of Medical Sciences, Rishikesh (AIIMS Rishikesh) has officially released the notification to fil .... The All India Institute of Medical Sciences, Rishikesh (AIIMS Rishikesh) has officially released the notification t .... All India Institute of Medical Rishikesh (AIIMS Rishikesh) has declared the official notification for 2026. To fill .... All India Institute of Medical Sciences Rishikesh (AIIMS Rishikesh) has declared the official notification for 02 P .... All Indi...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Medical",
+      "skills": [],
+      "scraped_at": "2026-03-31T00:01:16.938229",
       "links": []
     }
   ]
