@@ -1,496 +1,9 @@
 {
-  "last_updated": "2026-04-10T00:06:18.506723",
-  "total_jobs": 298,
-  "active_jobs": 298,
-  "expired_jobs": 13,
+  "last_updated": "2026-04-11T00:04:53.880519",
+  "total_jobs": 274,
+  "active_jobs": 274,
+  "expired_jobs": 38,
   "jobs": [
-    {
-      "id": "70cdfc32ffea4d3ef253c798c6b48494",
-      "title": "All Government Jobs",
-      "url": "https://allgovernmentjobs.in/",
-      "source": "allgovernmentjobs.in",
-      "description": "Install All Government Jobs Home Latest Govt Jobs Results Qualifications Organizations Contact Us Login India's Best Portal for All Government Jobs Updates search 363 Notifications and 54,944 Jobs All Government Jobs - Sarkari Naukri India's Best Govt Job Site Get Your Latest Government Jobs Explore the world of All Government Jobs, which offer a wide range of career options. Our robust tool enables you to discover the perfect Govt job that aligns with your qualifications and interests. All G...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-10T23:52:20.210647",
-      "links": []
-    },
-    {
-      "id": "fe0401064c6850ee4a40cd1ad8e34043",
-      "title": "Latest Govt Jobs",
-      "url": "https://allgovernmentjobs.in/latest-government-jobs",
-      "source": "allgovernmentjobs.in",
-      "description": "Join on Telegram All Government Jobs Home Latest Govt Jobs Results Qualifications Organizations About Us Contact Us Register Login Home > Latest Government Jobs Government Jobs 2026 | 54,944 Latest Govt Jobs 363 Notifications All Government Jobs 2026: Here, you can apply for the latest job postings and recruitment notifications, we are expert in providing the government jobs that offer many employment opportunities for you. our job portal which provides the best recruitment information relate...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [
-        "Excel",
-        "Data Entry"
-      ],
-      "scraped_at": "2026-03-10T23:52:20.210690",
-      "links": []
-    },
-    {
-      "id": "df51fd822a4feaacdaf996e2d3c50661",
-      "title": "Qualifications",
-      "url": "https://allgovernmentjobs.in/jobs-by-qualification",
-      "source": "allgovernmentjobs.in",
-      "description": "Join on Telegram All Government Jobs Home Latest Govt Jobs Results Qualifications Organizations About Us Contact Us Register Login Jobs By Quaifications Education Total Post Notifications Apply Now Post Graduation 1,664 70 Apply / View B.E/ B.Tech 3,722 105 Apply / View Electronics and Communication Engineering 671 27 Apply / View Computer Science Engineering 488 16 Apply / View M.Phil / Ph.D 155 26 Apply / View M.E / M.Tech 644 51 Apply / View MBBS 876 63 Apply / View B.Sc 1,239 29 Apply / V...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-10T23:52:20.210721",
-      "links": []
-    },
-    {
-      "id": "a14bae7bd9ce0589c8be86df885cf2ff",
-      "title": "Organizations",
-      "url": "https://allgovernmentjobs.in/jobs-by-organization",
-      "source": "allgovernmentjobs.in",
-      "description": "Join on Telegram All Government Jobs Home Latest Govt Jobs Results Qualifications Organizations About Us Contact Us Register Login Jobs By Organization Organization Total Post Notifications Apply Now NIMHANS 10 3 Apply / View BEL 48 7 Apply / View ICAR 6 6 Apply / View PGIMER 9 6 Apply / View IIT 47 8 Apply / View AIIMS Gorakhpur 20 1 Apply / View BARC 111 2 Apply / View Karnataka KPSC 2 2 Apply / View ACTREC 40 8 Apply / View AIIMS Bhopal 8 2 Apply / View 1 2 3 Next All Government Jobs AllGo...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-10T23:52:20.210750",
-      "links": []
-    },
-    {
-      "id": "3aebc6c7ddcf741178ffb334ccd84169",
-      "title": "Medical",
-      "url": "https://allgovernmentjobs.in/medical-jobs",
-      "source": "allgovernmentjobs.in",
-      "description": "The All India Institute of Medical Sciences Gorakhpur (AIIMS Gorakhpur) has officially released the notification to fill... The All India Institute of Medical Sciences, Bhopal (AIIMS Bhopal) has officially released the notification to fill the ... Ahmedabad Municipal Corporation has released the official notification for 02 Medical Officer posts. Those candidates wh... The North Eastern Indira Gandhi Regional Institute of Health and Medical Sciences (NEIGRIHMS) has officially released th... D...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-10T23:52:20.210777",
-      "links": []
-    },
-    {
-      "id": "d7cfa41aa25c524e2ccb0798d6b41c8f",
-      "title": "Engineering",
-      "url": "https://allgovernmentjobs.in/engineering-jobs",
-      "source": "allgovernmentjobs.in",
-      "description": "Join on Telegram All Government Jobs Home Latest Govt Jobs Results Qualifications Organizations About Us Contact Us Register Login Home > Engineering Jobs Engineering Govt Jobs 2024- [all vacancies] Posts B.E / B.Tech, M.E / M.Tech Engineering Jobs : For all the students in India who have a dream to become an engineer and work in the government sector, Government Jobs for Engineering is the best match. The Central Government of India has announced Total 8987 vacancies for people who like to g...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-03-10T23:52:20.210799",
-      "links": []
-    },
-    {
-      "id": "40739f76344ff63612b1eab1bd5e8bb6",
-      "title": "Finance",
-      "url": "https://allgovernmentjobs.in/mba-jobs",
-      "source": "allgovernmentjobs.in",
-      "description": "The Karnataka Health Promotion Trust (KHPT) has officially released the notification to fill the vacancies of 01 Manager... The Brahmaputra Valley Fertilizer Corporation Limited (BVFCL) has officially released the notification to fill the vacan... The Indian Institute of Technology Jodhpur (IIT Jodhpur) has officially released the notification to fill the vacancies ... The State Bank of India (SBI) has officially released the notification to fill the vacancies of 24 Manager, Busines... Indian...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [
-        "Analyst"
-      ],
-      "scraped_at": "2026-03-10T23:52:20.210826",
-      "links": []
-    },
-    {
-      "id": "55ec3dbde87163e0b1955d0a26c8029e",
-      "title": "Nurse",
-      "url": "https://allgovernmentjobs.in/staff-nurse-jobs",
-      "source": "allgovernmentjobs.in",
-      "description": "Join on Telegram All Government Jobs Home Latest Govt Jobs Results Qualifications Organizations About Us Contact Us Register Login Home > Staff Nurse Jobs Staff Nurse Vacancy 2024, 295 Upcoming Nursing Job alert Staff Nurse Vacancy : Every year, lakhs of students apply for Government jobs as off now Total 12116 Nursing Govt Jobs were available, and try their best to secure a place in the tough government industry. This time, the Central Government of India has announced Staff Nurse Vacancy 20...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "26-03-11"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-10T23:52:20.210874",
-      "links": []
-    },
-    {
-      "id": "f8da4d1065d86319bcab0375f7a7ee5f",
-      "title": "Pharmacy",
-      "url": "https://allgovernmentjobs.in/pharmacy-jobs",
-      "source": "allgovernmentjobs.in",
-      "description": "National Health Systems Resource Centre (NHSRC) has declared the official notification for the recruitment of various Co... The Kalyan Singh Super Speciality Cancer Institute (KSSSCI) has officially released the notification to fill the vacanci... The Tata Memorial Centre (TMC) has declared the official notification for 2026. To fill up the vacancies for 02 Jun... Haryana State AIDS Control Society (HSACS) has officially released a notification for the recruitment of 4 Medical Offic... The Al...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-10T23:52:20.210898",
-      "links": []
-    },
-    {
-      "id": "ba7971b0ef03335f68b55c65d003d7a6",
-      "title": "Dental",
-      "url": "https://allgovernmentjobs.in/bds-jobs",
-      "source": "allgovernmentjobs.in",
-      "description": "District Health and Family Welfare Society (DHFWS), Malappuram has declared the official notification for 2026. To fill ... Postgraduate Institute of Medical Education and Research (PGIMER) has declared the official notification for the recruit... Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has declared an official notification for 2... The Odisha Public Service Commission (OPSC) has officially released the notification to fill the vacancies of 124 Dental... T...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-10T23:52:20.210932",
-      "links": []
-    },
-    {
-      "id": "2a7aa9e0a17fc238afce7ef7eb24c2ae",
-      "title": "Aviation",
-      "url": "https://allgovernmentjobs.in/aeronautical-engineering-jobs",
-      "source": "allgovernmentjobs.in",
-      "description": "SJVN has invited online applications for Apprentice Jobs. There are 300 positions released in Himachal Pradesh Gove... CSIR-National Aerospace Laboratories (NAL) has introduced the latest job notification for the 74 Project Associate, Seni... DRDO-Advanced Centre for Energetic Material (ACEM) has issued a new job notification for the position of Apprentice... Pawan Hans Limited (PHL) has published the latest job notification for the 20 General Manager, Joint General Manage... Central Mechanic...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-10T23:52:20.210955",
-      "links": []
-    },
-    {
-      "id": "91f96aa87b17a2f9d92025c6155d4267",
-      "title": "Naval",
-      "url": "https://allgovernmentjobs.in/indian-navy-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Navy has officially released the notification to fill the vacancies of 260 SSC Officer Posts. Interested and ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-10T23:52:20.210981",
-      "links": []
-    },
-    {
-      "id": "d7c0b557d3d17d5cc3a05ba010391419",
-      "title": "Hotel Management",
-      "url": "https://allgovernmentjobs.in/hotel-management-jobs",
-      "source": "allgovernmentjobs.in",
-      "description": "DU Jobs 2023 is now out on its official website. Candidates who are looking for the University of Delhi Jobs 2023 can ap... Institute of Hotel Management, Catering Technology & Applied Nutrition (IHMCTAN), Mumbai invites applicants to fill ... National Institute of Technical Teachers Training and Research (NITTTR) Chennai has announced the Latest Job Notificatio... Jharkhand Staff Selection Commission (JSSC) has announced the Latest Job Notification for the Post of Training Officer w... Natio...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-10T23:52:20.211003",
-      "links": []
-    },
-    {
-      "id": "cdf3a911adf444977ac2ed3413ace85c",
-      "title": "Sports Quota",
-      "url": "https://allgovernmentjobs.in/sports-quota-jobs",
-      "source": "allgovernmentjobs.in",
-      "description": "Railway Recruitment Cell - East Central Railway has officially declared the notification for the posts of Sportsperson i... Northern Railway has released the notification for the position of Sports Quota. There are 21 vacancies announced on its... North Western Railway If you're passionate about sports and looking for a job opportunity, North Western Railway may hav...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-10T23:52:20.211027",
-      "links": []
-    },
-    {
-      "id": "9652317edecb5d653907b3152758d8b1",
-      "title": "Architecture",
-      "url": "https://allgovernmentjobs.in/architectural-engineering-jobs",
-      "source": "allgovernmentjobs.in",
-      "description": "National Aluminium Company Limited (NALCO) has issued a new job notification for the positions of Executive Director, Gr... Bharat Earth Movers Limited (BEML) has introduced the latest job notification for the 26 Chief General Manager, Assistan... Rail India Technical and Economic Services Limited (RITES) has published the latest job notification for the 01 &nb... School of Planning and Architecture, Bhopal (SPA) has released the latest job notification for the 01 Junior Research Fe... The Na...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-10T23:52:20.211049",
-      "links": []
-    },
-    {
-      "id": "56ea27387e66431c8e7a34e7d791a0ac",
-      "title": "ITI / Diploma",
-      "url": "https://allgovernmentjobs.in/iti-jobs",
-      "source": "allgovernmentjobs.in",
-      "description": "The Advanced Centre for Treatment Research and Education in Cancer (ACTREC) has declared the official notification ... The Indian Institute of Technology Jodhpur (IIT Jodhpur) has officially released the notification to fill the vacancies ... Delhi Metro Rail Corporation (DMRC) has declared the official notification for 2026. To fill up the vacancies for variou... The Coir Board has officially released the notification to fill the vacancies of 07 Fitter, Welder, Electrician, an... Madhya Prad...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-10T23:52:20.211069",
-      "links": []
-    },
-    {
-      "id": "3bac3da83cb5d4a1f4731fce8cf4521d",
-      "title": "Agriculture",
-      "url": "https://allgovernmentjobs.in/agricultural-engineering-jobs",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute of Hydrology (NIH) has declared the latest job notification for 2026. To fill up the vacancies fo...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2026-03-10T23:52:20.211093",
-      "links": []
-    },
-    {
-      "id": "92a842f492c647acebb39e9b92bfc38d",
-      "title": "IIWM Notification 2026 - Walk-in interview for Research Associate Posts",
-      "url": "https://allgovernmentjobs.in/iiwm-notification-2026-walk-in-interview-for-research-associate-posts/39804",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Institute of Water Management (IIWM) has officially released the notification to fill the vacancies of 01 Research Associate Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech and Ph.D. students can apply for the IIWM Notification 2026. The interested applicants can attend the walk-in interview. Here we have mentioned the education details, a...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "18-03-20",
-        "found_date": "10-03-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-03-10T23:52:20.214045",
-      "links": []
-    },
-    {
-      "id": "c8e1265eae33d1a5d8d87916a535795f",
-      "title": "NIMHANS Recruitment 2026 - Walk-in-Interview for Project Associate Posts",
-      "url": "https://allgovernmentjobs.in/nimhans-recruitment-2026-walk-in-interview-for-project-associate-posts/39806",
-      "source": "allgovernmentjobs.in",
-      "description": "National Institute of Mental Health and Neurosciences (NIMHANS) has declared the official notification for 2026. To fill up the vacancies for Project Associate Jobs. Those candidates who have qualified in the Post Graduation can grab this chance and apply for the NIMHANS Recruitment 2026 . Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. If you are looking for more, here is a list of Government Jobs in 2...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "24-03-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-03-10T23:52:20.219725",
-      "links": []
-    },
-    {
-      "id": "b5ff13ebf30c19a0cc13900e926f3518",
-      "title": "PGIMER Recruitment 2026 - Apply Offline for Project Research Scientist III Posts",
-      "url": "https://allgovernmentjobs.in/pgimer-recruitment-2026-apply-offline-for-project-research-scientist-iii-posts/39803",
-      "source": "allgovernmentjobs.in",
-      "description": "Postgraduate Institute of Medical Education and Research (PGIMER) has released an official notification for 2026. To fill up the vacancies for Project Research Scientist III Jobs. Those candidates who have qualified in the Post Graduation can grab this chance and apply for the PGIMER Recruitment 2026 . Here, we included the age limit, selection process, and salary structure, education details, application fee, and how to apply for these posts. If you are looking for more, here is a list of Go...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "16-03-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-03-10T23:52:20.219751",
-      "links": []
-    },
-    {
-      "id": "d8edba5b51e520defe86e4bb783a30ea",
-      "title": "IIT BHU Recruitment 2026 - Apply for Junior Research Fellow Posts",
-      "url": "https://allgovernmentjobs.in/iit-bhu-recruitment-2026-apply-for-junior-research-fellow-posts/39802",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Technology BHU (IIT BHU) has released an official notification for the recruitment of various  Junior Research Fellow (JRF) Posts. Candidates with B.E/ B.Tech, M.E/ M.Tech in Electronics and Communication Engineering can apply for the IIT BHU Recruitment 2026 . Interested and eligible candidates can apply by sending their applications. Here, we included more about the age limit, selection process, salary structure, education details, application fee, and how to apply for t...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "26-03-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-03-10T23:52:20.219771",
-      "links": []
-    },
-    {
-      "id": "33ef467e417fa28b9300a6f4c580105b",
-      "title": "ACTREC Recruitment 2026 - Walk-in-Interview for Technician Posts",
-      "url": "https://allgovernmentjobs.in/actrec-recruitment-2026-walk-in-interview-for-technician-posts/39798",
-      "source": "allgovernmentjobs.in",
-      "description": "The Advanced Centre for Treatment Research and Education in Cancer (ACTREC) has declared the official notification for 2026. To fill up the vacancies for various Technician Jobs. Candidates who have qualified in the Any Degree, Diploma can use this chance and apply for the ACTREC Recruitment 2026 . Here we included the age limit, selection process, salary structure, education details applciation fee, and how to apply for these posts. If you are looking for more, here is a list of Government J...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "18-03-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-03-10T23:52:20.219803",
-      "links": []
-    },
-    {
-      "id": "7457078158a3f3a3699e6efd4937018b",
-      "title": "AIIMS Gorakhpur",
-      "url": "https://allgovernmentjobs.in/aiims-gorakhpur-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The All India Institute of Medical Sciences Gorakhpur (AIIMS Gorakhpur) has officially released the notification to fill .... All India Institute of Medical Sciences, Gorakhpur (AIIMS Gorakhpur) announced an official notification for the post of& .... All India Institute of Medical Sciences Gorakhpur (AIIMS Gorakhpur)  has released an official notification for the .... The All India Institute of Medical Sciences, Gorakhpur (AIIMS Gorakhpur) has officially released the notification to fil .......",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-10T23:52:20.219893",
-      "links": []
-    },
-    {
-      "id": "54f79a7d2f61414148080f7178110c7c",
-      "title": "AIIMS Bhopal",
-      "url": "https://allgovernmentjobs.in/aiims-bhopal-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The All India Institute of Medical Sciences, Bhopal (AIIMS Bhopal) has officially released the notification to fill the .... All India Institute of Medical Sciences, Bhopal (AIIMS Bhopal) has released an official notification for the recruitment .... The All India Institute of Medical Sciences, Bhopal ( AIIMS Bhopal) has officially released the notification to fill the .... All India Institute of Medical Sciences Bhopal (AIIMS Bhopal) has declared the latest job notification for 2026. To fill...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Medical",
-      "skills": [],
-      "scraped_at": "2026-03-10T23:52:20.219954",
-      "links": []
-    },
-    {
-      "id": "60f80fcf1340e19594a44aaa8787fbec",
-      "title": "UP Anganwadi Worker AWW Online Form 2025 | District Wise Update",
-      "url": "https://rojgarresult.com/up-anganwadi-bharti-nov-2025/",
-      "source": "www.rojgarresult.com",
-      "description": "Uttar Pradesh UP ICDS Anganwadi Bharti Worker Recruitment 2025: Apply Online Form Post Date: 21-11-2025 Short Description: Uttar Pradesh Government UP Anganwadi Bharti (District Wise) : Recruitment Official Notification is released and Online Form Now Started on District Wise to District Wise is Last Date for District Wise Post. UP Anganwadi Recruitment , 2025 Vacancy 2025 Full Notification available at the official website. All the candidates can now check the detailed notification of UP Ang...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "21-11-2025"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-10T23:52:41.833810",
-      "links": []
-    },
-    {
-      "id": "ed80582a6eb7ee75089601225c53176d",
-      "title": "UPSC Civil Services IAS 2025 Final Result Marks 2026",
-      "url": "https://rojgarresult.com/upsc-civil-services-ias-ifs/",
-      "source": "www.rojgarresult.com",
-      "description": "UPSC IAF / IFS Final Result Marks 2026 Post Update Date: 10-03-2026 Short Description: UPSC Civil Services IAS IFS Recruitment 2025 Final Result 2026 : UPSC Civil Services IAS Online Form 2025, Notification has been released on the website @https://upsc.gov.in/ & Application Form now started on 22 th Jan’25 for Union Public Service Commission Jobs 2025. Get the direct link to download notification link available on UPSC Civil Services Vacancy 2025 Official Website and More Other Details Age L...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "10-03-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Mathematics"
-      ],
-      "scraped_at": "2026-03-10T23:52:41.844383",
-      "links": [
-        "https://upsc.gov.in/"
-      ]
-    },
-    {
-      "id": "346fb66eddc58337521987770acaf2dd",
-      "title": "India Post GDS Gramin Dak Sevak Result 2026 | 1st Merit List for 28635 Post",
-      "url": "https://rojgarresult.com/india-post-gds-2026/",
-      "source": "www.rojgarresult.com",
-      "description": "India Post GDS 1st Merit List Result 2026 Post Update Date: 06-03-2026 Short Description: India Post GDS Recruitment 2026 Result | 1st Merit List : India Post Gramin Dak Sevak Online Form 2026 for 28635 Post , Notification has been released on the website @https://indiapostgdsonline.gov.in/ & Application Form now started on 31 January 2026 to 14 February 2026. Department of Post Jobs 2026. Get the direct link to download notification link available on India Post GDS Vacancy 2026 Official Webs...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "06-03-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Mathematics",
-        "Hindi",
-        "English"
-      ],
-      "scraped_at": "2026-03-10T23:52:41.844402",
-      "links": [
-        "https://indiapostgdsonline.gov.in/"
-      ]
-    },
-    {
-      "id": "768946335158881a6a28636ff4a23c53",
-      "title": "CBSE Group A B C Result 2026 for 124 Post",
-      "url": "https://rojgarresult.com/cbse-group-abc-2025/",
-      "source": "www.rojgarresult.com",
-      "description": "CBSE Group A B C Recruitment 2025: Result for 124 Post Post Update Date: 02-03-2026 Short Description: CBSE Group A B C Recruitment 2025 Result 2026 : CBSE Various Post Online Form 2025, Notification has been released on the website @https://www.cbse.gov.in/ & Application Form now started on 02 December 2025 to 22 December 2025. Central Board of Secondary Education Jobs 2025. Get the direct link to download notification link available on CBSE Group A B C Vacancy 2025 Official Website and More...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "02-03-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Word",
-        "Typing",
-        "Hindi",
-        "English"
-      ],
-      "scraped_at": "2026-03-10T23:52:41.844440",
-      "links": [
-        "https://www.cbse.gov.in/"
-      ]
-    },
-    {
-      "id": "c5c46df6dd6d89af6834a56d42e42df9",
-      "title": "NTA All India Sainik Schools AISSEE Result 2026",
-      "url": "https://rojgarresult.com/nta-aissee-2026/",
-      "source": "www.rojgarresult.com",
-      "description": "NTA All India Sainik Schools AISSEE 2026 Result Post Update Date: 27-02-2026 Short Description: NTA AISSEE 2026 Result : The All India Sainik Schools Entrance Examination (AISSEE) 2026 is scheduled for January 18, 2026 . The Advance Intimation of Examination City has been released January 6, 2026, on the official NTA website, allowing candidates to check their allotted exam city. Admit cards for Class 6 and Class 9 are expected to be released in the second week of January 2026 and can be down...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "27-02-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-10T23:52:41.844459",
-      "links": []
-    },
-    {
-      "id": "7f6ab038603b2634f41da57036dc1471",
-      "title": "MPESB Primary School Teacher PSTST Result 2026",
-      "url": "https://rojgarresult.com/mpesb-pstst-primary-school-july25/",
-      "source": "www.rojgarresult.com",
-      "description": "MPESB PSTST Result 2026 Post Update Date: 27-02-2026 Short Description: MPESB Primary School Teacher PSTST Result 2026 : MP Employees Selection Board MPESB Primary School Teacher Selection Test PSTST Official Notification is released and Online Form Now Started on 18 July 2025 to 25 August 2025 is Last Date for MPESB PSTST Examination 2025 Full Notification available at the official website. All the candidates can now check the detailed notification of MPESB Primary School Teacher Selection T...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "27-02-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-10T23:52:41.844478",
-      "links": []
-    },
-    {
-      "id": "ca93de8a4772fb3934243e2596fbe796",
-      "title": "UPSSSC Junior Assistant Typing Test Result 2026 : Advt No. 08/2023",
-      "url": "https://rojgarresult.com/upsssc-junior-assistant-answer-key/",
-      "source": "www.rojgarresult.com",
-      "description": "UPSSSC Junior Assistant 08/-Exam/2023 Typing Test Result 2026 Post Date: 26-02-2026 Short Details: UPSSSC Junior Assistant Result 2025: Uttar Pradesh Subordinate Service Selection Commission UPSSSC Junior Assistant Answer Key 2025 Advt No. : 08/-Exam/2023 has been released on the website @https://upsssc.gov.in/ . Get the direct link to download the UPSSSC Junior Assistant and Answer Key 2025. All Male & Female candidates can download the answer key for UPSSSC Junior Assistant Recruitment Answ...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "26-02-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Typing"
-      ],
-      "scraped_at": "2026-03-10T23:52:41.844524",
-      "links": [
-        "https://upsssc.gov.in/"
-      ]
-    },
-    {
-      "id": "d66ee51f80b392533474bfc63668890f",
-      "title": "UPSC Engineering Services Result 2026",
-      "url": "https://rojgarresult.com/upsc-engineering-services-result/",
-      "source": "www.rojgarresult.com",
-      "description": "UPSC Engineering Services 2026 Result Post Update Date: 26-02-2026 Short Details: UPSC Engineering Services Result 2026: Union Public Service Commission Result 2026 | UPSC Engineering Services Result 2026 has been released on the website @https://upsc.gov.in/ for UPSC Engg Post. Get the direct link to download the Union Public Service Commission Union Public Service Commission UPSC Engineering Services 2026 Result Official Website. More Details are Available on Rojgar Result – RojgarResult.Co...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "26-02-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Word"
-      ],
-      "scraped_at": "2026-03-10T23:52:41.844544",
-      "links": [
-        "https://upsc.gov.in/"
-      ]
-    },
     {
       "id": "2c42de1e09c7d4a9d2de939b0e57887e",
       "title": "AIIMS Bhopal Recruitment 2026 - Walk-in-Interview for 35 Junior Resident Posts",
@@ -629,22 +142,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-03-11T23:51:56.041746",
-      "links": []
-    },
-    {
-      "id": "00a421f301ab230dec7b397d187e72ad",
-      "title": "DHFWS Bankura Jobs 2026 - Apply Online for 16 Medical Officer, Attendant Posts",
-      "url": "https://allgovernmentjobs.in/dhfws-bankura-jobs-2026-apply-online-for-16-medical-officer-attendant-posts/39837",
-      "source": "allgovernmentjobs.in",
-      "description": "The District Health and Family Welfare Society Bankura (DHFWS Bankura) has officially released the notification to fill the vacancies of 16 Counsellors, NRC Attendant, Staff Nurse, Pharmacists, Psychologist, Medical Officers, and District Consultant Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS, D. Pharm, GNM, B.Sc Nursing, Any Degree, 10th can apply for the DHFWS Bankur...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "10-04-2026",
-        "found_date": "24-03-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-11T23:51:56.047601",
       "links": []
     },
     {
@@ -971,22 +468,6 @@
         "Data Entry"
       ],
       "scraped_at": "2026-03-14T23:53:09.236071",
-      "links": []
-    },
-    {
-      "id": "1192b48c742781e3fc32aaeed8da74c7",
-      "title": "VBU Notification 2026 - Apply Online for 26 Professor, Assistant Librarian Posts",
-      "url": "https://allgovernmentjobs.in/vbu-notification-2026-apply-online-for-26-professor-assistant-librarian-posts/39953",
-      "source": "allgovernmentjobs.in",
-      "description": "The Visva Bharati University (VBU) has officially released the notification to fill the vacancies of 26 Professor, Assistant Professor, Associate Professor, and Assistant Librarian Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Post-graduation and  Ph.D. can apply for the VBU Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the educ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "10-04-2026",
-        "found_date": "11-03-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-14T23:53:09.236090",
       "links": []
     },
     {
@@ -1566,22 +1047,6 @@
       "links": []
     },
     {
-      "id": "5125ebcf28015fab02586473c0928fe6",
-      "title": "JIPMER Notification 2026 - Apply Offline for Project Technical Support I Posts",
-      "url": "https://allgovernmentjobs.in/jipmer-notification-2026-apply-offline-for-project-technical-support-i-posts/40096",
-      "source": "allgovernmentjobs.in",
-      "description": "The Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has officially released the notification to fill the vacancies of 01 Project Technical Support I Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their 10th, Diploma, Any Degree, and DMLT can apply for the JIPMER Notification 2026. The interested applicants can apply in offline mode. Here we have mention...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "10-04-2026",
-        "found_date": "19-03-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-20T23:53:44.132160",
-      "links": []
-    },
-    {
       "id": "12a3ceb0f02cbe159b4eb0b64d4e5c8b",
       "title": "SVNIT Notification 2026 - Apply for Junior Research Fellow Posts",
       "url": "https://allgovernmentjobs.in/svnit-notification-2026-apply-for-junior-research-fellow-posts/40093",
@@ -1719,25 +1184,6 @@
       "category": "Teaching",
       "skills": [],
       "scraped_at": "2026-03-21T23:50:06.518455",
-      "links": []
-    },
-    {
-      "id": "321e27a913a607cd1f65f00055828578",
-      "title": "Sainik School Jhansi Recruitment 2026",
-      "url": "https://rojgarresult.com/sainik-school-recruitment-2026/",
-      "source": "www.rojgarresult.com",
-      "description": "Sainik School Jhansi Contractual and Temporary Recruitment 2026 Apply for 07 Post Post Update Date: 21-03-2026 Short Description : Sainik School Jhansi, an autonomous institution functioning under Sainik Schools Society, Ministry of Defence, invites applications from the eligible candidates (Indian Citizens Only) for the Contractual and Temporary posts as mentioned below. Staff of Sainik School Jhansi is neither an employee of Central Government nor of State Government.: Those candidates who ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "10/04/2026",
-        "found_date": "21-03-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Hindi",
-        "English"
-      ],
-      "scraped_at": "2026-03-21T23:50:26.909119",
       "links": []
     },
     {
@@ -3006,22 +2452,6 @@
       "links": []
     },
     {
-      "id": "fe0c928783c7272aff8877fcc61c1e0b",
-      "title": "ISI Notification 2026 - Walk-in interview for Research Engineer Posts",
-      "url": "https://allgovernmentjobs.in/isi-notification-2026-walk-in-interview-for-research-engineer-posts/40356",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Statistical Institute (ISI) has officially released the notification to fill the vacancies of 01 Project Linked Research Engineer Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech in Electrical, Computer Science Engineering, M.Sc., MCA, Ph.D. can apply for the ISI Notification 2026. The interested applicants can attend the walk-in interview....",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "10-04-2026",
-        "found_date": "31-03-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-31T23:59:51.899756",
-      "links": []
-    },
-    {
       "id": "c770f1f022694bdbc94ab617491e9b9b",
       "title": "NISER Notification 2026 - Apply for Research Associate I Posts",
       "url": "https://allgovernmentjobs.in/niser-notification-2026-apply-for-research-associate-i-posts/40354",
@@ -4046,24 +3476,6 @@
       "links": []
     },
     {
-      "id": "3f26c416c6cd3e84a90088e76700922d",
-      "title": "Indian Army Agniveer Online Form 2026",
-      "url": "https://rojgarresult.com/join-indian-army-agniveer-2026/",
-      "source": "www.rojgarresult.com",
-      "description": "Join Indian Army Agniveer Recruitment 2026 Apply Online Form Post Update Date: 31-03-2026 Short Description : Join Indian Army Agniveer Online Form 2026 | Bhartiya Sena Join Indian Army has invited online applications for the Post of Agniveer Recruitment 2026, with the official notification already released, offering a Agniveer Bharti 2026, Eligible candidates can fill the form from 13/02/2026 to 01/04/2026 , so interested applicants should first check the short details on RojgarResult.Com , ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "10/04/2026",
-        "found_date": "31-03-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "English"
-      ],
-      "scraped_at": "2026-04-08T00:04:59.153156",
-      "links": []
-    },
-    {
       "id": "58973d5cdd21207ecd440f59473792a4",
       "title": "UPSSSC Rajasva Lekhpal Result 2026 | Advt No. 01-Exam/2022",
       "url": "https://rojgarresult.com/upsssc-result/",
@@ -4526,6 +3938,216 @@
       "category": "IT",
       "skills": [],
       "scraped_at": "2026-04-10T00:03:47.122503",
+      "links": []
+    },
+    {
+      "id": "91df0755b32d1b4ab8b400a93a2da2fd",
+      "title": "NCRTC Notification 2026 - Apply Online for 04 Manager/ Security, Deputy General Manager Posts",
+      "url": "https://allgovernmentjobs.in/ncrtc-notification-2026-apply-online-for-04-manager-security-deputy-general-manager-posts/40607",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Capital Region Transport Corporation (NCRTC) has officially released the notification to fill the vacancies of 04 Manager/ Security, Senior Deputy General Manager, and Deputy General Manager Jobs. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree, B.E./B. Tech in Civil Engineering can apply for the NCRTC Notification 2026. The interested applicants can apply in o...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "09-05-2026",
+        "found_date": "09-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-04-11T00:02:01.010594",
+      "links": []
+    },
+    {
+      "id": "c33c11fa32aea30480445dfd543145ab",
+      "title": "IIT Mandi Notification 2026 - Apply Online for 17 Junior Assistant Posts",
+      "url": "https://allgovernmentjobs.in/iit-mandi-notification-2026-apply-online-for-17-junior-assistant-posts/40606",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Institute of Technology (IIT) Mandi has declared the official notification for 2026. To fill out the vacancies for 17 Junior Assistant Jobs. Those candidates who have qualified for any degree, post-graduation, can grab this chance and apply for the IIT Mandi Notification 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply on or before the deadl...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "20-04-2026",
+        "found_date": "20-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-04-11T00:02:01.010626",
+      "links": []
+    },
+    {
+      "id": "8de151399084250dbcec6345314f95c5",
+      "title": "SVBPH Notification 2026 - Walk-in interview for 04 Junior Resident, Senior Resident Posts",
+      "url": "https://allgovernmentjobs.in/svbph-notification-2026-walk-in-interview-for-04-junior-resident-senior-resident-posts/40605",
+      "source": "allgovernmentjobs.in",
+      "description": "The Sardar Ballabhai Patel Hospital (SVBPH) has officially released the notification to fill the vacancies of 04 Junior Residents and Senior Residents. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS, MD/MS, DNB, Post-graduation, or Diploma can apply for the SVBPH Notification 2026. The interested applicants can attend the walk-in interview. Here we have mentioned the education ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "15-04-2026",
+        "found_date": "10-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-04-11T00:02:01.010650",
+      "links": []
+    },
+    {
+      "id": "d76e9cd28bfe4e3be40d1c77428e8e4c",
+      "title": "ACTREC Notification 2026 - Walk-in-Interview for Clinical Research Coordinator Posts",
+      "url": "https://allgovernmentjobs.in/actrec-notification-2026-walk-in-interview-for-clinical-research-coordinator-posts/40604",
+      "source": "allgovernmentjobs.in",
+      "description": "The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has declared the official notification for 2026. To fill up the vacancies for various Clinical Research Coordinator Jobs. Those candidates who have qualified in the B.Sc, B.Pharm. M.Sc can grab this chance and apply for the ACTREC Notification 2026 . Here we mentioned more details about the age limit, selection process, salarystructure, education details, applciation fee, and how to apply for these posts. If you are ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "22-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-04-11T00:02:01.010670",
+      "links": []
+    },
+    {
+      "id": "7d8850d9be74aa4b4de25e00ad737fbe",
+      "title": "NISST Notification 2026 - Apply Offline for 05 Lab Assistant, Multi Tasking Staff Posts",
+      "url": "https://allgovernmentjobs.in/nisst-notification-2026-apply-offline-for-05-lab-assistant-multi-tasking-staff-posts/40603",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Institute of Secondary Steel Technology (NISST) has officially released the notification to fill the vacancies of 05 Technical Assistant, Accountant, Lab Assistant, Multi Tasking Staff Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their 10th pass, 12th, B.E./B. Tech in Mechanical Engineering, Any Degree can apply for the NISST Notification 2026. The interested applican...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "24-04-2026",
+        "found_date": "10-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-04-11T00:02:01.010689",
+      "links": []
+    },
+    {
+      "id": "3527be17bd0dbd00e21db4013d6d971c",
+      "title": "MKU Notification 2026 - Apply Offline for Project Assistant Posts",
+      "url": "https://allgovernmentjobs.in/mku-notification-2026-apply-offline-for-project-assistant-posts/40602",
+      "source": "allgovernmentjobs.in",
+      "description": "The Madurai Kamraj University (MKU) has declared the official notification for 2026. Allotted various vacancies for Project Assistant Jobs. Those candidates who have qualified in the M.Sc can grab this chance and apply for the MKU Notification 2026 . Here we included the age limit, selection process, salarystructure, education details, applciation fee, and how to apply for these posts. If you are looking for more, here is a list of Government Jobs in 2026 that you can all apply for. Use this ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "24-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-04-11T00:02:01.010708",
+      "links": []
+    },
+    {
+      "id": "e1f99fb705e76eef3e396eb64cad75f9",
+      "title": "SVNIT Notification 2026 - Walk-in interview for Teaching Assistant Posts",
+      "url": "https://allgovernmentjobs.in/svnit-notification-2026-walk-in-interview-for-teaching-assistant-posts/40601",
+      "source": "allgovernmentjobs.in",
+      "description": "The Sardar Vallabhbhai National Institute (SVNIT) has officially released the notification to fill the vacancies of 01 Teaching Assistant Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech in Electronics Engineering, Ph.D., can apply for the SVNIT Notification 2026. The interested applicants can attend the walk-in interview. Here we have mentioned the e...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "20-04-2026",
+        "found_date": "10-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-04-11T00:02:01.010726",
+      "links": []
+    },
+    {
+      "id": "e8afe06867b75565b768b48a3e4e1732",
+      "title": "UKMSSB Notification 2026 - Apply Online for 47 Medical Officer Posts",
+      "url": "https://allgovernmentjobs.in/ukmssb-notification-2026-apply-online-for-47-medical-officer-posts/40599",
+      "source": "allgovernmentjobs.in",
+      "description": "The Uttarakhand Medical Service Selection Board (UKMSSB) has officially released the notification to fill the vacancies of 47 Medical Officer Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS can apply for the UKMSSB Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, application ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "05-05-2026",
+        "found_date": "15-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-04-11T00:02:01.010744",
+      "links": []
+    },
+    {
+      "id": "51c3972b136a5edcff9e6620d877d676",
+      "title": "Zilla Parishad Beed Recruitment 2026 - Walk-in-Interview for Various Medical Officer Posts",
+      "url": "https://allgovernmentjobs.in/zilla-parishad-beed-recruitment-2026-walk-in-interview-for-various-medical-officer-posts/40600",
+      "source": "allgovernmentjobs.in",
+      "description": "Zilla Parishad Beed has declared the official notification for 2026. To fill up the various vacancies for Medical Officer Jobs. Those candidates who have qualified in the MBBS can grab this chance and apply for the Zilla Parishad Beed Recruitment 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can attend the walk-in at the address below. If you are looking for more, here is...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "15-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-04-11T00:02:01.016600",
+      "links": []
+    },
+    {
+      "id": "655046369a05d66291d9f35bd60fc91c",
+      "title": "NHAI Recruitment 2026 - Apply Online for Chief General Manager Posts",
+      "url": "https://allgovernmentjobs.in/nhai-recruitment-2026-apply-online-for-chief-general-manager-posts/40598",
+      "source": "allgovernmentjobs.in",
+      "description": "National Highways Authority of India (NHAI) has declared the official notification for 2026. To fill up the vacancies for 01 Chief General Manager Jobs. Those candidates who have completed their CA and MBA can grab this chance and apply for the NHAI Recruitment 2026 . Here we included the age limit, selection process, salary structure, education details, applciation fee, and how to apply for these posts. If you are looking for more, here is a list of Government Jobs in 2026 that you can all a...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "08-05-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Analyst"
+      ],
+      "scraped_at": "2026-04-11T00:02:01.016624",
+      "links": []
+    },
+    {
+      "id": "fd33e120c78d4ebfc2ac99e1e93b531d",
+      "title": "NISST",
+      "url": "https://allgovernmentjobs.in/nisst-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Institute of Secondary Steel Technology (NISST) has officially released the notification to fill the vacanc ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2026-04-11T00:02:01.016735",
+      "links": []
+    },
+    {
+      "id": "c33873d4757d414320aaf43027292e8f",
+      "title": "Directorate of Education",
+      "url": "https://allgovernmentjobs.in/directorate-of-education-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Madurai Kamraj University (MKU) has declared the official notification for 2026. Allotted various vacancies for&nbsp .... The Intergovernmental Organisations (IGOs) have officially released the notification to fill the vacancies of 250 Farm M .... The Educational Consultants India (EdCIL) Recruitment 2026 for posts of 07 Young Professionals. Candidates with B.E .... The UT Administration of Dadra and Nagar Haveli and Daman and Diu (DNH Administration) has officially released the notif ......",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-04-11T00:02:01.016756",
+      "links": []
+    },
+    {
+      "id": "db53b89733b9b1aa9219cc0445b142a6",
+      "title": "UKMSSB",
+      "url": "https://allgovernmentjobs.in/ukmssb-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Uttarakhand Medical Service Selection Board (UKMSSB) has officially released the notification to fill the vacancies ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Medical",
+      "skills": [],
+      "scraped_at": "2026-04-11T00:02:01.016798",
+      "links": []
+    },
+    {
+      "id": "33f9b4abebed77d3a147ee7393b7d2fb",
+      "title": "NIT Karnataka",
+      "url": "https://allgovernmentjobs.in/nit-karnataka-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Institute of Technology, Karnataka (NIT Karnataka) has officially released the notification to fill the vac .... The National Institute of Technology Karnataka (NIT Karnataka) has officially released the notification to fill the vaca .... National Institute of Technology (NIT) Karnataka has declared the official notification for 2026. To fill up the vacanci .... The National Institute of Technology Karnataka (NIT Karnataka) has officially released the notification to fill the vac...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2026-04-11T00:02:01.016858",
       "links": []
     }
   ]
