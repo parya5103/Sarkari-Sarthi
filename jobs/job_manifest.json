@@ -1,146 +1,9 @@
 {
-  "last_updated": "2026-04-21T00:10:17.084660",
-  "total_jobs": 301,
-  "active_jobs": 301,
-  "expired_jobs": 21,
+  "last_updated": "2026-04-22T00:07:04.856625",
+  "total_jobs": 304,
+  "active_jobs": 304,
+  "expired_jobs": 11,
   "jobs": [
-    {
-      "id": "d58ad18cb0952c0914d73fcd521209f1",
-      "title": "IIT Dhanbad",
-      "url": "https://allgovernmentjobs.in/iit-dhanbad-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Institute of Technology Dhanbad (IIT Dhanbad)  has officially released the notification to fill the vaca .... Indian Institute of Technology Dhanbad (IIT Dhanbad) has declared the official notification for 2026. To fill up th .... IIT Indian School of Mines Dhanbad (IIT ISM Dhanbad) has officially released a notification for the recruitment of Junio .... IIT Indian School of Mines Dhanbad (IIT ISM Dhanbad) has released an official notification for the recruitment of variou .... IIT...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Teaching",
-      "skills": [],
-      "scraped_at": "2026-03-21T23:50:06.518455",
-      "links": []
-    },
-    {
-      "id": "87afb68a5741523e22253ac365ee4ef3",
-      "title": "BPSC Civil Judge PCS J Online Form 2026",
-      "url": "https://rojgarresult.com/bihar-bpsc-33-civil-judge-pcs-j-2026/",
-      "source": "www.rojgarresult.com",
-      "description": "BPSC Bihar Civil Judge PCS J Recruitment 2026 Apply Online for 173 Post Post Update Date: 17-03-2026 Short Description : Bihar Public Service Commission (BPSC) Online Form 2026 | Judicial Services Competitive 33 Examination 2026. has invited online applications for the Post of Judicial Services Competitive 33 Recruitment 2026 , with the official notification already released, offering a Total of 173 Post , Eligible candidates can fill the form from 25/02/2026 to 18/03/2026 , so interested app...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "17-03-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-21T23:50:26.920384",
-      "links": []
-    },
-    {
-      "id": "9951420ef532e371bbd259b9891f5987",
-      "title": "Rajasthan RVUNL Technician Mains Result 2026 for 2163 Post",
-      "url": "https://rojgarresult.com/rrvunl-technician-2025/",
-      "source": "www.rojgarresult.com",
-      "description": "RRVUNL Technician Mains Result 2026 Post Update Date: 21-03-2026 Short Description: RRVUNL Technician Recruitment 2025 Mains Result 2026: RRVUNL Technician Online Form 2025, Notification has been released on the website @https://energy.rajasthan.gov.in/ & Application Form now started on 10 September 2025 to 25 September 2025. Note : Revised detailed Advertisement for Round Second – Candidates who had not applied earlier, can apply from 10.09.2025 (10:00 AM) to 25.09.2025 (05:00 PM) Rajasthan ...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "21-03-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Typing"
-      ],
-      "scraped_at": "2026-03-21T23:50:26.920522",
-      "links": [
-        "https://energy.rajasthan.gov.in/"
-      ]
-    },
-    {
-      "id": "361fd983c59c4d1a637575cfa2899442",
-      "title": "Bihar Board 10th Result 2026",
-      "url": "https://rojgarresult.com/bihar-board-10th-result/",
-      "source": "www.rojgarresult.com",
-      "description": "BSEB Bihar Board High School Result 2026 Post Update Date: 21-03-2026 Short Description : Bihar Board 10th Result 2026 | BSEB Bihar Board Result 2026 has been released on official website @https://results.biharboardonline.com/ OR https://biharboardonline.com/  and Result Declared Date 3rd / 4th Week March 2026 for BSEB High School Result 2026, candidates who appeared in this Examination can check / download their Result after Declared, so interested applicants should first check the short det...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "21-03-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-21T23:50:26.920541",
-      "links": [
-        "https://biharboardonline.com/",
-        "https://results.biharboardonline.com/"
-      ]
-    },
-    {
-      "id": "3743e453504a71ffc951629760504767",
-      "title": "NTA NIFTEE 2026 Result | NIFT Admissions 2026",
-      "url": "https://rojgarresult.com/nta-niftee-2026-nift-admissions-2026/",
-      "source": "www.rojgarresult.com",
-      "description": "NTA NIFT Result 2025 for National Institute Of Fashion Technology Entrance Examination (NIFTEE) Post Update Date: 20-03-2026 Short Description: NTA NIFTEE 2026 Result : The NIFT Entrance Examination (NIFTEE) 2026 application process starts in 08 December 2025 and the last date to submit the application is 13 January 2026. Candidates can also apply with a late fee within the notified period. The entrance examination for all UG and PG programmes will be conducted on 08 February 2026 across desi...",
-      "pdf_link": null,
-      "important_dates": {
-        "exam_date": "08/02/2026",
-        "found_date": "20-03-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-21T23:50:26.920558",
-      "links": []
-    },
-    {
-      "id": "af0552aa16d635c5cece1258fefe6d98",
-      "title": "ECGC PO Probationary Officer Final Result 2026",
-      "url": "https://rojgarresult.com/ecgc-po-2025/",
-      "source": "www.rojgarresult.com",
-      "description": "ECGC Probationary Officer Recruitment 2025: Result for 30 Post Post Update Date: 19-03-2026 Short Description: ECGC PO Recruitment 2025 Final Result: ECGC Probationary Officer Admit Card 2026 Exam Date is 11-01-2026, Notification has been released on the website @https://www.ecgc.in/ & Application Form now started on 11 November 2025 to 02 December 2025. ECGC Probationary Officer Jobs 2025. Get the direct link to download notification link available on ECGC PO Vacancy 2025 Official Website an...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "19-03-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-21T23:50:26.920574",
-      "links": [
-        "https://www.ecgc.in/"
-      ]
-    },
-    {
-      "id": "8a238628e3af761567039db2188b4c35",
-      "title": "Supreme Court SCI Court Master Final Result 2026  for 30 Post",
-      "url": "https://rojgarresult.com/sci-court-master-30-post/",
-      "source": "www.rojgarresult.com",
-      "description": "Supreme Court of India SCI Court Master Recruitment 2025 Result for 30 Post Post Update Date: 19-03-2026 Short Description: Supreme Court of India SCI Court Master Result 2025 : SCI Court Master Recruitment 2025 have started, male and female candidates can apply till 15 September 2025, candidates must read the notification for complete information related to the recruitment and before applying. Supreme Court of India SCI SCI Court Master Recruitment 2025 SCI Court Master Exam 2025 :  Short De...",
-      "pdf_link": null,
-      "important_dates": {
-        "exam_date": "12/11/2025",
-        "found_date": "19-03-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Typing",
-        "English"
-      ],
-      "scraped_at": "2026-03-21T23:50:26.920591",
-      "links": []
-    },
-    {
-      "id": "3621ed2ab9673f4fe13c3d5c2dd21ba4",
-      "title": "IIT JAM 2026 Result / Score Card",
-      "url": "https://rojgarresult.com/iit-jam-admit-card/",
-      "source": "www.rojgarresult.com",
-      "description": "IIT JAM 2026 Result Post Update Date: 19-03-2026 Short Details: IIT JAM Result 2026: Indian Institute of Technology Admit Card 2026 has been released on official website @https://jam.iitm.ac.in/ and Exam Date is 15-02-2026 for Indian Institute of Technology IIT JAM Admit Card whose, candidates who applied for IIT JAM Application Form can download their admit card. More Other Vacancy / Jobs / Syllabus / Admit Card / Result / Answer Key / Sarkari Yojana / Admission and Others More Details visit...",
-      "pdf_link": null,
-      "important_dates": {
-        "exam_date": "15-02-2026",
-        "found_date": "19-03-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Word"
-      ],
-      "scraped_at": "2026-03-21T23:50:26.920628",
-      "links": [
-        "https://jam.iitm.ac.in/"
-      ]
-    },
     {
       "id": "ccc262dfe98d678c7f6d36b559dd803c",
       "title": "TMC Recruitment 2026 - Walk-in-Interview for Clinical Research Coordinator Posts",
@@ -2027,24 +1890,6 @@
       "links": []
     },
     {
-      "id": "bab77fe5525902b8049aa7945bc0729a",
-      "title": "IISER Tirupati Jobs 2026 - Apply Online for Scientific Administrative Assistant Posts",
-      "url": "https://allgovernmentjobs.in/iiser-tirupati-jobs-2026-apply-online-for-scientific-administrative-assistant-posts/40485",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Institute of Science Education and Research Tirupati (IISER Tirupati) has officially released the notification to fill the vacancies of 01 Scientific Administrative Assistant Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed any degree can apply for the IISER Tirupati Jobs 2026. The interested applicants can apply in online mode. Here we have mentioned the education details...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "21-04-2026",
-        "found_date": "06-04-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-04-08T00:04:36.917521",
-      "links": []
-    },
-    {
       "id": "d4f4af36227a8e5250892e11a9f3aa69",
       "title": "UPSSSC उत्तर प्रदेश में टीचर की भर्ती – ऑनलाइन करे आवेदन",
       "url": "https://rojgarresult.com/upsssc-teacher-cadre-2026/",
@@ -3240,22 +3085,6 @@
       "links": []
     },
     {
-      "id": "1bfd25dead0e5cd47ab4884c437de90a",
-      "title": "MPSFRI Notification 2026 - Walk-in interview for 02 Junior Research Fellow Posts",
-      "url": "https://allgovernmentjobs.in/mpsfri-notification-2026-walk-in-interview-for-02-junior-research-fellow-posts/40680",
-      "source": "allgovernmentjobs.in",
-      "description": "The Madhya Pradesh State Forest Research Institute (MPSFRI) has officially released the notification to fill the vacancies of 02 Junior Research Fellow Posts. Interested and eligibile can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree, Post-graduation can apply for the MPSFRI Notification 2026. The interested applicants can attend the walk-in interview. Here we have mentioned the education details, age limit, s...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "21-04-2026",
-        "found_date": "12-04-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-04-14T00:08:23.560481",
-      "links": []
-    },
-    {
       "id": "3962b027b1f3c45cbc5b325e4911f27e",
       "title": "NIPGR Notification 2026 - Apply Offline for Research Associate I, III Posts",
       "url": "https://allgovernmentjobs.in/nipgr-notification-2026-apply-offline-for-research-associate-i-iii-posts/40677",
@@ -3484,22 +3313,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-04-14T00:09:17.663496",
-      "links": []
-    },
-    {
-      "id": "111bdf9642af4cf87bd3f555d051410b",
-      "title": "JNPT Notification 2026 - Apply Offline for Deputy General Manager Posts",
-      "url": "https://allgovernmentjobs.in/jnpt-notification-2026-apply-offline-for-deputy-general-manager-posts/40720",
-      "source": "allgovernmentjobs.in",
-      "description": "The Jawaharlal Nehru Port Authority (JNPT) has officially released the notification to fill the vacancies of 01 Deputy General Manager Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed any degree can apply for the JNPT Notification 2026 . The interested applicants can apply in offline mode. Here we have mentioned the education details, age limit, selection process, application fee, sal...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "21-04-2026",
-        "found_date": "06-04-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-04-15T00:08:06.360275",
       "links": []
     },
     {
@@ -4547,6 +4360,214 @@
         "Data Entry"
       ],
       "scraped_at": "2026-04-21T00:07:38.850322",
+      "links": []
+    },
+    {
+      "id": "bc60db0a0c8aa1ea030be65e889e4c1c",
+      "title": "ACTREC Notification 2026 - Walk-in-Interview for Medical Officer Posts",
+      "url": "https://allgovernmentjobs.in/actrec-notification-2026-walk-in-interview-for-medical-officer-posts/40929",
+      "source": "allgovernmentjobs.in",
+      "description": "The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has declared the official notification for 2026. To fill up the vacancies for the Medical Officer Jobs. Those candidates who have qualified in the MBBS and BDS can use this chance and apply for the ACTREC Notification 2026 . Here we mentioned the age limit, selection process, salary structure, education details, applciation fee, and how to apply for these posts. If you are looking for more, here is a list of Governme...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "06-05-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-04-22T00:04:14.111485",
+      "links": []
+    },
+    {
+      "id": "08ebd44e93321ffa4396a80b26cc0bfa",
+      "title": "Mizoram PSC Notification 2026 - Apply Online for 25 Dental Surgeon and other Posts",
+      "url": "https://allgovernmentjobs.in/mizoram-psc-notification-2026-apply-online-for-25-dental-surgeon-and-other-posts/40922",
+      "source": "allgovernmentjobs.in",
+      "description": "Mizoram Public Service Commission (Mizoram PSC) has declared the offcial notification for 2026. To fill up the vacancies for 25 Dental Surgeons and GDMO Jobs. Those candidates who have qualified for the MBBS and BDS can grab this chance and apply for the Mizoram PSC Notification 2026 . Here, we included the age limit, selection process, salary structure, and education details. application fee, and how to apply for these posts. If you are looking for more, here is a list of Government Jobs in ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "20-05-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-04-22T00:04:14.111514",
+      "links": []
+    },
+    {
+      "id": "9412dce6fde12f3070e8e4eb953ad22a",
+      "title": "SVNIT Notification 2026 - Walk-in-Interview for 02 Project Engineer Posts",
+      "url": "https://allgovernmentjobs.in/svnit-notification-2026-walk-in-interview-for-project-engineer-posts/40921",
+      "source": "allgovernmentjobs.in",
+      "description": "Sardar Vallabhbhai National Institute of Technology, Surat (SVNIT) has released an official notification for the recruitment of 02 Project Engineer Jobs. Candidates who have qualified in M.E/ M.Tech, M.Sc can use this chance and apply for these posts.  Here, we provided more details about the age limit, selection process, salary structure, education details, application fee, and how to apply for the SVNIT Notification 2026 . If you are looking for more, here is a list of Government Jobs in 20...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "28-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-04-22T00:04:14.111537",
+      "links": []
+    },
+    {
+      "id": "632e767fa2c723f5ca46e03250a1b3f5",
+      "title": "IIT Indore Recruitment 2026 - Apply for Research Associate I Posts",
+      "url": "https://allgovernmentjobs.in/iit-indore-recruitment-2026-apply-for-research-associate-i-posts/40928",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology Indore (IIT Indore) has declared the official notification for 2026. To fill up the vacancies for various Research Associate I Jobs. Those candidates who have qualified in the B.E/ B.Tech, M.E/ M.Tech in Electrical Engineering, and Ph.D can use this opportunity and apply for the IIT Indore Recruitment 2026 . Here we included the age limit, selection process, salary structure, education details, applciation fee, and how to apply for these posts. If you are lookin...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "25-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-04-22T00:04:14.117560",
+      "links": []
+    },
+    {
+      "id": "d0e5c31c17db712ab984194536af04eb",
+      "title": "IIT Bhilai Recruitment 2026 - Apply for Various Project Engineer Posts",
+      "url": "https://allgovernmentjobs.in/iit-bhilai-recruitment-2026-apply-for-various-project-engineer-posts/40926",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology Bhilai (IIT Bhilai) has declared the official notification for 2026. To fill up the vacancies for various Project Engineer Jobs. Those candidates who have qualified in the B.E/ B.Tech, M.E/ M.Tech can grab this chance and apply for the IIT Bhilai Recruitment 2026 . Here we included the age limit, selection process, salary structure, education details, applciation fee, and how to apply for these posts. If you are looking for more, here's a list of Government Jobs...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "23-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-04-22T00:04:14.117599",
+      "links": []
+    },
+    {
+      "id": "8bd6c9fd28332135d1e882b7dbeac65f",
+      "title": "AIIMS Delhi Recruitment 2026 - Apply Online for Senior Project Associate Posts",
+      "url": "https://allgovernmentjobs.in/aiims-delhi-recruitment-2026-apply-online-for-senior-project-associate-posts/40925",
+      "source": "allgovernmentjobs.in",
+      "description": "All India Institute of Medical Sciences (AIIMS) Delhi has declared the offcial notification for 2026. To fill up the vacancies for Senior Project Associate Jobs. Those candidates who have qualified in the B.Sc, M.Sc, B.V.Sc, B.Pharm, MD/ MS, can grab this chance and apply for the AIIMS Delhi Recruitment 2026 . Here we included the age limit, selection process, and salary structure, education details, applciation fee, and how to apply for these posts. If you are looking for more, here is a lis...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "23-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-04-22T00:04:14.117621",
+      "links": []
+    },
+    {
+      "id": "ded2dc962f0ab03d02fe3dd4dee90d77",
+      "title": "NCDC Recruitment 2026 - Apply for 05 Young Professional Posts",
+      "url": "https://allgovernmentjobs.in/ncdc-recruitment-2026-apply-for-05-young-professional-posts/40924",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Cooperative Development Corporation (NCDC) has declared the official notification for 2026. To fill up the vacancies for 05 Young Professional Jobs. Those candidates who have qualified in the Post-Graduation can grab this chance and apply for the NCDC Recruitment 2026 . Here, we included the age limit, selection process, salary structure, education details, applciation fee, and how to apply for these posts. If you are looking for more, here is a list of Government jobs in 2026 th...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "05-05-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-04-22T00:04:14.117640",
+      "links": []
+    },
+    {
+      "id": "0302b79666555e01e6616011088e586e",
+      "title": "IIT Kanpur Recruitment 2026 - Apply Online for Project Engineer Posts",
+      "url": "https://allgovernmentjobs.in/iit-kanpur-recruitment-2026-apply-online-for-project-engineer-posts/40923",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Institute of Technology Kanpur has released the official notification for 2026. To fill up the vacancies for various Project Engineer Jobs. Those candidates who have qualified in the B.E/ B.Tech, M.E/ M.Tech in Electrical Engineering can grab this chance and apply for the IIT Kanpur Recruitment 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. If you are looking for more, here is a list...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "30-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-04-22T00:04:14.117659",
+      "links": []
+    },
+    {
+      "id": "85653324c052f4437339d29c8d63518b",
+      "title": "TMC Recruitment 2026 - Walk-in-Interview for 02 Medical Officer Posts",
+      "url": "https://allgovernmentjobs.in/tmc-recruitment-2026-walk-in-interview-for-02-medical-officer-posts/40920",
+      "source": "allgovernmentjobs.in",
+      "description": "The Tata Memorial Centre (TMC) has declared the official notification for 2026. To fill up the various vacancies for 02 Medical Officer Jobs. Those candidates who have qualified in the MBBS can grab this chance and apply for the TMC Recruitment 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. If you are looking for more, here is a list of Government Jobs in 2026 that you can all apply for. Use th...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "28-04-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-04-22T00:04:14.117683",
+      "links": []
+    },
+    {
+      "id": "9f9bf58aa79ac7b8139b36046762069b",
+      "title": "ACTREC",
+      "url": "https://allgovernmentjobs.in/actrec-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has declared the official notification for .... The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has declared the official notification for .... The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has declared the official notification for .... The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has declared the official notification for .....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Teaching",
+      "skills": [],
+      "scraped_at": "2026-04-22T00:04:14.117706",
+      "links": []
+    },
+    {
+      "id": "dea2a76bc38cc1355d82d92d3bc6be81",
+      "title": "IIT Bhilai",
+      "url": "https://allgovernmentjobs.in/iit-bhilai-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology Bhilai (IIT Bhilai) has declared the official notification for 2026. To fill up the vacan .... Indian Institute of Technology (IIT) Bhilai has declared the official notification for the recruitment of various Instru .... Indian Institute of Technology Bhilai (IIT Bhilai) has declared the official notification for 2026. To fill up the vacan .... Indian Institute of Technology Bhilai (IIT Bhilai) has announced the official notification for the recruitment of vario...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2026-04-22T00:04:14.117733",
+      "links": []
+    },
+    {
+      "id": "949910432190f60e82f2170e33f0ed95",
+      "title": "IIT Kanpur",
+      "url": "https://allgovernmentjobs.in/iit-kanpur-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Institute of Technology Kanpur has released the official notification for 2026. To fill up the vacancies for .... Indian Institute of Technology Kanpur (IIT Kanpur) has declared the official notification for 2026. To fill up the vacan .... Indian Institute of Technology Kanpur (IIT Kanpur) has declared the latest job notification for 2026. To fill up the vac .... The Indian Institute of Technology Kanpur has released the official notification for 2026. To fill up the vacancies for ...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-04-22T00:04:14.117778",
+      "links": []
+    },
+    {
+      "id": "27a55b1bfc96a58c7b2ae62e5410da37",
+      "title": "Mizoram PSC",
+      "url": "https://allgovernmentjobs.in/mizoram-psc-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Mizoram Public Service Commission (Mizoram PSC) has declared the offcial notification for 2026. To fill up the vacancies .... Mizoram Public Service Commission has declared the latest job notification for 03 Junior Grade of Mizoram Civil Ser ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "General",
+      "skills": [],
+      "scraped_at": "2026-04-22T00:04:14.117801",
+      "links": []
+    },
+    {
+      "id": "a99851d92e0559618c48a8ce00933660",
+      "title": "SVNIT",
+      "url": "https://allgovernmentjobs.in/svnit-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Sardar Vallabhbhai National Institute of Technology, Surat (SVNIT) has released an official notification for the recruit .... The Sardar Vallabhbhai National Institute of Technology, Surat (NIT Surat) has officially released the notification to f .... The Sardar Vallabhbhai National Institute (SVNIT) has officially released the notification to fill the vacancies of 01 T .... Sardar Vallabhbhai National Institute of Technology, Surat (SVNIT) has released an official notification for the recrui...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2026-04-22T00:04:14.117823",
       "links": []
     }
   ]
