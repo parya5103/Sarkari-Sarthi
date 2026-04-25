@@ -1,153 +1,9 @@
 {
-  "last_updated": "2026-04-24T00:12:44.376129",
-  "total_jobs": 316,
-  "active_jobs": 316,
-  "expired_jobs": 11,
+  "last_updated": "2026-04-25T00:09:21.392560",
+  "total_jobs": 314,
+  "active_jobs": 314,
+  "expired_jobs": 24,
   "jobs": [
-    {
-      "id": "0756a33ae95af38c354fbe9605142b68",
-      "title": "AAU Notification 2026 - Walk-in-Interview for Scientific Helper Posts",
-      "url": "https://allgovernmentjobs.in/aau-notification-2026-walk-in-interview-for-scientific-helper-posts/40166",
-      "source": "allgovernmentjobs.in",
-      "description": "Assam Agriculture University (AAU) has declared the official notification for 2026. To fill up the vacancies for Scientific Helper Jobs. Those candidates who have qualified for M.Sc. can grab this chance and apply for the AAU Notification 2026 . Here, we included the age limit, selection process, salary structure, education, education details, application fee, and how to apply for these posts. If you are looking for more, here is a list of Government Jobs in 2026 that you can all apply for. U...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "25-03-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Automation"
-      ],
-      "scraped_at": "2026-03-24T23:56:52.973917",
-      "links": []
-    },
-    {
-      "id": "4bbb306d6d15152e5ab56ddb10b1a528",
-      "title": "NIT Warangal Notification 2026 - Apply for Junior Research Fellow Posts",
-      "url": "https://allgovernmentjobs.in/nit-warangal-notification-2026-apply-for-junior-research-fellow-posts/40163",
-      "source": "allgovernmentjobs.in",
-      "description": "National Institute of Technology (NIT) Warangal has declared the official notification for 2026. To fill up the vacancies for various Junior Research Fellow Jobs. Those candidates who have completed their B.E/ B.Tech., M.E/ M.Tech in Electronics and Communication Engineering can use this opportunity and apply for the NIT Warangal Notification 2026 . Interested and eligible candidates can send their resumes to the email address mentioned below. If you are looking for more, here is a list of Go...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "10-04-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-24T23:56:52.973945",
-      "links": []
-    },
-    {
-      "id": "9209eb715be86114528634cfe648a028",
-      "title": "PJTSAU Notification 2026 - Walk-in-Interview for Various Research Associate Posts",
-      "url": "https://allgovernmentjobs.in/pjtsau-notification-2026-walk-in-interview-for-various-research-associate-posts/40161",
-      "source": "allgovernmentjobs.in",
-      "description": "Professor Jayashankar Telangana State Agricultural University (PJTSAU) has announced the offcial notification for the recruitment of various Research Associate Jobs. Those candidates who have qualified in the M.Sc Ph.D can grab this chance and apply for the PJTSAU Notification 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can attend the walk-in at the given v...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "31-03-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-24T23:56:52.973995",
-      "links": []
-    },
-    {
-      "id": "8fbb8e443ce5533278b99a66fdf67210",
-      "title": "Pondicherry University Recruitment 2026 - Apply for Project Technical Support III Posts",
-      "url": "https://allgovernmentjobs.in/pondicherry-university-recruitment-2026-apply-for-project-technical-support-iii-posts/40165",
-      "source": "allgovernmentjobs.in",
-      "description": "Pondicherry University has declared the latest notification for the recruitment of Project Technical Support III Jobs. Candidates who have qualified in post-graduation can use this chance and apply for the Pondicherry University Recruitment 2026 . Here we mentioned more details about the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. If you are looking for more, here is a list of Government Jobs in 2026 that you can all ap...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "06-04-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-24T23:56:52.979721",
-      "links": []
-    },
-    {
-      "id": "a11f2d63580cfc3be2369775207dad40",
-      "title": "MANIT Recruitment 2026 - Walk-in-Interview for Junior Research Fellow Posts",
-      "url": "https://allgovernmentjobs.in/manit-recruitment-2026-walk-in-interview-for-junior-research-fellow-posts/40160",
-      "source": "allgovernmentjobs.in",
-      "description": "Maulana Azad National Institute of Technology (MNIT) has officially released the recruitment notification for the various Junior Research Fellow Jobs. Those candidates who have qualified in the M.E/ M.Tech, M.Sc can use this chance and apply for the MANIT Recruitment 2026 . Here, we included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can attend the walk-in at the address below. If...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "22-04-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-24T23:56:52.979746",
-      "links": []
-    },
-    {
-      "id": "f613db7f33d065618dd20314755f6f02",
-      "title": "Hyderabad University Recruitment 2026 - Apply Offline for Senior Research Fellow Posts",
-      "url": "https://allgovernmentjobs.in/hyderabad-university-recruitment-2026-apply-offline-for-senior-research-fellow-posts/40158",
-      "source": "allgovernmentjobs.in",
-      "description": "University of Hyderabad has declared the latest job notification for the recruitment of Various Senior Research Fellow Jobs. Those candidates who have qualified in the M.E/ M.Tech, M.Sc can grab this chance and apply for the Hyderabad University Recruitment 2026 . Here we include the age limit, Selection process, salary structure, education details, application fee, and how to apply for these posts. If you are looking for more, here is a list of Government Jobs in 2026 that you can all apply ...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "28-03-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-24T23:56:52.979767",
-      "links": []
-    },
-    {
-      "id": "b9c312af4f37ae4ae366a818c2cfd259",
-      "title": "Pondicherry University",
-      "url": "https://allgovernmentjobs.in/pondicherry-university-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Pondicherry University has declared the latest notification for the recruitment of Project Technical Support III Jo .... Pondicherry University has declared the official notification for 2025. To fill up the vacancies for Project Associ ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-24T23:56:52.979818",
-      "links": []
-    },
-    {
-      "id": "6ad02791a4ad18b4ff235e6409063321",
-      "title": "NIT Warangal",
-      "url": "https://allgovernmentjobs.in/nit-warangal-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "National Institute of Technology (NIT) Warangal has declared the official notification for 2026. To fill up the vacancie .... National Institute of Technology (NIT) Warangal has declared the official notification for 2026. To fill up the 03 vacan .... National Institute of Technology (NIT) Warangal has released the official notification for 2026. To fill up the vacancie .... The National Institute of Technology Warangal (NIT Warangal) has officially released the notification to fill the vacan...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2026-03-24T23:56:52.979840",
-      "links": []
-    },
-    {
-      "id": "9fbfde9859a8aec650f9d4a357c724f7",
-      "title": "Department of Science & Technology",
-      "url": "https://allgovernmentjobs.in/department-of-science-technology-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR) has officially released the notification to fill t .... The Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR) has officially released the notification to fill t .... The Indian Institute of Engineering Science and Technology Shibpur (IIEST) has officially released the notification to f .... Indian Institute of Engineering Science and Technology (IIEST) has declared the latest job notification for 2026. To fi...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Engineering",
-      "skills": [],
-      "scraped_at": "2026-03-24T23:56:52.979862",
-      "links": []
-    },
-    {
-      "id": "89926a50c4b2eca4a09ba3d31e8c1fe7",
-      "title": "University of Hyderabad",
-      "url": "https://allgovernmentjobs.in/university-of-hyderabad-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "University of Hyderabad has declared the latest job notification for the recruitment of Various Senior Research Fel .... Hyderabad University has declared the official notification for 2026. To fill up the vacancies for Project Associat .... University of Hyderabad has declared the official notification for 2026. To fill up the vacancies for Junior R .... The University of Hyderabad (Hyderabad University) has officially released the notification to fill the vacancies of 40& .... University of...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Engineering",
-      "skills": [],
-      "scraped_at": "2026-03-24T23:56:52.979922",
-      "links": []
-    },
     {
       "id": "14f19896df2d71e647109cbe7d080c6a",
       "title": "Sarkari Result 2026",
@@ -626,22 +482,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-03-28T23:56:34.070414",
-      "links": []
-    },
-    {
-      "id": "084ef58604497635f8cecbb110eb0f97",
-      "title": "BARC Notification 2026 - Apply Offline for 56 Research Associate Posts",
-      "url": "https://allgovernmentjobs.in/barc-notification-2026-apply-offline-for-56-research-associate-posts/40280",
-      "source": "allgovernmentjobs.in",
-      "description": "The Bhabha Atomic Research Centre (BARC) has officially released the notification to fill the vacancies of 56 Research Associate Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech in Electronics Engineering, Ph.D., can apply for the BARC Notification 2026. The interested applicants can apply in offline mode. Here we have mentioned the education details....",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "24-04-2026",
-        "found_date": "27-03-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-03-28T23:56:34.070436",
       "links": []
     },
     {
@@ -2022,38 +1862,6 @@
       "links": []
     },
     {
-      "id": "f833f647d1c5aa271dc26468cdb2c60d",
-      "title": "CNCI Notification 2026 - Apply Offline for Project Assistant Posts",
-      "url": "https://allgovernmentjobs.in/cnci-notification-2026-apply-offline-for-project-assistant-posts/40563",
-      "source": "allgovernmentjobs.in",
-      "description": "The Chittaranjan National Cancer Institute (CNCI) has officially released the notification to fill the vacancies of 01 Project Assistant Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their M.Sc. can apply for the CNCI Notification 2026. The interested applicants can apply in offline mode. Here we have mentioned the education details, age limit, selection process, application fee, ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "24-04-2026",
-        "found_date": "09-04-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-04-10T00:03:47.116219",
-      "links": []
-    },
-    {
-      "id": "b603f33ce911107562e81d6d01015a70",
-      "title": "CSMCRI Notification 2026 - Apply Offline for 02 Project Junior Research Fellow, Project Associate Posts",
-      "url": "https://allgovernmentjobs.in/csmcri-notification-2026-apply-offline-for-02-project-junior-research-fellow-project-associate-posts/40560",
-      "source": "allgovernmentjobs.in",
-      "description": "The Central Salt and Marine Chemicals Research Institute (CSMCRI) has officially released the notification to fill the vacancies of 02 Project Junior Research Fellow, Project Associate I Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.Sc can apply for the CSMCRI Notification 2026. The interested applicants can apply in offline mode. Here we have mentioned the ed...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "24-04-2026",
-        "found_date": "09-04-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-04-10T00:03:47.116238",
-      "links": []
-    },
-    {
       "id": "7549d81011fd1984855bc04534abc303",
       "title": "PGIMER Recruitment 2026 - Apply Online for Project Technical Support III Posts",
       "url": "https://allgovernmentjobs.in/pgimer-recruitment-2026-apply-online-for-project-technical-support-iii-posts/40566",
@@ -2201,22 +2009,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-04-11T00:02:01.010670",
-      "links": []
-    },
-    {
-      "id": "7d8850d9be74aa4b4de25e00ad737fbe",
-      "title": "NISST Notification 2026 - Apply Offline for 05 Lab Assistant, Multi Tasking Staff Posts",
-      "url": "https://allgovernmentjobs.in/nisst-notification-2026-apply-offline-for-05-lab-assistant-multi-tasking-staff-posts/40603",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute of Secondary Steel Technology (NISST) has officially released the notification to fill the vacancies of 05 Technical Assistant, Accountant, Lab Assistant, Multi Tasking Staff Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their 10th pass, 12th, B.E./B. Tech in Mechanical Engineering, Any Degree can apply for the NISST Notification 2026. The interested applican...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "24-04-2026",
-        "found_date": "10-04-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-04-11T00:02:01.010689",
       "links": []
     },
     {
@@ -3408,22 +3200,6 @@
       "links": []
     },
     {
-      "id": "3d0981993a216bed079eee02f968aa52",
-      "title": "CIRCOT Notification 2026 - Apply Offline for Senior Research Fellow Posts",
-      "url": "https://allgovernmentjobs.in/circot-notification-2026-apply-offline-for-senior-research-fellow-posts/40802",
-      "source": "allgovernmentjobs.in",
-      "description": "The Central Institute for Research on Cotton Technology (CIRCOT) has officially released the notification to fill the vacancies of 01 Senior Research Fellow posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Post-graduation, M.E./M. Tech in Mechanical Engineering, Any Degree can apply for the CIRCOT Notification 2026. The interested applicants can apply in offline mode. Here we h...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "24-04-2026",
-        "found_date": "16-04-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-04-17T00:06:58.801337",
-      "links": []
-    },
-    {
       "id": "f147cf9b692dc00288755b53505b3d45",
       "title": "KRCL Notification 2026 - Walk-in interview for Assistant Materials Manager Posts",
       "url": "https://allgovernmentjobs.in/krcl-notification-2026-walk-in-interview-for-assistant-materials-manager-posts/40797",
@@ -3556,24 +3332,6 @@
       "category": "Teaching",
       "skills": [],
       "scraped_at": "2026-04-17T00:06:58.807429",
-      "links": []
-    },
-    {
-      "id": "4e62ba4b1dd4500eae4b0ea7a7dc7a98",
-      "title": "IITRAM Notification 2026 - Apply Online for Junior Research Fellow Posts",
-      "url": "https://allgovernmentjobs.in/iitram-notification-2026-apply-online-for-junior-research-fellow-posts/40839",
-      "source": "allgovernmentjobs.in",
-      "description": "The Institute of Infrastructure, Technology, Research and Management (IITRAM) has officially released the notification to fill the vacancies of 01 Junior Research Fellow Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their M.E./M. Tech, B.E./B. Tech in Mechanical Engineering can apply for the IITRAM Notification 2026. The interested applicants can apply in online mode. Here we have...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "24-04-2026",
-        "found_date": "17-04-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Analyst"
-      ],
-      "scraped_at": "2026-04-18T00:05:28.779789",
       "links": []
     },
     {
@@ -3799,24 +3557,6 @@
       "links": [
         "https://results.digilocker.gov.in/"
       ]
-    },
-    {
-      "id": "d8a9cd608f085be94e8e034770c2c633",
-      "title": "SRHCH Notification 2026 - Walk-in interview for 08 Senior Resident Posts",
-      "url": "https://allgovernmentjobs.in/srhch-notification-2026-walk-in-interview-for-08-senior-resident-posts/40871",
-      "source": "allgovernmentjobs.in",
-      "description": "The Satyawadi Raja Harish Chandra Hospital (SRHCH) has officially released the notification to fill the vacancies of 08 Senior Resident Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS, Post-graduation, or Diploma can apply for the SRHCH Notification 2026 . The interested applicants can attend the walk-in interview. Here we have mentioned the education details, age limit, ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "24-04-2026",
-        "found_date": "16-04-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-04-19T00:02:28.044636",
-      "links": []
     },
     {
       "id": "b87a491eccf1009a670a91008ad44e97",
@@ -4749,6 +4489,253 @@
       "skills": [],
       "scraped_at": "2026-04-24T00:09:54.057331",
       "links": []
+    },
+    {
+      "id": "7cd8f3aae1cc10ec0f6da768825afb25",
+      "title": "TMC Notification 2026 - Walk-in-Interview for Nurse Posts",
+      "url": "https://allgovernmentjobs.in/tmc-notification-2026-walk-in-interview-for-nurse-posts/41030",
+      "source": "allgovernmentjobs.in",
+      "description": "The Tata Memorial Centre (TMC0mHas declared the official notification for 2026. To fill up the vacancies for Nurse Jobs. Those candidates who have qualified in the GNM and B.Sc Nursing can grab this chance and apply for the TMC Notification 2026 . Here we provided more details about the age limit, selection process, salary structure, education details, applciation fee, and how to apply for these posts. Interested and eligible candidates can attend the walk-in at the address below. If you are ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "05-05-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-04-25T00:06:04.837717",
+      "links": []
+    },
+    {
+      "id": "14ed6352e385d303a6a7092e6c5127c2",
+      "title": "UCIL Notification 2026 - Apply Online for 04 Graduate Operational Trainee Posts",
+      "url": "https://allgovernmentjobs.in/ucil-notification-2026-apply-online-for-04-graduate-operational-trainee-posts/41029",
+      "source": "allgovernmentjobs.in",
+      "description": "The Uranium Corporation of India (UCIL) has officially released the notification to fill the vacancies of 04 Graduate Operational Trainee Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree and B.Sc. can apply for the UCIL Notification 2026 . The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, ap...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "23-05-2026",
+        "found_date": "24-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-04-25T00:06:04.837742",
+      "links": []
+    },
+    {
+      "id": "583095ffcffa27219cd40b66e3903313",
+      "title": "WCD Odisha Notification 2026 - Apply Online for 10 Anganwadi Helper Posts",
+      "url": "https://allgovernmentjobs.in/wcd-odisha-notification-2026-apply-online-for-10-anganwadi-helper-posts/41027",
+      "source": "allgovernmentjobs.in",
+      "description": "The Women and Child Development Department of Odisha (WCD Odisha) has declared the official notification for 2026. Allotted 10 vacancies for Anganwadi Helper Jobs. Those candidates who have qualified in the Intermediate (10+2) can grab this chance and apply for the WCD Odisha Notification 2026 . Here we included the age limit, selection process, salary structure, education details, applciation fee, and how to apply for these posts. If you are looking for more, here is a list of Government Job...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "04-05-2026",
+        "found_date": "04-05-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-04-25T00:06:04.837761",
+      "links": []
+    },
+    {
+      "id": "fe9e62ad176305e0917a79c5a1cdd04f",
+      "title": "PCMC Notification 2026 - Apply Online for 407 Apprentice Trainee Posts",
+      "url": "https://allgovernmentjobs.in/pcmc-notification-2026-apply-online-for-407-apprentice-trainee-posts/41021",
+      "source": "allgovernmentjobs.in",
+      "description": "The Pimpri Chinchwad Municipal Corporation (PCMC) has officially released the notification to fill the vacancies of 407 Apprentice Trainee Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their ITI can apply for the PCMC Notification 2026 . The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, application fee, ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "06-05-2026",
+        "found_date": "27-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-04-25T00:06:04.837777",
+      "links": []
+    },
+    {
+      "id": "63ed1bbf60a75b9a152847afb7c2cfc8",
+      "title": "DLSA Thoothukudi Recruitment 2026 - Apply Offline for 30 Para Legal Volunteer Posts",
+      "url": "https://allgovernmentjobs.in/dlsa-thoothukudi-recruitment-2026-apply-offline-for-30-para-legal-volunteer-posts/41026",
+      "source": "allgovernmentjobs.in",
+      "description": "District Legal Services Authority (DLSA) Thoothukudi has declared the latest job notification for 2026. To fill up the 30 vacancies for Para Legal Volunteers Jobs. Those candidates who have qualified in the 10th Pass, Any Degree, or Diploma can grab this chance and apply for the DLSA Thoothukudi Recruitment 2026 . Here we included the age limit, selection process, salary structure, education details, applciation fee, and how to apply for these posts. Interested and eligible candidates can app...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "06-05-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-04-25T00:06:04.843842",
+      "links": []
+    },
+    {
+      "id": "81437cbc2fbc2468f5630bf3f24b7caf",
+      "title": "Mumbai Port Trust Recruitment 2026 - Apply Offline for 22 Pilot Posts",
+      "url": "https://allgovernmentjobs.in/mumbai-port-trust-recruitment-2026-apply-offline-for-22-pilot-posts/41024",
+      "source": "allgovernmentjobs.in",
+      "description": "Mumbai Port Trust has declared the official notification for 2026. To fill up the vacancies for 22 Pilot Jobs. Those candidates who have qualified in the Intermediate (10+2) can grab this chance and apply for the Mumbai Port Trust Recruitment 2026 . Here we included the age limit, selection process, salary structure, education details, applciation fee, and how to apply for these posts. Interested and eligible candidates can apply on or before the last date of application. If you are looking f...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "20-05-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-04-25T00:06:04.843867",
+      "links": []
+    },
+    {
+      "id": "2ca750a806d03446b4f273941483f41c",
+      "title": "AIIMS Jodhpur Recruitment 2026 - Walk-in-Interview for 02 Nurse Posts",
+      "url": "https://allgovernmentjobs.in/aiims-jodhpur-recruitment-2026-walk-in-interview-for-02-nurse-posts/41022",
+      "source": "allgovernmentjobs.in",
+      "description": "All India Institute of Medical Sciences, Jodhpur (AIIMS Jodhpur) has declared the official notification for 2026. To fill up the vacancies for 02 Nurse Jobs. Those candidates who have qualified in the B.Sc Nursing can grab this chance and apply for the AIIMS Jodhpur Recruitment 2026 . Here we included the age limit, selection process, salary structure, education details, applciation fee, and how to apply for these posts. If you are looking for more, here is a list of Government Jobs in 2026 t...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "02-05-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-04-25T00:06:04.843886",
+      "links": []
+    },
+    {
+      "id": "abab33ca6427aeee75e3707bda365bb0",
+      "title": "AIIMS Patna",
+      "url": "https://allgovernmentjobs.in/aiims-patna-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The All India Institute of Medical Sciences, Patna (AIIMS Patna) has officially released the notification to fill t .... The All India Institute of Medical Sciences, Patna (AIIMS Patna) has officially released the notification to fill the va .... The All India Institute of Medical Sciences, Patna (AIIMS Patna) has officially released the notification to fill the va .... The All India Institute of Medical Sciences Patna (AIIMS Patna) has officially released the notification to fill the vac ......",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Medical",
+      "skills": [],
+      "scraped_at": "2026-04-25T00:06:04.843911",
+      "links": []
+    },
+    {
+      "id": "006f6b3250f9f1d54ed4d5e8d440c545",
+      "title": "UPSSSC",
+      "url": "https://allgovernmentjobs.in/upsssc-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has declared the official notification for 2026. To fil .... Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has declared the official notification for the recruitm .... The Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has officially released the notification to fill th .... The Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has officially released the notification to fill t...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "SSC",
+      "skills": [],
+      "scraped_at": "2026-04-25T00:06:04.844145",
+      "links": []
+    },
+    {
+      "id": "ffaa8c6a8cd91e99b28e664d272793eb",
+      "title": "UP Board 12th Intermediate 2026",
+      "url": "https://rojgarresult.com/up-board-12th-result/",
+      "source": "www.rojgarresult.com",
+      "description": "UPMSP UP Board Result 2026 for Intermediate Post Update Date: 23-04-2026 Short Description : UP Board 12th Result 2026 | UPMSP Board Result 2026 has been released on official website @https://upresults.nic.in/ Uttar Pradesh Madhyamik Shiksha Parishad UPMSP Result 2026 Intermediate Examination. All Male and Female Candidates who had appeared in the exam can check the UP Board Result 2026 and Result Declared for UPMSP Intermediate Result 2026, candidates who appeared in this Examination can che...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "23-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-04-25T00:06:26.253706",
+      "links": [
+        "https://upresults.nic.in/",
+        "https://upresults.nic.in.com/"
+      ]
+    },
+    {
+      "id": "b85ef2b91efdef8b88ff044c95e9411f",
+      "title": "UP Board 10th High School Result 2026",
+      "url": "https://rojgarresult.com/up-board-10th-result/",
+      "source": "www.rojgarresult.com",
+      "description": "UPMSP UP Board High School Result 2026 Post Update Date: 23-04-2026 Short Description : UP Board 10th Result 2026 | UPMSP Board Result 2026 has been released on official website @https://upresults.nic.in/ Uttar Pradesh Madhyamik Shiksha Parishad UPMSP Result 2026 High School Examination. All Male and Female Candidates who had appeared in the exam can check the UP Board Result 2026 and Result Declared for UPMSP High School Result 2026, candidates who appeared in this Examination can check / do...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "23-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-04-25T00:06:26.253724",
+      "links": [
+        "https://upresults.nic.in/",
+        "https://upresults.nic.in"
+      ]
+    },
+    {
+      "id": "2c4e1d5debbd4e98e8f60ae05a380f0e",
+      "title": "SSB Head Constable Online Form 2026",
+      "url": "https://rojgarresult.com/ssb-head-constable-2026/",
+      "source": "www.rojgarresult.com",
+      "description": "Sashastra Seema Bal SSB Head Constable Recruitment 2026 Apply Online for 233 Post Post Update Date: 21-04-2026 Short Description : SSB Head Constable Online Form 2026 for 233 Post | Sashastra Seema Bal (SSB) has Released Head Constable Post 2026 Notification. Those candidates who are interested in this SSB Vacancy 2026 can Apply Online from 21/03/2026 to 20/04/2026. Read the notification for recruitment eligibility, post information, selection procedure, Practice Test, pay scale and all other...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "04/05/2026",
+        "found_date": "21-04-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Mathematics"
+      ],
+      "scraped_at": "2026-04-25T00:06:26.253788",
+      "links": []
+    },
+    {
+      "id": "3e265396d66c8dff9e8cba1d4157c0ca",
+      "title": "UK Board Result 2026 : Uttarakhand Board 10th 12th Result",
+      "url": "https://rojgarresult.com/uk-board-result/",
+      "source": "www.rojgarresult.com",
+      "description": "Uttarakhand Board Class 10th 12th Result 2026 Post Update Date: 25-04-2026 Short Description : UK Board Uttarakhand Board Class 10th & Class 12th Result 2026 | UBSE Result 2026 for Class 10th Result 2026 & Class 12th Result 2026 Live on 25/04/2026 – UBSE Board 2026 | Check Uttarakhand Board 10th & 12th Result Direct Link UK Uttarakhand Board Class 10th Result 2026 will be released on 25/04/2026 and Class 12th Result will be Released on 25/04/2026 by Uttarakhand Board of School Education. Stud...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "25-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-04-25T00:06:26.253831",
+      "links": [
+        "https://ubse.uk.gov.in/"
+      ]
+    },
+    {
+      "id": "1e487f6d9cdde99be5e32e8a5181ad92",
+      "title": "JAC Jharkhand Board Result 2026 : Class 10th High School",
+      "url": "https://rojgarresult.com/jac-jharkhand-board-result/",
+      "source": "www.rojgarresult.com",
+      "description": "JAC Jharkhand Class 10th Result 2026 Post Update Date: 23-04-2026 Short Description : JAC Jharkhand Board 10th 12th Result 2026 | JAC Class 10th Result 2026 Live Now – JAC Board 2026 | Check Jharkhand Board 10th & 12th Result Direct Link JAC Jharkhand Board Class 10th Result 2026 will be released and Class 12th Result will be Released Soon by Jharkhand Academic Council (JAC). Students who appeared in Class 10th and 12th exams can check their results online through the official website using r...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "23-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-04-25T00:06:26.253944",
+      "links": [
+        "https://jacresults.com/"
+      ]
+    },
+    {
+      "id": "50022c6e792501ad5cb875af02ef389e",
+      "title": "SSC CPO SI Result 2025 Paper I Marks, Final Answer Key 2026",
+      "url": "https://rojgarresult.com/ssc-cpo-si-result/",
+      "source": "www.rojgarresult.com",
+      "description": "SSC Sub Inspector CAPF CPO SI 2025 Paper I Marks 2026 Post Update Date: 22-04-2026 Short Description : SSC CPO SI Result 2026 : The result for the 2026 recruitment conducted by the SSC CPO SI has been officially released. Candidates who appeared in the examination can now check their results online. The result includes important details such as the names and roll numbers of selected candidates, along with information about the next stage of the selection process. Applicants are advised to vis...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "22-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-04-25T00:06:26.253982",
+      "links": [
+        "https://ssc.gov.in/"
+      ]
     }
   ]
 }
