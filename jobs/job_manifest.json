@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-05-03T00:13:16.615962",
-  "total_jobs": 310,
-  "active_jobs": 310,
-  "expired_jobs": 12,
+  "last_updated": "2026-05-04T00:14:42.047135",
+  "total_jobs": 313,
+  "active_jobs": 313,
+  "expired_jobs": 7,
   "jobs": [
     {
       "id": "b92093ae1843af5bb3828148cfb62041",
@@ -3593,24 +3593,6 @@
       "links": []
     },
     {
-      "id": "1a74df854379a73fa7f6b6662afb2c88",
-      "title": "UPTET Online Form 2026 – Last Date Extended",
-      "url": "https://rojgarresult.com/uptet-2026/",
-      "source": "www.rojgarresult.com",
-      "description": "UPTET 2026 Notification: Online Form, Exam Date & Eligibility Latest Update: UPTET 2026 online application forms have officially started. Candidates who are preparing to become teachers can now apply instantly through the direct link. The application link is provided below. Post Update Date: 25-04-2026 Short Description : UPTET Online Form 2026 | UPTET OTR Registration 2026 | Uttar Pradesh Education Service Selection Commission (UPESSC) has released the Uttar Pradesh Teacher Eligibility Test ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "03/05/2026",
-        "found_date": "25-04-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Hindi"
-      ],
-      "scraped_at": "2026-04-27T00:06:52.631939",
-      "links": []
-    },
-    {
       "id": "848e866a21842f36eb595d2d5af16bba",
       "title": "SSB Sub Inspector SI Online Form 2026",
       "url": "https://rojgarresult.com/ssb-sub-inspector-si-2026/",
@@ -4726,6 +4708,68 @@
       "skills": [],
       "scraped_at": "2026-05-03T00:10:43.791705",
       "links": []
+    },
+    {
+      "id": "818522cb4bc2c252d5b6a9f389355e7c",
+      "title": "Mumbai Port Trust",
+      "url": "https://allgovernmentjobs.in/mumbai-port-trust-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Mumbai Port Trust has officially released the notification to fill the vacancies of 01 Joint Director Posts. Interes .... Mumbai Port Trust has declared the latest job notification for 2026. Allotted vacancies for Marine Engineering Jobs .... Mumbai Port Trust has declared the official notification for 2026. To fill up the vacancies for 22 Pilot Jobs. Thos .... Mumbai Port Authority has released the official notification for 2026. To fill up the vacancies for various Chief S .... The Mumb...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-05-04T00:12:11.883963",
+      "links": []
+    },
+    {
+      "id": "81fc0b62467ba44edd7bfd5f7ed07d90",
+      "title": "UPSSSC Lower PCS Online Form 2026",
+      "url": "https://rojgarresult.com/upsssc-lower-pcs-2026/",
+      "source": "www.rojgarresult.com",
+      "description": "UPSSSC Combined Lower Subordinate Recruitment 2026 Apply Online for 2285 Post Post Update Date: 04-04-2026 Short Description : UPSSSC Lower PCS Recruitment 2026 Apply Online Form | Uttar Pradesh Subordinate Service Selection Commission (UPSSSC) has released Combined Lower Subordinate Services Examination Advt No. 07-Exam/2026 Recruitment Notification. Those candidates who are interested in this UPSSSC Vacancy 2026 can Apply Online from 29/05/2026 to 18/06/2026. Read the notification for recru...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "18/06/2026",
+        "found_date": "04-04-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-05-04T00:12:34.273799",
+      "links": []
+    },
+    {
+      "id": "9b1babfdfc6ff63be914d7b2d29b896b",
+      "title": "Jharkhand TET JTET Online Form 2026",
+      "url": "https://rojgarresult.com/jharkhand-teacher-eligibility-test-2026/",
+      "source": "www.rojgarresult.com",
+      "description": "Jharkhand Teacher Eligibility Test JHTET 2026 Apply Online Form Post Update Date: 30-03-2026 Short Description : Jharkhand Academic Council has released the Jharkhand Teacher Eligibility Test JHTET 2026 Notification 2026. Those Candidates are Interested to the Following Exam Can Apply Online From 21/04/2026 to 21/05/2026.candidates should read the JAC JHTET 2026 information brochure for all the information related to the JHTET exam like syllabus, eligibility, age limit, fees, Primary and Juni...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "21/05/2026",
+        "found_date": "30-03-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-05-04T00:12:34.273963",
+      "links": []
+    },
+    {
+      "id": "b6b0428244459167efe352e31e7cc8a8",
+      "title": "Maharashtra Board Class 12th Result 2026",
+      "url": "https://rojgarresult.com/maharashtra-board-result-2026/",
+      "source": "www.rojgarresult.com",
+      "description": "Maharashtra Board Result 2026 for Class 12th Latest Update Date: Maharashtra Board Result 2026 Class XII | Result Declared on official website Post Date: 02-05-2026 Short Description : Maharashtra Board Class 12th Result 2026 | Maharashtra Result 2026 for Class 12th Result 2026 Live on 02/05/2026 @ 12:00 PM– Maharashtra Board 2026 | Check Maharashtra Board 12th Result Direct Link Maharashtra Board Class 12th Result 2026 will be released on 02/05/2026 @ 12:00 PM  by Maharashtra  Board of Schoo...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "02-05-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-05-04T00:12:34.273985",
+      "links": [
+        "https://hscresult.mahahsscboard.in/"
+      ]
     }
   ]
 }
