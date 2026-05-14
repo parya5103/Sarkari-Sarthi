@@ -70,9 +70,12 @@ async def notify_new_jobs():
         logger.info("ℹ️ No new jobs found to notify.")
         return
 
+    tasks = []
     for job in jobs_to_notify:
         message = format_job_message(job)
-        await send_telegram_message(TELEGRAM_GROUP_CHAT_ID, message)
+        tasks.append(send_telegram_message(TELEGRAM_GROUP_CHAT_ID, message))
+
+    await asyncio.gather(*tasks)
 
     logger.info(f"📨 Notified about {len(jobs_to_notify)} jobs.")
 
