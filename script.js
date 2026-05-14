@@ -1,5 +1,34 @@
 // SarkariSarthi 2.0 - Main JavaScript File
 
+// Security Utility Functions
+function escapeHTML(str) {
+    if (!str) return '';
+    return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
+function sanitizeURL(url) {
+    if (!url) return '#';
+    try {
+        const parsed = new URL(url, window.location.origin);
+        if (['javascript:', 'data:', 'vbscript:'].includes(parsed.protocol)) {
+            return '#';
+        }
+        return url;
+    } catch (e) {
+        // If it's not a valid URL (e.g., relative path), return it as is
+        // or return '#' depending on strictness. Returning URL here but ensuring it doesn't start with dangerous protocols
+        if (/^(javascript|data|vbscript):/i.test(url)) {
+            return '#';
+        }
+        return url;
+    }
+}
+
 // Global variables
 let jobsData = [];
 let filteredJobs = [];
@@ -283,19 +312,19 @@ function createJobCard(job) {
     card.innerHTML = `
         <div class="job-header">
             <div>
-                <h3 class="job-title">${job.title}</h3>
-                <p class="job-source">${job.source}</p>
+                <h3 class="job-title">${escapeHTML(job.title)}</h3>
+                <p class="job-source">${escapeHTML(job.source)}</p>
             </div>
-            <span class="job-category">${job.category}</span>
+            <span class="job-category">${escapeHTML(job.category)}</span>
         </div>
-        <p class="job-description">${job.description}</p>
+        <p class="job-description">${escapeHTML(job.description)}</p>
         ${skills.length > 0 ? `
             <div class="job-skills">
-                ${skills.map(skill => `<span class="skill-tag">${skill}</span>`).join('')}
+                ${skills.map(skill => `<span class="skill-tag">${escapeHTML(skill)}</span>`).join('')}
             </div>
         ` : ''}
         <div class="job-meta">
-            <span class="job-date">Last Date: ${lastDate}</span>
+            <span class="job-date">Last Date: ${escapeHTML(lastDate)}</span>
         </div>
     `;
     
@@ -316,7 +345,7 @@ function openJobModal(job) {
     if (!modalTitle || !modalBody || !modalApplyBtn) return;
     
     modalTitle.textContent = job.title;
-    modalApplyBtn.href = job.url;
+    modalApplyBtn.href = sanitizeURL(job.url);
     
     const lastDate = job.important_dates?.last_date || 'Not specified';
     const examDate = job.important_dates?.exam_date || 'Not specified';
@@ -326,22 +355,22 @@ function openJobModal(job) {
         <div class="modal-job-details">
             <div class="modal-section">
                 <h4>Job Details</h4>
-                <p><strong>Source:</strong> ${job.source}</p>
-                <p><strong>Category:</strong> ${job.category}</p>
-                <p><strong>Last Date to Apply:</strong> ${lastDate}</p>
-                ${examDate !== 'Not specified' ? `<p><strong>Exam Date:</strong> ${examDate}</p>` : ''}
+                <p><strong>Source:</strong> ${escapeHTML(job.source)}</p>
+                <p><strong>Category:</strong> ${escapeHTML(job.category)}</p>
+                <p><strong>Last Date to Apply:</strong> ${escapeHTML(lastDate)}</p>
+                ${examDate !== 'Not specified' ? `<p><strong>Exam Date:</strong> ${escapeHTML(examDate)}</p>` : ''}
             </div>
             
             <div class="modal-section">
                 <h4>Description</h4>
-                <p>${job.description}</p>
+                <p>${escapeHTML(job.description)}</p>
             </div>
             
             ${skills.length > 0 ? `
                 <div class="modal-section">
                     <h4>Required Skills</h4>
                     <div class="job-skills">
-                        ${skills.map(skill => `<span class="skill-tag">${skill}</span>`).join('')}
+                        ${skills.map(skill => `<span class="skill-tag">${escapeHTML(skill)}</span>`).join('')}
                     </div>
                 </div>
             ` : ''}
@@ -349,7 +378,7 @@ function openJobModal(job) {
             ${job.pdf_link ? `
                 <div class="modal-section">
                     <h4>Additional Information</h4>
-                    <p><a href="${job.pdf_link}" target="_blank" class="pdf-link">Download Official Notification (PDF)</a></p>
+                    <p><a href="${sanitizeURL(job.pdf_link)}" target="_blank" class="pdf-link">Download Official Notification (PDF)</a></p>
                 </div>
             ` : ''}
         </div>

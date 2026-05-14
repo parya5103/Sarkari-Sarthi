@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "**Smart AI-Powered Indian Sarkari Job Portal**",
+  "main": "script.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parya5103/Sarkari-Sarthi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/parya5103/Sarkari-Sarthi/issues"
+  },
+  "homepage": "https://github.com/parya5103/Sarkari-Sarthi#readme"
+}
