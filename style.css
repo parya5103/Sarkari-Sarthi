@@ -184,6 +184,26 @@ body {
     box-shadow: var(--shadow-medium);
 }
 
+.whatsapp-btn {
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-light);
+}
+
+.whatsapp-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-medium);
+}
+
 .btn-icon {
     width: 20px;
     height: 20px;
@@ -705,6 +725,10 @@ body {
 .social-link:hover {
     transform: translateY(-1px);
     box-shadow: var(--shadow-light);
+}
+
+.social-link.whatsapp-link {
+    background: linear-gradient(135deg, #25D366, #128C7E);
 }
 
 .social-icon {
