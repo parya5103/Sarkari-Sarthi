@@ -18,6 +18,7 @@ import re
 import urllib.request
 import time
 import random
+import concurrent.futures
 
 # --- Configuration ---
 # Configure logging
@@ -661,17 +662,30 @@ def main():
     # Filter new jobs and process them
     new_jobs_to_add = []
     duplicate_count = 0
+    jobs_to_process = []
 
     for job_candidate in all_scraped_jobs:
         # Check if job URL already exists in our manifest
         if job_candidate['url'] in existing_job_urls:
             duplicate_count += 1
             continue
-
-        # Process job content (description, dates, category, skills)
-        processed_job = process_job_content(job_candidate)
-        new_jobs_to_add.append(processed_job)
+        jobs_to_process.append(job_candidate)
         existing_job_urls.add(job_candidate['url']) # Add to set to prevent duplicates *within* this run
+
+    if jobs_to_process:
+        logger.info(f"🔄 Concurrently processing {len(jobs_to_process)} unique jobs...")
+        # Use ThreadPoolExecutor to process jobs concurrently
+        with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+            # Submit all jobs for processing
+            future_to_job = {executor.submit(process_job_content, job): job for job in jobs_to_process}
+
+            for future in concurrent.futures.as_completed(future_to_job):
+                job = future_to_job[future]
+                try:
+                    processed_job = future.result()
+                    new_jobs_to_add.append(processed_job)
+                except Exception as exc:
+                    logger.error(f"❌ Job processing generated an exception for {job['url']}: {exc}")
 
     logger.info(f"📊 Processing Summary:")
     logger.info(f"  New unique jobs to save: {len(new_jobs_to_add)}")
