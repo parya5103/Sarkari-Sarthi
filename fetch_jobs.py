@@ -7,7 +7,7 @@ AI-powered job scraper for Indian government and private sector jobs
 import logging
 import os
 import json
-from datetime import datetime, timedelta
+from datetime import datetime
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
@@ -15,7 +15,6 @@ import fitz # PyMuPDF
 import pdfplumber
 import hashlib
 import re
-import urllib.request
 import time
 import random
 
