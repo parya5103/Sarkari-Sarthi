@@ -399,55 +399,67 @@ def scrape_generic_job_site(url, site_name):
     logger.info(f"📊 Total unique potential jobs found from {site_name}: {len(jobs)}")
     return jobs
 
+def _scrape_single_portal(url, index, total, category_name):
+    """Helper function to scrape a single portal and return the jobs found."""
+    try:
+        site_name = url.split('//')[1].split('/')[0]
+        logger.info(f"\n[{index}/{total}] {category_name} Site: {site_name}")
+
+        jobs = scrape_generic_job_site(url, site_name)
+        if jobs:
+            logger.info(f"✅ Success! Added {len(jobs)} jobs from {site_name}")
+            return jobs
+        else:
+            logger.info(f"⚠️ No jobs found from {site_name}")
+            return []
+
+    except Exception as e:
+        logger.error(f"❌ Unhandled error during scraping of {url}: {e}")
+        return []
+
 def scrape_all_job_portals():
-    """Scrape all configured job portals with better error handling."""
+    """Scrape all configured job portals with better error handling using multithreading."""
     all_jobs = []
     successful_sites = 0
 
     logger.info(f"\n🚀 Starting comprehensive job scraping from {len(JOB_PORTALS['government']) + len(JOB_PORTALS['private'])} portals...")
 
-    # Scrape government job portals
-    logger.info(f"\n📋 Scraping {len(JOB_PORTALS['government'])} government job portals...")
-    for i, url in enumerate(JOB_PORTALS['government'], 1):
-        try:
-            site_name = url.split('//')[1].split('/')[0]
-            logger.info(f"\n[{i}/{len(JOB_PORTALS['government'])}] Government Site: {site_name}")
+    portals_to_scrape = []
 
-            jobs = scrape_generic_job_site(url, site_name)
-            if jobs:
-                all_jobs.extend(jobs)
-                successful_sites += 1
-                logger.info(f"✅ Success! Added {len(jobs)} jobs from {site_name}")
-            else:
-                logger.info(f"⚠️ No jobs found from {site_name}")
+    # Prepare government portals
+    gov_portals = JOB_PORTALS['government']
+    for i, url in enumerate(gov_portals, 1):
+        portals_to_scrape.append((url, i, len(gov_portals), "Government"))
 
-            # Delay between requests
-            time.sleep(random.uniform(3, 6))
+    # Prepare private portals (limit to 3 for demonstration/initial run as in original code)
+    priv_portals = JOB_PORTALS['private'][:3]
+    for i, url in enumerate(priv_portals, 1):
+        portals_to_scrape.append((url, i, len(priv_portals), "Private"))
 
-        except Exception as e:
-            logger.error(f"❌ Unhandled error during scraping of {url}: {e}")
+    if not portals_to_scrape:
+        logger.warning("No portals to scrape.")
+        return []
 
-    # Scrape private job portals (limit to avoid overload for demonstration/initial run)
-    # You might want to remove the `[:3]` limit for a full run in production.
-    logger.info(f"\n💼 Scraping {min(3, len(JOB_PORTALS['private']))} private job portals (limited to 3 for this run)...")
-    for i, url in enumerate(JOB_PORTALS['private'][:3], 1): # Limit to 3 for testing in GitHub Actions to save time
-        try:
-            site_name = url.split('//')[1].split('/')[0]
-            logger.info(f"\n[{i}/{min(3, len(JOB_PORTALS['private']))}] Private Site: {site_name}")
+    # Use ThreadPoolExecutor for concurrent scraping
+    max_workers = min(10, len(portals_to_scrape))
+    logger.info(f"⚡ Using ThreadPoolExecutor with {max_workers} workers...")
 
-            jobs = scrape_generic_job_site(url, site_name)
-            if jobs:
-                all_jobs.extend(jobs)
-                successful_sites += 1
-                logger.info(f"✅ Success! Added {len(jobs)} jobs from {site_name}")
-            else:
-                logger.info(f"⚠️ No jobs found from {site_name}")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+        # Map arguments to the helper function
+        futures = {
+            executor.submit(_scrape_single_portal, url, index, total, category): url
+            for url, index, total, category in portals_to_scrape
+        }
 
-            # Delay between requests
-            time.sleep(random.uniform(3, 6))
-
-        except Exception as e:
-            logger.error(f"❌ Unhandled error during scraping of {url}: {e}")
+        for future in concurrent.futures.as_completed(futures):
+            url = futures[future]
+            try:
+                jobs = future.result()
+                if jobs:
+                    all_jobs.extend(jobs)
+                    successful_sites += 1
+            except Exception as exc:
+                logger.error(f"❌ Future generated an exception for {url}: {exc}")
 
     logger.info(f"\n📈 Scraping Summary:")
     logger.info(f"  Successful sites: {successful_sites}")
