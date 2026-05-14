@@ -56,6 +56,8 @@ const searchBtn = document.getElementById('searchBtn');
 const themeToggle = document.getElementById('themeToggle');
 const telegramBtn = document.getElementById('telegramBtn');
 const footerTelegramBtn = document.getElementById('footerTelegramBtn');
+const whatsappBtn = document.getElementById('whatsappBtn');
+const footerWhatsappBtn = document.getElementById('footerWhatsappBtn');
 const mobileMenuToggle = document.getElementById('mobileMenuToggle');
 const jobModal = document.getElementById('jobModal');
 const modalClose = document.getElementById('modalClose');
@@ -107,6 +109,14 @@ function setupEventListeners() {
         footerTelegramBtn.addEventListener('click', openTelegramChannel);
     }
     
+    // WhatsApp buttons
+    if (whatsappBtn) {
+        whatsappBtn.addEventListener('click', openWhatsappChannel);
+    }
+    if (footerWhatsappBtn) {
+        footerWhatsappBtn.addEventListener('click', openWhatsappChannel);
+    }
+
     // Mobile menu toggle
     if (mobileMenuToggle) {
         mobileMenuToggle.addEventListener('click', toggleMobileMenu);
@@ -605,6 +615,14 @@ function updateThemeIcon(theme) {
 function openTelegramChannel() {
     // Replace with actual Telegram channel link
     window.open('https://t.me/sarkarisarthi', '_blank');
+}
+
+/**
+ * Open WhatsApp channel
+ */
+function openWhatsappChannel() {
+    // Replace with actual WhatsApp invite link
+    window.open('https://chat.whatsapp.com/your-invite-link', '_blank');
 }
 
 /**

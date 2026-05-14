@@ -33,17 +33,26 @@ def format_job_message(job):
     """
     Formats a single job dictionary into a human-readable message.
     """
-    message = "✨ *New Job Alert!* ✨\n\n"
-    message += f"*Title:* {job.get('title', 'N/A')}\n"
-    message += f"*Source:* {job.get('source', 'N/A')}\n"
-    message += f"*Category:* {job.get('category', 'General')}\n"
-    message += f"*Description:* {job.get('description', 'N/A')[:200]}...\n"
+    message = "✨ *New Sarkari Job Alert!* ✨\n\n"
+    message += f"📌 *{job.get('title', 'N/A')}*\n"
+    message += f"🏢 *Department:* {job.get('source', 'N/A')}\n"
+    message += f"🏷️ *Category:* {job.get('category', 'General')}\n\n"
+
+    desc = job.get('description', 'N/A')
+    if len(desc) > 200:
+        desc = desc[:197] + "..."
+    message += f"📝 *Details:* {desc}\n\n"
+
     if job.get('important_dates'):
+        message += "📅 *Important Dates:*\n"
         for key, value in job['important_dates'].items():
-            message += f"*{key.replace('_', ' ').title()}:* {value}\n"
+            message += f"  🔹 {key.replace('_', ' ').title()}: {value}\n"
+        message += "\n"
+
     if job.get('skills'):
-        message += f"*Skills:* {', '.join(job['skills'])}\n"
-    message += f"*Link:* {job.get('url', 'N/A')}\n"
+        message += f"🎓 *Skills:* {', '.join(job['skills'])}\n\n"
+
+    message += f"🔗 *Apply Here:* [Click Here to Apply]({job.get('url', 'N/A')})\n"
     return message
 
 async def send_telegram_message(chat_id, message):
