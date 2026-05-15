@@ -6,9 +6,9 @@ AI-powered job scraper for Indian government and private sector jobs
 
 import logging
 import os
-import json
+
 from datetime import datetime
-import time
+
 import concurrent.futures
 
 # Import from refactored modules
