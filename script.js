@@ -21,7 +21,7 @@ function sanitizeURL(url) {
     if (!url) return '#';
     // Trim whitespace
     const trimmedUrl = url.trim();
-    // Block javascript: and data: URIs (except allowed image data URIs if needed, but not for links)
+    // Block javascript: and data: URIs
     const lowerUrl = trimmedUrl.toLowerCase();
     if (lowerUrl.startsWith('javascript:') || lowerUrl.startsWith('data:')) {
         return '#';
@@ -324,7 +324,7 @@ function createJobCard(job) {
             </div>
         ` : ''}
         <div class="job-meta">
-            <span class="job-date">Last Date: ${escapeHTML(lastDate)}</span>
+            <span class="job-date">Last Date: ${lastDate}</span>
         </div>
     `;
     
