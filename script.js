@@ -38,6 +38,51 @@ function sanitizeURL(url) {
     return '#';
 }
 
+/**
+ * Sanitizes HTML string using DOMParser to prevent XSS.
+ * @param {string} htmlString - The HTML string to sanitize.
+ * @returns {string} The sanitized HTML string.
+ */
+function sanitizeHTML(htmlString) {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(htmlString, 'text/html');
+
+    const allowedTags = ['div', 'span', 'p', 'h3', 'h4', 'a', 'strong', 'em', 'br', 'ul', 'li'];
+    const allowedAttributes = ['class', 'href', 'target', 'data-job-id', 'id'];
+
+    function clean(node) {
+        if (node.nodeType === Node.ELEMENT_NODE) {
+            const tagName = node.tagName.toLowerCase();
+            if (!allowedTags.includes(tagName)) {
+                // Remove the node completely to prevent script execution
+                node.parentNode.removeChild(node);
+                return;
+            }
+
+            // Clean attributes
+            const attrs = node.attributes;
+            for (let i = attrs.length - 1; i >= 0; i--) {
+                const attr = attrs[i];
+                if (!allowedAttributes.includes(attr.name.toLowerCase())) {
+                    node.removeAttribute(attr.name);
+                } else if (attr.name.toLowerCase() === 'href') {
+                    // Use the existing sanitizeURL for links
+                    node.setAttribute('href', sanitizeURL(attr.value));
+                }
+            }
+
+            // Recursively clean children
+            const children = Array.from(node.childNodes);
+            children.forEach(clean);
+        }
+    }
+
+    const children = Array.from(doc.body.childNodes);
+    children.forEach(clean);
+
+    return doc.body.innerHTML;
+}
+
 // Global variables
 let jobsData = [];
 let filteredJobs = [];
@@ -328,7 +373,7 @@ function createJobCard(job) {
     const lastDate = job.important_dates?.last_date || job.important_dates?.found_date || 'Not specified';
     const skills = job.skills || [];
     
-    card.innerHTML = `
+    card.innerHTML = sanitizeHTML(`
         <div class="job-header">
             <div>
                 <h3 class="job-title">${escapeHTML(job.title)}</h3>
@@ -345,7 +390,7 @@ function createJobCard(job) {
         <div class="job-meta">
             <span class="job-date">Last Date: ${escapeHTML(lastDate)}</span>
         </div>
-    `;
+    `);
     
     // Add click event to open modal
     card.addEventListener('click', () => openJobModal(job));
@@ -370,7 +415,7 @@ function openJobModal(job) {
     const examDate = job.important_dates?.exam_date || 'Not specified';
     const skills = job.skills || [];
     
-    modalBody.innerHTML = `
+    modalBody.innerHTML = sanitizeHTML(`
         <div class="modal-job-details">
             <div class="modal-section">
                 <h4>Job Details</h4>
@@ -401,7 +446,7 @@ function openJobModal(job) {
                 </div>
             ` : ''}
         </div>
-    `;
+    `);
     
     jobModal.classList.add('active');
     document.body.style.overflow = 'hidden';
