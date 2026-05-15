@@ -652,6 +652,34 @@ function handleKeyboardNavigation(e) {
 }
 
 /**
+ * Security utility: Escape HTML to prevent XSS
+ */
+function escapeHTML(str) {
+    if (!str) return '';
+    return str.toString()
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
+/**
+ * Security utility: Sanitize URLs to prevent javascript: and other dangerous protocols
+ */
+function sanitizeURL(url) {
+    if (!url) return '#';
+    const sanitized = url.trim();
+    // Only allow http, https, and relative paths
+    if (sanitized.toLowerCase().startsWith('javascript:') ||
+        sanitized.toLowerCase().startsWith('data:') ||
+        sanitized.toLowerCase().startsWith('vbscript:')) {
+        return '#';
+    }
+    return sanitized;
+}
+
+/**
  * Utility function to format dates
  */
 function formatDate(dateString) {
