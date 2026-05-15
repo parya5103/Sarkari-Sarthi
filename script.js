@@ -35,7 +35,7 @@ function initializeApp() {
     setupEventListeners();
     loadTheme();
     loadJobs();
-    animateCounters();
+    // animateCounters() is now called after jobs are loaded
     setupIntersectionObserver();
 }
 
@@ -113,6 +113,7 @@ async function loadJobs() {
         if (response.ok) {
             const manifest = await response.json();
             jobsData = manifest.jobs || [];
+            updateHeroStats(manifest);
         } else {
             // Fallback to sample data if manifest doesn't exist
             jobsData = generateSampleJobs();
@@ -280,22 +281,27 @@ function createJobCard(job) {
     const lastDate = job.important_dates?.last_date || 'Not specified';
     const skills = job.skills || [];
     
+    // Sanitize string to prevent XSS
+    const escapeHtml = (unsafe) => {
+        return (unsafe || '').toString().replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
+    };
+
     card.innerHTML = `
         <div class="job-header">
             <div>
-                <h3 class="job-title">${job.title}</h3>
-                <p class="job-source">${job.source}</p>
+                <h3 class="job-title">${escapeHtml(job.title)}</h3>
+                <p class="job-source">${escapeHtml(job.source)}</p>
             </div>
-            <span class="job-category">${job.category}</span>
+            <span class="job-category">${escapeHtml(job.category)}</span>
         </div>
-        <p class="job-description">${job.description}</p>
+        <p class="job-description">${escapeHtml(job.description)}</p>
         ${skills.length > 0 ? `
             <div class="job-skills">
-                ${skills.map(skill => `<span class="skill-tag">${skill}</span>`).join('')}
+                ${skills.map(skill => `<span class="skill-tag">${escapeHtml(skill)}</span>`).join('')}
             </div>
         ` : ''}
         <div class="job-meta">
-            <span class="job-date">Last Date: ${lastDate}</span>
+            <span class="job-date">Last Date: ${escapeHtml(lastDate)}</span>
         </div>
     `;
     
@@ -322,26 +328,31 @@ function openJobModal(job) {
     const examDate = job.important_dates?.exam_date || 'Not specified';
     const skills = job.skills || [];
     
+    // Sanitize string to prevent XSS
+    const escapeHtml = (unsafe) => {
+        return (unsafe || '').toString().replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
+    };
+
     modalBody.innerHTML = `
         <div class="modal-job-details">
             <div class="modal-section">
                 <h4>Job Details</h4>
-                <p><strong>Source:</strong> ${job.source}</p>
-                <p><strong>Category:</strong> ${job.category}</p>
-                <p><strong>Last Date to Apply:</strong> ${lastDate}</p>
-                ${examDate !== 'Not specified' ? `<p><strong>Exam Date:</strong> ${examDate}</p>` : ''}
+                <p><strong>Source:</strong> ${escapeHtml(job.source)}</p>
+                <p><strong>Category:</strong> ${escapeHtml(job.category)}</p>
+                <p><strong>Last Date to Apply:</strong> ${escapeHtml(lastDate)}</p>
+                ${examDate !== 'Not specified' ? `<p><strong>Exam Date:</strong> ${escapeHtml(examDate)}</p>` : ''}
             </div>
             
             <div class="modal-section">
                 <h4>Description</h4>
-                <p>${job.description}</p>
+                <p>${escapeHtml(job.description)}</p>
             </div>
             
             ${skills.length > 0 ? `
                 <div class="modal-section">
                     <h4>Required Skills</h4>
                     <div class="job-skills">
-                        ${skills.map(skill => `<span class="skill-tag">${skill}</span>`).join('')}
+                        ${skills.map(skill => `<span class="skill-tag">${escapeHtml(skill)}</span>`).join('')}
                     </div>
                 </div>
             ` : ''}
@@ -349,7 +360,7 @@ function openJobModal(job) {
             ${job.pdf_link ? `
                 <div class="modal-section">
                     <h4>Additional Information</h4>
-                    <p><a href="${job.pdf_link}" target="_blank" class="pdf-link">Download Official Notification (PDF)</a></p>
+                    <p><a href="${escapeHtml(job.pdf_link)}" target="_blank" class="pdf-link">Download Official Notification (PDF)</a></p>
                 </div>
             ` : ''}
         </div>
@@ -370,23 +381,101 @@ function closeModal() {
 /**
  * Handle search functionality
  */
-function handleSearch() {
+function applyFiltersAndSort() {
     const searchTerm = jobSearch.value.toLowerCase().trim();
+    const selectedCategory = categoryFilter.value;
+    const sortBy = sortFilter.value;
     
-    if (searchTerm === '') {
-        filteredJobs = [...jobsData];
-    } else {
-        filteredJobs = jobsData.filter(job => 
-            job.title.toLowerCase().includes(searchTerm) ||
-            job.description.toLowerCase().includes(searchTerm) ||
-            job.source.toLowerCase().includes(searchTerm) ||
-            job.category.toLowerCase().includes(searchTerm) ||
+    let result = [...jobsData];
+
+    // Apply search filter
+    if (searchTerm !== '') {
+        result = result.filter(job =>
+            (job.title && job.title.toLowerCase().includes(searchTerm)) ||
+            (job.description && job.description.toLowerCase().includes(searchTerm)) ||
+            (job.source && job.source.toLowerCase().includes(searchTerm)) ||
+            (job.category && job.category.toLowerCase().includes(searchTerm)) ||
             (job.skills && job.skills.some(skill => skill.toLowerCase().includes(searchTerm)))
         );
     }
+
+    // Apply category filter
+    if (selectedCategory !== '') {
+        result = result.filter(job => job.category === selectedCategory);
+    }
+
+    // Apply sorting
+    switch (sortBy) {
+        case 'latest':
+            // Sort by scraped_at if available, otherwise fallback to id
+            result.sort((a, b) => {
+                if (a.scraped_at && b.scraped_at) {
+                    return new Date(b.scraped_at) - new Date(a.scraped_at);
+                }
+                return b.id.localeCompare(a.id);
+            });
+            break;
+        case 'deadline':
+            // Sort by deadline (jobs with earlier deadlines first)
+            result.sort((a, b) => {
+                const dateA = a.important_dates?.last_date || '31-12-2099';
+                const dateB = b.important_dates?.last_date || '31-12-2099';
+
+                // Helper function to parse common Indian date formats (DD-MM-YYYY, DD/MM/YYYY)
+                const parseDate = (dStr) => {
+                    if (!dStr) return new Date('2099-12-31');
+                    const parts = dStr.split(/[-/]/);
+                    if (parts.length === 3) {
+                        // If format is DD-MM-YYYY
+                        if (parts[0].length <= 2 && parts[2].length === 4) {
+                            return new Date(`${parts[2]}-${parts[1]}-${parts[0]}`);
+                        }
+                    }
+                    const d = new Date(dStr);
+                    return isNaN(d.getTime()) ? new Date('2099-12-31') : d;
+                };
+
+                return parseDate(dateA) - parseDate(dateB);
+            });
+            break;
+        case 'category':
+            // Sort alphabetically by category
+            result.sort((a, b) => (a.category || '').localeCompare(b.category || ''));
+            break;
+    }
     
+    filteredJobs = result;
     currentPage = 1;
     renderJobs();
+}
+
+function handleSearch() {
+    applyFiltersAndSort();
+}
+
+/**
+ * Handle category filter
+ */
+function handleFilter() {
+    applyFiltersAndSort();
+}
+
+/**
+ * Filter by category (from category cards)
+ */
+function filterByCategory(category) {
+    categoryFilter.value = category;
+    applyFiltersAndSort();
+
+    // Scroll to jobs section
+    document.getElementById('jobs').scrollIntoView({ behavior: 'smooth' });
+}
+
+/**
+ * Handle sorting
+ */
+function handleSort() {
+    applyFiltersAndSort();
 }
 
 /**
@@ -488,6 +577,32 @@ function updateJobCounts() {
             countElement.textContent = `${categoryCounts[category]}+ Jobs`;
         }
     });
+}
+
+/**
+ * Update hero stats using data from manifest
+ */
+function updateHeroStats(manifest) {
+    const counters = document.querySelectorAll('.stat-number');
+    if (!counters || counters.length === 0) return;
+
+    // Get distinct sources
+    const sources = new Set(jobsData.map(job => job.source));
+
+    counters.forEach(counter => {
+        const label = counter.nextElementSibling.textContent.trim();
+
+        if (label === 'Active Jobs') {
+            counter.dataset.target = manifest.active_jobs || jobsData.length;
+        } else if (label === 'Job Sources') {
+            counter.dataset.target = sources.size > 0 ? sources.size : 10; // Fallback if no real sources
+        } else if (label === 'Happy Users') {
+            // Keep happy users arbitrary or calculate based on jobs if desired
+            // Example: 1000 + (manifest.total_jobs || 0) * 10
+        }
+    });
+
+    animateCounters();
 }
 
 /**

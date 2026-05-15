@@ -48,7 +48,7 @@ jobs:
         if [ -f "jobs/job_manifest.json" ]; then
           JOB_COUNT=$(python -c "import json; data=json.load(open('jobs/job_manifest.json')); print(data.get('total_jobs', 0))")
           echo "job_count=$JOB_COUNT" >> $GITHUB_OUTPUT
-          if [ -n "$(find jobs -name '*.json' -newer .git/FETCH_HEAD 2>/dev/null)" ]; then
+          if [ -f "jobs/new_jobs.json" ] && [ "$(python -c "import json; data=json.load(open('jobs/new_jobs.json')); print(len(data.get('jobs', [])))")" -gt 0 ]; then
             echo "new_jobs=true" >> $GITHUB_OUTPUT
           else
             echo "new_jobs=false" >> $GITHUB_OUTPUT

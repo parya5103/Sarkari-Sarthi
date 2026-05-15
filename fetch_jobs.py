@@ -27,6 +27,7 @@ logger = logging.getLogger(__name__)
 # Directory for storing job data and manifest - IMPORTANT: Changed back to 'jobs'
 JOB_DIR = 'jobs'
 MANIFEST_FILE = os.path.join(JOB_DIR, 'job_manifest.json')
+NEW_JOBS_FILE = os.path.join(JOB_DIR, 'new_jobs.json')
 
 # Comprehensive list of Indian job portals (Government + Private)
 JOB_PORTALS = {
@@ -211,22 +212,22 @@ def extract_important_dates_and_links(text):
 
     # Date patterns (expanded and ordered by specificity)
     date_patterns = [
-        r'(?:Last Date|Application Deadline|Closing Date|Apply Before)\s*[:-]?\s*(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})',
-        r'(?:Exam Date|Test Date)\s*[:-]?\s*(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})',
-        r'(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})' # General date pattern (DD-MM-YYYY or DD/MM/YYYY)
+        (r'(?:Last Date|Application Deadline|Closing Date|Apply Before|deadline is|Last date to apply)\s*[:-]?\s*(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})', 'last_date'),
+        (r'(?:Exam Date|Test Date|Exam on)\s*[:-]?\s*(will be)?\s*(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})', 'exam_date'),
+        (r'(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})', 'found_date') # General date pattern (DD-MM-YYYY or DD/MM/YYYY)
     ]
 
-    for pattern in date_patterns:
+    for pattern, key in date_patterns:
         matches = re.findall(pattern, text, re.IGNORECASE)
         for match in matches:
-            if 'last' in pattern.lower() or 'deadline' in pattern.lower() or 'closing' in pattern.lower():
-                dates['last_date'] = match
-            elif 'exam' in pattern.lower() or 'test' in pattern.lower():
-                dates['exam_date'] = match
-            else:
-                # Only add if it's not already covered by more specific types
-                if 'found_date' not in dates:
-                    dates['found_date'] = match
+            if isinstance(match, tuple):
+                match = match[-1] # take the last group which is the date
+            if key not in dates:
+                if key == 'found_date':
+                    if 'last_date' not in dates and 'exam_date' not in dates:
+                        dates['found_date'] = match
+                else:
+                    dates[key] = match
 
     # Link patterns - more robust to capture various URL forms
     link_pattern = r'https?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+'
@@ -240,6 +241,32 @@ def auto_detect_job_category(text):
     """Auto-detect job category based on text content."""
     if not text:
         return "General"
+
+    text_lower = text.lower()
+
+    # Category keywords mapping
+    categories = {
+        'SSC': ['ssc', 'staff selection commission', 'cgl', 'chsl', 'mts', 'stenographer'],
+        'Railway': ['railway', 'rrb', 'ntpc', 'group d', 'alp', 'loco pilot'],
+        'Police': ['police', 'constable', 'sub inspector', 'asi', 'head constable'],
+        'Defence': ['defence', 'defense', 'army', 'navy', 'air force', 'bsf', 'crpf', 'cisf', 'itbp', 'agniveer'],
+        'Teaching': ['teacher', 'teaching', 'education', 'professor', 'lecturer', 'principal', 'school', 'college', 'ctet', 'ugc'],
+        'UPSC': ['upsc', 'ias', 'ips', 'ifs', 'civil services', 'union public service'],
+        'Medical': ['doctor', 'nurse', 'medical', 'hospital', 'aiims', 'mbbs', 'pharmacist', 'health'],
+        'Engineering': ['engineer', 'engineering', 'technical', 'je', 'junior engineer', 'assistant engineer', 'psu'],
+        'IT': ['software', 'developer', 'programmer', 'it', 'computer', 'data analyst', 'web developer', 'cybersecurity', 'ai', 'ml'],
+        'Banking': [' bank ', 'banking', 'sbi', 'pnb', 'icici', 'hdfc', 'axis', 'rbi'],
+        'Administrative': ['clerk', 'assistant', 'officer', 'administrative', 'data entry', 'section officer', 'patwari', 'lekpal']
+    }
+
+    # Add spaces around text to help word boundary matching for some terms
+    padded_text = f" {text_lower} "
+
+    for category, keywords in categories.items():
+        if any(f" {keyword} " in padded_text or keyword in text_lower for keyword in keywords if len(keyword) > 3 or f" {keyword} " in padded_text):
+            return category
+
+    return "General"
 
     text_lower = text.lower()
 
@@ -690,9 +717,22 @@ def main():
         manifest['active_jobs'] = len(manifest['jobs']) # Initially, all new jobs are active
         save_manifest(manifest)
 
+        # Save newly added jobs for the telegram notifier
+        try:
+            with open(NEW_JOBS_FILE, 'w', encoding='utf-8') as f:
+                json.dump({"jobs": new_jobs_to_add}, f, indent=2, ensure_ascii=False)
+        except Exception as e:
+            logger.error(f"Error saving new_jobs.json: {e}")
+
         logger.info(f"\n✅ Successfully added {saved_count} new jobs to the system!")
     else:
         logger.info("\n📋 No new unique jobs to add (all were duplicates or none found).")
+        # Empty the new jobs file so it doesn't trigger old notifications
+        try:
+            with open(NEW_JOBS_FILE, 'w', encoding='utf-8') as f:
+                json.dump({"jobs": []}, f, indent=2)
+        except Exception as e:
+            pass
 
     # Clean up expired jobs (important to run this after adding new jobs)
     delete_expired_jobs()

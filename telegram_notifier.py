@@ -15,7 +15,7 @@ TELEGRAM_GROUP_CHAT_ID = os.environ.get("TELEGRAM_GROUP_CHAT_ID")
 
 # 📁 File locations
 JOB_DIR = 'jobs'
-MANIFEST_FILE = os.path.join(JOB_DIR, 'job_manifest.json')
+MANIFEST_FILE = os.path.join(JOB_DIR, 'new_jobs.json')
 
 def load_manifest():
     if not os.path.exists(MANIFEST_FILE):
@@ -64,6 +64,8 @@ async def send_telegram_message(chat_id, message):
 async def notify_new_jobs():
     logger.info("📢 Starting Telegram notification for new jobs...")
     manifest = load_manifest()
+    if not manifest.get('jobs'):
+        return
     jobs_to_notify = manifest.get('jobs', [])
 
     if not jobs_to_notify:
