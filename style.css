@@ -1,17 +1,17 @@
 /* CSS Variables for Theme */
 :root {
-    --primary-color: #ff6b35;
-    --secondary-color: #004e89;
-    --accent-color: #1a936f;
-    --text-primary: #2c3e50;
-    --text-secondary: #7f8c8d;
+    --primary-color: #2b5c8f;
+    --secondary-color: #1a365d;
+    --accent-color: #0d9488;
+    --text-primary: #1e293b;
+    --text-secondary: #64748b;
     --background-primary: #ffffff;
-    --background-secondary: #f8f9fa;
+    --background-secondary: #f1f5f9;
     --background-glass: rgba(255, 255, 255, 0.1);
-    --border-color: #e1e8ed;
-    --shadow-light: 0 2px 10px rgba(0, 0, 0, 0.1);
-    --shadow-medium: 0 4px 20px rgba(0, 0, 0, 0.15);
-    --shadow-heavy: 0 8px 30px rgba(0, 0, 0, 0.2);
+    --border-color: #cbd5e1;
+    --shadow-light: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.1);
+    --shadow-medium: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-heavy: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
     --gradient-primary: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     --gradient-glass: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
 }
@@ -60,7 +60,7 @@ body {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 15px;
+    border-radius: 8px;
 }
 
 .glass-card {
@@ -68,7 +68,7 @@ body {
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: var(--shadow-medium);
 }
 
@@ -180,6 +180,26 @@ body {
 }
 
 .telegram-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-medium);
+}
+
+.whatsapp-btn {
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-light);
+}
+
+.whatsapp-btn:hover {
     transform: translateY(-2px);
     box-shadow: var(--shadow-medium);
 }
@@ -304,10 +324,11 @@ body {
     display: flex;
     align-items: center;
     background: var(--background-primary);
-    border-radius: 50px;
+    border-radius: 8px;
     padding: 10px;
     box-shadow: var(--shadow-medium);
     margin-bottom: 2rem;
+    border: 1px solid var(--border-color);
 }
 
 .search-icon {
@@ -335,14 +356,14 @@ body {
     color: white;
     border: none;
     padding: 15px 30px;
-    border-radius: 40px;
+    border-radius: 6px;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
 }
 
 .search-btn:hover {
-    transform: scale(1.05);
+    transform: translateY(-1px);
     box-shadow: var(--shadow-light);
 }
 
@@ -355,12 +376,12 @@ body {
 .filter-select {
     padding: 12px 20px;
     border: 1px solid var(--border-color);
-    border-radius: 25px;
+    border-radius: 6px;
     background: var(--background-primary);
     color: var(--text-primary);
     font-size: 1rem;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
 }
 
 .filter-select:focus {
@@ -391,18 +412,18 @@ body {
 
 .category-card {
     background: var(--background-primary);
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 2rem;
     text-align: center;
     box-shadow: var(--shadow-light);
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
     cursor: pointer;
     border: 1px solid var(--border-color);
 }
 
 .category-card:hover {
-    transform: translateY(-10px);
-    box-shadow: var(--shadow-heavy);
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-medium);
     border-color: var(--primary-color);
 }
 
@@ -438,10 +459,10 @@ body {
 
 .job-card {
     background: var(--background-primary);
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 2rem;
     box-shadow: var(--shadow-light);
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
     cursor: pointer;
     border: 1px solid var(--border-color);
     position: relative;
@@ -459,8 +480,8 @@ body {
 }
 
 .job-card:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-heavy);
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-medium);
 }
 
 .job-header {
@@ -482,7 +503,7 @@ body {
     background: var(--gradient-primary);
     color: white;
     padding: 4px 12px;
-    border-radius: 15px;
+    border-radius: 6px;
     font-size: 0.8rem;
     font-weight: 500;
 }
@@ -560,16 +581,16 @@ body {
     color: white;
     border: none;
     padding: 15px 40px;
-    border-radius: 30px;
+    border-radius: 8px;
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
     box-shadow: var(--shadow-light);
 }
 
 .load-more-btn:hover {
-    transform: translateY(-2px);
+    transform: translateY(-1px);
     box-shadow: var(--shadow-medium);
 }
 
@@ -589,15 +610,15 @@ body {
     text-align: center;
     padding: 2rem;
     background: var(--background-primary);
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: var(--shadow-light);
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
     border: 1px solid var(--border-color);
 }
 
 .feature-card:hover {
-    transform: translateY(-10px);
-    box-shadow: var(--shadow-heavy);
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-medium);
 }
 
 .feature-icon {
@@ -690,20 +711,24 @@ body {
     color: white;
     border: none;
     padding: 10px 20px;
-    border-radius: 25px;
+    border-radius: 6px;
     font-weight: 600;
     cursor: pointer;
     display: flex;
     align-items: center;
     gap: 8px;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
     text-decoration: none;
     font-size: 0.9rem;
 }
 
 .social-link:hover {
-    transform: translateY(-2px);
+    transform: translateY(-1px);
     box-shadow: var(--shadow-light);
+}
+
+.social-link.whatsapp-link {
+    background: linear-gradient(135deg, #25D366, #128C7E);
 }
 
 .social-icon {
@@ -739,7 +764,7 @@ body {
 
 .modal-content {
     background: var(--background-primary);
-    border-radius: 20px;
+    border-radius: 10px;
     max-width: 600px;
     width: 90%;
     max-height: 80vh;
@@ -800,10 +825,10 @@ body {
 
 .modal-btn {
     padding: 10px 20px;
-    border-radius: 25px;
+    border-radius: 6px;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
     text-decoration: none;
     display: inline-block;
     text-align: center;

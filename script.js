@@ -1,5 +1,43 @@
 // SarkariSarthi 2.0 - Main JavaScript File
 
+/**
+ * Escapes HTML characters in a string to prevent XSS.
+ * @param {string} str - The string to escape.
+ * @returns {string} The escaped string.
+ */
+function escapeHTML(str) {
+    if (!str) return '';
+    const map = {
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#039;'
+    };
+    return String(str).replace(/[&<>"']/g, function(m) { return map[m]; });
+}
+
+/**
+ * Sanitizes URLs to ensure they only use http/https protocols.
+ * @param {string} url - The URL to sanitize.
+ * @returns {string} The sanitized URL.
+ */
+function sanitizeURL(url) {
+    if (!url) return '#';
+    try {
+        const parsed = new URL(url, window.location.href);
+        if (parsed.protocol === 'http:' || parsed.protocol === 'https:') {
+            return parsed.href;
+        }
+    } catch (e) {
+        // Return original if valid relative path
+        if (url.startsWith('/') || url.startsWith('./') || url.startsWith('../')) {
+            return escapeHTML(url);
+        }
+    }
+    return '#';
+}
+
 // Global variables
 let jobsData = [];
 let filteredJobs = [];
@@ -18,6 +56,8 @@ const searchBtn = document.getElementById('searchBtn');
 const themeToggle = document.getElementById('themeToggle');
 const telegramBtn = document.getElementById('telegramBtn');
 const footerTelegramBtn = document.getElementById('footerTelegramBtn');
+const whatsappBtn = document.getElementById('whatsappBtn');
+const footerWhatsappBtn = document.getElementById('footerWhatsappBtn');
 const mobileMenuToggle = document.getElementById('mobileMenuToggle');
 const jobModal = document.getElementById('jobModal');
 const modalClose = document.getElementById('modalClose');
@@ -69,6 +109,14 @@ function setupEventListeners() {
         footerTelegramBtn.addEventListener('click', openTelegramChannel);
     }
     
+    // WhatsApp buttons
+    if (whatsappBtn) {
+        whatsappBtn.addEventListener('click', openWhatsappChannel);
+    }
+    if (footerWhatsappBtn) {
+        footerWhatsappBtn.addEventListener('click', openWhatsappChannel);
+    }
+
     // Mobile menu toggle
     if (mobileMenuToggle) {
         mobileMenuToggle.addEventListener('click', toggleMobileMenu);
@@ -278,7 +326,7 @@ function createJobCard(job) {
     card.className = 'job-card';
     card.setAttribute('data-job-id', job.id);
     
-    const lastDate = job.important_dates?.last_date || 'Not specified';
+    const lastDate = job.important_dates?.last_date || job.important_dates?.found_date || 'Not specified';
     const skills = job.skills || [];
     
     // Sanitize string to prevent XSS
@@ -322,9 +370,9 @@ function openJobModal(job) {
     if (!modalTitle || !modalBody || !modalApplyBtn) return;
     
     modalTitle.textContent = job.title;
-    modalApplyBtn.href = job.url;
+    modalApplyBtn.href = sanitizeURL(job.url);
     
-    const lastDate = job.important_dates?.last_date || 'Not specified';
+    const lastDate = job.important_dates?.last_date || job.important_dates?.found_date || 'Not specified';
     const examDate = job.important_dates?.exam_date || 'Not specified';
     const skills = job.skills || [];
     
@@ -519,8 +567,8 @@ function handleSort() {
         case 'deadline':
             // Sort by deadline (jobs with earlier deadlines first)
             filteredJobs.sort((a, b) => {
-                const dateA = a.important_dates?.last_date || '31-12-2099';
-                const dateB = b.important_dates?.last_date || '31-12-2099';
+                const dateA = a.important_dates?.last_date || a.important_dates?.found_date || '31-12-2099';
+                const dateB = b.important_dates?.last_date || b.important_dates?.found_date || '31-12-2099';
                 return new Date(dateA.split('-').reverse().join('-')) - new Date(dateB.split('-').reverse().join('-'));
             });
             break;
@@ -682,6 +730,14 @@ function updateThemeIcon(theme) {
 function openTelegramChannel() {
     // Replace with actual Telegram channel link
     window.open('https://t.me/sarkarisarthi', '_blank');
+}
+
+/**
+ * Open WhatsApp channel
+ */
+function openWhatsappChannel() {
+    // Replace with actual WhatsApp invite link
+    window.open('https://chat.whatsapp.com/your-invite-link', '_blank');
 }
 
 /**

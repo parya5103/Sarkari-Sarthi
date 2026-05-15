@@ -7,7 +7,7 @@ AI-powered job scraper for Indian government and private sector jobs
 import logging
 import os
 import json
-from datetime import datetime, timedelta
+from datetime import datetime
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
@@ -15,9 +15,9 @@ import fitz # PyMuPDF
 import pdfplumber
 import hashlib
 import re
-import urllib.request
 import time
 import random
+import concurrent.futures
 
 # --- Configuration ---
 # Configure logging
@@ -426,55 +426,67 @@ def scrape_generic_job_site(url, site_name):
     logger.info(f"📊 Total unique potential jobs found from {site_name}: {len(jobs)}")
     return jobs
 
+def _scrape_single_portal(url, index, total, category_name):
+    """Helper function to scrape a single portal and return the jobs found."""
+    try:
+        site_name = url.split('//')[1].split('/')[0]
+        logger.info(f"\n[{index}/{total}] {category_name} Site: {site_name}")
+
+        jobs = scrape_generic_job_site(url, site_name)
+        if jobs:
+            logger.info(f"✅ Success! Added {len(jobs)} jobs from {site_name}")
+            return jobs
+        else:
+            logger.info(f"⚠️ No jobs found from {site_name}")
+            return []
+
+    except Exception as e:
+        logger.error(f"❌ Unhandled error during scraping of {url}: {e}")
+        return []
+
 def scrape_all_job_portals():
-    """Scrape all configured job portals with better error handling."""
+    """Scrape all configured job portals with better error handling using multithreading."""
     all_jobs = []
     successful_sites = 0
 
     logger.info(f"\n🚀 Starting comprehensive job scraping from {len(JOB_PORTALS['government']) + len(JOB_PORTALS['private'])} portals...")
 
-    # Scrape government job portals
-    logger.info(f"\n📋 Scraping {len(JOB_PORTALS['government'])} government job portals...")
-    for i, url in enumerate(JOB_PORTALS['government'], 1):
-        try:
-            site_name = url.split('//')[1].split('/')[0]
-            logger.info(f"\n[{i}/{len(JOB_PORTALS['government'])}] Government Site: {site_name}")
+    portals_to_scrape = []
 
-            jobs = scrape_generic_job_site(url, site_name)
-            if jobs:
-                all_jobs.extend(jobs)
-                successful_sites += 1
-                logger.info(f"✅ Success! Added {len(jobs)} jobs from {site_name}")
-            else:
-                logger.info(f"⚠️ No jobs found from {site_name}")
+    # Prepare government portals
+    gov_portals = JOB_PORTALS['government']
+    for i, url in enumerate(gov_portals, 1):
+        portals_to_scrape.append((url, i, len(gov_portals), "Government"))
 
-            # Delay between requests
-            time.sleep(random.uniform(3, 6))
+    # Prepare private portals (limit to 3 for demonstration/initial run as in original code)
+    priv_portals = JOB_PORTALS['private'][:3]
+    for i, url in enumerate(priv_portals, 1):
+        portals_to_scrape.append((url, i, len(priv_portals), "Private"))
 
-        except Exception as e:
-            logger.error(f"❌ Unhandled error during scraping of {url}: {e}")
+    if not portals_to_scrape:
+        logger.warning("No portals to scrape.")
+        return []
 
-    # Scrape private job portals (limit to avoid overload for demonstration/initial run)
-    # You might want to remove the `[:3]` limit for a full run in production.
-    logger.info(f"\n💼 Scraping {min(3, len(JOB_PORTALS['private']))} private job portals (limited to 3 for this run)...")
-    for i, url in enumerate(JOB_PORTALS['private'][:3], 1): # Limit to 3 for testing in GitHub Actions to save time
-        try:
-            site_name = url.split('//')[1].split('/')[0]
-            logger.info(f"\n[{i}/{min(3, len(JOB_PORTALS['private']))}] Private Site: {site_name}")
+    # Use ThreadPoolExecutor for concurrent scraping
+    max_workers = min(10, len(portals_to_scrape))
+    logger.info(f"⚡ Using ThreadPoolExecutor with {max_workers} workers...")
 
-            jobs = scrape_generic_job_site(url, site_name)
-            if jobs:
-                all_jobs.extend(jobs)
-                successful_sites += 1
-                logger.info(f"✅ Success! Added {len(jobs)} jobs from {site_name}")
-            else:
-                logger.info(f"⚠️ No jobs found from {site_name}")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+        # Map arguments to the helper function
+        futures = {
+            executor.submit(_scrape_single_portal, url, index, total, category): url
+            for url, index, total, category in portals_to_scrape
+        }
 
-            # Delay between requests
-            time.sleep(random.uniform(3, 6))
-
-        except Exception as e:
-            logger.error(f"❌ Unhandled error during scraping of {url}: {e}")
+        for future in concurrent.futures.as_completed(futures):
+            url = futures[future]
+            try:
+                jobs = future.result()
+                if jobs:
+                    all_jobs.extend(jobs)
+                    successful_sites += 1
+            except Exception as exc:
+                logger.error(f"❌ Future generated an exception for {url}: {exc}")
 
     logger.info(f"\n📈 Scraping Summary:")
     logger.info(f"  Successful sites: {successful_sites}")
@@ -614,12 +626,12 @@ def delete_expired_jobs():
             else:
                 logger.warning(f"Could not parse 'last_date' '{date_str}' for job {job_entry.get('id', 'unknown')}. Skipping date-based expiry for this job.")
 
-        # Also consider jobs scraped more than 30 days ago as potentially expired if no 'last_date' or it wasn't parsed
+        # Also consider jobs scraped more than 15 days ago as potentially expired if no 'last_date' or it wasn't parsed
         if not is_expired and 'scraped_at' in job_entry:
             try:
                 scraped_date = datetime.fromisoformat(job_entry['scraped_at'])
                 # Add a buffer for 'recently scraped' jobs, e.g., 2 days for initial processing
-                if (current_date - scraped_date).days > 30: # Removed small buffer for simpler check
+                if (current_date - scraped_date).days > 15: # Reduced from 30 to 15 days
                     is_expired = True
                     logger.debug(f"Job {job_entry['id']} expired by age (scraped_at): {job_entry['scraped_at']}")
             except ValueError:
@@ -646,6 +658,72 @@ def delete_expired_jobs():
     save_manifest(manifest)
 
     logger.info(f"✅ Cleanup complete: Deleted {expired_count} expired jobs.")
+
+def update_seo_keywords():
+    """Extract keywords from jobs and update index.html."""
+    logger.info("\n🔍 Updating SEO keywords based on active jobs...")
+
+    try:
+        manifest = load_manifest()
+    except Exception as e:
+        logger.error(f"Failed to load manifest for SEO update: {e}")
+        return
+
+    jobs = manifest.get('jobs', [])
+    if not jobs:
+        logger.info("No jobs found to extract keywords.")
+        return
+
+    words = []
+    # Base keywords that should always be present
+    base_keywords = ['sarkari job', 'government jobs', 'sarkari naukri', 'indian government jobs', 'job portal']
+
+    for job in jobs:
+        title = job.get('title', '')
+        category = job.get('category', '')
+
+        # Simple tokenization for title, removing common stopwords/symbols
+        # We focus on words with > 3 chars
+        tokens = re.findall(r'\b[a-zA-Z]{4,}\b', title.lower())
+
+        # Filter out some very common non-informative words
+        stopwords = {'recruitment', 'apply', 'online', 'post', 'posts', 'vacancies', 'notification', 'various', 'department', 'board', 'commission', 'service', '2023', '2024', '2025', '2026', 'india', 'state', 'vacancy', 'examination', 'exam'}
+        filtered_tokens = [t for t in tokens if t not in stopwords]
+
+        words.extend(filtered_tokens)
+        if category:
+            words.append(category.lower())
+
+    # Get most common words
+    from collections import Counter
+    word_counts = Counter(words)
+    top_words = [word for word, count in word_counts.most_common(15)]
+
+    # Combine and format keywords
+    all_keywords = list(dict.fromkeys(base_keywords + top_words)) # deduplicate while preserving order
+    keywords_str = ", ".join(all_keywords)
+
+    # Update index.html
+    html_path = 'index.html'
+    try:
+        with open(html_path, 'r', encoding='utf-8') as f:
+            html_content = f.read()
+
+        # Replace the keywords meta tag content
+        pattern = r'<meta name="keywords" content="[^"]*">'
+        replacement = f'<meta name="keywords" content="{keywords_str}">'
+
+        if re.search(pattern, html_content):
+            new_html = re.sub(pattern, replacement, html_content)
+
+            with open(html_path, 'w', encoding='utf-8') as f:
+                f.write(new_html)
+            logger.info(f"✅ Successfully updated index.html with {len(all_keywords)} SEO keywords.")
+        else:
+            logger.warning("Could not find keywords meta tag in index.html to update.")
+
+    except Exception as e:
+        logger.error(f"Failed to update index.html for SEO: {e}")
 
 # --- Main Execution ---
 
@@ -674,6 +752,7 @@ def main():
         logger.warning("This might be due to: Network issues, website blocking, or structural changes.")
         # Attempt to clean up even if no new jobs were found
         delete_expired_jobs()
+        update_seo_keywords()
         print("\n" + "=" * 60)
         print("📈 FINAL SUMMARY (No new jobs scraped)")
         print("=" * 60)
@@ -688,17 +767,30 @@ def main():
     # Filter new jobs and process them
     new_jobs_to_add = []
     duplicate_count = 0
+    jobs_to_process = []
 
     for job_candidate in all_scraped_jobs:
         # Check if job URL already exists in our manifest
         if job_candidate['url'] in existing_job_urls:
             duplicate_count += 1
             continue
-
-        # Process job content (description, dates, category, skills)
-        processed_job = process_job_content(job_candidate)
-        new_jobs_to_add.append(processed_job)
+        jobs_to_process.append(job_candidate)
         existing_job_urls.add(job_candidate['url']) # Add to set to prevent duplicates *within* this run
+
+    if jobs_to_process:
+        logger.info(f"🔄 Concurrently processing {len(jobs_to_process)} unique jobs...")
+        # Use ThreadPoolExecutor to process jobs concurrently
+        with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+            # Submit all jobs for processing
+            future_to_job = {executor.submit(process_job_content, job): job for job in jobs_to_process}
+
+            for future in concurrent.futures.as_completed(future_to_job):
+                job = future_to_job[future]
+                try:
+                    processed_job = future.result()
+                    new_jobs_to_add.append(processed_job)
+                except Exception as exc:
+                    logger.error(f"❌ Job processing generated an exception for {job['url']}: {exc}")
 
     logger.info(f"📊 Processing Summary:")
     logger.info(f"  New unique jobs to save: {len(new_jobs_to_add)}")
@@ -736,6 +828,9 @@ def main():
 
     # Clean up expired jobs (important to run this after adding new jobs)
     delete_expired_jobs()
+
+    # Update SEO keywords based on latest active jobs
+    update_seo_keywords()
 
     # Final summary based on the updated manifest
     final_manifest = load_manifest()
