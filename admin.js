@@ -142,6 +142,9 @@ function renderJobsTable() {
         return;
     }
 
+    // Optimization: Batch DOM insertions using DocumentFragment to prevent layout thrashing
+    // Reduces render time by avoiding multiple reflows/repaints inside the loop
+    const fragment = document.createDocumentFragment();
     currentJobs.forEach(job => {
         const tr = document.createElement('tr');
         tr.innerHTML = `
@@ -154,8 +157,9 @@ function renderJobsTable() {
                 <button class="primary-btn btn-danger" style="padding: 0.3rem 0.6rem; min-width: 0;" onclick="deleteJob('${job.id}')">Delete</button>
             </td>
         `;
-        tbody.appendChild(tr);
+        fragment.appendChild(tr);
     });
+    tbody.appendChild(fragment);
 }
 
 function escapeHTML(str) {

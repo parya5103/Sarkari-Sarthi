@@ -295,10 +295,14 @@ function renderJobs() {
     
     const jobsToRender = jobsToShow.slice(startIndex);
     
+    // Optimization: Batch DOM insertions using DocumentFragment to prevent layout thrashing
+    // Reduces render time by avoiding multiple reflows/repaints inside the loop
+    const fragment = document.createDocumentFragment();
     jobsToRender.forEach(job => {
         const jobCard = createJobCard(job);
-        jobsGrid.appendChild(jobCard);
+        fragment.appendChild(jobCard);
     });
+    jobsGrid.appendChild(fragment);
     
     // Show/hide load more button
     if (endIndex >= filteredJobs.length) {
