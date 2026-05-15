@@ -1,0 +1,307 @@
+// Simple admin authentication (not highly secure, just a deterrence)
+const ADMIN_PASSWORD = "admin"; // Default password
+
+// Global state
+let ghToken = localStorage.getItem('ghToken') || '';
+let ghRepo = localStorage.getItem('ghRepo') || '';
+let currentJobs = [];
+let manifestSha = '';
+
+// Initialize
+document.addEventListener('DOMContentLoaded', () => {
+    // Check if already logged in this session
+    if (sessionStorage.getItem('adminLoggedIn') === 'true') {
+        showDashboard();
+    }
+
+    // Load saved settings
+    if (ghToken) document.getElementById('ghToken').value = ghToken;
+    if (ghRepo) document.getElementById('ghRepo').value = ghRepo;
+
+    // Fetch jobs if credentials exist
+    if (ghToken && ghRepo) {
+        fetchJobsFromRepo();
+    }
+});
+
+function checkPassword() {
+    const input = document.getElementById('adminPassword').value;
+    if (input === ADMIN_PASSWORD) {
+        sessionStorage.setItem('adminLoggedIn', 'true');
+        showDashboard();
+    } else {
+        document.getElementById('loginError').style.display = 'block';
+    }
+}
+
+function showDashboard() {
+    document.getElementById('loginOverlay').style.display = 'none';
+    document.getElementById('adminContainer').style.display = 'block';
+}
+
+function logout() {
+    sessionStorage.removeItem('adminLoggedIn');
+    document.getElementById('loginOverlay').style.display = 'flex';
+    document.getElementById('adminContainer').style.display = 'none';
+    document.getElementById('adminPassword').value = '';
+    document.getElementById('loginError').style.display = 'none';
+}
+
+function saveSettings() {
+    ghToken = document.getElementById('ghToken').value.trim();
+    ghRepo = document.getElementById('ghRepo').value.trim();
+
+    if (ghToken && ghRepo) {
+        localStorage.setItem('ghToken', ghToken);
+        localStorage.setItem('ghRepo', ghRepo);
+
+        const status = document.getElementById('settingsStatus');
+        status.textContent = 'Settings saved!';
+        setTimeout(() => status.textContent = '', 3000);
+
+        fetchJobsFromRepo();
+    } else {
+        alert('Please provide both Token and Repository details.');
+    }
+}
+
+async function triggerScraper() {
+    if (!ghToken || !ghRepo) {
+        alert('Please configure GitHub API Settings first.');
+        return;
+    }
+
+    if (!confirm('Are you sure you want to trigger the GitHub Actions job scraper manually?')) return;
+
+    try {
+        const response = await fetch(`https://api.github.com/repos/${ghRepo}/actions/workflows/daily-job-fetch-deploy.yml/dispatches`, {
+            method: 'POST',
+            headers: {
+                'Authorization': `token ${ghToken}`,
+                'Accept': 'application/vnd.github.v3+json',
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                ref: 'main'
+            })
+        });
+
+        if (response.ok || response.status === 204) {
+            alert('Scraper triggered successfully! It may take a few minutes to complete and deploy.');
+        } else {
+            const data = await response.json();
+            alert(`Failed to trigger scraper: ${data.message || response.statusText}`);
+        }
+    } catch (error) {
+        console.error('Error triggering scraper:', error);
+        alert('An error occurred while triggering the scraper.');
+    }
+}
+
+async function fetchJobsFromRepo() {
+    if (!ghToken || !ghRepo) return;
+
+    const tbody = document.getElementById('jobsTableBody');
+    tbody.innerHTML = '<tr><td colspan="5" style="text-align: center;">Fetching data from GitHub...</td></tr>';
+
+    try {
+        const response = await fetch(`https://api.github.com/repos/${ghRepo}/contents/jobs/job_manifest.json`, {
+            headers: {
+                'Authorization': `token ${ghToken}`,
+                'Accept': 'application/vnd.github.v3+json'
+            }
+        });
+
+        if (!response.ok) {
+            throw new Error(`Failed to fetch manifest: ${response.statusText}`);
+        }
+
+        const fileData = await response.json();
+        manifestSha = fileData.sha;
+
+        // Decode base64 content
+        const contentStr = decodeURIComponent(escape(window.atob(fileData.content)));
+        const manifest = JSON.parse(contentStr);
+        currentJobs = manifest.jobs || [];
+
+        document.getElementById('jobCount').textContent = manifest.total_jobs || currentJobs.length;
+        renderJobsTable();
+
+    } catch (error) {
+        console.error('Error fetching jobs:', error);
+        tbody.innerHTML = `<tr><td colspan="5" style="text-align: center; color: #ef4444;">Error fetching data: ${error.message}</td></tr>`;
+    }
+}
+
+function renderJobsTable() {
+    const tbody = document.getElementById('jobsTableBody');
+    tbody.innerHTML = '';
+
+    if (currentJobs.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="5" style="text-align: center;">No jobs found.</td></tr>';
+        return;
+    }
+
+    currentJobs.forEach(job => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+            <td><strong>${escapeHTML(job.title)}</strong></td>
+            <td>${escapeHTML(job.department || 'N/A')}</td>
+            <td><span class="category-tag">${escapeHTML(job.category || 'Other')}</span></td>
+            <td>${escapeHTML(job.last_date || 'Not specified')}</td>
+            <td class="action-buttons">
+                <button class="primary-btn" style="padding: 0.3rem 0.6rem; min-width: 0;" onclick="editJob('${job.id}')">Edit</button>
+                <button class="primary-btn btn-danger" style="padding: 0.3rem 0.6rem; min-width: 0;" onclick="deleteJob('${job.id}')">Delete</button>
+            </td>
+        `;
+        tbody.appendChild(tr);
+    });
+}
+
+function escapeHTML(str) {
+    if (!str) return '';
+    return str.replace(/[&<>'"]/g,
+        tag => ({
+            '&': '&amp;',
+            '<': '&lt;',
+            '>': '&gt;',
+            "'": '&#39;',
+            '"': '&quot;'
+        }[tag] || tag)
+    );
+}
+
+function generateHash() {
+    return Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
+}
+
+function openAddJobModal() {
+    document.getElementById('modalTitle').textContent = 'Add Manual Job';
+    document.getElementById('jobId').value = '';
+    document.getElementById('jobTitle').value = '';
+    document.getElementById('jobDepartment').value = '';
+    document.getElementById('jobCategory').value = 'Other Govt Jobs';
+    document.getElementById('jobLastDate').value = '';
+    document.getElementById('jobUrl').value = '';
+    document.getElementById('jobSummary').value = '';
+
+    document.getElementById('jobModal').style.display = 'flex';
+}
+
+function closeModal() {
+    document.getElementById('jobModal').style.display = 'none';
+}
+
+function editJob(jobId) {
+    const job = currentJobs.find(j => j.id === jobId);
+    if (!job) return;
+
+    document.getElementById('modalTitle').textContent = 'Edit Job';
+    document.getElementById('jobId').value = job.id;
+    document.getElementById('jobTitle').value = job.title || '';
+    document.getElementById('jobDepartment').value = job.department || '';
+    document.getElementById('jobCategory').value = job.category || 'Other Govt Jobs';
+    document.getElementById('jobLastDate').value = job.last_date || '';
+    document.getElementById('jobUrl').value = job.url || '';
+    document.getElementById('jobSummary').value = job.summary || '';
+
+    document.getElementById('jobModal').style.display = 'flex';
+}
+
+async function deleteJob(jobId) {
+    if (!confirm('Are you sure you want to delete this job? This will remove it from the manifest.')) return;
+
+    // Filter out the job
+    const originalLength = currentJobs.length;
+    currentJobs = currentJobs.filter(j => j.id !== jobId);
+
+    if (currentJobs.length === originalLength) {
+        alert('Job not found!');
+        return;
+    }
+
+    await updateManifestOnGithub('Admin: Deleted job ' + jobId);
+}
+
+async function saveJobData() {
+    const id = document.getElementById('jobId').value || `manual_${generateHash()}`;
+
+    const newJobData = {
+        id: id,
+        title: document.getElementById('jobTitle').value.trim(),
+        department: document.getElementById('jobDepartment').value.trim(),
+        category: document.getElementById('jobCategory').value,
+        last_date: document.getElementById('jobLastDate').value.trim(),
+        url: document.getElementById('jobUrl').value.trim(),
+        summary: document.getElementById('jobSummary').value.trim(),
+        found_date: new Date().toISOString()
+    };
+
+    if (!newJobData.title || !newJobData.department) {
+        alert('Title and Department are required.');
+        return;
+    }
+
+    // Check if editing or adding
+    const existingIndex = currentJobs.findIndex(j => j.id === id);
+    if (existingIndex >= 0) {
+        // Keep original found_date if it exists
+        newJobData.found_date = currentJobs[existingIndex].found_date || newJobData.found_date;
+        currentJobs[existingIndex] = { ...currentJobs[existingIndex], ...newJobData };
+    } else {
+        currentJobs.unshift(newJobData); // Add to top
+    }
+
+    closeModal();
+    await updateManifestOnGithub(`Admin: ${existingIndex >= 0 ? 'Updated' : 'Added manual'} job ${id}`);
+}
+
+async function updateManifestOnGithub(commitMessage) {
+    if (!ghToken || !ghRepo || !manifestSha) {
+        alert('Missing GitHub credentials or manifest data. Please refresh.');
+        return;
+    }
+
+    const manifestData = {
+        last_updated: new Date().toISOString(),
+        total_jobs: currentJobs.length,
+        jobs: currentJobs
+    };
+
+    // Convert string to base64 encoding (supporting Unicode)
+    const contentStr = JSON.stringify(manifestData, null, 2);
+    const contentBase64 = window.btoa(unescape(encodeURIComponent(contentStr)));
+
+    try {
+        // Update manifest
+        const manifestResponse = await fetch(`https://api.github.com/repos/${ghRepo}/contents/jobs/job_manifest.json`, {
+            method: 'PUT',
+            headers: {
+                'Authorization': `token ${ghToken}`,
+                'Accept': 'application/vnd.github.v3+json',
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                message: commitMessage,
+                content: contentBase64,
+                sha: manifestSha,
+                branch: 'main'
+            })
+        });
+
+        if (!manifestResponse.ok) {
+            throw new Error(`Failed to update manifest: ${manifestResponse.statusText}`);
+        }
+
+        const newManifestData = await manifestResponse.json();
+        manifestSha = newManifestData.content.sha; // Update SHA for subsequent edits
+
+        document.getElementById('jobCount').textContent = currentJobs.length;
+        renderJobsTable();
+        alert('Successfully updated jobs on GitHub!');
+
+    } catch (error) {
+        console.error('Error updating GitHub:', error);
+        alert(`Error updating data: ${error.message}`);
+    }
+}

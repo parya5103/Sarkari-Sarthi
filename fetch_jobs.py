@@ -599,12 +599,12 @@ def delete_expired_jobs():
             else:
                 logger.warning(f"Could not parse 'last_date' '{date_str}' for job {job_entry.get('id', 'unknown')}. Skipping date-based expiry for this job.")
 
-        # Also consider jobs scraped more than 30 days ago as potentially expired if no 'last_date' or it wasn't parsed
+        # Also consider jobs scraped more than 15 days ago as potentially expired if no 'last_date' or it wasn't parsed
         if not is_expired and 'scraped_at' in job_entry:
             try:
                 scraped_date = datetime.fromisoformat(job_entry['scraped_at'])
                 # Add a buffer for 'recently scraped' jobs, e.g., 2 days for initial processing
-                if (current_date - scraped_date).days > 30: # Removed small buffer for simpler check
+                if (current_date - scraped_date).days > 15: # Reduced from 30 to 15 days
                     is_expired = True
                     logger.debug(f"Job {job_entry['id']} expired by age (scraped_at): {job_entry['scraped_at']}")
             except ValueError:
@@ -631,6 +631,72 @@ def delete_expired_jobs():
     save_manifest(manifest)
 
     logger.info(f"✅ Cleanup complete: Deleted {expired_count} expired jobs.")
+
+def update_seo_keywords():
+    """Extract keywords from jobs and update index.html."""
+    logger.info("\n🔍 Updating SEO keywords based on active jobs...")
+
+    try:
+        manifest = load_manifest()
+    except Exception as e:
+        logger.error(f"Failed to load manifest for SEO update: {e}")
+        return
+
+    jobs = manifest.get('jobs', [])
+    if not jobs:
+        logger.info("No jobs found to extract keywords.")
+        return
+
+    words = []
+    # Base keywords that should always be present
+    base_keywords = ['sarkari job', 'government jobs', 'sarkari naukri', 'indian government jobs', 'job portal']
+
+    for job in jobs:
+        title = job.get('title', '')
+        category = job.get('category', '')
+
+        # Simple tokenization for title, removing common stopwords/symbols
+        # We focus on words with > 3 chars
+        tokens = re.findall(r'\b[a-zA-Z]{4,}\b', title.lower())
+
+        # Filter out some very common non-informative words
+        stopwords = {'recruitment', 'apply', 'online', 'post', 'posts', 'vacancies', 'notification', 'various', 'department', 'board', 'commission', 'service', '2023', '2024', '2025', '2026', 'india', 'state', 'vacancy', 'examination', 'exam'}
+        filtered_tokens = [t for t in tokens if t not in stopwords]
+
+        words.extend(filtered_tokens)
+        if category:
+            words.append(category.lower())
+
+    # Get most common words
+    from collections import Counter
+    word_counts = Counter(words)
+    top_words = [word for word, count in word_counts.most_common(15)]
+
+    # Combine and format keywords
+    all_keywords = list(dict.fromkeys(base_keywords + top_words)) # deduplicate while preserving order
+    keywords_str = ", ".join(all_keywords)
+
+    # Update index.html
+    html_path = 'index.html'
+    try:
+        with open(html_path, 'r', encoding='utf-8') as f:
+            html_content = f.read()
+
+        # Replace the keywords meta tag content
+        pattern = r'<meta name="keywords" content="[^"]*">'
+        replacement = f'<meta name="keywords" content="{keywords_str}">'
+
+        if re.search(pattern, html_content):
+            new_html = re.sub(pattern, replacement, html_content)
+
+            with open(html_path, 'w', encoding='utf-8') as f:
+                f.write(new_html)
+            logger.info(f"✅ Successfully updated index.html with {len(all_keywords)} SEO keywords.")
+        else:
+            logger.warning("Could not find keywords meta tag in index.html to update.")
+
+    except Exception as e:
+        logger.error(f"Failed to update index.html for SEO: {e}")
 
 # --- Main Execution ---
 
@@ -659,6 +725,7 @@ def main():
         logger.warning("This might be due to: Network issues, website blocking, or structural changes.")
         # Attempt to clean up even if no new jobs were found
         delete_expired_jobs()
+        update_seo_keywords()
         print("\n" + "=" * 60)
         print("📈 FINAL SUMMARY (No new jobs scraped)")
         print("=" * 60)
@@ -721,6 +788,9 @@ def main():
 
     # Clean up expired jobs (important to run this after adding new jobs)
     delete_expired_jobs()
+
+    # Update SEO keywords based on latest active jobs
+    update_seo_keywords()
 
     # Final summary based on the updated manifest
     final_manifest = load_manifest()
