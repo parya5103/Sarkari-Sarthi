@@ -526,10 +526,24 @@ function handleSort() {
             break;
         case 'deadline':
             // Sort by deadline (jobs with earlier deadlines first)
+
+            // Optimization: Helper to quickly convert DD-MM-YYYY to YYYYMMDD integer
+            // Avoids costly Date object instantiation inside the sort loop
+            const getSortableDate = (dateStr) => {
+                if (!dateStr) return 20991231;
+                const parts = dateStr.split('-');
+                if (parts.length !== 3) return 20991231;
+                // Pad parts with '0' to ensure single digits are handled properly, e.g. 5-1-2024 -> 20240105
+                const day = parts[0].padStart(2, '0');
+                const month = parts[1].padStart(2, '0');
+                const year = parts[2];
+                return parseInt(year + month + day, 10);
+            };
+
             filteredJobs.sort((a, b) => {
                 const dateA = a.important_dates?.last_date || a.important_dates?.found_date || '31-12-2099';
                 const dateB = b.important_dates?.last_date || b.important_dates?.found_date || '31-12-2099';
-                return new Date(dateA.split('-').reverse().join('-')) - new Date(dateB.split('-').reverse().join('-'));
+                return getSortableDate(dateA) - getSortableDate(dateB);
             });
             break;
         case 'category':
