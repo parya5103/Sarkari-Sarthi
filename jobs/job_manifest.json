@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-05-15T18:13:24.063345",
-  "total_jobs": 228,
-  "active_jobs": 228,
-  "expired_jobs": 0,
+  "last_updated": "2026-05-16T01:15:56.442012",
+  "total_jobs": 226,
+  "active_jobs": 226,
+  "expired_jobs": 10,
   "jobs": [
     {
       "id": "7c0f885f9d6d0dec7fe6d6af54f3881e",
@@ -349,25 +349,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-05-02T00:14:58.465445",
-      "links": []
-    },
-    {
-      "id": "f691d8021a83b011e012d0d68d9be9ee",
-      "title": "SSC Stenographer Online Form 2026",
-      "url": "https://rojgarresult.com/ssc-stenographer-2026/",
-      "source": "www.rojgarresult.com",
-      "description": "SSC Stenographer Recruitment 2026: Apply Online for 731 Post Post Date: 24-04-2026 Short Description : SSC Stenographer Online Form 2026 | UPSSSC has invited online applications for the Post of Pharmacist Recruitment 2026 , with the official notification already released, offering a Total of 731 Post , Eligible candidates can fill the form from 24/04/2026 to 15/05/2026 , so interested applicants should first check the short details on RojgarResult.Com , then carefully read the full official n...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "15/05/2026",
-        "found_date": "24-04-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Hindi",
-        "English"
-      ],
-      "scraped_at": "2026-05-02T00:14:58.465461",
       "links": []
     },
     {
@@ -733,24 +714,6 @@
         "Analyst"
       ],
       "scraped_at": "2026-05-05T01:12:40.787943",
-      "links": []
-    },
-    {
-      "id": "2b7096019ccf828832793cdd855e8466",
-      "title": "ISP Nashik Notification 2026 - Apply Offline for 02 Consultant Posts",
-      "url": "https://allgovernmentjobs.in/isp-nashik-notification-2026-apply-offline-for-02-consultant-posts/41280",
-      "source": "allgovernmentjobs.in",
-      "description": "The India Security Press, Nashik (ISP Nashik) has officially released the notification to fill the vacancies of 02 Consultant Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech in Civil Engineering can apply for the ISP Nashik Notification 2026 . The interested applicants can apply in offline mode. Here we have mentioned the education details, age limit...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "15-05-2026",
-        "found_date": "04-05-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Analyst"
-      ],
-      "scraped_at": "2026-05-05T01:12:40.787966",
       "links": []
     },
     {
@@ -1477,22 +1440,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-05-08T00:15:30.426402",
-      "links": []
-    },
-    {
-      "id": "d97a09a8b0a2ddd6cfd087416c8d3a61",
-      "title": "BITS Pilani Jobs 2026 - Apply Online for Research Fellow Posts",
-      "url": "https://allgovernmentjobs.in/bits-pilani-jobs-2026-apply-online-for-research-fellow-posts/41394",
-      "source": "allgovernmentjobs.in",
-      "description": "The Birla Institute of Technology and Science Pilani (BITS Pilani) has officially released the notification to fill the vacancies of 01 Research Fellow Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their M. Pharm can apply for the BITS Pilani Jobs 2026 . The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "15-05-2026",
-        "found_date": "07-05-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-05-08T00:15:30.426430",
       "links": []
     },
     {
@@ -3505,6 +3452,26 @@
       "skills": [],
       "scraped_at": "2026-05-15T18:13:04.488391",
       "links": []
+    },
+    {
+      "id": "821528ad4d19211420cc2677df2f4c6a",
+      "title": "RSSB Stenographer 2024 Typing Test Result",
+      "url": "https://rojgarresult.com/rsmssb-stenographer-result/",
+      "source": "www.rojgarresult.com",
+      "description": "RSSB Stenographer 2024 Typing Test Result Post Update Date: 15-05-2026 Short Details: RSMSSB Stenographer Result 2025: Rajasthan Staff Selection Board Result 2025 has been released Soon on the website @https://rsmssb.rajasthan.gov.in/ for Stenographer Post. Get the direct link to download the Rajasthan Staff Selection Board RSMSSB Stenographer 2025 Result Official Website. More Details are Available on Rojgar Result – RojgarResult.Com RSMSSB Stenographer Result 2025 Rajasthan Staff Selection ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "15-05-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Typing",
+        "Word"
+      ],
+      "scraped_at": "2026-05-16T01:15:40.606187",
+      "links": [
+        "https://rsmssb.rajasthan.gov.in/"
+      ]
     }
   ]
 }
