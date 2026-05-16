@@ -48,3 +48,17 @@ def test_extract_trending_skills_mixed_content():
     result = extract_trending_skills(text)
     expected = ["Cloud", "Aws", "Azure", "Communication Skills", "Leadership", "Artificial Intelligence", "Machine Learning"]
     assert sorted(result) == sorted(expected)
+
+def test_extract_trending_skills_additional_skills():
+    """Test more specific skills to cover edge cases"""
+    text = "looking for devops, automation, and project management with agile methodologies like scrum"
+    result = extract_trending_skills(text)
+    expected = ["Devops", "Automation", "Project Management", "Agile", "Scrum"]
+    assert sorted(result) == sorted(expected)
+
+def test_extract_trending_skills_special_characters():
+    """Test skills mixed with special characters."""
+    text = "Skills required: C++, C#, Java! And maybe some SQL..."
+    result = extract_trending_skills(text)
+    expected = ["Java", "Sql"]
+    assert sorted(result) == sorted(expected)

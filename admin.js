@@ -147,16 +147,49 @@ function renderJobsTable() {
     const fragment = document.createDocumentFragment();
     currentJobs.forEach(job => {
         const tr = document.createElement('tr');
-        tr.innerHTML = `
-            <td><strong>${escapeHTML(job.title)}</strong></td>
-            <td>${escapeHTML(job.department || 'N/A')}</td>
-            <td><span class="category-tag">${escapeHTML(job.category || 'Other')}</span></td>
-            <td>${escapeHTML(job.last_date || 'Not specified')}</td>
-            <td class="action-buttons">
-                <button class="primary-btn" style="padding: 0.3rem 0.6rem; min-width: 0;" onclick="editJob('${job.id}')">Edit</button>
-                <button class="primary-btn btn-danger" style="padding: 0.3rem 0.6rem; min-width: 0;" onclick="deleteJob('${job.id}')">Delete</button>
-            </td>
-        `;
+
+        const tdTitle = document.createElement('td');
+        const strongTitle = document.createElement('strong');
+        strongTitle.textContent = job.title;
+        tdTitle.appendChild(strongTitle);
+        tr.appendChild(tdTitle);
+
+        const tdDept = document.createElement('td');
+        tdDept.textContent = job.department || 'N/A';
+        tr.appendChild(tdDept);
+
+        const tdCategory = document.createElement('td');
+        const spanCategory = document.createElement('span');
+        spanCategory.className = 'category-tag';
+        spanCategory.textContent = job.category || 'Other';
+        tdCategory.appendChild(spanCategory);
+        tr.appendChild(tdCategory);
+
+        const tdDate = document.createElement('td');
+        tdDate.textContent = job.last_date || 'Not specified';
+        tr.appendChild(tdDate);
+
+        const tdActions = document.createElement('td');
+        tdActions.className = 'action-buttons';
+
+        const editBtn = document.createElement('button');
+        editBtn.className = 'primary-btn';
+        editBtn.style.padding = '0.3rem 0.6rem';
+        editBtn.style.minWidth = '0';
+        editBtn.textContent = 'Edit';
+        editBtn.onclick = () => editJob(job.id);
+
+        const deleteBtn = document.createElement('button');
+        deleteBtn.className = 'primary-btn btn-danger';
+        deleteBtn.style.padding = '0.3rem 0.6rem';
+        deleteBtn.style.minWidth = '0';
+        deleteBtn.textContent = 'Delete';
+        deleteBtn.onclick = () => deleteJob(job.id);
+
+        tdActions.appendChild(editBtn);
+        tdActions.appendChild(deleteBtn);
+        tr.appendChild(tdActions);
+
         fragment.appendChild(tr);
     });
     tbody.appendChild(fragment);

@@ -377,24 +377,55 @@ function createJobCard(job) {
     const lastDate = job.important_dates?.last_date || job.important_dates?.found_date || 'Not specified';
     const skills = job.skills || [];
     
-    card.innerHTML = sanitizeHTML(`
-        <div class="job-header">
-            <div>
-                <h3 class="job-title">${escapeHTML(job.title)}</h3>
-                <p class="job-source">${escapeHTML(job.source)}</p>
-            </div>
-            <span class="job-category">${escapeHTML(job.category)}</span>
-        </div>
-        <p class="job-description">${escapeHTML(job.description)}</p>
-        ${skills.length > 0 ? `
-            <div class="job-skills">
-                ${skills.map(skill => `<span class="skill-tag">${escapeHTML(skill)}</span>`).join('')}
-            </div>
-        ` : ''}
-        <div class="job-meta">
-            <span class="job-date">Last Date: ${escapeHTML(lastDate)}</span>
-        </div>
-    `);
+    const header = document.createElement('div');
+    header.className = 'job-header';
+
+    const headerTitleDiv = document.createElement('div');
+    const titleH3 = document.createElement('h3');
+    titleH3.className = 'job-title';
+    titleH3.textContent = job.title;
+
+    const sourceP = document.createElement('p');
+    sourceP.className = 'job-source';
+    sourceP.textContent = job.source;
+
+    headerTitleDiv.appendChild(titleH3);
+    headerTitleDiv.appendChild(sourceP);
+
+    const categorySpan = document.createElement('span');
+    categorySpan.className = 'job-category';
+    categorySpan.textContent = job.category;
+
+    header.appendChild(headerTitleDiv);
+    header.appendChild(categorySpan);
+
+    const descP = document.createElement('p');
+    descP.className = 'job-description';
+    descP.textContent = job.description;
+
+    card.appendChild(header);
+    card.appendChild(descP);
+
+    if (skills.length > 0) {
+        const skillsDiv = document.createElement('div');
+        skillsDiv.className = 'job-skills';
+        skills.forEach(skill => {
+            const skillSpan = document.createElement('span');
+            skillSpan.className = 'skill-tag';
+            skillSpan.textContent = skill;
+            skillsDiv.appendChild(skillSpan);
+        });
+        card.appendChild(skillsDiv);
+    }
+
+    const metaDiv = document.createElement('div');
+    metaDiv.className = 'job-meta';
+    const dateSpan = document.createElement('span');
+    dateSpan.className = 'job-date';
+    dateSpan.textContent = `Last Date: ${lastDate}`;
+    metaDiv.appendChild(dateSpan);
+
+    card.appendChild(metaDiv);
     
     // Add click event to open modal
     card.addEventListener('click', () => openJobModal(job));
@@ -419,38 +450,96 @@ function openJobModal(job) {
     const examDate = job.important_dates?.exam_date || 'Not specified';
     const skills = job.skills || [];
     
-    modalBody.innerHTML = sanitizeHTML(`
-        <div class="modal-job-details">
-            <div class="modal-section">
-                <h4>Job Details</h4>
-                <p><strong>Source:</strong> ${escapeHTML(job.source)}</p>
-                <p><strong>Category:</strong> ${escapeHTML(job.category)}</p>
-                <p><strong>Last Date to Apply:</strong> ${escapeHTML(lastDate)}</p>
-                ${examDate !== 'Not specified' ? `<p><strong>Exam Date:</strong> ${escapeHTML(examDate)}</p>` : ''}
-            </div>
-            
-            <div class="modal-section">
-                <h4>Description</h4>
-                <p>${escapeHTML(job.description)}</p>
-            </div>
-            
-            ${skills.length > 0 ? `
-                <div class="modal-section">
-                    <h4>Required Skills</h4>
-                    <div class="job-skills">
-                        ${skills.map(skill => `<span class="skill-tag">${escapeHTML(skill)}</span>`).join('')}
-                    </div>
-                </div>
-            ` : ''}
-            
-            ${job.pdf_link ? `
-                <div class="modal-section">
-                    <h4>Additional Information</h4>
-                    <p><a href="${sanitizeURL(job.pdf_link)}" target="_blank" class="pdf-link">Download Official Notification (PDF)</a></p>
-                </div>
-            ` : ''}
-        </div>
-    `);
+    modalBody.innerHTML = '';
+
+    const detailsDiv = document.createElement('div');
+    detailsDiv.className = 'modal-job-details';
+
+    const section1 = document.createElement('div');
+    section1.className = 'modal-section';
+    const h4_1 = document.createElement('h4');
+    h4_1.textContent = 'Job Details';
+    section1.appendChild(h4_1);
+
+    const sourceP = document.createElement('p');
+    const sourceStrong = document.createElement('strong');
+    sourceStrong.textContent = 'Source: ';
+    sourceP.appendChild(sourceStrong);
+    sourceP.appendChild(document.createTextNode(job.source));
+    section1.appendChild(sourceP);
+
+    const catP = document.createElement('p');
+    const catStrong = document.createElement('strong');
+    catStrong.textContent = 'Category: ';
+    catP.appendChild(catStrong);
+    catP.appendChild(document.createTextNode(job.category));
+    section1.appendChild(catP);
+
+    const lastDateP = document.createElement('p');
+    const lastDateStrong = document.createElement('strong');
+    lastDateStrong.textContent = 'Last Date to Apply: ';
+    lastDateP.appendChild(lastDateStrong);
+    lastDateP.appendChild(document.createTextNode(lastDate));
+    section1.appendChild(lastDateP);
+
+    if (examDate !== 'Not specified') {
+        const examDateP = document.createElement('p');
+        const examDateStrong = document.createElement('strong');
+        examDateStrong.textContent = 'Exam Date: ';
+        examDateP.appendChild(examDateStrong);
+        examDateP.appendChild(document.createTextNode(examDate));
+        section1.appendChild(examDateP);
+    }
+    detailsDiv.appendChild(section1);
+
+    const section2 = document.createElement('div');
+    section2.className = 'modal-section';
+    const h4_2 = document.createElement('h4');
+    h4_2.textContent = 'Description';
+    section2.appendChild(h4_2);
+    const descP = document.createElement('p');
+    descP.textContent = job.description;
+    section2.appendChild(descP);
+    detailsDiv.appendChild(section2);
+
+    if (skills.length > 0) {
+        const section3 = document.createElement('div');
+        section3.className = 'modal-section';
+        const h4_3 = document.createElement('h4');
+        h4_3.textContent = 'Required Skills';
+        section3.appendChild(h4_3);
+
+        const skillsDiv = document.createElement('div');
+        skillsDiv.className = 'job-skills';
+        skills.forEach(skill => {
+            const skillSpan = document.createElement('span');
+            skillSpan.className = 'skill-tag';
+            skillSpan.textContent = skill;
+            skillsDiv.appendChild(skillSpan);
+        });
+        section3.appendChild(skillsDiv);
+        detailsDiv.appendChild(section3);
+    }
+
+    if (job.pdf_link) {
+        const section4 = document.createElement('div');
+        section4.className = 'modal-section';
+        const h4_4 = document.createElement('h4');
+        h4_4.textContent = 'Additional Information';
+        section4.appendChild(h4_4);
+
+        const pdfP = document.createElement('p');
+        const pdfA = document.createElement('a');
+        pdfA.href = sanitizeURL(job.pdf_link);
+        pdfA.target = '_blank';
+        pdfA.className = 'pdf-link';
+        pdfA.textContent = 'Download Official Notification (PDF)';
+        pdfP.appendChild(pdfA);
+        section4.appendChild(pdfP);
+        detailsDiv.appendChild(section4);
+    }
+
+    modalBody.appendChild(detailsDiv);
     
     jobModal.classList.add('active');
     document.body.style.overflow = 'hidden';
@@ -526,10 +615,24 @@ function handleSort() {
             break;
         case 'deadline':
             // Sort by deadline (jobs with earlier deadlines first)
+
+            // Optimization: Helper to quickly convert DD-MM-YYYY to YYYYMMDD integer
+            // Avoids costly Date object instantiation inside the sort loop
+            const getSortableDate = (dateStr) => {
+                if (!dateStr) return 20991231;
+                const parts = dateStr.split('-');
+                if (parts.length !== 3) return 20991231;
+                // Pad parts with '0' to ensure single digits are handled properly, e.g. 5-1-2024 -> 20240105
+                const day = parts[0].padStart(2, '0');
+                const month = parts[1].padStart(2, '0');
+                const year = parts[2];
+                return parseInt(year + month + day, 10);
+            };
+
             filteredJobs.sort((a, b) => {
                 const dateA = a.important_dates?.last_date || a.important_dates?.found_date || '31-12-2099';
                 const dateB = b.important_dates?.last_date || b.important_dates?.found_date || '31-12-2099';
-                return new Date(dateA.split('-').reverse().join('-')) - new Date(dateB.split('-').reverse().join('-'));
+                return getSortableDate(dateA) - getSortableDate(dateB);
             });
             break;
         case 'category':

@@ -10,3 +10,4 @@ jobs/*
 !jobs/*.json
 !jobs/.gitkeep
 node_modules/
+.coverage
