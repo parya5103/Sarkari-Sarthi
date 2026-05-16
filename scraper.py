@@ -65,6 +65,60 @@ def fetch_page_content(url, timeout=15, retries=3):
                 return None
     return None
 
+def _is_valid_job_link(title, full_url):
+    """Validate if a given link is a job link based on its title and URL."""
+    job_keywords = [
+        'job', 'recruitment', 'vacancy', 'notification', 'exam',
+        'apply', 'bharti', 'posts', 'officer', 'clerk', 'assistant',
+        'manager', 'engineer', 'teacher', 'constable', 'govt',
+        'government', 'sarkari', 'admission form', 'eligibility',
+        'syllabus', 'result', 'admit card', 'walk-in', 'interview', 'selection', 'merit list'
+    ]
+
+    is_job = (
+        any(keyword in title.lower() for keyword in job_keywords) or
+        len(title) > 30 or
+        any(word in full_url.lower() for word in ['job', 'recruitment', 'vacancy', 'notification', 'apply'])
+    )
+
+    if any(exclude_word in full_url.lower() for exclude_word in ['login', 'register', 'contact', 'about', 'privacy', 'terms']):
+        is_job = False
+
+    return is_job
+
+def _extract_jobs_from_selector(links, url, site_name, found_links_overall):
+    """Extract job links from a list of BeautifulSoup elements."""
+    extracted_jobs = []
+    for link in links[:20]:
+        try:
+            title = link.get_text(strip=True)
+            href = link.get('href', '')
+            if not title or not href or len(title) < 5:
+                continue
+
+            full_url = urljoin(url, href).split('#')[0]
+            if not full_url.startswith('http') or full_url in found_links_overall:
+                continue
+
+            if _is_valid_job_link(title, full_url):
+                job_id = hashlib.md5(full_url.encode()).hexdigest()
+                extracted_jobs.append({
+                    'id': job_id,
+                    'title': title,
+                    'url': full_url,
+                    'source': site_name,
+                    'description': '',
+                    'pdf_link': None,
+                    'important_dates': {},
+                    'category': 'General',
+                    'skills': [],
+                    'scraped_at': datetime.now().isoformat()
+                })
+                found_links_overall.add(full_url)
+        except Exception as e_link:
+            continue
+    return extracted_jobs
+
 def scrape_generic_job_site(url, site_name):
     logger.info(f"\n🔍 Scraping {site_name}...")
     html_content = fetch_page_content(url)
@@ -88,54 +142,10 @@ def scrape_generic_job_site(url, site_name):
         found_links_overall = set()
 
         for i, selector in enumerate(job_selectors):
-            current_selector_links = []
             try:
                 links = soup.select(selector)
-                for link in links[:20]:
-                    try:
-                        title = link.get_text(strip=True)
-                        href = link.get('href', '')
-                        if not title or not href or len(title) < 5:
-                            continue
+                current_selector_links = _extract_jobs_from_selector(links, url, site_name, found_links_overall)
 
-                        full_url = urljoin(url, href).split('#')[0]
-                        if not full_url.startswith('http') or full_url in found_links_overall:
-                            continue
-
-                        job_keywords = [
-                            'job', 'recruitment', 'vacancy', 'notification', 'exam',
-                            'apply', 'bharti', 'posts', 'officer', 'clerk', 'assistant',
-                            'manager', 'engineer', 'teacher', 'constable', 'govt',
-                            'government', 'sarkari', 'admission form', 'eligibility',
-                            'syllabus', 'result', 'admit card', 'walk-in', 'interview', 'selection', 'merit list'
-                        ]
-
-                        is_job = (
-                            any(keyword in title.lower() for keyword in job_keywords) or
-                            len(title) > 30 or
-                            any(word in full_url.lower() for word in ['job', 'recruitment', 'vacancy', 'notification', 'apply'])
-                        )
-
-                        if any(exclude_word in full_url.lower() for exclude_word in ['login', 'register', 'contact', 'about', 'privacy', 'terms']):
-                            is_job = False
-
-                        if is_job:
-                            job_id = hashlib.md5(full_url.encode()).hexdigest()
-                            current_selector_links.append({
-                                'id': job_id,
-                                'title': title,
-                                'url': full_url,
-                                'source': site_name,
-                                'description': '',
-                                'pdf_link': None,
-                                'important_dates': {},
-                                'category': 'General',
-                                'skills': [],
-                                'scraped_at': datetime.now().isoformat()
-                            })
-                            found_links_overall.add(full_url)
-                    except Exception as e_link:
-                        continue
                 if current_selector_links:
                     jobs.extend(current_selector_links)
                     logger.info(f"  ✅ Found {len(current_selector_links)} potentially valid jobs with selector '{selector}'.")
