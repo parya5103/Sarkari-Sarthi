@@ -54,7 +54,7 @@ def extract_text_from_pdf(pdf_path):
         if text.strip():
             return text
     except Exception as e:
-        pass
+        logger.warning(f"fitz failed to extract text from {pdf_path}: {e}")
 
     try:
         with pdfplumber.open(pdf_path) as pdf:
@@ -65,7 +65,7 @@ def extract_text_from_pdf(pdf_path):
         if text.strip():
             return text
     except Exception as e:
-        pass
+        logger.warning(f"pdfplumber failed to extract text from {pdf_path}: {e}")
     return text
 
 def summarize_job_description(text):
