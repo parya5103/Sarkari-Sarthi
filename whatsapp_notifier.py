@@ -72,7 +72,7 @@ async def send_whatsapp_message(message):
     }
 
     try:
-        response = requests.post(url, headers=headers, json=data)
+        response = await asyncio.to_thread(requests.post, url, headers=headers, json=data)
         response.raise_for_status()
         logger.info(f"✅ WhatsApp message sent to {WHATSAPP_RECIPIENT_ID}")
         return True
