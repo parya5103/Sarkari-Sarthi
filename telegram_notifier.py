@@ -72,7 +72,7 @@ async def send_telegram_message(chat_id, message):
 
 async def notify_new_jobs():
     logger.info("📢 Starting Telegram notification for new jobs...")
-    manifest = load_manifest()
+    manifest = await asyncio.to_thread(load_manifest)
     jobs_to_notify = manifest.get('jobs', [])
 
     if not jobs_to_notify:
