@@ -966,6 +966,8 @@ body {
 button:focus,
 input:focus,
 select:focus,
+.job-card:focus,
+.category-card:focus,
 a:focus {
     outline: 2px solid var(--primary-color);
     outline-offset: 2px;

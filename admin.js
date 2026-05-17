@@ -129,7 +129,15 @@ async function fetchJobsFromRepo() {
 
     } catch (error) {
         console.error('Error fetching jobs:', error);
-        tbody.innerHTML = `<tr><td colspan="5" style="text-align: center; color: #ef4444;">Error fetching data: ${error.message}</td></tr>`;
+        tbody.innerHTML = '';
+        const tr = document.createElement('tr');
+        const td = document.createElement('td');
+        td.colSpan = 5;
+        td.style.textAlign = 'center';
+        td.style.color = '#ef4444';
+        td.textContent = `Error fetching data: ${error.message}`;
+        tr.appendChild(td);
+        tbody.appendChild(tr);
     }
 }
 

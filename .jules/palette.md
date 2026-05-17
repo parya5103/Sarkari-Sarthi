@@ -1,0 +1,3 @@
+## 2026-05-16 - Make Div-based Interactive Elements Keyboard Accessible
+**Learning:** Interactive elements built with standard `<div>` tags (like job cards and category cards) are entirely skipped by keyboard navigation (Tab key) by default. Without keyboard focusability, users relying on keyboards cannot access or activate these features.
+**Action:** When building interactive components using non-semantic tags (like `<div>` or `<span>`), always add `role="button"`, `tabindex="0"`, appropriate `aria-label`s, AND `keydown` event listeners for the 'Enter' and 'Space' keys to ensure they can be focused and activated like standard buttons.
