@@ -136,7 +136,7 @@ jobs:
     - name: Website Health Check
       run: |
         sleep 30
-        RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}")
+        RESPONSE=$(curl -s -L -o /dev/null -w "%{http_code}" "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}")
         if [ "$RESPONSE" = "200" ]; then
           echo "✅ Website is accessible"
         else
