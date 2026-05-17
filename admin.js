@@ -120,7 +120,9 @@ async function fetchJobsFromRepo() {
         manifestSha = fileData.sha;
 
         // Decode base64 content
-        const contentStr = decodeURIComponent(escape(window.atob(fileData.content)));
+        const binString = window.atob(fileData.content);
+        const bytes = Uint8Array.from(binString, (m) => m.charCodeAt(0));
+        const contentStr = new TextDecoder().decode(bytes);
         const manifest = JSON.parse(contentStr);
         currentJobs = manifest.jobs || [];
 
@@ -315,7 +317,9 @@ async function updateManifestOnGithub(commitMessage) {
 
     // Convert string to base64 encoding (supporting Unicode)
     const contentStr = JSON.stringify(manifestData, null, 2);
-    const contentBase64 = window.btoa(unescape(encodeURIComponent(contentStr)));
+    const bytes = new TextEncoder().encode(contentStr);
+    const binString = Array.from(bytes, (byte) => String.fromCharCode(byte)).join("");
+    const contentBase64 = window.btoa(binString);
 
     try {
         // Update manifest
