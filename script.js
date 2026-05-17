@@ -188,6 +188,13 @@ function setupEventListeners() {
             const category = this.dataset.category;
             filterByCategory(category);
         });
+        card.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                const category = this.dataset.category;
+                filterByCategory(category);
+            }
+        });
     });
     
     // Keyboard navigation
@@ -373,6 +380,9 @@ function createJobCard(job) {
     const card = document.createElement('div');
     card.className = 'job-card';
     card.setAttribute('data-job-id', job.id);
+    card.setAttribute('role', 'button');
+    card.setAttribute('tabindex', '0');
+    card.setAttribute('aria-label', `View details for ${job.title} at ${job.source}`);
     
     const lastDate = job.important_dates?.last_date || job.important_dates?.found_date || 'Not specified';
     const skills = job.skills || [];
@@ -430,6 +440,14 @@ function createJobCard(job) {
     // Add click event to open modal
     card.addEventListener('click', () => openJobModal(job));
     
+    // Add keydown event for keyboard accessibility
+    card.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            openJobModal(job);
+        }
+    });
+
     return card;
 }
 
