@@ -145,6 +145,12 @@ function setupEventListeners() {
     // Mobile menu toggle
     if (mobileMenuToggle) {
         mobileMenuToggle.addEventListener('click', toggleMobileMenu);
+        mobileMenuToggle.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                toggleMobileMenu();
+            }
+        });
     }
     
     // Modal functionality
@@ -793,6 +799,10 @@ function toggleMobileMenu() {
     const navMenu = document.querySelector('.nav-menu');
     if (navMenu) {
         navMenu.classList.toggle('active');
+        if (mobileMenuToggle) {
+            const isExpanded = navMenu.classList.contains('active');
+            mobileMenuToggle.setAttribute('aria-expanded', isExpanded);
+        }
     }
 }
 
