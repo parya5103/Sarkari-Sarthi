@@ -1,5 +1,5 @@
 // Simple admin authentication (not highly secure, just a deterrence)
-const ADMIN_PASSWORD = "admin"; // Default password
+const ADMIN_PASSWORD_HASH = "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918"; // SHA-256 hash
 
 // Global state
 let ghToken = localStorage.getItem('ghToken') || '';
@@ -24,9 +24,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-function checkPassword() {
+async function checkPassword() {
     const input = document.getElementById('adminPassword').value;
-    if (input === ADMIN_PASSWORD) {
+    const encoder = new TextEncoder();
+    const data = encoder.encode(input);
+    const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+    const hashArray = Array.from(new Uint8Array(hashBuffer));
+    const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+
+    if (hashHex === ADMIN_PASSWORD_HASH) {
         sessionStorage.setItem('adminLoggedIn', 'true');
         showDashboard();
     } else {
