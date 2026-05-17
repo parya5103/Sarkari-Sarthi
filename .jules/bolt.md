@@ -9,3 +9,6 @@
 ## 2024-05-18 - Pre-computing Search Strings
 **Learning:** Calling `toLowerCase()` on multiple fields per item during a real-time keystroke filter causes thousands of string allocations and massive garbage collection pressure, leading to UI stuttering.
 **Action:** Pre-compute a combined lowercase search string for each item once when data is loaded, reducing the per-keystroke cost from O(N * fields) to a single `O(1)` substring check per item.
+
+- When evaluating the performance impact of offloading a synchronous call to `asyncio.to_thread()`, use a concurrently running `asyncio.create_task` loop to act as a counter that registers ticks. If the event loop is blocked by synchronous code, the counter will remain low (or 0). By using `asyncio.to_thread()`, the counter demonstrates that the event loop remained responsive while the thread executed the blocking task.
+- Be extremely careful not to accidentally mock global `asyncio` methods (like `asyncio.sleep`) during benchmarks, as doing so will prevent concurrent tasks from yielding and executing, invalidating the benchmark.
