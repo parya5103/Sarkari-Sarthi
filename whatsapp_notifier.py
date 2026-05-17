@@ -4,6 +4,8 @@ import json
 import asyncio
 import requests
 
+from storage import load_manifest
+
 # ✅ Logging configuration
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -12,16 +14,6 @@ logger = logging.getLogger(__name__)
 WHATSAPP_TOKEN = os.environ.get("WHATSAPP_TOKEN")
 WHATSAPP_PHONE_ID = os.environ.get("WHATSAPP_PHONE_ID")
 WHATSAPP_RECIPIENT_ID = os.environ.get("WHATSAPP_RECIPIENT_ID", "") # Could be a group or phone number
-
-# 📁 File locations
-JOB_DIR = 'jobs'
-MANIFEST_FILE = os.path.join(JOB_DIR, 'job_manifest.json')
-
-def load_manifest():
-    if not os.path.exists(MANIFEST_FILE):
-        return {"jobs": []}
-    with open(MANIFEST_FILE, 'r', encoding='utf-8') as f:
-        return json.load(f)
 
 def format_job_message(job):
     """
