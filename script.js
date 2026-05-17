@@ -17,26 +17,6 @@ function escapeHTML(str) {
     return String(str).replace(/[&<>"']/g, function(m) { return map[m]; });
 }
 
-/**
- * Sanitizes URLs to ensure they only use http/https protocols.
- * @param {string} url - The URL to sanitize.
- * @returns {string} The sanitized URL.
- */
-function sanitizeURL(url) {
-    if (!url) return '#';
-    try {
-        const parsed = new URL(url, window.location.href);
-        if (parsed.protocol === 'http:' || parsed.protocol === 'https:') {
-            return parsed.href;
-        }
-    } catch (e) {
-        // Return original if valid relative path
-        if (url.startsWith('/') || url.startsWith('./') || url.startsWith('../')) {
-            return escapeHTML(url);
-        }
-    }
-    return '#';
-}
 
 /**
  * Sanitizes HTML string using DOMParser to prevent XSS.
@@ -846,18 +826,24 @@ function escapeHTML(str) {
 }
 
 /**
- * Security utility: Sanitize URLs to prevent javascript: and other dangerous protocols
+ * Sanitizes URLs to ensure they only use http/https protocols.
+ * @param {string} url - The URL to sanitize.
+ * @returns {string} The sanitized URL.
  */
 function sanitizeURL(url) {
     if (!url) return '#';
-    const sanitized = url.trim();
-    // Only allow http, https, and relative paths
-    if (sanitized.toLowerCase().startsWith('javascript:') ||
-        sanitized.toLowerCase().startsWith('data:') ||
-        sanitized.toLowerCase().startsWith('vbscript:')) {
-        return '#';
+    try {
+        const parsed = new URL(url, window.location.href);
+        if (parsed.protocol === 'http:' || parsed.protocol === 'https:') {
+            return parsed.href;
+        }
+    } catch (e) {
+        // Return original if valid relative path
+        if (url.startsWith('/') || url.startsWith('./') || url.startsWith('../')) {
+            return escapeHTML(url);
+        }
     }
-    return sanitized;
+    return '#';
 }
 
 /**
