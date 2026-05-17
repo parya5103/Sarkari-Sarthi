@@ -5,6 +5,8 @@ from telegram import Bot
 from telegram.error import TelegramError
 import asyncio
 
+from storage import load_manifest
+
 # ✅ Logging configuration
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -12,22 +14,6 @@ logger = logging.getLogger(__name__)
 # ✅ Load from GitHub Secrets via environment variables
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 TELEGRAM_GROUP_CHAT_ID = os.environ.get("TELEGRAM_GROUP_CHAT_ID")
-
-# 📁 File locations
-JOB_DIR = 'jobs'
-MANIFEST_FILE = os.path.join(JOB_DIR, 'job_manifest.json')
-
-def load_manifest():
-    if not os.path.exists(MANIFEST_FILE):
-        return {
-            "last_updated": "",
-            "total_jobs": 0,
-            "active_jobs": 0,
-            "expired_jobs": 0,
-            "jobs": []
-        }
-    with open(MANIFEST_FILE, 'r', encoding='utf-8') as f:
-        return json.load(f)
 
 def format_job_message(job):
     """
