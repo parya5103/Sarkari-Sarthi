@@ -75,31 +75,28 @@ def summarize_job_description(text):
         return text[:497] + "..."
     return text
 
+_DATE_PATTERN_LAST = re.compile(r'(?:Last Date|Application Deadline|Closing Date|Apply Before)\s*[:-]?\s*(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})', re.IGNORECASE)
+_DATE_PATTERN_EXAM = re.compile(r'(?:Exam Date|Test Date)\s*[:-]?\s*(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})', re.IGNORECASE)
+_DATE_PATTERN_ANY = re.compile(r'(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})', re.IGNORECASE)
+_LINK_PATTERN = re.compile(r'https?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+')
+
 def extract_important_dates_and_links(text):
     dates = {}
     links = []
     if not text:
         return dates, links
 
-    date_patterns = [
-        r'(?:Last Date|Application Deadline|Closing Date|Apply Before)\s*[:-]?\s*(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})',
-        r'(?:Exam Date|Test Date)\s*[:-]?\s*(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})',
-        r'(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})'
-    ]
+    for match in _DATE_PATTERN_LAST.findall(text):
+        dates['last_date'] = match
 
-    for pattern in date_patterns:
-        matches = re.findall(pattern, text, re.IGNORECASE)
-        for match in matches:
-            if 'last' in pattern.lower() or 'deadline' in pattern.lower() or 'closing' in pattern.lower():
-                dates['last_date'] = match
-            elif 'exam' in pattern.lower() or 'test' in pattern.lower():
-                dates['exam_date'] = match
-            else:
-                if 'found_date' not in dates:
-                    dates['found_date'] = match
+    for match in _DATE_PATTERN_EXAM.findall(text):
+        dates['exam_date'] = match
 
-    link_pattern = r'https?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+'
-    links = re.findall(link_pattern, text)
+    for match in _DATE_PATTERN_ANY.findall(text):
+        if 'found_date' not in dates:
+            dates['found_date'] = match
+
+    links = _LINK_PATTERN.findall(text)
     links = list(set(links))
     return dates, links
 
