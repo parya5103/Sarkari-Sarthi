@@ -1,6 +1,3 @@
-// Simple admin authentication (not highly secure, just a deterrence)
-const ADMIN_PASSWORD = "admin"; // Default password
-
 // Global state
 let ghToken = localStorage.getItem('ghToken') || '';
 let ghRepo = localStorage.getItem('ghRepo') || '';
@@ -24,13 +21,37 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-function checkPassword() {
-    const input = document.getElementById('adminPassword').value;
-    if (input === ADMIN_PASSWORD) {
-        sessionStorage.setItem('adminLoggedIn', 'true');
-        showDashboard();
-    } else {
+async function checkPassword() {
+    const input = document.getElementById('adminPassword').value.trim();
+    if (!input) {
+        document.getElementById('loginError').textContent = 'Please enter a GitHub PAT.';
         document.getElementById('loginError').style.display = 'block';
+        return;
+    }
+
+    try {
+        const response = await fetch('https://api.github.com/user', {
+            headers: {
+                'Authorization': `token ${input}`,
+                'Accept': 'application/vnd.github.v3+json'
+            }
+        });
+
+        if (response.ok) {
+            ghToken = input;
+            localStorage.setItem('ghToken', input);
+            document.getElementById('ghToken').value = input; // Update settings form
+            sessionStorage.setItem('adminLoggedIn', 'true');
+            showDashboard();
+            fetchJobsFromRepo(); // Automatically try to fetch if repo is also set
+        } else {
+            document.getElementById('loginError').textContent = 'Invalid GitHub Token';
+            document.getElementById('loginError').style.display = 'block';
+        }
+    } catch (error) {
+        document.getElementById('loginError').textContent = 'Network error during validation.';
+        document.getElementById('loginError').style.display = 'block';
+        console.error('Validation error:', error);
     }
 }
 
