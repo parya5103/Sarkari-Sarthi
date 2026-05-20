@@ -75,31 +75,33 @@ def summarize_job_description(text):
         return text[:497] + "..."
     return text
 
+# Optimization: Pre-compile regex patterns at the module level and associate with tags
+# to avoid recompiling dynamic substrings per call and redundant substring checks.
+_COMPILED_DATE_PATTERNS = [
+    (re.compile(r'(?:Last Date|Application Deadline|Closing Date|Apply Before)\s*[:-]?\s*(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})', re.IGNORECASE), 'last_date'),
+    (re.compile(r'(?:Exam Date|Test Date)\s*[:-]?\s*(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})', re.IGNORECASE), 'exam_date'),
+    (re.compile(r'(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})', re.IGNORECASE), 'found_date')
+]
+_COMPILED_LINK_PATTERN = re.compile(r'https?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+')
+
 def extract_important_dates_and_links(text):
     dates = {}
     links = []
     if not text:
         return dates, links
 
-    date_patterns = [
-        r'(?:Last Date|Application Deadline|Closing Date|Apply Before)\s*[:-]?\s*(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})',
-        r'(?:Exam Date|Test Date)\s*[:-]?\s*(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})',
-        r'(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})'
-    ]
-
-    for pattern in date_patterns:
-        matches = re.findall(pattern, text, re.IGNORECASE)
+    for pattern, tag in _COMPILED_DATE_PATTERNS:
+        matches = pattern.findall(text)
         for match in matches:
-            if 'last' in pattern.lower() or 'deadline' in pattern.lower() or 'closing' in pattern.lower():
+            if tag == 'last_date':
                 dates['last_date'] = match
-            elif 'exam' in pattern.lower() or 'test' in pattern.lower():
+            elif tag == 'exam_date':
                 dates['exam_date'] = match
             else:
                 if 'found_date' not in dates:
                     dates['found_date'] = match
 
-    link_pattern = r'https?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+'
-    links = re.findall(link_pattern, text)
+    links = _COMPILED_LINK_PATTERN.findall(text)
     links = list(set(links))
     return dates, links
 
