@@ -65,23 +65,30 @@ def fetch_page_content(url, timeout=15, retries=3):
                 return None
     return None
 
+# Optimization: Move keyword lists outside the function to avoid re-initializing them on every function call.
+# Using sets instead of lists for O(1) membership checking and lowercasing strings once per call.
+_JOB_KEYWORDS = {
+    'job', 'recruitment', 'vacancy', 'notification', 'exam',
+    'apply', 'bharti', 'posts', 'officer', 'clerk', 'assistant',
+    'manager', 'engineer', 'teacher', 'constable', 'govt',
+    'government', 'sarkari', 'admission form', 'eligibility',
+    'syllabus', 'result', 'admit card', 'walk-in', 'interview', 'selection', 'merit list'
+}
+_URL_KEYWORDS = {'job', 'recruitment', 'vacancy', 'notification', 'apply'}
+_EXCLUDE_WORDS = {'login', 'register', 'contact', 'about', 'privacy', 'terms'}
+
 def _is_valid_job_link(title, full_url):
     """Validate if a given link is a job link based on its title and URL."""
-    job_keywords = [
-        'job', 'recruitment', 'vacancy', 'notification', 'exam',
-        'apply', 'bharti', 'posts', 'officer', 'clerk', 'assistant',
-        'manager', 'engineer', 'teacher', 'constable', 'govt',
-        'government', 'sarkari', 'admission form', 'eligibility',
-        'syllabus', 'result', 'admit card', 'walk-in', 'interview', 'selection', 'merit list'
-    ]
+    title_lower = title.lower()
+    url_lower = full_url.lower()
 
     is_job = (
-        any(keyword in title.lower() for keyword in job_keywords) or
+        any(keyword in title_lower for keyword in _JOB_KEYWORDS) or
         len(title) > 30 or
-        any(word in full_url.lower() for word in ['job', 'recruitment', 'vacancy', 'notification', 'apply'])
+        any(word in url_lower for word in _URL_KEYWORDS)
     )
 
-    if any(exclude_word in full_url.lower() for exclude_word in ['login', 'register', 'contact', 'about', 'privacy', 'terms']):
+    if any(exclude_word in url_lower for exclude_word in _EXCLUDE_WORDS):
         is_job = False
 
     return is_job

@@ -10,5 +10,10 @@
 **Learning:** Calling `toLowerCase()` on multiple fields per item during a real-time keystroke filter causes thousands of string allocations and massive garbage collection pressure, leading to UI stuttering.
 **Action:** Pre-compute a combined lowercase search string for each item once when data is loaded, reducing the per-keystroke cost from O(N * fields) to a single `O(1)` substring check per item.
 
-- When evaluating the performance impact of offloading a synchronous call to `asyncio.to_thread()`, use a concurrently running `asyncio.create_task` loop to act as a counter that registers ticks. If the event loop is blocked by synchronous code, the counter will remain low (or 0). By using `asyncio.to_thread()`, the counter demonstrates that the event loop remained responsive while the thread executed the blocking task.
-- Be extremely careful not to accidentally mock global `asyncio` methods (like `asyncio.sleep`) during benchmarks, as doing so will prevent concurrent tasks from yielding and executing, invalidating the benchmark.
+## 2026-05-20 - Regex Iteration Over Multiple Patterns
+**Learning:** Compiling regex patterns dynamically (or implicitly) in loops and repeatedly running substring checks on pattern strings (e.g. `if 'last' in pattern.lower()`) inside inner parsing loops causes severe CPU overhead and redundancy.
+**Action:** Pre-compile patterns at the module level using `re.compile()` and associate them with a predefined tag using tuples (e.g., `(_COMPILED_PATTERN, 'tag_name')`), checking the tag instead of dynamic strings during matches.
+
+## 2026-05-20 - Substring Checking Large Loops
+**Learning:** Re-instantiating arrays and repeatedly running multiple `any(keyword in title.lower() for keyword in job_keywords)` checks causes high list reallocation and string manipulation overhead when scanning thousands of job items.
+**Action:** Predefine keyword sets (for O(1) membership and initialization) at the module level and perform `.lower()` string conversion only once per item before executing substring verification checks.
