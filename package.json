@@ -7,10 +7,15 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev": "serve .",
+    "build": "echo \"build complete\"",
+    "vercel-build": "echo \"build complete\"",
+    "start": "serve ."
   },
   "devDependencies": {
     "jest": "^29.7.0",
-    "jest-environment-jsdom": "^29.7.0"
+    "jest-environment-jsdom": "^29.7.0",
+    "serve": "^14.2.0"
   }
 }
