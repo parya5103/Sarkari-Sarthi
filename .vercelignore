@@ -1,2 +1,9 @@
 *.py
 requirements.txt
+tests/
+jobs/
+.github/
+.jules/
+pyproject.toml
+Pipfile
+setup.py
