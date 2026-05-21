@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-05-21T18:13:38.598069",
-  "total_jobs": 251,
-  "active_jobs": 251,
-  "expired_jobs": 0,
+  "last_updated": "2026-05-21T18:25:26.434504",
+  "total_jobs": 260,
+  "active_jobs": 260,
+  "expired_jobs": 4,
   "jobs": [
     {
       "id": "ce0035b36baf1bfcdada4ba2c1510eee",
@@ -3775,6 +3775,181 @@
       "category": "IT",
       "skills": [],
       "scraped_at": "2026-05-21T18:13:14.985262",
+      "links": []
+    },
+    {
+      "id": "fa875f8355f4de9a1de3b03833c772aa",
+      "title": "NTA UGC NET June 2026 Online Form",
+      "url": "https://rojgarresult.com/ugc-net-june-2026/",
+      "source": "www.rojgarresult.com",
+      "description": "UGC NET June 2026 Online Form, Exam Date, Eligibility, Syllabus Post Update Date: 20-05-2026 Short Description : The UGC NET June 2026 Online Form has been released by the National Testing Agency (NTA). Candidates who want to build a career in teaching or research can apply for the UGC NET 2026 exam . This exam determines eligibility for Assistant Professor and Junior Research Fellowship (JRF) across India. Applicants are advised to check complete details such as exam date, eligibility criter...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "23/05/2026",
+        "found_date": "20-05-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Word",
+        "Aptitude",
+        "Reasoning"
+      ],
+      "scraped_at": "2026-05-21T18:24:25.272747",
+      "links": []
+    },
+    {
+      "id": "895f63e83d8c1c2d77e75b352603ec3a",
+      "title": "BPSSC Bihar Police Havildar Online Form 2026",
+      "url": "https://rojgarresult.com/bpssc-havildar-instructor-2026-2/",
+      "source": "www.rojgarresult.com",
+      "description": "BPSSC Havildar Instructor Recruitment 2026 Apply Online for 122 Post Post Update Date: 15-05-2026 Short Description : Bihar Police Subordinate Services Commission BPSSC has released the advertisement Selection of Havildar Instructor (Direct Recruitment) in Bihar Home Guard under Home Dept. (Special), Govt. of Bihar. Those Candidates Are Interested with BPSSC Havildar Instructor Home Guard Can Apply Online from 09/05/2026 to 09/06/2026. For other information related to Bihar Police Havildar In...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "09/06/2026",
+        "found_date": "15-05-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Word"
+      ],
+      "scraped_at": "2026-05-21T18:24:25.272884",
+      "links": [
+        "https://bpssc.bihar.gov.in/A-HG.htm)",
+        "https://bpssc.bihar.gov.in/A-HG.htm"
+      ]
+    },
+    {
+      "id": "94e9458fe7bc9e075fc3393f186c51a9",
+      "title": "RRB Railway Technician Online Form 2026",
+      "url": "https://rojgarresult.com/railway-rrb-technician-cen-02-2026/",
+      "source": "www.rojgarresult.com",
+      "description": "Railway RRB Technician Recruitment 2026 Apply Online for 6565 Post Post Update Date: 18-05-2026 Short Description : Indian Railway Railway Recruitment Board RRB Technician CEN 02/2026. Those candidates who are Interested with RRB Technician Grade I Signal and Grade III Posts CEN 02/2026 Exam Can Apply Online from 30/06/2026 to 29/07/2026.and the direct application link is available on Rojgar Result | More Other Important Information Such as Admission | Jobs | Result | Admit Card | Answer Key ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "29/07/2026",
+        "found_date": "18-05-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Word"
+      ],
+      "scraped_at": "2026-05-21T18:24:25.272828",
+      "links": [
+        "https://indianrailways.gov.in/)",
+        "https://indianrailways.gov.in/"
+      ]
+    },
+    {
+      "id": "7a186d63ba67e7a50fa0cd11d4ce03db",
+      "title": "DPCC Delhi Pollution Control Board Online Form 2026",
+      "url": "https://rojgarresult.com/dpcc-2026/",
+      "source": "www.rojgarresult.com",
+      "description": "DPCC Trainee Recruitment 2026: Notification, Vacancy, Eligibility & Syllabus Post Date: 18-05-2026 Short Description : Delhi Pollution Control Committee has released a notification for the DPCC Trainee Recruitment 2026, with a total of 150 vacancies. Candidates must have a Bachelor Degree in Civil / Enviromental / Chemical / Electrical / Mechanical / ECE / Biomedical Engg / Water Resources / Remote Sensing / GIS / Hydrology or Equivalent passed from any recognized university. Eligible candida...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "06/06/2026",
+        "found_date": "18-05-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Word"
+      ],
+      "scraped_at": "2026-05-21T18:24:25.272778",
+      "links": [
+        "http://dpcc.delhi.gov.in/"
+      ]
+    },
+    {
+      "id": "9b1babfdfc6ff63be914d7b2d29b896b",
+      "title": "Jharkhand TET JTET Online Form 2026",
+      "url": "https://rojgarresult.com/jharkhand-teacher-eligibility-test-2026/",
+      "source": "www.rojgarresult.com",
+      "description": "Jharkhand Teacher Eligibility Test JHTET 2026 Apply Online Form Post Update Date: 21-05-2026 Short Description : Jharkhand Academic Council has released the Jharkhand Teacher Eligibility Test JHTET 2026 Notification 2026. Those Candidates are Interested to the Following Exam Can Apply Online From 21/04/2026 to 21/05/2026.candidates should read the JAC JHTET 2026 information brochure for all the information related to the JHTET exam like syllabus, eligibility, age limit, fees, Primary and Juni...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "02/06/2026",
+        "found_date": "21-05-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Hindi"
+      ],
+      "scraped_at": "2026-05-21T18:24:25.272902",
+      "links": []
+    },
+    {
+      "id": "7b3047b17e5c0356e90fa4f6fa6140df",
+      "title": "RPSC Rajasthan Police SI Telecom PET Result 2026",
+      "url": "https://rojgarresult.com/rpsc-rajasthan-police-si-telecom-2024/",
+      "source": "www.rojgarresult.com",
+      "description": "RPSC Police Sub Inspector Telecom 2024 PET Result 2026 Post Update Date: 21-05-2026 Short Description: RPSC Rajasthan Police SI Telecom Recruitment 2024 PET Result 2026 : RPSC Sub Inspector Telecom Result 2026, Notification has been released on the website @https://rpsc.rajasthan.gov.in/ & Application Form now started on 28 th Nov’24 for Rajasthan Public Service Commission Jobs 2024. Get the direct link to download notification link available on RPSC Rajasthan Police SI Telecom Vacancy 2024 O...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "21-05-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Mathematics",
+        "Typing"
+      ],
+      "scraped_at": "2026-05-21T18:24:25.272921",
+      "links": [
+        "https://rpsc.rajasthan.gov.in/"
+      ]
+    },
+    {
+      "id": "99364163cf3c7b7939c6ececb7f1ccb2",
+      "title": "Railway RRB Technician Result 2026 for 6238 Post",
+      "url": "https://rojgarresult.com/rrb-technician-cen-02-2025/",
+      "source": "www.rojgarresult.com",
+      "description": "Railway RRB Technician CEN 02/2025 Result 2026 for 6238 Post Post Update Date: 21-05-2026 Short Description: Railway RRB Technician Exam Result 2025 for 6238 Post: Railway Recruitment Board RRB Technician I and Technician III CEN 02/2025 Official Notification is released and Online Form Now Started on 28 June 2025 to 07 August 2025 is Last Date for Upcoming RRB Technician I Signal & Technician III Examination, Vacancy 2025 Full Notification available at the official website. All the candidate...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "21-05-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "English",
+        "Hindi",
+        "Typing"
+      ],
+      "scraped_at": "2026-05-21T18:24:25.272939",
+      "links": []
+    },
+    {
+      "id": "f9266e501f244fd26f6a6c5800148eb0",
+      "title": "MHA IB ACIO II / Tech Final Result 2025 for 258 Post",
+      "url": "https://rojgarresult.com/mha-ib-acio-tech-258-post-oct25/",
+      "source": "www.rojgarresult.com",
+      "description": "IB Assistant Central Intelligence Officer Grade-II/Tech 2025: Final Result 258 Post Post Update Date: 18-05-2026 Short Description: MHA IB Assistant Central Intelligence Officer Grade-II/Tech Final Result 2025 : MHA IB Assistant Central Intelligence Officer Grade-II/Tech Recruitment Online Form 2025, Notification has been released on the website @https://www.mha.gov.in/en & Application Form now started on 25 October 2025 to 16 November 2025. Ministry of Home Affairs Jobs 2025. Get the direct ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "18-05-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Typing"
+      ],
+      "scraped_at": "2026-05-21T18:24:25.272957",
+      "links": [
+        "https://www.mha.gov.in/en"
+      ]
+    },
+    {
+      "id": "30c8967bc2f5cadf42c03a8a80688eee",
+      "title": "MPESB MP Police Subebdar Sub Inspector SI Result 2026",
+      "url": "https://rojgarresult.com/mpesb-mp-police-sub-inspector-si-oct-2025/",
+      "source": "www.rojgarresult.com",
+      "description": "MP MPESB Police Subedar & Sub Inspector SI Result 2026 for 500 Post Post Update Date: 18-05-2026 Short Description: MP Employees Selection Board MP ESB MP Police Subedar / SI Result 2026 : MP Employees Selection Board MPESB Police Subedar & Sub-Inspector Recruitment Test For Police H.Q., Home (Police) -2025 Official Notification is released and Online Form Now Started on 27 October 2025 to 10 November 2025 is Last Date for MPESB Police Subedar & Sub Inspector Examination 2025 Full Notificatio...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "18-05-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Typing"
+      ],
+      "scraped_at": "2026-05-21T18:24:25.272974",
       "links": []
     }
   ]
