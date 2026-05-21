@@ -202,11 +202,11 @@
                 <h3>GitHub API Settings</h3>
                 <p style="color: #94a3b8; font-size: 0.8rem; margin-bottom: 1rem;">Required to edit files & trigger workflows directly.</p>
                 <div class="form-group">
-                    <label>Personal Access Token (PAT)</label>
+                    <label for="ghToken">Personal Access Token (PAT)</label>
                     <input type="password" id="ghToken" placeholder="ghp_xxxxxxxxxxxxxxxx">
                 </div>
                 <div class="form-group">
-                    <label>Repository (owner/repo)</label>
+                    <label for="ghRepo">Repository (owner/repo)</label>
                     <input type="text" id="ghRepo" placeholder="username/SarkariSarthi_2.0">
                 </div>
                 <button class="primary-btn" onclick="saveSettings()">Save Settings</button>
@@ -259,16 +259,16 @@
             <input type="hidden" id="jobId">
 
             <div class="form-group">
-                <label>Job Title</label>
+                <label for="jobTitle">Job Title</label>
                 <input type="text" id="jobTitle" required>
             </div>
             <div class="form-group">
-                <label>Department</label>
+                <label for="jobDepartment">Department</label>
                 <input type="text" id="jobDepartment" required>
             </div>
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
                 <div class="form-group">
-                    <label>Category</label>
+                    <label for="jobCategory">Category</label>
                     <select id="jobCategory">
                         <option value="UPSC">UPSC</option>
                         <option value="SSC">SSC</option>
@@ -281,18 +281,18 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label>Last Date</label>
+                    <label for="jobLastDate">Last Date</label>
                     <input type="text" id="jobLastDate" placeholder="e.g. 2024-05-30 or 'Not specified'">
                 </div>
             </div>
 
             <div class="form-group">
-                <label>Source URL</label>
+                <label for="jobUrl">Source URL</label>
                 <input type="url" id="jobUrl">
             </div>
 
             <div class="form-group">
-                <label>Summary (Optional)</label>
+                <label for="jobSummary">Summary (Optional)</label>
                 <textarea id="jobSummary"></textarea>
             </div>
 
