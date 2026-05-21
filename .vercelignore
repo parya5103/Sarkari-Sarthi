@@ -5,3 +5,5 @@ jobs/
 pyproject.toml
 Pipfile
 setup.py
+*.py
+requirements.txt
