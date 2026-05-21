@@ -4,16 +4,14 @@
   "trailingSlash": true,
   "builds": [
     {
-      "src": "api/app.py",
-      "use": "@vercel/python"
-    },
-    {
       "src": "package.json",
       "use": "@vercel/static-build"
     }
   ],
   "routes": [
-    { "src": "/api/(.*)", "dest": "/api/app.py" },
-    { "src": "/(.*)", "dest": "/index.html" }
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
   ]
 }
