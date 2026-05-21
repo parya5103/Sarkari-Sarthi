@@ -12,3 +12,7 @@
 
 - When evaluating the performance impact of offloading a synchronous call to `asyncio.to_thread()`, use a concurrently running `asyncio.create_task` loop to act as a counter that registers ticks. If the event loop is blocked by synchronous code, the counter will remain low (or 0). By using `asyncio.to_thread()`, the counter demonstrates that the event loop remained responsive while the thread executed the blocking task.
 - Be extremely careful not to accidentally mock global `asyncio` methods (like `asyncio.sleep`) during benchmarks, as doing so will prevent concurrent tasks from yielding and executing, invalidating the benchmark.
+
+## 2024-05-18 - Pre-computing Regexes in Parser
+**Learning:** Recompiling the same date and link regexes thousands of times during Python backend parsing is highly inefficient. Furthermore, checking if strings like `'last'` exist in the pattern name inside a nested loop causes massive redundant logic execution.
+**Action:** Always pre-compile `re` expressions at the module level using `re.compile()`. To eliminate redundant string checks in loops, pre-associate the compiled pattern with a predefined string tag using a tuple (e.g., `(re.compile(...), 'tag_name')`).

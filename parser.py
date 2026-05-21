@@ -11,6 +11,15 @@ logger = logging.getLogger(__name__)
 
 JOB_DIR = 'jobs'
 
+# Pre-compiled regex patterns for better performance
+# Optimization: Associate patterns with predefined tags to eliminate redundant string checking in loops
+COMPILED_DATE_PATTERNS = [
+    (re.compile(r'(?:Last Date|Application Deadline|Closing Date|Apply Before)\s*[:-]?\s*(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})', re.IGNORECASE), 'last_date'),
+    (re.compile(r'(?:Exam Date|Test Date)\s*[:-]?\s*(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})', re.IGNORECASE), 'exam_date'),
+    (re.compile(r'(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})', re.IGNORECASE), 'found_date')
+]
+COMPILED_LINK_PATTERN = re.compile(r'https?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+')
+
 def download_pdf(url, save_path, max_size_bytes=10 * 1024 * 1024):
     """Download PDF file from URL with size limit."""
     try:
@@ -81,25 +90,16 @@ def extract_important_dates_and_links(text):
     if not text:
         return dates, links
 
-    date_patterns = [
-        r'(?:Last Date|Application Deadline|Closing Date|Apply Before)\s*[:-]?\s*(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})',
-        r'(?:Exam Date|Test Date)\s*[:-]?\s*(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})',
-        r'(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})'
-    ]
-
-    for pattern in date_patterns:
-        matches = re.findall(pattern, text, re.IGNORECASE)
+    for pattern, date_type in COMPILED_DATE_PATTERNS:
+        matches = pattern.findall(text)
         for match in matches:
-            if 'last' in pattern.lower() or 'deadline' in pattern.lower() or 'closing' in pattern.lower():
-                dates['last_date'] = match
-            elif 'exam' in pattern.lower() or 'test' in pattern.lower():
-                dates['exam_date'] = match
-            else:
+            if date_type == 'found_date':
                 if 'found_date' not in dates:
                     dates['found_date'] = match
+            else:
+                dates[date_type] = match
 
-    link_pattern = r'https?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+'
-    links = re.findall(link_pattern, text)
+    links = COMPILED_LINK_PATTERN.findall(text)
     links = list(set(links))
     return dates, links
 
