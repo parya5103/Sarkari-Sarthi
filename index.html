@@ -7,7 +7,7 @@
     
     <!-- SEO Meta Tags -->
     <meta name="description" content="SarkariSarthi 2.0 - AI-powered smart Indian government job portal. Find latest sarkari naukri, government jobs, SSC, banking, railway, and UPSC opportunities with intelligent job matching and instant notifications.">
-    <meta name="keywords" content="sarkari job, government jobs, sarkari naukri, indian government jobs, job portal, banking, walk, interview, assistant, project, offline, research, it, jobs, associate, medical, junior, officer, senior, result">
+    <meta name="keywords" content="sarkari job, government jobs, sarkari naukri, indian government jobs, job portal, banking, walk, interview, project, assistant, offline, research, it, jobs, associate, medical, junior, officer, fellow, senior">
     <meta name="author" content="SarkariSarthi Team">
     
     <!-- Open Graph Meta Tags -->
@@ -71,7 +71,7 @@
                         Join WhatsApp
                     </button>
                 </div>
-                <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                <div class="mobile-menu-toggle" id="mobileMenuToggle" role="button" tabindex="0" aria-label="Toggle mobile menu">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -120,11 +120,11 @@
             <div class="search-container">
                 <div class="search-box">
                     <img src="job-search-icon.png" alt="Search Jobs" class="search-icon">
-                    <input type="text" id="jobSearch" placeholder="Search for government jobs, departments, or locations..." class="search-input">
+                    <input type="text" id="jobSearch" aria-label="Search for jobs, departments, or locations" placeholder="Search for government jobs, departments, or locations..." class="search-input">
                     <button class="search-btn" id="searchBtn">Search Jobs</button>
                 </div>
                 <div class="search-filters">
-                    <select id="categoryFilter" class="filter-select">
+                    <select id="categoryFilter" aria-label="Filter jobs by category" class="filter-select">
                         <option value="">All Categories</option>
                         <option value="Banking">Banking</option>
                         <option value="SSC">SSC</option>
@@ -135,7 +135,7 @@
                         <option value="UPSC">UPSC</option>
                         <option value="General">General</option>
                     </select>
-                    <select id="sortFilter" class="filter-select">
+                    <select id="sortFilter" aria-label="Sort jobs" class="filter-select">
                         <option value="latest">Latest First</option>
                         <option value="deadline">Deadline Soon</option>
                         <option value="category">By Category</option>
