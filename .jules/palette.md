@@ -5,3 +5,7 @@
 ## 2024-05-19 - Keyboard Accessibility for Non-Semantic Interactive Elements
 **Learning:** When building interactive elements using non-semantic tags like `<div>` or `<span>` (e.g., a custom hamburger menu), they must be explicitly made keyboard accessible. This requires adding `role="button"`, `tabindex="0"`, an appropriate `aria-label`, adding CSS focus styles, and importantly, attaching a `keydown` event listener to handle 'Enter' and 'Space' key activations.
 **Action:** Always ensure that custom interactive elements created from `div` or `span` tags have full keyboard support and ARIA attributes mimicking native buttons.
+
+## 2024-05-22 - Improved Empty State Affordance
+**Learning:** A plain "No jobs found" message leaves users at a dead end, increasing frustration when filtering yields zero results.
+**Action:** When designing empty states for filtered lists, always include a visual indicator (like an icon or illustration), clear explanatory text, and an actionable path forward (e.g., a "Clear Filters" button) to help users easily recover and continue using the application.
