@@ -9,8 +9,8 @@
   "scripts": {
     "test": "jest",
     "dev": "serve .",
-    "build": "echo \"build complete\"",
-    "vercel-build": "echo \"build complete\"",
+    "build": "mkdir -p public && cp *.html *.css *.js *.png *.jpg public/",
+    "vercel-build": "mkdir -p public && cp *.html *.css *.js *.png *.jpg public/",
     "start": "serve ."
   },
   "devDependencies": {
