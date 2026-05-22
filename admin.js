@@ -10,8 +10,8 @@ async function hashPassword(password) {
 }
 
 // Global state
-let ghToken = localStorage.getItem('ghToken') || '';
-let ghRepo = localStorage.getItem('ghRepo') || '';
+let ghToken = sessionStorage.getItem('ghToken') || '';
+let ghRepo = sessionStorage.getItem('ghRepo') || '';
 let currentJobs = [];
 let manifestSha = '';
 
@@ -61,8 +61,8 @@ function saveSettings() {
     ghRepo = document.getElementById('ghRepo').value.trim();
 
     if (ghToken && ghRepo) {
-        localStorage.setItem('ghToken', ghToken);
-        localStorage.setItem('ghRepo', ghRepo);
+        sessionStorage.setItem('ghToken', ghToken);
+        sessionStorage.setItem('ghRepo', ghRepo);
 
         const status = document.getElementById('settingsStatus');
         status.textContent = 'Settings saved!';
