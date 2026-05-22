@@ -65,26 +65,32 @@ def fetch_page_content(url, timeout=15, retries=3):
                 return None
     return None
 
+# Pre-allocate static sets/tuples to prevent re-allocation per inner loop iteration
+VALID_JOB_KEYWORDS = (
+    'job', 'recruitment', 'vacancy', 'notification', 'exam',
+    'apply', 'bharti', 'posts', 'officer', 'clerk', 'assistant',
+    'manager', 'engineer', 'teacher', 'constable', 'govt',
+    'government', 'sarkari', 'admission form', 'eligibility',
+    'syllabus', 'result', 'admit card', 'walk-in', 'interview', 'selection', 'merit list'
+)
+VALID_URL_KEYWORDS = ('job', 'recruitment', 'vacancy', 'notification', 'apply')
+EXCLUDE_URL_WORDS = ('login', 'register', 'contact', 'about', 'privacy', 'terms')
+
 def _is_valid_job_link(title, full_url):
     """Validate if a given link is a job link based on its title and URL."""
-    job_keywords = [
-        'job', 'recruitment', 'vacancy', 'notification', 'exam',
-        'apply', 'bharti', 'posts', 'officer', 'clerk', 'assistant',
-        'manager', 'engineer', 'teacher', 'constable', 'govt',
-        'government', 'sarkari', 'admission form', 'eligibility',
-        'syllabus', 'result', 'admit card', 'walk-in', 'interview', 'selection', 'merit list'
-    ]
+    u_lower = full_url.lower()
 
-    is_job = (
-        any(keyword in title.lower() for keyword in job_keywords) or
-        len(title) > 30 or
-        any(word in full_url.lower() for word in ['job', 'recruitment', 'vacancy', 'notification', 'apply'])
+    if any(exclude_word in u_lower for exclude_word in EXCLUDE_URL_WORDS):
+        return False
+
+    if len(title) > 30:
+        return True
+
+    t_lower = title.lower()
+    return (
+        any(keyword in t_lower for keyword in VALID_JOB_KEYWORDS) or
+        any(word in u_lower for word in VALID_URL_KEYWORDS)
     )
-
-    if any(exclude_word in full_url.lower() for exclude_word in ['login', 'register', 'contact', 'about', 'privacy', 'terms']):
-        is_job = False
-
-    return is_job
 
 def _extract_jobs_from_selector(links, url, site_name, found_links_overall):
     """Extract job links from a list of BeautifulSoup elements."""
