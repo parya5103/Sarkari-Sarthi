@@ -103,24 +103,35 @@ def extract_important_dates_and_links(text):
     links = list(set(links))
     return dates, links
 
+# Pre-allocate large keyword sets to avoid constant re-allocation per-function call
+COMPILED_CATEGORIES = {
+    'Banking': ('bank', 'banking', 'sbi', 'pnb', 'icici', 'hdfc', 'axis', 'clerk', 'po', 'probationary officer', 'rbi'),
+    'SSC': ('ssc', 'staff selection commission', 'cgl', 'chsl', 'mts', 'stenographer'),
+    'Railway': ('railway', 'rrb', 'ntpc', 'group d', 'alp', 'technician', 'loco pilot'),
+    'Police': ('police', 'constable', 'sub inspector', 'asi', 'head constable', 'security'),
+    'Defence': ('defence', 'defense', 'army', 'navy', 'air force', 'bsf', 'crpf', 'cisf', 'itbp', 'agniveer'),
+    'Teaching': ('teacher', 'teaching', 'education', 'professor', 'lecturer', 'principal', 'school', 'college', 'ctet', 'ugc'),
+    'UPSC': ('upsc', 'ias', 'ips', 'ifs', 'civil services', 'union public service'),
+    'Medical': ('doctor', 'nurse', 'medical', 'hospital', 'aiims', 'mbbs', 'pharmacist', 'health'),
+    'Engineering': ('engineer', 'engineering', 'technical', 'je', 'junior engineer', 'assistant engineer', 'psu'),
+    'IT': ('software', 'developer', 'programmer', 'it', 'computer', 'data analyst', 'web developer', 'cybersecurity', 'ai', 'ml'),
+    'Administrative': ('clerk', 'assistant', 'officer', 'administrative', 'data entry', 'section officer', 'patwari', 'lekpal')
+}
+
+SKILL_KEYWORDS = (
+    'python', 'java', 'javascript', 'html', 'css', 'sql', 'excel', 'powerpoint', 'word',
+    'communication skills', 'computer knowledge', 'ms office', 'typing',
+    'general knowledge', 'reasoning', 'english', 'hindi', 'mathematics', 'aptitude',
+    'leadership', 'teamwork', 'problem solving', 'data entry', 'analyst', 'cloud', 'aws', 'azure', 'gcp',
+    'machine learning', 'artificial intelligence', 'data science', 'big data', 'devops', 'automation',
+    'networking', 'cyber security', 'project management', 'agile', 'scrum'
+)
+
 def auto_detect_job_category(text):
     if not text:
         return "General"
     text_lower = text.lower()
-    categories = {
-        'Banking': ['bank', 'banking', 'sbi', 'pnb', 'icici', 'hdfc', 'axis', 'clerk', 'po', 'probationary officer', 'rbi'],
-        'SSC': ['ssc', 'staff selection commission', 'cgl', 'chsl', 'mts', 'stenographer'],
-        'Railway': ['railway', 'rrb', 'ntpc', 'group d', 'alp', 'technician', 'loco pilot'],
-        'Police': ['police', 'constable', 'sub inspector', 'asi', 'head constable', 'security'],
-        'Defence': ['defence', 'defense', 'army', 'navy', 'air force', 'bsf', 'crpf', 'cisf', 'itbp', 'agniveer'],
-        'Teaching': ['teacher', 'teaching', 'education', 'professor', 'lecturer', 'principal', 'school', 'college', 'ctet', 'ugc'],
-        'UPSC': ['upsc', 'ias', 'ips', 'ifs', 'civil services', 'union public service'],
-        'Medical': ['doctor', 'nurse', 'medical', 'hospital', 'aiims', 'mbbs', 'pharmacist', 'health'],
-        'Engineering': ['engineer', 'engineering', 'technical', 'je', 'junior engineer', 'assistant engineer', 'psu'],
-        'IT': ['software', 'developer', 'programmer', 'it', 'computer', 'data analyst', 'web developer', 'cybersecurity', 'ai', 'ml'],
-        'Administrative': ['clerk', 'assistant', 'officer', 'administrative', 'data entry', 'section officer', 'patwari', 'lekpal']
-    }
-    for category, keywords in categories.items():
+    for category, keywords in COMPILED_CATEGORIES.items():
         if any(keyword in text_lower for keyword in keywords):
             return category
     return "General"
@@ -129,19 +140,7 @@ def extract_trending_skills(text):
     if not text:
         return []
     text_lower = text.lower()
-    skills = []
-    skill_keywords = {
-        'python', 'java', 'javascript', 'html', 'css', 'sql', 'excel', 'powerpoint', 'word',
-        'communication skills', 'computer knowledge', 'ms office', 'typing',
-        'general knowledge', 'reasoning', 'english', 'hindi', 'mathematics', 'aptitude',
-        'leadership', 'teamwork', 'problem solving', 'data entry', 'analyst', 'cloud', 'aws', 'azure', 'gcp',
-        'machine learning', 'artificial intelligence', 'data science', 'big data', 'devops', 'automation',
-        'networking', 'cyber security', 'project management', 'agile', 'scrum'
-    }
-    for skill in skill_keywords:
-        if skill in text_lower:
-            skills.append(skill.title())
-    return list(set(skills))
+    return [skill.title() for skill in SKILL_KEYWORDS if skill in text_lower]
 
 def process_job_content(job):
     job_content_text = ""

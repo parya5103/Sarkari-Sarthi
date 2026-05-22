@@ -16,3 +16,7 @@
 ## 2024-05-18 - Pre-computing Regexes in Parser
 **Learning:** Recompiling the same date and link regexes thousands of times during Python backend parsing is highly inefficient. Furthermore, checking if strings like `'last'` exist in the pattern name inside a nested loop causes massive redundant logic execution.
 **Action:** Always pre-compile `re` expressions at the module level using `re.compile()`. To eliminate redundant string checks in loops, pre-associate the compiled pattern with a predefined string tag using a tuple (e.g., `(re.compile(...), 'tag_name')`).
+
+## 2024-05-18 - Pre-allocating keyword configuration objects in backend
+**Learning:** Re-declaring large string arrays and configuration dictionaries inside looping functions and parsers in Python introduces continuous background garbage collection memory overhead and slows execution, especially as parsing job datasets scale upwards. Lookups inside lists have O(N) constraints.
+**Action:** Extract inline lists, sets, and static keyword mapping loops out to module-level tuple and set constants. Using frozen module-level constants circumvents GC entirely, and checking against Python `set` provides immediate O(1) keyword detection.

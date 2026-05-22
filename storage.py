@@ -141,6 +141,8 @@ def delete_expired_jobs():
     save_manifest(manifest)
     logger.info(f"✅ Cleanup complete: Deleted {expired_count} expired jobs.")
 
+SEO_STOPWORDS = {'recruitment', 'apply', 'online', 'post', 'posts', 'vacancies', 'notification', 'various', 'department', 'board', 'commission', 'service', '2023', '2024', '2025', '2026', 'india', 'state', 'vacancy', 'examination', 'exam'}
+
 def update_seo_keywords():
     """Extract keywords from jobs and update index.html."""
     logger.info("\n🔍 Updating SEO keywords based on active jobs...")
@@ -162,9 +164,9 @@ def update_seo_keywords():
         title = job.get('title', '')
         category = job.get('category', '')
 
-        tokens = re.findall(r'\b[a-zA-Z]{4,}\b', title.lower())
-        stopwords = {'recruitment', 'apply', 'online', 'post', 'posts', 'vacancies', 'notification', 'various', 'department', 'board', 'commission', 'service', '2023', '2024', '2025', '2026', 'india', 'state', 'vacancy', 'examination', 'exam'}
-        filtered_tokens = [t for t in tokens if t not in stopwords]
+        t_lower = title.lower()
+        tokens = re.findall(r'\b[a-zA-Z]{4,}\b', t_lower)
+        filtered_tokens = [t for t in tokens if t not in SEO_STOPWORDS]
 
         words.extend(filtered_tokens)
         if category:
