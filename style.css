@@ -347,6 +347,21 @@ body {
     color: var(--text-primary);
 }
 
+.search-shortcut {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-secondary);
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 0.8rem;
+    font-family: monospace;
+    margin-right: 15px;
+    user-select: none;
+}
+
 .search-input::placeholder {
     color: var(--text-secondary);
 }
