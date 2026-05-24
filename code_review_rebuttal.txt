@@ -1,0 +1,1 @@
+The code review mentioned that the shortcut logic was omitted. However, the shortcut logic already exists in script.js on line 824 inside `handleKeyboardNavigation()`, which is attached to the document `keydown` event on line 196. The UX enhancement was to make an EXISTING hidden shortcut discoverable.

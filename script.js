@@ -87,6 +87,7 @@ const mobileMenuToggle = document.getElementById('mobileMenuToggle');
 const jobModal = document.getElementById('jobModal');
 const modalClose = document.getElementById('modalClose');
 const modalClose2 = document.getElementById('modalClose2');
+const searchShortcut = document.getElementById('searchShortcut');
 
 // Initialize the application
 document.addEventListener('DOMContentLoaded', function() {
@@ -102,6 +103,14 @@ function initializeApp() {
     loadJobs();
     animateCounters();
     setupIntersectionObserver();
+
+    // Update keyboard shortcut hint for macOS
+    if (searchShortcut) {
+        const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0 || navigator.userAgent.toUpperCase().indexOf('MAC') >= 0;
+        if (isMac) {
+            searchShortcut.textContent = '⌘ K';
+        }
+    }
 }
 
 /**
