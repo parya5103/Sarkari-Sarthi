@@ -20,3 +20,11 @@
 ## 2024-05-18 - Pre-allocating keyword configuration objects in backend
 **Learning:** Re-declaring large string arrays and configuration dictionaries inside looping functions and parsers in Python introduces continuous background garbage collection memory overhead and slows execution, especially as parsing job datasets scale upwards. Lookups inside lists have O(N) constraints.
 **Action:** Extract inline lists, sets, and static keyword mapping loops out to module-level tuple and set constants. Using frozen module-level constants circumvents GC entirely, and checking against Python `set` provides immediate O(1) keyword detection.
+
+## 2024-05-18 - requestAnimationFrame for smooth animations
+**Learning:** Using `setInterval` for DOM animations like increasing counters can lead to choppy performance and continues running even when the browser tab is inactive, wasting CPU and battery life.
+**Action:** Always use `window.requestAnimationFrame()` instead of `setInterval` for animations because it automatically synchronizes with the display refresh rate (typically 60fps) and pauses when the user switches away from the tab.
+
+## 2024-05-18 - Unobserving IntersectionObserver
+**Learning:** For one-time events triggered by `IntersectionObserver` (like triggering a CSS fade-in animation once when scrolled into view), leaving the element observed means the callback will pointlessly trigger every time it leaves and enters the viewport again.
+**Action:** Call `observer.unobserve(entry.target)` immediately after the initial intersection fires to detach the observer and save CPU cycles during scrolling.

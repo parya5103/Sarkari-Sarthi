@@ -717,14 +717,18 @@ function animateCounters() {
         const step = target / (duration / 16); // 60 FPS
         let current = 0;
         
-        const timer = setInterval(() => {
+        // Optimization: Use requestAnimationFrame instead of setInterval for smooth 60fps animations
+        // Impact: Syncs with display refresh rate and prevents execution in background tabs, saving CPU/battery
+        const updateCounter = () => {
             current += step;
             if (current >= target) {
-                current = target;
-                clearInterval(timer);
+                counter.textContent = Math.floor(target).toLocaleString();
+            } else {
+                counter.textContent = Math.floor(current).toLocaleString();
+                window.requestAnimationFrame(updateCounter);
             }
-            counter.textContent = Math.floor(current).toLocaleString();
-        }, 16);
+        };
+        window.requestAnimationFrame(updateCounter);
     });
 }
 
@@ -741,6 +745,8 @@ function setupIntersectionObserver() {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('fade-in');
+                // Optimization: Unobserve elements after they fade in to stop redundant callbacks
+                observer.unobserve(entry.target);
             }
         });
     }, observerOptions);
