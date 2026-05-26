@@ -339,7 +339,7 @@ function renderJobs() {
     }
     
     if (jobsToShow.length === 0) {
-        jobsGrid.innerHTML = '<div class="no-jobs"><h3>No jobs found</h3><p>Try adjusting your search criteria.</p></div>';
+        jobsGrid.innerHTML = '<div class="no-jobs"><span class="no-jobs-icon" aria-hidden="true">🔍</span><h3>No jobs found</h3><p>Try adjusting your search criteria or clear filters to see more jobs.</p><button class="modal-btn secondary" onclick="document.getElementById(\'jobSearch\').value=\'\'; document.getElementById(\'categoryFilter\').value=\'\'; handleSearch();">Clear Filters</button></div>';
         loadMoreBtn.style.display = 'none';
         return;
     }
