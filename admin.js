@@ -10,10 +10,17 @@ async function hashPassword(password) {
 }
 
 // Global state
-let ghToken = localStorage.getItem('ghToken') || '';
+let ghToken = sessionStorage.getItem('ghToken') || '';
 let ghRepo = localStorage.getItem('ghRepo') || '';
 let currentJobs = [];
 let manifestSha = '';
+
+// Migrate existing token if present
+if (localStorage.getItem('ghToken')) {
+    if (!ghToken) ghToken = localStorage.getItem('ghToken');
+    sessionStorage.setItem('ghToken', ghToken);
+    localStorage.removeItem('ghToken');
+}
 
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
@@ -50,6 +57,9 @@ function showDashboard() {
 
 function logout() {
     sessionStorage.removeItem('adminLoggedIn');
+    sessionStorage.removeItem('ghToken');
+    ghToken = '';
+    document.getElementById('ghToken').value = '';
     document.getElementById('loginOverlay').style.display = 'flex';
     document.getElementById('adminContainer').style.display = 'none';
     document.getElementById('adminPassword').value = '';
@@ -61,7 +71,7 @@ function saveSettings() {
     ghRepo = document.getElementById('ghRepo').value.trim();
 
     if (ghToken && ghRepo) {
-        localStorage.setItem('ghToken', ghToken);
+        sessionStorage.setItem('ghToken', ghToken);
         localStorage.setItem('ghRepo', ghRepo);
 
         const status = document.getElementById('settingsStatus');
