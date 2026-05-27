@@ -589,9 +589,14 @@ body {
     box-shadow: var(--shadow-light);
 }
 
-.load-more-btn:hover {
+.load-more-btn:hover:not(:disabled) {
     transform: translateY(-1px);
     box-shadow: var(--shadow-medium);
+}
+
+.load-more-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
 }
 
 /* Features Section */
