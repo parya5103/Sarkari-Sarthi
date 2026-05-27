@@ -10,13 +10,17 @@ async function hashPassword(password) {
 }
 
 // Global state
-let ghToken = localStorage.getItem('ghToken') || '';
-let ghRepo = localStorage.getItem('ghRepo') || '';
+let ghToken = sessionStorage.getItem('ghToken') || '';
+let ghRepo = sessionStorage.getItem('ghRepo') || '';
 let currentJobs = [];
 let manifestSha = '';
 
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
+    // Security: Clean up old credentials from localStorage
+    localStorage.removeItem('ghToken');
+    localStorage.removeItem('ghRepo');
+
     // Check if already logged in this session
     if (sessionStorage.getItem('adminLoggedIn') === 'true') {
         showDashboard();
@@ -61,8 +65,8 @@ function saveSettings() {
     ghRepo = document.getElementById('ghRepo').value.trim();
 
     if (ghToken && ghRepo) {
-        localStorage.setItem('ghToken', ghToken);
-        localStorage.setItem('ghRepo', ghRepo);
+        sessionStorage.setItem('ghToken', ghToken);
+        sessionStorage.setItem('ghRepo', ghRepo);
 
         const status = document.getElementById('settingsStatus');
         status.textContent = 'Settings saved!';

@@ -6,3 +6,7 @@
 **Vulnerability:** Found a hardcoded plaintext admin password in `admin.js` used for rudimentary authentication.
 **Learning:** Hardcoding passwords in client-side JS exposes them to anyone who inspects the source code.
 **Prevention:** Instead of storing plaintext passwords, use the Web Crypto API to hash the password and compare hashes, providing at least basic deterrence for unauthorized access.
+## 2024-05-27 - Persistent Token Exposure in localStorage
+**Vulnerability:** GitHub Personal Access Tokens (PATs) were being stored in `localStorage` in the admin dashboard (`admin.js`), making them vulnerable to persistent theft if a cross-site scripting (XSS) vulnerability exists.
+**Learning:** Sensitive credentials like access tokens should not be stored in `localStorage` because they persist across browser sessions and tabs, increasing the window of opportunity for an attacker to steal them via XSS.
+**Prevention:** Store sensitive credentials in `sessionStorage` instead, which limits their lifespan to the current browser tab session, reducing the risk of persistent token theft. Additionally, explicitly clean up any old tokens that might be lingering in `localStorage`.
