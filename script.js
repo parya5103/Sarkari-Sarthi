@@ -717,14 +717,20 @@ function animateCounters() {
         const step = target / (duration / 16); // 60 FPS
         let current = 0;
         
-        const timer = setInterval(() => {
+        // Optimization: Use requestAnimationFrame instead of setInterval for smoother animations.
+        // Impact: Syncs with display refresh rate, prevents layout thrashing, and pauses in background tabs, saving CPU and battery.
+        function updateCounter() {
             current += step;
             if (current >= target) {
                 current = target;
-                clearInterval(timer);
+                counter.textContent = Math.floor(current).toLocaleString();
+            } else {
+                counter.textContent = Math.floor(current).toLocaleString();
+                window.requestAnimationFrame(updateCounter);
             }
-            counter.textContent = Math.floor(current).toLocaleString();
-        }, 16);
+        }
+
+        window.requestAnimationFrame(updateCounter);
     });
 }
 

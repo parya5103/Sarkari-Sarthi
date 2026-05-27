@@ -20,3 +20,7 @@
 ## 2024-05-18 - Pre-allocating keyword configuration objects in backend
 **Learning:** Re-declaring large string arrays and configuration dictionaries inside looping functions and parsers in Python introduces continuous background garbage collection memory overhead and slows execution, especially as parsing job datasets scale upwards. Lookups inside lists have O(N) constraints.
 **Action:** Extract inline lists, sets, and static keyword mapping loops out to module-level tuple and set constants. Using frozen module-level constants circumvents GC entirely, and checking against Python `set` provides immediate O(1) keyword detection.
+
+## 2024-05-27 - RequestAnimationFrame for DOM Animations
+**Learning:** Using `setInterval` for DOM animations like number counters causes layout thrashing and continues to consume CPU and battery even when the tab is in the background, because the browser executes the timer relentlessly.
+**Action:** Always use `window.requestAnimationFrame()` instead of `setInterval()` for visual DOM updates. It syncs with the display's native refresh rate for smoother animations and automatically pauses execution when the browser tab is inactive.
