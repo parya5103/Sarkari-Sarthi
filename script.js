@@ -714,17 +714,20 @@ function animateCounters() {
     counters.forEach(counter => {
         const target = parseInt(counter.dataset.target);
         const duration = 2000; // 2 seconds
-        const step = target / (duration / 16); // 60 FPS
-        let current = 0;
+        let startTimestamp = null;
         
-        const timer = setInterval(() => {
-            current += step;
-            if (current >= target) {
-                current = target;
-                clearInterval(timer);
+        const step = (timestamp) => {
+            if (!startTimestamp) startTimestamp = timestamp;
+            const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+
+            counter.textContent = Math.floor(progress * target).toLocaleString();
+
+            if (progress < 1) {
+                window.requestAnimationFrame(step);
             }
-            counter.textContent = Math.floor(current).toLocaleString();
-        }, 16);
+        };
+
+        window.requestAnimationFrame(step);
     });
 }
 
@@ -741,6 +744,7 @@ function setupIntersectionObserver() {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('fade-in');
+                observer.unobserve(entry.target);
             }
         });
     }, observerOptions);
