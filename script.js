@@ -668,12 +668,16 @@ function loadMoreJobs() {
     
     isLoading = true;
     loadMoreBtn.textContent = 'Loading...';
+    loadMoreBtn.disabled = true;
+    loadMoreBtn.setAttribute('aria-busy', 'true');
     
     setTimeout(() => {
         currentPage++;
         renderJobs();
         isLoading = false;
         loadMoreBtn.textContent = 'Load More Jobs';
+        loadMoreBtn.disabled = false;
+        loadMoreBtn.setAttribute('aria-busy', 'false');
     }, 500);
 }
 
