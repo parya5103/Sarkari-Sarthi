@@ -339,7 +339,14 @@ function renderJobs() {
     }
     
     if (jobsToShow.length === 0) {
-        jobsGrid.innerHTML = '<div class="no-jobs"><h3>No jobs found</h3><p>Try adjusting your search criteria.</p></div>';
+        jobsGrid.innerHTML = `
+            <div class="no-jobs">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">🔍</div>
+                <h3>No jobs found</h3>
+                <p>We couldn't find any jobs matching your current search and filters.</p>
+                <button class="clear-filters-btn" onclick="clearAllFilters()">Clear All Filters</button>
+            </div>
+        `;
         loadMoreBtn.style.display = 'none';
         return;
     }
@@ -568,6 +575,16 @@ function openJobModal(job) {
 function closeModal() {
     jobModal.classList.remove('active');
     document.body.style.overflow = 'auto';
+}
+
+/**
+ * Clear all filters and search
+ */
+function clearAllFilters() {
+    if (jobSearch) jobSearch.value = '';
+    if (categoryFilter) categoryFilter.value = '';
+    if (sortFilter) sortFilter.value = 'latest';
+    handleSearch();
 }
 
 /**
