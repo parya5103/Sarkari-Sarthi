@@ -668,12 +668,16 @@ function loadMoreJobs() {
     
     isLoading = true;
     loadMoreBtn.textContent = 'Loading...';
+    loadMoreBtn.disabled = true;
+    loadMoreBtn.setAttribute('aria-busy', 'true');
     
     setTimeout(() => {
         currentPage++;
         renderJobs();
         isLoading = false;
         loadMoreBtn.textContent = 'Load More Jobs';
+        loadMoreBtn.disabled = false;
+        loadMoreBtn.setAttribute('aria-busy', 'false');
     }, 500);
 }
 
@@ -737,10 +741,12 @@ function setupIntersectionObserver() {
         rootMargin: '0px 0px -50px 0px'
     };
     
-    const observer = new IntersectionObserver((entries) => {
+    const observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('fade-in');
+                // Optimization: Unobserve after animating to prevent redundant callbacks on future scrolls
+                observer.unobserve(entry.target);
             }
         });
     }, observerOptions);
