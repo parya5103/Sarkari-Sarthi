@@ -737,10 +737,12 @@ function setupIntersectionObserver() {
         rootMargin: '0px 0px -50px 0px'
     };
     
-    const observer = new IntersectionObserver((entries) => {
+    const observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('fade-in');
+                // Optimization: Unobserve after animating to prevent redundant callbacks on future scrolls
+                observer.unobserve(entry.target);
             }
         });
     }, observerOptions);
