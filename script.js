@@ -721,14 +721,21 @@ function animateCounters() {
         const step = target / (duration / 16); // 60 FPS
         let current = 0;
         
-        const timer = setInterval(() => {
+        // Optimization: Use requestAnimationFrame instead of setInterval
+        // Impact: Synchronizes with display refresh rate, prevents background tab execution,
+        // and provides smoother animations without blocking the main thread
+        const animate = () => {
             current += step;
             if (current >= target) {
                 current = target;
-                clearInterval(timer);
+                counter.textContent = Math.floor(current).toLocaleString();
+                return;
             }
             counter.textContent = Math.floor(current).toLocaleString();
-        }, 16);
+            window.requestAnimationFrame(animate);
+        };
+
+        window.requestAnimationFrame(animate);
     });
 }
 
