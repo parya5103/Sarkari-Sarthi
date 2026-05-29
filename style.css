@@ -1001,3 +1001,42 @@ a:focus {
     }
 }
 
+
+
+/* Empty State Styles */
+.no-jobs {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 3rem;
+    background: var(--background-primary);
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-light);
+}
+
+.no-jobs h3 {
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.no-jobs p {
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+}
+
+.clear-filters-btn {
+    background: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.clear-filters-btn:hover {
+    background: var(--primary-color);
+    color: white;
+}

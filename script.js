@@ -339,7 +339,14 @@ function renderJobs() {
     }
     
     if (jobsToShow.length === 0) {
-        jobsGrid.innerHTML = '<div class="no-jobs"><h3>No jobs found</h3><p>Try adjusting your search criteria.</p></div>';
+        jobsGrid.innerHTML = `
+            <div class="no-jobs">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">🔍</div>
+                <h3>No jobs found</h3>
+                <p>We couldn't find any jobs matching your current search and filters.</p>
+                <button class="clear-filters-btn" onclick="clearAllFilters()">Clear All Filters</button>
+            </div>
+        `;
         loadMoreBtn.style.display = 'none';
         return;
     }
@@ -549,6 +556,7 @@ function openJobModal(job) {
         const pdfA = document.createElement('a');
         pdfA.href = sanitizeURL(job.pdf_link);
         pdfA.target = '_blank';
+        pdfA.rel = 'noopener noreferrer';
         pdfA.className = 'pdf-link';
         pdfA.textContent = 'Download Official Notification (PDF)';
         pdfP.appendChild(pdfA);
@@ -568,6 +576,16 @@ function openJobModal(job) {
 function closeModal() {
     jobModal.classList.remove('active');
     document.body.style.overflow = 'auto';
+}
+
+/**
+ * Clear all filters and search
+ */
+function clearAllFilters() {
+    if (jobSearch) jobSearch.value = '';
+    if (categoryFilter) categoryFilter.value = '';
+    if (sortFilter) sortFilter.value = 'latest';
+    handleSearch();
 }
 
 /**
@@ -721,14 +739,21 @@ function animateCounters() {
         const step = target / (duration / 16); // 60 FPS
         let current = 0;
         
-        const timer = setInterval(() => {
+        // Optimization: Use requestAnimationFrame instead of setInterval
+        // Impact: Synchronizes with display refresh rate, prevents background tab execution,
+        // and provides smoother animations without blocking the main thread
+        const animate = () => {
             current += step;
             if (current >= target) {
                 current = target;
-                clearInterval(timer);
+                counter.textContent = Math.floor(current).toLocaleString();
+                return;
             }
             counter.textContent = Math.floor(current).toLocaleString();
-        }, 16);
+            window.requestAnimationFrame(animate);
+        };
+
+        window.requestAnimationFrame(animate);
     });
 }
 
@@ -787,7 +812,7 @@ function updateThemeIcon(theme) {
  */
 function openTelegramChannel() {
     // Replace with actual Telegram channel link
-    window.open('https://t.me/sarkarisarthi', '_blank');
+    window.open('https://t.me/sarkarisarthi', '_blank', 'noopener,noreferrer');
 }
 
 /**
@@ -795,7 +820,7 @@ function openTelegramChannel() {
  */
 function openWhatsappChannel() {
     // Replace with actual WhatsApp invite link
-    window.open('https://chat.whatsapp.com/your-invite-link', '_blank');
+    window.open('https://chat.whatsapp.com/your-invite-link', '_blank', 'noopener,noreferrer');
 }
 
 /**

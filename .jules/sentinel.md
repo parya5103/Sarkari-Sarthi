@@ -10,3 +10,7 @@
 **Vulnerability:** GitHub Personal Access Tokens (PATs) were being stored in `localStorage` in the admin dashboard (`admin.js`), making them vulnerable to persistent theft if a cross-site scripting (XSS) vulnerability exists.
 **Learning:** Sensitive credentials like access tokens should not be stored in `localStorage` because they persist across browser sessions and tabs, increasing the window of opportunity for an attacker to steal them via XSS.
 **Prevention:** Store sensitive credentials in `sessionStorage` instead, which limits their lifespan to the current browser tab session, reducing the risk of persistent token theft. Additionally, explicitly clean up any old tokens that might be lingering in `localStorage`.
+## 2024-05-28 - Reverse Tabnabbing Vulnerability
+**Vulnerability:** External links (`target="_blank"`) in `index.html` and dynamic navigation via `window.open()` in `script.js` lacked the `rel="noopener noreferrer"` attributes.
+**Learning:** This oversight leaves the application vulnerable to reverse tabnabbing, where a malicious destination page could potentially hijack the original tab's `window.opener` object, risking phishing attacks or unauthorized navigation.
+**Prevention:** Always append `rel="noopener noreferrer"` to HTML anchor tags that open in a new tab, and include `'noopener,noreferrer'` in the features parameter of `window.open()` calls.
