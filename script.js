@@ -556,6 +556,7 @@ function openJobModal(job) {
         const pdfA = document.createElement('a');
         pdfA.href = sanitizeURL(job.pdf_link);
         pdfA.target = '_blank';
+        pdfA.rel = 'noopener noreferrer';
         pdfA.className = 'pdf-link';
         pdfA.textContent = 'Download Official Notification (PDF)';
         pdfP.appendChild(pdfA);
@@ -811,7 +812,7 @@ function updateThemeIcon(theme) {
  */
 function openTelegramChannel() {
     // Replace with actual Telegram channel link
-    window.open('https://t.me/sarkarisarthi', '_blank');
+    window.open('https://t.me/sarkarisarthi', '_blank', 'noopener,noreferrer');
 }
 
 /**
@@ -819,7 +820,7 @@ function openTelegramChannel() {
  */
 function openWhatsappChannel() {
     // Replace with actual WhatsApp invite link
-    window.open('https://chat.whatsapp.com/your-invite-link', '_blank');
+    window.open('https://chat.whatsapp.com/your-invite-link', '_blank', 'noopener,noreferrer');
 }
 
 /**
