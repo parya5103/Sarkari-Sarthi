@@ -185,6 +185,13 @@ function setupEventListeners() {
     
     // Keyboard navigation
     document.addEventListener('keydown', handleKeyboardNavigation);
+
+    // Set search shortcut hint text based on OS
+    const searchShortcut = document.getElementById('searchShortcut');
+    if (searchShortcut) {
+        const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
+        searchShortcut.textContent = isMac ? '⌘K' : 'Ctrl+K';
+    }
 }
 
 /**
