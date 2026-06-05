@@ -102,6 +102,12 @@ function initializeApp() {
     loadJobs();
     animateCounters();
     setupIntersectionObserver();
+
+    // Update keyboard shortcut hint based on OS
+    const searchShortcut = document.getElementById('searchShortcut');
+    if (searchShortcut && navigator.platform.toUpperCase().indexOf('MAC') >= 0) {
+        searchShortcut.innerHTML = '<kbd>⌘</kbd> <kbd>K</kbd>';
+    }
 }
 
 /**
@@ -843,7 +849,7 @@ function handleKeyboardNavigation(e) {
     }
     
     // Search with Ctrl+K or Cmd+K
-    if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
         e.preventDefault();
         jobSearch.focus();
     }
