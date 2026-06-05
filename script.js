@@ -388,10 +388,10 @@ function createJobCard(job) {
     card.setAttribute('data-job-id', job.id);
     card.setAttribute('role', 'button');
     card.setAttribute('tabindex', '0');
-    card.setAttribute('aria-label', `View details for ${job.title} at ${job.source}`);
     
     const lastDate = job.important_dates?.last_date || job.important_dates?.found_date || 'Not specified';
     const skills = job.skills || [];
+    card.setAttribute('aria-label', `View details for ${job.title} at ${job.source}, Category: ${job.category}, Last Date: ${lastDate}`);
     
     const header = document.createElement('div');
     header.className = 'job-header';
@@ -843,7 +843,7 @@ function handleKeyboardNavigation(e) {
     }
     
     // Search with Ctrl+K or Cmd+K
-    if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
         e.preventDefault();
         jobSearch.focus();
     }
