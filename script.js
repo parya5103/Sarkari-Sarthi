@@ -721,8 +721,11 @@ function updateJobCounts() {
     document.querySelectorAll('.category-card').forEach(card => {
         const category = card.dataset.category;
         const countElement = card.querySelector('.category-count');
-        if (countElement && categoryCounts[category]) {
-            countElement.textContent = `${categoryCounts[category]}+ Jobs`;
+        if (countElement) {
+            const count = categoryCounts[category] || 0;
+            const text = `${count}+ Jobs`;
+            countElement.textContent = text;
+            card.setAttribute('aria-label', `Filter by ${category} category, ${text}`);
         }
     });
 }
