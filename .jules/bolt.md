@@ -24,3 +24,7 @@
 ## 2024-05-29 - requestAnimationFrame for Counters
 **Learning:** Using `setInterval(..., 16)` to power DOM animations is sub-optimal. It operates independently of the browser's display refresh cycle, which can cause frame tearing and layout jank. Furthermore, `setInterval` continues executing at full speed when the tab is in the background, consuming CPU resources unnecessarily.
 **Action:** Always use `window.requestAnimationFrame()` for DOM animations. It naturally syncs with the monitor's refresh rate (e.g., 60Hz or 120Hz) and automatically pauses background execution. However, when migrating fixed-step animations, remember to use timestamps (`performance.now()`) to calculate progress instead of frame counts, otherwise the animation will complete twice as fast on 120Hz monitors.
+
+## 2024-06-10 - Native Lazy Loading for Off-screen Images
+**Learning:** Serving off-screen images synchronously during initial page load blocks the browser main thread and wastes bandwidth. While JavaScript intersection observers can be used, modern browsers support the `loading="lazy"` attribute natively, which is highly efficient and requires zero JS overhead.
+**Action:** Always apply `loading="lazy"` to `<img>` tags that appear below the fold (e.g., in footers, lower feature sections) to defer their loading until the user scrolls near them, directly improving the Largest Contentful Paint (LCP) performance metric.
