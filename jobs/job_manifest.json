@@ -1,35 +1,9 @@
 {
-  "last_updated": "2026-07-08T01:00:41.385549",
-  "total_jobs": 187,
-  "active_jobs": 187,
-  "expired_jobs": 13,
+  "last_updated": "2026-07-09T01:11:22.172553",
+  "total_jobs": 195,
+  "active_jobs": 195,
+  "expired_jobs": 3,
   "jobs": [
-    {
-      "id": "20a20e01a9a0f0ca7399b115d4ae3c81",
-      "title": "AIIMS Delhi",
-      "url": "https://allgovernmentjobs.in/aiims-delhi-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "All India Institute of Medical Sciences, Delhi (AIIMS Delhi) has officially released the notification for 2026. To fill .... The All India Institute of Medical Sciences, Delhi (AIIMS Delhi) has officially released the notification to fill t .... The All India Institute of Medical Sciences (AIIMS Delhi) has officially released the notification to fill the vacancy o .... All India Institute of Medical Sciences, Delhi (AIIMS Delhi) has declared the official notification for 2026. To fill up .......",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Medical",
-      "skills": [],
-      "scraped_at": "2026-06-22T02:03:12.320931",
-      "links": []
-    },
-    {
-      "id": "9f9bf58aa79ac7b8139b36046762069b",
-      "title": "ACTREC",
-      "url": "https://allgovernmentjobs.in/actrec-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has declared the official notification for .... The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has declared the official notification for .... The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has declared the official notification for .... The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has declared the official notification for .....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Teaching",
-      "skills": [],
-      "scraped_at": "2026-06-22T02:03:12.320892",
-      "links": []
-    },
     {
       "id": "6c8a2f3b826a4dc592637b00491c8e40",
       "title": "How to Download Your Admit Card & Check Results for Sarkari Exams",
@@ -472,22 +446,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-06-25T01:32:25.709696",
-      "links": []
-    },
-    {
-      "id": "4664af58c4fde002d74f63b7c555e69e",
-      "title": "OPGC Notification 2026 - Apply Online for 02 Additional General Manager Posts",
-      "url": "https://allgovernmentjobs.in/opgc-notification-2026-apply-online-for-02-additional-general-manager-posts/42764",
-      "source": "allgovernmentjobs.in",
-      "description": "The Odisha Power Generation Corporation (OPGC) has officially released the notification to fill the vacancies of 02 Additional General Manager Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBA, PGDM, B.E./B. Tech in Mechanical, Electrical, Civil Engineering can apply for the OPGC Notification 2026 . Interested applicants can apply in online mode. Here we have mentioned the e...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "08-07-2026",
-        "found_date": "24-06-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-06-25T01:32:25.709659",
       "links": []
     },
     {
@@ -2755,6 +2713,175 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-07-08T01:00:14.978289",
+      "links": []
+    },
+    {
+      "id": "1fecd92c2cc7cb1cbfd897313f1847b2",
+      "title": "PGIMER Notification 2026 - Apply Online for Project Nurse III Posts",
+      "url": "https://allgovernmentjobs.in/pgimer-notification-2026-apply-online-for-project-nurse-iii-posts/43073",
+      "source": "allgovernmentjobs.in",
+      "description": "The Post Graduate Institute of Medical Education and Research (PGIMER) has officially released the notification to fill the vacancies of 01 Project Nurse III Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B. Sc Nursing, GNM can apply for the PGIMER Notification 2026. The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, s...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "16-07-2026",
+        "found_date": "06-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-09T01:10:54.559478",
+      "links": []
+    },
+    {
+      "id": "a115f387e942c2e286489867205e13c8",
+      "title": "CSMCRI Notification 2026 - Apply Offline for Project Associate I Posts",
+      "url": "https://allgovernmentjobs.in/csmcri-notification-2026-apply-offline-for-project-associate-i-posts/43075",
+      "source": "allgovernmentjobs.in",
+      "description": "The Central Salt & Marine Chemicals Research Institute (CSIR CSMCRI) has officially released the notification to fill the vacancies of 01 Project Associate I Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech in Mechanical Engineering, M.Sc can apply for the CSMCRI Notification 2026 . The interested applicants can apply in offline mode. Here we have men...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "31-07-2026",
+        "found_date": "06-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-09T01:10:54.559449",
+      "links": []
+    },
+    {
+      "id": "b2669eed5eb7dd622125b99fa1fcc637",
+      "title": "SASTRA Notification 2026 - Apply Online for Project Assistant I Posts",
+      "url": "https://allgovernmentjobs.in/sastra-notification-2026-apply-online-for-project-assistant-i-posts/43071",
+      "source": "allgovernmentjobs.in",
+      "description": "The SASTRA Deemed University (SASTRA) has officially released the notification to fill the vacancies of 01 Project Assistant I Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their M. Pharm, M.Sc., M.E./M. Tech can apply for the SASTRA Notification 2026 . The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, a...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "15-07-2026",
+        "found_date": "01-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-09T01:10:54.559496",
+      "links": []
+    },
+    {
+      "id": "a5ef2a696c386c70be28f0f659f5fca9",
+      "title": "Indian Army",
+      "url": "https://allgovernmentjobs.in/indian-army-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Army has officially released the notification to fill the vacancies of 30 68th Short Service Commission (SSCW .... The Armed Forces Medical College, Pune, has officially released the notification to fill the vacancies of 04 Resear ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "SSC",
+      "skills": [],
+      "scraped_at": "2026-07-09T01:10:54.565065",
+      "links": []
+    },
+    {
+      "id": "539d58b2e650fc7b4d279dde40990d1f",
+      "title": "GMRC Notification 2026 - Apply Online for 07 Manager, Engineer Posts",
+      "url": "https://allgovernmentjobs.in/gmrc-notification-2026-apply-online-for-07-manager-engineer-posts/43070",
+      "source": "allgovernmentjobs.in",
+      "description": "The Gujarat Metro Rail Corporation (GMRC) has officially released the notification to fill the vacancies of 07 Manager, Engineer, Deputy General Manager, and Assistant Manager Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech in Mechanical, Electrical, Electronics, and Civil Engineering can apply for the GMRC Notification 2026 . The interested applicants can apply in...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "22-07-2026",
+        "found_date": "08-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-09T01:10:54.559511",
+      "links": []
+    },
+    {
+      "id": "12a926ba7d5a59749b743144d9d70be6",
+      "title": "NIT Rourkela",
+      "url": "https://allgovernmentjobs.in/nit-rourkela-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Institute of Technology Rourkela (NIT Rourkela) has officially released the notification to fill the vacanc .... National Institute of Technology Rourkela (NIT Rourkela) has released a notification for the recruitment of various&nbsp .... The National Institute of Technology Rourkela (NIT Rourkela) has officially released the notification to fill the vacanc .... National Institute of Technology Rourkela (NIT Rourkela) has officially released a notification for the recruitment of ...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2026-07-09T01:10:54.565155",
+      "links": []
+    },
+    {
+      "id": "15c54cd9121ffe4cf9ea2decf9d52d69",
+      "title": "North Central Railway Jobs 2026 - Apply Online for 1853 Apprentice Posts",
+      "url": "https://allgovernmentjobs.in/north-central-railway-jobs-2026-apply-online-for-1853-apprentice-posts/43076",
+      "source": "allgovernmentjobs.in",
+      "description": "The Central Railway has officially released the notification to fill the vacancies of 1853 Apprentice Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their 10th pass or ITI can apply for the North Central Railway Jobs 2026 . The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, application fee, salary, and how ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "07-08-2026",
+        "found_date": "08-07-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-07-09T01:10:54.570656",
+      "links": []
+    },
+    {
+      "id": "6650ee5ba1297f3c732aae33894e8a7f",
+      "title": "TNPSC",
+      "url": "https://allgovernmentjobs.in/tnpsc-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The SASTRA Deemed University (SASTRA) has officially released the notification to fill the vacancies of 01 Project Assis .... Tamil Nadu State Rural Livelihoods Mission Madurai (TNSRLM Madurai) has declared the official notification for 2026. To .... The Chennai Port Authority has officially released the notification to fill the vacancy for 01 Executive Engineer Post. .... The Chennai Port Authority has officially released the notification to fill the vacancies of 01 Manager Post. Interested ...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-09T01:10:54.565083",
+      "links": []
+    },
+    {
+      "id": "1b67c1f73001c82901ce1edef97708ce",
+      "title": "Indian Army Jobs 2026 - Apply Online for 30 68th Short Service Commission (SSCW) Posts",
+      "url": "https://allgovernmentjobs.in/indian-army-jobs-2026-apply-online-for-30-68th-short-service-commission-sscw-posts/43072",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Army has officially released the notification to fill the vacancies of 30 68th Short Service Commission (SSCW) Posts. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech in Mechanical, Electrical, Electronics, Computer Science, and Civil  Engineering can apply for the Indian Army Jobs 2026 . The interested applicants can apply in online mode. Here we have mentioned...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "06-08-2026",
+        "found_date": "08-07-2025"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-09T01:10:54.570679",
+      "links": []
+    },
+    {
+      "id": "4f59e15bfb8090bfbca18020f5006823",
+      "title": "NIT Goa Jobs 2026 - Apply Online for Junior Research Fellow/ Project Associate Posts",
+      "url": "https://allgovernmentjobs.in/nit-goa-jobs-2026-apply-online-for-junior-research-fellow-project-associate-posts/43077",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Institute of Technology, Goa (NIT Goa) has officially released the notification to fill the vacancies of 01 Junior Research Fellow/ Project Associate Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech in Electrical, Electronics Engineering can apply for the NIT Goa Jobs 2026 . The interested applicants can apply in online mode. Here we have ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "26-07-2026",
+        "found_date": "08-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-09T01:10:54.570634",
+      "links": []
+    },
+    {
+      "id": "d58a802af10f649b75d3a570f085fc73",
+      "title": "IIT Gandhinagar Jobs 2026 - Apply Online for Program Associate II Posts",
+      "url": "https://allgovernmentjobs.in/iit-gandhinagar-jobs-2026-apply-online-for-program-associate-ii-posts/43069",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Institute of Technology Gandhinagar (IIT Gandhinagar) has officially released the notification to fill the vacancies of Program Associate II Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech, M.Sc., and MCA can apply for the IIT Gandhinagar Jobs 2026 . The interested applicants can apply in online mode. Here we have mentioned the education de...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "18-07-2026",
+        "found_date": "01-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-09T01:10:54.570712",
       "links": []
     }
   ]
