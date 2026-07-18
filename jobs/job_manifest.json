@@ -1,222 +1,9 @@
 {
-  "last_updated": "2026-07-16T00:57:41.676915",
-  "total_jobs": 186,
-  "active_jobs": 186,
-  "expired_jobs": 5,
+  "last_updated": "2026-07-18T00:56:42.815480",
+  "total_jobs": 185,
+  "active_jobs": 185,
+  "expired_jobs": 14,
   "jobs": [
-    {
-      "id": "8961a818a1cbd9b082082f79cb5e38b8",
-      "title": "ICAR IARI Notification 2026 - Apply for Young Professional I Posts",
-      "url": "https://allgovernmentjobs.in/icar-iari-notification-2026-apply-for-young-professional-i-posts/42843",
-      "source": "allgovernmentjobs.in",
-      "description": "ICAR-Indian Agricultural Research Institute (ICAR IARI) issued the official notification for 2026. To fill the vacancies for Young Professional I Jobs. Those candidates who have qualified in the B.Sc can grab this chance and apply for the ICAR IARI Notification 2026 . Here, we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply before the last date of application. I...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "14-07-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-07-01T01:40:56.054762",
-      "links": []
-    },
-    {
-      "id": "133754c76d836e66673675374355ba4d",
-      "title": "IIEST Shibpur Notification 2026 - Apply for Junior Research Fellow Posts",
-      "url": "https://allgovernmentjobs.in/iiest-shibpur-notification-2026-apply-for-junior-research-fellow-posts/42838",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Engineering Science & Technology Shibpur (IIEST Shibpur) has declared the official notification for 2026. To fill the vacancies for various Junior Research Fellow Jobs. Candidates who have qualified in B.E/ B.Tech or M.E/ M.Tech in Electrical Engineering can grab this chance and apply for the IIEST Shibpur Notification 2026 . Here, we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. If y...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "25-07-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-07-01T01:40:56.054811",
-      "links": []
-    },
-    {
-      "id": "9dca399681837d1cb92e1a320d85503e",
-      "title": "ACTREC Notification 2026 - Walk-in-Interview for Various Telephone Operator Posts",
-      "url": "https://allgovernmentjobs.in/actrec-notification-2026-walk-in-interview-for-various-telephone-operator-posts/42841",
-      "source": "allgovernmentjobs.in",
-      "description": "The Advanced Centre for Treatment Research and Education in Cancer (ACTREC) has officially released the notification to fill the vacancies for Telephone Operator Jobs. Candidates who have qualified for any degree can apply for the ACTREC Notification 2026 . Here we have included more details about the age limit, selection process, salary structure, education details, applciation fee, and how to apply for these posts. Interested and eligible candidates can attend the walk-in at the address bel...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "06-07-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-07-01T01:40:56.054787",
-      "links": []
-    },
-    {
-      "id": "55ce8a4717e86de36a3b5e5a663397a6",
-      "title": "BOI Notification 2026 - Apply Online for 779 Credit Officer Posts",
-      "url": "https://allgovernmentjobs.in/boi-notification-2026-apply-online-for-779-credit-officer-posts/42834",
-      "source": "allgovernmentjobs.in",
-      "description": "The Bank of India (BOI) has officially released the notification to fill the vacancies of 779 Credit Officer Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree, and CA can apply for the BOI Notification 2026 . The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, application fee, salary, and how ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "20-07-2026",
-        "found_date": "30-06-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-07-01T01:40:56.054850",
-      "links": []
-    },
-    {
-      "id": "473c431eafbc6316770469aacbb35c66",
-      "title": "TANUVAS Recruitment 2026 - Walk-in-Interview for Various Technical Fellow Posts",
-      "url": "https://allgovernmentjobs.in/tanuvas-recruitment-2026-walk-in-interview-for-various-technical-fellow-posts/42840",
-      "source": "allgovernmentjobs.in",
-      "description": "Tamil Nadu Veterinary and Animal Sciences University (TANUVAS) has declared the official notification for 2026. To fill the vacancies for Technical Fellow Jobs. Those candidates who have qualified for M.V.Sc can grab this chance and apply for the T ANUVAS Recruitment 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. If you are looking for more, here is a list of Government Jobs in 2026 that yo...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "08-07-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-07-01T01:40:56.060750",
-      "links": []
-    },
-    {
-      "id": "5c02b918c600a09609d8fc58a8ef9905",
-      "title": "TANUVAS",
-      "url": "https://allgovernmentjobs.in/tanuvas-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Tamil Nadu Veterinary and Animal Sciences University (TANUVAS) has declared the official notification for 2026. To fill .... Tamil Nadu Veterinary and Animal Sciences University (TANUVAS) has declared the official notification for the recruitmen .... Tamil Nadu Veterinary and Animal Sciences University (TANUVAS) has declared the official notification for 2026. To fill .... Tamil Nadu Veterinary and Animal Sciences University (TANUVAS) has declared the official notification for the recruitmen ...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Engineering",
-      "skills": [],
-      "scraped_at": "2026-07-01T01:40:56.060839",
-      "links": []
-    },
-    {
-      "id": "9fbfde9859a8aec650f9d4a357c724f7",
-      "title": "Department of Science & Technology",
-      "url": "https://allgovernmentjobs.in/department-of-science-technology-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Engineering Science & Technology Shibpur (IIEST Shibpur) has declared the official notification .... The Indian Institute of Engineering Science & Technology (IIEST Shibpur) has officially released the notification to .... The Indian Institute of Engineering Science & Technology (IIEST Shibpur) has officially released the notification to .... The Indian Institute of Engineering Science and Technology, Shibpur (IIEST Shibpur) has officially released the notifica .... Instit...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Engineering",
-      "skills": [],
-      "scraped_at": "2026-07-01T01:40:56.060862",
-      "links": []
-    },
-    {
-      "id": "62cb4d3b61a384dca088554dd7b14594",
-      "title": "IIT Ropar",
-      "url": "https://allgovernmentjobs.in/iit-ropar-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Technology (IIT) Ropar has declared the notification for the recruitment of 12 Field Investigator Jo .... The Indian Institute of Technology, Ropar (IIT Ropar) has officially released the notification to fill the vacancies of .... Indian Institute of Technology Ropar (IIT Ropar) has declared the official notification 2026. To fill up the vacancies f .... Indian Institute of Technology Ropar (IIT Ropar) has declared the official notification for the recruitment of various&n...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2026-07-01T01:40:56.060961",
-      "links": []
-    },
-    {
-      "id": "3524b2ea2db573ad95ae2aa75a69e0bf",
-      "title": "TSPSC",
-      "url": "https://allgovernmentjobs.in/tspsc-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Professor Jayashankar Telangana State Agricultural University (PJTSAU) has announced the official notification for 2026. .... Professor Jayashankar Telangana State Agricultural University (PJTSAU) has announced the official notification for 2026. .... Professor Jayashankar Telangana State Agricultural University (PJTSAU) has announced the official notification for 2026. .... The Telangana Public Service Commission, Hyderabad (IIT Hyderabad), has officially released the notification to fill th...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Teaching",
-      "skills": [],
-      "scraped_at": "2026-07-01T01:40:56.060980",
-      "links": []
-    },
-    {
-      "id": "cb264e09b15e0f911ad2ac693ceefea1",
-      "title": "UPSSSC All Form Recruitment 2026 Online Form",
-      "url": "https://rojgarresult.com/upsssc-recruitment-2026/",
-      "source": "www.rojgarresult.com",
-      "description": "UPSSSC Various Post Online Form 2026 Post Update Date: 26-06-2026 Short Description : UPSSSC has released Various Post 2026 Notification Advt No. 01-Exam/2026 to Advt No. 14-Exam/2026 on the official website. Those candidates who Are Interested to the UPSSSC Recruitment 2026 Can Apply Online Form. Total vacancies are limited to Various Post. So interested applicants should first check the RBI Recruitment 2026 short details on Rojgar Result.Com , then carefully read the full official notificat...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "26-06-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-07-01T01:40:56.182141",
-      "links": [
-        "https://upsssc.gov.in/"
-      ]
-    },
-    {
-      "id": "90189ec6dd181fb5c89a89cba6d53728",
-      "title": "UP Bus Conductor Online Form 2026",
-      "url": "https://rojgarresult.com/upsrtc-up-bus-conductor-outsource-2026/",
-      "source": "www.rojgarresult.com",
-      "description": "UPSRTC UP Bus Conductor Recruitment 2026 : Varanasi, Jaunpur, Ghazipur, Chanduali, Sonebhadra, Sant Ravidas Nagar Post Update Date: 28-06-2026 Short Description : Uttar Pradesh UPSRTC Bus Conductor Recruitment 2026 Apply Online Form | UPSRTC has invited online applications for the Post of Outsource Conductor in UPSRTC on Contractual Basis through Sewayojan Portal Recruitment 2026, with the official notification already released, offering a District Wise Vacancy Out, Eligible candidates can fi...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "28-06-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-07-01T01:40:56.200823",
-      "links": []
-    },
-    {
-      "id": "94a1477241e510271da32945212f30a0",
-      "title": "UP TGT 2022 Result 2026 – Declared",
-      "url": "https://rojgarresult.com/up-tgt-2022/",
-      "source": "www.rojgarresult.com",
-      "description": "Uttar Pradesh UPSESSB UP TGT 2022 Result 2026 for 3539 Post Post Update Date: 30-06-2026 Short Details: UP TGT 2022 Result 2026 | Uttar Pradesh Secondary Education Service Selection Board (UPSESSB) has released the Admit Card of Trained Graduate Teacher TGT Teacher Recruitment for 3539 posts. Those who are interested in this recruitment and fulfill the eligibility can apply online from 09 June 2022 to 03 July 2022. For the information of eligibility, age limit, selection procedure, pay scale,...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "30-06-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Word",
-        "English",
-        "Hindi"
-      ],
-      "scraped_at": "2026-07-01T01:40:56.200840",
-      "links": [
-        "http://www.upsessb.org/"
-      ]
-    },
-    {
-      "id": "caaff65e0cae77cf11c72a1556d57b0c",
-      "title": "SBI CBO Circle Based Officers Result 2026 for 2050 Post",
-      "url": "https://rojgarresult.com/sbi-cbo-circle-based-officers-2026/",
-      "source": "www.rojgarresult.com",
-      "description": "SBI CBO Circle Based Officers Recruitment 2026: Result for 2050 Post Post Update Date: 30-06-2026 Short Description: SBI CBO Circle Based Officers Recruitment 2026 Result : SBI CBO Circle Based Officers Online Form 2026, Notification has been released on the website @https://sbi.co.in/ & Application Form now started on 29 January 2026 to 18 February 2026. State Bank of India Jobs 2026. Get the direct link to download notification link available on SBI CBO Circle Based Officers Vacancy 2026 Of...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "30-06-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-07-01T01:40:56.200857",
-      "links": [
-        "https://sbi.co.in/"
-      ]
-    },
-    {
-      "id": "42c53b1a4149ac08b8bec562531f4031",
-      "title": "RSSB 4th Class Employee Revised Result 2026 for 53749 Post",
-      "url": "https://rojgarresult.com/rssb-4th-class-employee/",
-      "source": "www.rojgarresult.com",
-      "description": "Rajasthan RSSB Grade IV Recruitment 2025: Revised Result 2026 for 53749 Post Post Update Date: 29-06-2026 Short Description: RSSB 4th Class Employee Revised Result 2025: Rajasthan Staff Selection Board Official Notification is released and Online Form Now Started on 21 March 2025 to 19 April 2025 is Last Date for 53749 Post. RSMSSB Group D Vacancy 2025 Full Notification available at the official website. All the candidates can now check the detailed notification of RSMSSB 4th Class Employee R...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "29-06-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-07-01T01:40:56.200913",
-      "links": []
-    },
     {
       "id": "a58e3807be2d4ab2dfad7759c7b04830",
       "title": "AIIMS Guwahati Notification 2026 - Apply Online for 04 Project Research Scientist III, Project Nurse I and Other Posts",
@@ -2744,6 +2531,194 @@
       "category": "Defence",
       "skills": [],
       "scraped_at": "2026-07-16T00:57:11.567474",
+      "links": []
+    },
+    {
+      "id": "5561ec0af930db2faab4e05f7740e49e",
+      "title": "IIT BHU Notification 2026 - Apply Online for Junior Research Fellow Posts",
+      "url": "https://allgovernmentjobs.in/iit-bhu-notification-2026-apply-online-for-junior-research-fellow-posts/43268",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Institute of Technology Banaras Hindu University (IIT BHU) has issued the official notification for 2026. To fill the vacancies for various Junior Research Fellow Jobs. Candidates who have qualified in MBBS, B.Pharm, B.E/ B.Tech, or M.Sc  can use this chance and apply for the IIT BHU Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates ca...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "09-08-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-18T00:56:17.848303",
+      "links": []
+    },
+    {
+      "id": "1163b88de047a009328f821cd916cc1a",
+      "title": "NHSRC Notification 2026 - Apply Online for Various Lead Consultant Posts",
+      "url": "https://allgovernmentjobs.in/nhsrc-notification-2026-apply-online-for-various-lead-consultant-posts/43267",
+      "source": "allgovernmentjobs.in",
+      "description": "National Health Systems Resource Centre (NHSRC) has issued the official notification for the recruitment of various Lead Consultant Jobs. Candidates who have qualified in MBBS, BDS, MD/ MS, or MBA can use this opportunity and apply for the NHSRC Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, applciation fee, and how to apply for these posts. Interested and eligible candidates can apply online by the last date of application. If...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "04-08-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-18T00:56:17.848328",
+      "links": []
+    },
+    {
+      "id": "de423989f31308675e1a0e1022450cf6",
+      "title": "AIIMS Bilaspur Notification 2026 - Walk-in-Interview for 70 Senior Resident Posts",
+      "url": "https://allgovernmentjobs.in/aiims-bilaspur-notification-2026-walk-in-interview-for-70-senior-resident-posts/43265",
+      "source": "allgovernmentjobs.in",
+      "description": "All India Institute of Medical Sciences (AIIMS) has declared the official notification for 2026. To fill 70 Senior Resident Jobs. Candidates who have qualified in MBBS, MD/ MS, DNB, and Post Graduation candidates who have qualified in the AIIMS Bilaspur Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, applciation fee, and how to apply for these posts. Interested and eligible candidates can attend the walk-in at the address mentio...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "21-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-18T00:56:17.848349",
+      "links": []
+    },
+    {
+      "id": "9362e1a62fa5be3903b2ba718c35ee39",
+      "title": "ACTREC Notification 2026 - Walk-in-Interview for 03 Pharmacist Posts",
+      "url": "https://allgovernmentjobs.in/actrec-notification-2026-walk-in-interview-for-03-pharmacist-posts/43262",
+      "source": "allgovernmentjobs.in",
+      "description": "The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has announced the official notification for 2026. To fill the vacancies for 03 Pharmacist Jobs. Candidates who have qualified in B.Pharm or D.Pharm can use this chance and apply for the ACTREC Notification 2026 . Here, we have included the age limit, selection process, Salary Structure, education details, application fee, and how to apply for these posts. If you are looking for more, here is a list of Government Jobs...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "27-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-18T00:56:17.848384",
+      "links": []
+    },
+    {
+      "id": "d5ddcea08b90c5679739c31f4d41d289",
+      "title": "NFSU Notification 2026 - Walk-in-Interview for 02 Clerk and MTS Posts",
+      "url": "https://allgovernmentjobs.in/nfsu-notification-2026-walk-in-interview-for-02-clerk-and-mts-posts/43263",
+      "source": "allgovernmentjobs.in",
+      "description": "National Forensic Sciences University (NFSU) has issued the official notification for 2026. To fill the 02 vacancies for Clerk and MTS Jobs. Those candidates who have qualified in the 10th Pass or any degree can grab this chance and apply for the NFSU Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can attend the walk-in at the address below. I...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "24-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-18T00:56:17.848367",
+      "links": []
+    },
+    {
+      "id": "f3bce833d4e545a704de428e7392011a",
+      "title": "MANIT Bhopal Recruitment 2026 - Walk-in-Interview for Junior Research Fellow Posts",
+      "url": "https://allgovernmentjobs.in/manit-bhopal-recruitment-2026-walk-in-interview-for-junior-research-fellow-posts/43264",
+      "source": "allgovernmentjobs.in",
+      "description": "Maulana Azad National Institute of Technology (MANIT Bhopal) has declared the official notification for 2026. To fill the vacancies for Junior Research Fellow Jobs. Those candidates who have qualified in B.E/ B.Tech, M.E/ M.Tech can grab this chance and apply for the MANIT Bhopal Recruitment 2026 . Here, we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can attend the wa...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "22-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-18T00:56:17.854289",
+      "links": []
+    },
+    {
+      "id": "50f13a9e2ecfe4a15acbb6da02b5acd9",
+      "title": "NIT Trichy Recruitment 2026 - Apply for Project Associate I Posts",
+      "url": "https://allgovernmentjobs.in/nit-trichy-recruitment-2026-apply-for-project-associate-i-posts/43266",
+      "source": "allgovernmentjobs.in",
+      "description": "National Institute of Technology (NIT), Tiruchirappalli, has released the official Project Associate I Notification 2026. Candidates who have completed their B.E/ B.Tech in Mechanical Engineering can use this chance and apply for the NIT Trichy Recruitment 2026 . Here we have included the age limit and selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply by the last date of application. If you a...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "22-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-18T00:56:17.854266",
+      "links": []
+    },
+    {
+      "id": "21a9160ba8c847080e3d3930c2e1bc95",
+      "title": "NIT Calicut",
+      "url": "https://allgovernmentjobs.in/nit-calicut-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "National Institute of Technology Calicut (NIT Calicut) has declared the official notification for 2026. To fill the vaca .... National Institute of Technology Calicut (NIT Calicut) has declared the official notification for 2026. To fill the vaca .... The National Institute of Technology Calicut (NIT Calicut) has officially released the notification to fill the vacancie .... National Institute of Technology Calicut (NIT Calicut) has declared the official notification for 2026. To fill the vac...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2026-07-18T00:56:17.854379",
+      "links": []
+    },
+    {
+      "id": "b988fb57de5787f284303b57571b1cac",
+      "title": "MPRDC Notification 2026 - Apply Online for 18 Manager Posts",
+      "url": "https://allgovernmentjobs.in/mprdc-notification-2026-apply-online-for-18-manager-posts/43259",
+      "source": "allgovernmentjobs.in",
+      "description": "M.P. Road Development Corporation Ltd. (MPRDC) has issued the official notification for 2026. To fill the vacancies for 18 Manager Jobs. Candidates who have qualified in the Any Degree, Post Graduation can grab this chance and apply for the MPRDC Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply online before the last date of applicatio...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "01-08-2026",
+        "found_date": "15-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-18T00:56:17.848466",
+      "links": []
+    },
+    {
+      "id": "568487d7a84432825916af9bbac27511",
+      "title": "NIT Calicut Notification 2026 - Apply for Junior Research Fellow Posts",
+      "url": "https://allgovernmentjobs.in/nit-calicut-notification-2026-apply-for-junior-research-fellow-posts/43260",
+      "source": "allgovernmentjobs.in",
+      "description": "National Institute of Technology Calicut (NIT Calicut) has declared the official notification for 2026. To fill the vacancies for various Junior Research Fellow Jobs. Candidates who have qualified in M.E/ M.Tech in Mechanical Engineering can grab this chance and apply for the NIT Calicut Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. If you are looking for more, here is a list ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "30-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-18T00:56:17.848401",
+      "links": []
+    },
+    {
+      "id": "a6c8430a8f78fea3c328892fb29c5350",
+      "title": "MPPSC",
+      "url": "https://allgovernmentjobs.in/mppsc-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "M.P. Road Development Corporation Ltd. (MPRDC) has issued the official notification for 2026. To fill the vacancies for .... The Madhya Pradesh Employees Selection Board (MPESB) has officially released the notification to fill the vacancies of 1 .... The Madhya Pradesh State Forest Research Institute (MPSFRI) has officially released the notification to fill the vacanci .... The Madhya Pradesh Pollution Control Board (MPPCB) has officially released the notification to fill the vacancies of 14 ...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-18T00:56:17.854397",
+      "links": []
+    },
+    {
+      "id": "54a8f681b15cd9c2746631fce43774bc",
+      "title": "GGSGH",
+      "url": "https://allgovernmentjobs.in/ggsgh-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Guru Gobind Singh Medical College and Hospital (GGSMCH) has announced the latest job notification for 2026. To fill the .... The Guru Gobind Singh Govt Hospital (GGSGH) has officially released the notification to fill the vacancies of 02 Junior .... The Guru Gobind Singh Govt Hospital (GGSGH) has officially released the notification to fill the vacancies of 08 Senior .... The Guru Gobind Singh Government Hospital (GGSGH) has officially released the notification to fill the vacancies of 04 M ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Teaching",
+      "skills": [],
+      "scraped_at": "2026-07-18T00:56:17.854482",
+      "links": []
+    },
+    {
+      "id": "fb9f1d796e91366f4fb21016a3ff430b",
+      "title": "JIPMER",
+      "url": "https://allgovernmentjobs.in/jipmer-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has announced the latest job notification f .... The Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has officially released the notificatio .... The Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has officially released the notifi .... Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has announced the latest job notification f ......",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-18T00:56:17.854508",
       "links": []
     }
   ]
