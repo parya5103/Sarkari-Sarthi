@@ -1,207 +1,9 @@
 {
-  "last_updated": "2026-07-19T01:02:20.969337",
-  "total_jobs": 163,
-  "active_jobs": 163,
-  "expired_jobs": 11,
+  "last_updated": "2026-07-21T00:59:19.530323",
+  "total_jobs": 160,
+  "active_jobs": 160,
+  "expired_jobs": 16,
   "jobs": [
-    {
-      "id": "face0dc6d21a32edda5f225b46e0a869",
-      "title": "IIPS Notification 2026 - Apply for 02 Professor Posts",
-      "url": "https://allgovernmentjobs.in/iips-notification-2026-apply-for-02-professor-posts/42950",
-      "source": "allgovernmentjobs.in",
-      "description": "International Institute for Population Sciences (IIPS) has issued the official notification for 2026. To fill the vacancies for 02 Professor Jobs. Candidates who have qualified in post-graduation can grab this chance and apply for the IIPS Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply before the last date of application. If you are ...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "20-07-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-07-04T01:08:51.971146",
-      "links": []
-    },
-    {
-      "id": "b39ecdab5b3000f33e042e6250678b2f",
-      "title": "NIT Warangal Notification 2026 - Apply for Junior Research Fellow Posts",
-      "url": "https://allgovernmentjobs.in/nit-warangal-notification-2026-apply-for-junior-research-fellow-posts/42954",
-      "source": "allgovernmentjobs.in",
-      "description": "National Institute of Technology Warangal (NIT Warangal) has declared the official notification for 2026. To fill the vacancies for various Junior Research Fellow Jobs. Candidates who have completed their B.E/ B.Tech or M.E/ M.Tech in Mechanical Engineering can grab this chance and apply for the NIT Warangal Notification 2026 . Here we have included more about the age limit, selection process, salary structure, education details, applciation fee, and how to apply for these posts. Interested a...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "05-07-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-07-04T01:08:51.971081",
-      "links": []
-    },
-    {
-      "id": "6d616634914a2188684670b8c864ef78",
-      "title": "IIT Kharagpur Notification 2026 - Apply Online for Junior Research Fellow Posts",
-      "url": "https://allgovernmentjobs.in/iit-kharagpur-notification-2026-apply-online-for-junior-research-fellow-posts/42952",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Technology Kharagpur (IIT Kharagpur) has declared the latest notification for the recruitment of Junior Research Fellow Jobs. Candidates who have qualified in B.E/ B.Tech or M.E/ M.Tech in Mechanical Engineering can use this chance and apply for the IIT Kharagpur Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply onli...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "16-07-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-07-04T01:08:51.971106",
-      "links": []
-    },
-    {
-      "id": "55596048298e9601bb238201761eae97",
-      "title": "CCRH Notification 2026 - Walk - in interview for 05 Yoga Therapist Posts",
-      "url": "https://allgovernmentjobs.in/ccrh-notification-2026-walk-in-interview-for-05-yoga-therapist-posts/42946",
-      "source": "allgovernmentjobs.in",
-      "description": "The Central Council for Research in Homoeopathy (CCRH) has officially released the notification to fill the vacancies of 05 Yoga Therapist Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree and Diploma can apply for the CCRH Notification 2026 . The interested applicants can attend the walk-in interview. Here we have mentioned the education details, age limit, selection...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "29-07-2026",
-        "found_date": "25-06-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-07-04T01:08:51.971221",
-      "links": []
-    },
-    {
-      "id": "aa8842bb58e8567eb5952d1d86d4ad2a",
-      "title": "Punjab University Notification 2026 - Walk-in-Interview for Various Guest Faculty Posts",
-      "url": "https://allgovernmentjobs.in/punjab-university-notification-2026-walk-in-interview-for-various-guest-faculty-posts/42947",
-      "source": "allgovernmentjobs.in",
-      "description": "The Punjab University has announced the official notification for the recruitment of various Guest Faculty Jobs. Candidates who have qualified in Post Graduation or Ph.D can grab this chance and apply for the Punjab University Notification 2026 . For more details, such as the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts mentioned below. Interested and eligible candidates can attend the walk-in at the address mentioned in ...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "08-07-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-07-04T01:08:51.971202",
-      "links": []
-    },
-    {
-      "id": "6bb55eed4b2605753b31329a414251bc",
-      "title": "IIT Hyderabad",
-      "url": "https://allgovernmentjobs.in/iit-hyderabad-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Institute of Technology Hyderabad (IIT Hyderabad) has officially released the notification to fill the vacanc .... Indian Institute of Technology (IIT) Hyderabad has declared the official notification for 2026. To fill various vacancie .... Indian Institute of Technology (IIT) Hyderabad has declared the official notification for 2026. To fill up the various v .... Indian Institute of Technology (IIT) Hyderabad has declared the official notification for 2026. To fill the vacancies o...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2026-07-04T01:08:51.977912",
-      "links": []
-    },
-    {
-      "id": "571dbc3748462e9025508c1f68a83cb2",
-      "title": "CUSAT Notification 2026 - Apply Offline for Assistant Professor Posts",
-      "url": "https://allgovernmentjobs.in/cusat-notification-2026-apply-offline-for-assistant-professor-posts/42948",
-      "source": "allgovernmentjobs.in",
-      "description": "The Cochin University of Science and Technology (CUSAT) has officially released the notification to fill the vacancies of 01 Assistant Professor Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech in Computer Science Engineering, B.Sc., M.Sc., MCA can apply for the CUSAT Notification 2026. The interested applicants can apply in offline mode. Here we have ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "27-07-2026",
-        "found_date": "29-06-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-07-04T01:08:51.971180",
-      "links": []
-    },
-    {
-      "id": "c6023930dee96f4bc450b616c8d73e72",
-      "title": "GGSGH Notification 2026 - Walk-in-Interview for 02 Junior Resident Posts",
-      "url": "https://allgovernmentjobs.in/ggsgh-notification-2026-walk-in-interview-for-02-junior-resident-posts/42949",
-      "source": "allgovernmentjobs.in",
-      "description": "The Guru Gobind Singh Govt Hospital (GGSGH) has officially released the notification to fill the vacancies of 02 Junior Resident Positions. Candidates who have completed their MBBS can grab this chance and apply for the GGSGH Notification 2026 . Here we have provided more information about the age limit, selection process, salary structure, education details, applciation fee, and how to apply for these posts. Interested and eligible candidates can attend the walk-in at the address mentioned b...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "06-07-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-07-04T01:08:51.971163",
-      "links": []
-    },
-    {
-      "id": "7945d952b0e915d86b6fc250ff0ebef4",
-      "title": "AIIMS Raebareli",
-      "url": "https://allgovernmentjobs.in/aiims-raebareli-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The All India Institute of Medical Sciences Raebareli (AIIMS Raebareli) has officially released the vacancies of 01 Seni .... The All India Institute of Medical Sciences, Raebareli (AIIMS Raebareli) has officially released the notification to fil .... All India Institute of Medical Sciences, Raebareli (AIIMS Raebareli) has declared the latest job notification for the re .... All India Institute of Medical Sciences Raebareli (AIIMS Raebareli) has announced the official notification for the rec...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Medical",
-      "skills": [],
-      "scraped_at": "2026-07-04T01:08:51.978054",
-      "links": []
-    },
-    {
-      "id": "754099e2e3e530b794337aba3897ee57",
-      "title": "IIT Gandhinagar",
-      "url": "https://allgovernmentjobs.in/iit-gandhinagar-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Technology Gandhinagar (IIT Gandhinagar) has declared the official notification for the recruitment .... Indian Institute of Technology Gandhinagar (IIT Gandhinagar) has declared the official notification for the recruitment .... The Indian Institute of Technology Gandhinagar (IIT Gandhinagar) has officially released the notification to fill the va .... Indian Institute of Technology Gandhinagar (IIT Gandhinagar) has declared the latest job notification for the recruitmen ...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-07-04T01:08:51.978121",
-      "links": []
-    },
-    {
-      "id": "3f99175db81f2d4bf8294da0b26f46bf",
-      "title": "Ministry of AYUSH",
-      "url": "https://allgovernmentjobs.in/ministry-of-ayush-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Central Council for Research in Homoeopathy (CCRH) has officially released the notification to fill the vacancies of .... The Central Council for Research in Unani Medicine (CCRUM) has officially released the notification to fill the vacancie .... National AYUSH Mission Jharkhand (NAM Jharkhand) has declared the official notification for 2026. To fill up the vacanci .... The National Medicinal Plants Board (NMPB) has officially released the notification to fill the vacancies of 06 Dep ......",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "General",
-      "skills": [],
-      "scraped_at": "2026-07-04T01:08:51.978029",
-      "links": []
-    },
-    {
-      "id": "85db9b0483000624ba57e8d2bc717625",
-      "title": "Panjab University",
-      "url": "https://allgovernmentjobs.in/panjab-university-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Punjab University has announced the official notification for the recruitment of various Guest Faculty Jobs. Ca .... The Punjab University has officially released the notification to fill the vacancies of 01 Multi Task Worker Post. Inter .... The Punjab University has officially released the notification to fill the vacancies of 01 Project Scientist I Post. Int .... Punjab University has declared the official notification for 2026. To fill up the vacancies for Junior Research Fel .... Pan...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-07-04T01:08:51.978011",
-      "links": []
-    },
-    {
-      "id": "e59bf68ed06238db8bb3c589d41136ba",
-      "title": "AIIMS Nagpur",
-      "url": "https://allgovernmentjobs.in/aiims-nagpur-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The All India Institute of Medical Sciences, Nagpur (AIIMS Nagpur) has officially released the notification to fill the .... The All India Institute of Medical Sciences, Nagpur (AIIMS Nagpur) has officially released the notification to fill the .... The All India Institute of Medical Sciences Nagpur (AIIMS Nagpur) has officially released the notification to fill the v .... All India Institute of Medical Sciences, Nagpur (AIIMS Nagpur) has declared the official notification for the recruitmen ...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Medical",
-      "skills": [],
-      "scraped_at": "2026-07-04T01:08:51.978078",
-      "links": []
-    },
-    {
-      "id": "8f75e46f91d2aadf371fad9fe9609a48",
-      "title": "AIIMS Raipur",
-      "url": "https://allgovernmentjobs.in/aiims-raipur-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "All India Institute of Medical Sciences (AIIMS) Raipur has declared the official notification for the recruitment of&nbs .... All India Institute of Medical Sciences (AIIMS) Raipur has declared the official notification for the recruitment of 30 ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Medical",
-      "skills": [],
-      "scraped_at": "2026-07-04T01:08:51.978156",
-      "links": []
-    },
     {
       "id": "70cdfc32ffea4d3ef253c798c6b48494",
       "title": "All Government Jobs",
@@ -1336,24 +1138,6 @@
       "links": []
     },
     {
-      "id": "c984a9e2c97a60fa11ec6495931bcc4c",
-      "title": "GBPUAT Notification 2026 - Apply Offline for Junior Research Fellow Posts",
-      "url": "https://allgovernmentjobs.in/gbpuat-notification-2026-apply-offline-for-junior-research-fellow-posts/43110",
-      "source": "allgovernmentjobs.in",
-      "description": "The Gobind Ballabh Pant University of Agriculture and Technology (GBPUAT) has officially released the notification to fill the vacancies of 01 Junior Research Fellow Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech and M.Sc. can apply for the GBPUAT Notification 2026. The interested applicants can apply in offline mode. Here we have mentioned the educa...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "20-07-2026",
-        "found_date": "08-07-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Automation"
-      ],
-      "scraped_at": "2026-07-11T00:57:41.939642",
-      "links": []
-    },
-    {
       "id": "a92cfbdf4777667c8e94a5e1bf257d6e",
       "title": "RITES Notification 2026 - Apply Offline for 16 Resident Engineer, Quality Engineer Posts",
       "url": "https://allgovernmentjobs.in/rites-notification-2026-apply-offline-for-16-resident-engineer-quality-engineer-posts/43111",
@@ -1936,24 +1720,6 @@
       "links": []
     },
     {
-      "id": "86bf60a4871ed0d03737c082f484f3bc",
-      "title": "JIPMER Notification 2026 - Walk-in interview for Clinical Trial Coordinator Posts",
-      "url": "https://allgovernmentjobs.in/jipmer-notification-2026-walk-in-interview-for-clinical-trial-coordinator-posts/43219",
-      "source": "allgovernmentjobs.in",
-      "description": "The Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has officially released the notification to fill the vacancies of 01 Clinical Trial Coordinator Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their Any Degree can apply for the JIPMER Notification 2026 . The interested applicants can attend the walk-in interview. Here we have mentioned the education d...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "20-07-2026",
-        "found_date": "07-07-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-07-15T00:14:40.644179",
-      "links": []
-    },
-    {
       "id": "04c2f72befa97d2c879b0181707a72bf",
       "title": "HPCLtd",
       "url": "https://allgovernmentjobs.in/hpcltd-recruitment",
@@ -2388,6 +2154,200 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-07-19T01:02:05.395559",
+      "links": []
+    },
+    {
+      "id": "a133005eb1561c1752f8ba984cb06902",
+      "title": "MVH Notification 2026 - Walk-in interview for 05 Junior Resident Posts",
+      "url": "https://allgovernmentjobs.in/mvh-notification-2026-walk-in-interview-for-05-junior-resident-posts/43302",
+      "source": "allgovernmentjobs.in",
+      "description": "The Maharishi Valmiki Hospital (MVH) has officially released the notification to fill the vacancies for 05 Junior Resident Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS can apply for the MVH Notification 2026 . The interested applicants can attend the walk-in interview. Here we have mentioned the education details, age limit, selection process, application fee, salary, ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "28-07-2026",
+        "found_date": "17-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-21T00:58:56.122998",
+      "links": []
+    },
+    {
+      "id": "97645316f182ab1948a2a9818d6ae171",
+      "title": "IAF Notification 2026 - Apply Online for Various Agniveervayu Posts",
+      "url": "https://allgovernmentjobs.in/iaf-notification-2026-apply-online-for-various-agniveervayu-posts/43298",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Air Force (IAF) has issued the official notification for the recruitment of various Agniveervayu (Musician) Jobs. Candidates who have completed their 10th Pass can grab this chance and apply for the IAF Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply online before the last date of application. If you are looking for more, here ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "02-08-2026",
+        "found_date": "20-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-21T00:58:56.123068",
+      "links": []
+    },
+    {
+      "id": "513d593282f6efda26e96da8e9e5a032",
+      "title": "AIIMS Delhi Notification 2026 - Apply Offline for Various Office Helper Posts",
+      "url": "https://allgovernmentjobs.in/aiims-delhi-notification-2026-apply-offline-for-various-office-helper-posts/43300",
+      "source": "allgovernmentjobs.in",
+      "description": "The All India Institute of Medical Sciences, Delhi (AIIMS Delhi) has declared the official notification for the recruitment of various Office Helper Jobs. Candidates with a 10th Pass and 12th pass can grab this chance and apply for the AIIMS Delhi Notification 2026 . Here we provide more details about the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply offline before the last dat...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "04-08-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-21T00:58:56.123049",
+      "links": []
+    },
+    {
+      "id": "cf582eef9484128cb0d3be91d1cdbf6f",
+      "title": "AIIMS Guwahati Notification 2026 - Apply Online for Research Assistant Posts",
+      "url": "https://allgovernmentjobs.in/aiims-guwahati-notification-2026-apply-online-for-research-assistant-posts/43301",
+      "source": "allgovernmentjobs.in",
+      "description": "All India Institute of Medical Sciences Guwahati (AIIMS Guwahati) has declared the latest job notification for 2026. To fill the vacancies for various Research Assistant Jobs. Candidates who have qualified in M.Sc, Pharm D, D.Pharm can grab this chance and apply for the AIIMS Guwahati Notification 2026 . Here we have provided more details about the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible cand...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "27-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-21T00:58:56.123023",
+      "links": []
+    },
+    {
+      "id": "e07fb1c88e3045ebfe30c1baa8f25474",
+      "title": "WCD Odisha Notification 2026 - Apply Online for 16 Anganwadi Helper Posts",
+      "url": "https://allgovernmentjobs.in/wcd-odisha-notification-2026-apply-online-for-16-anganwadi-helper-posts/43297",
+      "source": "allgovernmentjobs.in",
+      "description": "Women and Child Development Department, Odisha (WCD Odisha) Recruitment 2026. To fill up the vacancies for 16 Anganwadi Helper Jobs. Candidates who have passed the 10th can grab this chance and apply for the WCD Odisha Notification 2026 . Here we have included the age limit and selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply online before the last date of application. If you are looking for...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "29-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-21T00:58:56.123088",
+      "links": []
+    },
+    {
+      "id": "cf959e6e3139952d4c375ce4efa1d32b",
+      "title": "IIT Kharagpur Recruitment 2026 - Apply Online for Senior Research Fellow Posts",
+      "url": "https://allgovernmentjobs.in/iit-kharagpur-recruitment-2026-apply-online-for-senior-research-fellow-posts/43295",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology Kharagpur (IIT Kharagpur) has declared the official notification for the recruitment of Various Senior Research Fellow Jobs. Those candidates who have qualified in B.E/ B.Tech, M.E/ M.Tech in Civil Engineering, Electrical Engineering, Mechanical Engineering, and Mining Engineering can grab this chance and apply for the IIT Kharagpur Recruitment 2026 . Here, we have included the age limit, selection process, salary structure, education details, application fee, a...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "30-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-21T00:58:56.128848",
+      "links": []
+    },
+    {
+      "id": "6d95c5e967e78e46df699ec182f92bfd",
+      "title": "TMC Recruitment 2026 - Walk-in-Interview for Clinical Research AssociatePosts",
+      "url": "https://allgovernmentjobs.in/tmc-recruitment-2026-walk-in-interview-for-clinical-research-associateposts/43304",
+      "source": "allgovernmentjobs.in",
+      "description": "The Tata Memorial Centre (TMC) has issued the official notification for 2026. Various vacancies have been allotted for Clinical Research Associate Jobs. Candidates who have qualified in B.Sc, B.Pharm, M.Sc can grab this chance and apply for the TMC Recruitment 2026 . Here, we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can attend the walk-in at the address below. If y...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "24-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-21T00:58:56.128824",
+      "links": []
+    },
+    {
+      "id": "29375e32795f0f67276b346d5c99045b",
+      "title": "IIT BHU Notification 2026 - Apply Offline for Assistant Project Engineer Posts",
+      "url": "https://allgovernmentjobs.in/iit-bhu-notification-2026-apply-offline-for-assistant-project-engineer-posts/43296",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Institute of Technology, BHU (IIT BHU) has officially released the notification to fill the vacancies of 01 Assistant Project Engineer Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their M.E./M. Tech, B.E./B. Tech in Electronics Engineering can apply for the IIT BHU Notification 2026 . The interested applicants can apply in offline mode. Here we have mentioned the educa...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "05-08-2026",
+        "found_date": "20-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-21T00:58:56.123105",
+      "links": []
+    },
+    {
+      "id": "4dc11f0c911b332cf85394d603e8081c",
+      "title": "Indian Air Force",
+      "url": "https://allgovernmentjobs.in/indian-air-force-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Air Force (IAF) has issued the official notification for the recruitment of various Agniveervayu (Musician) .... The Indian Air Force (IAF) has officially released the notification to fill the vacancies of 06 Multi Tasking Staff ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Defence",
+      "skills": [],
+      "scraped_at": "2026-07-21T00:58:56.128960",
+      "links": []
+    },
+    {
+      "id": "ea6c3e62931d3d5b20697fddeab94337",
+      "title": "PGIMER",
+      "url": "https://allgovernmentjobs.in/pgimer-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Postgraduate Institute of Medical Education and Research (PGIMER) has released an official notification for 2026. To fil .... Postgraduate Institute of Medical Education and Research (PGIMER) has issued an official notification for the recruitmen .... Postgraduate Institute of Medical Education and Research (PGIMER) has issued an official notification for the recruitmen .... Postgraduate Institute of Medical Education and Research (PGIMER) has issued an official notification for the recruitme...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-21T00:58:56.129002",
+      "links": []
+    },
+    {
+      "id": "461983809455c6ef97056b7b3b17fb3b",
+      "title": "GIPMER",
+      "url": "https://allgovernmentjobs.in/gipmer-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Govind Ballabh Pant Institute of Postgraduate Medical Education and Research (GIPMER) has declared the official notifica .... The Govind Ballabhi Pant Institute of Postgraduate Medical Education & Research  (GIPMER) has officially releas .... Govind Ballabh Pant Institute of Postgraduate Medical Education and Research (GIPMER) has declared the official notifica .... The Govind Ballabh Pant Institute of Postgraduate Medical Education and Research (GIPMER) has officially released the no ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-21T00:58:56.129043",
+      "links": []
+    },
+    {
+      "id": "0a5e76d9c05f35789ae82d3287e391c9",
+      "title": "AIIMS Nagpur Jobs 2026 - Apply Online for Bio Medical Engineer Posts",
+      "url": "https://allgovernmentjobs.in/aiims-nagpur-jobs-2026-apply-online-for-bio-medical-engineer-posts/43303",
+      "source": "allgovernmentjobs.in",
+      "description": "The All India Institute of Medical Sciences, Nagpur (AIIMS Nagpur) has officially released the notification to fill the vacancies of 01 Bio Medical Engineer Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech can apply for the AIIMS Nagpur Jobs 2026 . The interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "03-08-2026",
+        "found_date": "20-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-21T00:58:56.134675",
+      "links": []
+    },
+    {
+      "id": "fd502a8b90b5c26cc7d097cf6b805705",
+      "title": "IIT Tirupati Jobs 2026 - Apply Online for Junior Research Fellow Posts",
+      "url": "https://allgovernmentjobs.in/iit-tirupati-jobs-2026-apply-online-for-junior-research-fellow-posts/43299",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Institute of Technology Tirupati (IIT Tirupati) has officially released the notification to fill the vacancies of 01 Junior Research Fellow Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.Sc., M.Sc., B.E./B.Tech, M.E./M. Tech in Electronics Engineering can apply for the IIT Tirupati Jobs 2026. The interested applicants can apply in online mode. Here we have mentio...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "31-07-2026",
+        "found_date": "20-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-21T00:58:56.134712",
       "links": []
     }
   ]
