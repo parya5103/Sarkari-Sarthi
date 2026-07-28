@@ -145,20 +145,22 @@ def extract_trending_skills(text):
 def process_job_content(job):
     job_content_text = ""
     try:
-        if job['url'].lower().endswith('.pdf') or '.pdf' in job['url'].lower():
-            pdf_filename = os.path.join(JOB_DIR, f"temp_{job['id']}.pdf")
-            if download_pdf(job['url'], pdf_filename):
+        job_url = job.get('url', '')
+        if job_url.lower().endswith('.pdf') or '.pdf' in job_url.lower():
+            safe_id = os.path.basename(str(job.get('id', 'unknown')))
+            pdf_filename = os.path.join(JOB_DIR, f"temp_{safe_id}.pdf")
+            if download_pdf(job_url, pdf_filename):
                 job_content_text = extract_text_from_pdf(pdf_filename)
-                job['pdf_link'] = job['url']
+                job['pdf_link'] = job_url
             else:
-                job_content_text = job['title']
+                job_content_text = job.get('title', 'Unknown Title')
             if os.path.exists(pdf_filename):
                 try:
                     os.remove(pdf_filename)
                 except OSError:
                     pass
         else:
-            job_page_content = fetch_page_content(job['url'], timeout=15)
+            job_page_content = fetch_page_content(job_url, timeout=15)
             if job_page_content:
                 soup = BeautifulSoup(job_page_content, 'lxml')
                 main_content_elements = soup.find_all(['article', 'main', 'div', 'section'],
@@ -176,9 +178,9 @@ def process_job_content(job):
                 if len(job_content_text) > 10000:
                     job_content_text = job_content_text[:10000] + "..."
             else:
-                job_content_text = job['title']
+                job_content_text = job.get('title', 'Unknown Title')
     except Exception as e:
-        job_content_text = job['title']
+        job_content_text = job.get('title', 'Unknown Title')
 
     if job_content_text:
         job['description'] = summarize_job_description(job_content_text)
