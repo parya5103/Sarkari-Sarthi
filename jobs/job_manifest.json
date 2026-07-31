@@ -1,35 +1,9 @@
 {
-  "last_updated": "2026-07-30T00:55:39.221506",
-  "total_jobs": 154,
-  "active_jobs": 154,
-  "expired_jobs": 12,
+  "last_updated": "2026-07-31T01:06:26.088132",
+  "total_jobs": 168,
+  "active_jobs": 168,
+  "expired_jobs": 5,
   "jobs": [
-    {
-      "id": "fd5e9cc8e7ccf293b09431dd364f9fd8",
-      "title": "Kalakshetra Foundation",
-      "url": "https://allgovernmentjobs.in/kalakshetra-foundation-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Kalakshetra Foundation has officially released the notification to fill the vacancies of 01 Theatre Assistant Posts. ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-07-15T00:14:40.650193",
-      "links": []
-    },
-    {
-      "id": "04c2f72befa97d2c879b0181707a72bf",
-      "title": "HPCLtd",
-      "url": "https://allgovernmentjobs.in/hpcltd-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Hindustan Petroleum Corporation Limited (HPCL) has officially released the notification to fill the vacancies of 358 .... The Hindustan Petroleum Corporation Limited (HPCL) has officially released the notification to fill the vacancies o ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-07-15T00:14:40.650378",
-      "links": []
-    },
     {
       "id": "1f46125916017fd0afec2b5b16bcd4f2",
       "title": "ACTREC Notification 2026 - Walk-in-Interview for 02 Tutor and Clerk Posts",
@@ -675,22 +649,6 @@
       "links": []
     },
     {
-      "id": "6bceac15ae8f1b51a3cd1ebeb05deffc",
-      "title": "CNCI Notification 2026 - Apply Offline for Project Assistant Posts",
-      "url": "https://allgovernmentjobs.in/cnci-notification-2026-apply-offline-for-project-assistant-posts/43317",
-      "source": "allgovernmentjobs.in",
-      "description": "The Chittaranjan National Cancer Institute (CNCI) has officially released the notification to fill the vacancy for 01 Project Assistant. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed any degree or post-graduation can apply for the CNCI Notification 2026 . Interested applicants can apply in offline mode. Here we have mentioned the educational details, age limit, selection process, applica...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "30-07-2026",
-        "found_date": "20-07-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-07-22T00:56:57.098013",
-      "links": []
-    },
-    {
       "id": "e59bf68ed06238db8bb3c589d41136ba",
       "title": "AIIMS Nagpur",
       "url": "https://allgovernmentjobs.in/aiims-nagpur-recruitment",
@@ -1089,22 +1047,6 @@
       "category": "IT",
       "skills": [],
       "scraped_at": "2026-07-23T01:01:23.809059",
-      "links": []
-    },
-    {
-      "id": "12542992d17818732db96ceebf7b137f",
-      "title": "CSIR CFTRI Jobs 2026 - Apply Online for Senior Project Associate Posts",
-      "url": "https://allgovernmentjobs.in/csir-cftri-jobs-2026-apply-online-for-senior-project-associate-posts/43349",
-      "source": "allgovernmentjobs.in",
-      "description": "The CSIR Central Food Technological Research Institute (CSIR CFTRI) has officially released the notification to fill the vacancy for 01 Senior Project Associate I post. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, M.E./M. Tech can apply for the CSIR CFTRI Jobs 2026 . Interested applicants can apply in online mode. Here we have mentioned the education details, age lim...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "30-07-2026",
-        "found_date": "20-07-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-07-23T01:01:23.815225",
       "links": []
     },
     {
@@ -1740,22 +1682,6 @@
       "links": []
     },
     {
-      "id": "8d61b8fc284f3e449f6a26319a369c39",
-      "title": "PMMMH Notification 2026 - Walk-in interview for 10 Senior Resident Posts",
-      "url": "https://allgovernmentjobs.in/pmmmh-notification-2026-walk-in-interview-for-10-senior-resident-posts/43480",
-      "source": "allgovernmentjobs.in",
-      "description": "The PT. Madam Mohan Malaviya Hospital (PMMMH) has officially released the notification to fill the vacancies for 10 Senior Resident Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MBBS, Post-graduation, and PGDM can apply for the PMMMH Notification 2026 . Interested applicants can attend the walk-in interview. Here we have mentioned the education details, age limit, selection ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "30-07-2026",
-        "found_date": "24-07-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-07-28T00:55:56.647089",
-      "links": []
-    },
-    {
       "id": "72713205799490b6a8053dd3049cbb53",
       "title": "WCD UP Notification 2026 - Apply Online for 678 Anganwadi Worker and Helper Posts",
       "url": "https://allgovernmentjobs.in/wcd-up-notification-2026-apply-online-for-678-anganwadi-worker-and-helper-posts/43476",
@@ -2223,6 +2149,279 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-07-30T00:55:19.603769",
+      "links": []
+    },
+    {
+      "id": "d54496f1f26b7ca3df1f41cb99e3a3b9",
+      "title": "TIFR Notification 2026 - Apply Online for 02 Project Associate, Project Assistant Posts",
+      "url": "https://allgovernmentjobs.in/tifr-notification-2026-apply-online-for-02-project-associate-project-assistant-posts/43563",
+      "source": "allgovernmentjobs.in",
+      "description": "The Tata Institute of Fundamental Research (TIFR) has officially released the notification to fill the vacancies of 02 Project Assistant and Project Associate Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.Sc., and M.Sc. can apply for the TIFR Notification 2026 . Interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selecti...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "10-08-2026",
+        "found_date": "28-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-31T01:05:52.645522",
+      "links": []
+    },
+    {
+      "id": "7bc2d2abb956e015607a0c5c046b271f",
+      "title": "ACTREC Notification 2026 - Walk-in-Interview for Various Technician Posts",
+      "url": "https://allgovernmentjobs.in/actrec-notification-2026-walk-in-interview-for-various-technician-posts/43565",
+      "source": "allgovernmentjobs.in",
+      "description": "The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has announced the official notification for the recruitment of 01 Technician Job. Candidates who have qualified in the 10th Pass or ITI can grab this opportunity and apply for the ACTREC Notification 2026 . Here, we have included the age limit, selection process, salary structure, educational details, application fee, and how to apply for these posts. Interested and eligible candidates can attend the walk-in at the a...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "13-08-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-31T01:05:52.645468",
+      "links": []
+    },
+    {
+      "id": "70f7422a0dfba7b441452043c3a2b648",
+      "title": "AMU Notification 2026 - Apply Online for 03 Assistant Professor Posts",
+      "url": "https://allgovernmentjobs.in/amu-notification-2026-apply-online-for-03-assistant-professor-posts/43561",
+      "source": "allgovernmentjobs.in",
+      "description": "The Aligarh Muslim University (AMU) has officially released the notification to fill the vacancies of 03 Assistant Professor Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their post-graduation and Ph.D. can apply for the AMU Notification 2026 . Interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection proces, application fee...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "05-08-2026",
+        "found_date": "29-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-31T01:05:52.645541",
+      "links": []
+    },
+    {
+      "id": "3ee907a611341bd6c3e627109867f4ba",
+      "title": "BJRMH Notification 2026 - Walk-in interview for 10 Senior Resident Posts",
+      "url": "https://allgovernmentjobs.in/bjrmh-notification-2026-walk-in-interview-for-10-senior-resident-posts/43559",
+      "source": "allgovernmentjobs.in",
+      "description": "The Babu Jagjivan Ram Memorial Hospital (BJRMH) has officially released the notification to fill the vacancies of 10 Senior Resident Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their MD/MS, DNB, Post-graduation, PGDM, and MBBS can apply for the BJRMH Notification 2026. Interested applicants can attend the walk-in interview. Here we have mentioned the education details, age limit...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "04-08-2026",
+        "found_date": "28-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-31T01:05:52.645582",
+      "links": []
+    },
+    {
+      "id": "bf615315db0a4ad12cd8e24e7d037ba7",
+      "title": "RailTel Notification 2026 - Apply Online for 40 Graduate Engineer, Diploma Engineer Posts",
+      "url": "https://allgovernmentjobs.in/railtel-notification-2026-apply-online-for-40-graduate-engineer-diploma-engineer-posts/43564",
+      "source": "allgovernmentjobs.in",
+      "description": "The RailTel Corporation of India (RailTel) has officially released the notification to fill the vacancy for 40 Graduate Engineer and Diploma Engineer posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech, Diploma in Electrical, Electronics Engineering can apply for the RailTel Notification 2026 . Interested applicants can apply in online mode. Here we have mentioned the...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "27-08-2026",
+        "found_date": "27-08-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-31T01:05:52.645495",
+      "links": []
+    },
+    {
+      "id": "d16f0f13d421368b380d0486e8d8a74a",
+      "title": "IIT Delhi Notification 2026 - Apply for Junior Research Fellow Posts",
+      "url": "https://allgovernmentjobs.in/iit-delhi-notification-2026-apply-for-junior-research-fellow-posts/43558",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology Delhi (IIT Delhi) has issued an official notification for the recruitment of various Junior Research Fellow Jobs. Candidates who have qualified in B.E/ B.Tech, M.E/ M.Tech can grab this chance and apply for these posts. Here we have included more about the age limit, selection process, salary structure, education details, application fee, and how to apply for the IIT Delhi Notification 2026 . Interested and eligible candidates can apply before the application en...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "11-08-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-31T01:05:52.645599",
+      "links": []
+    },
+    {
+      "id": "61f9a552d03eb62d12eec33040e6c0b5",
+      "title": "ICAR CRRI Notification 2026 - Walk-in-Interview for Various Young Professional I Posts",
+      "url": "https://allgovernmentjobs.in/icar-crri-notification-2026-walk-in-interview-for-various-young-professional-i-posts/43560",
+      "source": "allgovernmentjobs.in",
+      "description": "ICAR Central Rice Research Institute (ICAR CRRI) has announced the official notification for the recruitment of various Young Professional I Jobs. Candidates who have qualified in the B.Sc can grab this chance and apply for the ICAR CRRI Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, applciation fee, and how to apply for these posts. Interested and eligible candidates can attend the walk-in at the address below. If you are look...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "07-08-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-31T01:05:52.645561",
+      "links": []
+    },
+    {
+      "id": "96246b0096832867d2410b3c628e5ac8",
+      "title": "WCD Rajanna Sircilla Notification 2026 - Apply Online for 55 Anganwadi Teacher Posts",
+      "url": "https://allgovernmentjobs.in/wcd-rajanna-sircilla-notification-2026-apply-online-for-55-anganwadi-teacher-posts/43557",
+      "source": "allgovernmentjobs.in",
+      "description": "Women and Child Development Rajanna Sircilla (WCD Rajanna Sircilla) has released an official notification for the recruitment of 55 Anganwadi Teacher and Anganwadi Helper Positions. Candidates who have completed their 12th can use this opportunity and apply for the WCD Rajanna Sircilla Notification 2026 . For more details like age limit, selection process, salary structure, education details, application fee, and how to apply for these posts, see below. The application process has already sta...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "07-08-2026",
+        "found_date": "28-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-31T01:05:52.647360",
+      "links": []
+    },
+    {
+      "id": "c34b94ec61922efae0e5eb09531e26ed",
+      "title": "TMC Recruitment 2026 - Walk-in-Interview for 02 Assistant Research Fellow and Clinical Research Monitor Posts",
+      "url": "https://allgovernmentjobs.in/tmc-recruitment-2026-walk-in-interview-for-02-assistant-research-fellow-and-clinical-research-monitor-posts/43566",
+      "source": "allgovernmentjobs.in",
+      "description": "The Tata Memorial Centre (TMC) has announced the latest job notification for the recruitment of 02 Assistant Research Fellow and Clinical Research Monitor Jobs. Candidates who have completed their BDS, BAMS, BHMS, BUMS, MBBS, M.Pharm, Pharm D, or M.Sc can grab this chance and apply for the TMC Recruitment 2026 . Here we have provided more information about the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and e...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "03-08-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-31T01:05:52.654689",
+      "links": []
+    },
+    {
+      "id": "5d007d72289c09325a6f352bdb753e1f",
+      "title": "TIFR Mumbai",
+      "url": "https://allgovernmentjobs.in/tifr-mumbai-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Tata Institute of Fundamental Research (TIFR) has officially released the notification to fill the vacancies of 02 P .... The Tata Institute of Fundamental Research (TIFR) has officially released the notification to fill the vacancies of 03 P .... The Tata Institute of Fundamental Research, Mumbai (TIFR Mumbai) has officially released the notification to fill the va .... Tata Institute of Fundamental Research (TIFR) has declared the official notification for 2026. To fill up the vacancies...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2026-07-31T01:05:52.654784",
+      "links": []
+    },
+    {
+      "id": "f4320ca3f06879933fd5f54ffcf03b37",
+      "title": "RAILTEL",
+      "url": "https://allgovernmentjobs.in/railtel-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The RailTel Corporation of India (RailTel) has officially released the notification to fill the vacancy for 40 Graduate .... The RailTel Corporation of India (RailTel) has officially released the notification to fill the vacancy for 01 Cyber Sec .... The RailTel Corporation of India Limited (RCIL) has officially released the notification to fill the vacancies of 13 Eng .... Rail Land Development Authority (RLDA) has announced the latest job notification for the recruitment of 40 Site Eng ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-31T01:05:52.654736",
+      "links": []
+    },
+    {
+      "id": "9f9bf58aa79ac7b8139b36046762069b",
+      "title": "ACTREC",
+      "url": "https://allgovernmentjobs.in/actrec-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has announced the official notification for .... The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has issued the official notification for 20 .... The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has officially released the notification fo .... The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has announced the official notification fo...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Teaching",
+      "skills": [],
+      "scraped_at": "2026-07-31T01:05:52.654762",
+      "links": []
+    },
+    {
+      "id": "325a058cef7332f2c7249d62db8bb583",
+      "title": "BJRMH",
+      "url": "https://allgovernmentjobs.in/bjrmh-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Babu Jagjivan Ram Memorial Hospital (BJRMH) has officially released the notification to fill the vacancies of 10 Sen .... The Babu Jagjivan Ram Memorial Hospital (BJRMH) has officially released the notification to fill the vacancies of 06 Jun ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Medical",
+      "skills": [],
+      "scraped_at": "2026-07-31T01:05:52.654816",
+      "links": []
+    },
+    {
+      "id": "99c501e4184340d1c73a28502f9387b3",
+      "title": "IIT Delhi",
+      "url": "https://allgovernmentjobs.in/iit-delhi-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology Delhi (IIT Delhi) has issued an official notification for the recruitment of various Juni .... Indian Institute of Technology Delhi (IIT Delhi) has issued an official notification for the recruitment of various Seni .... The Indian Institute of Technology, Delhi (IIT Delhi) has officially released the notification to fill the vacancies of .... Indian Institute of Technology Delhi (IIT Delhi) has issued an official notification for the recruitment of various Juni...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Engineering",
+      "skills": [],
+      "scraped_at": "2026-07-31T01:05:52.654857",
+      "links": []
+    },
+    {
+      "id": "77fe83e1bf1739aca68e950a667fbae0",
+      "title": "TSLPRB",
+      "url": "https://allgovernmentjobs.in/tslprb-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Telangana State Level Police Recruitment Board (TSLPRB) has released the official notification for 2026. Allotted 325 va .... Telangana State Level Police Recruitment Board (TSLPRB) has released the official notification for 2026. Allotted 7112 v ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-31T01:05:52.654882",
+      "links": []
+    },
+    {
+      "id": "d09ff0699fab45e292bce6a1905744f3",
+      "title": "National Chemical Laboratory",
+      "url": "https://allgovernmentjobs.in/national-chemicallaboratory-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "CSIR National Chemical Laboratory (CSIR NCL) has published the official notification for the recruitment 2026. To fill t .... CSIR National Chemical Laboratory (CSIR NCL) has issued the official notification for 2026. To fill the vacancies for Va .... CSIR National Chemical Laboratory (CSIR NCL) has issued the official notification for the recruitment 2026. To fill the .... CSIR National Chemical Laboratory (CSIR NCL) has issued the official notification for the recruitment 2026. To fill the ...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Engineering",
+      "skills": [],
+      "scraped_at": "2026-07-31T01:05:52.654906",
+      "links": []
+    },
+    {
+      "id": "4b945b6f947e7f28cea28f7188b8ab3d",
+      "title": "CAU Imphal",
+      "url": "https://allgovernmentjobs.in/cau-imphal-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Central Agricultural University (CAU) has declared the latest job notification for 2026. To fill the vacancies for vario .... The Central Agricultural University, Imphal (CAU Imphal) has officially released the notification to fill the vacancies .... Central Agricultural University (CAU) has declared the official notification for 2026. Allotted 03 vacancies for As .... Central Agricultural University (CAU) has declared the official notification for 2026. To fill up the vacancies for 02&n .......",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "SSC",
+      "skills": [],
+      "scraped_at": "2026-07-31T01:05:52.654987",
+      "links": []
+    },
+    {
+      "id": "a875e1d99faab55e4364ae27119cec4d",
+      "title": "Anna University",
+      "url": "https://allgovernmentjobs.in/anna-university-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Anna University has officially released the notification to fill the vacancy for 01 Project Assistant post. Interested a .... Anna University has released the official notification for the recruitment of various Project Assistant Jobs. Those cand .... Anna University has officially released the notification to fill the vacancies of 03 Project Associate II Posts. Interes .... Anna University has issued the official notification for 2026. To fill the vacancies for various Project Assistant Jobs...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-31T01:05:52.655025",
+      "links": []
+    },
+    {
+      "id": "a0267f8f361bd21866d5be5f332a7dbd",
+      "title": "WCD Hyderabad Jobs 2026 - Apply Online for 181 Anganwadi Teacher Posts",
+      "url": "https://allgovernmentjobs.in/wcd-hyderabad-jobs-2026-apply-online-for-181-anganwadi-teacher-posts/43562",
+      "source": "allgovernmentjobs.in",
+      "description": "The Women and Child Development Hyderabad (WCD Hyderabad) has officially released the notification to fill the vacancies of 181 Anganwadi Teacher Posts. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their 12th can apply for the WCD Hyderabad Jobs 2026 . Interested applicants can apply in online mode. Here we have mentioned the education details, age limit, selection process, application ...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "22-08-2026",
+        "found_date": "29-07-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-07-31T01:05:52.661679",
       "links": []
     }
   ]
