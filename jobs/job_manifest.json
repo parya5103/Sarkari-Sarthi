@@ -1,64 +1,9 @@
 {
-  "last_updated": "2026-08-14T23:49:18.698001",
-  "total_jobs": 204,
-  "active_jobs": 204,
-  "expired_jobs": 15,
+  "last_updated": "2026-08-15T23:46:17.111952",
+  "total_jobs": 200,
+  "active_jobs": 200,
+  "expired_jobs": 5,
   "jobs": [
-    {
-      "id": "43006eabc4c6e5b1ee7b258c97d92644",
-      "title": "IIT Guwahati",
-      "url": "https://allgovernmentjobs.in/iit-guwahati-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Institute of Technology Guwahati (IIT Guwahati) has officially released the notification to fill the vacancy .... The Indian Institute of Technology Guwahati (IIT Guwahati) has officially released the notification to fill the vacancie .... The Indian Institute of Technology Guwahati (IIT Guwahati) has officially released the notification to fill the vacancie .... The Indian Institute of Technology Guwahati (IIT Guwahati) has officially released the notification to fill the vacancy ...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2026-07-30T00:55:19.597747",
-      "links": []
-    },
-    {
-      "id": "19ee665f73932a6bf148082929366e50",
-      "title": "MOIL Notification 2026 - Apply Offline for Senior Consultant Posts",
-      "url": "https://allgovernmentjobs.in/moil-notification-2026-apply-offline-for-senior-consultant-posts/43530",
-      "source": "allgovernmentjobs.in",
-      "description": "Manganese Ore India Limited (MOIL) has officially released the notification to fill the vacancy for 01 Senior Consultant Post. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their B.E./B. Tech can apply for the MOIL Notification 2026. Interested applicants can apply in offline mode. Here we have mentioned the education details, age limit, selection process, application fee, salary, and ho...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "19-08-2026",
-        "found_date": "29-07-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-07-30T00:55:19.591756",
-      "links": []
-    },
-    {
-      "id": "9fbfde9859a8aec650f9d4a357c724f7",
-      "title": "Department of Science & Technology",
-      "url": "https://allgovernmentjobs.in/department-of-science-technology-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Indian Institute of Engineering Science & Technology (IIEST Shibpur) has officially released the notification to .... The Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR) has officially released the notification to fill t .... Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR) has announced the official notification for the recrui .... The Indian Institute of Engineering Science & Technology (IIEST Shibpur) has officially released the notification to .... J...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Engineering",
-      "skills": [],
-      "scraped_at": "2026-07-30T00:55:19.597801",
-      "links": []
-    },
-    {
-      "id": "7457078158a3f3a3699e6efd4937018b",
-      "title": "AIIMS Gorakhpur",
-      "url": "https://allgovernmentjobs.in/aiims-gorakhpur-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The All India Institute of Medical Sciences Gorakhpur (AIIMS Gorakhpur) has officially released the notification to fill .... The All India Institute of Medical Sciences Gorakhpur (AIIMS Gorakhpur) has officially released the notification to fill .... The All India Institute of Medical Sciences, Gorakhpur (AIIMS Gorakhpur) has officially released the notification to fil .... All India Institute of Medical Sciences, Gorakhpur (AIIMS Gorakhpur) has recently published the official notification f...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-07-30T00:55:19.597856",
-      "links": []
-    },
     {
       "id": "7bc2d2abb956e015607a0c5c046b271f",
       "title": "ACTREC Notification 2026 - Walk-in-Interview for Various Technician Posts",
@@ -485,22 +430,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-08-02T01:07:38.066338",
-      "links": []
-    },
-    {
-      "id": "36dda4139c98bb514dee12bc86cddef5",
-      "title": "AIIMS Nagpur Recruitment 2026 - Apply Online for Clinical Embryologist Posts",
-      "url": "https://allgovernmentjobs.in/aiims-nagpur-recruitment-2026-apply-online-for-clinical-embryologist-posts/43617",
-      "source": "allgovernmentjobs.in",
-      "description": "The All India Institute of Medical Sciences, Nagpur (AIIMS Nagpur) has officially released the notification to fill the vacancies for Clinical Embryologist Jobs. Candidates who have completed their Post Graduation, Ph.D, MBBS, or B.V.Sc can grab this chance and apply for the AIIMS Nagpur Recruitment 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply ...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "14-08-2026",
-        "found_date": "14-08-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-08-02T01:07:38.073021",
       "links": []
     },
     {
@@ -2960,6 +2889,19 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-08-14T23:48:48.255783",
+      "links": []
+    },
+    {
+      "id": "caa9a545913bb60244bceae5c58a8ab3",
+      "title": "NIT Raipur",
+      "url": "https://allgovernmentjobs.in/nit-raipur-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Institute of Technology Raipur (NIT Raipur) has announced the official notification for 2026. To fill vacan .... The National Institute of Technology Raipur (NIT Raipur) has announced the official notification for 2026. To fill the v .... The National Institute of Technology Raipur (NIT Raipur) has announced the official notification for 2026. To fill the v .... The National Institute of Technology Raipur (NIT Raipur) has officially released the notification to fill the vacancy f...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Engineering",
+      "skills": [],
+      "scraped_at": "2026-08-15T23:46:00.056355",
       "links": []
     }
   ]
