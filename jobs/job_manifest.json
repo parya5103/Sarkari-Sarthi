@@ -1,209 +1,9 @@
 {
-  "last_updated": "2026-08-17T23:48:36.696331",
+  "last_updated": "2026-08-18T23:48:27.600049",
   "total_jobs": 188,
   "active_jobs": 188,
-  "expired_jobs": 10,
+  "expired_jobs": 14,
   "jobs": [
-    {
-      "id": "e055ccb24427977bd69f1cd1231b591f",
-      "title": "RCFL Notification 2026 - Apply Online for 94 Management Trainee Posts",
-      "url": "https://allgovernmentjobs.in/rcfl-notification-2026-apply-online-for-94-management-trainee-posts/43625",
-      "source": "allgovernmentjobs.in",
-      "description": "Rashtriya Chemicals and Fertilizers Limited (RCFL) has officially released a new notification for 2026. To Fill up 94 Management Trainee Positions. Candidates who have completed their B.E/ B.Tech in Civil Engineering, Mechanical Engineering, Electrical Engineering, Chemical Engineering, Diploma can use this opportunity and apply for the RCFL Notification 2026 . Here we have mentioned more details about the age limit, selection process, salary structure, education details, application fee, and...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "08-08-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-08-02T01:07:38.066236",
-      "links": []
-    },
-    {
-      "id": "37e73e5fdb922f19ce60b6242b452e5a",
-      "title": "CSIR NCL Notification 2026 - Apply Online for Project Associate I Posts",
-      "url": "https://allgovernmentjobs.in/csir-ncl-notification-2026-apply-online-for-project-associate-i-posts/43623",
-      "source": "allgovernmentjobs.in",
-      "description": "CSIR National Chemical Laboratory (CSIR NCL) has issued the official notification for 2026. To fill the vacancies for Various Project Associate I Jobs. Candidates who have qualified in Post Graduation, M.Sc, M.Pharm, M.V.Sc, or B.E/ B.Tech can use this chance and apply for the CSIR NCL Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply o...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "07-08-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-08-02T01:07:38.066285",
-      "links": []
-    },
-    {
-      "id": "249403467bf30ed9f5eef41b68637aba",
-      "title": "ACTREC Notification 2026 - Walk-in-Interview for Various Scientific Assistant B Posts",
-      "url": "https://allgovernmentjobs.in/actrec-notification-2026-walk-in-interview-for-various-scientific-assistant-b-posts/43622",
-      "source": "allgovernmentjobs.in",
-      "description": "The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has announced the official notification for 2026. To fill the various vacancies for Scientific Assistant B Jobs, Candidates who have qualified in B.Sc can grab this chance and apply for the ACTREC Recruitment 2026 . Here, we have included the age limit, selection process, and salary structure, education details, application fee, and how to apply for these posts. If you are looking for more, here is a list of Governme...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "07-08-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-08-02T01:07:38.066303",
-      "links": []
-    },
-    {
-      "id": "f80e968e423cffc01df0631f39c3af41",
-      "title": "ARI Pune Notification 2026 - Apply Online for Project Associate I Posts",
-      "url": "https://allgovernmentjobs.in/ari-pune-notification-2026-apply-online-for-project-associate-i-posts/43624",
-      "source": "allgovernmentjobs.in",
-      "description": "Agharkar Research Institute (ARI) has announced the latest notification for the recruitment of various Project Associate I Jobs. Candidates who have qualified in M.E/ M.Tech or M.Sc can use this opportunity and apply for the ARI Pune Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply online by the last date of application. If you are loo...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "11-08-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-08-02T01:07:38.066264",
-      "links": []
-    },
-    {
-      "id": "83a88a66144cc7962bcadf534b897f50",
-      "title": "IIT Bhubaneswar Notification 2026 - Apply for Assistant Executive Engineer Posts",
-      "url": "https://allgovernmentjobs.in/iit-bhubaneswar-notification-2026-apply-for-assistant-executive-engineer-posts/43621",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Technology Bhubaneswar (IIT Bhubaneswar) has announced the official notification for the recruitment of Assistant Executive Engineer Jobs. Candidates who have qualified in B.E/ B.Tech in Mechanical Engineering can use this chance and apply for the IIT Bhubaneswar Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply befo...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "17-08-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-08-02T01:07:38.066321",
-      "links": []
-    },
-    {
-      "id": "3902271cf186a3943db6fa75fb0d348a",
-      "title": "IIT Bhubaneswar",
-      "url": "https://allgovernmentjobs.in/iit-bhubaneswar-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Technology Bhubaneswar (IIT Bhubaneswar) has announced the official notification for the recruitment ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2026-08-02T01:07:38.073094",
-      "links": []
-    },
-    {
-      "id": "faa5d37938b4122de865dfca0e0fad13",
-      "title": "AIIMS Delhi Notification 2026 - Apply for Project Nurse II Posts",
-      "url": "https://allgovernmentjobs.in/aiims-delhi-notification-2026-apply-for-project-nurse-ii-posts/43619",
-      "source": "allgovernmentjobs.in",
-      "description": "The All India Institute of Medical Sciences, Delhi (AIIMS Delhi) has declared the official notification for 2026. To fill the vacancies for various Project Nurse II Jobs. Candidates who have qualified in the GNM can grab this chance and apply for the AIIMS Delhi Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply by the last date for appl...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "08-08-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-08-02T01:07:38.066338",
-      "links": []
-    },
-    {
-      "id": "f0f6b8be73b8dd1d0bf9467e88676bbf",
-      "title": "IIT Roorkee Recruitment 2026 - Apply Online for Project Associate Posts",
-      "url": "https://allgovernmentjobs.in/iit-roorkee-recruitment-2026-apply-online-for-project-associate-posts/43618",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Technology Roorkee (IIT Roorkee) has declared the official notification for 2026. To fill the vacancies for Project Associate Jobs. Those candidates who have qualified in B.E/ B.Tech in Civil Engineering or Mechanical Engineering can grab this chance and apply for the IIT Roorkee Recruitment 2026 . Here, we have included the age limit, selection process, and salary structure, education details, application fee, and how to apply for these posts. Interested and eligible cand...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "06-08-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-08-02T01:07:38.072991",
-      "links": []
-    },
-    {
-      "id": "b4d3f490d3c08cb78499e6703cbeb294",
-      "title": "BITS Pilani Notification 2026 - Apply Online for Junior Research Fellow Posts",
-      "url": "https://allgovernmentjobs.in/bits-pilani-notification-2026-apply-online-for-junior-research-fellow-posts/43616",
-      "source": "allgovernmentjobs.in",
-      "description": "Birla Institute of Technology and Science, Pilani (BITS Pilani) has issued the official notification for 2026. To fill the vacancies for Junior Research Fellow Jobs. Candidates who have qualified in B.E/ B.Tech or M.E/ M.Tech can grab this chance and apply for the BITS Pilani Recruitment 202 6 . Here, we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply before the last date fo...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "07-08-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-08-02T01:07:38.066355",
-      "links": []
-    },
-    {
-      "id": "8bb5b01efd6dce033aa301dc946e868e",
-      "title": "JKSSB",
-      "url": "https://allgovernmentjobs.in/jkssb-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Jammu and Kashmir Services Selection Board (JKSSB) has released the official notification for 2026. Allotted 357 vac ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "General",
-      "skills": [],
-      "scraped_at": "2026-08-02T01:07:38.073112",
-      "links": []
-    },
-    {
-      "id": "8023cff5c460de2c703d41ca8a278b2f",
-      "title": "Tezpur University",
-      "url": "https://allgovernmentjobs.in/tezpur-university-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Tezpur University has announced an official notification for the recruitment of 01 Assistant Professor position. Those c .... Tezpur University has officially released the notification to fill the vacancies of 01 Project Assistant Post. Intereste .... Tezpur University has officially released the notification to fill the vacancy for 01 Junior Research Fellow post. Inter .... Tezpur University has officially released the notification to fill the vacancies of 05 Field Assistant and Junior R ......",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-08-02T01:07:38.073205",
-      "links": []
-    },
-    {
-      "id": "c409ba57a5c5da6ab33f2e974d5d1b1c",
-      "title": "NIMHANS",
-      "url": "https://allgovernmentjobs.in/nimhans-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute of Mental Health and Neurosciences (NIMHANS) has officially released the notification to fill the .... National Institute of Mental Health and Neuro Sciences (NIMHANS) has announced the official notification for 2026. To fi .... National Institute of Mental Health and Neuro Sciences (NIMHANS) has announced the official notification for 2026. Vario .... The NATIONAL INSTITUTE OF MENTAL HEALTH AND NEUROSCIENCES (NIMHANS) has officially released the notification to fill th...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Medical",
-      "skills": [],
-      "scraped_at": "2026-08-02T01:07:38.073261",
-      "links": []
-    },
-    {
-      "id": "b40828c27419e3f3f674df2a4d0d8945",
-      "title": "Karnataka KPSC",
-      "url": "https://allgovernmentjobs.in/karnataka-psc-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Chamarajanagar Institute of Medical Sciences (CIMS Chamarajanagar ) has declared the latest job notification for 2026. A .... The Karnataka Examinations Authority (KEA) has officially released the notification to fill the vacancies of 37 Assistan ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Medical",
-      "skills": [],
-      "scraped_at": "2026-08-02T01:07:38.073244",
-      "links": []
-    },
-    {
-      "id": "0ec9ba59b7854f391ff73e2e9758247d",
-      "title": "JKSSB Jobs 2026 - Apply Online for 357 Draftsman and Work Supervisor Posts",
-      "url": "https://allgovernmentjobs.in/jkssb-jobs-2026-apply-online-for-357-draftsman-and-work-supervisor-posts/43620",
-      "source": "allgovernmentjobs.in",
-      "description": "The Jammu and Kashmir Services Selection Board (JKSSB) has released the official notification for 2026. Allotted 357 vacancies for Draftsman and Work Supervisor Jobs. Candidates who have qualified in the Diploma in Civil Engineering, 10th Pass, or ITI can grab this chance and apply for the JKSSB Jobs 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "30-08-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-08-02T01:07:38.079623",
-      "links": []
-    },
     {
       "id": "ed63a661251bcd113174e8b37c547cb5",
       "title": "HNBGU Notification 2026 - Apply for Various Project Assistant Posts",
@@ -2753,6 +2553,210 @@
       "category": "SSC",
       "skills": [],
       "scraped_at": "2026-08-17T23:48:11.110295",
+      "links": []
+    },
+    {
+      "id": "c7b8079451c03fb43626b59d5d45cd17",
+      "title": "NHM Thiruvananthapuram Recruitment 2026 - Apply Online for 02 Public Relation Officer Posts",
+      "url": "https://allgovernmentjobs.in/nhm-thiruvananthapuram-recruitment-2026-apply-online-for-02-public-relation-officer-posts/43915",
+      "source": "allgovernmentjobs.in",
+      "description": "National Health Mission Thiruvananthapuram has released the official notification for 2026. To fill the vacancies for 02 Public Relations Officer Jobs. Candidates who have qualified in MBA, MSW, or MHA can use this chance and apply for the NHM Thiruvananthapuram Recruitment 2026 . Here we provide more information about the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply online by...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "05-09-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-08-18T23:48:02.223752",
+      "links": []
+    },
+    {
+      "id": "d7ad05b33d46ae19614513f555e44bf5",
+      "title": "IARI Notification 2026 - Walk-in-Interview for 02 Young Professional I and Semi Skilled Worker Posts",
+      "url": "https://allgovernmentjobs.in/iari-notification-2026-walk-in-interview-for-02-young-professional-i-and-semi-skilled-worker-posts/43908",
+      "source": "allgovernmentjobs.in",
+      "description": "ICAR-Indian Agricultural Research Institute (ICAR-IARI) has declared the latest job notification for the recruitment of 02 Young Professional I and Semi-Skilled Worker Jobs. Candidates with B.E/ B.Tech and 10th Pass can apply for the IARI Notification 2026 . Here, we have included the age limit, the selection process, the salary structure, the education details, the application fee, and how to apply for these posts. Interested and eligible candidates can attend the walk-in at the address belo...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "01-09-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-08-18T23:48:02.217753",
+      "links": []
+    },
+    {
+      "id": "2da9e9f5d5e632ceb301900261381ac9",
+      "title": "WCD UP Notification 2026 - Apply Online for 146 Anganwadi Worker Posts",
+      "url": "https://allgovernmentjobs.in/wcd-up-notification-2026-apply-online-for-146-anganwadi-worker-posts/43909",
+      "source": "allgovernmentjobs.in",
+      "description": "The Uttar Pradesh Women and Child Development (WCD UP) has announced the official notification for 2026. To fill the vacancies for 146 Anganwadi Worker Jobs. Candidates with 12th pass can apply for the WCD UP Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply online by the application deadline. The application process has already started...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "02-09-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-08-18T23:48:02.217734",
+      "links": []
+    },
+    {
+      "id": "3c64a01125b5c4ee747db60a3ab4d943",
+      "title": "CSIR NCL Notification 2026 - Apply Online for Project Associate I Posts",
+      "url": "https://allgovernmentjobs.in/csir-ncl-notification-2026-apply-online-for-project-associate-i-posts/43910",
+      "source": "allgovernmentjobs.in",
+      "description": "CSIR National Chemical Laboratory (CSIR NCL) has declared the official notification for 2026. To fill the vacancies for Various Project Associate I Jobs. Candidates who have qualified in M.Pharm and M.Sc can use this chance and apply for the CSIR NCL Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply online by the last date of applicatio...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "21-08-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-08-18T23:48:02.217714",
+      "links": []
+    },
+    {
+      "id": "5bf0684441b0d8c7e23cd06cd69775de",
+      "title": "DRDO Notification 2026 - Apply Offline for Various Junior Research Fellow Posts",
+      "url": "https://allgovernmentjobs.in/drdo-notification-2026-apply-offline-for-various-junior-research-fellow-posts/43917",
+      "source": "allgovernmentjobs.in",
+      "description": "Defence Research and Development Organization (DRDO) has announced the latest job notification for 01 Junior Research Fellow position. Candidates who have qualified in B.E/ B.Tech, M.E/ M.Tech in Electrical Engineering or Computer Science Engineering can use this chance and apply for the DRDO Notification 2026 . Here we mention more about the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "04-09-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-08-18T23:48:02.217688",
+      "links": []
+    },
+    {
+      "id": "bff41fd0aba9e15e775d6f76b7de841d",
+      "title": "ACTREC Recruitment 2026 - Walk-in-Interview for Various Scientific Assistant Posts",
+      "url": "https://allgovernmentjobs.in/actrec-recruitment-2026-walk-in-interview-for-various-scientific-assistant-posts/43914",
+      "source": "allgovernmentjobs.in",
+      "description": "The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has officially announced a Walk-in Interview for the recruitment of 01 Scientific Assistant position. Those candidates who have qualified in B.E/ B.Tech, M.E/ M.Tech, or M.Sc can grab this chance and apply for the ACTREC Recruitment 2026 . Here, we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. If you are looking for more, here i...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "24-08-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-08-18T23:48:02.223777",
+      "links": []
+    },
+    {
+      "id": "8daacb33cbdd1a088c9169fd9eef08b5",
+      "title": "IIT Roorkee Recruitment 2026 - Apply for Post Doctoral Fellow Posts",
+      "url": "https://allgovernmentjobs.in/iit-roorkee-recruitment-2026-apply-for-post-doctoral-fellow-posts/43913",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology Roorkee (IIT Roorkee) has declared the official notification for 2026. To fill the vacancies for various Post-Doctoral Fellow Jobs. Those candidates who have qualified in B.E/ B.Tech, M.E/ M.Tech in Mechanical Engineering, or Ph.D can apply for the IIT Roorkee Recruitment 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. If you are looking for more, here is a lis...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "24-08-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-08-18T23:48:02.223796",
+      "links": []
+    },
+    {
+      "id": "b888c2df0d98dd8a08ea110957809ad9",
+      "title": "IIT Kharagpur",
+      "url": "https://allgovernmentjobs.in/iit-kharagpur-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology Kharagpur (IIT Kharagpur) has declared the latest job notification for 2026. To fill vari .... Indian Institute of Technology Kharagpur (IIT Kharagpur) has declared the latest job notification for 2026. To fill the .... Indian Institute of Technology Kharagpur (IIT Kharagpur) has published the latest job notification for 2026. To fill the .... Indian Institute of Technology Kharagpur (IIT Kharagpur) has declared the latest job notification for 2026. To fill vari...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2026-08-18T23:48:02.223877",
+      "links": []
+    },
+    {
+      "id": "27c8563f3a41cb10e8d5057c4157dcbd",
+      "title": "DRDO RCI Recruitment 2026 - Apply Offline for 21 Junior Research Fellow and Research Associate Posts",
+      "url": "https://allgovernmentjobs.in/drdo-rci-recruitment-2026-apply-offline-for-21-junior-research-fellow-and-research-associate-posts/43911",
+      "source": "allgovernmentjobs.in",
+      "description": "Research Centre Imarat (DRDO RCI) has announced the official notification for 2026. Allotted vacancies for 21 Junior Research Fellow and Research Associate Jobs. Candidates who have qualified in B.E/ B.Tech, M.E/ M.Tech in Mechanical Engineering, Chemical Engineering, Electrical Engineering, and Computer Science Engineering can use this chance and apply for the DRDO RCI Recruitment 2026 . For more details, such as the age limit, selection process, salary structure, education details, applicat...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "13-09-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-08-18T23:48:02.223833",
+      "links": []
+    },
+    {
+      "id": "72f74e6c5f077a3004f21528358f4bac",
+      "title": "ECHS Recruitment 2026 - Apply Offline for 03 Dental Hygienist, Safaiwala and Driver Posts",
+      "url": "https://allgovernmentjobs.in/echs-recruitment-2026-apply-offline-for-03-dental-hygienist-safaiwala-and-driver-posts/43912",
+      "source": "allgovernmentjobs.in",
+      "description": "Ex-Servicemen Contributory Health Scheme (ECHS Panaji) has declared the official notification for 2026. To fill the vacancies for 03 Dental Hygienist/ Assistant or Technician, Safaiwala, and Driver Jobs. Those candidates who have qualified in BDS, 10th Pass, 08th can grab this chance and apply for the ECHS Recruitment 2026 . Here, we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible c...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "02-09-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-08-18T23:48:02.223814",
+      "links": []
+    },
+    {
+      "id": "9b118b272d2177073b8911a3bd9da6cb",
+      "title": "IIT Roorkee",
+      "url": "https://allgovernmentjobs.in/iit-roorkee-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology Roorkee (IIT Roorkee) has declared the official notification for 2026. To fill the vacanc .... Indian Institute of Technology Roorkee (IIT Roorkee) has declared the official notification for 2026. To fill the vacanc .... National Institute of Technology Rourkela (NIT Rourkela) has released a notification for the recruitment of various Proj .... Indian Institute of Technology Roorkee (IIT Roorkee) has declared the official notification for 2026. To fill the vacan...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2026-08-18T23:48:02.223924",
+      "links": []
+    },
+    {
+      "id": "169d5b434aa76b09e9409f8be8600f52",
+      "title": "AIIMS",
+      "url": "https://allgovernmentjobs.in/aiims-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has issued the official notification for 2026. To fill vacan .... All India Institute of Medical Sciences(AIIMS) Jammu has released the Recruitment 2026 notification for 40 Senior Reside .... All India Institute of Medical Sciences, Jodhpur (AIIMS Jodhpur) has declared the official notification for the recruitm .... The All India Institute of Medical Sciences, Delhi (AIIMS Delhi) has declared the official notification for 2026. To fi...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Medical",
+      "skills": [],
+      "scraped_at": "2026-08-18T23:48:02.224010",
+      "links": []
+    },
+    {
+      "id": "d09ff0699fab45e292bce6a1905744f3",
+      "title": "National Chemical Laboratory",
+      "url": "https://allgovernmentjobs.in/national-chemicallaboratory-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "CSIR National Chemical Laboratory (CSIR NCL) has declared the official notification for 2026. To fill the vacancies for .... CSIR National Chemical Laboratory (CSIR NCL) has issued the official notification for 2026. To fill the vacancies for Va .... CSIR National Chemical Laboratory (CSIR NCL) has published the official notification for the recruitment 2026. To fill t .... CSIR National Chemical Laboratory (CSIR NCL) has issued the official notification for 2026. To fill the vacancies for Va...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Engineering",
+      "skills": [],
+      "scraped_at": "2026-08-18T23:48:02.223949",
+      "links": []
+    },
+    {
+      "id": "ef05c60efc665fc749288c4982e207a4",
+      "title": "IIT Kharagpur Jobs 2026 - Apply Online for Research Associate Posts",
+      "url": "https://allgovernmentjobs.in/iit-kharagpur-jobs-2026-apply-online-for-research-associate-posts/43916",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology Kharagpur (IIT Kharagpur) has declared the latest job notification for 2026. To fill various vacancies for Research Associate Jobs. Those candidates who have qualified in the MD/ MD, MDS, Ph.D, M.V.Sc, M.Pharm, M.E/ M.Tech can grab this chance and apply for the IIT Kharagpur Jobs 2026 . Here, we provide more details about the age limit, selection process, salary structure, educational details, application fee, and how to apply for these posts. Interested and eli...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "25-08-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-08-18T23:48:02.230000",
       "links": []
     }
   ]
