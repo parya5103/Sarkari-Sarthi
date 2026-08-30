@@ -67,11 +67,12 @@ def save_jobs_to_files(jobs):
     os.makedirs(JOB_DIR, exist_ok=True)
 
     for i, job in enumerate(jobs, 1):
-        job_file_path = os.path.join(JOB_DIR, f"{job['id']}.json")
+        safe_id = os.path.basename(str(job.get('id', 'unknown')))
+        job_file_path = os.path.join(JOB_DIR, f"{safe_id}.json")
         try:
             with open(job_file_path, 'w', encoding='utf-8') as f:
                 json.dump(job, f, indent=2, ensure_ascii=False)
-            logger.info(f"  [{i}/{len(jobs)}] ✅ Saved: {job['title'][:60]}... to {os.path.basename(job_file_path)}")
+            logger.info(f"  [{i}/{len(jobs)}] ✅ Saved: {job.get('title', '')[:60]}... to {os.path.basename(job_file_path)}")
             saved_count += 1
         except Exception as e:
             logger.error(f"Error saving job file for ID {job.get('id', 'unknown')} at {job_file_path}: {e}")
@@ -109,7 +110,7 @@ def delete_expired_jobs():
             if parsed_date:
                 if parsed_date.date() < current_date.date():
                     is_expired = True
-                    logger.debug(f"Job {job_entry['id']} expired by last_date: {date_str}")
+                    logger.debug(f"Job {job_entry.get('id', 'unknown')} expired by last_date: {date_str}")
             else:
                 logger.warning(f"Could not parse 'last_date' '{date_str}' for job {job_entry.get('id', 'unknown')}. Skipping date-based expiry.")
 
@@ -118,7 +119,7 @@ def delete_expired_jobs():
                 scraped_date = datetime.fromisoformat(job_entry['scraped_at'])
                 if (current_date - scraped_date).days > 15:
                     is_expired = True
-                    logger.debug(f"Job {job_entry['id']} expired by age (scraped_at): {job_entry['scraped_at']}")
+                    logger.debug(f"Job {job_entry.get('id', 'unknown')} expired by age (scraped_at): {job_entry.get('scraped_at')}")
             except ValueError:
                 logger.warning(f"Could not parse 'scraped_at' for job {job_entry.get('id', 'unknown')}. Skipping age-based expiry.")
 
@@ -126,7 +127,8 @@ def delete_expired_jobs():
             active_jobs.append(job_entry)
         else:
             expired_count += 1
-            job_file_path = os.path.join(JOB_DIR, f"{job_entry.get('id', 'unknown')}.json")
+            safe_id = os.path.basename(str(job_entry.get('id', 'unknown')))
+            job_file_path = os.path.join(JOB_DIR, f"{safe_id}.json")
             if os.path.exists(job_file_path):
                 try:
                     os.remove(job_file_path)
