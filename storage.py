@@ -67,7 +67,8 @@ def save_jobs_to_files(jobs):
     os.makedirs(JOB_DIR, exist_ok=True)
 
     for i, job in enumerate(jobs, 1):
-        job_file_path = os.path.join(JOB_DIR, f"{job['id']}.json")
+        sanitized_id = os.path.basename(str(job.get('id', 'unknown')))
+        job_file_path = os.path.join(JOB_DIR, f"{sanitized_id}.json")
         try:
             with open(job_file_path, 'w', encoding='utf-8') as f:
                 json.dump(job, f, indent=2, ensure_ascii=False)
@@ -126,7 +127,8 @@ def delete_expired_jobs():
             active_jobs.append(job_entry)
         else:
             expired_count += 1
-            job_file_path = os.path.join(JOB_DIR, f"{job_entry.get('id', 'unknown')}.json")
+            sanitized_id = os.path.basename(str(job_entry.get('id', 'unknown')))
+            job_file_path = os.path.join(JOB_DIR, f"{sanitized_id}.json")
             if os.path.exists(job_file_path):
                 try:
                     os.remove(job_file_path)
