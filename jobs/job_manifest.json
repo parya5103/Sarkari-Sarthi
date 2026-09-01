@@ -1,22 +1,9 @@
 {
-  "last_updated": "2026-08-30T01:29:13.645672",
-  "total_jobs": 158,
-  "active_jobs": 158,
-  "expired_jobs": 15,
+  "last_updated": "2026-09-01T01:59:44.113336",
+  "total_jobs": 171,
+  "active_jobs": 171,
+  "expired_jobs": 3,
   "jobs": [
-    {
-      "id": "caa9a545913bb60244bceae5c58a8ab3",
-      "title": "NIT Raipur",
-      "url": "https://allgovernmentjobs.in/nit-raipur-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute of Technology Raipur (NIT Raipur) has announced the official notification for 2026. To fill vacan .... The National Institute of Technology Raipur (NIT Raipur) has announced the official notification for 2026. To fill the v .... The National Institute of Technology Raipur (NIT Raipur) has announced the official notification for 2026. To fill the v .... The National Institute of Technology Raipur (NIT Raipur) has officially released the notification to fill the vacancy f...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Engineering",
-      "skills": [],
-      "scraped_at": "2026-08-15T23:46:00.056355",
-      "links": []
-    },
     {
       "id": "5abb438d965047b1ba50f3d9e0234f99",
       "title": "GTBH Notification 2026 - Walk-in-Interview for 17 Consultant Posts",
@@ -32,22 +19,6 @@
         "Data Entry"
       ],
       "scraped_at": "2026-08-17T23:48:11.104420",
-      "links": []
-    },
-    {
-      "id": "a07cfbf2cf08fcaf16e7992a933d4a81",
-      "title": "NIT Silchar Notification 2026 - Apply for Junior Research Fellow Posts",
-      "url": "https://allgovernmentjobs.in/nit-silchar-notification-2026-apply-for-junior-research-fellow-posts/43894",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute of Technology Silchar (NIT Silchar) has issued the official notification for the recruitment of Junior Research Fellow positions. Candidates who have qualified in M.E/ M.Tech in Mechanical Engineering can grab this chance and apply for the NIT Silchar Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply before the la...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "31-08-2026",
-        "found_date": "31-08-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-08-17T23:48:11.104379",
       "links": []
     },
     {
@@ -530,24 +501,6 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-08-19T23:47:57.352647",
-      "links": []
-    },
-    {
-      "id": "02653dbc395882b1ed701beaef1e35f0",
-      "title": "AIIMS Gorakhpur Recruitment 2026 - Apply Online for 24 Junior Resident Posts",
-      "url": "https://allgovernmentjobs.in/aiims-gorakhpur-recruitment-2026-apply-online-for-24-junior-resident-posts/43928",
-      "source": "allgovernmentjobs.in",
-      "description": "All India Institute of Medical Sciences, Gorakhpur (AIIMS Gorakhpur) has issued a new job notification for the recruitment of 24 Junior Resident Positions. Candidates who have qualified for MBBS can grab this opportunity and apply for the AIIMS Gorakhpur Recruitment 2026 . Here, we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply before the deadline. If you are l...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "31-08-2026",
-        "found_date": "31-08-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-08-19T23:47:57.359290",
       "links": []
     },
     {
@@ -2315,6 +2268,236 @@
       "category": "Banking",
       "skills": [],
       "scraped_at": "2026-08-30T01:28:42.978545",
+      "links": []
+    },
+    {
+      "id": "87e2d3cb75efa60969cb7e4da39c68bf",
+      "title": "ACTREC Notification 2026 - Walk-in-Interview for Various Foreman Electrical Posts",
+      "url": "https://allgovernmentjobs.in/actrec-notification-2026-walk-in-interview-for-various-foreman-electrical-posts/44107",
+      "source": "allgovernmentjobs.in",
+      "description": "The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has announced the official notification for the recruitment of 01 Foreman Electrical Job. Candidates who have qualified in 10th Pass or ITI can grab this opportunity and apply for the ACTREC Notification 2026 . Here, we have included the age limit, selection process, salary structure, educational details, application fee, and how to apply for these posts. Interested and eligible candidates can attend the walk-in at t...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "08-09-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-09-01T01:59:18.676020",
+      "links": []
+    },
+    {
+      "id": "8f1c43ea0394dc33e14c418c9b6501be",
+      "title": "IIT Kharagpur Notification 2026 - Apply Online for Project Associate I Posts",
+      "url": "https://allgovernmentjobs.in/iit-kharagpur-notification-2026-apply-online-for-project-associate-i-posts/44106",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology Kharagpur (IIT Kharagpur) has declared the latest job notification for 2026. To fill the various vacancies for Senior Project Associate I Jobs. Candidates who have qualified in B.Sc, B.V.Sc, B.Pharm, Any Degree, or post-graduation can grab this chance and apply for the IIT Kharagpur Notification 2026 . Here, we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. The application p...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "11-09-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-09-01T01:59:18.676031",
+      "links": []
+    },
+    {
+      "id": "ded5782e19c03ac5e543a39ccf566451",
+      "title": "Gurugram University Notification 2026 - Apply Offline for Various Research Assistant Posts",
+      "url": "https://allgovernmentjobs.in/gurugram-university-notification-2026-apply-offline-for-various-research-assistant-posts/44102",
+      "source": "allgovernmentjobs.in",
+      "description": "Gurugram University has declared the official notification for the recruitment of various Research Assistant Jobs. Candidates who have qualified in the M.Pharm can use this opportunity and apply for the Gurugram University Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply before the deadline. If you are looking for more, here is a list ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "01-09-2026"
+      },
+      "category": "Banking",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-09-01T01:59:18.676058",
+      "links": []
+    },
+    {
+      "id": "d14d8dd14ba24e1aa29dd8b4ea1d8587",
+      "title": "RGNAU Notification 2026 - Walk-in-Interview for 10 Security Guard Posts",
+      "url": "https://allgovernmentjobs.in/rgnau-notification-2026-walk-in-interview-for-10-security-guard-posts/44104",
+      "source": "allgovernmentjobs.in",
+      "description": "The Rajiv Gandhi National Aviation University (RGNAU) has officially released the notification to fill the vacancies for Security Guard Jobs. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their 10th Pass can apply for the RGNAU Notification 2026 . Interested applicants can attend the walk-in. Here we have mentioned the education details, age limit, selection process, application fee, sala...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "12-09-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-09-01T01:59:18.676049",
+      "links": []
+    },
+    {
+      "id": "cc6582a11a26fc8b41b9fb8b780ef3a9",
+      "title": "ANGRAU Notification 2026 - Walk-in-interview for Research Associate Posts",
+      "url": "https://allgovernmentjobs.in/angrau-notification-2026-walk-in-interview-for-research-associate-posts/44105",
+      "source": "allgovernmentjobs.in",
+      "description": "Acharya N.G. Ranga Agricultural University (ANGRAU) has announced the latest job notification for the recruitment of various Research Associate Jobs. Candidates who have qualified in post-graduation or Ph.D can use this chance and apply for the ANGRAU Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can attend the walk-in at the address below. I...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "08-09-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-09-01T01:59:18.676041",
+      "links": []
+    },
+    {
+      "id": "af052259481033b5be29a2349a17a095",
+      "title": "RVNL Notification 2026 - Apply Offline for Various General Manager Posts",
+      "url": "https://allgovernmentjobs.in/rvnl-notification-2026-apply-offline-for-various-general-manager-posts/44100",
+      "source": "allgovernmentjobs.in",
+      "description": "Rail Vikas Nigam Limited (RVNL) has declared the latest job notification for 2026 and allotted vacancies for 01 position, such as General Manager Jobs. Candidates who have completed their B.E/ B.Tech, M.E/ M.Tech in Civil Engineering can grab this chance and apply for the RVNL Notification 2026 . Here we mention more about the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply befor...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "26-09-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-09-01T01:59:18.676077",
+      "links": []
+    },
+    {
+      "id": "e0c4a356dcc178927b9010bb3b0c36ce",
+      "title": "IGH Dwarka Notification 2026 - Walk-in-Interview for 05 Senior Resident Posts",
+      "url": "https://allgovernmentjobs.in/igh-dwarka-notification-2026-walk-in-interview-for-05-senior-resident-posts/44101",
+      "source": "allgovernmentjobs.in",
+      "description": "Indira Gandhi Hospital Dwarka(IGH Dwarka) has issued the official notification for 2026. To fill 05 vacancies for Senior Resident Jobs. Candidates who have qualified in MBBS, MD/ MS, DNB, or Diploma can grab this chance and apply for the IGH Dwarka Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can attend the walk-in at the address below. If y...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "03-09-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-09-01T01:59:18.676068",
+      "links": []
+    },
+    {
+      "id": "eb065c240c56855d0e284886ae255e8c",
+      "title": "CSIR NCL Notification 2026 - Apply Online for Various Project Associate I Posts",
+      "url": "https://allgovernmentjobs.in/csir-ncl-notification-2026-apply-online-for-various-project-associate-i-posts/44099",
+      "source": "allgovernmentjobs.in",
+      "description": "CSIR National Chemical Laboratory (CSIR NCL) has issued the official notification for 2026. To fill the vacancies for 01 Project Associate I position. Candidates who have qualified in Post Graduation, M.Sc, M.Pharm, M.V.Sc, or B.E/ B.Tech can use this chance and apply for the CSIR NCL Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply on...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "08-09-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-09-01T01:59:18.676085",
+      "links": []
+    },
+    {
+      "id": "39b51a2363429c032074c7cd63d856aa",
+      "title": "PGIMER Notification 2026 - Apply Offline for 12 Senior Resident Posts",
+      "url": "https://allgovernmentjobs.in/pgimer-notification-2026-apply-offline-for-12-senior-resident-posts/44098",
+      "source": "allgovernmentjobs.in",
+      "description": "Postgraduate Institute of Medical Education and Research (PGIMER) has declared the official notification for 2026. To fill the vacancies for 12 Senior Resident Jobs. Candidates who have qualified in MD/ MS, DNB can grab this chance and apply for the PGIMER Notification 2026 . Here, we have included the age limit, selection process, and salary structure. Education details, the application fee, and how to apply for these Posts. Interested and eligible candidates can attend the walk-in at the ad...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "08-09-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-09-01T01:59:18.676093",
+      "links": []
+    },
+    {
+      "id": "151607cf426c8da22d392261f7c994c5",
+      "title": "CARI Recruitment 2026 - Walk-in-Interview for 02 Consultant and Junior Research Fellow Posts",
+      "url": "https://allgovernmentjobs.in/cari-recruitment-2026-walk-in-interview-for-02-consultant-and-junior-research-fellow-posts/44103",
+      "source": "allgovernmentjobs.in",
+      "description": "Central Ayurveda Research Institute (CARI) has issued the official notification for 2026. To fill the various vacancies for 02 Consultant and Junior Research Fellow Jobs. Candidates who have qualified for BAMS, BHMS, M.Pharm, M.Sc, and M.V.Sc can use this chance and apply for the CARI Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can attend t...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "08-09-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-09-01T01:59:18.678898",
+      "links": []
+    },
+    {
+      "id": "020a63a046010dd609db47bf71d839e2",
+      "title": "UPPSC",
+      "url": "https://allgovernmentjobs.in/uppsc-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Rajiv Gandhi National Aviation University (RGNAU) has officially released the notification to fill the vacancies for .... The Rajiv Gandhi National Aviation University (RGNAU) has officially released the notification to fill the vacancies of ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2026-09-01T01:59:18.678931",
+      "links": []
+    },
+    {
+      "id": "e9490cce7fbdb4e501ff290d5c37510e",
+      "title": "CCRAS",
+      "url": "https://allgovernmentjobs.in/ccras-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Central Ayurveda Research Institute (CARI) has issued the official notification for 2026. To fill the various vacancies .... Central Ayurveda Research Institute (CARI) has issued the official notification for 2026. To fill the various vacancies .... National Ayurveda Research Institute for Panchakarma (CCRAS NARIP)  has declared the official notification for .... The Central Ayurveda Research Institute (CARI) has officially released the notification to fill the vacancies of 02 Seni .... The C...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-09-01T01:59:18.678939",
+      "links": []
+    },
+    {
+      "id": "5d007d72289c09325a6f352bdb753e1f",
+      "title": "TIFR Mumbai",
+      "url": "https://allgovernmentjobs.in/tifr-mumbai-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Tata Institute of Fundamental Research (TIFR) has declared the official notification for 2026. To fill the vacancies for .... The Tata Institute of Fundamental Research (TIFR) has officially released the notification to fill the vacancies of 02 P .... The Tata Institute of Fundamental Research (TIFR) has officially released the notification to fill the vacancies of 03 P .... The Tata Institute of Fundamental Research, Mumbai (TIFR Mumbai) has officially released the notification to fill the v...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2026-09-01T01:59:18.678982",
+      "links": []
+    },
+    {
+      "id": "b383956111694535346d6abace6ee7f9",
+      "title": "AMPRI",
+      "url": "https://allgovernmentjobs.in/ampri-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Advanced Materials and Processes Research Institute (AMPRI) has officially released the notification to fill the vac .... The Advanced Materials and Processes Research Institute (AMPRI) has officially released the notification to fill the vac .... The Advanced Materials and Processes Research Institute (AMPRI) has officially released the notification to fill the vac ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2026-09-01T01:59:18.679011",
+      "links": []
+    },
+    {
+      "id": "7aefb193ed02ec4a9f22cddd36a18ce8",
+      "title": "Gurugram University",
+      "url": "https://allgovernmentjobs.in/gurugram-university-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Gurugram University has declared the official notification for the recruitment of various Research Assistant Jobs. ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2026-09-01T01:59:18.678949",
+      "links": []
+    },
+    {
+      "id": "9fbfde9859a8aec650f9d4a357c724f7",
+      "title": "Department of Science & Technology",
+      "url": "https://allgovernmentjobs.in/department-of-science-technology-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR) has announced the official notification for the re .... Indian Institute of Engineering Science & Technology Shibpur (IIEST Shibpur) has declared the official notification .... Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR) has announced the official notification for the recrui .... Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR) has announced the official notification for the recrui ......",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Engineering",
+      "skills": [],
+      "scraped_at": "2026-09-01T01:59:18.679020",
       "links": []
     }
   ]
