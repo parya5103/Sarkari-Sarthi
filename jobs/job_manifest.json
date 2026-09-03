@@ -1,199 +1,9 @@
 {
-  "last_updated": "2026-09-02T01:16:45.208804",
-  "total_jobs": 185,
-  "active_jobs": 185,
-  "expired_jobs": 0,
+  "last_updated": "2026-09-03T01:20:17.058356",
+  "total_jobs": 188,
+  "active_jobs": 188,
+  "expired_jobs": 12,
   "jobs": [
-    {
-      "id": "5abb438d965047b1ba50f3d9e0234f99",
-      "title": "GTBH Notification 2026 - Walk-in-Interview for 17 Consultant Posts",
-      "url": "https://allgovernmentjobs.in/gtbh-notification-2026-walk-in-interview-for-17-consultant-posts/43890",
-      "source": "allgovernmentjobs.in",
-      "description": "The Guru Teg Bahadur Hospital (GTBH) has officially released the notification to fill the vacancies of 17 Stenographer, Junior Assistant, and Senior Assistant Jobs. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their 12th or any degree can apply for the GTBH Notification 2026 . Interested applicants can attend the walk-in at the given venue. Here, we have mentioned the education details, ...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "24-08-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-08-17T23:48:11.104420",
-      "links": []
-    },
-    {
-      "id": "9d73d8fe280566ba780de052529208ed",
-      "title": "NIOT Notification 2026 - Apply Online for Various Technician Posts",
-      "url": "https://allgovernmentjobs.in/niot-notification-2026-apply-online-for-various-technician-posts/43888",
-      "source": "allgovernmentjobs.in",
-      "description": "The National Institute of Ocean Technology (NIOT) has declared the official notification for 2026. To fill the vacancies for Various Technician Posts. Candidates who have qualified in 10th Pass or ITI can grab this chance and apply for the NIOT Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, applciation fee, and how to apply. Interested and eligible candidates can attend the walk-in at the address below. If you are looking for m...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "14-09-2026",
-        "found_date": "17-08-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-08-17T23:48:11.104455",
-      "links": []
-    },
-    {
-      "id": "df1c44876ac7d08348cb93da4e9d04c3",
-      "title": "PGIMER Notification 2026 - Walk-in-Interview for 02 Senior Resident Posts",
-      "url": "https://allgovernmentjobs.in/pgimer-notification-2026-walk-in-interview-for-02-senior-resident-posts/43892",
-      "source": "allgovernmentjobs.in",
-      "description": "Postgraduate Institute of Medical Education and Research (PGIMER) has declared the official notification for 2026. To fill the vacancies for 02 Senior Resident Jobs. Candidates who have qualified in MD/ MS, DNB can grab this chance and apply for the PGIMER Notification 2026 . Here, we have included the age limit, selection process, and salary structure. Education details, the application fee, and how to apply for these Posts. Interested and eligible candidates can attend the walk-in at the ad...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "19-08-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-08-17T23:48:11.104402",
-      "links": []
-    },
-    {
-      "id": "02b6c4d4e37bb967231cf7e68d7de7d9",
-      "title": "WCD UP Notification 2026 - Apply Online for 307 Anganwadi Helper Posts",
-      "url": "https://allgovernmentjobs.in/wcd-up-notification-2026-apply-online-for-307-anganwadi-helper-posts/43889",
-      "source": "allgovernmentjobs.in",
-      "description": "The Uttar Pradesh Women and Child Development (WCD UP) has announced the official notification for 2026. To fill the vacancies for 307 Anganwadi Helper Jobs. Candidates with a 10th Pass and a 12th pass can apply for the WCD UP Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply online by the application deadline. If you are looking for mo...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "05-09-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-08-17T23:48:11.104440",
-      "links": []
-    },
-    {
-      "id": "061a25fdcdd7e0e30129ab295b8145de",
-      "title": "RSSB Notification 2026 - Apply Online for 874 Junior Engineer Posts",
-      "url": "https://allgovernmentjobs.in/rssb-notification-2026-apply-online-for-874-junior-engineer-posts/43887",
-      "source": "allgovernmentjobs.in",
-      "description": "The Rajasthan Staff Selection Board (RSSB) has declared the official notification for 2026. Allotted 874 vacancies for Junior Engineer Jobs. Candidates who have qualifed in B.E/ B.Tech, Diploma in Civil Engineering, Mechanical Engineering, or Electrical Engineering can use this opportunity and apply for these posts. Here, we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for the RSSB Notification 2026 . The application pr...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "14-09-2026",
-        "found_date": "16-08-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-08-17T23:48:11.104469",
-      "links": []
-    },
-    {
-      "id": "1549cf0c8622f8be03749a496d63ac14",
-      "title": "ACTREC Recruitment 2026 - Walk-in-Interview for Dental Hygienist Posts",
-      "url": "https://allgovernmentjobs.in/actrec-recruitment-2026-walk-in-interview-for-dental-hygienist-posts/43891",
-      "source": "allgovernmentjobs.in",
-      "description": "The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has declared the official notification for 2026. To fill the vacancies for Dental Hygienist Jobs. Candidates who have qualified in 10th Pass or BDS can grab this chance and apply for the ACTREC Recruitment 2026 . Here, we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Eligible and Interested candidates can attend the walk-in at t...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "24-08-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-08-17T23:48:11.110191",
-      "links": []
-    },
-    {
-      "id": "9a99581cd63b13dfe615211abc1035e2",
-      "title": "IIT Hyderabad Recruitment 2026 - Apply for Junior Research Fellow Posts",
-      "url": "https://allgovernmentjobs.in/iit-hyderabad-recruitment-2026-apply-for-junior-research-fellow-posts/43893",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Technology (IIT) Hyderabad has declared the official notification for 2026. To fill the various vacancies for Junior Research Fellow Jobs. Those candidates who have qualified for a B.E/ B.Tech or M.Sc can grab this chance and apply for the IIT Hyderabad Recruitment 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested If you are looking for more, here is a list of Go...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "25-08-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-08-17T23:48:11.110170",
-      "links": []
-    },
-    {
-      "id": "934805b1ea1ba07657e6afaeb63f7581",
-      "title": "GGSGH Recruitment 2026 - Walk-in-Interview for 04 Staff Nurse, Medical Officer and Other Posts",
-      "url": "https://allgovernmentjobs.in/ggsgh-recruitment-2026-walk-in-interview-for-04-staff-nurse-medical-officer-and-other-posts/43885",
-      "source": "allgovernmentjobs.in",
-      "description": "Guru Gobind Singh Government Hospital (GGSGH) has issued the official notification for the recruitment of 04 Medical Officer, Counsellor, Staff Nurse, and Data Manager Jobs. Those candidates who have qualified in MBBS, Any Degree, ANM, GNM, or B.Sc. Nursing can grab this chance and apply for the GGSGH Recruitment 2026 . Here, we have included the age limit, selection process, salary structure, educational details, application fee, and how to apply for these posts. Interested and eligible cand...",
-      "pdf_link": null,
-      "important_dates": {
-        "found_date": "19-08-2026"
-      },
-      "category": "Banking",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-08-17T23:48:11.110207",
-      "links": []
-    },
-    {
-      "id": "9f9bf58aa79ac7b8139b36046762069b",
-      "title": "ACTREC",
-      "url": "https://allgovernmentjobs.in/actrec-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has declared the official notification for .... The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has issued the official notification for 20 .... The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has declared the official notification for .... The Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has officially released vacancies for 03 Se ...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Teaching",
-      "skills": [],
-      "scraped_at": "2026-08-17T23:48:11.110275",
-      "links": []
-    },
-    {
-      "id": "20a20e01a9a0f0ca7399b115d4ae3c81",
-      "title": "AIIMS Delhi",
-      "url": "https://allgovernmentjobs.in/aiims-delhi-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The All India Institute of Medical Sciences, Delhi (AIIMS Delhi) has declared the official notification for 2026. To fil .... All India Institute of Medical Sciences, Delhi (AIIMS Delhi) has declared the official notification for 2026. To fill th .... All India Institute of Medical Sciences, Delhi (AIIMS Delhi) has released the latest job notification for 2026. To fill .... The All India Institute of Medical Sciences, Delhi (AIIMS Delhi) has issued an official notification for the recruitment...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Medical",
-      "skills": [],
-      "scraped_at": "2026-08-17T23:48:11.110335",
-      "links": []
-    },
-    {
-      "id": "54a8f681b15cd9c2746631fce43774bc",
-      "title": "GGSGH",
-      "url": "https://allgovernmentjobs.in/ggsgh-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Guru Gobind Singh Government Hospital (GGSGH) has issued the official notification for the recruitment of 04 Medical Off .... Guru Gobind Singh Government Hospital (GGSGH) has issued the official notification for the recruitment of 12 Junior Resi .... The Guru Gobind Singh Medical College and  Hospital (GGSMCH) has officially released the notification to fill the v .... Guru Gobind Singh Medical College and Hospital (GGSMCH) has announced the latest job notification for 2026. To fill the .......",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Teaching",
-      "skills": [],
-      "scraped_at": "2026-08-17T23:48:11.110317",
-      "links": []
-    },
-    {
-      "id": "7045aba98dfc878a4fd2c20646fe88b5",
-      "title": "Guru Teg Bahadur Hospital",
-      "url": "https://allgovernmentjobs.in/guru-teg-bahadur-hospital-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "The Guru Teg Bahadur Hospital (GTBH) has officially released the notification to fill the vacancies of 17 Stenographer, ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "SSC",
-      "skills": [],
-      "scraped_at": "2026-08-17T23:48:11.110295",
-      "links": []
-    },
     {
       "id": "c7b8079451c03fb43626b59d5d45cd17",
       "title": "NHM Thiruvananthapuram Recruitment 2026 - Apply Online for 02 Public Relation Officer Posts",
@@ -2700,6 +2510,224 @@
       "category": "IT",
       "skills": [],
       "scraped_at": "2026-09-02T01:14:55.389588",
+      "links": []
+    },
+    {
+      "id": "9f01a62614d446859a8a7cdef5c0d093",
+      "title": "BEL Notification 2026 - Apply Online for 14 Deputy Engineer Posts",
+      "url": "https://allgovernmentjobs.in/bel-notification-2026-apply-online-for-14-deputy-engineer-posts/44152",
+      "source": "allgovernmentjobs.in",
+      "description": "Bharat Electronics Limited (BEL) has declared the latest job notification for the recruitment of 14 Deputy Engineer Jobs. Candidates who have qualified in B.E/ B.Tech in Electrical Engineering, Electronics and Communication Engineering, and Mechanical Engineering can grab this chance and apply for the BEL Notification 2026 . Here, we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible c...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "23-09-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-09-03T01:19:44.208430",
+      "links": []
+    },
+    {
+      "id": "e33372cc54fde4b0a3e7ce2d3c4c0d45",
+      "title": "IIT Hyderabad Notification 2026 - Apply Online for Post Doctoral Research Fellow Posts",
+      "url": "https://allgovernmentjobs.in/iit-hyderabad-notification-2026-apply-online-for-post-doctoral-research-fellow-posts/44153",
+      "source": "allgovernmentjobs.in",
+      "description": "Indian Institute of Technology (IIT) Hyderabad has declared the official notification for 2026. To fill the vacancies for Postdoctoral Fellow Jobs. Those candidates who have qualified for a B.E/ B.Tech in Mechanical Engineering, Mining Engineering, or Chemical Engineering can use this chance and apply for the IIT Hyderabad Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. If you a...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "10-09-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-09-03T01:19:44.208408",
+      "links": []
+    },
+    {
+      "id": "433276a2eeb5145434197bac399ccb52",
+      "title": "SCTIMST Notification 2026 - Walk-in-Interview for Project Assistant Posts",
+      "url": "https://allgovernmentjobs.in/sctimst-notification-2026-walk-in-interview-for-project-assistant-posts/44150",
+      "source": "allgovernmentjobs.in",
+      "description": "The Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST) has officially released the notification to fill the vacancy for 01 Project Assistant Post. Interested and eligible candidates can use this opportunity to apply for this post before the last date of application. Candidates who have completed their Diploma in Electrical, Electronics, and Mechanical Engineering can apply for the SCTIMST Notification 2026 . Interested applicants can apply online. Here we have mention...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "11-09-2026",
+        "found_date": "01-09-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-09-03T01:19:44.208450",
+      "links": []
+    },
+    {
+      "id": "4f04b1877d7e5e3f264a244fa010abec",
+      "title": "MAHATRANSCO Notification 2026 - Apply Online for 24 Apprentice Posts",
+      "url": "https://allgovernmentjobs.in/mahatransco-notification-2026-apply-online-for-24-apprentice-posts/44155",
+      "source": "allgovernmentjobs.in",
+      "description": "Maharashtra State Electricity Transmission Company (MAHATRANSCO) has issued the official notification for 2026. To fill 24 vacancies for Apprentice Jobs. Those candidates who have qualified in 10th Pass or ITI can grab this chance and apply for the MAHATRANSCO Notification 2026. Here, we include the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested candidates can apply online before the last date of application. If...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "16-09-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-09-03T01:19:44.208376",
+      "links": []
+    },
+    {
+      "id": "341d34c4f6c46680fc6efd6b92d25326",
+      "title": "IIT BHU Notification 2026 - Apply for Junior Research Fellow Posts",
+      "url": "https://allgovernmentjobs.in/iit-bhu-notification-2026-apply-for-junior-research-fellow-posts/44149",
+      "source": "allgovernmentjobs.in",
+      "description": "The Indian Institute of Technology Banaras Hindu University (IIT BHU) has declared the latest job notification for 2026. To fill the vacancies for Junior Research Fellow Jobs. Candidates who have qualified for M.E/ M.Tech in Mechanical Engineering or Chemical Engineering can take this opportunity and apply for the IIT BHU Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Intereste...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "22-09-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-09-03T01:19:44.208468",
+      "links": []
+    },
+    {
+      "id": "77bbdeb6fd90502cd91184b6d5bd2784",
+      "title": "NIMHANS Notification 2026 - Apply for Research Associate III Posts",
+      "url": "https://allgovernmentjobs.in/nimhans-notification-2026-apply-for-research-associate-iii-posts/44146",
+      "source": "allgovernmentjobs.in",
+      "description": "The National Institute of Mental Health and Neuro Sciences, Bangalore (NIMHANS) has issued the official notification for 2026. To fill the various vacancies for Research Associate III Jobs. Candidates who have qualified in MD/ MS, DNB, MDS, Ph.D can grab this chance and apply for the NIMHANS Notification 2026 . Here we provide more information about the age limit, selection process, salary structure, education details, applciation fee, and how to apply for these posts. If you are looking for ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "12-09-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-09-03T01:19:44.208521",
+      "links": []
+    },
+    {
+      "id": "4d28eb3e3419bbd5a292ec77ac32b3f6",
+      "title": "Munger District Notification 2026 - Apply Offline for 31 Attenders Posts",
+      "url": "https://allgovernmentjobs.in/munger-district-notification-2026-apply-offline-for-31-attenders-posts/44148",
+      "source": "allgovernmentjobs.in",
+      "description": "Munger District has released the official notification for the recruitment of 31 Attender jobs. Candidates who have qualified in the 10th Pass can use this chance and apply for the Munger District Notification 2026 . Here, we have included more information about the age limit, selection process, salary structure, education details, application fee,and how to apply for these posts. Interested and eligible candidates can apply before the last date. If you are looking for more, here is a list of...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "09-09-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-09-03T01:19:44.208487",
+      "links": []
+    },
+    {
+      "id": "cc40e898e922cb659f3c7be60423c04c",
+      "title": "RBI Recruitment 2026 - Apply Offline for Various Banks Medical Consultant Posts",
+      "url": "https://allgovernmentjobs.in/rbi-recruitment-2026-apply-offline-for-various-banks-medical-consultant-posts/44154",
+      "source": "allgovernmentjobs.in",
+      "description": "The Reserve Bank of India (RBI) has declared the official notification for the recruitment of various Bank Medical Consultant Jobs. Candidates who have qualified in MBBS can grab this opportunity and apply for these posts. Interested and eligible candidates can apply for the RBI Notification 2026 . Here we have mentioned more details about the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. If you are looking for more, here...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "16-09-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-09-03T01:19:44.214840",
+      "links": []
+    },
+    {
+      "id": "77b8b624f5d88edecf23620495c1a723",
+      "title": "PGIMER Notification 2026 - Apply for Junior Research Fellow Posts",
+      "url": "https://allgovernmentjobs.in/pgimer-notification-2026-apply-for-junior-research-fellow-posts/44147",
+      "source": "allgovernmentjobs.in",
+      "description": "The Postgraduate Institute of Medical Education & Research (PGIMER) has officially released the vacancies for various Junior Research Fellow Jobs. Candidates who have completed their postgraduation can apply for the PGIMER Notification 2026 . Here we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested and eligible candidates can apply by the application deadline for applications. If you are looking ...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "05-09-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-09-03T01:19:44.208505",
+      "links": []
+    },
+    {
+      "id": "aa5ecfe49efd88e0a30fd634ecce7b7b",
+      "title": "SDAU Recruitment 2026 - Walk-in-Interview for 02 Young Professional I Posts",
+      "url": "https://allgovernmentjobs.in/sdau-recruitment-2026-walk-in-interview-for-02-young-professional-i-posts/44151",
+      "source": "allgovernmentjobs.in",
+      "description": "Sardarkrushinagar Dantiwada Agricultural University (SDAU) has declared the official notification for 2026. To fill the vacancies for 02 Young Professional I Jobs. Those candidates who have qualified in B.Sc. and M.Sc can use this chance and apply for the SDAU Recruitment 2026 . Here, we have included the age limit, selection process, salary structure, education details, application fee, and how to apply for these posts. Interested aspirants can attend the walk-in at the address below. If you...",
+      "pdf_link": null,
+      "important_dates": {
+        "found_date": "10-09-2026"
+      },
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-09-03T01:19:44.214868",
+      "links": []
+    },
+    {
+      "id": "92272f1be441dd5a7c1fb5e533be43f9",
+      "title": "MAHATRANSCO",
+      "url": "https://allgovernmentjobs.in/mahatransco-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Maharashtra State Electricity Transmission Company (MAHATRANSCO) has issued the official notification for 2026. To fill .... Maharashtra State Electricity Transmission Company (MAHATRANSCO) has issued the official notification for 2026. To fill ....",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "IT",
+      "skills": [],
+      "scraped_at": "2026-09-03T01:19:44.214893",
+      "links": []
+    },
+    {
+      "id": "c33873d4757d414320aaf43027292e8f",
+      "title": "Directorate of Education",
+      "url": "https://allgovernmentjobs.in/directorate-of-education-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Educational Consultants India Limited (Edcil) has declared the official notification for 2026. To fill vacancies for 13 .... The UT Administration of Dadra and Nagar Haveli and Daman and Diu (DNH Administration) has officially released the notif .... The Educational Consultants India Limited (EdCIL) has officially released the notification to fill the vacancies of 01 S .... The Indian Council of Social Science Research (ICSSR) has officially released the notification to fill the vacancies of ...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Teaching",
+      "skills": [
+        "Css"
+      ],
+      "scraped_at": "2026-09-03T01:19:44.215038",
+      "links": []
+    },
+    {
+      "id": "c0e52afa9a539814985b791e7c01c420",
+      "title": "SCTIMST",
+      "url": "https://allgovernmentjobs.in/sctimst-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST) has officially released the notification .... Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST) has released the latest job notification for .... Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST) has announced the official notification for .... Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST) has announced the official notification for ...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Medical",
+      "skills": [],
+      "scraped_at": "2026-09-03T01:19:44.214946",
+      "links": []
+    },
+    {
+      "id": "485f4fe8d68e0abc6622c76707406f53",
+      "title": "E-courts",
+      "url": "https://allgovernmentjobs.in/e-courts-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "Munger District has released the official notification for the recruitment of 31 Attender jobs. Candidates who have qual .... The District Legal Services Authority (DLSA Sangrur) has announced the official notification for the recruitment of 01 P .... Kanyakumari District has declared the latest job notification for the recruitment of various Staff Nurse Jobs. Cand .... District Legal Services Authority (DLSA) Sheikhpura has issued the official notification for 2026. To fill the vacancies ......",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Banking",
+      "skills": [],
+      "scraped_at": "2026-09-03T01:19:44.214968",
+      "links": []
+    },
+    {
+      "id": "ddcdde800a6906afa529b635b4a2b41e",
+      "title": "AIIMS Jodhpur",
+      "url": "https://allgovernmentjobs.in/aiims-jodhpur-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "All India Institute of Medical Sciences, Jodhpur (AIIMS Jodhpur) has declared the official notification for the recruitm .... All India Institute of Medical Sciences, Jodhpur (AIIMS Jodhpur) has declared the official notification for the recruitm .... All India Institute of Medical Sciences, Jodhpur (AIIMS Jodhpur) has issued an official notification for the recruitment .... All India Institute of Medical Sciences, Jodhpur (AIIMS Jodhpur) has declared the official notification for the recruit...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Medical",
+      "skills": [],
+      "scraped_at": "2026-09-03T01:19:44.215059",
       "links": []
     }
   ]
