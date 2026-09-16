@@ -145,11 +145,13 @@ def extract_trending_skills(text):
 def process_job_content(job):
     job_content_text = ""
     try:
-        if job['url'].lower().endswith('.pdf') or '.pdf' in job['url'].lower():
-            pdf_filename = os.path.join(JOB_DIR, f"temp_{job['id']}.pdf")
-            if download_pdf(job['url'], pdf_filename):
+        job_url = job.get('url', '')
+        if job_url.lower().endswith('.pdf') or '.pdf' in job_url.lower():
+            safe_id = os.path.basename(str(job.get('id', 'unknown')))
+            pdf_filename = os.path.join(JOB_DIR, f"temp_{safe_id}.pdf")
+            if download_pdf(job_url, pdf_filename):
                 job_content_text = extract_text_from_pdf(pdf_filename)
-                job['pdf_link'] = job['url']
+                job['pdf_link'] = job_url
             else:
                 job_content_text = job['title']
             if os.path.exists(pdf_filename):
