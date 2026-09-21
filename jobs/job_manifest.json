@@ -1,22 +1,9 @@
 {
-  "last_updated": "2026-09-20T01:25:57.832392",
+  "last_updated": "2026-09-21T01:23:37.332588",
   "total_jobs": 170,
   "active_jobs": 170,
-  "expired_jobs": 15,
+  "expired_jobs": 1,
   "jobs": [
-    {
-      "id": "d09ff0699fab45e292bce6a1905744f3",
-      "title": "National Chemical Laboratory",
-      "url": "https://allgovernmentjobs.in/national-chemicallaboratory-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "CSIR National Chemical Laboratory (CSIR NCL) has issued the official notification for 2026. To fill the vacancies for Va .... CSIR National Chemical Laboratory (CSIR NCL) has issued the official notification for 2026. To fill the vacancies for 01 .... CSIR National Chemical Laboratory (CSIR NCL) has issued the official notification for 2026. To fill the vacancies for 02 .... CSIR National Chemical Laboratory (CSIR NCL) has issued the official notification for 2026. To fill the vacancies for V...",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "Engineering",
-      "skills": [],
-      "scraped_at": "2026-09-05T01:16:51.022137",
-      "links": []
-    },
     {
       "id": "1b02bb0d902d9f2f72d3f90633534a7e",
       "title": "BITS Pilani Notification 2026 - Apply Offline for Junior Research Fellow Posts",
@@ -2485,6 +2472,19 @@
       "category": "Teaching",
       "skills": [],
       "scraped_at": "2026-09-20T01:25:31.715415",
+      "links": []
+    },
+    {
+      "id": "20a20e01a9a0f0ca7399b115d4ae3c81",
+      "title": "AIIMS Delhi",
+      "url": "https://allgovernmentjobs.in/aiims-delhi-recruitment",
+      "source": "allgovernmentjobs.in",
+      "description": "The All India Institute of Medical Sciences, Delhi (AIIMS Delhi) has officially announced the notification for the recru .... All India Institute of Medical Sciences, Delhi (AIIMS Delhi) has released the latest job notification for 2026. To fill .... All India Institute of Medical Sciences, Delhi (AIIMS Delhi) has officially released the notification for 2026. To fill .... The All India Institute of Medical Sciences, Delhi (AIIMS Delhi) has declared the official notification for 2026. To fil ...",
+      "pdf_link": null,
+      "important_dates": {},
+      "category": "Medical",
+      "skills": [],
+      "scraped_at": "2026-09-21T01:23:20.750940",
       "links": []
     }
   ]
