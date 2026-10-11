@@ -722,7 +722,9 @@ function updateJobCounts() {
         const category = card.dataset.category;
         const countElement = card.querySelector('.category-count');
         if (countElement && categoryCounts[category]) {
-            countElement.textContent = `${categoryCounts[category]}+ Jobs`;
+            const countText = `${categoryCounts[category]}+ Jobs`;
+            countElement.textContent = countText;
+            card.setAttribute('aria-label', `View ${category} jobs, ${countText}`);
         }
     });
 }
