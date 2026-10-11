@@ -384,7 +384,7 @@ body {
     transition: all 0.2s ease;
 }
 
-.filter-select:focus {
+.filter-select:focus-visible {
     outline: none;
     border-color: var(--primary-color);
     box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.1);
@@ -968,15 +968,25 @@ body {
 }
 
 /* Focus Styles */
-button:focus,
-input:focus,
-select:focus,
-.job-card:focus,
-.category-card:focus,
-.mobile-menu-toggle:focus,
-a:focus {
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+.job-card:focus-visible,
+.category-card:focus-visible,
+.mobile-menu-toggle:focus-visible,
+a:focus-visible {
     outline: 2px solid var(--primary-color);
     outline-offset: 2px;
+}
+
+button:focus:not(:focus-visible),
+input:focus:not(:focus-visible),
+select:focus:not(:focus-visible),
+.job-card:focus:not(:focus-visible),
+.category-card:focus:not(:focus-visible),
+.mobile-menu-toggle:focus:not(:focus-visible),
+a:focus:not(:focus-visible) {
+    outline: none;
 }
 
 /* Print Styles */
