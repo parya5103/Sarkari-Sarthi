@@ -14,3 +14,7 @@
 **Vulnerability:** External links (`target="_blank"`) in `index.html` and dynamic navigation via `window.open()` in `script.js` lacked the `rel="noopener noreferrer"` attributes.
 **Learning:** This oversight leaves the application vulnerable to reverse tabnabbing, where a malicious destination page could potentially hijack the original tab's `window.opener` object, risking phishing attacks or unauthorized navigation.
 **Prevention:** Always append `rel="noopener noreferrer"` to HTML anchor tags that open in a new tab, and include `'noopener,noreferrer'` in the features parameter of `window.open()` calls.
+## 2024-06-17 - Path Traversal Vulnerability in Job File Operations
+**Vulnerability:** Constructing local file paths using unsanitized `job['id']` identifiers in `os.path.join(JOB_DIR, ...)` allowed Path Traversal (CWE-22), potentially leading to arbitrary file read/write/delete.
+**Learning:** External or user-controlled identifiers must never be directly concatenated into local file paths.
+**Prevention:** Strictly sanitize external identifiers using `os.path.basename(str(identifier))` before using them to construct file paths.
