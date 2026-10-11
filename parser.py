@@ -146,7 +146,7 @@ def process_job_content(job):
     job_content_text = ""
     try:
         if job['url'].lower().endswith('.pdf') or '.pdf' in job['url'].lower():
-            pdf_filename = os.path.join(JOB_DIR, f"temp_{job['id']}.pdf")
+            pdf_filename = os.path.join(JOB_DIR, f"temp_{os.path.basename(str(job['id']))}.pdf")
             if download_pdf(job['url'], pdf_filename):
                 job_content_text = extract_text_from_pdf(pdf_filename)
                 job['pdf_link'] = job['url']
