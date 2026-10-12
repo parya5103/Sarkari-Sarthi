@@ -14,3 +14,7 @@
 **Vulnerability:** External links (`target="_blank"`) in `index.html` and dynamic navigation via `window.open()` in `script.js` lacked the `rel="noopener noreferrer"` attributes.
 **Learning:** This oversight leaves the application vulnerable to reverse tabnabbing, where a malicious destination page could potentially hijack the original tab's `window.opener` object, risking phishing attacks or unauthorized navigation.
 **Prevention:** Always append `rel="noopener noreferrer"` to HTML anchor tags that open in a new tab, and include `'noopener,noreferrer'` in the features parameter of `window.open()` calls.
+## 2024-06-11 - Path Traversal Vulnerability
+**Vulnerability:** Found a Path Traversal vulnerability in `storage.py` and `parser.py` where user-controlled input (`job['id']`) was used to construct local file paths without sanitization, potentially allowing arbitrary file overwrites or deletions.
+**Learning:** Externally sourced identifiers must never be trusted when constructing file paths, as they can contain path traversal characters (like `../../`).
+**Prevention:** Always strictly sanitize identifiers used in file paths using `os.path.basename(str(identifier))` to ensure they are confined to a single file name.
