@@ -1,22 +1,9 @@
 {
   "last_updated": "2026-10-11T02:05:19.736432",
-  "total_jobs": 166,
-  "active_jobs": 166,
-  "expired_jobs": 10,
+  "total_jobs": 164,
+  "active_jobs": 164,
+  "expired_jobs": 2,
   "jobs": [
-    {
-      "id": "b888c2df0d98dd8a08ea110957809ad9",
-      "title": "IIT Kharagpur",
-      "url": "https://allgovernmentjobs.in/iit-kharagpur-recruitment",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Technology Kharagpur (IIT Kharagpur) has declared the latest job notification for 2026. To fill the .... Indian Institute of Technology Kharagpur (IIT Kharagpur) has declared the official notification for the recruitment of V .... Indian Institute of Technology Kharagpur (IIT Kharagpur) has declared the latest job notification for 2026. To fill the .... Indian Institute of Technology Kharagpur (IIT Kharagpur) has declared the latest job notification for 2026. To fill the ....",
-      "pdf_link": null,
-      "important_dates": {},
-      "category": "IT",
-      "skills": [],
-      "scraped_at": "2026-09-26T01:49:29.802517",
-      "links": []
-    },
     {
       "id": "7db23f55cdf57f8e5e7bf64c943b3f55",
       "title": "ACTREC Notification 2026 - Walk-in-Interview for 06 Nurse Posts",
@@ -2061,22 +2048,6 @@
       "category": "IT",
       "skills": [],
       "scraped_at": "2026-10-09T03:02:47.504308",
-      "links": []
-    },
-    {
-      "id": "0f48f928f3c4c203120d447f6516d87a",
-      "title": "IIT Guwahati Jobs 2026 - Apply Online for 02 Junior Research Fellow Posts",
-      "url": "https://allgovernmentjobs.in/iit-guwahati-jobs-2026-apply-online-for-02-junior-research-fellow-posts/44677",
-      "source": "allgovernmentjobs.in",
-      "description": "Indian Institute of Technology (IIT) Guwahati has officially released a notification for 2026. To fill up the vacancies for 02 Junior Research Fellow Jobs. Candidates with a B.E/ B.Tech in Mechanical Engineering can grab this chance and apply for the IIT Guwahati Jobs 2026 . Here we provide more details about the age limit, selection process, salary structure, education details, applciation fee, and how to apply for these posts. If you are looking for more, here is a list of Government Jobs i...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "11-10-2026",
-        "found_date": "11-10-2026"
-      },
-      "category": "Banking",
-      "skills": [],
-      "scraped_at": "2026-10-09T03:02:47.508609",
       "links": []
     },
     {
