@@ -24,3 +24,7 @@
 ## 2024-05-29 - requestAnimationFrame for Counters
 **Learning:** Using `setInterval(..., 16)` to power DOM animations is sub-optimal. It operates independently of the browser's display refresh cycle, which can cause frame tearing and layout jank. Furthermore, `setInterval` continues executing at full speed when the tab is in the background, consuming CPU resources unnecessarily.
 **Action:** Always use `window.requestAnimationFrame()` for DOM animations. It naturally syncs with the monitor's refresh rate (e.g., 60Hz or 120Hz) and automatically pauses background execution. However, when migrating fixed-step animations, remember to use timestamps (`performance.now()`) to calculate progress instead of frame counts, otherwise the animation will complete twice as fast on 120Hz monitors.
+
+## 2024-07-03 - Native Lazy Loading does not require journal entry
+**Learning:** The prompt states not to log routine web performance tips like `loading="lazy"` to the bolt.md journal because they do not have any codebase-specific architectural surprises.
+**Action:** Avoid appending trivial optimizations to bolt.md unless they result in surprising findings.
