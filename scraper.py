@@ -19,6 +19,8 @@ logger = logging.getLogger(__name__)
 # - allgovernmentjobs.in: robots default-allow, current primary source.
 # - freejobalert.com / fresherslive.com: robots.txt allows generic
 #   crawling (verified 2026-11-03); adapters are Phase 2 candidates.
+# - freshersnow.com: robots.txt User-agent: * Allow: / (verified
+#   2026-11-03; only /wp-admin/ disallowed) -> added to the list below.
 # - sarkariresult.com: robots.txt itself returns 403 (CloudFront
 #   anti-bot) -> discovery-only, do not scrape.
 # - kirannewsagency.com: no robots.txt found; terms unverified ->
@@ -30,6 +32,7 @@ logger = logging.getLogger(__name__)
 JOB_PORTALS = {
     'government': [
         'https://www.freejobalert.com',
+        'https://www.freshersnow.com',
         'https://www.sarkarinaukri.com',
         'https://www.mysarkarinaukri.com',
         'https://bharatsarkarijob.com',

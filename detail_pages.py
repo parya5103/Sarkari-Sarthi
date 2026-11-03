@@ -44,6 +44,16 @@ MAX_RELATED = 5
 # JobPosting rich-result data.
 CLOSED_STATUSES = ('expired', 'cancelled')
 
+# Phase 3: honest source-of-information labels, shown as a chip next
+# to the job title. Values mirror VERIFICATION_LABELS in script.js;
+# unknown statuses get no chip (nothing is invented).
+TRUST_LABELS = {
+    'official_verified': ('trust-official', 'Official source'),
+    'official_link_pending': ('trust-pending', 'Official link pending'),
+    'secondary_source_only': ('trust-secondary', 'Secondary source'),
+    'needs_review': ('trust-review', 'Needs review'),
+}
+
 
 def detail_url(job_id):
     return BASE_URL + '/job/' + job_id + '/'
@@ -133,6 +143,15 @@ def render_detail_page(job, related):
                          'vacancy has passed. It is kept for reference only and is no longer open for '
                          'application.</div>')
 
+    # Phase 3: verification trust chip (honest source-of-information
+    # label). Only for known statuses; no invented labels.
+    verification_chip = ''
+    trust = TRUST_LABELS.get(str(job.get('verification_status') or '').lower())
+    if trust:
+        verification_chip = ('<p class="job-verification"><span class="trust-chip trust-' +
+                             trust[0] + '" title="' + trust[1] + '">' + trust[1] +
+                             '</span></p>')
+
     rows = []
     rows.append(_info_row('Organization', org or NOT_SPECIFIED))
     if job.get('department'):
@@ -220,6 +239,7 @@ def render_detail_page(job, related):
 ''' + status_banner + '''
 <article class="job-detail">
 <h1>''' + title + '''</h1>
+''' + verification_chip + '''
 <table class="job-info-table">
 ''' + info_table + '''
 </table>

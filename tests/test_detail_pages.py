@@ -179,3 +179,32 @@ class TestWriteDetailPages:
         write_detail_pages([sample_job('en_lm1')], out_root=str(tmp_path))
         sitemap = (tmp_path / SITEMAP_FILE).read_text(encoding='utf-8')
         assert '<lastmod>2026-11-03</lastmod>' in sitemap
+
+
+class TestVerificationChip:
+    """Phase 3: honest source-of-information chip on detail pages.
+
+    Known statuses get a labelled chip; unknown or missing statuses
+    get nothing (no invented labels)."""
+
+    def test_official_verified_chip(self):
+        page = render_detail_page(
+            sample_job(verification_status='official_verified'), [])
+        assert 'Official source' in page
+        assert 'trust-official' in page
+        assert 'job-verification' in page
+
+    def test_secondary_source_chip(self):
+        page = render_detail_page(
+            sample_job(verification_status='secondary_source_only'), [])
+        assert 'Secondary source' in page
+        assert 'trust-secondary' in page
+
+    def test_unknown_status_gets_no_chip(self):
+        page = render_detail_page(
+            sample_job(verification_status='some-future-status'), [])
+        assert 'job-verification' not in page
+
+    def test_missing_status_gets_no_chip(self):
+        page = render_detail_page(sample_job(), [])
+        assert 'job-verification' not in page
