@@ -189,7 +189,7 @@ function renderJobsTable() {
         tr.appendChild(tdCategory);
 
         const tdDate = document.createElement('td');
-        tdDate.textContent = job.last_date || 'Not specified';
+        tdDate.textContent = job.last_date || (job.important_dates && job.important_dates.last_date) || 'Not specified';
         tr.appendChild(tdDate);
 
         const tdActions = document.createElement('td');
@@ -235,6 +235,16 @@ function escapeHTML(str) {
             '"': '&quot;'
         }[tag] || tag)
     );
+}
+
+// Store dates in the portal house format (DD-MM-YYYY). Accepts a
+// YYYY-MM-DD value from the form and converts it; any other text is
+// kept as typed so free-text values are never corrupted.
+function normalizeHouseDate(raw) {
+    const v = (raw || '').trim();
+    const m = v.match(/^([0-9]{4})-([0-9]{2})-([0-9]{2})$/);
+    if (m) return m[3] + '-' + m[2] + '-' + m[1];
+    return v || null;
 }
 
 function generateHash() {
@@ -327,10 +337,10 @@ async function saveJobData() {
         qualification: val('jobQualification'),
         official_notification_url: val('jobNotificationUrl'),
         official_application_url: val('jobApplyUrl'),
-        application_start_date: val('jobStartDate'),
+        application_start_date: normalizeHouseDate(document.getElementById('jobStartDate').value),
         status: val('jobStatus') || 'active',
         category: document.getElementById('jobCategory').value,
-        last_date: document.getElementById('jobLastDate').value.trim() || null,
+        last_date: normalizeHouseDate(document.getElementById('jobLastDate').value),
         url: document.getElementById('jobUrl').value.trim(),
         summary: document.getElementById('jobSummary').value.trim(),
         found_date: new Date().toISOString()
