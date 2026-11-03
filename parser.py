@@ -103,19 +103,28 @@ def extract_important_dates_and_links(text):
     links = list(set(links))
     return dates, links
 
-# Pre-allocate large keyword sets to avoid constant re-allocation per-function call
-COMPILED_CATEGORIES = {
-    'Banking': ('bank', 'banking', 'sbi', 'pnb', 'icici', 'hdfc', 'axis', 'clerk', 'po', 'probationary officer', 'rbi'),
-    'SSC': ('ssc', 'staff selection commission', 'cgl', 'chsl', 'mts', 'stenographer'),
-    'Railway': ('railway', 'rrb', 'ntpc', 'group d', 'alp', 'technician', 'loco pilot'),
-    'Police': ('police', 'constable', 'sub inspector', 'asi', 'head constable', 'security'),
-    'Defence': ('defence', 'defense', 'army', 'navy', 'air force', 'bsf', 'crpf', 'cisf', 'itbp', 'agniveer'),
-    'Teaching': ('teacher', 'teaching', 'education', 'professor', 'lecturer', 'principal', 'school', 'college', 'ctet', 'ugc'),
+# Category classification: word-boundary matching on the JOB TITLE only.
+# Previous implementation used bare substring matching on the full page
+# text, so 'po' matched 'posts', 'bank'/'education' matched site
+# navigation boilerplate, and 142 of 176 records were mis-filed under
+# Banking. Dict order matters: the first matching category wins.
+CATEGORY_KEYWORDS = {
     'UPSC': ('upsc', 'ias', 'ips', 'ifs', 'civil services', 'union public service'),
-    'Medical': ('doctor', 'nurse', 'medical', 'hospital', 'aiims', 'mbbs', 'pharmacist', 'health'),
-    'Engineering': ('engineer', 'engineering', 'technical', 'je', 'junior engineer', 'assistant engineer', 'psu'),
-    'IT': ('software', 'developer', 'programmer', 'it', 'computer', 'data analyst', 'web developer', 'cybersecurity', 'ai', 'ml'),
+    'SSC': ('ssc', 'staff selection commission', 'cgl', 'chsl', 'mts', 'stenographer'),
+    'Railway': ('railway', 'railways', 'rrb', 'ntpc', 'group d', 'alp', 'loco pilot'),
+    'Police': ('police', 'constable', 'sub inspector', 'asi', 'head constable', 'security guard'),
+    'Defence': ('defence', 'defense', 'army', 'navy', 'air force', 'bsf', 'crpf', 'cisf', 'itbp', 'agniveer'),
+    'Teaching': ('teacher', 'teaching', 'professor', 'lecturer', 'principal', 'school', 'college', 'ctet', 'ugc', 'education', 'educational'),
+    'Medical': ('doctor', 'nurse', 'medical', 'hospital', 'aiims', 'mbbs', 'pharmacist', 'health', 'healthcare', 'dental', 'pharmacy'),
+    'Engineering': ('engineer', 'engineering', 'junior engineer', 'assistant engineer', 'psu', 'technical'),
+    'IT': ('software', 'developer', 'programmer', 'computer', 'data analyst', 'data science', 'machine learning', 'cybersecurity', 'web developer', 'information technology'),
+    'Banking': ('bank', 'banking', 'sbi', 'pnb', 'icici', 'hdfc', 'axis bank', 'rbi', 'probationary officer', 'bank po', 'bank clerk'),
     'Administrative': ('clerk', 'assistant', 'officer', 'administrative', 'data entry', 'section officer', 'patwari', 'lekpal')
+}
+
+CATEGORY_PATTERNS = {
+    category: re.compile(r'\b(?:' + '|'.join(re.escape(keyword) for keyword in keywords) + r')\b', re.IGNORECASE)
+    for category, keywords in CATEGORY_KEYWORDS.items()
 }
 
 SKILL_KEYWORDS = (
@@ -127,12 +136,17 @@ SKILL_KEYWORDS = (
     'networking', 'cyber security', 'project management', 'agile', 'scrum'
 )
 
-def auto_detect_job_category(text):
-    if not text:
+def auto_detect_job_category(title):
+    """Classify a job from its title using word-boundary keyword matching.
+
+    Only the title is classified. Classifying the full scraped page text
+    let site boilerplate ("education news", "bank jobs" menu links)
+    override the actual job's category.
+    """
+    if not title:
         return "General"
-    text_lower = text.lower()
-    for category, keywords in COMPILED_CATEGORIES.items():
-        if any(keyword in text_lower for keyword in keywords):
+    for category, pattern in CATEGORY_PATTERNS.items():
+        if pattern.search(title):
             return category
     return "General"
 
@@ -183,7 +197,9 @@ def process_job_content(job):
     if job_content_text:
         job['description'] = summarize_job_description(job_content_text)
         job['important_dates'], job['links'] = extract_important_dates_and_links(job_content_text)
-        job['category'] = auto_detect_job_category(job_content_text)
+        # Classify from the job TITLE only: the scraped description text
+        # contains source-site boilerplate which mis-categorizes jobs.
+        job['category'] = auto_detect_job_category(job['title'])
         job['skills'] = extract_trending_skills(job_content_text)
 
     return job

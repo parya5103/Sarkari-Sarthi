@@ -1,7 +1,7 @@
 import logging
 import requests
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 import hashlib
 from datetime import datetime
 import time
@@ -77,10 +77,29 @@ VALID_URL_KEYWORDS = ('job', 'recruitment', 'vacancy', 'notification', 'apply')
 EXCLUDE_URL_WORDS = ('login', 'register', 'contact', 'about', 'privacy', 'terms')
 
 def _is_valid_job_link(title, full_url):
-    """Validate if a given link is a job link based on its title and URL."""
+    """Validate if a link is a genuine vacancy detail page, not a
+    navigation/category/organization listing page of the source portal."""
     u_lower = full_url.lower()
 
     if any(exclude_word in u_lower for exclude_word in EXCLUDE_URL_WORDS):
+        return False
+
+    # Reject source-portal navigation pages: portal home pages,
+    # "jobs-by-category" style listing pages, and generic
+    # category/organization pages (e.g. "medical-jobs",
+    # "iit-delhi-recruitment", "Bank Jobs"). Genuine vacancy
+    # notifications almost always carry a year or post id in the URL
+    # slug or the post title.
+    parsed = urlparse(full_url)
+    path = parsed.path.rstrip('/')
+    last_segment = path.rsplit('/', 1)[-1] if path else ''
+    if not last_segment:
+        return False
+    if 'jobs-by-' in path:
+        return False
+    title_has_digit = any(ch.isdigit() for ch in title)
+    url_has_digit = any(ch.isdigit() for ch in last_segment)
+    if not title_has_digit and not url_has_digit:
         return False
 
     if len(title) > 30:

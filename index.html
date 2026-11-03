@@ -29,6 +29,7 @@
     
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/ads.css">
     
     <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
@@ -181,6 +182,14 @@
         </div>
     </section>
 
+    <!-- Ad placeholder: only becomes visible when a real AdSense
+         publisher ID is configured in assets/js/ads.js. Labeled as an
+         advertisement and kept away from job listings and Apply buttons. -->
+    <aside class="ad-slot" data-ad-slot="sarkari-mid" hidden aria-label="Advertisement">
+        <p class="ad-label">Advertisement</p>
+        <ins class="adsbygoogle" style="display:block"></ins>
+    </aside>
+
     <!-- Jobs Section -->
     <section class="jobs-section" id="jobs">
         <div class="container">
@@ -295,6 +304,7 @@
     </div>
 
     <!-- JavaScript -->
+    <script src="assets/js/ads.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
