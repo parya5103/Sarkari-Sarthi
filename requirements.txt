@@ -1,44 +1,19 @@
-# 🔧 Core Web Scraping & Parsing
+# Dependencies actually imported by the daily workflow
+# (fetch_jobs.py chain + telegram_notifier.py + whatsapp_notifier.py).
+# Heavy unused packages (torch, transformers, selenium, pandas, flask,
+# ...) were removed: they never ran but slowed every deploy by ~20 min.
+
+# Core scraping & parsing
 requests==2.31.0
 beautifulsoup4==4.12.2
 lxml==4.9.3
-selenium==4.15.2
 
-# 📅 Date & Time Utilities
-python-dateutil==2.8.2
-pytz==2023.3
-schedule==1.2.0
-
-# 📤 CLI / UX Utilities
-tqdm==4.66.1
-colorlog==6.8.0
-pyyaml==6.0.1
-
-# 📄 PDF Parsing
+# PDF parsing (official notification PDFs)
 PyMuPDF==1.23.8
 pdfplumber==0.10.3
 
-# 🤖 AI & NLP (Language Understanding)
-transformers==4.35.2
-torch==2.1.1
-spacy==3.7.2
-openai==1.3.5
-
-# 📊 Data Handling
-pandas==2.1.3
-numpy==1.25.2
-
-# 🤖 Telegram Bot Integration
+# Telegram notifications
 python-telegram-bot==20.7
 
-# ⚙️ File, Env & System Utilities
-pathlib2==2.3.7.post1
-python-dotenv==1.0.0
-
-# 🧪 Testing & Coverage
+# Testing
 pytest==7.4.3
-pytest-cov==4.1.0
-
-# 🌐 Optional Backend (API, Frontend Integration)
-flask==3.0.0
-flask-cors==4.0.0

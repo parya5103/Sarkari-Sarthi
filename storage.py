@@ -12,6 +12,16 @@ logger = logging.getLogger(__name__)
 JOB_DIR = 'jobs'
 MANIFEST_FILE = os.path.join(JOB_DIR, 'job_manifest.json')
 
+# Pre-mutation manifest backups (jobs/backup/manifest_backup_YYYY-MM-DD.json)
+BACKUP_DIR = os.path.join(JOB_DIR, 'backup')
+BACKUP_KEEP = 7
+
+# Expired records stay in the manifest for history, but only the most
+# recent ones; older overflow moves to jobs/expired_archive.json.
+MAX_EXPIRED_IN_MANIFEST = 300
+MAX_ARCHIVED_EXPIRED = 2000
+ARCHIVE_FILE = os.path.join(JOB_DIR, 'expired_archive.json')
+
 # Security: strict allowlist for job IDs. Job IDs reach filesystem
 # operations (jobs/<id>.json, temp_<id>.pdf) from scraped URLs and from
 # manually entered admin records, so they are EXTERNAL INPUT and must
@@ -92,6 +102,38 @@ def save_manifest(manifest):
     except Exception as e:
         logger.error(f"Error saving manifest to {MANIFEST_FILE}: {e}")
 
+def backup_manifest(now=None):
+    """Copy the current manifest into jobs/backup/ BEFORE any mutation.
+
+    Bulk changes must always be reversible: the pipeline backs up the
+    previous state first and keeps the last BACKUP_KEEP daily copies.
+    Returns the backup path, or None when there was nothing to back up.
+    """
+    if not os.path.exists(MANIFEST_FILE):
+        return None
+    try:
+        os.makedirs(BACKUP_DIR, exist_ok=True)
+        stamp = (now or datetime.now()).strftime('%Y-%m-%d')
+        backup_path = os.path.join(BACKUP_DIR, 'manifest_backup_%s.json' % stamp)
+        with open(MANIFEST_FILE, 'r', encoding='utf-8') as src:
+            data = src.read()
+        with open(backup_path, 'w', encoding='utf-8') as dst:
+            dst.write(data)
+        backups = sorted(
+            name for name in os.listdir(BACKUP_DIR)
+            if name.startswith('manifest_backup_') and name.endswith('.json')
+        )
+        for old_name in backups[:-BACKUP_KEEP] if len(backups) > BACKUP_KEEP else []:
+            try:
+                os.remove(os.path.join(BACKUP_DIR, old_name))
+            except OSError as e:
+                logger.warning(f"Could not remove old backup {old_name}: {e}")
+        logger.info(f"📦 Manifest backup saved: {backup_path}")
+        return backup_path
+    except OSError as e:
+        logger.error(f"Manifest backup failed: {e}")
+        return None
+
 def save_jobs_to_files(jobs):
     """Save jobs to individual JSON files."""
     saved_count = 0
@@ -147,76 +189,101 @@ def _remove_orphan_job_files(manifest):
     if removed:
         logger.info(f"\U0001f5d1\ufe0f Removed {removed} orphaned job file(s) not present in the manifest.")
 
-def delete_expired_jobs():
-    """Delete expired jobs based on 'last_date' or if older than 30 days (scraped_at)."""
-    logger.info("\n🧹 Cleaning up expired jobs...")
-    manifest = load_manifest()
-    active_jobs = []
-    expired_count = 0
-    current_date = datetime.now()
+def _archive_expired_jobs(overflow):
+    """Move overflow expired records to jobs/expired_archive.json.
 
+    History is preserved on disk, but the live manifest stays bounded
+    so mobile clients do not download unbounded JSON.
+    """
+    archived = 0
+    try:
+        existing = []
+        if os.path.exists(ARCHIVE_FILE):
+            with open(ARCHIVE_FILE, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                if isinstance(data, list):
+                    existing = data
+        existing.extend(overflow)
+        existing = existing[-MAX_ARCHIVED_EXPIRED:]
+        with open(ARCHIVE_FILE, 'w', encoding='utf-8') as f:
+            json.dump(existing, f, indent=2, ensure_ascii=False)
+        archived = len(overflow)
+        logger.info(f"🗄️ Archived {archived} older expired record(s) to {ARCHIVE_FILE}.")
+    except Exception as e:
+        logger.error(f"Failed to archive expired jobs: {e}")
+    return archived
+
+def count_statuses(jobs):
+    """Consistent counters derived from the actual job statuses."""
+    active = 0
+    expired = 0
+    for job in jobs or []:
+        status = str(job.get('status') or '').lower()
+        if status == 'expired':
+            expired += 1
+        elif status in ('active', 'upcoming'):
+            active += 1
+    return {'total_jobs': len(jobs or []), 'active_jobs': active, 'expired_jobs': expired}
+
+def refresh_job_statuses():
+    """Recompute every job status and the manifest counters.
+
+    Expiry policy (master plan):
+    - A job expires ONLY when its verified last_date is in the past.
+    - A job without a verified last date is NEVER auto-expired by an
+      arbitrary age rule (the old 15-day scraped_at deletion is gone);
+      it stays active and is flagged needs_review by the schema when
+      stale.
+    - Expired records are KEPT for reference (status='expired'), the
+      most recent MAX_EXPIRED_IN_MANIFEST of them in the manifest and
+      older overflow in jobs/expired_archive.json. Cancelled records
+      are also kept and never shown as active.
+    - Counters are recomputed from the actual statuses, so
+      active_jobs/expired_jobs always match the records.
+    """
+    logger.info("\n🧹 Refreshing job statuses (verified last_date only)...")
+    manifest = load_manifest()
     jobs_in_manifest = manifest.get('jobs', [])
+
     if not jobs_in_manifest:
-        logger.info("No jobs in manifest to clean.")
+        manifest['total_jobs'] = 0
+        manifest['active_jobs'] = 0
         manifest['expired_jobs'] = 0
         save_manifest(manifest)
         _remove_orphan_job_files(manifest)
-        return
+        return {'expired': 0, 'archived': 0}
 
+    active_jobs = []
+    expired_jobs = []
     for job_entry in jobs_in_manifest:
-        is_expired = False
-        if 'important_dates' in job_entry and 'last_date' in job_entry['important_dates']:
-            date_str = job_entry['important_dates']['last_date']
-            parsed_date = None
-            for fmt in ('%d-%m-%Y', '%d/%m/%Y', '%Y-%m-%d', '%d %b %Y', '%d %B %Y'):
-                try:
-                    parsed_date = datetime.strptime(date_str, fmt)
-                    break
-                except ValueError:
-                    continue
-
-            if parsed_date:
-                if parsed_date.date() < current_date.date():
-                    is_expired = True
-                    logger.debug(f"Job {job_entry['id']} expired by last_date: {date_str}")
-            else:
-                logger.warning(f"Could not parse 'last_date' '{date_str}' for job {job_entry.get('id', 'unknown')}. Skipping date-based expiry.")
-
-        if not is_expired and 'scraped_at' in job_entry:
-            try:
-                scraped_date = datetime.fromisoformat(job_entry['scraped_at'])
-                if (current_date - scraped_date).days > 15:
-                    is_expired = True
-                    logger.debug(f"Job {job_entry['id']} expired by age (scraped_at): {job_entry['scraped_at']}")
-            except ValueError:
-                logger.warning(f"Could not parse 'scraped_at' for job {job_entry.get('id', 'unknown')}. Skipping age-based expiry.")
-
-        if not is_expired:
-            # Phase 4: normalize retained jobs so every record carries
-            # the full schema (status, last_verified, explicit None for
-            # unavailable fields). No data is dropped or invented.
-            active_jobs.append(normalize_job(job_entry))
+        normalized = normalize_job(job_entry)
+        if normalized.get('status') == 'expired':
+            expired_jobs.append(normalized)
         else:
-            expired_count += 1
-            try:
-                safe_path = job_file_path(job_entry.get('id'))
-            except ValueError as e:
-                logger.warning(f"Expired job had an unsafe ID; removing from manifest only: {e}")
-                safe_path = None
-            if safe_path and os.path.exists(safe_path):
-                try:
-                    os.remove(safe_path)
-                    logger.info(f"🗑️ Deleted expired job file: {os.path.basename(safe_path)}")
-                except OSError as e:
-                    logger.error(f"Error deleting expired job file {safe_path}: {e}")
+            active_jobs.append(normalized)
 
-    manifest['jobs'] = active_jobs
-    manifest['active_jobs'] = len(active_jobs)
-    manifest['expired_jobs'] = expired_count
-    manifest['total_jobs'] = len(active_jobs)
+    # Keep the freshest expired records in the manifest; archive the rest.
+    expired_jobs.sort(
+        key=lambda j: str(j.get('last_verified') or j.get('scraped_at') or ''),
+        reverse=True,
+    )
+    keep_expired = expired_jobs[:MAX_EXPIRED_IN_MANIFEST]
+    overflow = expired_jobs[MAX_EXPIRED_IN_MANIFEST:]
+    archived = _archive_expired_jobs(overflow) if overflow else 0
+
+    final_jobs = active_jobs + keep_expired
+    counters = count_statuses(final_jobs)
+    manifest['jobs'] = final_jobs
+    manifest['total_jobs'] = counters['total_jobs']
+    manifest['active_jobs'] = counters['active_jobs']
+    manifest['expired_jobs'] = counters['expired_jobs']
     save_manifest(manifest)
     _remove_orphan_job_files(manifest)
-    logger.info(f"✅ Cleanup complete: Deleted {expired_count} expired jobs.")
+    logger.info(
+        f"✅ Status refresh complete: {counters['active_jobs']} active, "
+        f"{counters['expired_jobs']} expired kept, {archived} archived."
+    )
+    return {'expired': len(expired_jobs), 'archived': archived}
 
 SEO_STOPWORDS = {'recruitment', 'apply', 'online', 'post', 'posts', 'vacancies', 'notification', 'various', 'department', 'board', 'commission', 'service', '2023', '2024', '2025', '2026', 'india', 'state', 'vacancy', 'examination', 'exam'}
 

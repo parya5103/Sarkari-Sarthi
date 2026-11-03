@@ -2,7 +2,7 @@
 
 Covers valid IDs, invalid IDs, traversal attempts, encoded traversal
 and path containment for every filesystem operation that uses a job
-ID as a path component (save, delete, orphan sweep, temp PDF).
+ID as a path component (save, status refresh, orphan sweep, temp PDF).
 """
 import json
 import os
@@ -91,7 +91,13 @@ def test_save_jobs_to_files_skips_unsafe_ids(tmp_path, monkeypatch):
     assert len(list(tmp_path.rglob('*.json'))) == 1
 
 
-def test_delete_expired_jobs_never_escapes_jobs_dir(tmp_path, monkeypatch):
+def test_refresh_job_statuses_never_escapes_jobs_dir(tmp_path, monkeypatch):
+    """Status refresh must not turn a hostile job ID into a path.
+
+    The old delete_expired_jobs() removed records; the new
+    refresh_job_statuses() keeps expired history in the manifest and
+    never derives any filesystem path from the job ID.
+    """
     use_tmp_job_dir(tmp_path, monkeypatch)
     sentinel = tmp_path / 'sentinel.txt'
     sentinel.write_text('do not delete')
@@ -110,12 +116,20 @@ def test_delete_expired_jobs_never_escapes_jobs_dir(tmp_path, monkeypatch):
     }
     with open(storage.MANIFEST_FILE, 'w', encoding='utf-8') as f:
         json.dump(manifest, f)
-    storage.delete_expired_jobs()
+    storage.refresh_job_statuses()
     with open(storage.MANIFEST_FILE, 'r', encoding='utf-8') as f:
         final = json.load(f)
-    assert final['jobs'] == []
+    # Expired records are KEPT for reference, with status='expired'
+    # and counters that match the actual statuses.
+    assert len(final['jobs']) == 1
+    assert final['jobs'][0]['status'] == 'expired'
     assert final['expired_jobs'] == 1
+    assert final['active_jobs'] == 0
+    # The unsafe ID never reached the filesystem.
     assert sentinel.exists()
+    assert not (tmp_path / 'sentinel.json').exists()
+    job_dir = tmp_path / 'jobs'
+    assert sorted(p.name for p in job_dir.iterdir()) == ['job_manifest.json']
 
 
 def test_remove_orphan_job_files_ignores_symlink_escape(tmp_path, monkeypatch):

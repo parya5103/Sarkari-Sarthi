@@ -8,12 +8,28 @@ import time
 import random
 import concurrent.futures
 
+# Honest identity + robots.txt checking are shared with the official
+# adapters: generic portal scraping must follow the same rules.
+from official_sources import robots_allows, USER_AGENT
+
 logger = logging.getLogger(__name__)
 
+# Source registry (Phase 1 documentation; adapters are added in later
+# phases only after permission research):
+# - allgovernmentjobs.in: robots default-allow, current primary source.
+# - freejobalert.com / fresherslive.com: robots.txt allows generic
+#   crawling (verified 2026-11-03); adapters are Phase 2 candidates.
+# - sarkariresult.com: robots.txt itself returns 403 (CloudFront
+#   anti-bot) -> discovery-only, do not scrape.
+# - kirannewsagency.com: no robots.txt found; terms unverified ->
+#   discovery-only until manually reviewed.
+# - ssc.gov.in / ibps.in / esb.mp.gov.in / mppsc.mp.gov.in: anti-bot
+#   walls -> manual admin import only (see official_sources.py).
+# - employmentnews.gov.in is handled by the official adapter in
+#   official_sources.py, so it is NOT in the generic list below.
 JOB_PORTALS = {
     'government': [
         'https://www.freejobalert.com',
-        'https://www.sarkariresult.com',
         'https://www.sarkarinaukri.com',
         'https://www.mysarkarinaukri.com',
         'https://bharatsarkarijob.com',
@@ -29,12 +45,8 @@ JOB_PORTALS = {
         "https://www.fresherslive.com/govt-jobs",
         "https://www.jobsarkari.com/",
         "https://www.naukrigulf.com/government-jobs",
-        "https://rojgarresult.com/",
-        "https://www.employmentnews.gov.in/",
         "https://www.latestgovtjobs.in/",
         "https://www.indiagovtjobs.in/",
-        "https://www.kirannewsagency.com/",
-        "https://www.mysarkarinaukri.com/",
         "https://sarkariprep.in/",
         "https://linkingsky.com/ "
     ]
@@ -42,13 +54,13 @@ JOB_PORTALS = {
 
 def fetch_page_content(url, timeout=15, retries=3):
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-        'Accept-Language': 'en-US,en;q=0.9,hi;q=0.8',
+        # Honest identity: this is an automated job portal, not a
+        # browser. Never spoof a browser User-Agent.
+        'User-Agent': USER_AGENT,
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept-Language': 'en-IN,en;q=0.9,hi;q=0.8',
         'Accept-Encoding': 'gzip, deflate, br',
-        'Connection': 'keep-alive',
-        'Upgrade-Insecure-Requests': '1',
-        'Cache-Control': 'max-age=0'
+        'Connection': 'keep-alive'
     }
 
     for attempt in range(retries):
@@ -144,13 +156,35 @@ def _extract_jobs_from_selector(links, url, site_name, found_links_overall):
             continue
     return extracted_jobs
 
-def scrape_generic_job_site(url, site_name):
+def scrape_generic_job_site(url, site_name, metrics=None):
     logger.info(f"\n🔍 Scraping {site_name}...")
+
+    # robots.txt FIRST: a portal that disallows automated access is
+    # skipped entirely (recorded as a permission refusal, not an error).
+    try:
+        allowed = robots_allows(url, USER_AGENT)
+    except Exception as e_robots:
+        logger.warning(f"robots.txt check failed for {site_name}: {e_robots}")
+        allowed = False
+    if not allowed:
+        logger.warning(f"⛔ {site_name}: robots.txt disallows automated fetching; skipping source.")
+        if metrics is not None:
+            metrics.record(site_name, status='robots-disallowed',
+                           permission='disallowed', discovered=0,
+                           notes='robots.txt refuses this user-agent or path')
+        return []
+
+    started = datetime.now()
     html_content = fetch_page_content(url)
     jobs = []
 
     if not html_content:
         logger.warning(f"❌ No content fetched from {site_name}. Skipping.")
+        if metrics is not None:
+            metrics.record(site_name, status='fetch-failed', permission='allowed',
+                           duration_s=round((datetime.now() - started).total_seconds(), 2),
+                           discovered=0,
+                           notes='listing page unreachable or blocked')
         return jobs
 
     try:
@@ -178,20 +212,37 @@ def scrape_generic_job_site(url, site_name):
                 continue
     except Exception as e_soup:
         logger.error(f"❌ Error parsing HTML content for {site_name}: {e_soup}")
+        if metrics is not None:
+            metrics.record(site_name, status='parse-error', permission='allowed',
+                           duration_s=round((datetime.now() - started).total_seconds(), 2),
+                           discovered=0, parser_errors=1, notes=str(e_soup)[:120])
+        return jobs
 
+    duration = round((datetime.now() - started).total_seconds(), 2)
+    if metrics is not None:
+        metrics.record(
+            site_name,
+            status='ok' if jobs else 'no-jobs',
+            permission='allowed',
+            duration_s=duration,
+            discovered=len(jobs),
+            notes='' if jobs else 'listing fetched but no vacancy links parsed',
+        )
     return jobs
 
-def _scrape_single_portal(url, index, total, category_name):
+def _scrape_single_portal(url, index, total, category_name, metrics=None):
     try:
         site_name = url.split('//')[1].split('/')[0]
         logger.info(f"\n[{index}/{total}] {category_name} Site: {site_name}")
-        jobs = scrape_generic_job_site(url, site_name)
+        jobs = scrape_generic_job_site(url, site_name, metrics=metrics)
         return jobs
     except Exception as e:
         logger.error(f"❌ Unhandled error during scraping of {url}: {e}")
+        if metrics is not None:
+            metrics.record(url, status='error', discovered=0, notes=str(e)[:120])
         return []
 
-def scrape_all_job_portals():
+def scrape_all_job_portals(metrics=None):
     all_jobs = []
     successful_sites = 0
 
@@ -209,7 +260,7 @@ def scrape_all_job_portals():
 
     max_workers = min(10, len(portals_to_scrape))
     with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-        futures = {executor.submit(_scrape_single_portal, url, index, total, category): url for url, index, total, category in portals_to_scrape}
+        futures = {executor.submit(_scrape_single_portal, url, index, total, category, metrics): url for url, index, total, category in portals_to_scrape}
         for future in concurrent.futures.as_completed(futures):
             try:
                 jobs = future.result()
