@@ -12,10 +12,9 @@
       detects that tag and never injects a second copy.
    3. DONE: /ads.txt exists at the gogocompany.in site root with the
       real publisher ID (managed in the gogo-website repository).
-   4. REMAINING: fill the slot IDs in CONFIG.slots with real AdSense
-      slot IDs (sarkari-mid for the listing page, sarkari-detail-bottom
-      for job detail pages). Until then every ad unit stays hidden and
-      zero ad units are served.
+   4. DONE (2026-11-03): CONFIG.slots filled with the owner-created
+      AdSense responsive display unit 7200569170 (reused across all
+      placements for now; separate units can be added later).
    5. REMAINING (EEA / UK / Switzerland): ad units stay OFF for those
       regions until a Google-certified CMP (e.g. Funding Choices)
       handles consent. Set cmpReady to true only after that
@@ -27,8 +26,8 @@
     publisherId: "ca-pub-2895136878543415",   /* owner-verified AdSense publisher ID (2026-11-03) */
     cmpReady: false,    /* true only after a Google-certified CMP handles consent */
     slots: {
-      "sarkari-mid": "",           /* listing page: between the category grid and job listings */
-      "sarkari-detail-bottom": "" /* job detail pages: after the article, before related jobs */
+      "sarkari-mid": "7200569170",           /* listing page: between the category grid and job listings */
+      "sarkari-detail-bottom": "7200569170" /* job detail pages: after the article, before related jobs */
     }
   };
 
