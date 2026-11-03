@@ -169,6 +169,15 @@ function setupEventListeners() {
         }
     });
     
+    // Footer category links (href="#" placeholders): make them filter
+    // the jobs list instead of dead-ending.
+    document.querySelectorAll('a[data-category]').forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            filterByCategory(this.dataset.category);
+        });
+    });
+
     // Category card clicks
     document.querySelectorAll('.category-card').forEach(card => {
         card.addEventListener('click', function() {
@@ -209,6 +218,11 @@ function filterExpiredJobs(jobs) {
     const now = new Date();
     now.setHours(0, 0, 0, 0);
     return jobs.filter(job => {
+        // Server-side normalized status (Phase B) is authoritative when
+        // present; the date check below remains a safety net for old
+        // records that never passed through normalize_job.
+        const status = String(job.status || '').toLowerCase();
+        if (status === 'cancelled' || status === 'expired') return false;
         const lastDateStr = job.important_dates && job.important_dates.last_date;
         const lastDate = parseJobDate(lastDateStr);
         // Keep jobs without a parseable last date: absence of a date is
@@ -219,7 +233,33 @@ function filterExpiredJobs(jobs) {
 }
 
 /**
- * Load jobs data (simulated for now)
+ * Rebuild the category filter options from the currently loaded job
+ * data, so every category present in the manifest (including Medical,
+ * Engineering, Administrative and IT) is filterable, with counts.
+ */
+function populateCategoryFilter() {
+    if (!categoryFilter) return;
+    const selected = categoryFilter.value;
+    const counts = {};
+    jobsData.forEach(job => {
+        if (job.category) counts[job.category] = (counts[job.category] || 0) + 1;
+    });
+    while (categoryFilter.options.length > 1) {
+        categoryFilter.remove(1);
+    }
+    Object.keys(counts).sort().forEach(cat => {
+        const opt = document.createElement('option');
+        opt.value = cat;
+        opt.textContent = cat + ' (' + counts[cat] + ')';
+        categoryFilter.appendChild(opt);
+    });
+    if (selected && Array.from(categoryFilter.options).some(o => o.value === selected)) {
+        categoryFilter.value = selected;
+    }
+}
+
+/**
+ * Load jobs data from the published job manifest
  */
 async function loadJobs() {
     try {
@@ -231,6 +271,7 @@ async function loadJobs() {
         if (response.ok) {
             const manifest = await response.json();
             jobsData = filterExpiredJobs(manifest.jobs || []);
+            populateCategoryFilter();
         } else {
             // Manifest missing or unreachable: show an honest error
             // state. Never fall back to hard-coded sample jobs.
@@ -371,6 +412,16 @@ function createJobCard(job) {
     header.appendChild(headerTitleDiv);
     header.appendChild(categorySpan);
 
+    // Application status chip (Phase B status field): 'upcoming' jobs
+    // have a future application start date; expired and cancelled jobs
+    // are filtered out entirely.
+    if (String(job.status || '').toLowerCase() === 'upcoming') {
+        const statusSpan = document.createElement('span');
+        statusSpan.className = 'job-status status-upcoming';
+        statusSpan.textContent = 'Opening Soon';
+        header.appendChild(statusSpan);
+    }
+
     const descP = document.createElement('p');
     descP.className = 'job-description';
     descP.textContent = job.description;
@@ -396,6 +447,15 @@ function createJobCard(job) {
     dateSpan.className = 'job-date';
     dateSpan.textContent = `Last Date: ${lastDate}`;
     metaDiv.appendChild(dateSpan);
+
+    // Link to the static prerendered detail page (Phase 5): a
+    // stable, crawlable URL with the full verified notification data.
+    const detailsLink = document.createElement('a');
+    detailsLink.href = 'job/' + encodeURIComponent(job.id) + '/';
+    detailsLink.className = 'view-details-link';
+    detailsLink.textContent = 'View Details';
+    detailsLink.addEventListener('click', (e) => e.stopPropagation());
+    metaDiv.appendChild(detailsLink);
 
     card.appendChild(metaDiv);
     
@@ -424,7 +484,8 @@ function openJobModal(job) {
     if (!modalTitle || !modalBody || !modalApplyBtn) return;
     
     modalTitle.textContent = job.title;
-    modalApplyBtn.href = sanitizeURL(job.url);
+    // Prefer the verified official application URL when present.
+    modalApplyBtn.href = sanitizeURL(job.official_application_url || job.url);
     
     const lastDate = job.important_dates?.last_date || job.important_dates?.found_date || 'Not specified';
     const examDate = job.important_dates?.exam_date || 'Not specified';
@@ -501,7 +562,10 @@ function openJobModal(job) {
         detailsDiv.appendChild(section3);
     }
 
-    if (job.pdf_link) {
+    // Prefer the verified official notification URL when present;
+    // the legacy pdf_link remains the fallback for older records.
+    const notificationUrl = job.official_notification_url || job.pdf_link;
+    if (notificationUrl) {
         const section4 = document.createElement('div');
         section4.className = 'modal-section';
         const h4_4 = document.createElement('h4');
@@ -510,7 +574,7 @@ function openJobModal(job) {
 
         const pdfP = document.createElement('p');
         const pdfA = document.createElement('a');
-        pdfA.href = sanitizeURL(job.pdf_link);
+        pdfA.href = sanitizeURL(notificationUrl);
         pdfA.target = '_blank';
         pdfA.rel = 'noopener noreferrer';
         pdfA.className = 'pdf-link';
@@ -883,18 +947,10 @@ if (jobSearch) {
     jobSearch.addEventListener('input', debouncedSearch);
 }
 
-// Service Worker registration for PWA (optional)
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
-            .then(registration => {
-                console.log('SW registered: ', registration);
-            })
-            .catch(registrationError => {
-                console.log('SW registration failed: ', registrationError);
-            });
-    });
-}
+// No service worker is registered here: this portal has no sw.js
+// asset, so a registration attempt would 404 on every page load.
+// The other GoGo apps (Arrow Out, Crystal Quest) keep their own PWA
+// service workers; this file is portal-specific.
 
 // Export functions for testing (if needed)
 if (typeof module !== 'undefined' && module.exports) {

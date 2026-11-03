@@ -6,6 +6,7 @@ from telegram.error import TelegramError
 import asyncio
 
 from storage import load_manifest
+from job_schema import select_recent_jobs
 
 # ✅ Logging configuration
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -21,7 +22,8 @@ def format_job_message(job):
     """
     message = "✨ *New Sarkari Job Alert!* ✨\n\n"
     message += f"📌 *{job.get('title', 'N/A')}*\n"
-    message += f"🏢 *Department:* {job.get('source', 'N/A')}\n"
+    org = job.get('organization') or job.get('department') or job.get('source') or 'N/A'
+    message += f"🏢 *Organization:* {org}\n"
     message += f"🏷️ *Category:* {job.get('category', 'General')}\n\n"
 
     desc = job.get('description', 'N/A')
@@ -59,7 +61,9 @@ async def send_telegram_message(chat_id, message):
 async def notify_new_jobs():
     logger.info("📢 Starting Telegram notification for new jobs...")
     manifest = load_manifest()
-    jobs_to_notify = manifest.get('jobs', [])
+    # Only jobs first recorded recently (see select_recent_jobs):
+    # the full manifest must never be blasted on every run.
+    jobs_to_notify = select_recent_jobs(manifest.get('jobs', []))
 
     if not jobs_to_notify:
         logger.info("ℹ️ No new jobs found to notify.")

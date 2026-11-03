@@ -6,6 +6,7 @@ AI-powered job scraper for Indian government and private sector jobs
 
 import logging
 import os
+import sys
 
 from datetime import datetime
 
@@ -14,9 +15,13 @@ import concurrent.futures
 # Import from refactored modules
 from storage import (
     JOB_DIR, MANIFEST_FILE, load_manifest, save_manifest,
-    save_jobs_to_files, delete_expired_jobs, update_seo_keywords
+    save_jobs_to_files, delete_expired_jobs, update_seo_keywords,
+    is_valid_job_id
 )
 from scraper import JOB_PORTALS, fetch_page_content, scrape_generic_job_site, _scrape_single_portal, scrape_all_job_portals
+from job_schema import normalize_job, is_duplicate_job, advertisement_key
+from official_sources import fetch_employment_news_jobs, SOURCE_NAME as OFFICIAL_SOURCE_NAME
+from detail_pages import write_detail_pages
 from parser import (
     download_pdf, extract_text_from_pdf, summarize_job_description,
     extract_important_dates_and_links, auto_detect_job_category,
@@ -29,6 +34,19 @@ logger = logging.getLogger(__name__)
 
 # --- Main Execution ---
 
+def _publish_detail_pages():
+    """Regenerate static job detail pages + sitemap from the manifest.
+
+    Non-fatal on purpose: a template failure must not block the data
+    pipeline, but it is logged loudly in the workflow run.
+    """
+    try:
+        manifest = load_manifest()
+        write_detail_pages(manifest.get('jobs', []))
+    except Exception as e:
+        logger.error(f"❌ Failed to regenerate job detail pages: {e}")
+
+
 def main():
     """Main function to orchestrate job fetching process"""
     print("=" * 60)
@@ -40,15 +58,24 @@ def main():
 
     manifest = load_manifest()
     existing_job_urls = {job['url'] for job in manifest.get('jobs', [])}
+    existing_adv_keys = {advertisement_key(job) for job in manifest.get('jobs', [])}
+    existing_adv_keys.discard(None)
     logger.info(f"📋 Existing jobs in manifest: {len(existing_job_urls)}")
 
     all_scraped_jobs = scrape_all_job_portals()
+
+    # Official source (Phase 3): Employment News rows arrive already
+    # complete with verified listing data. They must NOT be re-fetched
+    # through process_job_content, so they are kept in a separate list.
+    official_jobs = fetch_employment_news_jobs()
+    all_scraped_jobs.extend(official_jobs)
 
     if not all_scraped_jobs:
         logger.warning("⚠️ WARNING: No jobs were scraped from any portal!")
         logger.warning("This might be due to: Network issues, website blocking, or structural changes.")
         delete_expired_jobs()
         update_seo_keywords()
+        _publish_detail_pages()
         print("\n" + "=" * 60)
         print("📈 FINAL SUMMARY (No new jobs scraped)")
         print("=" * 60)
@@ -56,20 +83,40 @@ def main():
         print(f"📊 Total active jobs in system: {final_manifest.get('active_jobs', 0)}")
         print(f"🕒 Last updated: {final_manifest.get('last_updated', 'Unknown')}")
         print("=" * 60)
-        return
+        # Honest failure (master plan Phase 7): zero jobs scraped from
+        # every portal means the pipeline is broken. Fail the run
+        # instead of silently pretending the site is up to date.
+        sys.exit(1)
 
     logger.info(f"\n🔍 Processing {len(all_scraped_jobs)} raw scraped jobs...")
 
-    new_jobs_to_add = []
     duplicate_count = 0
     jobs_to_process = []
+    official_to_add = []
 
     for job_candidate in all_scraped_jobs:
-        if job_candidate['url'] in existing_job_urls:
+        dup_reason = is_duplicate_job(job_candidate, existing_job_urls, existing_adv_keys)
+        if dup_reason:
             duplicate_count += 1
+            logger.info(f"Duplicate skipped ({dup_reason}): {job_candidate.get('title', '')[:60]}")
             continue
-        jobs_to_process.append(job_candidate)
+        # Security: drop any record whose ID would be unsafe as a
+        # filesystem path component (jobs/<id>.json).
+        if not is_valid_job_id(job_candidate.get('id')):
+            logger.warning(f"⛔ Dropping scraped job with unsafe ID: {job_candidate.get('id')!r}")
+            continue
+        if job_candidate.get('source') == OFFICIAL_SOURCE_NAME:
+            # Official listing rows are already complete records.
+            official_to_add.append(job_candidate)
+        else:
+            jobs_to_process.append(job_candidate)
         existing_job_urls.add(job_candidate['url'])
+        adv_key = advertisement_key(job_candidate)
+        if adv_key:
+            existing_adv_keys.add(adv_key)
+
+    # Official records are normalized immediately (no per-job fetch).
+    new_jobs_to_add = [normalize_job(j) for j in official_to_add]
 
     if jobs_to_process:
         logger.info(f"🔄 Concurrently processing {len(jobs_to_process)} unique jobs...")
@@ -80,7 +127,7 @@ def main():
                 job = future_to_job[future]
                 try:
                     processed_job = future.result()
-                    new_jobs_to_add.append(processed_job)
+                    new_jobs_to_add.append(normalize_job(processed_job))
                 except Exception as exc:
                     logger.error(f"❌ Job processing generated an exception for {job['url']}: {exc}")
 
@@ -103,6 +150,7 @@ def main():
 
     delete_expired_jobs()
     update_seo_keywords()
+    _publish_detail_pages()
 
     final_manifest = load_manifest()
     print("\n" + "=" * 60)

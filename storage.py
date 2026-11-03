@@ -4,11 +4,47 @@ import json
 from datetime import datetime
 import re
 
+from job_schema import normalize_job
+
 logger = logging.getLogger(__name__)
 
 # Directory for storing job data and manifest
 JOB_DIR = 'jobs'
 MANIFEST_FILE = os.path.join(JOB_DIR, 'job_manifest.json')
+
+# Security: strict allowlist for job IDs. Job IDs reach filesystem
+# operations (jobs/<id>.json, temp_<id>.pdf) from scraped URLs and from
+# manually entered admin records, so they are EXTERNAL INPUT and must
+# never be trusted as path components.
+JOB_ID_PATTERN = re.compile(r'[A-Za-z0-9_-]{1,80}')
+
+
+def is_valid_job_id(job_id):
+    """True only for IDs matching the strict [A-Za-z0-9_-]{1,80} allowlist."""
+    return (
+        isinstance(job_id, str)
+        and bool(job_id)
+        and bool(JOB_ID_PATTERN.fullmatch(job_id))
+    )
+
+
+def job_file_path(job_id):
+    """Return the validated jobs/<id>.json path for a job ID.
+
+    Rejects traversal ('../'), encoded traversal, absolute paths,
+    separators, over-long IDs and anything outside the allowlist.
+    Also verifies the RESOLVED path stays inside the jobs directory
+    (realpath containment, symlink-safe), so no write or delete can
+    ever escape JOB_DIR.
+    """
+    if not is_valid_job_id(job_id):
+        raise ValueError('Invalid job ID: %r' % (job_id,))
+    job_dir_abs = os.path.abspath(JOB_DIR)
+    path = os.path.join(JOB_DIR, job_id + '.json')
+    resolved = os.path.realpath(path)
+    if not resolved.startswith(job_dir_abs + os.sep):
+        raise ValueError('Resolved job path escapes the jobs directory: %r' % (path,))
+    return path
 
 def load_manifest():
     """Load job manifest from file or create default structure if it doesn't exist or is invalid."""
@@ -67,14 +103,18 @@ def save_jobs_to_files(jobs):
     os.makedirs(JOB_DIR, exist_ok=True)
 
     for i, job in enumerate(jobs, 1):
-        job_file_path = os.path.join(JOB_DIR, f"{job['id']}.json")
         try:
-            with open(job_file_path, 'w', encoding='utf-8') as f:
+            safe_path = job_file_path(job.get('id'))
+        except ValueError as e:
+            logger.error(f"  [{i}/{len(jobs)}] ⛔ Skipping job with unsafe ID: {e}")
+            continue
+        try:
+            with open(safe_path, 'w', encoding='utf-8') as f:
                 json.dump(job, f, indent=2, ensure_ascii=False)
-            logger.info(f"  [{i}/{len(jobs)}] ✅ Saved: {job['title'][:60]}... to {os.path.basename(job_file_path)}")
+            logger.info(f"  [{i}/{len(jobs)}] ✅ Saved: {job['title'][:60]}... to {os.path.basename(safe_path)}")
             saved_count += 1
         except Exception as e:
-            logger.error(f"Error saving job file for ID {job.get('id', 'unknown')} at {job_file_path}: {e}")
+            logger.error(f"Error saving job file for ID {job.get('id', 'unknown')} at {safe_path}: {e}")
 
     logger.info(f"\n📁 Successfully saved {saved_count}/{len(jobs)} job files to '{JOB_DIR}' directory.")
     return saved_count
@@ -94,6 +134,11 @@ def _remove_orphan_job_files(manifest):
         if file_id in active_ids:
             continue
         file_path = os.path.join(JOB_DIR, file_name)
+        job_dir_abs = os.path.abspath(JOB_DIR)
+        resolved = os.path.realpath(file_path)
+        if not resolved.startswith(job_dir_abs + os.sep):
+            logger.warning(f"Skipping suspicious job file outside jobs dir: {file_name}")
+            continue
         try:
             os.remove(file_path)
             removed += 1
@@ -147,16 +192,23 @@ def delete_expired_jobs():
                 logger.warning(f"Could not parse 'scraped_at' for job {job_entry.get('id', 'unknown')}. Skipping age-based expiry.")
 
         if not is_expired:
-            active_jobs.append(job_entry)
+            # Phase 4: normalize retained jobs so every record carries
+            # the full schema (status, last_verified, explicit None for
+            # unavailable fields). No data is dropped or invented.
+            active_jobs.append(normalize_job(job_entry))
         else:
             expired_count += 1
-            job_file_path = os.path.join(JOB_DIR, f"{job_entry.get('id', 'unknown')}.json")
-            if os.path.exists(job_file_path):
+            try:
+                safe_path = job_file_path(job_entry.get('id'))
+            except ValueError as e:
+                logger.warning(f"Expired job had an unsafe ID; removing from manifest only: {e}")
+                safe_path = None
+            if safe_path and os.path.exists(safe_path):
                 try:
-                    os.remove(job_file_path)
-                    logger.info(f"🗑️ Deleted expired job file: {os.path.basename(job_file_path)}")
+                    os.remove(safe_path)
+                    logger.info(f"🗑️ Deleted expired job file: {os.path.basename(safe_path)}")
                 except OSError as e:
-                    logger.error(f"Error deleting expired job file {job_file_path}: {e}")
+                    logger.error(f"Error deleting expired job file {safe_path}: {e}")
 
     manifest['jobs'] = active_jobs
     manifest['active_jobs'] = len(active_jobs)
