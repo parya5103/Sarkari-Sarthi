@@ -74,12 +74,16 @@ class SourceMetrics:
         }
 
     def needs_attention(self, entry):
-        """A source needs attention when it failed or found nothing."""
+        """A source needs attention when it failed or found nothing.
+
+        Always returns a real bool (a raw falsy value like None from
+        .get() must never leak out as the return value).
+        """
         status = str(entry.get('status') or '')
-        return (
+        return bool(
             status in ('fetch-failed', 'parse-error', 'robots-disallowed', 'error')
-            or (status == 'no-jobs')
-            or (entry.get('parser_errors'))
+            or status == 'no-jobs'
+            or entry.get('parser_errors')
         )
 
     def write_report(self, json_path=REPORT_JSON, md_path=REPORT_MD):

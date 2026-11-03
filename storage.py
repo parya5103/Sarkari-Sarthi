@@ -168,9 +168,15 @@ def _remove_orphan_job_files(manifest):
     if not os.path.isdir(JOB_DIR):
         return
     active_ids = {job_entry.get('id') for job_entry in manifest.get('jobs', [])}
+    protected = {
+        os.path.basename(MANIFEST_FILE),
+        # The expired archive lives inside JOB_DIR: the orphan sweep
+        # must never treat it as a stale per-job file and delete it.
+        os.path.basename(ARCHIVE_FILE),
+    }
     removed = 0
     for file_name in os.listdir(JOB_DIR):
-        if not file_name.endswith('.json') or file_name == os.path.basename(MANIFEST_FILE):
+        if not file_name.endswith('.json') or file_name in protected:
             continue
         file_id = file_name[:-len('.json')]
         if file_id in active_ids:
