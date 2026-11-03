@@ -6,6 +6,7 @@ AI-powered job scraper for Indian government and private sector jobs
 
 import logging
 import os
+import sys
 
 from datetime import datetime
 
@@ -82,7 +83,10 @@ def main():
         print(f"📊 Total active jobs in system: {final_manifest.get('active_jobs', 0)}")
         print(f"🕒 Last updated: {final_manifest.get('last_updated', 'Unknown')}")
         print("=" * 60)
-        return
+        # Honest failure (master plan Phase 7): zero jobs scraped from
+        # every portal means the pipeline is broken. Fail the run
+        # instead of silently pretending the site is up to date.
+        sys.exit(1)
 
     logger.info(f"\n🔍 Processing {len(all_scraped_jobs)} raw scraped jobs...")
 

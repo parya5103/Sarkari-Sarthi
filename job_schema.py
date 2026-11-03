@@ -20,7 +20,7 @@ Rules from the project master plan:
   because their titles look similar.
 """
 
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 
 NOT_SPECIFIED_TEXT = 'Not specified in official notification'
 
@@ -152,3 +152,31 @@ def is_duplicate_job(candidate, existing_urls, existing_adv_keys):
     if key and key in existing_adv_keys:
         return 'same-advertisement'
     return None
+
+
+NOTIFICATION_WINDOW_HOURS = 36
+NOTIFICATION_CAP = 25
+
+
+def select_recent_jobs(jobs, now=None, hours=NOTIFICATION_WINDOW_HOURS, cap=NOTIFICATION_CAP):
+    """Return jobs first recorded within the notification window, capped.
+
+    Notification channels must not blast the full manifest every run:
+    only jobs whose scraped_at (or found_date / last_verified
+    fallback) falls inside the window are selected, at most `cap` of
+    them. Jobs without any usable timestamp are skipped rather
+    than guessed.
+    """
+    now = now or date.today()
+    window_start = now - timedelta(hours=hours)
+    selected = []
+    for job in jobs:
+        if not isinstance(job, dict):
+            continue
+        stamp = (job.get('scraped_at')
+                 or (job.get('important_dates') or {}).get('found_date')
+                 or job.get('last_verified'))
+        parsed = parse_date(stamp) if stamp else None
+        if parsed and parsed >= window_start:
+            selected.append(job)
+    return selected[:cap]
