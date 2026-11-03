@@ -9,6 +9,7 @@ static prerendered HTML page at job/<id>/index.html with:
 - official notification/application links when verified
 - source attribution and last-verified date
 - related jobs in the same category
+- labelled inactive ad area (activated only with a real slot ID)
 
 JobPosting JSON-LD is built ONLY from verified fields. Unknown
 fields (salary, location, organization, dates) are omitted from the
@@ -179,6 +180,8 @@ def render_detail_page(job, related):
 <meta name="description" content="''' + meta_desc + '''">
 <link rel="canonical" href="''' + page_url + '''">
 <link rel="stylesheet" href="/sarkari-sarthi/style.css">
+<link rel="stylesheet" href="/sarkari-sarthi/assets/css/ads.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2895136878543415" crossorigin="anonymous"></script>
 ''' + ld_block + '''
 </head>
 <body class="dark-mode">
@@ -212,8 +215,13 @@ def render_detail_page(job, related):
 <p class="job-disclaimer">Sarkari Sarthi is an independent information portal, not a government
 website. Always verify details on the official notification before applying.</p>
 </article>
+<aside class="ad-slot" data-ad-slot="sarkari-detail-bottom" hidden aria-label="Advertisement">
+<p class="ad-label">Advertisement</p>
+<ins class="adsbygoogle" style="display:block"></ins>
+</aside>
 ''' + related_block + '''
 </main>
+<script src="/sarkari-sarthi/assets/js/ads.js"></script>
 </body>
 </html>'''
     return page
