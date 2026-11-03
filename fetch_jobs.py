@@ -19,6 +19,7 @@ from storage import (
 )
 from scraper import JOB_PORTALS, fetch_page_content, scrape_generic_job_site, _scrape_single_portal, scrape_all_job_portals
 from job_schema import normalize_job, is_duplicate_job, advertisement_key
+from official_sources import fetch_employment_news_jobs, SOURCE_NAME as OFFICIAL_SOURCE_NAME
 from parser import (
     download_pdf, extract_text_from_pdf, summarize_job_description,
     extract_important_dates_and_links, auto_detect_job_category,
@@ -48,6 +49,12 @@ def main():
 
     all_scraped_jobs = scrape_all_job_portals()
 
+    # Official source (Phase 3): Employment News rows arrive already
+    # complete with verified listing data. They must NOT be re-fetched
+    # through process_job_content, so they are kept in a separate list.
+    official_jobs = fetch_employment_news_jobs()
+    all_scraped_jobs.extend(official_jobs)
+
     if not all_scraped_jobs:
         logger.warning("⚠️ WARNING: No jobs were scraped from any portal!")
         logger.warning("This might be due to: Network issues, website blocking, or structural changes.")
@@ -64,9 +71,9 @@ def main():
 
     logger.info(f"\n🔍 Processing {len(all_scraped_jobs)} raw scraped jobs...")
 
-    new_jobs_to_add = []
     duplicate_count = 0
     jobs_to_process = []
+    official_to_add = []
 
     for job_candidate in all_scraped_jobs:
         dup_reason = is_duplicate_job(job_candidate, existing_job_urls, existing_adv_keys)
@@ -79,11 +86,18 @@ def main():
         if not is_valid_job_id(job_candidate.get('id')):
             logger.warning(f"⛔ Dropping scraped job with unsafe ID: {job_candidate.get('id')!r}")
             continue
-        jobs_to_process.append(job_candidate)
+        if job_candidate.get('source') == OFFICIAL_SOURCE_NAME:
+            # Official listing rows are already complete records.
+            official_to_add.append(job_candidate)
+        else:
+            jobs_to_process.append(job_candidate)
         existing_job_urls.add(job_candidate['url'])
         adv_key = advertisement_key(job_candidate)
         if adv_key:
             existing_adv_keys.add(adv_key)
+
+    # Official records are normalized immediately (no per-job fetch).
+    new_jobs_to_add = [normalize_job(j) for j in official_to_add]
 
     if jobs_to_process:
         logger.info(f"🔄 Concurrently processing {len(jobs_to_process)} unique jobs...")

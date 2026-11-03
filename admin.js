@@ -246,6 +246,14 @@ function openAddJobModal() {
     document.getElementById('jobId').value = '';
     document.getElementById('jobTitle').value = '';
     document.getElementById('jobDepartment').value = '';
+    document.getElementById('jobOrganization').value = '';
+    document.getElementById('jobAdvtNo').value = '';
+    document.getElementById('jobVacancies').value = '';
+    document.getElementById('jobQualification').value = '';
+    document.getElementById('jobStartDate').value = '';
+    document.getElementById('jobNotificationUrl').value = '';
+    document.getElementById('jobApplyUrl').value = '';
+    document.getElementById('jobStatus').value = 'active';
     document.getElementById('jobCategory').value = 'Other Govt Jobs';
     document.getElementById('jobLastDate').value = '';
     document.getElementById('jobUrl').value = '';
@@ -266,6 +274,14 @@ function editJob(jobId) {
     document.getElementById('jobId').value = job.id;
     document.getElementById('jobTitle').value = job.title || '';
     document.getElementById('jobDepartment').value = job.department || '';
+    document.getElementById('jobOrganization').value = job.organization || '';
+    document.getElementById('jobAdvtNo').value = job.advertisement_no || '';
+    document.getElementById('jobVacancies').value = job.vacancies || '';
+    document.getElementById('jobQualification').value = job.qualification || '';
+    document.getElementById('jobStartDate').value = (job.important_dates && job.important_dates.application_start_date) || job.application_start_date || '';
+    document.getElementById('jobNotificationUrl').value = job.official_notification_url || '';
+    document.getElementById('jobApplyUrl').value = job.official_application_url || '';
+    document.getElementById('jobStatus').value = job.status || 'active';
     document.getElementById('jobCategory').value = job.category || 'Other Govt Jobs';
     document.getElementById('jobLastDate').value = job.last_date || (job.important_dates && job.important_dates.last_date) || '';
     document.getElementById('jobUrl').value = job.url || '';
@@ -297,12 +313,24 @@ async function saveJobData() {
     }
     const id = document.getElementById('jobId').value || `manual_${generateHash()}`;
 
+    // Manual import (Phase 3): optional fields are stored as null when
+    // left blank, never as invented values. null means 'not specified in
+    // the official notification'.
+    const val = (elemId) => (document.getElementById(elemId).value || '').trim() || null;
     const newJobData = {
         id: id,
         title: document.getElementById('jobTitle').value.trim(),
         department: document.getElementById('jobDepartment').value.trim(),
+        organization: val('jobOrganization'),
+        advertisement_no: val('jobAdvtNo'),
+        vacancies: val('jobVacancies'),
+        qualification: val('jobQualification'),
+        official_notification_url: val('jobNotificationUrl'),
+        official_application_url: val('jobApplyUrl'),
+        application_start_date: val('jobStartDate'),
+        status: val('jobStatus') || 'active',
         category: document.getElementById('jobCategory').value,
-        last_date: document.getElementById('jobLastDate').value.trim(),
+        last_date: document.getElementById('jobLastDate').value.trim() || null,
         url: document.getElementById('jobUrl').value.trim(),
         summary: document.getElementById('jobSummary').value.trim(),
         found_date: new Date().toISOString()
@@ -327,6 +355,9 @@ async function saveJobData() {
             merged.important_dates = { ...existing.important_dates };
             if (newJobData.last_date) {
                 merged.important_dates.last_date = newJobData.last_date;
+            }
+            if (newJobData.application_start_date) {
+                merged.important_dates.application_start_date = newJobData.application_start_date;
             }
         }
         if (existing.description && newJobData.summary) {
