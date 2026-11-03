@@ -98,8 +98,14 @@ def render_detail_page(job, related):
     ld = job_posting_jsonld(job, page_url)
     ld_block = ''
     if ld:
+        # JSON unicode-escape < > & so untrusted job text can never
+        # close the JSON-LD script element early (script injection).
+        ld_json = json.dumps(ld, ensure_ascii=False)
+        ld_json = (ld_json.replace('<', chr(92) + 'u003c')
+                          .replace('>', chr(92) + 'u003e')
+                          .replace('&', chr(92) + 'u0026'))
         ld_block = ('<script type="application/ld+json">' +
-                    json.dumps(ld, ensure_ascii=False) +
+                    ld_json +
                     '</script>')
 
     status_banner = ''

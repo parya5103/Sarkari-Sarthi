@@ -70,6 +70,12 @@ class TestRenderDetailPage:
         assert '<script>alert(1)</script>' not in page
         assert '&lt;script&gt;' in page
 
+    def test_jsonld_script_injection_escaped(self):
+        job = sample_job(title='X Job', description='Y </script><script>alert(1)</script>')
+        page = render_detail_page(job, [])
+        assert '</script><script>' not in page
+        assert 'u003c' in page
+
     def test_not_specified_shown_for_missing_last_date(self):
         job = sample_job(important_dates={'found_date': '02-11-2026'})
         page = render_detail_page(job, [])

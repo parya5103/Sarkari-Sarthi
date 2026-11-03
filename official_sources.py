@@ -10,9 +10,11 @@ Only official recruitment listings are automated here. Every adapter:
 
 Automated now:
 - Employment News (employmentnews.gov.in), the official Government of
-  India weekly. Its AllJobs listing publishes, per row: issued date
-  (MM/DD/YYYY), organisation, post, method of appointment and last
-  date (DD/MM/YYYY). Those five verified values become the job record.
+  India weekly. Its AllJobs listing publishes, per row: issued date,
+  organisation, post, method of appointment and last date. Both date
+  columns actually carry DD/MM/YYYY values (the issued-date header
+  says MM/DD/YYYY, but live rows like 31/08/2026 prove day-first).
+  Those five verified values become the job record.
 
 NOT automated (deliberately): SSC, UPSC, IBPS, MPESB. UPSC requires
 JavaScript to render, and IBPS/MPESB/SSC sit behind anti-bot walls
@@ -90,6 +92,21 @@ def robots_allows(url, user_agent, fetch=None):
     return True
 
 
+def _convert_issued_date(raw):
+    """Parse an issued-date cell as DD/MM/YYYY (day-first).
+
+    The listing column header claims MM/DD/YYYY, but the live values
+    are day-first (verified: rows such as 31/08/2026 cannot be
+    month-first). None when blank or unparseable.
+    """
+    if not raw:
+        return None
+    try:
+        return datetime.strptime(raw.strip(), '%d/%m/%Y').strftime('%d-%m-%Y')
+    except ValueError:
+        return None
+
+
 def _convert_date(raw, fmt):
     """Parse one listing date cell; None when blank or unparseable."""
     if not raw:
@@ -118,7 +135,7 @@ def parse_employment_news_html(html_bytes, now=None):
         if len(cells) < 4:
             continue
         texts = [cell.get_text(separator=' ', strip=True) for cell in cells]
-        issued = _convert_date(texts[0], '%m/%d/%Y')
+        issued = _convert_issued_date(texts[0])
         if not issued:
             continue
         org = texts[1]

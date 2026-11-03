@@ -27,8 +27,8 @@ def load_fixture_bytes():
 class TestEmploymentNewsParsing:
     def test_parses_valid_rows_and_skips_bad(self):
         jobs = parse_employment_news_html(load_fixture_bytes())
-        # 6 data rows: 1 invalid (no parseable issued date) and
-        # 2 identical rows collapse to 1, leaving 4 unique jobs.
+        # 7 data rows: 1 invalid (no parseable issued date) and
+        # 2 identical rows collapse to 1, leaving 5 unique jobs.
         assert len(jobs) == 4
 
     def test_record_shape_matches_job_schema(self):
@@ -49,6 +49,12 @@ class TestEmploymentNewsParsing:
         tgt = by_post['TGT (COMPUTER SCIENCE) AND OTHERS']
         assert tgt['important_dates']['last_date'] == '21-11-2026'
         assert tgt['published_date'] == '02-11-2026'
+
+    def test_unambiguous_day_first_issued_date(self):
+        jobs = parse_employment_news_html(load_fixture_bytes())
+        row = [j for j in jobs if j['title'].startswith('UNIVERSITY ASSISTANT')][0]
+        assert row['published_date'] == '31-08-2026'
+        assert row['important_dates']['last_date'] == '15-10-2026'
 
     def test_missing_last_date_never_invented(self):
         jobs = parse_employment_news_html(load_fixture_bytes())
@@ -132,7 +138,7 @@ class TestRobotsCompliance:
             return load_fixture_bytes()
 
         jobs = fetch_employment_news_jobs(fetch=fake_fetch)
-        assert len(jobs) == 4
+        assert len(jobs) == 5
         assert len(calls) == 2
 
     def test_adapter_graceful_on_empty_html(self):

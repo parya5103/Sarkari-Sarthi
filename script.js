@@ -484,7 +484,8 @@ function openJobModal(job) {
     if (!modalTitle || !modalBody || !modalApplyBtn) return;
     
     modalTitle.textContent = job.title;
-    modalApplyBtn.href = sanitizeURL(job.url);
+    // Prefer the verified official application URL when present.
+    modalApplyBtn.href = sanitizeURL(job.official_application_url || job.url);
     
     const lastDate = job.important_dates?.last_date || job.important_dates?.found_date || 'Not specified';
     const examDate = job.important_dates?.exam_date || 'Not specified';
@@ -561,7 +562,10 @@ function openJobModal(job) {
         detailsDiv.appendChild(section3);
     }
 
-    if (job.pdf_link) {
+    // Prefer the verified official notification URL when present;
+    // the legacy pdf_link remains the fallback for older records.
+    const notificationUrl = job.official_notification_url || job.pdf_link;
+    if (notificationUrl) {
         const section4 = document.createElement('div');
         section4.className = 'modal-section';
         const h4_4 = document.createElement('h4');
@@ -570,7 +574,7 @@ function openJobModal(job) {
 
         const pdfP = document.createElement('p');
         const pdfA = document.createElement('a');
-        pdfA.href = sanitizeURL(job.pdf_link);
+        pdfA.href = sanitizeURL(notificationUrl);
         pdfA.target = '_blank';
         pdfA.rel = 'noopener noreferrer';
         pdfA.className = 'pdf-link';
