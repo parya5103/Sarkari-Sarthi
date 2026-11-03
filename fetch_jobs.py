@@ -18,6 +18,7 @@ from storage import (
     is_valid_job_id
 )
 from scraper import JOB_PORTALS, fetch_page_content, scrape_generic_job_site, _scrape_single_portal, scrape_all_job_portals
+from job_schema import normalize_job, is_duplicate_job, advertisement_key
 from parser import (
     download_pdf, extract_text_from_pdf, summarize_job_description,
     extract_important_dates_and_links, auto_detect_job_category,
@@ -41,6 +42,8 @@ def main():
 
     manifest = load_manifest()
     existing_job_urls = {job['url'] for job in manifest.get('jobs', [])}
+    existing_adv_keys = {advertisement_key(job) for job in manifest.get('jobs', [])}
+    existing_adv_keys.discard(None)
     logger.info(f"📋 Existing jobs in manifest: {len(existing_job_urls)}")
 
     all_scraped_jobs = scrape_all_job_portals()
@@ -66,8 +69,10 @@ def main():
     jobs_to_process = []
 
     for job_candidate in all_scraped_jobs:
-        if job_candidate['url'] in existing_job_urls:
+        dup_reason = is_duplicate_job(job_candidate, existing_job_urls, existing_adv_keys)
+        if dup_reason:
             duplicate_count += 1
+            logger.info(f"Duplicate skipped ({dup_reason}): {job_candidate.get('title', '')[:60]}")
             continue
         # Security: drop any record whose ID would be unsafe as a
         # filesystem path component (jobs/<id>.json).
@@ -76,6 +81,9 @@ def main():
             continue
         jobs_to_process.append(job_candidate)
         existing_job_urls.add(job_candidate['url'])
+        adv_key = advertisement_key(job_candidate)
+        if adv_key:
+            existing_adv_keys.add(adv_key)
 
     if jobs_to_process:
         logger.info(f"🔄 Concurrently processing {len(jobs_to_process)} unique jobs...")
@@ -86,7 +94,7 @@ def main():
                 job = future_to_job[future]
                 try:
                     processed_job = future.result()
-                    new_jobs_to_add.append(processed_job)
+                    new_jobs_to_add.append(normalize_job(processed_job))
                 except Exception as exc:
                     logger.error(f"❌ Job processing generated an exception for {job['url']}: {exc}")
 

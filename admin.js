@@ -267,9 +267,9 @@ function editJob(jobId) {
     document.getElementById('jobTitle').value = job.title || '';
     document.getElementById('jobDepartment').value = job.department || '';
     document.getElementById('jobCategory').value = job.category || 'Other Govt Jobs';
-    document.getElementById('jobLastDate').value = job.last_date || '';
+    document.getElementById('jobLastDate').value = job.last_date || (job.important_dates && job.important_dates.last_date) || '';
     document.getElementById('jobUrl').value = job.url || '';
-    document.getElementById('jobSummary').value = job.summary || '';
+    document.getElementById('jobSummary').value = job.summary || job.description || '';
 
     document.getElementById('jobModal').style.display = 'flex';
 }
@@ -317,9 +317,25 @@ async function saveJobData() {
     const existingIndex = currentJobs.findIndex(j => j.id === id);
     if (existingIndex >= 0) {
         // Keep original found_date if it exists
-        newJobData.found_date = currentJobs[existingIndex].found_date || newJobData.found_date;
-        currentJobs[existingIndex] = { ...currentJobs[existingIndex], ...newJobData };
+        const existing = currentJobs[existingIndex];
+        newJobData.found_date = existing.found_date || newJobData.found_date;
+        const merged = { ...existing, ...newJobData };
+        // Scraped jobs keep dates inside important_dates. Mirror the flat
+        // admin field into the nested structure so the public listing
+        // (which reads important_dates.last_date) stays in sync.
+        if (existing.important_dates) {
+            merged.important_dates = { ...existing.important_dates };
+            if (newJobData.last_date) {
+                merged.important_dates.last_date = newJobData.last_date;
+            }
+        }
+        if (existing.description && newJobData.summary) {
+            merged.description = newJobData.summary;
+        }
+        merged.last_verified = new Date().toISOString();
+        currentJobs[existingIndex] = merged;
     } else {
+        newJobData.last_verified = new Date().toISOString();
         currentJobs.unshift(newJobData); // Add to top
     }
 
@@ -336,6 +352,8 @@ async function updateManifestOnGithub(commitMessage) {
     const manifestData = {
         last_updated: new Date().toISOString(),
         total_jobs: currentJobs.length,
+        active_jobs: currentJobs.length,
+        expired_jobs: 0,
         jobs: currentJobs
     };
 

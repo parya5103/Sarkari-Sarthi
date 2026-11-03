@@ -4,6 +4,8 @@ import json
 from datetime import datetime
 import re
 
+from job_schema import normalize_job
+
 logger = logging.getLogger(__name__)
 
 # Directory for storing job data and manifest
@@ -190,7 +192,10 @@ def delete_expired_jobs():
                 logger.warning(f"Could not parse 'scraped_at' for job {job_entry.get('id', 'unknown')}. Skipping age-based expiry.")
 
         if not is_expired:
-            active_jobs.append(job_entry)
+            # Phase 4: normalize retained jobs so every record carries
+            # the full schema (status, last_verified, explicit None for
+            # unavailable fields). No data is dropped or invented.
+            active_jobs.append(normalize_job(job_entry))
         else:
             expired_count += 1
             try:
