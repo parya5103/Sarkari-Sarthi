@@ -65,6 +65,7 @@ function sanitizeHTML(htmlString) {
 
 // Global variables
 let jobsData = [];
+let jobsLoadFailed = false; // true when the job manifest could not be loaded (no fake fallback jobs)
 let filteredJobs = [];
 let currentPage = 1;
 const jobsPerPage = 12;
@@ -188,20 +189,53 @@ function setupEventListeners() {
 }
 
 /**
+ * Parse a job date string in the formats used by job records
+ * (dd-mm-yyyy, dd/mm/yyyy, yyyy-mm-dd). Returns null if unparseable.
+ */
+function parseJobDate(dateStr) {
+    if (!dateStr) return null;
+    let m = dateStr.match(/(\d{1,2})[-\/](\d{1,2})[-\/](\d{4})/);
+    if (m) return new Date(+m[3], +m[2] - 1, +m[1]);
+    m = dateStr.match(/(\d{4})[-\/](\d{1,2})[-\/](\d{1,2})/);
+    if (m) return new Date(+m[1], +m[2] - 1, +m[3]);
+    return null;
+}
+
+/**
+ * Filter out jobs whose last date has already passed, so closed
+ * vacancies are never displayed as active openings.
+ */
+function filterExpiredJobs(jobs) {
+    const now = new Date();
+    now.setHours(0, 0, 0, 0);
+    return jobs.filter(job => {
+        const lastDateStr = job.important_dates && job.important_dates.last_date;
+        const lastDate = parseJobDate(lastDateStr);
+        // Keep jobs without a parseable last date: absence of a date is
+        // not evidence that a vacancy has closed.
+        if (!lastDate) return true;
+        return lastDate >= now;
+    });
+}
+
+/**
  * Load jobs data (simulated for now)
  */
 async function loadJobs() {
     try {
         showLoading(true);
-        
+        jobsLoadFailed = false;
+
         // Try to load from job manifest first
         const response = await fetch('jobs/job_manifest.json');
         if (response.ok) {
             const manifest = await response.json();
-            jobsData = manifest.jobs || [];
+            jobsData = filterExpiredJobs(manifest.jobs || []);
         } else {
-            // Fallback to sample data if manifest doesn't exist
-            jobsData = generateSampleJobs();
+            // Manifest missing or unreachable: show an honest error
+            // state. Never fall back to hard-coded sample jobs.
+            jobsData = [];
+            jobsLoadFailed = true;
         }
         
         // Optimization: Pre-compute _searchString once during data load to avoid O(N*5) string allocations on every search keystroke
@@ -217,8 +251,9 @@ async function loadJobs() {
         
     } catch (error) {
         console.error('Error loading jobs:', error);
-        // Use sample data as fallback
-        jobsData = generateSampleJobs();
+        // Honest error state: no fake sample-job fallback.
+        jobsData = [];
+        jobsLoadFailed = true;
 
         jobsData.forEach(job => {
             const skillsStr = job.skills ? job.skills.join(' ') : '';
@@ -233,96 +268,6 @@ async function loadJobs() {
     }
 }
 
-/**
- * Generate sample jobs for demonstration
- */
-function generateSampleJobs() {
-    const sampleJobs = [
-        {
-            id: 'sample1',
-            title: 'SBI Clerk Recruitment 2024',
-            source: 'State Bank of India',
-            category: 'Banking',
-            description: 'State Bank of India invites applications for the post of Junior Associate (Customer Support & Sales) in Clerical Cadre. This is a great opportunity for candidates looking to start their career in the banking sector.',
-            url: 'https://sbi.co.in/careers',
-            important_dates: {
-                last_date: '15-02-2024',
-                exam_date: '10-03-2024'
-            },
-            skills: ['Banking', 'Customer Service', 'Computer Skills'],
-            pdf_link: null
-        },
-        {
-            id: 'sample2',
-            title: 'SSC CGL 2024 Notification',
-            source: 'Staff Selection Commission',
-            category: 'SSC',
-            description: 'Staff Selection Commission has released notification for Combined Graduate Level Examination 2024. Various posts are available across different ministries and departments.',
-            url: 'https://ssc.nic.in',
-            important_dates: {
-                last_date: '20-02-2024',
-                exam_date: '15-04-2024'
-            },
-            skills: ['General Knowledge', 'Mathematics', 'English', 'Reasoning'],
-            pdf_link: null
-        },
-        {
-            id: 'sample3',
-            title: 'Railway Group D Recruitment',
-            source: 'Indian Railways',
-            category: 'Railway',
-            description: 'Railway Recruitment Board invites applications for Group D posts including Track Maintainer, Helper, Assistant Pointsman, and other technical posts.',
-            url: 'https://indianrailways.gov.in',
-            important_dates: {
-                last_date: '25-02-2024'
-            },
-            skills: ['Technical Skills', 'Physical Fitness'],
-            pdf_link: null
-        },
-        {
-            id: 'sample4',
-            title: 'UPSC Civil Services Preliminary Exam 2024',
-            source: 'Union Public Service Commission',
-            category: 'UPSC',
-            description: 'UPSC has announced the Civil Services Preliminary Examination 2024 for recruitment to various Group A and Group B services.',
-            url: 'https://upsc.gov.in',
-            important_dates: {
-                last_date: '28-02-2024',
-                exam_date: '26-05-2024'
-            },
-            skills: ['General Studies', 'Current Affairs', 'Optional Subject'],
-            pdf_link: null
-        },
-        {
-            id: 'sample5',
-            title: 'Delhi Police Constable Recruitment',
-            source: 'Delhi Police',
-            category: 'Police',
-            description: 'Delhi Police invites applications for the post of Constable (Executive) Male and Female. Physical and written tests will be conducted.',
-            url: 'https://delhipolice.nic.in',
-            important_dates: {
-                last_date: '18-02-2024'
-            },
-            skills: ['Physical Fitness', 'General Knowledge', 'Hindi', 'English'],
-            pdf_link: null
-        },
-        {
-            id: 'sample6',
-            title: 'Indian Army Agniveer Recruitment',
-            source: 'Indian Army',
-            category: 'Defence',
-            description: 'Indian Army is recruiting Agniveers for various technical and non-technical posts. This is under the Agnipath scheme.',
-            url: 'https://joinindianarmy.nic.in',
-            important_dates: {
-                last_date: '22-02-2024'
-            },
-            skills: ['Physical Fitness', 'Technical Skills', 'Discipline'],
-            pdf_link: null
-        }
-    ];
-    
-    return sampleJobs;
-}
 
 /**
  * Render jobs on the page
@@ -339,7 +284,17 @@ function renderJobs() {
     }
     
     if (jobsToShow.length === 0) {
-        jobsGrid.innerHTML = `
+        if (jobsLoadFailed) {
+            jobsGrid.innerHTML = `
+            <div class="no-jobs">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">📡</div>
+                <h3>Couldn't load job listings</h3>
+                <p>The latest job data could not be loaded. Check your internet connection and retry. We never display sample or outdated jobs as real vacancies.</p>
+                <button class="clear-filters-btn" onclick="location.reload()">Retry</button>
+            </div>
+        `;
+        } else {
+            jobsGrid.innerHTML = `
             <div class="no-jobs">
                 <div style="font-size: 3rem; margin-bottom: 1rem;">🔍</div>
                 <h3>No jobs found</h3>
@@ -347,6 +302,7 @@ function renderJobs() {
                 <button class="clear-filters-btn" onclick="clearAllFilters()">Clear All Filters</button>
             </div>
         `;
+        }
         loadMoreBtn.style.display = 'none';
         return;
     }
@@ -946,8 +902,7 @@ if (typeof module !== 'undefined' && module.exports) {
         handleSearch,
         handleFilter,
         handleSort,
-        formatDate,
-        generateSampleJobs
+        formatDate
     };
 }
 
