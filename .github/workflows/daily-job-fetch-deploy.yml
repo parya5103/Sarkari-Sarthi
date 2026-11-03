@@ -26,9 +26,13 @@ jobs:
 
       - name: Run Python tests
         run: |
-          set -o pipefail
+          # GitHub runs this script with bash -e (errexit): a failing
+          # pytest would abort the script before diagnostics are
+          # emitted. Disable errexit around pytest and re-enable after.
+          set +e
           python -m pytest tests/ -v --tb=short > pytest_output.txt 2>&1
           status=$?
+          set -e
           {
             echo "## Python test results"
             echo ""
