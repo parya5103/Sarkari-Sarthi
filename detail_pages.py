@@ -154,6 +154,15 @@ def render_detail_page(job, related):
 
     related_items = []
     for rel in related:
+        # Defensive filtering (write_detail_pages also filters):
+        # related links never show expired or cancelled vacancies,
+        # and only same-category jobs are related to this one.
+        if not isinstance(rel, dict) or rel.get('id') == job_id:
+            continue
+        if rel.get('category') != job.get('category'):
+            continue
+        if str(rel.get('status') or 'active').lower() in ('expired', 'cancelled'):
+            continue
         related_items.append('<li><a href="' + detail_url(rel['id']) + '">' +
                               _esc(rel.get('title') or rel['id']) + '</a></li>')
     related_block = ''

@@ -29,7 +29,7 @@ class TestEmploymentNewsParsing:
         jobs = parse_employment_news_html(load_fixture_bytes())
         # 7 data rows: 1 invalid (no parseable issued date) and
         # 2 identical rows collapse to 1, leaving 5 unique jobs.
-        assert len(jobs) == 4
+        assert len(jobs) == 5
 
     def test_record_shape_matches_job_schema(self):
         jobs = parse_employment_news_html(load_fixture_bytes())
