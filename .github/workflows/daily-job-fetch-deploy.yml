@@ -37,11 +37,11 @@ jobs:
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
           if [ "$status" -ne 0 ]; then
-            tail -n 90 pytest_output.txt > pytest_tail.txt
+            tail -n 90 pytest_output.txt | tr -cd '\40-\176\n' > pytest_tail.txt
             split -l 15 pytest_tail.txt pytest_chunk_
             for f in pytest_chunk_*; do
               msg=$(head -c 900 "$f" | tr '\n' '|')
-              echo "::error::${msg}"
+              echo "::error::PYTEST-TAIL ${msg}"
             done
             rm -f pytest_chunk_*
           fi
