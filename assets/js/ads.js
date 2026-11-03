@@ -4,25 +4,31 @@
    listings - never beside job cards, Apply buttons, or within the
    listings grid. Games (/arrowout/, /crystalquest/) never load ads.
 
-   ACTIVATION (owner only, after AdSense approval):
-   1. Set publisherId to the VERIFIED publisher ID (ca-pub-...).
-   2. Fill the slot ID in CONFIG.slots with a real AdSense slot ID.
-   3. Ensure /ads.txt exists at the gogocompany.in site root with the
+   STATUS (2026-11-03):
+   1. DONE: publisherId set to the owner-verified ID
+      ca-pub-2895136878543415.
+   2. DONE: the exact AdSense loader tag is included directly in the
+      <head> of the portal page and every job detail page. This script
+      detects that tag and never injects a second copy.
+   3. DONE: /ads.txt exists at the gogocompany.in site root with the
       real publisher ID (managed in the gogo-website repository).
-   4. EEA / UK / Switzerland: ads stay OFF for those regions until a
-      Google-certified CMP (e.g. Funding Choices) handles consent.
-      Set cmpReady to true only after that integration is verified.
-
-   While publisherId is empty, nothing loads and every .ad-slot stays
-   hidden - the site serves zero ad requests. */
+   4. REMAINING: fill the slot IDs in CONFIG.slots with real AdSense
+      slot IDs (sarkari-mid for the listing page, sarkari-detail-bottom
+      for job detail pages). Until then every ad unit stays hidden and
+      zero ad units are served.
+   5. REMAINING (EEA / UK / Switzerland): ad units stay OFF for those
+      regions until a Google-certified CMP (e.g. Funding Choices)
+      handles consent. Set cmpReady to true only after that
+      integration is verified. */
 (function () {
   "use strict";
 
   var CONFIG = {
-    publisherId: "",   /* real AdSense publisher ID, e.g. "ca-pub-1234567890123456" */
+    publisherId: "ca-pub-2895136878543415",   /* owner-verified AdSense publisher ID (2026-11-03) */
     cmpReady: false,    /* true only after a Google-certified CMP handles consent */
     slots: {
-      "sarkari-mid": ""    /* AdSense slot ID for the portal mid-content unit */
+      "sarkari-mid": "",           /* listing page: between the category grid and job listings */
+      "sarkari-detail-bottom": "" /* job detail pages: after the article, before related jobs */
     }
   };
 
@@ -54,17 +60,7 @@
     return true;
   }
 
-  function load() {
-    if (!adsAllowed()) return;
-    if (document.getElementById("sarkari-adsense-lib")) return; /* no duplicate scripts */
-
-    var s = document.createElement("script");
-    s.id = "sarkari-adsense-lib";
-    s.async = true;
-    s.crossOrigin = "anonymous";
-    s.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" + CONFIG.publisherId;
-    document.head.appendChild(s);
-
+  function activateSlots() {
     var slots = document.querySelectorAll(".ad-slot[hidden]");
     for (var i = 0; i < slots.length; i++) {
       var box = slots[i];
@@ -76,6 +72,24 @@
       box.removeAttribute("hidden");
       (window.adsbygoogle = window.adsbygoogle || []).push({});
     }
+  }
+
+  function load() {
+    if (!adsAllowed()) return;
+    if (document.getElementById("sarkari-adsense-lib")) return; /* no duplicate scripts */
+    if (document.querySelector('script[src*="adsbygoogle.js?client="]')) {
+      /* Static AdSense loader already present in the page head - never inject twice. */
+      activateSlots();
+      return;
+    }
+
+    var s = document.createElement("script");
+    s.id = "sarkari-adsense-lib";
+    s.async = true;
+    s.crossOrigin = "anonymous";
+    s.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" + CONFIG.publisherId;
+    document.head.appendChild(s);
+    activateSlots();
   }
 
   if (document.readyState === "loading") {
