@@ -79,6 +79,29 @@ def save_jobs_to_files(jobs):
     logger.info(f"\n📁 Successfully saved {saved_count}/{len(jobs)} job files to '{JOB_DIR}' directory.")
     return saved_count
 
+def _remove_orphan_job_files(manifest):
+    """Delete individual job JSON files that are no longer referenced by
+    the manifest (e.g. records removed by a manifest cleanup or link
+    filter). Keeps the jobs/ directory in sync with the manifest."""
+    if not os.path.isdir(JOB_DIR):
+        return
+    active_ids = {job_entry.get('id') for job_entry in manifest.get('jobs', [])}
+    removed = 0
+    for file_name in os.listdir(JOB_DIR):
+        if not file_name.endswith('.json') or file_name == os.path.basename(MANIFEST_FILE):
+            continue
+        file_id = file_name[:-len('.json')]
+        if file_id in active_ids:
+            continue
+        file_path = os.path.join(JOB_DIR, file_name)
+        try:
+            os.remove(file_path)
+            removed += 1
+        except OSError as e:
+            logger.error(f"Error removing orphaned job file {file_path}: {e}")
+    if removed:
+        logger.info(f"\U0001f5d1\ufe0f Removed {removed} orphaned job file(s) not present in the manifest.")
+
 def delete_expired_jobs():
     """Delete expired jobs based on 'last_date' or if older than 30 days (scraped_at)."""
     logger.info("\n🧹 Cleaning up expired jobs...")
@@ -92,6 +115,7 @@ def delete_expired_jobs():
         logger.info("No jobs in manifest to clean.")
         manifest['expired_jobs'] = 0
         save_manifest(manifest)
+        _remove_orphan_job_files(manifest)
         return
 
     for job_entry in jobs_in_manifest:
@@ -139,6 +163,7 @@ def delete_expired_jobs():
     manifest['expired_jobs'] = expired_count
     manifest['total_jobs'] = len(active_jobs)
     save_manifest(manifest)
+    _remove_orphan_job_files(manifest)
     logger.info(f"✅ Cleanup complete: Deleted {expired_count} expired jobs.")
 
 SEO_STOPWORDS = {'recruitment', 'apply', 'online', 'post', 'posts', 'vacancies', 'notification', 'various', 'department', 'board', 'commission', 'service', '2023', '2024', '2025', '2026', 'india', 'state', 'vacancy', 'examination', 'exam'}
