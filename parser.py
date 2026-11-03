@@ -6,6 +6,7 @@ import pdfplumber
 import re
 from bs4 import BeautifulSoup
 from scraper import fetch_page_content
+from storage import is_valid_job_id
 
 logger = logging.getLogger(__name__)
 
@@ -22,6 +23,11 @@ COMPILED_LINK_PATTERN = re.compile(r'https?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(
 
 def download_pdf(url, save_path, max_size_bytes=10 * 1024 * 1024):
     """Download PDF file from URL with size limit."""
+    # Security: reject any save path containing parent-directory
+    # segments BEFORE making the request or touching the filesystem.
+    if '..' in str(save_path).replace(os.sep, '/').split('/'):
+        logger.error(f"Rejected unsafe save path: {save_path}")
+        return False
     try:
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
@@ -160,17 +166,23 @@ def process_job_content(job):
     job_content_text = ""
     try:
         if job['url'].lower().endswith('.pdf') or '.pdf' in job['url'].lower():
-            pdf_filename = os.path.join(JOB_DIR, f"temp_{job['id']}.pdf")
-            if download_pdf(job['url'], pdf_filename):
-                job_content_text = extract_text_from_pdf(pdf_filename)
-                job['pdf_link'] = job['url']
-            else:
+            # Security: the job ID becomes part of a filesystem path
+            # (temp_<id>.pdf). Never build paths from unvalidated IDs.
+            if not is_valid_job_id(job.get('id')):
+                logger.warning(f"⛔ Skipping PDF download for job with unsafe ID: {job.get('id')!r}")
                 job_content_text = job['title']
-            if os.path.exists(pdf_filename):
-                try:
-                    os.remove(pdf_filename)
-                except OSError:
-                    pass
+            else:
+                pdf_filename = os.path.join(JOB_DIR, f"temp_{job['id']}.pdf")
+                if download_pdf(job['url'], pdf_filename):
+                    job_content_text = extract_text_from_pdf(pdf_filename)
+                    job['pdf_link'] = job['url']
+                else:
+                    job_content_text = job['title']
+                if os.path.exists(pdf_filename):
+                    try:
+                        os.remove(pdf_filename)
+                    except OSError:
+                        pass
         else:
             job_page_content = fetch_page_content(job['url'], timeout=15)
             if job_page_content:

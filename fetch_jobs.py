@@ -14,7 +14,8 @@ import concurrent.futures
 # Import from refactored modules
 from storage import (
     JOB_DIR, MANIFEST_FILE, load_manifest, save_manifest,
-    save_jobs_to_files, delete_expired_jobs, update_seo_keywords
+    save_jobs_to_files, delete_expired_jobs, update_seo_keywords,
+    is_valid_job_id
 )
 from scraper import JOB_PORTALS, fetch_page_content, scrape_generic_job_site, _scrape_single_portal, scrape_all_job_portals
 from parser import (
@@ -67,6 +68,11 @@ def main():
     for job_candidate in all_scraped_jobs:
         if job_candidate['url'] in existing_job_urls:
             duplicate_count += 1
+            continue
+        # Security: drop any record whose ID would be unsafe as a
+        # filesystem path component (jobs/<id>.json).
+        if not is_valid_job_id(job_candidate.get('id')):
+            logger.warning(f"⛔ Dropping scraped job with unsafe ID: {job_candidate.get('id')!r}")
             continue
         jobs_to_process.append(job_candidate)
         existing_job_urls.add(job_candidate['url'])

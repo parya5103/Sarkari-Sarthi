@@ -218,6 +218,12 @@ function renderJobsTable() {
     tbody.appendChild(fragment);
 }
 
+// Security: job IDs become file names in the fetch pipeline
+// (jobs/<id>.json). Only [A-Za-z0-9_-]{1,80} is ever safe.
+function isValidJobId(id) {
+    return /^[A-Za-z0-9_-]{1,80}$/.test(id);
+}
+
 function escapeHTML(str) {
     if (!str) return '';
     return str.replace(/[&<>'"]/g,
@@ -284,6 +290,11 @@ async function deleteJob(jobId) {
 }
 
 async function saveJobData() {
+    const rawId = document.getElementById('jobId').value;
+    if (rawId && !isValidJobId(rawId)) {
+        alert('Invalid job ID. Use 1-80 characters: letters, numbers, hyphens and underscores only.');
+        return;
+    }
     const id = document.getElementById('jobId').value || `manual_${generateHash()}`;
 
     const newJobData = {
