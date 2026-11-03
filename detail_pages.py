@@ -14,10 +14,14 @@ static prerendered HTML page at job/<id>/index.html with:
 JobPosting JSON-LD is built ONLY from verified fields. Unknown
 fields (salary, location, organization, dates) are omitted from the
 JSON-LD, never invented. Jobs without a verified last date get no
-validThrough entry at all.
+validThrough entry at all. Expired and cancelled jobs get NO
+JobPosting JSON-LD at all: publishing rich results for closed
+vacancies would mislead search engines, and they are excluded from
+the sitemap as well.
 
 The root sitemap.xml lists the homepage and every generated detail
-page with an honest lastmod (the job's last_verified timestamp).
+page of a non-expired, non-cancelled job with an honest lastmod (the
+job's last_verified timestamp).
 """
 import html
 import json
@@ -36,6 +40,10 @@ SITEMAP_FILE = 'sitemap.xml'
 NOT_SPECIFIED = 'Not specified in official notification'
 MAX_RELATED = 5
 
+# Lifecycle states that must never appear in the sitemap or carry
+# JobPosting rich-result data.
+CLOSED_STATUSES = ('expired', 'cancelled')
+
 
 def detail_url(job_id):
     return BASE_URL + '/job/' + job_id + '/'
@@ -51,7 +59,14 @@ def _iso_date(value):
 
 
 def job_posting_jsonld(job, page_url):
-    """JobPosting structured data, verified fields only."""
+    """JobPosting structured data, verified fields only.
+
+    None for closed (expired/cancelled) vacancies: they are no longer
+    open for application and must not produce rich results.
+    """
+    status = str(job.get('status') or '').lower()
+    if status in CLOSED_STATUSES:
+        return None
     data = {
         '@context': 'https://schema.org',
         '@type': 'JobPosting',
@@ -113,6 +128,10 @@ def render_detail_page(job, related):
     if status == 'cancelled':
         status_banner = ('<div class="job-status-banner status-cancelled">This recruitment has been '
                          'marked cancelled. Verify on the official website before relying on it.</div>')
+    elif status == 'expired':
+        status_banner = ('<div class="job-status-banner status-expired">The last application date for this '
+                         'vacancy has passed. It is kept for reference only and is no longer open for '
+                         'application.</div>')
 
     rows = []
     rows.append(_info_row('Organization', org or NOT_SPECIFIED))
@@ -162,7 +181,7 @@ def render_detail_page(job, related):
             continue
         if rel.get('category') != job.get('category'):
             continue
-        if str(rel.get('status') or 'active').lower() in ('expired', 'cancelled'):
+        if str(rel.get('status') or 'active').lower() in CLOSED_STATUSES:
             continue
         related_items.append('<li><a href="' + detail_url(rel['id']) + '">' +
                               _esc(rel.get('title') or rel['id']) + '</a></li>')
@@ -278,7 +297,7 @@ def write_detail_pages(jobs, out_root='.'):
             rel for rel in safe_jobs
             if rel['id'] != job['id']
             and rel.get('category') == job.get('category')
-            and str(rel.get('status') or 'active').lower() not in ('expired', 'cancelled')
+            and str(rel.get('status') or 'active').lower() not in CLOSED_STATUSES
         ][:MAX_RELATED]
         try:
             page = render_detail_page(job, related)
@@ -311,6 +330,10 @@ def _write_sitemap(jobs, out_root='.'):
 
     lines.append(url_entry(BASE_URL + '/', ''))
     for job in jobs:
+        # Expired and cancelled vacancies are not open jobs: exclude
+        # them from the active-job sitemap.
+        if str(job.get('status') or 'active').lower() in CLOSED_STATUSES:
+            continue
         verified = job.get('last_verified') or ''
         lines.append(url_entry(detail_url(job['id']), verified))
     lines.append('</urlset>')
