@@ -20,6 +20,7 @@ from storage import (
 from scraper import JOB_PORTALS, fetch_page_content, scrape_generic_job_site, _scrape_single_portal, scrape_all_job_portals
 from job_schema import normalize_job, is_duplicate_job, advertisement_key
 from official_sources import fetch_employment_news_jobs, SOURCE_NAME as OFFICIAL_SOURCE_NAME
+from detail_pages import write_detail_pages
 from parser import (
     download_pdf, extract_text_from_pdf, summarize_job_description,
     extract_important_dates_and_links, auto_detect_job_category,
@@ -31,6 +32,19 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 # --- Main Execution ---
+
+def _publish_detail_pages():
+    """Regenerate static job detail pages + sitemap from the manifest.
+
+    Non-fatal on purpose: a template failure must not block the data
+    pipeline, but it is logged loudly in the workflow run.
+    """
+    try:
+        manifest = load_manifest()
+        write_detail_pages(manifest.get('jobs', []))
+    except Exception as e:
+        logger.error(f"❌ Failed to regenerate job detail pages: {e}")
+
 
 def main():
     """Main function to orchestrate job fetching process"""
@@ -60,6 +74,7 @@ def main():
         logger.warning("This might be due to: Network issues, website blocking, or structural changes.")
         delete_expired_jobs()
         update_seo_keywords()
+        _publish_detail_pages()
         print("\n" + "=" * 60)
         print("📈 FINAL SUMMARY (No new jobs scraped)")
         print("=" * 60)
@@ -131,6 +146,7 @@ def main():
 
     delete_expired_jobs()
     update_seo_keywords()
+    _publish_detail_pages()
 
     final_manifest = load_manifest()
     print("\n" + "=" * 60)
