@@ -1,8 +1,8 @@
 /* GoGo Company - central AdSense integration (Sarkari Sarthi copy).
    Loaded by the Sarkari Sarthi portal page (https://gogocompany.in/sarkari-sarthi/).
-   The single ad unit sits between the category grid and the job
+   Listing page: one unit between the category grid and the job
    listings - never beside job cards, Apply buttons, or within the
-   listings grid. Games (/arrowout/, /crystalquest/) never load ads.
+   listings grid. Job detail pages: one unit after the article. Games (/arrowout/, /crystalquest/) never load ads.
 
    STATUS (2026-11-03):
    1. DONE: publisherId set to the owner-verified ID
@@ -13,8 +13,9 @@
    3. DONE: /ads.txt exists at the gogocompany.in site root with the
       real publisher ID (managed in the gogo-website repository).
    4. DONE (2026-11-03): CONFIG.slots filled with the owner-created
-      AdSense responsive display unit 7200569170 (reused across all
-      placements for now; separate units can be added later).
+      AdSense units: responsive display 7200569170 on the listing
+      page (sarkari-mid), in-article fluid 4574405834 on job detail
+      pages (sarkari-detail-bottom).
    5. REMAINING (EEA / UK / Switzerland): ad units stay OFF for those
       regions until a Google-certified CMP (e.g. Funding Choices)
       handles consent. Set cmpReady to true only after that
@@ -27,7 +28,15 @@
     cmpReady: false,    /* true only after a Google-certified CMP handles consent */
     slots: {
       "sarkari-mid": "7200569170",           /* listing page: between the category grid and job listings */
-      "sarkari-detail-bottom": "7200569170" /* job detail pages: after the article, before related jobs */
+      "sarkari-detail-bottom": "4574405834" /* job detail pages: in-article fluid unit, after the article */
+    },
+    /* Per-slot extra <ins> attributes. The in-article fluid unit
+       needs data-ad-format and data-ad-layout-key besides the ID. */
+    slotAttrs: {
+      "sarkari-detail-bottom": {
+        "data-ad-format": "fluid",
+        "data-ad-layout-key": "-cs-h+4k-la+cg"
+      }
     }
   };
 
@@ -68,6 +77,12 @@
       if (!slotId || !ins) continue;
       ins.setAttribute("data-ad-client", CONFIG.publisherId);
       ins.setAttribute("data-ad-slot", slotId);
+      var extra = CONFIG.slotAttrs[box.getAttribute("data-ad-slot")];
+      if (extra) {
+        for (var k in extra) {
+          if (Object.prototype.hasOwnProperty.call(extra, k)) ins.setAttribute(k, extra[k]);
+        }
+      }
       box.removeAttribute("hidden");
       (window.adsbygoogle = window.adsbygoogle || []).push({});
     }
