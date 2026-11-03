@@ -1,14 +1,14 @@
 # Sarkari Sarthi daily source report
 
-Run started: 2026-11-03T18:25:39
+Run started: 2026-11-03T18:36:32
 
 ## Run totals
 
 - archived expired: 0
-- duplicates: 11
+- duplicates: 23
 - expired now: 12
-- merged: 11
-- new jobs: 12
+- merged: 12
+- new jobs: 0
 - raw candidates: 23
 - rejected unsafe ids: 0
 
@@ -16,26 +16,28 @@ Run started: 2026-11-03T18:25:39
 
 | Source | Status | Duration | Found | New | Dup | Merged | Errors | Notes |
 |---|---|---|---|---|---|---|---|---|
-| allgovernmentjobs.in | ok | 3.31 | 9 |  |  |  |  |  |
-| bharatsarkarijob.com | no-jobs | 3.12 | 0 |  |  |  |  | listing fetched but no vacancy links parsed |
-| employmentnews.gov.in | ok |  | 14 | 12 |  |  |  | official adapter; robots-checked, honest user-agent |
-| www.freejobalert.com | no-jobs | 3.25 | 0 |  |  |  |  | listing fetched but no vacancy links parsed |
-| www.fresherslive.com | fetch-failed | 9.45 | 0 |  |  |  |  | listing page unreachable or blocked |
-| www.freshersworld.com | fetch-failed | 9.51 | 0 |  |  |  |  | listing page unreachable or blocked |
-| www.jobriya.com | no-jobs | 5.64 | 0 |  |  |  |  | listing fetched but no vacancy links parsed |
-| www.jobsarkari.com | no-jobs | 4.79 | 0 |  |  |  |  | listing fetched but no vacancy links parsed |
-| www.mysarkarinaukri.com | no-jobs | 3.26 | 0 |  |  |  |  | listing fetched but no vacancy links parsed |
-| www.rojgarresult.com | no-jobs | 4.21 | 0 |  |  |  |  | listing fetched but no vacancy links parsed |
-| www.sarkari-naukri.info | fetch-failed | 11.02 | 0 |  |  |  |  | listing page unreachable or blocked |
-| www.sarkariexam.com | no-jobs | 2.85 | 0 |  |  |  |  | listing fetched but no vacancy links parsed |
-| www.sarkarinaukri.com | no-jobs | 4.16 | 0 |  |  |  |  | listing fetched but no vacancy links parsed |
-| www.sarkarinaukridaily.in | no-jobs | 3.35 | 0 |  |  |  |  | listing fetched but no vacancy links parsed |
+| allgovernmentjobs.in | ok | 4.05 | 9 |  |  |  |  |  |
+| bharatsarkarijob.com | no-jobs | 3.93 | 0 |  |  |  |  | listing fetched but no vacancy links parsed |
+| employmentnews.gov.in | ok |  | 14 |  |  |  |  | official adapter; robots-checked, honest user-agent |
+| www.freejobalert.com | no-jobs | 4.22 | 0 |  |  |  |  | listing fetched but no vacancy links parsed |
+| www.fresherslive.com | fetch-failed | 8.55 | 0 |  |  |  |  | listing page unreachable or blocked |
+| www.freshersnow.com | no-jobs | 4.22 | 0 |  |  |  |  | listing fetched but no vacancy links parsed |
+| www.freshersworld.com | fetch-failed | 8.78 | 0 |  |  |  |  | listing page unreachable or blocked |
+| www.jobriya.com | no-jobs | 4.9 | 0 |  |  |  |  | listing fetched but no vacancy links parsed |
+| www.jobsarkari.com | no-jobs | 2.64 | 0 |  |  |  |  | listing fetched but no vacancy links parsed |
+| www.mysarkarinaukri.com | no-jobs | 4.12 | 0 |  |  |  |  | listing fetched but no vacancy links parsed |
+| www.rojgarresult.com | no-jobs | 6.24 | 0 |  |  |  |  | listing fetched but no vacancy links parsed |
+| www.sarkari-naukri.info | fetch-failed | 9.9 | 0 |  |  |  |  | listing page unreachable or blocked |
+| www.sarkariexam.com | no-jobs | 4.19 | 0 |  |  |  |  | listing fetched but no vacancy links parsed |
+| www.sarkarinaukri.com | no-jobs | 4.07 | 0 |  |  |  |  | listing fetched but no vacancy links parsed |
+| www.sarkarinaukridaily.in | no-jobs | 2.44 | 0 |  |  |  |  | listing fetched but no vacancy links parsed |
 
 ## Needs attention
 
 - bharatsarkarijob.com: no-jobs
 - www.freejobalert.com: no-jobs
 - www.fresherslive.com: fetch-failed
+- www.freshersnow.com: no-jobs
 - www.freshersworld.com: fetch-failed
 - www.jobriya.com: no-jobs
 - www.jobsarkari.com: no-jobs
