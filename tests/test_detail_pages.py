@@ -104,6 +104,48 @@ class TestRenderDetailPage:
         assert 'https://ssc.gov.in/apply' in page
 
 
+class TestClosedJobHandling:
+    """Expired and cancelled vacancies: honest banners, no misleading
+    JobPosting metadata, no active sitemap entries."""
+
+    def test_expired_and_cancelled_get_no_jsonld(self):
+        expired = job_posting_jsonld(
+            sample_job(status='expired'), detail_url('en_sample1'))
+        cancelled = job_posting_jsonld(
+            sample_job(status='cancelled'), detail_url('en_sample1'))
+        assert expired is None
+        assert cancelled is None
+
+    def test_active_job_still_gets_jsonld(self):
+        ld = job_posting_jsonld(sample_job(), detail_url('en_sample1'))
+        assert ld is not None
+        assert ld['@type'] == 'JobPosting'
+
+    def test_expired_banner_on_detail_page(self):
+        page = render_detail_page(sample_job(status='expired'), [])
+        assert 'no longer open for' in page
+        assert 'kept for reference only' in page
+
+    def test_cancelled_banner_on_detail_page(self):
+        page = render_detail_page(sample_job(status='cancelled'), [])
+        assert 'marked cancelled' in page
+
+    def test_sitemap_excludes_closed_jobs(self, tmp_path):
+        active = sample_job('en_open1')
+        expired = sample_job('en_closed1', status='expired')
+        cancelled = sample_job('en_cancel1', status='cancelled')
+        written = write_detail_pages([active, expired, cancelled], out_root=str(tmp_path))
+        # Closed jobs still get a reference page (with honest banner)...
+        assert written == 3
+        assert (tmp_path / 'job' / 'en_closed1' / 'index.html').exists()
+        assert (tmp_path / 'job' / 'en_cancel1' / 'index.html').exists()
+        # ...but never an active-job sitemap entry.
+        sitemap = (tmp_path / SITEMAP_FILE).read_text(encoding='utf-8')
+        assert detail_url('en_open1') in sitemap
+        assert detail_url('en_closed1') not in sitemap
+        assert detail_url('en_cancel1') not in sitemap
+
+
 class TestWriteDetailPages:
     def test_writes_pages_and_sitemap(self, tmp_path):
         jobs = [sample_job('en_a1'), sample_job('en_a2', category='Banking')]

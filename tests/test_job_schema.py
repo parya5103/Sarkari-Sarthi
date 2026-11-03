@@ -1,8 +1,11 @@
-"""Tests for the Phase 4 job schema: normalization, status, dedup.
+"""Tests for the job schema: normalization, status, verification
+labels, deduplication, cross-source merging, and the storage-level
+status refresh.
 
 Covers: missing and malformed dates, duplicate advertisements,
-expired/cancelled handling, no fabrication of missing values, and the
-storage-level status backfill during delete_expired_jobs.
+expired/cancelled handling, no fabrication of missing values,
+verification status derivation, merge-only-fills-missing behaviour,
+and the storage-level status backfill during refresh_job_statuses.
 
 Run with: python -m pytest tests/test_job_schema.py -v
 """
@@ -13,7 +16,8 @@ import pytest
 import storage
 from job_schema import (
     NOT_SPECIFIED_TEXT, parse_date, compute_status, normalize_job,
-    advertisement_key, is_duplicate_job,
+    advertisement_key, is_duplicate_job, title_date_key, merge_job,
+    compute_verification_status, validate_http_url, is_official_url,
 )
 
 TODAY = date(2026, 11, 3)
@@ -32,6 +36,15 @@ def base_job():
         'scraped_at': '2026-10-20T02:02:03.926475',
         'links': [],
     }
+
+
+def private_job():
+    """A record that comes from a private job-information portal."""
+    job = base_job()
+    job['url'] = 'https://exampleportal.in/job/1'
+    job['source'] = 'exampleportal.in'
+    job['links'] = []
+    return job
 
 
 class TestParseDate:
@@ -94,6 +107,71 @@ class TestComputeStatus:
         assert compute_status(job, TODAY) == 'expired'
 
 
+class TestUrlValidation:
+    def test_http_https_accepted(self):
+        assert validate_http_url('https://ssc.gov.in/notice.pdf') is True
+        assert validate_http_url('http://example.in/x') is True
+
+    def test_dangerous_schemes_rejected(self):
+        assert validate_http_url('javascript:alert(1)') is False
+        assert validate_http_url('data:text/html,x') is False
+        assert validate_http_url('ftp://example.in/x') is False
+        assert validate_http_url('') is False
+        assert validate_http_url(None) is False
+        assert validate_http_url(123) is False
+
+    def test_official_domain_detection(self):
+        assert is_official_url('https://ssc.gov.in/notice.pdf') is True
+        assert is_official_url('https://www.ncs.gov.in/pages/govt-job-vacancies.aspx') is True
+        assert is_official_url('https://example.in/notice.pdf') is False
+        assert is_official_url('javascript:alert(1)') is False
+
+
+class TestVerificationStatus:
+    def test_official_link_means_verified(self):
+        job = private_job()
+        job['official_notification_url'] = 'https://ssc.gov.in/notice.pdf'
+        assert compute_verification_status(job, TODAY) == 'official_verified'
+
+    def test_official_source_means_verified(self):
+        # Employment News style: data from employmentnews.gov.in itself.
+        assert compute_verification_status(base_job(), TODAY) == 'official_verified'
+
+    def test_private_only_is_secondary_source(self):
+        assert compute_verification_status(private_job(), TODAY) == 'secondary_source_only'
+
+    def test_gov_link_in_links_is_link_pending(self):
+        job = private_job()
+        job['links'] = ['https://www.mppsc.mp.gov.in/notice.pdf']
+        assert compute_verification_status(job, TODAY) == 'official_link_pending'
+
+    def test_invalid_official_url_needs_review(self):
+        job = private_job()
+        job['official_notification_url'] = 'javascript:alert(1)'
+        assert compute_verification_status(job, TODAY) == 'needs_review'
+
+    def test_stale_unknown_last_date_needs_review(self):
+        job = private_job()
+        job['scraped_at'] = '2026-09-01T00:00:00'
+        job['last_verified'] = '2026-09-01T00:00:00'
+        # No verified last date and not re-checked for > 30 days.
+        assert compute_verification_status(job, TODAY) == 'needs_review'
+
+    def test_fresh_unknown_last_date_is_not_flagged(self):
+        job = private_job()
+        job['scraped_at'] = '2026-11-01T00:00:00'
+        job['last_verified'] = '2026-11-01T00:00:00'
+        assert compute_verification_status(job, TODAY) == 'secondary_source_only'
+
+    def test_lifecycle_states_win(self):
+        job = private_job()
+        job['official_notification_url'] = 'https://ssc.gov.in/n.pdf'
+        job['status'] = 'expired'
+        assert compute_verification_status(job, TODAY) == 'expired'
+        job['status'] = 'cancelled'
+        assert compute_verification_status(job, TODAY) == 'cancelled'
+
+
 class TestNormalizeJob:
     def test_schema_fields_added_without_data_loss(self):
         job = base_job()
@@ -102,7 +180,9 @@ class TestNormalizeJob:
                       'advertisement_no', 'qualification', 'age_limit',
                       'official_notification_url', 'official_application_url',
                       'published_date', 'last_verified', 'status',
-                      'original_source_url'):
+                      'original_source_url', 'verification_status',
+                      'state', 'district', 'salary', 'pay_scale',
+                      'application_fee', 'selection_process'):
             assert field in out, field
         for key in job:
             assert key in out
@@ -113,6 +193,8 @@ class TestNormalizeJob:
         out = normalize_job(base_job())
         assert out['organization'] is None
         assert out['qualification'] is None
+        assert out['state'] is None
+        assert out['salary'] is None
         assert out['important_dates'].get('last_date') is None
         assert NOT_SPECIFIED_TEXT == 'Not specified in official notification'
 
@@ -180,6 +262,33 @@ class TestDeduplication:
         }
         assert is_duplicate_job(cand, urls, set()) is None
 
+    def test_title_date_key_requires_both_parts(self):
+        assert title_date_key({'title': 'SSC CGL 2026', 'important_dates': {}}) is None
+        assert title_date_key({'title': '', 'important_dates': {'last_date': '30-11-2026'}}) is None
+        key = title_date_key({
+            'title': '  SSC   CGL 2026 Notification ',
+            'important_dates': {'last_date': '30-11-2026'},
+        })
+        assert key == ('ssc cgl 2026 notification', '2026-11-30')
+
+    def test_same_title_and_last_date_is_duplicate(self):
+        td_keys = {('ssc cgl 2026 notification', '2026-11-30')}
+        cand = {
+            'url': 'https://portal-b.in/ssc-cgl',
+            'title': 'SSC CGL 2026 Notification',
+            'important_dates': {'last_date': '30-11-2026'},
+        }
+        assert is_duplicate_job(cand, set(), set(), td_keys) == 'same-title-date'
+
+    def test_same_title_but_different_last_date_not_duplicate(self):
+        td_keys = {('ssc cgl 2026 notification', '2026-11-30')}
+        cand = {
+            'url': 'https://portal-b.in/ssc-cgl',
+            'title': 'SSC CGL 2026 Notification',
+            'important_dates': {'last_date': '15-12-2026'},
+        }
+        assert is_duplicate_job(cand, set(), set(), td_keys) is None
+
     def test_partial_advertisement_key_is_none(self):
         assert advertisement_key({'advertisement_no': 'ADV/2026/01'}) is None
         assert advertisement_key({'organization': 'SSC'}) is None
@@ -197,16 +306,87 @@ class TestDeduplication:
         assert is_duplicate_job(cand, set(), set()) is None
 
 
-class TestStorageStatusBackfill:
-    """delete_expired_jobs must keep the normalized schema: retained
-    jobs get status/last_verified and unavailable fields stay None."""
+class TestMergeJob:
+    def test_merge_fills_only_missing_fields(self):
+        existing = normalize_job(private_job())
+        existing['organization'] = 'Staff Selection Commission'
+        existing['qualification'] = None
+        incoming = {
+            'source': 'portal-b.in',
+            'url': 'https://portal-b.in/x',
+            'organization': 'WRONG ORG',
+            'qualification': 'Graduate',
+            'important_dates': {'last_date': '30-11-2026'},
+        }
+        merged, filled = merge_job(existing, incoming, now='2026-11-03T00:00:00')
+        assert merged['organization'] == 'Staff Selection Commission'
+        assert merged['qualification'] == 'Graduate'
+        assert merged['important_dates']['last_date'] == '30-11-2026'
+        assert filled >= 2
 
-    def test_retained_jobs_get_status(self, tmp_path, monkeypatch):
+    def test_merge_keeps_source_attribution(self):
+        existing = normalize_job(private_job())
+        incoming = {'source': 'portal-b.in', 'url': 'https://portal-b.in/x'}
+        merged, filled = merge_job(existing, incoming)
+        refs = merged.get('source_refs') or []
+        assert {'source': 'portal-b.in', 'url': 'https://portal-b.in/x'} in refs
+
+    def test_merge_does_not_duplicate_same_source_ref(self):
+        existing = normalize_job(private_job())
+        incoming = {'source': 'portal-b.in', 'url': 'https://portal-b.in/x'}
+        merged, _ = merge_job(existing, incoming)
+        merged, _ = merge_job(merged, incoming)
+        refs = merged.get('source_refs') or []
+        assert len(refs) == 1
+
+    def test_deadline_extension_applies(self):
+        job = normalize_job(private_job())
+        job['important_dates'] = {'last_date': '10-11-2026'}
+        incoming = {
+            'source': 'portal-b.in',
+            'url': 'https://portal-b.in/x',
+            'important_dates': {'last_date': '05-12-2026'},
+        }
+        merged, filled = merge_job(job, incoming)
+        assert merged['important_dates']['last_date'] == '05-12-2026'
+        assert merged.get('deadline_extended') is True
+
+    def test_earlier_deadline_does_not_shorten(self):
+        job = normalize_job(private_job())
+        job['important_dates'] = {'last_date': '30-12-2026'}
+        incoming = {
+            'source': 'portal-b.in',
+            'url': 'https://portal-b.in/x',
+            'important_dates': {'last_date': '30-11-2026'},
+        }
+        merged, _ = merge_job(job, incoming)
+        assert merged['important_dates']['last_date'] == '30-12-2026'
+
+    def test_merge_never_invents_data(self):
+        existing = normalize_job(private_job())
+        incoming = {'source': None, 'url': None}
+        merged, filled = merge_job(existing, incoming)
+        assert filled == 0
+        assert merged['organization'] is None
+        assert merged['vacancies'] is None
+
+
+class TestStorageStatusRefresh:
+    """refresh_job_statuses: expired records are KEPT for reference with
+    status='expired', counters are recomputed from the actual statuses,
+    and a job without a verified last date is never auto-expired."""
+
+    def _use_tmp_job_dir(self, tmp_path, monkeypatch):
         job_dir = tmp_path / 'jobs'
         job_dir.mkdir()
         monkeypatch.setattr(storage, 'JOB_DIR', str(job_dir))
         monkeypatch.setattr(storage, 'MANIFEST_FILE', str(job_dir / 'job_manifest.json'))
+        monkeypatch.setattr(storage, 'ARCHIVE_FILE', str(job_dir / 'expired_archive.json'))
+        monkeypatch.setattr(storage, 'BACKUP_DIR', str(job_dir / 'backup'))
+        return job_dir
 
+    def test_expired_kept_with_status_counters_consistent(self, tmp_path, monkeypatch):
+        job_dir = self._use_tmp_job_dir(tmp_path, monkeypatch)
         active = {
             'id': 'active_job_1',
             'title': 'Active Job',
@@ -226,14 +406,79 @@ class TestStorageStatusBackfill:
         storage.save_jobs_to_files([active, expired])
         storage.save_manifest({'jobs': [active, expired]})
 
-        storage.delete_expired_jobs()
+        storage.refresh_job_statuses()
 
         manifest = storage.load_manifest()
-        ids = [job['id'] for job in manifest['jobs']]
-        assert ids == ['active_job_1']
-        kept = manifest['jobs'][0]
-        assert kept['status'] == 'active'
-        assert kept['last_verified']
-        assert kept['organization'] is None
-        assert not (job_dir / 'expired_job_1.json').exists()
+        by_id = {job['id']: job for job in manifest['jobs']}
+        # History preserved: the expired record is still there.
+        assert set(by_id) == {'active_job_1', 'expired_job_1'}
+        assert by_id['active_job_1']['status'] == 'active'
+        assert by_id['expired_job_1']['status'] == 'expired'
+        assert by_id['active_job_1']['last_verified']
+        assert by_id['active_job_1']['organization'] is None
+        # Counters now match the actual record statuses.
+        assert manifest['active_jobs'] == 1
+        assert manifest['expired_jobs'] == 1
+        assert manifest['total_jobs'] == 2
         assert (job_dir / 'active_job_1.json').exists()
+
+    def test_unknown_last_date_never_expires(self, tmp_path, monkeypatch):
+        job_dir = self._use_tmp_job_dir(tmp_path, monkeypatch)
+        stale = {
+            'id': 'stale_job_1',
+            'title': 'Stale Job',
+            'url': 'https://example.gov.in/c',
+            'scraped_at': '2026-08-01T00:00:00',
+            # NO last_date at all: must NOT be expired by any age rule.
+        }
+        storage.save_manifest({'jobs': [stale]})
+
+        storage.refresh_job_statuses()
+
+        manifest = storage.load_manifest()
+        job = manifest['jobs'][0]
+        assert job['status'] == 'active'
+        assert manifest['active_jobs'] == 1
+        assert manifest['expired_jobs'] == 0
+        # Stale + unknown last date is flagged for review, not deleted.
+        assert job['verification_status'] == 'needs_review'
+
+    def test_expired_overflow_archived(self, tmp_path, monkeypatch):
+        job_dir = self._use_tmp_job_dir(tmp_path, monkeypatch)
+        monkeypatch.setattr(storage, 'MAX_EXPIRED_IN_MANIFEST', 1)
+        jobs = [
+            {
+                'id': 'exp_%d' % i,
+                'title': 'Old Job %d' % i,
+                'url': 'https://example.gov.in/o%d' % i,
+                'important_dates': {
+                    'last_date': (date.today() - timedelta(days=30 + i)).strftime('%d-%m-%Y')
+                },
+                'scraped_at': '2026-10-%02dT00:00:00' % (i + 1),
+            }
+            for i in range(3)
+        ]
+        storage.save_manifest({'jobs': jobs})
+
+        storage.refresh_job_statuses()
+
+        manifest = storage.load_manifest()
+        assert len(manifest['jobs']) == 1
+        assert manifest['expired_jobs'] == 1
+        archive = job_dir / 'expired_archive.json'
+        assert archive.exists()
+        import json
+        archived = json.loads(archive.read_text(encoding='utf-8'))
+        assert len(archived) == 2
+        assert all(j.get('status') == 'expired' for j in archived)
+
+    def test_backup_before_mutation(self, tmp_path, monkeypatch):
+        job_dir = self._use_tmp_job_dir(tmp_path, monkeypatch)
+        storage.save_manifest({'jobs': [{'id': 'j1', 'title': 'J1', 'url': 'u'}]})
+        backup_path = storage.backup_manifest(now=date(2026, 11, 3))
+        assert backup_path is not None
+        assert (job_dir / 'backup' / 'manifest_backup_2026-11-03.json').exists()
+        # Second backup same day overwrites, not duplicates.
+        storage.backup_manifest(now=date(2026, 11, 3))
+        backups = list((job_dir / 'backup').glob('manifest_backup_*.json'))
+        assert len(backups) == 1
