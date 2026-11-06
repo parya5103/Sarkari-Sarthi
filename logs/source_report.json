@@ -1,38 +1,38 @@
 {
-  "run_started_at": "2026-11-05T03:36:41.639488",
-  "generated_at": "2026-11-05T03:37:12.037407",
+  "run_started_at": "2026-11-06T03:31:29.880796",
+  "generated_at": "2026-11-06T03:31:56.614102",
   "totals": {
     "raw_candidates": 24,
     "new_jobs": 10,
     "duplicates": 14,
     "merged": 0,
     "rejected_unsafe_ids": 0,
-    "expired_now": 12,
+    "expired_now": 14,
     "archived_expired": 0
   },
   "sources": [
     {
       "source": "allgovernmentjobs.in",
-      "last_fetch": "2026-11-05T03:36:46.090825",
+      "last_fetch": "2026-11-06T03:31:35.070719",
       "status": "ok",
       "permission": "allowed",
-      "duration_s": 3.71,
+      "duration_s": 4.43,
       "discovered": 10,
       "notes": "",
       "accepted": 10
     },
     {
       "source": "bharatsarkarijob.com",
-      "last_fetch": "2026-11-05T03:36:45.929264",
+      "last_fetch": "2026-11-06T03:31:35.486810",
       "status": "no-jobs",
       "permission": "allowed",
-      "duration_s": 3.79,
+      "duration_s": 4.42,
       "discovered": 0,
       "notes": "listing fetched but no vacancy links parsed"
     },
     {
       "source": "employmentnews.gov.in",
-      "last_fetch": "2026-11-05T03:36:59.549149",
+      "last_fetch": "2026-11-06T03:31:47.572460",
       "status": "ok",
       "permission": "allowed",
       "discovered": 14,
@@ -40,109 +40,109 @@
     },
     {
       "source": "www.freejobalert.com",
-      "last_fetch": "2026-11-05T03:36:45.652124",
+      "last_fetch": "2026-11-06T03:31:33.766864",
       "status": "no-jobs",
       "permission": "allowed",
-      "duration_s": 3.85,
+      "duration_s": 3.73,
       "discovered": 0,
       "notes": "listing fetched but no vacancy links parsed"
     },
     {
       "source": "www.fresherslive.com",
-      "last_fetch": "2026-11-05T03:36:56.806398",
+      "last_fetch": "2026-11-06T03:31:41.385213",
       "status": "fetch-failed",
       "permission": "allowed",
-      "duration_s": 10.99,
+      "duration_s": 7.46,
       "discovered": 0,
       "notes": "listing page unreachable or blocked"
     },
     {
       "source": "www.freshersnow.com",
-      "last_fetch": "2026-11-05T03:36:47.134613",
+      "last_fetch": "2026-11-06T03:31:34.776605",
       "status": "no-jobs",
       "permission": "allowed",
-      "duration_s": 5.33,
+      "duration_s": 4.7,
       "discovered": 0,
       "notes": "listing fetched but no vacancy links parsed"
     },
     {
       "source": "www.freshersworld.com",
-      "last_fetch": "2026-11-05T03:36:54.626504",
+      "last_fetch": "2026-11-06T03:31:44.766379",
       "status": "fetch-failed",
       "permission": "allowed",
-      "duration_s": 9.58,
+      "duration_s": 10.75,
       "discovered": 0,
       "notes": "listing page unreachable or blocked"
     },
     {
       "source": "www.jobriya.com",
-      "last_fetch": "2026-11-05T03:36:47.000156",
+      "last_fetch": "2026-11-06T03:31:34.692455",
       "status": "no-jobs",
       "permission": "allowed",
-      "duration_s": 5.09,
+      "duration_s": 4.46,
       "discovered": 0,
       "notes": "listing fetched but no vacancy links parsed"
     },
     {
       "source": "www.jobsarkari.com",
-      "last_fetch": "2026-11-05T03:36:48.900354",
+      "last_fetch": "2026-11-06T03:31:38.275212",
       "status": "no-jobs",
       "permission": "allowed",
-      "duration_s": 2.78,
+      "duration_s": 4.15,
       "discovered": 0,
       "notes": "listing fetched but no vacancy links parsed"
     },
     {
       "source": "www.mysarkarinaukri.com",
-      "last_fetch": "2026-11-05T03:36:45.954831",
+      "last_fetch": "2026-11-06T03:31:33.767086",
       "status": "no-jobs",
       "permission": "allowed",
-      "duration_s": 4.17,
+      "duration_s": 3.69,
       "discovered": 0,
       "notes": "listing fetched but no vacancy links parsed"
     },
     {
       "source": "www.rojgarresult.com",
-      "last_fetch": "2026-11-05T03:36:46.319689",
+      "last_fetch": "2026-11-06T03:31:36.968873",
       "status": "no-jobs",
       "permission": "allowed",
-      "duration_s": 4.16,
+      "duration_s": 6.37,
       "discovered": 0,
       "notes": "listing fetched but no vacancy links parsed"
     },
     {
       "source": "www.sarkari-naukri.info",
-      "last_fetch": "2026-11-05T03:36:51.724951",
+      "last_fetch": "2026-11-06T03:31:41.544169",
       "status": "fetch-failed",
       "permission": "allowed",
-      "duration_s": 9.28,
+      "duration_s": 10.73,
       "discovered": 0,
       "notes": "listing page unreachable or blocked"
     },
     {
       "source": "www.sarkariexam.com",
-      "last_fetch": "2026-11-05T03:36:44.732499",
+      "last_fetch": "2026-11-06T03:31:33.990253",
       "status": "no-jobs",
       "permission": "allowed",
-      "duration_s": 2.9,
+      "duration_s": 3.67,
       "discovered": 0,
       "notes": "listing fetched but no vacancy links parsed"
     },
     {
       "source": "www.sarkarinaukri.com",
-      "last_fetch": "2026-11-05T03:36:44.746862",
+      "last_fetch": "2026-11-06T03:31:33.773231",
       "status": "no-jobs",
       "permission": "allowed",
-      "duration_s": 2.87,
+      "duration_s": 3.63,
       "discovered": 0,
       "notes": "listing fetched but no vacancy links parsed"
     },
     {
       "source": "www.sarkarinaukridaily.in",
-      "last_fetch": "2026-11-05T03:36:48.680569",
+      "last_fetch": "2026-11-06T03:31:36.643455",
       "status": "no-jobs",
       "permission": "allowed",
-      "duration_s": 3.86,
+      "duration_s": 2.6,
       "discovered": 0,
       "notes": "listing fetched but no vacancy links parsed"
     }
