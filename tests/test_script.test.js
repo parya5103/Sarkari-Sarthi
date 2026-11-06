@@ -14,6 +14,29 @@ const path = require('path');
 
 const scriptContent = fs.readFileSync(path.resolve(__dirname, '../script.js'), 'utf8');
 
+// script.js resolves its DOM elements (toggle, nav menu, search, filters,
+// modal) once, at load time. The test DOM must therefore exist BEFORE the
+// eval below. Re-eval-ing inside beforeEach does NOT work: direct-eval
+// function declarations land in the calling function's scope, so tests
+// would keep calling the first eval's functions whose element consts are
+// all null (they were resolved against an empty document).
+document.body.innerHTML = `
+    <button id="mobileMenuToggle" aria-expanded="false" aria-controls="navMenu"></button>
+    <div class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#jobs" class="nav-link">Jobs</a>
+    </div>
+    <div id="menuBackdrop" hidden></div>
+    <input id="jobSearch" type="text">
+    <button id="searchBtn">Search</button>
+    <select id="categoryFilter"></select>
+    <select id="sortFilter"></select>
+    <button id="loadMoreBtn">More</button>
+    <button id="themeToggle">Theme</button>
+    <div class="modal" id="jobModal"></div>
+    <button id="modalClose"></button>
+    <button id="modalClose2"></button>`;
+
 // Load script.js functions into the global scope
 eval(scriptContent);
 
@@ -25,7 +48,7 @@ describe('sanitizeURL', () => {
     });
 
     test('should return correct URL for http and https with proper URL resolution', () => {
-        // Because the implementation uses \`new URL(url, window.location.href).href\`,
+        // Because the implementation uses `new URL(url, window.location.href).href`,
         // simple http:// URLs will have a trailing slash appended.
         expect(sanitizeURL('http://example.com')).toBe('http://example.com/');
         expect(sanitizeURL('https://example.com')).toBe('https://example.com/');
@@ -144,32 +167,16 @@ describe('getRecordTimestamp', () => {
 
 describe('mobile menu drawer', () => {
     beforeEach(() => {
-        // Header markup matching index.html, plus the elements
-        // setupEventListeners() and handleKeyboardNavigation() touch
-        // without null guards (search, filters, modal).
-        document.body.innerHTML = `
-            <button id="mobileMenuToggle" aria-expanded="false" aria-controls="navMenu"></button>
-            <div class="nav-menu" id="navMenu">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#jobs" class="nav-link">Jobs</a>
-            </div>
-            <div id="menuBackdrop" hidden></div>
-            <input id="jobSearch" type="text">
-            <button id="searchBtn">Search</button>
-            <select id="categoryFilter"></select>
-            <select id="sortFilter"></select>
-            <button id="loadMoreBtn">More</button>
-            <button id="themeToggle">Theme</button>
-            <div class="modal" id="jobModal"></div>
-            <button id="modalClose"></button>
-            <button id="modalClose2"></button>`;
-        // Re-eval so the module-level element lookups see the drawer DOM.
-        eval(scriptContent);
-    });
-
-    afterEach(() => {
-        document.body.innerHTML = '';
+        // Reset the drawer to its closed state. The DOM built at the top
+        // of this file stays in place: the consts resolved by the eval
+        // point at those exact elements, so they must not be replaced.
+        const navMenu = document.getElementById('navMenu');
+        if (navMenu) navMenu.classList.remove('active');
+        const backdrop = document.getElementById('menuBackdrop');
+        if (backdrop) backdrop.hidden = true;
         document.body.classList.remove('menu-open');
+        const toggle = document.getElementById('mobileMenuToggle');
+        if (toggle) toggle.setAttribute('aria-expanded', 'false');
     });
 
     test('toggle opens and closes the drawer with one consistent state', () => {
