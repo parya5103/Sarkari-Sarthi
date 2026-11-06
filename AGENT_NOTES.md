@@ -124,3 +124,21 @@ honest product User-Agent, no CAPTCHA/login/anti-bot bypass.
 - Monitor logs/source_report.md after nightly runs for zero-job or
   blocked sources.
 - Keep this file updated with every phase.
+## AdSense consent gate (2026-11-06, branch feat/adsense-consent-gate)
+
+- assets/js/ads.js no longer guesses the visitor's region from
+  navigator.language or Intl timezone (not reliable consent/geolocation
+  signals; policy violation). Removed CONSENT_REGIONS,
+  regionFromLanguage(), inConsentRequiredRegion().
+- adsAllowed() now fails closed: no ad request anywhere while
+  cmpReady is false. Owner flips cmpReady true ONLY after enabling a
+  Google-certified CMP (AdSense -> Privacy & messaging built-in
+  consent, or Funding Choices); Google's CMP then enforces EEA/UK/CH
+  consent with its own signals.
+- Placement enable/disable: set a slot id to "" in CONFIG.slots
+  (sarkari-mid = 7200569170 display; sarkari-detail-bottom =
+  4574405834 in-article fluid + slotAttrs). Do not invent unit ids.
+- Pages carrying the static adsbygoogle loader tag (index.html +
+  detail_pages.py output) are Auto-ads-ready (Anchor/Vignette/In-page/
+  Multiplex are dashboard-only formats; no page code needed).
+- Do NOT re-introduce browser-language/timezone consent checks.
