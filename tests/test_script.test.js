@@ -141,3 +141,87 @@ describe('getRecordTimestamp', () => {
         expect(getRecordTimestamp({ last_verified: 'not-a-date' })).toBe(0);
     });
 });
+
+describe('mobile menu drawer', () => {
+    beforeEach(() => {
+        // Header markup matching index.html, plus the elements
+        // setupEventListeners() and handleKeyboardNavigation() touch
+        // without null guards (search, filters, modal).
+        document.body.innerHTML = `
+            <button id="mobileMenuToggle" aria-expanded="false" aria-controls="navMenu"></button>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#jobs" class="nav-link">Jobs</a>
+            </div>
+            <div id="menuBackdrop" hidden></div>
+            <input id="jobSearch" type="text">
+            <button id="searchBtn">Search</button>
+            <select id="categoryFilter"></select>
+            <select id="sortFilter"></select>
+            <button id="loadMoreBtn">More</button>
+            <button id="themeToggle">Theme</button>
+            <div class="modal" id="jobModal"></div>
+            <button id="modalClose"></button>
+            <button id="modalClose2"></button>`;
+        // Re-eval so the module-level element lookups see the drawer DOM.
+        eval(scriptContent);
+    });
+
+    afterEach(() => {
+        document.body.innerHTML = '';
+        document.body.classList.remove('menu-open');
+    });
+
+    test('toggle opens and closes the drawer with one consistent state', () => {
+        const navMenu = document.getElementById('navMenu');
+        const backdrop = document.getElementById('menuBackdrop');
+        const toggle = document.getElementById('mobileMenuToggle');
+
+        expect(navMenu.classList.contains('active')).toBe(false);
+
+        toggleMobileMenu();
+        expect(navMenu.classList.contains('active')).toBe(true);
+        expect(backdrop.hidden).toBe(false);
+        expect(document.body.classList.contains('menu-open')).toBe(true);
+        expect(toggle.getAttribute('aria-expanded')).toBe('true');
+
+        toggleMobileMenu();
+        expect(navMenu.classList.contains('active')).toBe(false);
+        expect(backdrop.hidden).toBe(true);
+        expect(document.body.classList.contains('menu-open')).toBe(false);
+        expect(toggle.getAttribute('aria-expanded')).toBe('false');
+    });
+
+    test('open and close are idempotent', () => {
+        openMobileMenu();
+        openMobileMenu();
+        expect(document.getElementById('navMenu').classList.contains('active')).toBe(true);
+
+        closeMobileMenu();
+        closeMobileMenu();
+        expect(document.getElementById('navMenu').classList.contains('active')).toBe(false);
+        expect(document.getElementById('menuBackdrop').hidden).toBe(true);
+    });
+
+    test('Escape key closes an open drawer', () => {
+        openMobileMenu();
+        handleKeyboardNavigation({ key: 'Escape' });
+        expect(document.getElementById('navMenu').classList.contains('active')).toBe(false);
+        expect(document.body.classList.contains('menu-open')).toBe(false);
+    });
+
+    test('backdrop tap closes an open drawer', () => {
+        setupEventListeners();
+        openMobileMenu();
+        document.getElementById('menuBackdrop').click();
+        expect(document.getElementById('navMenu').classList.contains('active')).toBe(false);
+    });
+
+    test('selecting a nav link closes the drawer', () => {
+        setupEventListeners();
+        openMobileMenu();
+        document.querySelector('.nav-menu .nav-link').click();
+        expect(document.getElementById('navMenu').classList.contains('active')).toBe(false);
+        expect(document.body.classList.contains('menu-open')).toBe(false);
+    });
+});
