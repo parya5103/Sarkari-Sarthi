@@ -14,6 +14,29 @@ const path = require('path');
 
 const scriptContent = fs.readFileSync(path.resolve(__dirname, '../script.js'), 'utf8');
 
+// script.js resolves its DOM elements (toggle, nav menu, search, filters,
+// modal) once, at load time. The test DOM must therefore exist BEFORE the
+// eval below. Re-eval-ing inside beforeEach does NOT work: direct-eval
+// function declarations land in the calling function's scope, so tests
+// would keep calling the first eval's functions whose element consts are
+// all null (they were resolved against an empty document).
+document.body.innerHTML = `
+    <button id="mobileMenuToggle" aria-expanded="false" aria-controls="navMenu"></button>
+    <div class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#jobs" class="nav-link">Jobs</a>
+    </div>
+    <div id="menuBackdrop" hidden></div>
+    <input id="jobSearch" type="text">
+    <button id="searchBtn">Search</button>
+    <select id="categoryFilter"></select>
+    <select id="sortFilter"></select>
+    <button id="loadMoreBtn">More</button>
+    <button id="themeToggle">Theme</button>
+    <div class="modal" id="jobModal"></div>
+    <button id="modalClose"></button>
+    <button id="modalClose2"></button>`;
+
 // Load script.js functions into the global scope
 eval(scriptContent);
 
@@ -25,7 +48,7 @@ describe('sanitizeURL', () => {
     });
 
     test('should return correct URL for http and https with proper URL resolution', () => {
-        // Because the implementation uses \`new URL(url, window.location.href).href\`,
+        // Because the implementation uses `new URL(url, window.location.href).href`,
         // simple http:// URLs will have a trailing slash appended.
         expect(sanitizeURL('http://example.com')).toBe('http://example.com/');
         expect(sanitizeURL('https://example.com')).toBe('https://example.com/');
@@ -139,5 +162,73 @@ describe('getRecordTimestamp', () => {
         expect(getRecordTimestamp({})).toBe(0);
         expect(getRecordTimestamp(null)).toBe(0);
         expect(getRecordTimestamp({ last_verified: 'not-a-date' })).toBe(0);
+    });
+});
+
+describe('mobile menu drawer', () => {
+    beforeEach(() => {
+        // Reset the drawer to its closed state. The DOM built at the top
+        // of this file stays in place: the consts resolved by the eval
+        // point at those exact elements, so they must not be replaced.
+        const navMenu = document.getElementById('navMenu');
+        if (navMenu) navMenu.classList.remove('active');
+        const backdrop = document.getElementById('menuBackdrop');
+        if (backdrop) backdrop.hidden = true;
+        document.body.classList.remove('menu-open');
+        const toggle = document.getElementById('mobileMenuToggle');
+        if (toggle) toggle.setAttribute('aria-expanded', 'false');
+    });
+
+    test('toggle opens and closes the drawer with one consistent state', () => {
+        const navMenu = document.getElementById('navMenu');
+        const backdrop = document.getElementById('menuBackdrop');
+        const toggle = document.getElementById('mobileMenuToggle');
+
+        expect(navMenu.classList.contains('active')).toBe(false);
+
+        toggleMobileMenu();
+        expect(navMenu.classList.contains('active')).toBe(true);
+        expect(backdrop.hidden).toBe(false);
+        expect(document.body.classList.contains('menu-open')).toBe(true);
+        expect(toggle.getAttribute('aria-expanded')).toBe('true');
+
+        toggleMobileMenu();
+        expect(navMenu.classList.contains('active')).toBe(false);
+        expect(backdrop.hidden).toBe(true);
+        expect(document.body.classList.contains('menu-open')).toBe(false);
+        expect(toggle.getAttribute('aria-expanded')).toBe('false');
+    });
+
+    test('open and close are idempotent', () => {
+        openMobileMenu();
+        openMobileMenu();
+        expect(document.getElementById('navMenu').classList.contains('active')).toBe(true);
+
+        closeMobileMenu();
+        closeMobileMenu();
+        expect(document.getElementById('navMenu').classList.contains('active')).toBe(false);
+        expect(document.getElementById('menuBackdrop').hidden).toBe(true);
+    });
+
+    test('Escape key closes an open drawer', () => {
+        openMobileMenu();
+        handleKeyboardNavigation({ key: 'Escape' });
+        expect(document.getElementById('navMenu').classList.contains('active')).toBe(false);
+        expect(document.body.classList.contains('menu-open')).toBe(false);
+    });
+
+    test('backdrop tap closes an open drawer', () => {
+        setupEventListeners();
+        openMobileMenu();
+        document.getElementById('menuBackdrop').click();
+        expect(document.getElementById('navMenu').classList.contains('active')).toBe(false);
+    });
+
+    test('selecting a nav link closes the drawer', () => {
+        setupEventListeners();
+        openMobileMenu();
+        document.querySelector('.nav-menu .nav-link').click();
+        expect(document.getElementById('navMenu').classList.contains('active')).toBe(false);
+        expect(document.body.classList.contains('menu-open')).toBe(false);
     });
 });
