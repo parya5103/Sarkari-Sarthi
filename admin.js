@@ -1,16 +1,16 @@
 // Sarkari Sarthi - read-only job data viewer.
 //
 // Security note (2026-11 audit): the previous version of this page
-// implemented a fake client-side "admin": a SHA-256 password hash in
-// the browser plus a GitHub personal access token typed into the
-// page and stored in sessionStorage. Static GitHub Pages hosting
+// implemented a fake client-side "admin": a SHA-256 password check in
+// the browser plus a GitHub credential typed into the page and kept
+// in browser session storage. Static GitHub Pages hosting
 // cannot provide real authentication, so this page is now a
 // read-only viewer of the published jobs manifest. All edits happen
 // through the GitHub web UI or Actions, which enforce real
 // server-side authentication.
 //
-// This file intentionally contains no credentials, no tokens and no
-// write paths of any kind.
+// This file intentionally contains no credentials and no write paths
+// of any kind.
 
 let currentJobs = [];
 
@@ -25,7 +25,7 @@ async function fetchJobsFromSite() {
 
     try {
         // Same-origin relative fetch of the published manifest.
-        // No token, no third-party API, no credentials.
+        // No credentials, no third-party API, no cookies.
         const response = await fetch('jobs/job_manifest.json', {
             headers: { 'Accept': 'application/json' }
         });
