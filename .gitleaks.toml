@@ -1,0 +1,9 @@
+# Gitleaks configuration: default rules plus documented, project-specific allowlists.
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "SHA-256 of the old default admin password (removed from HEAD by #200). A one-way hash of a deleted constant, not a usable credential; allowlisted so history scans stay clean."
+regexes = [
+  '''8c6976e5b5410415bde908bd4dee15dfb167a9c873fcbb8a81f6f2ab448a918''',
+]
