@@ -14,7 +14,7 @@
     "start": "serve ."
   },
   "devDependencies": {
-    "jest": "^29.7.0",
+    "jest": "^30.5.2",
     "jest-environment-jsdom": "^29.7.0",
     "serve": "^14.2.0"
   }
