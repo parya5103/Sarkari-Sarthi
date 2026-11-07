@@ -9,7 +9,7 @@ beautifulsoup4==4.12.2
 lxml==4.9.3
 
 # PDF parsing (official notification PDFs)
-PyMuPDF==1.23.8
+PyMuPDF==2.1
 pdfplumber==0.10.3
 
 # Telegram notifications
