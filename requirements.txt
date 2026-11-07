@@ -13,7 +13,7 @@ PyMuPDF==1.23.8
 pdfplumber==0.10.3
 
 # Telegram notifications
-python-telegram-bot==20.7
+python-telegram-bot==22.8
 
 # Testing
 pytest==7.4.3
