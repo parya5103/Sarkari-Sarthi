@@ -1,0 +1,26 @@
+version: 2
+updates:
+  # Keep GitHub Actions references up to date. All actions are pinned
+  # to immutable commit SHAs in this repository; Dependabot opens
+  # version-bump PRs that re-pin the SHA together with the version
+  # comment.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+
+  # Python dependency updates (scraper + test stack). Review major
+  # version bumps before merging.
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+
+  # npm devDependencies (jest / jest-environment-jsdom / serve).
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
