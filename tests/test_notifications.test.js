@@ -28,12 +28,19 @@ describe('GoGo Central notifications module (MOCKED)', () => {
     expect(GoGoNotifications.config.swUrl).toBe('firebase-messaging-sw.js');
   });
 
-  test('fail-closed: empty apiBase/vapidPublicKey disables the whole feature', () => {
+  test('shipped config validates; empty apiBase/vapidPublicKey stays fail-closed', () => {
     const v = GoGoNotifications.internals.validateConfig();
-    expect(v.ok).toBe(false);
-    expect(v.disabled).toBe(true);
-    expect(v.problems.some((p) => p.includes('API base'))).toBe(true);
-    expect(v.problems.some((p) => p.includes('VAPID'))).toBe(true);
+    expect(v.ok).toBe(true);
+    expect(v.disabled).toBe(false);
+    const empty = GoGoNotifications.internals.validateConfig({
+      appId: 'sarkari-sarthi',
+      apiBase: '',
+      vapidPublicKey: '',
+    });
+    expect(empty.ok).toBe(false);
+    expect(empty.disabled).toBe(true);
+    expect(empty.problems.some((p) => p.includes('API base'))).toBe(true);
+    expect(empty.problems.some((p) => p.includes('VAPID'))).toBe(true);
     const v2 = GoGoNotifications.internals.validateConfig({
       appId: 'sarkari-sarthi',
       apiBase: 'https://gogo-central-backend.example.run.app/',
