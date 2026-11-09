@@ -110,4 +110,49 @@ describe('GoGo Central notifications module (MOCKED)', () => {
     expect(indexHtml.includes('gogo-notifications.js')).toBe(true);
     expect(indexHtml.indexOf('script.js') < indexHtml.indexOf('gogo-notifications.js')).toBe(true);
   });
+
+  test('onboarding state machine: first-visit intro, one 3-day reminder, never nags', () => {
+    const eo = GoGoNotifications.internals.evaluateOnboarding;
+    expect(typeof eo).toBe('function');
+    const DAY = 24 * 60 * 60 * 1000;
+    const env = { configOk: true, pushSupported: true, permission: 'default', active: false };
+    expect(eo(null, 1000, env).action).toBe('intro');
+    expect(eo({ shownAt: 2000 }, 1000 + DAY / 2, env).action).toBe('none');
+    expect(eo({ decision: 'not-now', decidedAt: 1000 }, 1000 + DAY, env).action).toBe('none');
+    expect(eo({ decision: 'not-now', decidedAt: 1000 }, 1000 + 3 * DAY + 1, env).action).toBe('reminder');
+    expect(eo({ decision: 'not-now', decidedAt: 1000, reminderShown: true }, 1000 + 3 * DAY + 1, env).action).toBe('none');
+    expect(eo({ decision: 'dismissed-forever' }, 9999999999999, env).action).toBe('none');
+    expect(eo(null, 1000, { ...env, active: true }).action).toBe('none');
+    expect(eo(null, 1000, { ...env, configOk: false }).action).toBe('none');
+    expect(eo(null, 1000, { ...env, permission: 'denied' }).action).toBe('blocked');
+    expect(eo({ blockedShown: true }, 1000, { ...env, permission: 'denied' }).action).toBe('none');
+  });
+
+  test('intro popup lists all six GoGo categories; native prompt only on explicit click', () => {
+    for (const label of ["GoGo Company announcements","Sarkari Sarthi job alerts","Pika News breaking news","Crystal Quest updates","Arrow Out updates","Future GoGo product announcements"]) {
+      expect(moduleSrc.includes(label)).toBe(true);
+    }
+    expect(moduleSrc.includes('id="gogo-notifications-intro"')).toBe(true);
+    expect(moduleSrc.includes('id="gogo-notifications-intro-enable"')).toBe(true);
+    expect(moduleSrc.includes('id="gogo-notifications-intro-dismiss"')).toBe(true);
+    expect((moduleSrc.match(/requestPermission/g) || []).length).toBe(1);
+    expect(moduleSrc.includes('visibilitychange')).toBe(true);
+  });
+
+  test('backend verification before Active: token+appId match on the existing devices endpoint', () => {
+    const find = GoGoNotifications.internals.findRegisteredDevice;
+    const devices = [
+      { deviceId: 'd1', fcmToken: 'tok-aaa', appId: 'sarkari-sarthi', status: 'active' },
+      { deviceId: 'd2', fcmToken: 'tok-aaa', appId: 'other-app', status: 'active' },
+      { deviceId: 'd3', fcmToken: 'tok-bbb', appId: 'sarkari-sarthi', status: 'revoked' },
+      { deviceId: 'd4', fcmToken: 'tok-bbb', appId: 'sarkari-sarthi', status: 'active' },
+    ];
+    expect(find(devices, 'tok-aaa', 'sarkari-sarthi').deviceId).toBe('d1');
+    expect(find(devices, 'tok-bbb', 'sarkari-sarthi').deviceId).toBe('d4');
+    expect(find(devices, 'tok-ccc', 'sarkari-sarthi')).toBeNull();
+    expect(find(null, 'tok-aaa', 'sarkari-sarthi')).toBeNull();
+    expect(moduleSrc.includes("apiFetch('/api/v1/devices', { method: 'GET' })")).toBe(true);
+    expect(moduleSrc.includes('VERIFY_FAILED')).toBe(true);
+  });
 });
+
