@@ -111,7 +111,14 @@ jobs:
       # regenerates only when a variant is missing or older than the
       # original hero-bg.jpg (which is always preserved untouched).
       run: |
-        command -v ffmpeg >/dev/null 2>&1 || { echo "::error::ffmpeg not found on runner; hero WebP variants would be missing"; exit 1; }
+        # ubuntu-latest (Ubuntu 26) runner images no longer ship ffmpeg, so
+        # install it when absent instead of hard-failing the deploy chain.
+        if ! command -v ffmpeg >/dev/null 2>&1; then
+          echo "ffmpeg not found on runner - installing via apt"
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq --no-install-recommends ffmpeg
+        fi
+        command -v ffmpeg >/dev/null 2>&1 || { echo "::error::ffmpeg unavailable on runner; hero WebP variants would be missing"; exit 1; }
         if [ ! -f hero-bg.jpg ]; then
           echo "hero-bg.jpg missing - skipping WebP generation"
           exit 0
