@@ -69,37 +69,65 @@ def _iso_date(value):
 
 
 def job_posting_jsonld(job, page_url):
-    """JobPosting structured data, verified fields only.
+    """Return Google JobPosting markup only when the vacancy is complete.
 
-    None for closed (expired/cancelled) vacancies: they are no longer
-    open for application and must not produce rich results.
+    Closed jobs, secondary-only records, and records missing Google's
+    required datePosted/jobLocation data or a verified application route
+    remain ordinary indexable information pages, but are not advertised
+    as eligible job rich results.
     """
     status = str(job.get('status') or '').lower()
     if status in CLOSED_STATUSES:
         return None
+    if str(job.get('verification_status') or '').lower() != 'official_verified':
+        return None
+
+    title = str(job.get('title') or '').strip()
+    description = str(job.get('description') or '').strip()
+    published_iso = _iso_date(job.get('published_date'))
+    organization = str(job.get('organization') or '').strip()
+    location = job.get('location')
+    has_apply_route = bool(job.get('official_application_url') or
+                           job.get('official_notification_url'))
+    if (not title or not description or not published_iso or not organization
+            or not isinstance(location, dict)
+            or not str(location.get('addressCountry') or '').strip()
+            or not has_apply_route):
+        return None
+
+    address = {
+        '@type': 'PostalAddress',
+        'addressCountry': str(location['addressCountry']).strip(),
+    }
+    for key in ('streetAddress', 'addressLocality', 'addressRegion', 'postalCode'):
+        value = location.get(key)
+        if value:
+            address[key] = str(value).strip()
+
     data = {
         '@context': 'https://schema.org',
         '@type': 'JobPosting',
-        'title': job.get('title') or '',
-        'description': job.get('description') or '',
+        'title': title,
+        'description': description,
+        'datePosted': published_iso,
+        'hiringOrganization': {
+            '@type': 'Organization',
+            'name': organization,
+        },
+        'jobLocation': {
+            '@type': 'Place',
+            'address': address,
+        },
         'url': page_url,
         'identifier': {'@type': 'PropertyValue', 'value': job.get('id')},
     }
-    if not data['title'] or not data['description']:
-        return None
     dates = job.get('important_dates') or {}
     last_iso = _iso_date(dates.get('last_date') or job.get('last_date'))
     if last_iso:
         data['validThrough'] = last_iso + 'T23:59:59'
-    published_iso = _iso_date(job.get('published_date'))
-    if published_iso:
-        data['datePosted'] = published_iso
-    if job.get('organization'):
-        data['hiringOrganization'] = {
-            '@type': 'Organization',
-            'name': job['organization'],
-        }
-    if job.get('official_application_url'):
+    # directApply is deliberately opt-in: an external application URL alone
+    # does not prove that the posting offers a direct-apply experience.
+    if job.get('direct_apply') is True:
         data['directApply'] = True
     return data
 
