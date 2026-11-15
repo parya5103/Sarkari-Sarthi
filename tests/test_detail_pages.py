@@ -17,6 +17,10 @@ def sample_job(job_id='en_sample1', **overrides):
         'description': 'Official listing for a teaching post.',
         'important_dates': {'last_date': '21-11-2026', 'found_date': '02-11-2026'},
         'published_date': '02-11-2026',
+        'location': {'addressCountry': 'IN', 'addressRegion': 'Himachal Pradesh', 'addressLocality': 'Nagrota'},
+        'official_notification_url': 'https://example.gov.in/notice.pdf',
+        'official_application_url': 'https://example.gov.in/apply',
+        'verification_status': 'official_verified',
         'category': 'Teaching',
         'skills': [],
         'scraped_at': '2026-11-03T10:00:00',
@@ -42,18 +46,35 @@ class TestJobPostingJsonld:
         ld = job_posting_jsonld(job, detail_url(job['id']))
         assert 'validThrough' not in ld
 
-    def test_no_organization_without_verified_org(self):
+    def test_no_jobposting_without_verified_organization(self):
         job = sample_job(organization=None)
-        ld = job_posting_jsonld(job, detail_url(job['id']))
-        assert 'hiringOrganization' not in ld
+        assert job_posting_jsonld(job, detail_url(job['id'])) is None
 
-    def test_no_invented_salary_or_location(self):
+    def test_location_is_only_emitted_from_verified_address_data(self):
         ld = job_posting_jsonld(sample_job(), detail_url('en_sample1'))
         assert 'baseSalary' not in ld
-        assert 'jobLocation' not in ld
+        assert ld['jobLocation']['address']['addressCountry'] == 'IN'
+        assert 'directApply' not in ld
 
     def test_none_when_title_or_description_missing(self):
         assert job_posting_jsonld({'id': 'x'}, 'u') is None
+
+    def test_secondary_source_only_jobs_get_no_jobposting_markup(self):
+        job = sample_job(verification_status='secondary_source_only')
+        assert job_posting_jsonld(job, detail_url(job['id'])) is None
+
+    def test_missing_location_or_apply_route_gets_no_jobposting_markup(self):
+        job = sample_job(location=None)
+        assert job_posting_jsonld(job, detail_url(job['id'])) is None
+        job = sample_job(official_notification_url=None, official_application_url=None)
+        assert job_posting_jsonld(job, detail_url(job['id'])) is None
+
+    def test_date_posted_is_required_and_direct_apply_is_not_assumed(self):
+        job = sample_job(published_date=None)
+        assert job_posting_jsonld(job, detail_url(job['id'])) is None
+        ld = job_posting_jsonld(sample_job(), detail_url('en_sample1'))
+        assert ld['datePosted'] == '2026-11-02'
+        assert 'directApply' not in ld
 
 
 class TestRenderDetailPage:
