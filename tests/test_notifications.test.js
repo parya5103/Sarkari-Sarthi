@@ -105,6 +105,10 @@ describe('GoGo Central notifications module (MOCKED)', () => {
     expect(swSrc.includes('gogocompany.in')).toBe(true);
     expect(swSrc.includes('tag:')).toBe(true);
     expect(swSrc.includes("addEventListener('fetch'")).toBe(false);
+    expect(swSrc.includes('function isTrustedClientUrl')).toBe(true);
+    expect(swSrc.includes('client.url.indexOf')).toBe(false);
+    expect(swSrc.includes("parsed.hostname === 'gogocompany.in'")).toBe(true);
+    expect(swSrc.includes('parsed.origin === self.location.origin')).toBe(true);
   });
 
   test('index.html mounts the notifications container and loads the module after script.js', () => {
