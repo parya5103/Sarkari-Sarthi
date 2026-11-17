@@ -25,6 +25,8 @@ describe('GoGo Central notifications module (MOCKED)', () => {
     expect(typeof GoGoNotifications.internals.buildPreferencePayload).toBe('function');
     expect(typeof GoGoNotifications.internals.safeUrl).toBe('function');
     expect(GoGoNotifications.config.appId).toBe('sarkari-sarthi');
+    expect(GoGoNotifications.config.apiBase).toBe('https://gogo-central-backend.onrender.com');
+    expect(moduleSrc.includes('gogo-central-backend-mg6z.onrender.com')).toBe(false);
     expect(GoGoNotifications.config.swUrl).toBe('firebase-messaging-sw.js');
   });
 
