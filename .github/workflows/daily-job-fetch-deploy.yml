@@ -198,6 +198,24 @@ jobs:
           requirements.txt
           README.md
 
+    - name: Send GoGo Central push for newly published jobs
+      if: steps.check_jobs.outputs.new_jobs == 'true' && success()
+      env:
+        CENTRAL_API: https://gogo-central-backend.onrender.com
+      run: |
+        set -euo pipefail
+        OIDC_URL="${ACTIONS_ID_TOKEN_REQUEST_URL}&audience=gogo-central-notifications"
+        OIDC_TOKEN=$(curl -fsS -H "Authorization: bearer ${ACTIONS_ID_TOKEN_REQUEST_TOKEN}" "$OIDC_URL" | jq -r '.value')
+        EVENT_ID=$(sha256sum jobs/job_manifest.json | cut -d' ' -f1)
+        jq -n --arg eventId "$EVENT_ID" \
+          --arg title "नई सरकारी नौकरियाँ उपलब्ध" \
+          --arg body "Sarkari Sarthi पर नई सरकारी नौकरी की जानकारी प्रकाशित हुई है। विवरण देखें।" \
+          --arg deepLink "https://gogocompany.in/sarkari-sarthi/" \
+          '{eventType:"new_jobs",eventId:$eventId,title:$title,body:$body,deepLink:$deepLink}' > /tmp/gogo-event.json
+        curl -fsS --max-time 20 -X POST "$CENTRAL_API/api/v1/automation/publish" \
+          -H "Authorization: Bearer $OIDC_TOKEN" -H "Content-Type: application/json" \
+          --data-binary @/tmp/gogo-event.json
+
     # Job alerts fire only AFTER the deploy step succeeded (master
     # plan Phase 7): no notification can claim success before the
     # site is actually updated.
