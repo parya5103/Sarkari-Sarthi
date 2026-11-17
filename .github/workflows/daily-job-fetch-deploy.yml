@@ -149,7 +149,7 @@ jobs:
         if [ -f "jobs/job_manifest.json" ]; then
           JOB_COUNT=$(python -c "import json; data=json.load(open('jobs/job_manifest.json')); print(data.get('total_jobs', 0))")
           echo "job_count=$JOB_COUNT" >> $GITHUB_OUTPUT
-          if [ -n "$(git status --porcelain -- jobs/ | grep -E '^[?][?]')" ]; then
+          if [ -n "$(git status --porcelain -- jobs/)" ]; then
             echo "new_jobs=true" >> $GITHUB_OUTPUT
           else
             echo "new_jobs=false" >> $GITHUB_OUTPUT
