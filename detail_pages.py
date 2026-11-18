@@ -142,14 +142,21 @@ def render_detail_page(job, related):
     job_id = job['id']
     page_url = detail_url(job_id)
     dates = job.get('important_dates') or {}
-    title_source = str(job.get('title') or 'Government Job Notification').strip()
+    title_source = str(job.get('title') or 'Government Job Notification')
     title = _esc(title_source)
-    meta_title = _esc(title_source[:42].rstrip() + ('…' if len(title_source) > 42 else ''))
+    meta_title_source = title_source[:42].rstrip()
+    if len(title_source) > 42:
+        meta_title_source += '…'
+    meta_title = _esc(meta_title_source)
     org = job.get('organization')
     status = str(job.get('status') or 'active').lower()
 
-    meta_source = (job.get('description') or job.get('title') or 'Government job notification.')
-    meta_desc = _esc(meta_source[:137].rstrip() + '…' if len(meta_source) > 140 else meta_source)
+    meta_source = str(job.get('description') or title_source or 'Government job notification.').strip()
+    if len(meta_source) < 70:
+        meta_source = title_source + '. ' + meta_source + ' Check the original notice for full details.'
+    if len(meta_source) > 137:
+        meta_source = meta_source[:136].rstrip() + '…'
+    meta_desc = _esc(meta_source)
 
     ld = job_posting_jsonld(job, page_url)
     ld_block = ''
@@ -256,8 +263,8 @@ def render_detail_page(job, related):
 <header class="header">
 <nav class="navbar"><div class="nav-container">
 <div class="nav-logo"><a href="/sarkari-sarthi/" style="text-decoration:none;color:inherit;">
-<img src="/sarkari-sarthi/ai-powered-icon.png" alt="SarkariSarthi logo" class="logo-icon">
-<span class="logo-text">SarkariSarthi 2.0</span></a></div>
+<img src="/sarkari-sarthi/ai-powered-icon.png" alt="Sarkari Sarthi logo" class="logo-icon">
+<span class="logo-text">Sarkari Sarthi</span></a></div>
 </div></nav>
 </header>
 <main class="container detail-page">
