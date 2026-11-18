@@ -6,7 +6,7 @@ short, factual and duplicate-free. Separate confirmed facts from TODOs.
 
 ## Project purpose
 
-Sarkari Sarthi 2.0 = independent Indian government job information
+Sarkari Sarthi = independent Indian government job information
 portal, live at https://gogocompany.in/sarkari-sarthi/. Static site on
 GitHub Pages (gh-pages branch, published by peaceiris/actions-gh-pages)
 plus a Python data pipeline on GitHub Actions. Owner: parya5103.
@@ -25,8 +25,10 @@ It is NOT a government website; every page carries that disclaimer.
   logs/source_report.{json,md}).
 - Frontend (no framework, zero build): `index.html` + `script.js` +
   `style.css`. Jobs are fetched client-side from
-  `jobs/job_manifest.json`. `admin.html`/`admin.js` = password-gated
-  manual import/edit via GitHub Contents API (token in sessionStorage).
+  `jobs/job_manifest.json`. `admin.html`/`admin.js` is an unauthenticated,
+  read-only data viewer. It has no browser password, PAT storage or write
+  endpoint; repository edits run through authenticated GitHub UI/Actions.
+  See `SECURITY_AUDIT.md` and `SECURITY_REMEDIATION.md`.
 - Tests: `tests/` pytest (pipeline) + `tests/test_script.test.js`
   jest+jsdom (frontend helpers). CI runs both on every PR/push.
 - Workflow: `.github/workflows/daily-job-fetch-deploy.yml` - cron
@@ -84,6 +86,8 @@ honest product User-Agent, no CAPTCHA/login/anti-bot bypass.
   old sort used the md5 job id - meaningless); bookmarks in localStorage
   with a Saved filter; extended notification fields in the modal.
 - Phase 4 SEO/final: site robots.txt + sitemap reference, this file.
+- SEO metadata, supported category filters, mobile responsive styling and
+  keyword map are maintained with regression coverage in the active audit PR.
 - Phase 5 mobile UI/UX fixes (branch `feat/mobile-menu-hero-fixes`):
   mobile menu drawer (fixed right panel, `.nav-menu.active`, backdrop,
   Escape/nav-link/backdrop close, aria-expanded/aria-controls,
@@ -106,9 +110,10 @@ honest product User-Agent, no CAPTCHA/login/anti-bot bypass.
 - Deploy job is skipped on pull_request events (by design).
 - Third-party checks on PRs: Vercel preview, CodeRabbit, cubic AI
   reviewer (may stay in_progress; harmless).
-- `admin.js` writes the manifest directly to main via GitHub Contents
-  API; counters get recomputed by the next pipeline run
-  (refresh_job_statuses).
+- The public admin viewer is read-only and fetches the public manifest;
+  it cannot write to GitHub or trigger deployments. Manifest changes are
+  performed through authenticated GitHub workflows/UI. The next pipeline
+  run recomputes counters via `refresh_job_statuses`.
 - The old mobile menu bug: @media 768px had `.nav-menu{display:none}`
   with no `.nav-menu.active` display rule while script.js toggled
   `active` -> the menu could never open. The drawer fix (Phase 5) is the
