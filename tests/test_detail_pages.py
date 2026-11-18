@@ -124,6 +124,15 @@ class TestRenderDetailPage:
         assert 'https://ssc.gov.in/notice.pdf' in page
         assert 'https://ssc.gov.in/apply' in page
 
+    def test_search_metadata_is_concise_but_visible_heading_stays_complete(self):
+        long_title = 'A Very Long Government Recruitment Notification Title With Many Extra Words'
+        page = render_detail_page(sample_job(title=long_title, description='Official recruitment details. ' * 20), [])
+        head_title = page.split('<title>', 1)[1].split('</title>', 1)[0]
+        meta_description = page.split('<meta name="description" content="', 1)[1].split('">', 1)[0]
+        assert len(head_title) <= 60
+        assert len(meta_description) <= 140
+        assert '<h1>' + long_title + '</h1>' in page
+
 
 class TestClosedJobHandling:
     """Expired and cancelled vacancies: honest banners, no misleading
