@@ -15,6 +15,11 @@ def test_homepage_targets_supported_job_searches_without_keyword_stuffing():
     assert 'name="keywords"' not in html.lower()
     assert "admit card" not in description.lower()
     assert "examination results" not in description.lower()
+    for category in ("Medical", "Engineering", "Administrative"):
+        assert f'value="{category}"' in html
+        assert f'data-category="{category}"' in html
+    assert "verification status" in html.lower()
+    assert "collected from official sources" not in html.lower()
 
 
 def test_generated_job_page_has_concise_metadata_and_full_visible_title():
