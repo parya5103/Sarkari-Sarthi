@@ -142,12 +142,14 @@ def render_detail_page(job, related):
     job_id = job['id']
     page_url = detail_url(job_id)
     dates = job.get('important_dates') or {}
-    title = _esc(job.get('title') or 'Government Job Notification')
+    title_source = str(job.get('title') or 'Government Job Notification').strip()
+    title = _esc(title_source)
+    meta_title = _esc(title_source[:42].rstrip() + ('…' if len(title_source) > 42 else ''))
     org = job.get('organization')
     status = str(job.get('status') or 'active').lower()
 
     meta_source = (job.get('description') or job.get('title') or 'Government job notification.')
-    meta_desc = _esc(meta_source[:157] + '...' if len(meta_source) > 160 else meta_source)
+    meta_desc = _esc(meta_source[:137].rstrip() + '…' if len(meta_source) > 140 else meta_source)
 
     ld = job_posting_jsonld(job, page_url)
     ld_block = ''
@@ -242,7 +244,7 @@ def render_detail_page(job, related):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>''' + title + ''' - SarkariSarthi</title>
+<title>''' + meta_title + ''' | Sarkari Sarthi</title>
 <meta name="description" content="''' + meta_desc + '''">
 <link rel="canonical" href="''' + page_url + '''">
 <link rel="stylesheet" href="/sarkari-sarthi/style.css">
