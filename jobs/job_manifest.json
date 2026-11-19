@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-18T17:07:20.039443",
-  "total_jobs": 236,
+  "last_updated": "2026-11-19T04:25:20.629015",
+  "total_jobs": 237,
   "active_jobs": 210,
-  "expired_jobs": 26,
+  "expired_jobs": 27,
   "jobs": [
     {
       "id": "5ccd399e8537b84c5a77d05981e8dc67",
@@ -4142,56 +4142,6 @@
         {
           "source": "allgovernmentjobs.in",
           "url": "https://allgovernmentjobs.in/iit-kharagpur-notification-2026-apply-offline-for-various-research-associate-posts/45068"
-        }
-      ],
-      "recruitment_board": null,
-      "state": null,
-      "district": null,
-      "minimum_qualification": null,
-      "age_min": null,
-      "age_max": null,
-      "age_relaxation": null,
-      "salary": null,
-      "pay_scale": null,
-      "application_fee": null,
-      "selection_process": null,
-      "employment_type": null,
-      "official_website": null,
-      "description_summary": null,
-      "verification_status": "secondary_source_only"
-    },
-    {
-      "id": "39ca67afafad5358be3cc488b65cd6fa",
-      "title": "NPCIL Notification 2026 - Apply Online for 80 Apprenticeship Posts",
-      "url": "https://allgovernmentjobs.in/npcil-notification-2026-apply-online-for-80-apprenticeship-posts/45072",
-      "source": "allgovernmentjobs.in",
-      "description": "The Nuclear Power Corporation of India Limited (NPCIL) has officially released the notification to fill the vacancies for 80 Trade Apprentice, Diploma Apprentice, and Graduate Apprentice Jobs. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their ITI, Diploma, B.E/ B.Tech, or M.E/ M.Tech in Civil Engineering, Mechanical Engineering, or Electrical Engineering can apply for the NPCIL Notifica...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "18-11-2026",
-        "found_date": "29-10-2026"
-      },
-      "category": "General",
-      "skills": [],
-      "scraped_at": "2026-11-03T14:22:16.598600",
-      "links": [],
-      "organization": null,
-      "department": null,
-      "location": null,
-      "vacancies": null,
-      "advertisement_no": null,
-      "qualification": null,
-      "age_limit": null,
-      "official_notification_url": null,
-      "official_application_url": null,
-      "published_date": null,
-      "original_source_url": "https://allgovernmentjobs.in/npcil-notification-2026-apply-online-for-80-apprenticeship-posts/45072",
-      "last_verified": "2026-11-03T18:25:39.720770",
-      "status": "active",
-      "source_refs": [
-        {
-          "source": "allgovernmentjobs.in",
-          "url": "https://allgovernmentjobs.in/npcil-notification-2026-apply-online-for-80-apprenticeship-posts/45072"
         }
       ],
       "recruitment_board": null,
@@ -9410,6 +9360,50 @@
       ]
     },
     {
+      "id": "9235bd70a8876bd9161977cab7b1f76a",
+      "title": "CCMB Notification 2026 - Apply Online for 02 Project Staff Posts",
+      "url": "https://allgovernmentjobs.in/ccmb-notification-2026-apply-online-for-02-project-staff-posts/45375",
+      "source": "allgovernmentjobs.in",
+      "description": "The Centre for Cellular and Molecular Biology (CCMB) has officially released the notification to fill the vacancies of 02 Project Staff Jobs. Interested and eligibile candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their M. Pharm, Pharm D, MD/MS, B.E./B. Tech, M.E./M. Tech, Ph.D. can apply for the CCMB Notification 2026 . The interested applicants can apply in online mode. Here we have mentioned the education deta...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "02-12-2026",
+        "found_date": "11-11-2026"
+      },
+      "category": "General",
+      "skills": [],
+      "scraped_at": "2026-11-19T04:25:26.402411",
+      "links": [],
+      "organization": null,
+      "department": null,
+      "recruitment_board": null,
+      "location": null,
+      "state": null,
+      "district": null,
+      "vacancies": null,
+      "advertisement_no": null,
+      "qualification": null,
+      "minimum_qualification": null,
+      "age_limit": null,
+      "age_min": null,
+      "age_max": null,
+      "age_relaxation": null,
+      "salary": null,
+      "pay_scale": null,
+      "application_fee": null,
+      "selection_process": null,
+      "employment_type": null,
+      "official_notification_url": null,
+      "official_application_url": null,
+      "official_website": null,
+      "description_summary": null,
+      "published_date": null,
+      "original_source_url": "https://allgovernmentjobs.in/ccmb-notification-2026-apply-online-for-02-project-staff-posts/45375",
+      "last_verified": "2026-11-19T04:25:26.402411",
+      "status": "active",
+      "verification_status": "secondary_source_only"
+    },
+    {
       "id": "15c044accfbb2469ab16d62f9d2592d3",
       "title": "IIT Bhilai Recruitment 2026- Apply Offline for Project Assistant Posts",
       "url": "https://allgovernmentjobs.in/iit-bhilai-recruitment-2026-apply-offline-for-project-assistant-posts/45180",
@@ -10208,6 +10202,56 @@
           "url": "https://employmentnews.gov.in/newemp/AllJobs.aspx?k=All#en-1b247f689b99487eadf48ea012547ce1"
         }
       ]
+    },
+    {
+      "id": "39ca67afafad5358be3cc488b65cd6fa",
+      "title": "NPCIL Notification 2026 - Apply Online for 80 Apprenticeship Posts",
+      "url": "https://allgovernmentjobs.in/npcil-notification-2026-apply-online-for-80-apprenticeship-posts/45072",
+      "source": "allgovernmentjobs.in",
+      "description": "The Nuclear Power Corporation of India Limited (NPCIL) has officially released the notification to fill the vacancies for 80 Trade Apprentice, Diploma Apprentice, and Graduate Apprentice Jobs. Interested and eligible candidates can use this opportunity to apply for these posts before the last date of application. Candidates who have completed their ITI, Diploma, B.E/ B.Tech, or M.E/ M.Tech in Civil Engineering, Mechanical Engineering, or Electrical Engineering can apply for the NPCIL Notifica...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "18-11-2026",
+        "found_date": "29-10-2026"
+      },
+      "category": "General",
+      "skills": [],
+      "scraped_at": "2026-11-03T14:22:16.598600",
+      "links": [],
+      "organization": null,
+      "department": null,
+      "location": null,
+      "vacancies": null,
+      "advertisement_no": null,
+      "qualification": null,
+      "age_limit": null,
+      "official_notification_url": null,
+      "official_application_url": null,
+      "published_date": null,
+      "original_source_url": "https://allgovernmentjobs.in/npcil-notification-2026-apply-online-for-80-apprenticeship-posts/45072",
+      "last_verified": "2026-11-03T18:25:39.720770",
+      "status": "expired",
+      "source_refs": [
+        {
+          "source": "allgovernmentjobs.in",
+          "url": "https://allgovernmentjobs.in/npcil-notification-2026-apply-online-for-80-apprenticeship-posts/45072"
+        }
+      ],
+      "recruitment_board": null,
+      "state": null,
+      "district": null,
+      "minimum_qualification": null,
+      "age_min": null,
+      "age_max": null,
+      "age_relaxation": null,
+      "salary": null,
+      "pay_scale": null,
+      "application_fee": null,
+      "selection_process": null,
+      "employment_type": null,
+      "official_website": null,
+      "description_summary": null,
+      "verification_status": "expired"
     },
     {
       "id": "9339ee490e6a62cb40225d0246954759",
