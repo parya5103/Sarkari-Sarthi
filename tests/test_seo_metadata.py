@@ -21,6 +21,19 @@ def test_homepage_targets_supported_job_searches_without_keyword_stuffing():
     assert "collected from official sources" not in html.lower()
 
 
+def test_homepage_has_original_verification_guidance_and_guide_link():
+    html = Path("index.html").read_text(encoding="utf-8")
+    assert "How to verify a government job listing" in html
+    assert "Official source" in html
+    assert "Secondary source" in html
+    assert "Needs review" in html
+    assert 'href="verification-guide.html"' in html
+    guide = Path("verification-guide.html").read_text(encoding="utf-8")
+    assert "How to verify a government job notification in India" in guide
+    assert "Never pay a person or unrelated website" in guide
+    assert "not a government agency" in guide
+
+
 def test_generated_job_page_has_concise_metadata_and_full_visible_title():
     full_title = "A Very Long Government Recruitment Notification Title With Several Extra Words"
     job = {"id":"seo_test_001","title":full_title,"description":"Government recruitment notification with eligibility, dates, vacancies, and official source information. " * 3,"category":"General","status":"active","verification_status":"secondary_source_only","source":"Example recruitment source"}

@@ -59,6 +59,37 @@ def detail_url(job_id):
     return BASE_URL + '/job/' + job_id + '/'
 
 
+def is_indexable_detail_job(job):
+    """Only substantial records backed by an official source enter search.
+
+    Secondary-source-only, stale, incomplete and closed records remain
+    accessible to visitors with their trust labels, but are noindex and
+    excluded from the XML sitemap until the required evidence is present.
+    """
+    if not isinstance(job, dict):
+        return False
+    if str(job.get('status') or 'active').lower() in CLOSED_STATUSES:
+        return False
+    if str(job.get('verification_status') or '').lower() != 'official_verified':
+        return False
+    description = str(job.get('description') or '').strip()
+    if len(description) < 180:
+        return False
+    dates = job.get('important_dates') or {}
+    evidence = (
+        job.get('organization'),
+        job.get('vacancies'),
+        job.get('qualification') or job.get('minimum_qualification'),
+        job.get('age_limit'),
+        dates.get('last_date') or job.get('last_date'),
+        job.get('official_notification_url'),
+        job.get('official_application_url'),
+        job.get('salary') or job.get('pay_scale'),
+        job.get('selection_process'),
+    )
+    return sum(bool(value and str(value).strip()) for value in evidence) >= 4
+
+
 def _esc(value):
     return html.escape(str(value), quote=True)
 
@@ -254,6 +285,7 @@ def render_detail_page(job, related):
 <title>''' + meta_title + ''' | Sarkari Sarthi</title>
 <meta name="description" content="''' + meta_desc + '''">
 <link rel="canonical" href="''' + page_url + '''">
+<meta name="robots" content="''' + ('index,follow' if is_indexable_detail_job(job) else 'noindex,follow') + '''">
 <link rel="stylesheet" href="/sarkari-sarthi/style.css">
 <link rel="stylesheet" href="/sarkari-sarthi/assets/css/ads.css">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2895136878543415" crossorigin="anonymous"></script>
@@ -386,10 +418,11 @@ def _write_sitemap(jobs, out_root='.'):
         return '<url><loc>' + loc + '</loc></url>'
 
     lines.append(url_entry(BASE_URL + '/', ''))
+    lines.append(url_entry(BASE_URL + '/verification-guide.html', '2026-11-20'))
     for job in jobs:
-        # Expired and cancelled vacancies are not open jobs: exclude
-        # them from the active-job sitemap.
-        if str(job.get('status') or 'active').lower() in CLOSED_STATUSES:
+        # Only substantial records with an official source and enough
+        # concrete recruitment facts belong in search and the sitemap.
+        if not is_indexable_detail_job(job):
             continue
         verified = job.get('last_verified') or ''
         lines.append(url_entry(detail_url(job['id']), verified))

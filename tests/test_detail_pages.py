@@ -3,7 +3,7 @@ import os
 
 from detail_pages import (
     BASE_URL, SITEMAP_FILE, detail_url, job_posting_jsonld,
-    render_detail_page, write_detail_pages,
+    render_detail_page, write_detail_pages, is_indexable_detail_job,
 )
 
 
@@ -14,7 +14,7 @@ def sample_job(job_id='en_sample1', **overrides):
         'organization': 'SAINIK SCHOOL NAGROTA',
         'url': 'https://example.gov.in/job/1',
         'source': 'employmentnews.gov.in',
-        'description': 'Official listing for a teaching post.',
+        'description': 'The recruiting authority has published this teaching vacancy for eligible applicants. Review the official notification for the post requirements, educational qualification, application process, required documents, selection stages and important dates. Applicants should compare every condition with the original notice before submitting an application.',
         'important_dates': {'last_date': '21-11-2026', 'found_date': '02-11-2026'},
         'published_date': '02-11-2026',
         'location': {'addressCountry': 'IN', 'addressRegion': 'Himachal Pradesh', 'addressLocality': 'Nagrota'},
@@ -29,6 +29,33 @@ def sample_job(job_id='en_sample1', **overrides):
     }
     job.update(overrides)
     return job
+
+
+class TestIndexableDetailPolicy:
+    def test_only_substantial_officially_backed_details_are_indexable(self):
+        assert is_indexable_detail_job(sample_job()) is True
+
+    def test_secondary_source_only_record_is_not_indexable(self):
+        assert is_indexable_detail_job(sample_job(verification_status='secondary_source_only')) is False
+
+    def test_needs_review_record_is_not_indexable(self):
+        assert is_indexable_detail_job(sample_job(verification_status='needs_review')) is False
+
+    def test_thin_official_record_is_not_indexable(self):
+        assert is_indexable_detail_job(sample_job(description='Short notice.')) is False
+
+    def test_missing_core_facts_is_not_indexable(self):
+        assert is_indexable_detail_job(sample_job(
+            organization=None,
+            qualification=None,
+            vacancies=None,
+            age_limit=None,
+            important_dates={},
+            official_notification_url=None,
+            official_application_url=None,
+            salary=None,
+            selection_process=None,
+        )) is False
 
 
 class TestJobPostingJsonld:
@@ -81,9 +108,16 @@ class TestRenderDetailPage:
     def test_contains_canonical_and_breadcrumb(self):
         job = sample_job()
         page = render_detail_page(job, [])
+        assert '<meta name="robots" content="index,follow">' in page
         assert 'rel="canonical" href="' + detail_url(job['id']) + '"' in page
         assert 'Breadcrumb' in page
         assert 'href="/sarkari-sarthi/"' in page
+
+    def test_secondary_and_thin_records_are_noindex(self):
+        secondary = render_detail_page(sample_job(verification_status='secondary_source_only'), [])
+        thin = render_detail_page(sample_job(description='Short notice.'), [])
+        assert '<meta name="robots" content="noindex,follow">' in secondary
+        assert '<meta name="robots" content="noindex,follow">' in thin
 
     def test_html_escaped(self):
         job = sample_job(title='X <script>alert(1)</script>')
@@ -164,16 +198,19 @@ class TestClosedJobHandling:
         active = sample_job('en_open1')
         expired = sample_job('en_closed1', status='expired')
         cancelled = sample_job('en_cancel1', status='cancelled')
-        written = write_detail_pages([active, expired, cancelled], out_root=str(tmp_path))
-        # Closed jobs still get a reference page (with honest banner)...
-        assert written == 3
+        secondary = sample_job('en_secondary', verification_status='secondary_source_only')
+        thin = sample_job('en_thin', description='Short notice.')
+        written = write_detail_pages([active, expired, cancelled, secondary, thin], out_root=str(tmp_path))
+        # Every safe record remains available as a reference page.
+        assert written == 5
         assert (tmp_path / 'job' / 'en_closed1' / 'index.html').exists()
         assert (tmp_path / 'job' / 'en_cancel1' / 'index.html').exists()
-        # ...but never an active-job sitemap entry.
+        # Only substantial, officially backed records enter the sitemap.
         sitemap = (tmp_path / SITEMAP_FILE).read_text(encoding='utf-8')
         assert detail_url('en_open1') in sitemap
-        assert detail_url('en_closed1') not in sitemap
-        assert detail_url('en_cancel1') not in sitemap
+        for job_id in ('en_closed1', 'en_cancel1', 'en_secondary', 'en_thin'):
+            assert detail_url(job_id) not in sitemap
+        assert BASE_URL + '/verification-guide.html' in sitemap
 
 
 class TestWriteDetailPages:
