@@ -3,7 +3,7 @@ import os
 
 from detail_pages import (
     BASE_URL, SITEMAP_FILE, detail_url, job_posting_jsonld,
-    render_detail_page, write_detail_pages,
+    render_detail_page, write_detail_pages, is_indexable_detail_job,
 )
 
 
@@ -14,7 +14,7 @@ def sample_job(job_id='en_sample1', **overrides):
         'organization': 'SAINIK SCHOOL NAGROTA',
         'url': 'https://example.gov.in/job/1',
         'source': 'employmentnews.gov.in',
-        'description': 'Official listing for a teaching post.',
+        'description': 'The recruiting authority has published this teaching vacancy for eligible applicants. Review the official notification for the post requirements, educational qualification, application process, required documents, selection stages and important dates. Applicants should compare every condition with the original notice before submitting an application.',
         'important_dates': {'last_date': '21-11-2026', 'found_date': '02-11-2026'},
         'published_date': '02-11-2026',
         'location': {'addressCountry': 'IN', 'addressRegion': 'Himachal Pradesh', 'addressLocality': 'Nagrota'},
@@ -29,6 +29,33 @@ def sample_job(job_id='en_sample1', **overrides):
     }
     job.update(overrides)
     return job
+
+
+class TestIndexableDetailPolicy:
+    def test_only_substantial_officially_backed_details_are_indexable(self):
+        assert is_indexable_detail_job(sample_job()) is True
+
+    def test_secondary_source_only_record_is_not_indexable(self):
+        assert is_indexable_detail_job(sample_job(verification_status='secondary_source_only')) is False
+
+    def test_needs_review_record_is_not_indexable(self):
+        assert is_indexable_detail_job(sample_job(verification_status='needs_review')) is False
+
+    def test_thin_official_record_is_not_indexable(self):
+        assert is_indexable_detail_job(sample_job(description='Short notice.')) is False
+
+    def test_missing_core_facts_is_not_indexable(self):
+        assert is_indexable_detail_job(sample_job(
+            organization=None,
+            qualification=None,
+            vacancies=None,
+            age_limit=None,
+            important_dates={},
+            official_notification_url=None,
+            official_application_url=None,
+            salary=None,
+            selection_process=None,
+        )) is False
 
 
 class TestJobPostingJsonld:
