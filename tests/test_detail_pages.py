@@ -108,6 +108,13 @@ class TestRenderDetailPage:
     def test_contains_canonical_and_breadcrumb(self):
         job = sample_job()
         page = render_detail_page(job, [])
+        assert '<meta name="robots" content="index,follow">' in page
+
+    def test_secondary_and_thin_records_are_noindex(self):
+        secondary = render_detail_page(sample_job(verification_status='secondary_source_only'), [])
+        thin = render_detail_page(sample_job(description='Short notice.'), [])
+        assert '<meta name="robots" content="noindex,follow">' in secondary
+        assert '<meta name="robots" content="noindex,follow">' in thin
         assert 'rel="canonical" href="' + detail_url(job['id']) + '"' in page
         assert 'Breadcrumb' in page
         assert 'href="/sarkari-sarthi/"' in page
@@ -191,16 +198,19 @@ class TestClosedJobHandling:
         active = sample_job('en_open1')
         expired = sample_job('en_closed1', status='expired')
         cancelled = sample_job('en_cancel1', status='cancelled')
-        written = write_detail_pages([active, expired, cancelled], out_root=str(tmp_path))
-        # Closed jobs still get a reference page (with honest banner)...
-        assert written == 3
+        secondary = sample_job('en_secondary', verification_status='secondary_source_only')
+        thin = sample_job('en_thin', description='Short notice.')
+        written = write_detail_pages([active, expired, cancelled, secondary, thin], out_root=str(tmp_path))
+        # Every safe record remains available as a reference page.
+        assert written == 5
         assert (tmp_path / 'job' / 'en_closed1' / 'index.html').exists()
         assert (tmp_path / 'job' / 'en_cancel1' / 'index.html').exists()
-        # ...but never an active-job sitemap entry.
+        # Only substantial, officially backed records enter the sitemap.
         sitemap = (tmp_path / SITEMAP_FILE).read_text(encoding='utf-8')
         assert detail_url('en_open1') in sitemap
-        assert detail_url('en_closed1') not in sitemap
-        assert detail_url('en_cancel1') not in sitemap
+        for job_id in ('en_closed1', 'en_cancel1', 'en_secondary', 'en_thin'):
+            assert detail_url(job_id) not in sitemap
+        assert BASE_URL + '/verification-guide.html' in sitemap
 
 
 class TestWriteDetailPages:
