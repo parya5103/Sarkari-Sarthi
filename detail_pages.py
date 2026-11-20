@@ -418,6 +418,7 @@ def _write_sitemap(jobs, out_root='.'):
         return '<url><loc>' + loc + '</loc></url>'
 
     lines.append(url_entry(BASE_URL + '/', ''))
+    lines.append(url_entry(BASE_URL + '/verification-guide.html', '2026-11-20'))
     for job in jobs:
         # Only substantial records with an official source and enough
         # concrete recruitment facts belong in search and the sitemap.
