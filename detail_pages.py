@@ -87,7 +87,7 @@ def is_indexable_detail_job(job):
         job.get('salary') or job.get('pay_scale'),
         job.get('selection_process'),
     )
-    return sum(bool(str(value).strip()) for value in evidence) >= 4
+    return sum(bool(value and str(value).strip()) for value in evidence) >= 4
 
 
 def _esc(value):
