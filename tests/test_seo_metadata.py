@@ -30,7 +30,7 @@ def test_homepage_has_original_verification_guidance_and_guide_link():
     assert 'href="verification-guide.html"' in html
     guide = Path("verification-guide.html").read_text(encoding="utf-8")
     assert "How to verify a government job notification in India" in guide
-    assert "Do not pay a person or unrelated website" in guide
+    assert "Never pay a person or unrelated website" in guide
     assert "not a government agency" in guide
 
 
