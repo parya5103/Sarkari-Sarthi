@@ -109,15 +109,15 @@ class TestRenderDetailPage:
         job = sample_job()
         page = render_detail_page(job, [])
         assert '<meta name="robots" content="index,follow">' in page
+        assert 'rel="canonical" href="' + detail_url(job['id']) + '"' in page
+        assert 'Breadcrumb' in page
+        assert 'href="/sarkari-sarthi/"' in page
 
     def test_secondary_and_thin_records_are_noindex(self):
         secondary = render_detail_page(sample_job(verification_status='secondary_source_only'), [])
         thin = render_detail_page(sample_job(description='Short notice.'), [])
         assert '<meta name="robots" content="noindex,follow">' in secondary
         assert '<meta name="robots" content="noindex,follow">' in thin
-        assert 'rel="canonical" href="' + detail_url(job['id']) + '"' in page
-        assert 'Breadcrumb' in page
-        assert 'href="/sarkari-sarthi/"' in page
 
     def test_html_escaped(self):
         job = sample_job(title='X <script>alert(1)</script>')
