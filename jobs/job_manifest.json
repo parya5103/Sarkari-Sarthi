@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-22T03:24:07.476596",
+  "last_updated": "2026-11-23T03:55:09.368018",
   "total_jobs": 267,
-  "active_jobs": 236,
-  "expired_jobs": 31,
+  "active_jobs": 235,
+  "expired_jobs": 32,
   "jobs": [
     {
       "id": "5ccd399e8537b84c5a77d05981e8dc67",
@@ -389,7 +389,7 @@
       "employment_type": null,
       "official_website": null,
       "description_summary": null,
-      "verification_status": "secondary_source_only"
+      "verification_status": "needs_review"
     },
     {
       "id": "b8d23197e3aed2ad6f2c46bb64e3020e",
@@ -432,7 +432,7 @@
       "employment_type": null,
       "official_website": null,
       "description_summary": null,
-      "verification_status": "secondary_source_only"
+      "verification_status": "needs_review"
     },
     {
       "id": "cd1586b0c85f5c5b9e0877c598c4fd76",
@@ -475,7 +475,7 @@
       "employment_type": null,
       "official_website": null,
       "description_summary": null,
-      "verification_status": "secondary_source_only"
+      "verification_status": "needs_review"
     },
     {
       "id": "b31b1bb1068d9352cebfb1d8ff3c9884",
@@ -518,7 +518,7 @@
       "employment_type": null,
       "official_website": null,
       "description_summary": null,
-      "verification_status": "secondary_source_only"
+      "verification_status": "needs_review"
     },
     {
       "id": "7922bf9783f07328410b4fc24a876906",
@@ -561,7 +561,7 @@
       "employment_type": null,
       "official_website": null,
       "description_summary": null,
-      "verification_status": "secondary_source_only"
+      "verification_status": "needs_review"
     },
     {
       "id": "b97feb8bf935ef6605e58eac20df74b5",
@@ -604,7 +604,7 @@
       "employment_type": null,
       "official_website": null,
       "description_summary": null,
-      "verification_status": "secondary_source_only"
+      "verification_status": "needs_review"
     },
     {
       "id": "1f8e602738f5f5675914d7197d5ba9aa",
@@ -647,7 +647,7 @@
       "employment_type": null,
       "official_website": null,
       "description_summary": null,
-      "verification_status": "secondary_source_only"
+      "verification_status": "needs_review"
     },
     {
       "id": "436e4ac862a2a320155adeb824de9f51",
@@ -690,7 +690,7 @@
       "employment_type": null,
       "official_website": null,
       "description_summary": null,
-      "verification_status": "secondary_source_only"
+      "verification_status": "needs_review"
     },
     {
       "id": "6c50c4a8195b2ccc926d340962c4a981",
@@ -733,7 +733,7 @@
       "employment_type": null,
       "official_website": null,
       "description_summary": null,
-      "verification_status": "secondary_source_only"
+      "verification_status": "needs_review"
     },
     {
       "id": "13aea1b561b3ba26bbd33fabfbfe8ea7",
@@ -3959,52 +3959,6 @@
       "published_date": null,
       "original_source_url": "https://allgovernmentjobs.in/icar-nbpgr-notification-2026-apply-for-various-young-professional-ii-posts/45056",
       "last_verified": "2026-11-03T04:00:07.873208",
-      "status": "active",
-      "recruitment_board": null,
-      "state": null,
-      "district": null,
-      "minimum_qualification": null,
-      "age_min": null,
-      "age_max": null,
-      "age_relaxation": null,
-      "salary": null,
-      "pay_scale": null,
-      "application_fee": null,
-      "selection_process": null,
-      "employment_type": null,
-      "official_website": null,
-      "description_summary": null,
-      "verification_status": "secondary_source_only"
-    },
-    {
-      "id": "3afb3987544c4291fd0598045ea2428b",
-      "title": "AEES Notification 2026 - Apply Online for 254 TGT, PGT, Principal, Librarian and Other Posts",
-      "url": "https://allgovernmentjobs.in/aees-notification-2026-apply-online-for-254-tgt-pgt-principal-librarian-and-other-posts/45058",
-      "source": "allgovernmentjobs.in",
-      "description": "Atomic Energy Education Society (AEES) has declared the official notification for the recruitment of 254 TGT, PGT, Principal, Librarian, Primary Teacher, and Other Jobs. Candidates who have qualified in any degree, post-graduation, B.E./ B.Tech, M.E/ M.Tech, B.Sc., M.Sc., B.Ed., MCA, or 12th can use this chance and apply for the AEES Notification 2026 . Here, we have included more information about the age limit, selection process, salary structure, education details, application fee, and how...",
-      "pdf_link": null,
-      "important_dates": {
-        "last_date": "22-11-2026",
-        "found_date": "02-11-2026"
-      },
-      "category": "Teaching",
-      "skills": [
-        "Data Entry"
-      ],
-      "scraped_at": "2026-11-03T04:00:07.873197",
-      "links": [],
-      "organization": null,
-      "department": null,
-      "location": null,
-      "vacancies": null,
-      "advertisement_no": null,
-      "qualification": null,
-      "age_limit": null,
-      "official_notification_url": null,
-      "official_application_url": null,
-      "published_date": null,
-      "original_source_url": "https://allgovernmentjobs.in/aees-notification-2026-apply-online-for-254-tgt-pgt-principal-librarian-and-other-posts/45058",
-      "last_verified": "2026-11-03T04:00:07.873197",
       "status": "active",
       "recruitment_board": null,
       "state": null,
@@ -10275,9 +10229,15 @@
       "description_summary": null,
       "published_date": null,
       "original_source_url": "https://allgovernmentjobs.in/tscab-notification-2026-apply-offline-for-chief-executive-officer-posts/45452",
-      "last_verified": "2026-11-22T03:24:11.237303",
+      "last_verified": "2026-11-23T03:55:09.368018",
       "status": "active",
-      "verification_status": "secondary_source_only"
+      "verification_status": "secondary_source_only",
+      "source_refs": [
+        {
+          "source": "allgovernmentjobs.in",
+          "url": "https://allgovernmentjobs.in/tscab-notification-2026-apply-offline-for-chief-executive-officer-posts/45452"
+        }
+      ]
     },
     {
       "id": "3730b28a3dc42c68f6790140f0e73ac9",
@@ -10321,9 +10281,15 @@
       "description_summary": null,
       "published_date": null,
       "original_source_url": "https://allgovernmentjobs.in/nimhans-notification-2026-apply-online-for-02-technical-assistant-posts/45453",
-      "last_verified": "2026-11-22T03:24:11.237270",
+      "last_verified": "2026-11-23T03:55:09.368018",
       "status": "active",
-      "verification_status": "secondary_source_only"
+      "verification_status": "secondary_source_only",
+      "source_refs": [
+        {
+          "source": "allgovernmentjobs.in",
+          "url": "https://allgovernmentjobs.in/nimhans-notification-2026-apply-online-for-02-technical-assistant-posts/45453"
+        }
+      ]
     },
     {
       "id": "9b3dc38278bbb57672193824de1e7e86",
@@ -10365,9 +10331,15 @@
       "description_summary": null,
       "published_date": null,
       "original_source_url": "https://allgovernmentjobs.in/appsc-recruitment-2026-apply-online-for-08-assistant-director-posts/45446",
-      "last_verified": "2026-11-22T03:24:11.240756",
+      "last_verified": "2026-11-23T03:55:09.368018",
       "status": "active",
-      "verification_status": "secondary_source_only"
+      "verification_status": "secondary_source_only",
+      "source_refs": [
+        {
+          "source": "allgovernmentjobs.in",
+          "url": "https://allgovernmentjobs.in/appsc-recruitment-2026-apply-online-for-08-assistant-director-posts/45446"
+        }
+      ]
     },
     {
       "id": "6eeccd2a9d3e008fa9bf51b664772fb5",
@@ -10409,9 +10381,15 @@
       "description_summary": null,
       "published_date": null,
       "original_source_url": "https://allgovernmentjobs.in/dduh-notification-2026-walk-in-interview-for-28-senior-resident-posts/45449",
-      "last_verified": "2026-11-22T03:24:11.237322",
+      "last_verified": "2026-11-23T03:55:09.368018",
       "status": "active",
-      "verification_status": "secondary_source_only"
+      "verification_status": "secondary_source_only",
+      "source_refs": [
+        {
+          "source": "allgovernmentjobs.in",
+          "url": "https://allgovernmentjobs.in/dduh-notification-2026-walk-in-interview-for-28-senior-resident-posts/45449"
+        }
+      ]
     },
     {
       "id": "4d2d64eed77975a66f5fae376c6f4493",
@@ -10453,9 +10431,15 @@
       "description_summary": null,
       "published_date": null,
       "original_source_url": "https://allgovernmentjobs.in/nipgr-notification-2026-walk-in-interview-for-research-associate-i-posts/45445",
-      "last_verified": "2026-11-22T03:24:11.237348",
+      "last_verified": "2026-11-23T03:55:09.368018",
       "status": "active",
-      "verification_status": "secondary_source_only"
+      "verification_status": "secondary_source_only",
+      "source_refs": [
+        {
+          "source": "allgovernmentjobs.in",
+          "url": "https://allgovernmentjobs.in/nipgr-notification-2026-walk-in-interview-for-research-associate-i-posts/45445"
+        }
+      ]
     },
     {
       "id": "2c99f986db204979023ce95d9c0551b9",
@@ -10497,9 +10481,15 @@
       "description_summary": null,
       "published_date": null,
       "original_source_url": "https://allgovernmentjobs.in/iit-jammu-jobs-2026-apply-online-for-research-associate-posts/45447",
-      "last_verified": "2026-11-22T03:24:11.245651",
+      "last_verified": "2026-11-23T03:55:09.368018",
       "status": "active",
-      "verification_status": "secondary_source_only"
+      "verification_status": "secondary_source_only",
+      "source_refs": [
+        {
+          "source": "allgovernmentjobs.in",
+          "url": "https://allgovernmentjobs.in/iit-jammu-jobs-2026-apply-online-for-research-associate-posts/45447"
+        }
+      ]
     },
     {
       "id": "d80b2411cfa471cf3313aaec6de47bd3",
@@ -10541,9 +10531,15 @@
       "description_summary": null,
       "published_date": null,
       "original_source_url": "https://allgovernmentjobs.in/aiims-bhopal-jobs-2026-apply-online-for-project-technical-support-iii-posts/45450",
-      "last_verified": "2026-11-22T03:24:11.245602",
+      "last_verified": "2026-11-23T03:55:09.368018",
       "status": "active",
-      "verification_status": "secondary_source_only"
+      "verification_status": "secondary_source_only",
+      "source_refs": [
+        {
+          "source": "allgovernmentjobs.in",
+          "url": "https://allgovernmentjobs.in/aiims-bhopal-jobs-2026-apply-online-for-project-technical-support-iii-posts/45450"
+        }
+      ]
     },
     {
       "id": "7861cd8acbbf9cb4ce60959813a5ee94",
@@ -11616,6 +11612,52 @@
       "published_date": null,
       "original_source_url": "https://allgovernmentjobs.in/bmrcl-recruitment-2026-apply-online-for-general-manager-posts/45057",
       "last_verified": "2026-11-03T04:00:07.875768",
+      "status": "expired",
+      "recruitment_board": null,
+      "state": null,
+      "district": null,
+      "minimum_qualification": null,
+      "age_min": null,
+      "age_max": null,
+      "age_relaxation": null,
+      "salary": null,
+      "pay_scale": null,
+      "application_fee": null,
+      "selection_process": null,
+      "employment_type": null,
+      "official_website": null,
+      "description_summary": null,
+      "verification_status": "expired"
+    },
+    {
+      "id": "3afb3987544c4291fd0598045ea2428b",
+      "title": "AEES Notification 2026 - Apply Online for 254 TGT, PGT, Principal, Librarian and Other Posts",
+      "url": "https://allgovernmentjobs.in/aees-notification-2026-apply-online-for-254-tgt-pgt-principal-librarian-and-other-posts/45058",
+      "source": "allgovernmentjobs.in",
+      "description": "Atomic Energy Education Society (AEES) has declared the official notification for the recruitment of 254 TGT, PGT, Principal, Librarian, Primary Teacher, and Other Jobs. Candidates who have qualified in any degree, post-graduation, B.E./ B.Tech, M.E/ M.Tech, B.Sc., M.Sc., B.Ed., MCA, or 12th can use this chance and apply for the AEES Notification 2026 . Here, we have included more information about the age limit, selection process, salary structure, education details, application fee, and how...",
+      "pdf_link": null,
+      "important_dates": {
+        "last_date": "22-11-2026",
+        "found_date": "02-11-2026"
+      },
+      "category": "Teaching",
+      "skills": [
+        "Data Entry"
+      ],
+      "scraped_at": "2026-11-03T04:00:07.873197",
+      "links": [],
+      "organization": null,
+      "department": null,
+      "location": null,
+      "vacancies": null,
+      "advertisement_no": null,
+      "qualification": null,
+      "age_limit": null,
+      "official_notification_url": null,
+      "official_application_url": null,
+      "published_date": null,
+      "original_source_url": "https://allgovernmentjobs.in/aees-notification-2026-apply-online-for-254-tgt-pgt-principal-librarian-and-other-posts/45058",
+      "last_verified": "2026-11-03T04:00:07.873197",
       "status": "expired",
       "recruitment_board": null,
       "state": null,
