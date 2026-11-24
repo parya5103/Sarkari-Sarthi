@@ -16,4 +16,4 @@ pdfplumber==0.11.10
 python-telegram-bot==22.8
 
 # Testing
-pytest==7.4.3
+pytest==9.2.0
