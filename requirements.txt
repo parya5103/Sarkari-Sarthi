@@ -5,7 +5,7 @@
 
 # Core scraping & parsing
 requests==2.31.0
-beautifulsoup4==4.12.2
+beautifulsoup4==4.15.0
 lxml==4.9.3
 
 # PDF parsing (official notification PDFs)
