@@ -11,6 +11,7 @@ from official_sources import (
     parse_employment_news_html, fetch_employment_news_jobs,
     robots_allows_from_text, robots_allows, _robots_url,
 )
+from source_metrics import SourceMetrics
 
 FIXTURE = os.path.join(os.path.dirname(__file__), 'fixtures', 'employmentnews_alljobs.html')
 
@@ -148,3 +149,58 @@ class TestRobotsCompliance:
             return None
 
         assert fetch_employment_news_jobs(fetch=fake_fetch) == []
+
+    def test_metrics_record_success_for_parsed_official_rows(self):
+        metrics = SourceMetrics()
+
+        def fake_fetch(url, timeout):
+            if url.endswith('/robots.txt'):
+                return ALLOW_ALL
+            return load_fixture_bytes()
+
+        jobs = fetch_employment_news_jobs(fetch=fake_fetch, metrics=metrics)
+        entry = metrics.sources[SOURCE_NAME]
+        assert len(jobs) == 5
+        assert entry['status'] == 'ok'
+        assert entry['permission'] == 'allowed'
+        assert entry['discovered'] == 5
+
+    def test_metrics_record_robots_disallow_distinctly(self):
+        metrics = SourceMetrics()
+
+        def fake_fetch(url, timeout):
+            return DISALLOW_ALL
+
+        assert fetch_employment_news_jobs(fetch=fake_fetch, metrics=metrics) == []
+        entry = metrics.sources[SOURCE_NAME]
+        assert entry['status'] == 'robots-disallowed'
+        assert entry['permission'] == 'disallowed'
+
+    def test_metrics_record_listing_timeout_as_fetch_failed_not_no_jobs(self):
+        metrics = SourceMetrics()
+        calls = []
+
+        def fake_fetch(url, timeout):
+            calls.append(url)
+            if url.endswith('/robots.txt'):
+                raise TimeoutError('connection timed out')
+            raise TimeoutError('listing connection timed out')
+
+        assert fetch_employment_news_jobs(fetch=fake_fetch, metrics=metrics) == []
+        entry = metrics.sources[SOURCE_NAME]
+        assert entry['status'] == 'fetch-failed'
+        assert entry['permission'] == 'unverified'
+        assert 'timed out' in entry['notes']
+
+    def test_metrics_record_unparseable_listing_as_parse_error(self):
+        metrics = SourceMetrics()
+
+        def fake_fetch(url, timeout):
+            if url.endswith('/robots.txt'):
+                return ALLOW_ALL
+            return b'<html><body>layout changed</body></html>'
+
+        assert fetch_employment_news_jobs(fetch=fake_fetch, metrics=metrics) == []
+        entry = metrics.sources[SOURCE_NAME]
+        assert entry['status'] == 'parse-error'
+        assert entry['parser_errors'] == 1

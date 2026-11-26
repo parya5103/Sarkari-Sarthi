@@ -70,26 +70,32 @@ def robots_allows_from_text(text, url, user_agent):
     return rp.can_fetch(user_agent, url)
 
 
-def robots_allows(url, user_agent, fetch=None):
-    """True when robots.txt permits fetching url with user_agent.
+def robots_access(url, user_agent, fetch=None):
+    """Return (allowed, permission) for a URL's robots policy.
 
-    A fetchable robots.txt that disallows -> hard stop (False).
-    robots.txt missing/404 (raises) or unreachable -> allowed, but the
-    caller still only makes one polite identified request.
+    A published Disallow is a hard stop. Missing/unreachable robots.txt
+    retains the project's one-polite-request fallback but is labelled
+    unverified so source reports do not claim confirmed permission.
     """
     fetch = fetch or _default_fetch
     robots_url = _robots_url(url)
     if not robots_url:
-        return False
+        return False, 'unverified'
     try:
         text = fetch(robots_url, 10)
     except Exception as e:
         logger.warning('robots.txt unreachable at %s (%s); proceeding with a single polite request', robots_url, e)
-        return True
+        return True, 'unverified'
     if not robots_allows_from_text(text, url, user_agent):
         logger.warning('robots.txt at %s disallows %s; source skipped', robots_url, url)
-        return False
-    return True
+        return False, 'disallowed'
+    return True, 'allowed'
+
+
+def robots_allows(url, user_agent, fetch=None):
+    """Boolean compatibility wrapper for the robots access check."""
+    allowed, _permission = robots_access(url, user_agent, fetch=fetch)
+    return allowed
 
 
 def _convert_issued_date(raw):
@@ -187,26 +193,48 @@ def parse_employment_news_html(html_bytes, now=None):
     return jobs
 
 
-def fetch_employment_news_jobs(fetch=None, now=None):
+def fetch_employment_news_jobs(fetch=None, now=None, metrics=None):
     """Robots-checked, polite fetch of the Employment News listing.
 
-    Returns a list of complete job records, or [] on any failure
-    (robots disallow, network error, layout change). Never raises and
-    never substitutes demo data.
+    Returns a list of complete job records, or [] on any failure. When
+    metrics is supplied, network failures, robots denial and parse failures
+    are recorded separately; an unavailable feed is never reported as empty.
     """
     fetch = fetch or _default_fetch
-    if not robots_allows(LISTING_URL, USER_AGENT, fetch):
+    allowed, permission = robots_access(LISTING_URL, USER_AGENT, fetch)
+    if not allowed:
+        if metrics is not None:
+            metrics.record(SOURCE_NAME, status='robots-disallowed',
+                           permission='disallowed', discovered=0,
+                           notes='robots.txt disallows the official listing')
         return []
     try:
         html = fetch(LISTING_URL, 30)
     except Exception as e:
         logger.warning('Employment News listing fetch failed: %s', e)
+        if metrics is not None:
+            metrics.record(SOURCE_NAME, status='fetch-failed',
+                           permission=permission, discovered=0,
+                           notes=('listing request failed: ' + str(e))[:180])
         return []
     if not html:
+        if metrics is not None:
+            metrics.record(SOURCE_NAME, status='fetch-failed',
+                           permission=permission, discovered=0,
+                           notes='listing request returned an empty response')
         return []
     jobs = parse_employment_news_html(html, now=now)
     if jobs:
         logger.info('Employment News: %d rows parsed', len(jobs))
+        if metrics is not None:
+            metrics.record(SOURCE_NAME, status='ok', permission=permission,
+                           discovered=len(jobs),
+                           notes='official Employment News rows parsed')
     else:
         logger.warning('Employment News listing yielded no parseable rows (layout change or empty listing)')
+        if metrics is not None:
+            metrics.record(SOURCE_NAME, status='parse-error',
+                           permission=permission, discovered=0,
+                           parser_errors=1,
+                           notes='listing fetched but no parseable rows; check for an empty feed or markup change')
     return jobs
