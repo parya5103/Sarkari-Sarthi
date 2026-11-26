@@ -54,3 +54,10 @@ def test_verification_guide_is_in_the_sitemap_with_current_lastmod():
     sitemap = (ROOT / "sitemap.xml").read_text(encoding="utf-8")
     assert "<loc>https://gogocompany.in/sarkari-sarthi/verification-guide.html</loc>" in sitemap
     assert "<lastmod>2026-11-26</lastmod>" in sitemap
+
+def test_sarkari_homepage_heading_hierarchy_does_not_skip_levels():
+    html = (ROOT / "index.html").read_text(encoding="utf-8")
+    levels = [int(level) for level in re.findall(r"<h([1-6])\\b[^>]*>", html, re.I)]
+    assert levels, "homepage should contain semantic headings"
+    for previous, current in zip(levels, levels[1:]):
+        assert current <= previous + 1, f"heading hierarchy skips from H{previous} to H{current}"
