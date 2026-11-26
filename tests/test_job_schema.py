@@ -137,6 +137,38 @@ class TestVerificationStatus:
         # Employment News style: data from employmentnews.gov.in itself.
         assert compute_verification_status(base_job(), TODAY) == 'official_verified'
 
+    def test_recognized_non_gov_recruitment_authorities_are_official_domains(self):
+        urls = [
+            'https://www.ibps.in/recruitment/',
+            'https://ibpsreg.ibps.in/ibpsvpspt26/',
+            'https://nta.ac.in/',
+            'https://opportunities.rbi.org.in/Scripts/Vacancies.aspx',
+            'https://sbi.bank.in/en/web/careers/current-openings',
+            'https://bank.sbi/careers',
+            'https://www.sbi.co.in/careers'
+        ]
+        for url in urls:
+            assert is_official_url(url), url
+
+    def test_lookalike_domains_do_not_pass_official_domain_allowlist(self):
+        urls = [
+            'https://fakeibps.in/',
+            'https://nta-ac.in.com/',
+            'https://rbi.org.in.attacker.example/',
+            'https://sbi.bank.in.attacker.example/'
+        ]
+        for url in urls:
+            assert not is_official_url(url), url
+
+    def test_ibps_and_nta_source_domains_can_be_official(self):
+        for domain in ('https://www.ibps.in/', 'https://nta.ac.in/'):
+            job = base_job()
+            job['source'] = domain
+            job['url'] = domain
+            job['official_notification_url'] = None
+            job['official_application_url'] = None
+            assert compute_verification_status(job, TODAY) == 'official_verified'
+
     def test_non_government_notification_url_is_not_official_verified(self):
         job = private_job()
         job['official_notification_url'] = 'https://example.com/pretend-official-notice.pdf'
