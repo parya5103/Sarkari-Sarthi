@@ -46,6 +46,8 @@ DATE_FORMATS = ('%d-%m-%Y', '%d/%m/%Y', '%Y-%m-%d', '%d %b %Y', '%d %B %Y')
 
 # Indian government domains: data from these sources is official.
 OFFICIAL_DOMAIN_SUFFIXES = ('.gov.in', '.nic.in')
+# Explicitly verified recruiting authorities whose official portals use other TLDs.
+OFFICIAL_DOMAIN_ROOTS = ('ibps.in', 'nta.ac.in', 'rbi.org.in', 'sbi.bank.in', 'sbi.co.in', 'bank.sbi')
 
 OPTIONAL_TEXT_FIELDS = (
     'organization', 'department', 'recruitment_board', 'location',
@@ -115,17 +117,26 @@ def _host_of(url):
     if '://' not in candidate:
         candidate = 'http://' + candidate
     try:
-        return (urlparse(candidate).netloc or '').lower()
+        return (urlparse(candidate).hostname or '').lower()
     except ValueError:
         return ''
 
 
+def _is_official_host(host):
+    """Match government suffixes or an explicitly verified recruiting authority."""
+    host = (host or '').lower().rstrip('.')
+    if not host:
+        return False
+    if host.endswith(OFFICIAL_DOMAIN_SUFFIXES):
+        return True
+    return any(host == domain or host.endswith('.' + domain) for domain in OFFICIAL_DOMAIN_ROOTS)
+
+
 def is_official_url(url):
-    """True when the URL is http(s) AND points to an official domain."""
+    """True when an HTTP(S) URL belongs to a recognized official authority."""
     if not validate_http_url(url):
         return False
-    host = _host_of(url)
-    return bool(host) and host.endswith(OFFICIAL_DOMAIN_SUFFIXES)
+    return _is_official_host(_host_of(url))
 
 
 def validate_http_url(url):
@@ -147,7 +158,7 @@ def _source_is_official(job):
         if not isinstance(value, str):
             continue
         host = _host_of(value) if '://' in value else value.strip().lower()
-        if host and host.endswith(OFFICIAL_DOMAIN_SUFFIXES):
+        if _is_official_host(host):
             return True
     return False
 
