@@ -137,6 +137,16 @@ class TestVerificationStatus:
         # Employment News style: data from employmentnews.gov.in itself.
         assert compute_verification_status(base_job(), TODAY) == 'official_verified'
 
+    def test_non_government_notification_url_is_not_official_verified(self):
+        job = private_job()
+        job['official_notification_url'] = 'https://example.com/pretend-official-notice.pdf'
+        assert compute_verification_status(job, TODAY) == 'needs_review'
+
+    def test_non_government_application_url_is_not_official_verified(self):
+        job = private_job()
+        job['official_application_url'] = 'https://example.com/apply'
+        assert compute_verification_status(job, TODAY) == 'needs_review'
+
     def test_private_only_is_secondary_source(self):
         assert compute_verification_status(private_job(), TODAY) == 'secondary_source_only'
 
