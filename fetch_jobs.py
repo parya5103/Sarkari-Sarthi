@@ -113,14 +113,7 @@ def main(dry_run=False):
     # Official source: Employment News rows arrive already complete with
     # verified listing data. They must NOT be re-fetched through
     # process_job_content, so they are kept in a separate list.
-    official_jobs = fetch_employment_news_jobs()
-    metrics.record(
-        OFFICIAL_SOURCE_NAME,
-        status='ok' if official_jobs else 'no-jobs',
-        permission='allowed',
-        discovered=len(official_jobs),
-        notes='official adapter; robots-checked, honest user-agent',
-    )
+    official_jobs = fetch_employment_news_jobs(metrics=metrics)
     all_scraped_jobs.extend(official_jobs)
 
     metrics.note_pipeline_totals(raw_candidates=len(all_scraped_jobs))
