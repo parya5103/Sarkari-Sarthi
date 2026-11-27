@@ -424,7 +424,7 @@ def _write_sitemap(jobs, out_root='.'):
     try:
         with open(guide_path, encoding='utf-8') as guide_file:
             guide_html = guide_file.read()
-        updated_match = re.search(r'\\bUpdated\\s+(\\d{1,2}\\s+[A-Za-z]+\\s+\\d{4})\\b', guide_html, re.I)
+        updated_match = re.search(r'\bUpdated\s+(\d{1,2}\s+[A-Za-z]+\s+\d{4})\b', guide_html, re.I)
         if updated_match:
             try:
                 guide_lastmod = datetime.strptime(updated_match.group(1), '%d %B %Y').date().isoformat()
