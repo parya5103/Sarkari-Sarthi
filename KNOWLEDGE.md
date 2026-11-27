@@ -78,11 +78,11 @@ source-permission table and CI gotchas. This file is the audited summary; keep b
 
 ## Cross-repository dependencies
 
-- parya5103/gogo-website: sync-products.yml publishes the /sarkari-sarthi/ path daily
-  (06:15 IST cron or manual "Sync product apps"). VERIFIED 2026-11-24: the sync currently
-  checks out parya5103/sarkarisarthi @gh-pages (a separate lowercase repository) as the
-  published-site source, NOT this repo. Anything this repo wants visible on gogocompany.in
-  must be confirmed to exist in the source the sync actually uses.
+- parya5103/gogo-website: sync-products.yml publishes the /sarkari-sarthi/ path from
+  this same repository's `gh-pages` branch (daily 06:15 IST cron or manual "Sync product apps").
+  Verified 2026-11-27: source is `parya5103/Sarkari-Sarthi@gh-pages`, not `main`.
+  Main-branch changes reach gogocompany.in only after the daily fetch/deploy workflow
+  successfully publishes the updated gh-pages branch and the central sync succeeds.
 - parya5103/gogo-central-backend: notification registration/sends for opt-in users.
 
 ## Known documentation debt (intentionally not fixed here without approval)
@@ -110,4 +110,4 @@ source-permission table and CI gotchas. This file is the audited summary; keep b
 - Dependency maintenance merged on 2026-11-27: `actions/setup-node@v7.1.0`, `ossf/scorecard-action@v2.6.0`, `peaceiris/actions-gh-pages@v4.1.0`, `pdfplumber==0.11.11`, `jest==30.5.2`, `requests==2.34.2`, `lxml==6.1.3` and `PyMuPDF==2.1`. `jest-environment-jsdom` remains at 29.7.0 because 30.5.2 caused `TypeError: Cannot redefine property: location` in `tests/test_script.test.js`.
 - CodeQL init and analyze are updated together to the same pinned v4.39.4 action in the current maintenance PR; do not split these action versions.
 - The CSS interface-refresh rules were already present in `style.css` in compact form; do not append a duplicate block.
-- Deployment-source caution: the GoGo central sync configuration has previously checked out the separate `parya5103/sarkarisarthi` repository's `gh-pages` branch, not this hyphenated `Sarkari-Sarthi` repository's `main`. Verify the configured source before claiming a change here is live on `gogocompany.in`.
+- Deployment-source caution: the GoGo central sync configuration checks out `parya5103/Sarkari-Sarthi@gh-pages` from this same repository. Verify both the main-to-gh-pages deployment and the central sync before claiming a change is live on `gogocompany.in`.
