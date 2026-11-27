@@ -38,6 +38,13 @@
 
 html {
     scroll-behavior: smooth;
+    /* The closed mobile drawer is translated off-canvas. Clip that hidden
+       overflow at the viewport so phones never gain horizontal scrolling. */
+    overflow-x: clip;
+}
+
+@supports not (overflow-x: clip) {
+    html { overflow-x: hidden; }
 }
 
 body {
