@@ -113,3 +113,12 @@ source-permission table and CI gotchas. This file is the audited summary; keep b
 - Deployment-source caution: the GoGo central sync configuration checks out `parya5103/Sarkari-Sarthi@gh-pages` from this same repository. Verify both the main-to-gh-pages deployment and the central sync before claiming a change is live on `gogocompany.in`.
 
 - Post-merge deployment verified: Daily Job Fetch and Deploy run `45952689932` passed tests, fetched/updated jobs, deployed to GitHub Pages and passed the live HTTP health check. The automation-generated main commit is `41b50e623bd0fcfc6fdfb63a52868c7f49ab57cc`; the verification-guide sitemap `lastmod` remained `2026-11-26` after the daily regeneration.
+
+
+## Official Madhya Pradesh recruitment directory (2026-11-28)
+
+- Added `mp-government-jobs.html`, a source-first informational directory for MPESB, MPPSC, the High Court of Madhya Pradesh, MPOnline, NCS, Employment News and selected central recruitment authorities. It is explicitly not a live vacancy list and makes no claim that a listed recruitment is open.
+- Added the page to the sitemap only when the file exists. The sitemap reads its visible `Updated DD Month YYYY` line for `lastmod`; the regression test verifies the URL and date.
+- The page uses CollectionPage/ItemList metadata only; it does not emit JobPosting structured data. Existing official-verification and per-job indexation gates remain unchanged.
+- Current source manifest checked on 2026-11-28 (last_updated `2026-11-27T18:28:43.767748`): 324 records, 281 active and 43 expired. Verification labels: 238 secondary_source_only, 42 needs_review, 1 official_verified and 43 expired. Sources: 310 allgovernmentjobs.in and 14 Employment News records. These counts are not a claim that all active listings are official or current.
+- The 2026-11-27 source report records an Employment News timeout. The official All Jobs page's indexed snapshot showed last dates in Aug/Sep 2026, so never infer a current open vacancy from that stale snapshot. NCS pages are dynamic and the government-vacancies page returned a 502 during direct retrieval; no NCS scraper was added. Verify robots.txt and a stable, permitted data endpoint before automating either source.
