@@ -104,10 +104,12 @@ source-permission table and CI gotchas. This file is the audited summary; keep b
 
 ## 2026-11-27 verified maintenance and inventory snapshot
 
-- Latest checked `jobs/job_manifest.json` snapshot (last_updated `2026-11-26T16:56:28`): 306 total records, 266 active and 40 expired. Active category counts: General 128, Medical 59, Administrative 30, Engineering 31, Teaching 9, Banking 3, Defence 2, SSC 1, IT 1, Railway 1 and UPSC 1. These are manifest records, not a claim that every listing is officially verified.
+- Latest checked `jobs/job_manifest.json` snapshot (last_updated `2026-11-27T06:35:18`): 315 total records, 272 active and 43 expired. Active category counts: General 133, Medical 61, Engineering 31, Administrative 29, Teaching 9, Banking 3, Defence 2, SSC 1, IT 1, Railway 1 and UPSC 1. These are manifest records, not a claim that every listing is officially verified.
 - The homepage title is `Latest Government Jobs 2026 | Sarkari Sarthi`; the homepage no longer carries a meta-keywords tag. Medical, Engineering and Administrative filters/cards are present. Keep source and verification labels accurate; the manifest includes `needs_review` and `secondary_source_only` records.
 - Verification guide page says `Updated 26 November 2026`. Its sitemap `lastmod` is aligned to `2026-11-26`. The sitemap generator now reads the visible `Updated DD Month YYYY` date from `verification-guide.html`; keep the page date format and regression test in sync so a daily fetch cannot revert it to an obsolete hard-coded date.
 - Dependency maintenance merged on 2026-11-27: `actions/setup-node@v7.1.0`, `ossf/scorecard-action@v2.6.0`, `peaceiris/actions-gh-pages@v4.1.0`, `pdfplumber==0.11.11`, `jest==30.5.2`, `requests==2.34.2`, `lxml==6.1.3` and `PyMuPDF==2.1`. `jest-environment-jsdom` remains at 29.7.0 because 30.5.2 caused `TypeError: Cannot redefine property: location` in `tests/test_script.test.js`.
-- CodeQL init and analyze are updated together to the same pinned v4.39.4 action in the current maintenance PR; do not split these action versions.
+- CodeQL init and analyze were updated together to the same pinned v4.39.4 action in PR #249 (merged 2026-11-27); do not split these action versions.
 - The CSS interface-refresh rules were already present in `style.css` in compact form; do not append a duplicate block.
 - Deployment-source caution: the GoGo central sync configuration checks out `parya5103/Sarkari-Sarthi@gh-pages` from this same repository. Verify both the main-to-gh-pages deployment and the central sync before claiming a change is live on `gogocompany.in`.
+
+- Post-merge deployment verified: Daily Job Fetch and Deploy run `45952689932` passed tests, fetched/updated jobs, deployed to GitHub Pages and passed the live HTTP health check. The automation-generated main commit is `41b50e623bd0fcfc6fdfb63a52868c7f49ab57cc`; the verification-guide sitemap `lastmod` remained `2026-11-26` after the daily regeneration.
