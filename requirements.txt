@@ -4,12 +4,12 @@
 # ...) were removed: they never ran but slowed every deploy by ~20 min.
 
 # Core scraping & parsing
-requests==2.31.0
+requests==2.34.2
 beautifulsoup4==4.15.0
-lxml==4.9.3
+lxml==6.1.3
 
 # PDF parsing (official notification PDFs)
-PyMuPDF==1.23.8
+PyMuPDF==2.1
 pdfplumber==0.11.11
 
 # Telegram notifications
