@@ -61,3 +61,15 @@ def test_sarkari_homepage_heading_hierarchy_does_not_skip_levels():
     assert levels, "homepage should contain semantic headings"
     for previous, current in zip(levels, levels[1:]):
         assert current <= previous + 1, f"heading hierarchy skips from H{previous} to H{current}"
+
+
+def test_sitemap_generator_uses_verification_guide_updated_date(tmp_path):
+    from detail_pages import _write_sitemap
+
+    (tmp_path / "verification-guide.html").write_text(
+        "<p>Updated 3 December 2026</p>", encoding="utf-8"
+    )
+    _write_sitemap([], out_root=str(tmp_path))
+
+    sitemap = (tmp_path / "sitemap.xml").read_text(encoding="utf-8")
+    assert "<lastmod>2026-12-03</lastmod>" in sitemap
