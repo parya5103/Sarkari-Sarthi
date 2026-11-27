@@ -27,6 +27,7 @@ import html
 import json
 import logging
 import os
+import re
 from datetime import datetime
 
 from job_schema import parse_date
@@ -418,7 +419,20 @@ def _write_sitemap(jobs, out_root='.'):
         return '<url><loc>' + loc + '</loc></url>'
 
     lines.append(url_entry(BASE_URL + '/', ''))
-    lines.append(url_entry(BASE_URL + '/verification-guide.html', '2026-11-20'))
+    guide_lastmod = ''
+    guide_path = os.path.join(out_root, 'verification-guide.html')
+    try:
+        with open(guide_path, encoding='utf-8') as guide_file:
+            guide_html = guide_file.read()
+        updated_match = re.search(r'\\bUpdated\\s+(\\d{1,2}\\s+[A-Za-z]+\\s+\\d{4})\\b', guide_html, re.I)
+        if updated_match:
+            try:
+                guide_lastmod = datetime.strptime(updated_match.group(1), '%d %B %Y').date().isoformat()
+            except ValueError:
+                logger.warning('Could not parse verification guide Updated date')
+    except OSError:
+        logger.warning('Verification guide missing; omitting its sitemap lastmod')
+    lines.append(url_entry(BASE_URL + '/verification-guide.html', guide_lastmod))
     for job in jobs:
         # Only substantial records with an official source and enough
         # concrete recruitment facts belong in search and the sitemap.
