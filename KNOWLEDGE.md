@@ -100,3 +100,14 @@ source-permission table and CI gotchas. This file is the audited summary; keep b
   portal keeps working under the /sarkari-sarthi/ subpath.
 - Work on feature branches + PRs; never merge without owner approval; update AGENT_NOTES.md
   and this file after every significant change; never commit secrets.
+
+
+## 2026-11-27 verified maintenance and inventory snapshot
+
+- Latest checked `jobs/job_manifest.json` snapshot (last_updated `2026-11-26T16:56:28`): 306 total records, 266 active and 40 expired. Active category counts: General 128, Medical 59, Administrative 30, Engineering 31, Teaching 9, Banking 3, Defence 2, SSC 1, IT 1, Railway 1 and UPSC 1. These are manifest records, not a claim that every listing is officially verified.
+- The homepage title is `Latest Government Jobs 2026 | Sarkari Sarthi`; the homepage no longer carries a meta-keywords tag. Medical, Engineering and Administrative filters/cards are present. Keep source and verification labels accurate; the manifest includes `needs_review` and `secondary_source_only` records.
+- Verification guide page says `Updated 26 November 2026`. Its sitemap `lastmod` is aligned to `2026-11-26`. The sitemap generator now reads the visible `Updated DD Month YYYY` date from `verification-guide.html`; keep the page date format and regression test in sync so a daily fetch cannot revert it to an obsolete hard-coded date.
+- Dependency maintenance merged on 2026-11-27: `actions/setup-node@v7.1.0`, `ossf/scorecard-action@v2.6.0`, `peaceiris/actions-gh-pages@v4.1.0`, `pdfplumber==0.11.11`, `jest==30.5.2`, `requests==2.34.2`, `lxml==6.1.3` and `PyMuPDF==2.1`. `jest-environment-jsdom` remains at 29.7.0 because 30.5.2 caused `TypeError: Cannot redefine property: location` in `tests/test_script.test.js`.
+- CodeQL init and analyze are updated together to the same pinned v4.39.4 action in the current maintenance PR; do not split these action versions.
+- The CSS interface-refresh rules were already present in `style.css` in compact form; do not append a duplicate block.
+- Deployment-source caution: the GoGo central sync configuration has previously checked out the separate `parya5103/sarkarisarthi` repository's `gh-pages` branch, not this hyphenated `Sarkari-Sarthi` repository's `main`. Verify the configured source before claiming a change here is live on `gogocompany.in`.
