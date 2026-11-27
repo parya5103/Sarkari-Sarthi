@@ -147,3 +147,12 @@ honest product User-Agent, no CAPTCHA/login/anti-bot bypass.
   detail_pages.py output) are Auto-ads-ready (Anchor/Vignette/In-page/
   Multiplex are dashboard-only formats; no page code needed).
 - Do NOT re-introduce browser-language/timezone consent checks.
+
+
+## MP official recruitment directory (2026-11-28)
+
+- Added `mp-government-jobs.html` as a source-first directory for MPESB, MPPSC, MP High Court, MPOnline, NCS, Employment News and selected central authorities. It is an informational directory, not a live vacancy feed.
+- `detail_pages.py` now includes the MP directory in the sitemap only when the static page exists and derives its `lastmod` from the visible `Updated DD Month YYYY` text. The verification guide remains included as before.
+- Added a regression test that writes a dated guide fixture and checks sitemap URL + lastmod. Keep the page date and test aligned when content is materially reviewed.
+- Existing JobPosting JSON-LD and per-job sitemap evidence gates are unchanged. Never relax them to inflate indexed URL counts.
+- Source audit: 324 manifest records (281 active, 43 expired), with 238 secondary-source-only, 42 needs-review, and 1 official-verified. Employment News timed out in the latest source report; NCS is dynamic and was not added as a scraper.

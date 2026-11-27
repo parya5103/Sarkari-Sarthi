@@ -419,20 +419,33 @@ def _write_sitemap(jobs, out_root='.'):
         return '<url><loc>' + loc + '</loc></url>'
 
     lines.append(url_entry(BASE_URL + '/', ''))
-    guide_lastmod = ''
-    guide_path = os.path.join(out_root, 'verification-guide.html')
-    try:
-        with open(guide_path, encoding='utf-8') as guide_file:
-            guide_html = guide_file.read()
-        updated_match = re.search(r'\bUpdated\s+(\d{1,2}\s+[A-Za-z]+\s+\d{4})\b', guide_html, re.I)
-        if updated_match:
-            try:
-                guide_lastmod = datetime.strptime(updated_match.group(1), '%d %B %Y').date().isoformat()
-            except ValueError:
-                logger.warning('Could not parse verification guide Updated date')
-    except OSError:
-        logger.warning('Verification guide missing; omitting its sitemap lastmod')
-    lines.append(url_entry(BASE_URL + '/verification-guide.html', guide_lastmod))
+    static_guides = (
+        ('verification-guide.html', True),
+        ('mp-government-jobs.html', False),
+    )
+    for filename, include_when_missing in static_guides:
+        guide_path = os.path.join(out_root, filename)
+        guide_lastmod = ''
+        try:
+            with open(guide_path, encoding='utf-8') as guide_file:
+                guide_html = guide_file.read()
+            updated_match = re.search(
+                r'\bUpdated\s+(\d{1,2}\s+[A-Za-z]+\s+\d{4})\b',
+                guide_html,
+                re.I,
+            )
+            if updated_match:
+                try:
+                    guide_lastmod = datetime.strptime(
+                        updated_match.group(1), '%d %B %Y'
+                    ).date().isoformat()
+                except ValueError:
+                    logger.warning('Could not parse %s Updated date', filename)
+            lines.append(url_entry(BASE_URL + '/' + filename, guide_lastmod))
+        except OSError:
+            if include_when_missing:
+                logger.warning('Verification guide missing; omitting its sitemap lastmod')
+                lines.append(url_entry(BASE_URL + '/' + filename, ''))
     for job in jobs:
         # Only substantial records with an official source and enough
         # concrete recruitment facts belong in search and the sitemap.
