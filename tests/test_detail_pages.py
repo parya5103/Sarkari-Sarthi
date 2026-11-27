@@ -275,3 +275,15 @@ class TestVerificationChip:
     def test_missing_status_gets_no_chip(self):
         page = render_detail_page(sample_job(verification_status=None), [])
         assert 'job-verification' not in page
+
+
+class TestStaticGuideSitemap:
+    def test_sitemap_includes_mp_official_portals_directory_and_visible_lastmod(self, tmp_path):
+        guide = tmp_path / 'mp-government-jobs.html'
+        guide.write_text('<p>Updated 28 November 2026</p>', encoding='utf-8')
+
+        write_detail_pages([], out_root=str(tmp_path))
+
+        sitemap = (tmp_path / SITEMAP_FILE).read_text(encoding='utf-8')
+        assert BASE_URL + '/mp-government-jobs.html' in sitemap
+        assert '<lastmod>2026-11-28</lastmod>' in sitemap
